@@ -1,0 +1,826 @@
+{
+ "stary-rynek": {
+  "lat": 52.408289,
+  "lon": 16.933598,
+  "q": "Stary Rynek, 61-772 Poznań, Poznań",
+  "name": "Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-772, Polska"
+ },
+ "brama-poznania": {
+  "lat": 52.412255,
+  "lon": 16.951657,
+  "q": "Brama Poznania ICHOT, Poznań",
+  "name": "Brama Poznania ICHOT, 2, Gdańska, Śródka, Zagórze, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, województwo wielkopol"
+ },
+ "zamek-krolewski": {
+  "lat": 52.409156,
+  "lon": 16.931034,
+  "q": "Zamek Królewski, Poznań",
+  "name": "Zamek Królewski, Góra Przemysła, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-768, Polska"
+ },
+ "zamek-cesarski": {
+  "lat": 52.408034,
+  "lon": 16.918695,
+  "q": "Zamek Cesarski, Poznań",
+  "name": "Zamek Cesarski, 80/82, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-809, Polska"
+ },
+ "cytadela": {
+  "lat": 52.42155,
+  "lon": 16.934502,
+  "q": "Cytadela, Poznań",
+  "name": "Park Cytadela, Poznań, województwo wielkopolskie, 61-663, Polska"
+ },
+ "wzgorze-sw-wojciecha": {
+  "lat": 52.413722,
+  "lon": 16.932182,
+  "q": "Wzgórze św. Wojciecha, Poznań",
+  "name": "Wzgórze Świętego Wojciecha, Stare Miasto, Poznań, województwo wielkopolskie, 61-748, Polska"
+ },
+ "biblioteka-raczynskich": {
+  "lat": 52.408439,
+  "lon": 16.928646,
+  "q": "Biblioteka Raczyńskich, Poznań",
+  "name": "Biblioteka Raczyńskich, 19, Plac Wolności, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-739"
+ },
+ "kolegium-jezuickie": {
+  "lat": 52.406031,
+  "lon": 16.935665,
+  "q": "pl. Kolegiacki 17, Poznań",
+  "name": "Urząd Miasta Poznania, 17, Plac Kolegiacki, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-84"
+ },
+ "palac-dzialynskich": {
+  "lat": 52.408509,
+  "lon": 16.932268,
+  "q": "Pałac Działyńskich, Poznań",
+  "name": "Pałac Działyńskich, 78, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-768, Pols"
+ },
+ "bazar": {
+  "lat": 52.407652,
+  "lon": 16.929951,
+  "q": "Hotel Bazar, Poznań",
+  "name": "Hotel Bazar, 8, Ignacego Paderewskiego, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-770, P"
+ },
+ "fort-iva": {
+  "lat": 52.43682,
+  "lon": 16.956765,
+  "q": "Fort IVa, Poznań",
+  "name": "Fort IVa, Zdobywców Monte Cassino, Wilczy Młyn, Naramowice, Poznań, województwo wielkopolskie, 61-695, Polska"
+ },
+ "fort-va": {
+  "lat": 52.4442,
+  "lon": 16.916784,
+  "q": "Fort Va Bonin, Poznań",
+  "name": "Fort Va Bonin, Lechicka, Piątkowo, Poznań, województwo wielkopolskie, 61-693, Polska"
+ },
+ "pomnik-koziolkow": {
+  "lat": 52.406781,
+  "lon": 16.935448,
+  "q": "pl. Kolegiacki, Poznań",
+  "name": "Plac Kolegiacki, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-781, Polska"
+ },
+ "fontanna-prozerpiny": {
+  "lat": 52.408557,
+  "lon": 16.934444,
+  "q": "Fontanna Prozerpiny, Poznań",
+  "name": "Fontanna Prozerpiny, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-765, Polska"
+ },
+ "fontanna-apolla": {
+  "lat": 52.407763,
+  "lon": 16.934208,
+  "q": "Fontanna Apolla, Poznań",
+  "name": "Fontanna Apolla, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-772, Polska"
+ },
+ "fontanna-neptuna": {
+  "lat": 52.407902,
+  "lon": 16.93272,
+  "q": "Fontanna Neptuna, Poznań",
+  "name": "Fontanna Neptuna, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-772, Polska"
+ },
+ "fontanna-marsa": {
+  "lat": 52.408759,
+  "lon": 16.933002,
+  "q": "Fontanna Marsa, Poznań",
+  "name": "Fontanna Marsa, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-773, Polska"
+ },
+ "fontanna-lwow": {
+  "lat": 52.408624,
+  "lon": 16.919391,
+  "q": "Fontanna Lwów, Poznań",
+  "name": "Fontanna lwów, Dziedziniec masztalarni, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-701, Polska"
+ },
+ "pomnik-katynski": {
+  "lat": 52.408948,
+  "lon": 16.918663,
+  "q": "Pomnik Ofiar Katynia i Sybiru, Poznań",
+  "name": "Pomnik Ofiar Katynia i Sybiru, Aleksandra Fredry, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-701"
+ },
+ "pomnik-panstwa-podziemnego": {
+  "lat": 52.411668,
+  "lon": 16.918914,
+  "q": "Pomnik Polskiego Państwa Podziemnego, Poznań",
+  "name": "Pomnik Polskiego Państwa Podziemnego, Henryka Wieniawskiego, Stare Miasto, Poznań, województwo wielkopolskie, 61-713, Po"
+ },
+ "pomnik-armii-poznan": {
+  "lat": 52.415171,
+  "lon": 16.93055,
+  "q": "Pomnik Armii „Poznań”, Poznań",
+  "name": "Pomnik Armii Poznań, Księcia Józefa, Przepadek, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-747, Po"
+ },
+ "pomnik-powstancow": {
+  "lat": 52.400976,
+  "lon": 16.922252,
+  "q": "Pomnik Powstańców Wielkopolskich, Poznań",
+  "name": "Pomnik Powstańców Wielkopolskich, Królowej Jadwigi, Wierzbięcice, Wilda, Poznań, województwo wielkopolskie, 61-894, Pols"
+ },
+ "pomnik-15-pulku-ulanow": {
+  "lat": 52.408154,
+  "lon": 16.930677,
+  "q": "Pomnik 15. Pułku Ułanów Poznańskich, Poznań",
+  "name": "Pomnik 15. Pułku Ułanów Poznańskich, Ludgardy, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61"
+ },
+ "fontanna-higiei": {
+  "lat": 52.408122,
+  "lon": 16.927716,
+  "q": "pl. Wolności, Poznań",
+  "name": "Plac Wolności, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "wiedzma-z-chwaliszewa": {
+  "lat": 52.407117,
+  "lon": 16.943805,
+  "q": "Park Stare Koryto Warty, Poznań",
+  "name": "Park Stare Koryto Warty, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "fara": {
+  "lat": 52.406246,
+  "lon": 16.934051,
+  "q": "Fara Poznańska, Poznań",
+  "name": "Kościół pw. Matki Boskiej Nieustającej Pomocy i św. Marii Magdaleny, 1a, Gołębia, Garbary, Chwaliszewo, Stare Miasto, Po"
+ },
+ "kosciol-bozego-ciala": {
+  "lat": 52.400662,
+  "lon": 16.933043,
+  "q": "Kościół Bożego Ciała, Poznań",
+  "name": "Kościół pw. Bożego Ciała, 38, Strzelecka, Rybaki, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-846, "
+ },
+ "kosciol-sw-marcina": {
+  "lat": 52.405771,
+  "lon": 16.928356,
+  "q": "Kościół św. Marcina, Poznań",
+  "name": "Kościół pw. Świętego Marcina, 15, Święty Marcin, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-803, P"
+ },
+ "kosciol-zbawiciela": {
+  "lat": 52.409085,
+  "lon": 16.920535,
+  "q": "Kościół Najświętszego Zbawiciela, Poznań",
+  "name": "Kościół Najświętszego Zbawiciela, Aleksandra Fredry, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-"
+ },
+ "kosciol-najsw-krwi": {
+  "lat": 52.409121,
+  "lon": 16.93513,
+  "q": "Kościół Najświętszej Krwi Pana Jezusa, Poznań",
+  "name": "Kościół pw. Najświętszej Krwi Pana Jezusa, 34, Żydowska, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkop"
+ },
+ "kosciol-wszystkich-swietych": {
+  "lat": 52.407294,
+  "lon": 16.939673,
+  "q": "Kościół Wszystkich Świętych, Poznań",
+  "name": "Kościół pw. Wszystkich Świętych, 1, Mostowa, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-8"
+ },
+ "kosciol-mb-bolesnej": {
+  "lat": 52.392529,
+  "lon": 16.897842,
+  "q": "Kościół Matki Boskiej Bolesnej, Poznań",
+  "name": "Kościół pw. Matki Boskiej Bolesnej, 97, Głogowska, Łazarz, Poznań, województwo wielkopolskie, 60-265, Polska"
+ },
+ "kosciol-zmartwychwstania": {
+  "lat": 52.386799,
+  "lon": 16.920645,
+  "q": "Kościół Zmartwychwstania Pańskiego, Poznań",
+  "name": "Kościół pw. Zmartwychwstania Pańskiego, 4/7, Dąbrówki, Dolna Wilda, Wilda, Poznań, województwo wielkopolskie, 61-501, Po"
+ },
+ "kosciol-maryi-krolowej": {
+  "lat": 52.411395,
+  "lon": 16.920202,
+  "q": "Kościół Maryi Królowej, Poznań",
+  "name": "Kościół pw. Najświętszej Maryi Panny Królowej Różańca Świętego, 99, Tadeusza Kościuszki, Stare Miasto, Poznań, województ"
+ },
+ "kosciol-sw-anny": {
+  "lat": 52.396767,
+  "lon": 16.898004,
+  "q": "Kościół św. Anny, Poznań",
+  "name": "Kościół pw. Świętej Anny, 43, Jana Matejki, Łazarz, Poznań, województwo wielkopolskie, 60-744, Polska"
+ },
+ "muzeum-narodowe": {
+  "lat": 52.408614,
+  "lon": 16.929918,
+  "q": "Muzeum Narodowe, Poznań",
+  "name": "Muzeum Narodowe, 9, Aleje Karola Marcinkowskiego, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie,"
+ },
+ "rogalowe-muzeum": {
+  "lat": 52.408378,
+  "lon": 16.935015,
+  "q": "Rogalowe Muzeum Poznania, Poznań",
+  "name": "Rogalowe Muzeum Poznania, 41/2, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-7"
+ },
+ "muzeum-powstania": {
+  "lat": 52.408306,
+  "lon": 16.933107,
+  "q": "Muzeum Powstania Wielkopolskiego, Poznań",
+  "name": "Odwach/ Muzeum Powstania Wielkopolskiego 1918-1919, 3, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, wojewódz"
+ },
+ "muzeum-archeologiczne": {
+  "lat": 52.407286,
+  "lon": 16.934653,
+  "q": "Muzeum Archeologiczne, Poznań",
+  "name": "Pałac Górków, 27, Wodna, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-781, Polska"
+ },
+ "muzeum-instrumentow": {
+  "lat": 52.408042,
+  "lon": 16.934738,
+  "q": "Muzeum Instrumentów Muzycznych, Poznań",
+  "name": "Muzeum Instrumentów Muzycznych, 45, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, "
+ },
+ "muzeum-kultur-swiata": {
+  "lat": 52.405554,
+  "lon": 16.940679,
+  "q": "Muzeum Kultur Świata, Poznań",
+  "name": "Muzeum Kultur Świata, 25, Grobla, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-858, Polska"
+ },
+ "muzeum-sienkiewicza": {
+  "lat": 52.408883,
+  "lon": 16.932718,
+  "q": "Muzeum Literackie Henryka Sienkiewicza, Poznań",
+  "name": "Muzeum Literackie Henryka Sienkiewicza, 84, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkop"
+ },
+ "muzeum-bambrow": {
+  "lat": 52.404966,
+  "lon": 16.9401,
+  "q": "Muzeum Bambrów Poznańskich, Poznań",
+  "name": "Muzeum Bambrów Poznańskich, 9, Mostowa, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-854, P"
+ },
+ "centrum-szyfrow-enigma": {
+  "lat": 52.407641,
+  "lon": 16.919771,
+  "q": "Centrum Szyfrów Enigma, Poznań",
+  "name": "Centrum Szyfrów Enigma, 78, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-809, Polska"
+ },
+ "fort-vii": {
+  "lat": 52.41713,
+  "lon": 16.86779,
+  "q": "Fort VII – Muzeum Martyrologii Wielkopolan, Poznań",
+  "name": "Muzeum Martyrologii Wielkopolan – Fort VII, Konstantego Skąpskiego, Ogrody, Wola, Poznań, województwo wielkopolskie, 60-"
+ },
+ "muzeum-wojskowe": {
+  "lat": 52.408212,
+  "lon": 16.933679,
+  "q": "Wielkopolskie Muzeum Wojskowe, Poznań",
+  "name": "Wielkopolskie Muzeum Wojskowe, 9, Stary Rynek, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61"
+ },
+ "muzeum-pyry": {
+  "lat": 52.409974,
+  "lon": 16.934366,
+  "q": "Poznańskie Muzeum Pyry, Poznań",
+  "name": "Poznańskie Muzeum Pyry, 18, Wroniecka, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-763, Po"
+ },
+ "muzeum-broni-pancernej": {
+  "lat": 52.427102,
+  "lon": 16.848126,
+  "q": "Muzeum Broni Pancernej, Poznań",
+  "name": "Muzeum Broni Pancernej, 4, 3. Pułku Lotniczego, Wola, Poznań, województwo wielkopolskie, 60-421, Polska"
+ },
+ "muzeum-farmacji": {
+  "lat": 52.407496,
+  "lon": 16.929706,
+  "q": "Muzeum Farmacji, Poznań",
+  "name": "Muzeum Farmacji, Ignacego Paderewskiego, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-770, "
+ },
+ "muzeum-historii-ubioru": {
+  "lat": 52.402424,
+  "lon": 16.92978,
+  "q": "Muzeum Historii Ubioru, Poznań",
+  "name": "Muzeum Historii Ubioru, 14/2, Kwiatowa, Rybaki, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-881, Po"
+ },
+ "muzeum-czekolady": {
+  "lat": 52.40647,
+  "lon": 16.93289,
+  "q": "Muzeum Czekolady, Poznań",
+  "name": "Muzeum Czekolady, Wrocławska, Rybaki, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-838, Polska"
+ },
+ "salon-nowowiejskiego": {
+  "lat": 52.416512,
+  "lon": 16.917441,
+  "q": "al. Wielkopolska 11, 60-603 Poznań, Poznań",
+  "name": "Salon Muzyczny-Muzeum Feliksa Nowowiejskiego, 11, Aleja Wielkopolska, Sołacz, Poznań, województwo wielkopolskie, 60-603,"
+ },
+ "mieszkanie-illakowiczowny": {
+  "lat": 52.409045,
+  "lon": 16.907979,
+  "q": "Mieszkanie-Pracownia Kazimiery Iłłakowiczówny, Poznań",
+  "name": "Mieszkanie-Pracownia Kazimiery Iłłakowiczówny, 4, Gajowa, Rynek Jeżycki, Jeżyce, Poznań, województwo wielkopolskie, 60-8"
+ },
+ "jezioro-maltanskie": {
+  "lat": 52.403866,
+  "lon": 16.962028,
+  "q": "Jezioro Maltańskie, Poznań",
+  "name": "Jezioro Maltańskie, Rataje, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, województwo wielkopolskie, Polska"
+ },
+ "ogrod-botaniczny": {
+  "lat": 52.420218,
+  "lon": 16.880966,
+  "q": "Ogród Botaniczny UAM, Poznań",
+  "name": "Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza, 165, Jana Henryka Dąbrowskiego, Ogrody, Poznań, województwo wielkop"
+ },
+ "palmiarnia": {
+  "lat": 52.401891,
+  "lon": 16.900752,
+  "q": "Palmiarnia Poznańska, Poznań",
+  "name": "Palmiarnia Poznańska, 18, Łazarz, Poznań, województwo wielkopolskie, 60-767, Polska"
+ },
+ "rusalka": {
+  "lat": 52.426756,
+  "lon": 16.878125,
+  "q": "Jezioro Rusałka, Poznań",
+  "name": "Jezioro Rusałka, Sołacz, Poznań, województwo wielkopolskie, Polska"
+ },
+ "wielkopolski-park-narodowy": {
+  "lat": 52.274127,
+  "lon": 16.780783,
+  "q": "Wielkopolski Park Narodowy, Poznań",
+  "name": "Wielkopolski Park Narodowy, powiat poznański, województwo wielkopolskie, Polska"
+ },
+ "bulwary-warta": {
+  "lat": 52.397001,
+  "lon": 16.937307,
+  "q": "Wartostrada, Poznań",
+  "name": "Wartostrada, Łęgi Dębińskie, Wilda, Poznań, województwo wielkopolskie, 61-871, Polska"
+ },
+ "park-solacki": {
+  "lat": 52.422474,
+  "lon": 16.902292,
+  "q": "Park Sołacki, Poznań",
+  "name": "Park Sołacki, Sołacz, Poznań, województwo wielkopolskie, Polska"
+ },
+ "jezioro-kierskie": {
+  "lat": 52.457372,
+  "lon": 16.791003,
+  "q": "Jezioro Kierskie, Poznań",
+  "name": "Jezioro Kierskie, Poznań, województwo wielkopolskie, Polska"
+ },
+ "jezioro-strzeszynskie": {
+  "lat": 52.460754,
+  "lon": 16.822413,
+  "q": "Jezioro Strzeszyńskie, Poznań",
+  "name": "Jezioro Strzeszyńskie, Strzeszyn, Poznań, województwo wielkopolskie, Polska"
+ },
+ "szachty": {
+  "lat": 52.373098,
+  "lon": 16.859692,
+  "q": "Szachty, Poznań",
+  "name": "Szachty, Fabianowo-Kotowo, Poznań, województwo wielkopolskie, 60-001, Polska"
+ },
+ "park-wilsona": {
+  "lat": 52.39701,
+  "lon": 16.901947,
+  "q": "Park Wilsona, Poznań",
+  "name": "Park Wilsona, Głogowska, Łazarz, Poznań, województwo wielkopolskie, 60-737, Polska"
+ },
+ "park-chopina": {
+  "lat": 52.40518,
+  "lon": 16.934754,
+  "q": "Park Chopina, Poznań",
+  "name": "Park Fryderyka Chopina, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-marcinkowskiego": {
+  "lat": 52.402991,
+  "lon": 16.918796,
+  "q": "Park Marcinkowskiego, Poznań",
+  "name": "Park Karola Marcinkowskiego, Stare Miasto, Poznań, województwo wielkopolskie, 61-702, Polska"
+ },
+ "park-mickiewicza": {
+  "lat": 52.408791,
+  "lon": 16.91687,
+  "q": "Park Mickiewicza, Poznań",
+  "name": "Park Adama Mickiewicza, Stare Miasto, Poznań, województwo wielkopolskie, 61-712, Polska"
+ },
+ "park-tysiaclecia": {
+  "lat": 52.406899,
+  "lon": 16.967766,
+  "q": "Park Tysiąclecia, Poznań",
+  "name": "Park Tysiąclecia, Warszawskie-Pomet-Maltańskie, Poznań, województwo wielkopolskie, Polska"
+ },
+ "stare-koryto-warty": {
+  "lat": 52.407117,
+  "lon": 16.943805,
+  "q": "Park Stare Koryto Warty, Poznań",
+  "name": "Park Stare Koryto Warty, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-szelagowski": {
+  "lat": 52.425544,
+  "lon": 16.950629,
+  "q": "Park Szelągowski, Poznań",
+  "name": "Park Szelągowski, Winogrady, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-kasprowicza": {
+  "lat": 52.396427,
+  "lon": 16.892336,
+  "q": "Park Kasprowicza, Poznań",
+  "name": "Park Jana Kasprowicza, Łazarz, Poznań, województwo wielkopolskie, 60-235, Polska"
+ },
+ "park-nad-warta": {
+  "lat": 52.389876,
+  "lon": 16.940132,
+  "q": "Park nad Wartą, Poznań",
+  "name": "Park Nad Wartą, Rataje, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-wieniawskiego": {
+  "lat": 52.410825,
+  "lon": 16.916385,
+  "q": "Park Wieniawskiego, Poznań",
+  "name": "Park Henryka Wieniawskiego, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-moniuszki": {
+  "lat": 52.413457,
+  "lon": 16.91838,
+  "q": "Park Moniuszki, Poznań",
+  "name": "Park Stanisława Moniuszki, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "ogrod-zamkowy": {
+  "lat": 52.408851,
+  "lon": 16.918619,
+  "q": "Ogród Zamkowy, Poznań",
+  "name": "Ogród Zamkowy, Stare Miasto, Poznań, województwo wielkopolskie, Polska"
+ },
+ "morasko": {
+  "lat": 52.48715,
+  "lon": 16.894265,
+  "q": "Rezerwat Meteoryt Morasko, Poznań",
+  "name": "Rezerwat Meteoryt Morasko, Morasko-Radojewo, Poznań, gmina Suchy Las, powiat poznański, województwo wielkopolskie, Polsk"
+ },
+ "lasek-marcelinski": {
+  "lat": 52.400097,
+  "lon": 16.840446,
+  "q": "Lasek Marceliński, Poznań",
+  "name": "Lasek Marceliński, Poznań, województwo wielkopolskie, Polska"
+ },
+ "nowe-zoo": {
+  "lat": 52.399745,
+  "lon": 17.005797,
+  "q": "Nowe Zoo, Poznań",
+  "name": "Nowe Zoo, Browarna, Nowy Młyn, Antoninek, Antoninek-Zieliniec-Kobylepole, Poznań, województwo wielkopolskie, 61-066, Pol"
+ },
+ "stare-zoo": {
+  "lat": 52.408195,
+  "lon": 16.904955,
+  "q": "Stare Zoo, Poznań",
+  "name": "Stare Zoo, Zwierzyniecka, Rynek Jeżycki, Jeżyce, Poznań, województwo wielkopolskie, 60-815, Polska"
+ },
+ "kolejka-maltanka": {
+  "lat": 52.40651,
+  "lon": 16.961403,
+  "q": "Kolejka Parkowa Maltanka, Poznań",
+  "name": "Kolejka Parkowa Maltanka, Komandoria, Komandoria-Pomet, Berdychowo, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, woje"
+ },
+ "termy-maltanskie": {
+  "lat": 52.405065,
+  "lon": 16.973346,
+  "q": "Termy Maltańskie, Poznań",
+  "name": "Termy Maltańskie, 1, Termalna, Komandoria-Pomet, Warszawskie-Pomet-Maltańskie, Poznań, województwo wielkopolskie, 61-028"
+ },
+ "malta-ski": {
+  "lat": 52.399271,
+  "lon": 16.979341,
+  "q": "Malta Ski, Poznań",
+  "name": "Malta Ski, Wiankowa, Chartowo, Poznań, województwo wielkopolskie, 61-255, Polska"
+ },
+ "stary-browar": {
+  "lat": 52.402442,
+  "lon": 16.925307,
+  "q": "Stary Browar, Poznań",
+  "name": "Stary Browar (Pasaż), 42, Półwiejska, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-888, Pol"
+ },
+ "jezyce": {
+  "lat": 52.413479,
+  "lon": 16.902793,
+  "q": "Jeżyce, Poznań",
+  "name": "Jeżyce, Poznań, województwo wielkopolskie, Polska"
+ },
+ "okraglak": {
+  "lat": 52.408413,
+  "lon": 16.922247,
+  "q": "Okrąglak, Poznań",
+  "name": "Okrąglak, 14, Seweryna Mielżyńskiego, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-725, Polska"
+ },
+ "ostrow-tumski": {
+  "lat": 52.411573,
+  "lon": 16.948646,
+  "q": "Bazylika Archikatedralna Świętych Apostołów Piotra i Pawła, Poznań",
+  "name": "Bazylika Archikatedralna Świętych Apostołów Piotra i Pawła, 19, Ostrów Tumski, Zagórze, Ostrów Tumski-Śródka-Zawady-Koma"
+ },
+ "genius-loci": {
+  "lat": 52.412741,
+  "lon": 16.948218,
+  "q": "Posadzego 3, Poznań",
+  "name": "3, Księdza Ignacego Posadzego, Ostrów Tumski, Zagórze, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, województwo wielk"
+ },
+ "mury-miejskie": {
+  "lat": 52.410433,
+  "lon": 16.933195,
+  "q": "Baszta Katarzynek, Poznań",
+  "name": "Baszta Katarzynek, Masztalarska, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-767, Polska"
+ },
+ "pomnik-starego-marycha": {
+  "lat": 52.40514,
+  "lon": 16.931209,
+  "q": "Stary Marych, Poznań",
+  "name": "Stary Marych, Półwiejska, Rybaki, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-850, Polska"
+ },
+ "pomnik-zygi-latarnika": {
+  "lat": 52.403711,
+  "lon": 16.942525,
+  "q": "Zyga Latarnik, Poznań",
+  "name": "Zyga Latarnik, Za Groblą, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-860, Polska"
+ },
+ "pomnik-kryptologow": {
+  "lat": 52.407496,
+  "lon": 16.919197,
+  "q": "Pomnik Kryptologów, Poznań",
+  "name": "Pomnik kryptologów, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-809, Polska"
+ },
+ "pomnik-janickiego": {
+  "lat": 52.409517,
+  "lon": 16.932818,
+  "q": "Klemens Janicki, Poznań",
+  "name": "Klemens Janicki, 23 Lutego, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-740, Polska"
+ },
+ "pomnik-cegielskiego": {
+  "lat": 52.405825,
+  "lon": 16.930904,
+  "q": "Hipolit Cegielski, Poznań",
+  "name": "Hipolit Cegielski, Święty Marcin, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-810, Polska"
+ },
+ "kosciol-sw-antoniego": {
+  "lat": 52.408278,
+  "lon": 16.931104,
+  "q": "Kościół pw. św. Antoniego Padewskiego, Poznań",
+  "name": "Kościół pw. Świętego Antoniego Padewskiego, 2, Franciszkańska, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo w"
+ },
+ "kosciol-bernardynow": {
+  "lat": 52.403565,
+  "lon": 16.937422,
+  "q": "Kościół pw. św. Franciszka Serafickiego, Poznań",
+  "name": "Kościół pw. Świętego Franciszka Serafickiego, 22, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie,"
+ },
+ "kosciol-jana-jerozolimskiego": {
+  "lat": 52.409443,
+  "lon": 16.958823,
+  "q": "Kościół pw. św. Jana Jerozolimskiego za Murami, Poznań",
+  "name": "Kościół pw. Świętego Jana Jerozolimskiego za Murami, 1a, Świętojańska, Berdychowo, Ostrów Tumski-Śródka-Zawady-Komandori"
+ },
+ "kosciol-sw-jozefa": {
+  "lat": 52.413573,
+  "lon": 16.930388,
+  "q": "Kościół pw. św. Józefa, Działowa, Poznań",
+  "name": "Bazylika Świętego Józefa Oblubieńca Najświętszej Maryi Panny, 25, Działowa, Chwaliszewo, Stare Miasto, Poznań, województ"
+ },
+ "kosciol-sw-malgorzaty": {
+  "lat": 52.411237,
+  "lon": 16.954341,
+  "q": "Kościół pw. św. Małgorzaty, Poznań",
+  "name": "Kościół pw. Świętej Małgorzaty Panny Męczennicy, 5, Rynek Śródecki, Śródka, Berdychowo, Ostrów Tumski-Śródka-Zawady-Koma"
+ },
+ "kosciol-dominikanow": {
+  "lat": 52.409867,
+  "lon": 16.93675,
+  "q": "Szewska 18, Poznań",
+  "name": "18, Szewska, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-760, Polska"
+ },
+ "kosciol-wspomozenia-wiernych": {
+  "lat": 52.410302,
+  "lon": 16.933851,
+  "q": "Wroniecka 9, Poznań",
+  "name": "Kościół pw. Najświętszej Maryi Panny Wspomożycielki Wiernych, 9, Wroniecka, Garbary, Chwaliszewo, Stare Miasto, Poznań, "
+ },
+ "kosciol-jana-vianneya": {
+  "lat": 52.426318,
+  "lon": 16.90025,
+  "q": "Podlaska 10, Poznań",
+  "name": "Plebania, 10, Podlaska, Sołacz, Poznań, województwo wielkopolskie, 60-623, Polska"
+ },
+ "fotoplastykon": {
+  "lat": 52.408202,
+  "lon": 16.925842,
+  "q": "Ratajczaka 44, Poznań",
+  "name": "Empik, 44, Franciszka Ratajczaka, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-816, Polska"
+ },
+ "akademia-lubranskiego": {
+  "lat": 52.412501,
+  "lon": 16.946947,
+  "q": "Akademia Lubrańskiego, Poznań",
+  "name": "Akademia Lubrańskiego, 1, Jana Lubrańskiego, Ostrów Tumski, Zagórze, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, woj"
+ },
+ "muzeum-iluzji": {
+  "lat": 52.407899,
+  "lon": 16.936298,
+  "q": "Woźna 19, Poznań",
+  "name": "19/20, Woźna, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-777, Polska"
+ },
+ "muzeum-komunikacji-mpk": {
+  "lat": 52.388422,
+  "lon": 16.892849,
+  "q": "Głogowska 131, Poznań",
+  "name": "131, Głogowska, Osiedle Hetmańskie HCP, Łazarz, Poznań, województwo wielkopolskie, 60-244, Polska"
+ },
+ "muzeum-prl": {
+  "lat": 52.409508,
+  "lon": 16.93482,
+  "q": "Żydowska 4, Poznań",
+  "name": "Muzeum PRL, 4, Żydowska, Garbary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-761, Polska"
+ },
+ "schron-przeciwatomowy": {
+  "lat": 52.441274,
+  "lon": 16.807927,
+  "q": "Słupska 62, Poznań",
+  "name": "Galeria Plakatu z Okresu Socjalizmu, 62, Słupska, Krzyżowniki, Krzyżowniki-Smochowice, Poznań, województwo wielkopolskie"
+ },
+ "gaspar": {
+  "lat": 52.3588,
+  "lon": 17.018984,
+  "q": "Oliwkowa 12, Poznań",
+  "name": "12, Oliwkowa, Szczepankowo, Szczepankowo-Spławie-Krzesinki, Poznań, województwo wielkopolskie, 61-312, Polska"
+ },
+ "izba-prl-w7": {
+  "lat": 52.38536,
+  "lon": 16.913086,
+  "q": "Hetmańska 90, Poznań",
+  "name": "90, Hetmańska, Wilda, Poznań, województwo wielkopolskie, 60-219, Polska"
+ },
+ "muzeum-ump": {
+  "lat": 52.408597,
+  "lon": 16.889991,
+  "q": "Bukowska 70, Poznań",
+  "name": "Centrum Stomatologii Uniwersytetu Medycznego, 70, Bukowska, Jeżyce, Łazarz, Poznań, województwo wielkopolskie, 60-812, P"
+ },
+ "muzeum-ziemi": {
+  "lat": 52.463466,
+  "lon": 16.941866,
+  "q": "Muzeum Ziemi, Poznań",
+  "name": "Muzeum Ziemi, 10, Bogumiła Krygowskiego, Różany Potok, Umultowo, Poznań, województwo wielkopolskie, 61-680, Polska"
+ },
+ "muzeum-kultury-cyfrowej": {
+  "lat": 52.430605,
+  "lon": 16.904015,
+  "q": "ręcznie",
+  "name": "ul. Turkusowa, Winiary (Błękitna brak w OSM; przybliżone)",
+  "approx": true
+ },
+ "muzeum-bizuterii-moja": {
+  "lat": 52.407961,
+  "lon": 16.922237,
+  "q": "27 Grudnia 17, Poznań",
+  "name": "Domar, 17/19, 27 Grudnia, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-737, Polska"
+ },
+ "makiety-dawnego-poznania": {
+  "lat": 52.408278,
+  "lon": 16.931104,
+  "q": "ręcznie",
+  "name": "jak kosciol-sw-antoniego: podziemia kościoła Franciszkanów"
+ },
+ "niewidzialna-ulica": {
+  "lat": 52.399433,
+  "lon": 16.900263,
+  "q": "Jana Matejki 53, Poznań",
+  "name": "53, Jana Matejki, Łazarz, Poznań, województwo wielkopolskie, 60-767, Polska"
+ },
+ "legi-debinskie": {
+  "lat": 52.388984,
+  "lon": 16.927911,
+  "q": "Park Jana Pawła II, Poznań",
+  "name": "Park Jana Pawła II, Wilda, Poznań, województwo wielkopolskie, Polska"
+ },
+ "park-rataje": {
+  "lat": 52.38459,
+  "lon": 16.947999,
+  "q": "Park Rataje, Poznań",
+  "name": "Park Rataje, Rataje, Poznań, województwo wielkopolskie, Polska"
+ },
+ "linie-turystyczne": {
+  "lat": 52.406964,
+  "lon": 16.92568,
+  "q": "Biblioteka Uniwersytecka, Ratajczaka, Poznań",
+  "name": "Biblioteka Uniwersytecka, 38, Franciszka Ratajczaka, Święty Marcin, Stare Miasto, Poznań, województwo wielkopolskie, 61-"
+ },
+ "srodka": {
+  "lat": 52.411006,
+  "lon": 16.954239,
+  "q": "Rynek Śródecki, Poznań",
+  "name": "Rynek Śródecki, Śródka, Berdychowo, Ostrów Tumski-Śródka-Zawady-Komandoria, Poznań, województwo wielkopolskie, 61-126, P"
+ },
+ "stadion": {
+  "lat": 52.396156,
+  "lon": 16.862361,
+  "q": "Stadion Miejski, Bułgarska, Poznań",
+  "name": "Stadion Miejski, Bułgarska, Kasztelanów, Grunwald Południe, Grunwald, Poznań, województwo wielkopolskie, 60-325, Polska"
+ },
+ "pomnik-jana-pawla-ii": {
+  "lat": 52.410802,
+  "lon": 16.947674,
+  "q": "ręcznie",
+  "name": "OSM n10062260462: Dąb Jana Pawła II przy dawnym probostwie (przybliżone)",
+  "approx": true
+ },
+ "pomnik-paderewskiego": {
+  "lat": 52.407012,
+  "lon": 16.916666,
+  "q": "ręcznie",
+  "name": "OSM n3503171347: Ignacy Jan Paderewski (statue)"
+ },
+ "pomnik-ratajskiego": {
+  "lat": 52.40064,
+  "lon": 16.927449,
+  "q": "ręcznie",
+  "name": "OSM w436371228: Cyryl Ratajski (statue)"
+ },
+ "pomnik-komedy": {
+  "lat": 52.407356,
+  "lon": 16.889279,
+  "q": "Przybyszewskiego 37a, Poznań",
+  "name": "Centrum Kongresowo-Dydaktyczne Uniwersytetu Medycznego, 37A, Stanisława Przybyszewskiego, Łazarz, Poznań, województwo wi"
+ },
+ "twierdza-poznan": {
+  "lat": 52.407836,
+  "lon": 16.912762,
+  "q": "Kaponiera Kolejowa, Poznań",
+  "name": "Kaponiera Kolejowa, Rondo Kaponiera, Stare Miasto, Poznań, województwo wielkopolskie, 60-829, Polska"
+ },
+ "fontanna-z-delfinami": {
+  "lat": 52.409966,
+  "lon": 16.929322,
+  "q": "Studzienka Kronthala",
+  "name": "Dzieci na delfinach, Aleje Karola Marcinkowskiego, Piekary, Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie"
+ },
+ "pomnik-mickiewicza": {
+  "lat": 52.407997,
+  "lon": 16.916814,
+  "q": "ręcznie",
+  "name": "OSM n9105702732: Adam Mickiewicz (statue), pl. Mickiewicza"
+ },
+ "pomnik-czerwca-1956": {
+  "lat": 52.407672,
+  "lon": 16.918885,
+  "q": "ręcznie",
+  "name": "OSM n11678973764: 1956 (Poznańskie Krzyże)"
+ },
+ "pomnik-kosciuszki": {
+  "lat": 52.40691,
+  "lon": 16.906571,
+  "q": "ręcznie",
+  "name": "OSM w338655089: Tadeusz Kościuszko (statue)"
+ },
+ "pomnik-kochanowskiego": {
+  "lat": 52.412683,
+  "lon": 16.947153,
+  "q": "ręcznie",
+  "name": "OSM w442577570: Jan Kochanowski (obelisk)"
+ },
+ "pomnik-marcinkowskiego": {
+  "lat": 52.410395,
+  "lon": 16.929337,
+  "q": "ręcznie",
+  "name": "OSM n3234668562: Karol Marcinkowski (statue)"
+ },
+ "studzienka-bamberki": {
+  "lat": 52.40851,
+  "lon": 16.933585,
+  "q": "ręcznie",
+  "name": "OSM n10062260463: Bamberka"
+ },
+ "kosciol-nmp-in-summo": {
+  "lat": 52.411092,
+  "lon": 16.947087,
+  "q": "ręcznie",
+  "name": "OSM w238040916: Kościół pw. NMP"
+ },
+ "fontanna-park-wilsona": {
+  "lat": 52.395895,
+  "lon": 16.896421,
+  "q": "ręcznie",
+  "name": "OSM n5406993613: fontanna w Parku Wilsona"
+ },
+ "trakt-krolewsko-cesarski": {
+  "lat": 52.412255,
+  "lon": 16.951657,
+  "q": "ręcznie",
+  "name": "jak brama-poznania: początek szlaku przy Bramie Poznania"
+ },
+ "muzeum-czerwca-1956": {
+  "lat": 52.408034,
+  "lon": 16.918695,
+  "q": "ręcznie",
+  "name": "jak zamek-cesarski: w Zamku Cesarskim"
+ },
+ "studzienka-taschnera": {
+  "lat": 52.405554,
+  "lon": 16.940679,
+  "q": "ręcznie",
+  "name": "jak muzeum-kultur-swiata: dziedziniec Muzeum Kultur Świata"
+ }
+}
