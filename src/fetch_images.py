@@ -5,7 +5,7 @@ import io, json, os, re, sys, time, urllib.parse, urllib.request
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/)"}
+UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/dzbani/poznan-przewodnik)"}
 path = os.path.join(ROOT, "img", "credits.json")
 cr = {x["slug"]: x for x in json.load(open(path, encoding="utf-8"))}
 for arg in sys.argv[1:]:

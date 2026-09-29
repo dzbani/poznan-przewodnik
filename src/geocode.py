@@ -8,7 +8,7 @@ from site_data import ATTRACTIONS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "coords.json")
-UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/)"}
+UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/dzbani/poznan-przewodnik)"}
 BBOX = (16.70, 52.24, 17.10, 52.52)  # lon_min, lat_min, lon_max, lat_max
 data = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {}
 

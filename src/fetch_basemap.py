@@ -10,7 +10,7 @@ import urllib.parse
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/)"}
+UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/dzbani/poznan-przewodnik)"}
 BB = "52.25,16.72,52.51,17.08"  # S,W,N,E
 
 LAYERS = {

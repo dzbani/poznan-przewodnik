@@ -3,7 +3,7 @@
 import json, os, time, urllib.parse, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "coords.json")
-UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/)"}
+UA = {"User-Agent": "PoznanPrzewodnik/1.0 (+https://github.com/dzbani/poznan-przewodnik)"}
 data = json.load(open(OUT, encoding="utf-8"))
 WRONG = ["pomnik-czerwca-1956", "pomnik-mickiewicza", "pomnik-jana-pawla-ii", "pomnik-kochanowskiego", "pomnik-paderewskiego",
          "pomnik-ratajskiego", "pomnik-komedy", "twierdza-poznan", "fontanna-z-delfinami", "pomnik-marcinkowskiego",
