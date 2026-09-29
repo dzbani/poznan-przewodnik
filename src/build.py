@@ -222,7 +222,8 @@ def build_index():
     plans = "".join(f'<li><a href="plany.html#{pid}"><h3>{escape(t)}</h3><p>{escape(who)}</p></a></li>'
                     for pid, t, who, *_ in PLANS)
     body = f"""
-<section class="hero">
+<section class="hero hero-full">
+  <img class="hero-bg" src="img/hero-stary-rynek.jpg" srcset="img/hero-stary-rynek-1200.jpg 1200w, img/hero-stary-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
   <div class="wrap hero-in">
   <div class="hero-text">
     <p class="kicker">Przewodnik dla odwiedzających</p>
@@ -238,10 +239,8 @@ def build_index():
       <a class="btn btn-ghost" href="informacje.html">Informacje praktyczne</a>
     </div>
   </div>
-  <figure class="hero-photo">
-    <img src="img/ratusz-rysunek.png" alt="Rysunek piórkiem: ratusz na Starym Rynku w Poznaniu" fetchpriority="high">
-  </figure>
   </div>
+<a class="hero-credit" href="zdjecia.html#foto-hero-stary-rynek">Fot. Egor Komarov / Unsplash</a>
 </section>
 
 <section class="wrap facts" aria-label="Najważniejsze informacje">

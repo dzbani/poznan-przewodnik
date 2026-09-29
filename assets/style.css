@@ -67,17 +67,24 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
   .topbar nav a { padding: 6px 7px; font-size: 0.82rem; white-space: nowrap; }
 }
 
-/* ─── Hero strony głównej ─── */
-.hero { position: relative; overflow: hidden; background: radial-gradient(circle at 85% 30%, rgba(201,168,76,0.16), transparent 55%), var(--bg); }
-.hero-in { position: relative; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); align-items: center; padding-block: clamp(40px, 7vw, 88px) clamp(36px, 5vw, 64px); }
-.hero-photo { min-width: 0; max-width: 400px; justify-self: center; width: 100%; }
-.hero-photo img { width: 100%; height: auto; }
-.hero-photo figcaption { font-size: 0.75rem; color: var(--muted); margin-top: 4px; text-align: center; }
-.hero-photo figcaption a { color: var(--muted); }
+/* ─── Hero strony głównej: zdjęcie na całą szerokość, tekst na niebie ─── */
+.hero { position: relative; overflow: hidden; background: #2E5F86; }
+.hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: center 72%; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(100deg, rgba(12, 28, 46, 0.62) 0%, rgba(12, 28, 46, 0.38) 42%, rgba(12, 28, 46, 0) 70%), linear-gradient(180deg, rgba(12, 28, 46, 0.25) 0%, rgba(12, 28, 46, 0) 30%); }
+.hero-in { position: relative; z-index: 2; min-height: clamp(520px, 78vh, 760px); display: flex; align-items: flex-start; padding-block: clamp(48px, 8vw, 96px) clamp(120px, 20vw, 240px); }
+.hero-text { max-width: 620px; }
+.hero-full .kicker { color: #F6DE9C; }
+.hero-full h1 { color: #fff; text-shadow: 0 2px 18px rgba(10, 20, 35, 0.35); }
+.hero-full .lead { color: #F3F0EA; text-shadow: 0 1px 10px rgba(10, 20, 35, 0.45); }
+.hero-full .btn-ghost { border-color: rgba(255, 255, 255, 0.75); color: #fff; background: rgba(12, 28, 46, 0.25); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+.hero-full .btn-ghost:hover { border-color: #fff; background: rgba(12, 28, 46, 0.45); color: #fff; }
+.hero-full .search input { border-color: rgba(255, 255, 255, 0.8); box-shadow: 0 8px 24px rgba(10, 20, 35, 0.25); }
+.hero-credit { position: absolute; right: 14px; bottom: 52px; z-index: 2; font-size: 0.72rem; color: rgba(255, 255, 255, 0.85); text-decoration: none; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+.hero-credit:hover { color: #fff; text-decoration: underline; }
 @media (max-width: 860px) {
-  .hero-in { grid-template-columns: 1fr; padding-top: 28px; }
-  .hero-photo { order: -1; }
-  .hero-photo { max-width: 300px; }
+  .hero-in { min-height: 0; padding-block: 36px 170px; }
+  .hero-bg { object-position: 62% 100%; }
+  .hero::before { background: linear-gradient(180deg, rgba(12, 28, 46, 0.62) 0%, rgba(12, 28, 46, 0.45) 55%, rgba(12, 28, 46, 0.05) 85%); }
 }
 .hero h1 { font-size: clamp(2.6rem, 7vw, 4.6rem); letter-spacing: -0.01em; margin-bottom: 18px; max-width: 12ch; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
@@ -88,7 +95,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .btn-ghost:hover { border-color: var(--gold); color: var(--gold-2); }
 
 /* ─── Szybkie fakty ─── */
-.facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; padding-inline: 0; width: calc(100% - 40px); max-width: 1160px; margin-inline: auto; box-shadow: 0 6px 20px rgba(60, 40, 20, 0.06); }
+.facts { position: relative; z-index: 3; margin-top: -40px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #E6DCC8; border: 1px solid #E6DCC8; border-radius: var(--radius); overflow: hidden; padding-inline: 0; width: calc(100% - 40px); max-width: 1160px; margin-inline: auto; box-shadow: 0 6px 20px rgba(60, 40, 20, 0.06); }
 .fact { background: var(--surface); padding: 20px; }
 .fact-k { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; color: var(--gold); line-height: 1.1; margin-bottom: 6px; font-variant-numeric: tabular-nums; }
 .fact p:last-child { font-size: 0.9rem; color: var(--text-2); }
