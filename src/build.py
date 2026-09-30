@@ -140,7 +140,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <a class="skip" href="#tresc">Przejdź do treści</a>
 <header class="topbar">
   <div class="topbar-in">
-    <a class="logo" href="{prefix}index.html"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><span class="logo-t">Odkrywaj Poznań<span>przewodnik dla odwiedzających</span></span></a>
+    <a class="logo" href="{prefix}index.html" aria-label="Odkrywaj Poznań – strona główna"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><img class="logo-word" src="{prefix}img/logo-napis.svg" alt="Odkrywaj Poznań" width="108" height="40"></a>
     <nav aria-label="Nawigacja główna">
       <ul>
         {nav_link("atrakcje.html", "Atrakcje", "atrakcje")}

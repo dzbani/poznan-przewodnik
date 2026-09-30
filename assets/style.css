@@ -52,10 +52,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 /* ─── Nagłówek ─── */
 .topbar { position: sticky; top: 0; z-index: 40; background: rgba(250, 246, 239, 0.94); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
 .topbar-in { max-width: 1200px; margin-inline: auto; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-.logo { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; color: var(--gold); text-decoration: none; display: flex; align-items: center; gap: 10px; line-height: 1.1; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; line-height: 1; }
 .logo-mark { width: 72px; height: 40px; flex: none; }
-.logo-t { display: flex; flex-direction: column; }
-.logo-t span { font-family: var(--sans); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.logo-word { width: 108px; height: 40px; flex: none; }
 .topbar ul { list-style: none; display: flex; gap: 6px; flex-wrap: wrap; }
 .topbar nav a { display: block; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; color: var(--text); text-decoration: none; }
 .topbar nav a:hover { background: var(--surface-2); color: var(--gold-2); }
@@ -64,9 +63,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
   html { scroll-padding-top: 96px; }
   .topbar-in { padding: 8px 0 4px; gap: 2px; flex-direction: column; align-items: stretch; }
   .logo { padding-inline: 16px; }
-  .logo-t span { display: none; }
-  .logo-mark { width: 58px; height: 32px; }
-  .logo { font-size: 1.15rem; gap: 8px; }
+  .logo-mark { width: 61px; height: 34px; }
+  .logo-word { width: 92px; height: 34px; }
+  .logo { gap: 8px; }
   .topbar nav { max-width: 100%; min-width: 0; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .topbar nav::-webkit-scrollbar { display: none; }
   .topbar ul { gap: 0; flex-wrap: nowrap; padding-inline: 9px; }
