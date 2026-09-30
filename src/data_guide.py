@@ -46,7 +46,7 @@ PLANS = [
       ("pomnik-czerwca-1956", "po drodze", "Krzyże w Parku Mickiewicza, naprzeciwko zamku."),
       ("park-mickiewicza", "po drodze", "Park między zamkiem a Operą, dobry na krótki odpoczynek."),
       ("jezyce", "popołudnie", "Secesyjne kamienice, targ na Rynku Jeżyckim i szlak Jeżycjady. Dojdziesz pieszo albo dojedziesz tramwajem."),
-      ("stary-browar", "wieczór", "Dawny browar z centrum handlowym i parkiem, czynny do 21:00 (w niedzielę do 20:00).")],
+      ("stary-browar", "wieczór", "Ceglany XIX-wieczny browar z rzeźbami Mitoraja i innych artystów, sklepami i parkiem. Czynny do 21:00, w niedziele tylko handlowe.")],
      "Muzeum Narodowe jest zamknięte w poniedziałki."),
     ("dzien-3", "Dzień 3: Zielony Poznań",
      "Na trzeci dzień albo na ładną pogodę",
@@ -73,7 +73,7 @@ PLANS = [
      [("brama-poznania", "rano", "Multimedialna ekspozycja o początkach państwa."),
       ("centrum-szyfrow-enigma", "przed południem", "Interaktywna wystawa o złamaniu Enigmy."),
       ("muzeum-narodowe", "po południu", "Malarstwo polskie i europejskie."),
-      ("stary-browar", "wieczór", "Sklepy, restauracje i wystawy w dawnym browarze."),
+      ("stary-browar", "wieczór", "Rzeźby, instalacje i wystawy w Pop Culture Gallery, wszystko pod dachem dawnego browaru."),
       ("termy-maltanskie", "wieczór", "Baseny i zjeżdżalnie do 23:00.")],
      "W poniedziałek Brama Poznania, Centrum Szyfrów Enigma i Muzeum Narodowe są nieczynne. Zamiast nich wybierz Rogalowe Muzeum, Muzeum Czekolady i Zamek Cesarski."),
     ("za-darmo", "Za darmo",
@@ -96,7 +96,7 @@ PLANS = [
       ("ostrow-tumski", "południe", "Katedrę zwiedzisz w dni powszednie."),
       ("zamek-cesarski", "od 12:00", "Zamek jest czynny codziennie."),
       ("nowe-zoo", "popołudnie", "Zoo jest czynne codziennie."),
-      ("stary-browar", "wieczór", "Centrum handlowe czynne codziennie.")],
+      ("stary-browar", "wieczór", "Czynny także w poniedziałki. Rzeźby Mitoraja i innych artystów obejrzysz bezpłatnie.")],
      "Przed wyjściem sprawdź godziny na podstronie każdego miejsca, bo w święta mogą być inne."),
 ]
 
