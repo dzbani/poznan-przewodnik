@@ -5,7 +5,7 @@ strona „O Poznaniu” i dodatkowe informacje praktyczne. Źródła podane przy
 # Dziesięć miejsc, od których warto zacząć. Kolejność = kolejność na stronie głównej.
 TOP10 = [
     "stary-rynek", "ostrow-tumski", "brama-poznania", "rogalowe-muzeum", "fara",
-    "zamek-krolewski", "zamek-cesarski", "cytadela", "jezioro-maltanskie", "srodka",
+    "zamek-krolewski", "zamek-cesarski", "stary-browar", "jezioro-maltanskie", "srodka",
 ]
 
 # Szybkie filtry na stronie głównej (oprócz „bezpłatne”, liczonego z cennika).

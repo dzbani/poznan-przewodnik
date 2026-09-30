@@ -567,6 +567,7 @@ ATTRACTIONS = [
             ("Wystawy i zwiedzanie", [
                 "Na Dziedzińcu działa Pop Culture Gallery, prowadzona przez Stary Browar. Pokazuje wystawy łączące modę, sztukę, design i technologię. Były tu już m.in. wystawy Andy'ego Warhola, Björk, Davida LaChapelle'a, Gianniego Versace i Ryszarda Kai. Aktualną wystawę sprawdzisz na stronie centrum.",
                 "Stary Browar organizuje zwiedzanie z przewodnikiem po architekturze, historii i kolekcji dzieł sztuki. Termin trzeba uzgodnić z punktem informacyjnym co najmniej dwa tygodnie wcześniej (informacja@starybrowar.com, tel. 61 859 60 50).",
+                "W kompleksie działa pięciogwiazdkowy hotel Blow Up Hall (wejście od ul. Kościuszki 42), który po kilkuletniej przerwie znów przyjmuje gości. W hotelu, restauracji arte i pasażu są rzeźby, instalacje i sztuka użytkowa z kolekcji właścicieli, tworzona we współpracy z polskimi artystami. Restauracja arte jest czynna codziennie 12:00–22:00, a b.bar 16:00–24:00 (rezerwacja stolika: tel. 61 629 94 02).",
                 "Przy centrum jest zabytkowy park, dobre miejsce na odpoczynek po zwiedzaniu.",
             ]),
         ],
@@ -580,6 +581,8 @@ ATTRACTIONS = [
                  ("Wikipedia: Stary Browar (Poznań)", "https://pl.wikipedia.org/wiki/Stary_Browar_(Pozna%C5%84)"),
                  ("Wikipedia: Browar Huggerów", "https://pl.wikipedia.org/wiki/Browar_Hugger%C3%B3w"),
                  ("Poznański Prestiż: wywiad z zarządem Starego Browaru (2023)", "https://poznanskiprestiz.pl/pp-x-stary-browar/stary-browar-od-20-lat-w-sercu-poznania/"),
+                 ("Hotel Blow Up Hall: sztuka i książki", "https://blowuphall.com/sztuka-i-ksiazki/"),
+                 ("Hotel Blow Up Hall: restauracja", "https://blowuphall.com/restauracja/"),
                  ("poznan.pl: Stary Browar", "https://www.poznan.pl/mim/turystyka/inne-atrakcje,poi,3391/stary-browar,46255.html")],
     ),
     dict(
