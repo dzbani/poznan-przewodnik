@@ -21,10 +21,8 @@ CAT = {k: (name, desc) for k, name, desc in CATEGORIES}
 BY_SLUG = {a["slug"]: a for a in ATTRACTIONS}
 CAT_WORDS = {4: "czterech", 5: "pięciu", 6: "sześciu", 7: "siedmiu", 8: "ośmiu"}
 
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
-         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500'
-         '&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">')
+# Czcionki są na własnym serwerze (/fonts, @font-face na początku style.css); bez Google Fonts.
+FONTS = ""
 
 ICON = {
     "pin": '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
@@ -978,7 +976,7 @@ def build_map():
 """
     return page("Mapa atrakcji – Odkrywaj Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",
                 active="mapa", head=f'<link rel="stylesheet" href="assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
-                scripts='<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>\n'
+                scripts=f'<script src="assets/leaflet.js?v={asset_v("leaflet.js")}"></script>\n'
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
 
 
@@ -1021,11 +1019,7 @@ def build_privacy():
 
 <section id="zewnetrzne">
   <h2>Usługi zewnętrzne</h2>
-  <p>Aby wyświetlić stronę, Twoja przeglądarka łączy się także z serwerami innych firm i przekazuje im przy tym swój adres IP:</p>
-  <ul>
-    <li><strong>Czcionki:</strong> Google Fonts (Google). Zasady: {ext("https://policies.google.com/privacy", "polityka prywatności Google")}.</li>
-    <li><strong>Mapa atrakcji</strong> (tylko strona Mapa): podkład mapy z serwerów OpenStreetMap ({ext("https://osmfoundation.org/wiki/Privacy_Policy", "zasady OSMF")}) i biblioteka mapy z serwera cdnjs (Cloudflare, {ext("https://www.cloudflare.com/privacypolicy/", "zasady Cloudflare")}).</li>
-  </ul>
+  <p>Czcionki, zdjęcia i skrypty strony są na naszym serwerze. Jedyny wyjątek to <strong>mapa atrakcji</strong> (tylko strona Mapa): jej podkład pochodzi z serwerów OpenStreetMap, więc przeglądarka przekazuje im adres IP ({ext("https://osmfoundation.org/wiki/Privacy_Policy", "zasady OSMF")}).</p>
   <p>Linki „Pokaż na mapie” i „Trasa” otwierają Mapy Google, a pozostałe linki prowadzą do stron muzeów, organizatorów i innych serwisów. Po przejściu na nie obowiązują ich własne zasady prywatności.</p>
 </section>
 
@@ -1104,7 +1098,7 @@ def clean_links(html):
 def main():
     os.makedirs(os.path.join(ROOT, "atrakcje"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
-    for name in ("style.css", "site.js", "map.js", "leaflet.css"):
+    for name in ("style.css", "site.js", "map.js", "leaflet.css", "leaflet.js"):
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
