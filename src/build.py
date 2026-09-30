@@ -156,7 +156,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
     <div>
       <p class="footer-logo">Poznań</p>
       <p class="muted">Nieoficjalny przewodnik, niezwiązany z Urzędem Miasta Poznania.
-      Godziny i ceny sprawdzono {CHECKED}. Przed wizytą potwierdź je na stronie obiektu.</p>
+      Datę sprawdzenia godzin i cen podajemy na stronie każdej atrakcji. Przed wizytą potwierdź je na stronie obiektu.</p>
     </div>
     <ul class="footer-links">
       <li><a href="{prefix}index.html#atrakcje">Atrakcje</a></li>
@@ -456,7 +456,7 @@ def build_attraction(a, idx):
       <h2>Kontakt</h2>
       {contact}
     </div>
-    <p class="checked">Sprawdzono {CHECKED}. Godziny i ceny mogą się zmienić, więc przed wizytą potwierdź je na stronie obiektu.</p>
+    <p class="checked">Sprawdzono {a['checked']}. Godziny i ceny mogą się zmienić, więc przed wizytą potwierdź je na stronie obiektu.</p>
   </aside>
 </div>
 
