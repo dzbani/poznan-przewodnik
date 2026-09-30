@@ -141,7 +141,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <a class="skip" href="#tresc">Przejdź do treści</a>
 <header class="topbar">
   <div class="topbar-in">
-    <a class="logo" href="{prefix}index.html" aria-label="Odkrywaj Poznań – strona główna"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><img class="logo-word" src="{prefix}img/logo-napis.svg" alt="Odkrywaj Poznań" width="108" height="40"></a>
+    <a class="logo" href="{prefix or './'}" aria-label="Odkrywaj Poznań – strona główna"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><img class="logo-word" src="{prefix}img/logo-napis.svg" alt="Odkrywaj Poznań" width="108" height="40"></a>
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Nawigacja główna">
       <ul>
@@ -436,7 +436,7 @@ def build_attraction(a, idx):
     next_a = ATTRACTIONS[(idx + 1) % len(ATTRACTIONS)]
     body = f"""
 <nav class="wrap crumbs" aria-label="Okruszki">
-  <a href="../index.html">Strona główna</a> <span aria-hidden="true">/</span>
+  <a href="../">Strona główna</a> <span aria-hidden="true">/</span>
   <a href="../atrakcje.html#kat-{a['cat']}">{escape(cat_name)}</a> <span aria-hidden="true">/</span>
   <span aria-current="page">{escape(a['name'])}</span>
 </nav>
