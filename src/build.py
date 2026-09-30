@@ -176,6 +176,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}kalendarz.html">Kalendarz wydarzeń</a></li>
       <li><a href="{prefix}teatry.html">Teatry i koncerty</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
+      <li><a href="{prefix}prywatnosc.html">Prywatność</a></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
   </div>
@@ -981,6 +982,63 @@ def build_map():
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
 
 
+# Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
+CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
+PRIVACY_UPDATED = "30.09.2026"
+
+
+def build_privacy():
+    mail = f'<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>'
+    ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Informacje prawne</p>
+  <h1>Prywatność</h1>
+  <p class="lead">Krótko: ten przewodnik nie używa plików cookies, nie ma statystyk ani reklam i nie zbiera żadnych danych o odwiedzających. Poniżej opisujemy, jakie informacje mogą mimo to trafić do usług, z których korzysta strona.</p>
+  <nav class="toc" aria-label="Spis treści">
+    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies</a><a href="#hosting">Serwer</a>
+    <a href="#zewnetrzne">Usługi zewnętrzne</a><a href="#prawa">Twoje prawa</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="kto">
+  <h2>Kto prowadzi stronę</h2>
+  <p>Przewodnik „Odkrywaj Poznań” (odkrywajpoznan.pl) to prywatna, niekomercyjna strona, niezwiązana z Urzędem Miasta Poznania. W sprawach strony i prywatności pisz na adres {mail}.</p>
+</section>
+
+<section id="cookies">
+  <h2>Cookies i statystyki</h2>
+  <p>Strona nie zapisuje w Twoim urządzeniu plików cookies ani innych danych. Nie korzysta z narzędzi analitycznych (np. Google Analytics), reklamowych ani z przycisków portali społecznościowych. Nie ma formularzy, więc nie podajesz nam żadnych danych.</p>
+  <p>Jeśli dodasz stronę do ekranu głównego telefonu, przeglądarka może przechowywać jej pliki w swojej zwykłej pamięci podręcznej. Nie są to dane o Tobie.</p>
+</section>
+
+<section id="hosting">
+  <h2>Serwer</h2>
+  <p>Strona jest udostępniana przez usługę GitHub Pages (GitHub, Inc.). Jak każdy serwer, GitHub zapisuje w dziennikach techniczne dane o połączeniu, m.in. adres IP, datę i godzinę oraz adres otwieranej strony, w celu zapewnienia bezpieczeństwa i działania usługi. Nie mamy dostępu do tych dzienników. Zasady: {ext("https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "polityka prywatności GitHub")}.</p>
+  <p>Domena jest zarejestrowana w OVH.</p>
+</section>
+
+<section id="zewnetrzne">
+  <h2>Usługi zewnętrzne</h2>
+  <p>Aby wyświetlić stronę, Twoja przeglądarka łączy się także z serwerami innych firm i przekazuje im przy tym swój adres IP:</p>
+  <ul>
+    <li><strong>Czcionki:</strong> Google Fonts (Google). Zasady: {ext("https://policies.google.com/privacy", "polityka prywatności Google")}.</li>
+    <li><strong>Mapa atrakcji</strong> (tylko strona Mapa): podkład mapy z serwerów OpenStreetMap ({ext("https://osmfoundation.org/wiki/Privacy_Policy", "zasady OSMF")}) i biblioteka mapy z serwera cdnjs (Cloudflare, {ext("https://www.cloudflare.com/privacypolicy/", "zasady Cloudflare")}).</li>
+  </ul>
+  <p>Linki „Pokaż na mapie” i „Trasa” otwierają Mapy Google, a pozostałe linki prowadzą do stron muzeów, organizatorów i innych serwisów. Po przejściu na nie obowiązują ich własne zasady prywatności.</p>
+</section>
+
+<section id="prawa">
+  <h2>Twoje prawa</h2>
+  <p>Sami nie przetwarzamy Twoich danych osobowych. Masz jednak prawa wynikające z RODO wobec firm opisanych wyżej, np. prawo dostępu do danych, ich sprostowania lub usunięcia. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych ({ext("https://uodo.gov.pl", "uodo.gov.pl")}).</p>
+  <p class="muted">Ostatnia aktualizacja: {PRIVACY_UPDATED}.</p>
+</section>
+</div>
+"""
+    return page("Prywatność – Odkrywaj Poznań", body, desc="Zasady prywatności przewodnika Odkrywaj Poznań: bez cookies, bez statystyk, informacje o serwerze i usługach zewnętrznych.")
+
+
 def build_404():
     """GitHub Pages pokazuje 404.html pod każdym błędnym adresem, także w podkatalogach,
     dlatego wszystkie ścieżki są od katalogu głównego (prefiks „/”)."""
@@ -1050,6 +1108,7 @@ def main():
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
+           "prywatnosc.html": build_privacy(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
