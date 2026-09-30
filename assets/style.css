@@ -440,3 +440,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .qlink { font-size: 0.88rem; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--text); background: var(--surface); }
 .qlink:hover { border-color: var(--gold); color: var(--gold-2); }
 .home-all { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* ─── Strona 404 ─── */
+.nf { padding-bottom: 8px; }
+.nf-search { max-width: 520px; margin-top: 22px; }
+.nf-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }

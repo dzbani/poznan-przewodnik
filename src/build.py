@@ -981,6 +981,46 @@ def build_map():
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
 
 
+def build_404():
+    """GitHub Pages pokazuje 404.html pod każdym błędnym adresem, także w podkatalogach,
+    dlatego wszystkie ścieżki są od katalogu głównego (prefiks „/”)."""
+    tiles = "".join(
+        f'<li><a href="/atrakcje.html#kat-{k}"><h3>{escape(n)}</h3><p>{escape(d)}</p></a></li>'
+        for k, n, d in CATEGORIES)
+    body = f"""
+<section class="wrap page-head nf">
+  <p class="kicker">Błąd 404</p>
+  <h1>Nie ma takiej strony</h1>
+  <p class="lead">Adres mógł się zmienić albo zawiera literówkę. Wyszukaj atrakcję albo zacznij od jednej z poniższych stron.</p>
+  <form class="search nf-search" role="search" action="/atrakcje.html" method="get">
+    <label for="q-404" class="sr">Szukaj atrakcji</label>
+    {icon('search')}<input id="q-404" name="q" type="search" placeholder="Szukaj: koziołki, zoo, muzeum…" autocomplete="off" enterkeyhint="search">
+  </form>
+  <p class="actions nf-actions">
+    <a class="btn btn-gold" href="/">Strona główna {icon('arrow')}</a>
+    <a class="btn btn-ghost" href="/atrakcje.html">Wszystkie atrakcje</a>
+    <a class="btn btn-ghost" href="/mapa.html">{icon('pin')} Mapa</a>
+    <a class="btn btn-ghost" href="/plany.html">Plany zwiedzania</a>
+  </p>
+</section>
+<section class="wrap section">
+  <div class="section-head"><p class="kicker">Kategorie</p><h2>Czego szukasz?</h2></div>
+  <ul class="plan-grid">{tiles}</ul>
+</section>
+<script>
+  // Podpowiedź w wyszukiwarce z ostatniej części błędnego adresu, np. /atrakcje/stary-rynekk -> „stary rynekk”.
+  (function () {{
+    var last = decodeURIComponent(location.pathname.split('/').filter(Boolean).pop() || '');
+    var words = last.replace(/\\.html?$/, '').replace(/[-_]+/g, ' ').trim();
+    if (words) document.getElementById('q-404').value = words;
+  }})();
+</script>
+"""
+    return page("Nie ma takiej strony – Odkrywaj Poznań", body, prefix="/",
+                desc="Nie znaleziono strony w przewodniku Odkrywaj Poznań.",
+                head='<meta name="robots" content="noindex">\n')
+
+
 SITE_URL = "https://odkrywajpoznan.pl/"
 LINK_RE = re.compile(r'\b(href|action)="([^"]*)"')
 
@@ -1021,6 +1061,9 @@ def main():
         html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n', 1)
         with open(os.path.join(ROOT, path), "w", encoding="utf-8", newline="\n") as f:
             f.write(clean_links(html))
+    # Strona błędu: bez canonical i poza mapą strony.
+    with open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(clean_links(build_404()))
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8", newline="\n") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                 + "".join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls) + "</urlset>\n")

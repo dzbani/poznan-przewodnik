@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Nie ma takiej strony – Odkrywaj Poznań</title>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#22437F">
+<meta name="description" content="Nie znaleziono strony w przewodniku Odkrywaj Poznań.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/style.css?v=44a61c5a">
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="/" aria-label="Odkrywaj Poznań – strona główna"><img class="logo-mark" src="/img/logo-znak.svg" alt="" width="72" height="40"><img class="logo-word" src="/img/logo-napis.svg" alt="Odkrywaj Poznań" width="108" height="40"></a>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
+    <nav id="menu" aria-label="Nawigacja główna">
+      <ul>
+        <li><a href="/atrakcje">Atrakcje</a></li>
+        <li><a href="/mapa">Mapa</a></li>
+        <li><a href="/plany">Plany zwiedzania</a></li>
+        <li><a href="/kalendarz">Wydarzenia</a></li>
+        <li><a href="/informacje">Praktycznie</a></li>
+        <li><a href="/o-poznaniu">O Poznaniu</a></li>
+        <li class="nav-extra"><a href="/teatry">Teatry i koncerty</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="tresc">
+
+<section class="wrap page-head nf">
+  <p class="kicker">Błąd 404</p>
+  <h1>Nie ma takiej strony</h1>
+  <p class="lead">Adres mógł się zmienić albo zawiera literówkę. Wyszukaj atrakcję albo zacznij od jednej z poniższych stron.</p>
+  <form class="search nf-search" role="search" action="/atrakcje" method="get">
+    <label for="q-404" class="sr">Szukaj atrakcji</label>
+    <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q-404" name="q" type="search" placeholder="Szukaj: koziołki, zoo, muzeum…" autocomplete="off" enterkeyhint="search">
+  </form>
+  <p class="actions nf-actions">
+    <a class="btn btn-gold" href="/">Strona główna <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="btn btn-ghost" href="/atrakcje">Wszystkie atrakcje</a>
+    <a class="btn btn-ghost" href="/mapa"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Mapa</a>
+    <a class="btn btn-ghost" href="/plany">Plany zwiedzania</a>
+  </p>
+</section>
+<section class="wrap section">
+  <div class="section-head"><p class="kicker">Kategorie</p><h2>Czego szukasz?</h2></div>
+  <ul class="plan-grid"><li><a href="/atrakcje#kat-zabytki"><h3>Zabytki i historia</h3><p>Tysiąc lat historii: od grodu Mieszka I po zamek cesarza.</p></a></li><li><a href="/atrakcje#kat-pomniki"><h3>Pomniki i fontanny</h3><p>Od barokowej fontanny przed ratuszem po Starego Marycha z rowerem.</p></a></li><li><a href="/atrakcje#kat-koscioly"><h3>Kościoły</h3><p>Od romańskiego kościoła joannitów po międzywojenne rotundy.</p></a></li><li><a href="/atrakcje#kat-muzea"><h3>Muzea</h3><p>Sztuka, archeologia, historia Wielkopolski i rogale.</p></a></li><li><a href="/atrakcje#kat-przyroda"><h3>Parki i przyroda</h3><p>Jezioro, ogrody i zieleń w granicach miasta.</p></a></li><li><a href="/atrakcje#kat-rodzina"><h3>Dla rodzin i aktywnie</h3><p>Zoo, kolejka, baseny i stok przez cały rok.</p></a></li><li><a href="/atrakcje#kat-wspolczesny"><h3>Współczesny Poznań</h3><p>Street art i dawny browar zamieniony w centrum sztuki.</p></a></li><li><a href="/atrakcje#kat-wycieczki"><h3>Wycieczki za miasto</h3><p>Zamki, pałace i kolebka Polski w zasięgu jednodniowego wyjazdu.</p></a></li></ul>
+</section>
+<script>
+  // Podpowiedź w wyszukiwarce z ostatniej części błędnego adresu, np. /atrakcje/stary-rynekk -> „stary rynekk”.
+  (function () {
+    var last = decodeURIComponent(location.pathname.split('/').filter(Boolean).pop() || '');
+    var words = last.replace(/\.html?$/, '').replace(/[-_]+/g, ' ').trim();
+    if (words) document.getElementById('q-404').value = words;
+  })();
+</script>
+
+</main>
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div>
+      <p class="footer-logo"><img src="/img/logo.svg" alt="Odkrywaj Poznań" width="120" height="120" loading="lazy"></p>
+      <p class="muted">Nieoficjalny przewodnik, niezwiązany z Urzędem Miasta Poznania.
+      Datę sprawdzenia godzin i cen podajemy na stronie każdej atrakcji. Przed wizytą potwierdź je na stronie obiektu.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="/atrakcje">Wszystkie atrakcje</a></li>
+      <li><a href="/mapa">Mapa atrakcji</a></li>
+      <li><a href="/plany">Plany zwiedzania</a></li>
+      <li><a href="/informacje">Informacje praktyczne</a></li>
+      <li><a href="/o-poznaniu">O Poznaniu: historia, legendy, gwara</a></li>
+      <li><a href="/kalendarz">Kalendarz wydarzeń</a></li>
+      <li><a href="/teatry">Teatry i koncerty</a></li>
+      <li><a href="/zdjecia">Autorzy zdjęć</a></li>
+      <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
+    </ul>
+  </div>
+</footer>
+<button type="button" class="to-top" aria-label="Wróć na górę strony" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<script src="/assets/site.js?v=676fa983"></script>
+</body>
+</html>
