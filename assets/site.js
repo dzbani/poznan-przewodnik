@@ -27,7 +27,8 @@
   [50, 200, 500, 1000].forEach(function (ms) { setTimeout(place, ms); });
 })();
 
-// 2. Wyszukiwarka i filtry na stronie głównej. Bez JavaScriptu widać wszystkie atrakcje.
+// 2. Wyszukiwarka i filtry na stronie atrakcje.html. Bez JavaScriptu widać wszystkie atrakcje.
+//    Strona główna przekazuje hasło i filtr w adresie: atrakcje.html?q=zoo, ?f=free, #kat-muzea.
 (function () {
   var list = document.getElementById('atrakcje');
   var tabs = document.querySelectorAll('.tab[data-filter]');
@@ -88,15 +89,6 @@
         inputs.forEach(function (o) { if (o !== inp) o.value = inp.value; });
         apply();
       });
-      // Wyszukiwarka w nagłówku przenosi do listy wyników po Enterze.
-      if (inp.id === 'q-hero') {
-        inp.addEventListener('keydown', function (e) {
-          if (e.key !== 'Enter') return;
-          e.preventDefault();
-          list.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          document.getElementById('q').focus({ preventScroll: true });
-        });
-      }
     });
     var resetBtn = list.querySelector('[data-reset]');
     if (resetBtn) resetBtn.addEventListener('click', reset);
@@ -110,23 +102,21 @@
         document.getElementById('kat-' + m[1]).scrollIntoView({ block: 'start' });
       }
     };
+    // Hasło i szybki filtr ze strony głównej: atrakcje.html?q=koziołki, atrakcje.html?f=kids.
+    var params = new URLSearchParams(location.search);
+    var q = (params.get('q') || '').trim();
+    var f = params.get('f');
+    if (f && list.querySelector('.qf[data-quick="' + f + '"]')) state.quick = f;
+    if (q) {
+      state.q = q;
+      inputs.forEach(function (i) { i.value = q; });
+    }
+    if (q || f) apply();
     fromHash();
     window.addEventListener('hashchange', fromHash);
   }
 
-  // 3. Logo „Poznań” na stronie głównej: powrót na samą górę i reset filtrów.
-  //    Na podstronach link prowadzi normalnie do strony głównej.
-  var logo = document.querySelector('.logo');
-  if (logo && list) {
-    logo.addEventListener('click', function (e) {
-      e.preventDefault();
-      reset();
-      if (location.hash) history.replaceState(null, '', location.pathname + location.search);
-      window.scrollTo(0, 0);
-    });
-  }
-
-  // 4. Płynne przewijanie dla linków wewnątrz tej samej strony (#sekcja).
+  // 3. Płynne przewijanie dla linków wewnątrz tej samej strony (#sekcja).
   //    Kafelek kategorii (#kat-x) najpierw włącza filtr, żeby grupa była widoczna.
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
     a.addEventListener('click', function (e) {
@@ -145,7 +135,7 @@
   });
 })();
 
-// 5. Przycisk „do góry” pojawia się po przewinięciu o dwa ekrany.
+// 4. Przycisk „do góry” pojawia się po przewinięciu o dwa ekrany.
 (function () {
   var btn = document.querySelector('.to-top');
   if (!btn) return;
@@ -155,7 +145,7 @@
   btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 })();
 
-// 6. Wydarzenia: zakończone edycje są oznaczane według dzisiejszej daty w przeglądarce,
+// 5. Wydarzenia: zakończone edycje są oznaczane według dzisiejszej daty w przeglądarce,
 //    a na stronie głównej widać tylko najbliższe (data-upcoming) jeszcze trwające wydarzenia.
 (function () {
   var d = new Date();

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Generator stron przewodnika. Uruchom: python src/build.py
-Tworzy: index.html, informacje.html, plany.html, kalendarz.html, teatry.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
+Tworzy: index.html, atrakcje.html, informacje.html, plany.html, kalendarz.html, teatry.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
 import datetime
 import json
 import os
@@ -138,7 +138,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
     <a class="logo" href="{prefix}index.html">Poznań<span>przewodnik dla odwiedzających</span></a>
     <nav aria-label="Nawigacja główna">
       <ul>
-        {nav_link("index.html#atrakcje", "Atrakcje", "atrakcje")}
+        {nav_link("atrakcje.html", "Atrakcje", "atrakcje")}
         {nav_link("mapa.html", "Mapa", "mapa")}
         {nav_link("plany.html", "Plany zwiedzania", "plany")}
         {nav_link("kalendarz.html", "Wydarzenia", "kalendarz")}
@@ -159,7 +159,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       Datę sprawdzenia godzin i cen podajemy na stronie każdej atrakcji. Przed wizytą potwierdź je na stronie obiektu.</p>
     </div>
     <ul class="footer-links">
-      <li><a href="{prefix}index.html#atrakcje">Atrakcje</a></li>
+      <li><a href="{prefix}atrakcje.html">Wszystkie atrakcje</a></li>
       <li><a href="{prefix}mapa.html">Mapa atrakcji</a></li>
       <li><a href="{prefix}plany.html">Plany zwiedzania</a></li>
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
@@ -227,7 +227,7 @@ def card(a, prefix="", num=None):
 </li>"""
 
 
-def build_index():
+def finder_parts():
     tabs = ['<button type="button" class="tab" aria-pressed="true" data-filter="all">Wszystkie</button>']
     tabs += [f'<button type="button" class="tab" aria-pressed="false" data-filter="{k}">{escape(n)}</button>' for k, n, _ in CATEGORIES]
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
@@ -235,15 +235,47 @@ def build_index():
         f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
         for k, n in quick)
     groups = []
-    tiles = []
     for k, n, d in CATEGORIES:
         items = [a for a in ATTRACTIONS if a["cat"] == k]
         groups.append(f"""<section class="cat-group" data-cat="{k}" aria-labelledby="kat-{k}">
   <div class="cat-head"><h3 id="kat-{k}">{escape(n)}</h3><p>{escape(d)}</p></div>
   <ul class="cards">{''.join(card(a) for a in items)}</ul>
 </section>""")
+    return tabs, quick_html, groups
+
+
+def build_attractions():
+    tabs, quick_html, groups = finder_parts()
+    listing = f"""
+<section id="atrakcje" class="wrap section list-page">
+  <div class="section-head">
+    <p class="kicker">Wszystkie atrakcje</p>
+    <h1>Co zobaczyć w Poznaniu</h1>
+    <p class="muted">Wpisz nazwę albo wybierz kategorię i filtr. Kliknij atrakcję, żeby zobaczyć pełny opis, godziny, ceny i dojazd.</p>
+    <p class="map-cta"><a class="btn btn-ghost" href="mapa.html">{icon('pin')} Zobacz wszystkie na mapie</a></p>
+  </div>
+  <div class="finder">
+    <div class="search">
+      <label for="q" class="sr">Szukaj atrakcji</label>
+      {icon('search')}<input id="q" type="search" placeholder="Nazwa, ulica albo rodzaj miejsca" autocomplete="off" data-search-input>
+    </div>
+    <div class="quick" role="group" aria-label="Szybkie filtry">{quick_html}</div>
+    <div class="tabs" role="group" aria-label="Filtruj według kategorii">{''.join(tabs)}</div>
+    <p class="result" aria-live="polite"></p>
+  </div>
+  {''.join(groups)}
+  <p class="empty" hidden>Nic nie pasuje do wyszukiwania. Spróbuj innego słowa albo <button type="button" class="linkish" data-reset>pokaż wszystkie atrakcje</button>.</p>
+</section>
+"""
+    return page("Atrakcje Poznania – przewodnik", listing, desc="Wszystkie atrakcje Poznania w kategoriach: zabytki, muzea, kościoły, parki, pomniki, rozrywka i wycieczki za miasto. Wyszukiwarka i filtry.", active="atrakcje")
+
+
+def build_index():
+    tiles = []
+    for k, n, d in CATEGORIES:
+        items = [a for a in ATTRACTIONS if a["cat"] == k]
         cover = next(a for a in items if a.get("img"))
-        tiles.append(f"""<li><a class="tile" href="#kat-{k}">
+        tiles.append(f"""<li><a class="tile" href="atrakcje.html#kat-{k}">
   <img src="img/{cover['img']}.jpg" alt="" loading="lazy" decoding="async">
   <span class="tile-t">{escape(n)}</span><span class="tile-n">{len(items)}</span></a></li>""")
     top = "".join(card(BY_SLUG[s], num=i) for i, s in enumerate(TOP10, 1))
@@ -277,9 +309,9 @@ def build_index():
     <p class="kicker">Przewodnik dla odwiedzających</p>
     <h1>Poznań na pierwszy raz</h1>
     <p class="lead">{count_attractions(len(ATTRACTIONS))} w {CAT_WORDS.get(len(CATEGORIES), len(CATEGORIES))} kategoriach, z godzinami otwarcia, cenami biletów i dojazdem. Do tego gotowe plany zwiedzania i wszystko, co trzeba wiedzieć przed przyjazdem.</p>
-    <form class="search hero-search" role="search" onsubmit="return false">
+    <form class="search hero-search" role="search" action="atrakcje.html" method="get">
       <label for="q-hero" class="sr">Szukaj atrakcji</label>
-      {icon('search')}<input id="q-hero" type="search" placeholder="Szukaj: koziołki, zoo, muzeum…" autocomplete="off" data-search-input>
+      {icon('search')}<input id="q-hero" name="q" type="search" placeholder="Szukaj: koziołki, zoo, muzeum…" autocomplete="off" enterkeyhint="search">
     </form>
     <div class="actions">
       <a class="btn btn-gold" href="#top10">Od czego zacząć {icon('arrow')}</a>
@@ -310,31 +342,19 @@ def build_index():
 <section class="wrap section" aria-labelledby="kat-h">
   <div class="section-head"><p class="kicker">Kategorie</p><h2 id="kat-h">Czego szukasz?</h2></div>
   <ul class="tiles">{''.join(tiles)}</ul>
+  <div class="home-browse">
+    <p class="home-quick"><span class="muted">Szybko:</span>
+      <a class="qlink" href="atrakcje.html?f=free">Bezpłatne</a>
+      <a class="qlink" href="atrakcje.html?f=kids">Dla dzieci</a>
+      <a class="qlink" href="atrakcje.html?f=indoor">Pod dachem, na deszcz</a></p>
+    <p class="home-all"><a class="btn btn-gold" href="atrakcje.html">Wszystkie atrakcje ({len(ATTRACTIONS)}) {icon('arrow')}</a>
+      <a class="btn btn-ghost" href="mapa.html">{icon('pin')} Na mapie</a></p>
+  </div>
 </section>
 
 <section class="wrap notice" aria-labelledby="zamkniete">
   {icon('alert', 'ico ico-lg')}
   <div><h2 id="zamkniete">Czasowo zamknięte lub ważne przed wizytą</h2><ul>{closed_html}</ul></div>
-</section>
-
-<section id="atrakcje" class="wrap section">
-  <div class="section-head">
-    <p class="kicker">Wszystkie atrakcje</p>
-    <h2>Co zobaczyć w Poznaniu</h2>
-    <p class="muted">Wpisz nazwę albo wybierz kategorię i filtr. Kliknij atrakcję, żeby zobaczyć pełny opis, godziny, ceny i dojazd.</p>
-    <p class="map-cta"><a class="btn btn-ghost" href="mapa.html">{icon('pin')} Zobacz wszystkie na mapie</a></p>
-  </div>
-  <div class="finder">
-    <div class="search">
-      <label for="q" class="sr">Szukaj atrakcji</label>
-      {icon('search')}<input id="q" type="search" placeholder="Nazwa, ulica albo rodzaj miejsca" autocomplete="off" data-search-input>
-    </div>
-    <div class="quick" role="group" aria-label="Szybkie filtry">{quick_html}</div>
-    <div class="tabs" role="group" aria-label="Filtruj według kategorii">{''.join(tabs)}</div>
-    <p class="result" aria-live="polite"></p>
-  </div>
-  {''.join(groups)}
-  <p class="empty" hidden>Nic nie pasuje do wyszukiwania. Spróbuj innego słowa albo <button type="button" class="linkish" data-reset>pokaż wszystkie atrakcje</button>.</p>
 </section>
 
 <section class="wrap section plan" aria-labelledby="plany-h">
@@ -367,7 +387,7 @@ def build_index():
   <p class="muted small">Bieżący program kulturalny: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a></p>
 </section>
 """
-    return page("Poznań na pierwszy raz", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.", active="atrakcje")
+    return page("Poznań na pierwszy raz", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.")
 
 
 def kv_rows(rows):
@@ -409,7 +429,7 @@ def build_attraction(a, idx):
     body = f"""
 <nav class="wrap crumbs" aria-label="Okruszki">
   <a href="../index.html">Strona główna</a> <span aria-hidden="true">/</span>
-  <a href="../index.html#kat-{a['cat']}">{escape(cat_name)}</a> <span aria-hidden="true">/</span>
+  <a href="../atrakcje.html#kat-{a['cat']}">{escape(cat_name)}</a> <span aria-hidden="true">/</span>
   <span aria-current="page">{escape(a['name'])}</span>
 </nav>
 
@@ -958,7 +978,7 @@ def main():
     for name in ("style.css", "site.js", "map.js", "leaflet.css"):
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
-           "kalendarz.html": build_calendar(), "teatry.html": build_theatres(),
+           "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
