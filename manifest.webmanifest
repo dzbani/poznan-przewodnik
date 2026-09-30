@@ -1,0 +1,17 @@
+{
+  "name": "Odkrywaj Poznań – przewodnik dla odwiedzających",
+  "short_name": "Odkrywaj Poznań",
+  "description": "Atrakcje Poznania z godzinami otwarcia, cenami biletów i dojazdem, plany zwiedzania, mapa i kalendarz wydarzeń.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF6EF",
+  "theme_color": "#22437F",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

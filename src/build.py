@@ -130,6 +130,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <link rel="icon" href="{prefix}img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{prefix}img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="{prefix}img/apple-touch-icon.png">
+<link rel="manifest" href="{prefix}manifest.webmanifest">
 <meta name="theme-color" content="#22437F">
 <meta name="description" content="{escape(desc)}">
 {FONTS}
