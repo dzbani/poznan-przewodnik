@@ -2,7 +2,5 @@
 __pycache__/
 *.pyc
 index.backup-*.html
-# Surowe dane OSM do podkładu mapy (5 MB, do odtworzenia: python src/fetch_basemap.py)
-src/basemap_raw.json
 # Ustawienia lokalnego podglądu
 .claude/

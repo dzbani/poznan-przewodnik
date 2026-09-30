@@ -96,7 +96,6 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] Filtry jak na stronie głównej, lista, dymki z linkiem do podstrony, mapa.html#<slug> otwiera atrakcję
 - [x] Znaczniki wersji ?v= przy style.css/site.js/map.js (przeglądarki trzymały stary CSS)
 - Nowa atrakcja = dopisać współrzędne: python src/geocode.py (pomija istniejące) i sprawdzić wynik
-- Podkład odświeżyć: python src/fetch_basemap.py (usuń basemap_raw.json) && python src/render_basemap.py
 
 ## Kalendarz wydarzeń — GOTOWE 30.09.2026
 - [x] kalendarz.html z src/data_events.py (CALENDAR, 14 wydarzeń), sekcja „Nadchodzące wydarzenia” na stronie głównej liczona z kalendarza
@@ -113,4 +112,4 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 ## Mapa na kafelkach OpenStreetMap — GOTOWE 30.09.2026
 - [x] map.js: L.tileLayer tile.openstreetmap.org zamiast własnego podkładu SVG (na GitHub Pages nie ma CSP artefaktu), bez ograniczenia do granic Poznania, zoom 8–18
 - [x] Wycieczki za miasto na mapie (współrzędne z pola trip), po wybraniu kategorii mapa dopasowuje widok (fitVisible)
-- NIEUŻYWANE od teraz: img/mapa-podklad.svg, src/fetch_basemap.py, src/render_basemap.py, src/basemap_raw.json — można usunąć
+- Stary podkład SVG i skrypty fetch_basemap.py / render_basemap.py usunięte 30.09.2026 (są w historii gita)
