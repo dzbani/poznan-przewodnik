@@ -822,5 +822,11 @@
   "lon": 16.940679,
   "q": "ręcznie",
   "name": "jak muzeum-kultur-swiata: dziedziniec Muzeum Kultur Świata"
+ },
+ "teatr-wielki": {
+  "lat": 52.4102403,
+  "lon": 16.9176985,
+  "q": "Teatr Wielki, Poznań",
+  "name": "Teatr Wielki, 9, Aleksandra Fredry, Stare Miasto, Poznań"
  }
 }

@@ -87,7 +87,7 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] Wyszukiwarka, szybkie filtry (bezpłatne/dla dzieci/pod dachem), Top 10, kafelki kategorii, przycisk do góry, nowa nawigacja — v12
 - [x] Duże i zabytkowe parki (src/data_parks.py, 29.09.2026): Park Tysiąclecia, Park Rataje + skansen ŚKP, Stare Koryto Warty, Park Szelągowski, Park Kasprowicza (bez zdjęcia), Park nad Wartą, Park Wieniawskiego, Park Moniuszki, Ogród Zamkowy, Rezerwat Meteoryt Morasko, Lasek Marceliński. Pominięte jako osiedlowe/małe: pozostałe pozycje z POI „parki” (m.in. Kasserna, Gorczyński, Manitiusa, Traszki, Heweliusza, Drwęskich, Wodziczki)
 - [x] Pomniki i fontanny (src/data_monuments.py, nowa kategoria „pomniki”, 29.09.2026, v14): wszystkie 21+10 pozycji z POI poznan.pl; Czerwiec 1956 przeniesiony do „pomniki”; Paderewski i Wiedźma bez zdjęcia
-- [ ] Teatry i sale koncertowe (Teatr Wielki, Filharmonia…)
+- [x] Teatry i sale koncertowe — 30.09.2026: strona teatry.html (src/data_theatres.py, 8 scen, bez repertuaru i cen spektakli), Teatr Wielki jako atrakcja w „zabytki” (zwiedzanie Za kulisami 10 zł)
 - [ ] Rozrywka komercyjna (nietypowe atrakcje) — user nie zaprzeczył przy ostatnim doprecyzowaniu
 
 ## Mapa atrakcji — GOTOWE 29.09.2026, artifact v26

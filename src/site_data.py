@@ -1037,6 +1037,7 @@ from data_churches import CHURCHES  # noqa: E402  (zabytkowe kościoły, partia 
 from data_final import FINAL  # noqa: E402  (forty, jeziora, parki, Okrąglak, linie turystyczne)
 from data_parks import PARKS  # noqa: E402  (etap 7: duże i zabytkowe parki, Morasko, Lasek Marceliński)
 from data_monuments import MONUMENTS  # noqa: E402  (etap 7: pomniki i fontanny z POI poznan.pl)
+from data_theatres import THEATRE_ATTR  # noqa: E402  (Teatr Wielki, 30.09.2026)
 from data_trips import TRIPS  # noqa: E402  (wycieczki za miasto, 30.09.2026)
-ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS, key=lambda a: _ORDER[a["cat"]])
+ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR, key=lambda a: _ORDER[a["cat"]])
 

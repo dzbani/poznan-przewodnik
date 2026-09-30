@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Generator stron przewodnika. Uruchom: python src/build.py
-Tworzy: index.html, informacje.html, plany.html, kalendarz.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
+Tworzy: index.html, informacje.html, plany.html, kalendarz.html, teatry.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
 import datetime
 import json
 import os
@@ -12,6 +12,7 @@ from site_data import ATTRACTIONS, CATEGORIES, CHECKED
 from data_guide import (TOP10, KIDS, INDOOR_EXTRA, PLANS, HISTORY, LEGENDS, DIALECT, CUISINE,
                         CLIMATE, TOILETS)
 from data_events import CALENDAR, CAL_CHECKED
+from data_theatres import THEATRES, THEATRE_SOURCES, THEATRES_CHECKED
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDITS = {c["slug"]: c for c in json.load(open(os.path.join(ROOT, "img", "credits.json"), encoding="utf-8"))}
@@ -164,6 +165,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
       <li><a href="{prefix}o-poznaniu.html">O Poznaniu: historia, legendy, gwara</a></li>
       <li><a href="{prefix}kalendarz.html">Kalendarz wydarzeń</a></li>
+      <li><a href="{prefix}teatry.html">Teatry i koncerty</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
@@ -353,6 +355,7 @@ def build_index():
     <li><a href="informacje.html#toalety"><h3>Toalety publiczne</h3><p>Gdzie są przy trasach turystycznych i w jakich godzinach.</p></a></li>
     <li><a href="informacje.html#parkowanie"><h3>Samochodem</h3><p>Strefy płatnego parkowania, ceny i parkingi Park&amp;Ride.</p></a></li>
     <li><a href="o-poznaniu.html"><h3>O Poznaniu</h3><p>Historia, legendy, gwara, kuchnia i pogoda.</p></a></li>
+    <li><a href="teatry.html"><h3>Teatry i koncerty</h3><p>Opera, filharmonia, taniec i teatr lalek. Co zrozumiesz bez polskiego.</p></a></li>
   </ul>
 </section>
 
@@ -719,6 +722,57 @@ def build_plans():
     return page("Plany zwiedzania – Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, za darmo i w poniedziałek.", active="plany")
 
 
+def venue_card(v):
+    img = ""
+    if v["img"]:
+        img = f"""<figure class="venue-img"><img src="img/{v['img']}.jpg" alt="" loading="lazy" decoding="async">{credit_badge(v['img'])}</figure>"""
+    lang = ('<p class="venue-lang venue-lang-ok">Bez znajomości polskiego</p>' if v["lang"]
+            else '<p class="venue-lang">Spektakle po polsku</p>')
+    desc = "".join(f"<p>{escape(p)}</p>" for p in v["desc"])
+    links = "".join(f'<a href="{escape(u)}" target="_blank" rel="noopener">{icon("globe")} {escape(t)}</a>' for t, u in v["links"])
+    if v["attraction"]:
+        links += f'<a href="atrakcje/{v["attraction"]}.html">{icon("arrow")} {escape(BY_SLUG[v["attraction"]]["name"])} w przewodniku</a>'
+    maps = "https://www.google.com/maps/search/?api=1&query=" + quote_plus(f'{v["name"]}, {v["address"]}')
+    return f"""<article id="{v['id']}" class="venue">
+  {img}
+  <div class="venue-body">
+    <p class="kicker">{escape(v['kind'])}</p>
+    <h2>{escape(v['name'])}</h2>
+    {lang}
+    {desc}
+    <p class="muted">{icon('pin')} <a href="{maps}" target="_blank" rel="noopener">{escape(v['address'])}</a></p>
+    <p class="venue-links">{links}</p>
+  </div>
+</article>"""
+
+
+def build_theatres():
+    toc = "".join(f'<a href="#{v["id"]}">{escape(v["name"].split(" (")[0])}</a>' for v in THEATRES)
+    src = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener">{escape(t)}</a></li>' for t, u in THEATRE_SOURCES)
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Kultura</p>
+  <h1>Teatry i koncerty</h1>
+  <p class="lead">Najważniejsze sceny Poznania: opera, filharmonia, teatry dramatyczne, taniec i teatr lalek. Przy każdej scenie podajemy, co gra, jak kupić bilety i czy spektakl zrozumie osoba nieznająca polskiego. Aktualny repertuar i ceny są na stronach teatrów.</p>
+  <nav class="toc" aria-label="Wybierz scenę">{toc}</nav>
+</header>
+<div class="wrap venues">
+  {''.join(venue_card(v) for v in THEATRES)}
+  <aside class="panel venue-more">
+    <h2>Warto wiedzieć</h2>
+    <p>Bilety na wiele wydarzeń sprzedaje Centrum Informacji Kulturalnej przy ul. Ratajczaka 44.</p>
+    <p>Koncerty, sceny teatralne i festiwale działają też w <a href="atrakcje/zamek-cesarski.html">Centrum Kultury Zamek</a>. Coroczne festiwale, m.in. Malta Festival i Ethno Port, są w <a href="kalendarz.html">kalendarzu wydarzeń</a>.</p>
+  </aside>
+  <section class="sources">
+    <h2>Źródła informacji</h2>
+    <ul>{src}</ul>
+    <p class="muted small">Sprawdzono {THEATRES_CHECKED}.</p>
+  </section>
+</div>
+"""
+    return page("Teatry i koncerty – Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.")
+
+
 def cal_event(e):
     if e["dates"]:
         badge = f'<p class="event-date">{escape(fmt_range(*e["dates"]))}</p>'
@@ -762,7 +816,7 @@ def build_calendar():
   <nav class="toc" aria-label="Wybierz miesiąc">{''.join(toc)}</nav>
 </header>
 <div class="wrap cal">{''.join(months)}
-  <p class="muted small">Terminy sprawdzono {CAL_CHECKED} na stronach organizatorów. Przed przyjazdem potwierdź je u organizatora. Bieżący program kulturalny miasta: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a>.</p>
+  <p class="muted small">Terminy sprawdzono {CAL_CHECKED} na stronach organizatorów. Przed przyjazdem potwierdź je u organizatora. Bieżący program kulturalny miasta: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a>. Stałe sceny: <a href="teatry.html">teatry i koncerty</a>.</p>
 </div>
 """
     return page("Kalendarz wydarzeń – Poznań", body, desc="Coroczne wydarzenia w Poznaniu: Malta Festival, Ethno Port, Noc Muzeów, Imieniny Ulicy Święty Marcin, jarmarki świąteczne, maraton i inne. Terminy i miejsca.", active="kalendarz")
@@ -908,7 +962,7 @@ def main():
     for name in ("style.css", "site.js", "map.js", "leaflet.css"):
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
-           "kalendarz.html": build_calendar(),
+           "kalendarz.html": build_calendar(), "teatry.html": build_theatres(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
