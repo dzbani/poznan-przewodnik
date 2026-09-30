@@ -460,3 +460,13 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .report { font-size: 0.88rem; }
 .report a { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
 .report a:hover { color: var(--gold-2); }
+
+/* ─── Baner zgody na statystyki ─── */
+.consent { position: fixed; z-index: 60; left: 50%; bottom: 16px; transform: translateX(-50%); width: min(720px, calc(100% - 32px)); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 16px 40px rgba(20, 35, 60, 0.22); padding: 18px 20px; display: flex; gap: 16px 20px; align-items: center; flex-wrap: wrap; }
+.consent[hidden] { display: none; }
+.consent p { flex: 1 1 320px; font-size: 0.92rem; }
+.consent-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+/* Oba przyciski wyglądają tak samo: odrzucenie nie może być trudniejsze niż zgoda. */
+.btn-consent { background: var(--gold); color: var(--on-gold); border: 0; cursor: pointer; font: inherit; font-weight: 600; min-width: 128px; justify-content: center; }
+.btn-consent:hover { background: var(--gold-2); color: var(--on-gold); }
+@media (max-width: 600px) { .consent { bottom: 8px; padding: 16px; } .consent-btns { width: 100%; } .btn-consent { flex: 1; } }

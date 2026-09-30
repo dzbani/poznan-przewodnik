@@ -198,3 +198,56 @@
   var empty = box.parentNode.querySelector('.events-empty');
   if (empty) empty.hidden = shown > 0;
 })();
+
+// 6. Zgoda na statystyki (Google Analytics 4). Skrypt Google ładuje się WYŁĄCZNIE po „Akceptuję”.
+//    Wybór zapamiętujemy w przeglądarce (to niezbędne, by nie pytać na każdej stronie).
+//    „Ustawienia cookies” w stopce pozwala zmienić decyzję; cofnięcie zgody usuwa cookies GA.
+(function () {
+  var box = document.querySelector('.consent');
+  if (!box) return;
+  var id = box.dataset.ga, KEY = 'op-zgoda-statystyki', loaded = false;
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadGA() {
+    if (loaded || !id) return;
+    loaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    gtag('config', id);
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+    document.head.appendChild(s);
+  }
+  function dropCookies() {
+    var host = location.hostname, parts = host.split('.'), domains = ['', host, '.' + host];
+    if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+    document.cookie.split(';').forEach(function (c) {
+      var name = c.split('=')[0].trim();
+      if (!/^_ga/.test(name)) return;
+      domains.forEach(function (d) {
+        document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + (d ? '; domain=' + d : '');
+      });
+    });
+  }
+  function decide(v) {
+    save(v);
+    box.hidden = true;
+    if (v === 'granted') loadGA();
+    else {
+      if (window.gtag) gtag('consent', 'update', { analytics_storage: 'denied' });
+      dropCookies();
+    }
+  }
+  box.querySelectorAll('[data-consent]').forEach(function (b) {
+    b.addEventListener('click', function () { decide(b.dataset.consent); });
+  });
+  document.querySelectorAll('[data-consent-open]').forEach(function (b) {
+    b.addEventListener('click', function () { box.hidden = false; box.querySelector('[data-consent]').focus(); });
+  });
+  var v = read();
+  if (v === 'granted') loadGA();
+  else if (v !== 'denied') box.hidden = false;
+})();

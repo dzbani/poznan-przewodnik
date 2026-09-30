@@ -176,10 +176,18 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}teatry.html">Teatry i koncerty</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
       <li><a href="{prefix}prywatnosc.html">Prywatność</a></li>
+      <li><button type="button" class="linkish" data-consent-open>Ustawienia cookies</button></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
   </div>
 </footer>
+<div class="consent" role="region" aria-label="Zgoda na statystyki" data-ga="{GA_ID}" hidden>
+  <p>Chcemy liczyć odwiedziny w Google Analytics, żeby wiedzieć, które części przewodnika są przydatne. To wymaga plików cookies, więc włączymy statystyki tylko za Twoją zgodą. <a href="{prefix}prywatnosc.html#cookies">Szczegóły</a></p>
+  <div class="consent-btns">
+    <button type="button" class="btn btn-consent" data-consent="denied">Odrzucam</button>
+    <button type="button" class="btn btn-consent" data-consent="granted">Akceptuję</button>
+  </div>
+</div>
 <button type="button" class="to-top" aria-label="Wróć na górę strony" hidden>{icon("up")}</button>
 {scripts}<script src="{prefix}assets/site.js?v={asset_v("site.js")}"></script>
 </body>
@@ -990,6 +998,9 @@ def build_map():
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
 
 
+# Google Analytics 4: ładowany przez site.js WYŁĄCZNIE po kliknięciu „Akceptuję” w banerze zgody.
+GA_ID = "G-S4K8EW3YGQ"
+
 # Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
 CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
 PRIVACY_UPDATED = "30.09.2026"
@@ -1002,9 +1013,9 @@ def build_privacy():
 <header class="wrap page-head">
   <p class="kicker">Informacje prawne</p>
   <h1>Prywatność</h1>
-  <p class="lead">Krótko: ten przewodnik nie używa plików cookies, nie ma statystyk ani reklam i nie zbiera żadnych danych o odwiedzających. Poniżej opisujemy, jakie informacje mogą mimo to trafić do usług, z których korzysta strona.</p>
+  <p class="lead">Krótko: nie ma tu reklam, formularzy ani kont. Jedyne, o co prosimy, to zgoda na anonimowe statystyki odwiedzin w Google Analytics. Bez Twojej zgody strona nie zapisuje cookies i nie łączy się z Google.</p>
   <nav class="toc" aria-label="Spis treści">
-    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies</a><a href="#hosting">Serwer</a>
+    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies i statystyki</a><a href="#hosting">Serwer</a>
     <a href="#zewnetrzne">Usługi zewnętrzne</a><a href="#prawa">Twoje prawa</a>
   </nav>
 </header>
@@ -1012,13 +1023,22 @@ def build_privacy():
 <div class="wrap prose">
 <section id="kto">
   <h2>Kto prowadzi stronę</h2>
-  <p>Przewodnik „Odkrywaj Poznań” (odkrywajpoznan.pl) to prywatna, niekomercyjna strona, niezwiązana z Urzędem Miasta Poznania. W sprawach strony i prywatności pisz na adres {mail}.</p>
+  <p>Przewodnik „Odkrywaj Poznań” (odkrywajpoznan.pl) to prywatna, niekomercyjna strona, niezwiązana z Urzędem Miasta Poznania. Administratorem danych ze statystyk opisanych niżej jest „Odkrywaj Poznań”. W sprawach strony i prywatności pisz na adres {mail}.</p>
 </section>
 
 <section id="cookies">
   <h2>Cookies i statystyki</h2>
-  <p>Strona nie zapisuje w Twoim urządzeniu plików cookies ani innych danych. Nie korzysta z narzędzi analitycznych (np. Google Analytics), reklamowych ani z przycisków portali społecznościowych. Nie ma formularzy, więc nie podajesz nam żadnych danych.</p>
-  <p>Jeśli dodasz stronę do ekranu głównego telefonu, przeglądarka może przechowywać jej pliki w swojej zwykłej pamięci podręcznej. Nie są to dane o Tobie.</p>
+  <p>Przy pierwszej wizycie pytamy, czy możemy liczyć odwiedziny w <strong>Google Analytics 4</strong>. Dzięki temu wiemy, które strony są czytane i co warto rozwijać. Oba przyciski, „Akceptuję” i „Odrzucam”, są równorzędne, a odmowa niczego nie blokuje.</p>
+  <ul>
+    <li><strong>Gdy odrzucisz albo nic nie wybierzesz:</strong> skrypt Google nie jest wczytywany, nie powstają żadne cookies i nic nie jest wysyłane do Google.</li>
+    <li><strong>Gdy zaakceptujesz:</strong> przeglądarka pobiera skrypt z googletagmanager.com i wysyła do Google Analytics informacje o wizycie: otwierane strony, adres strony, z której przychodzisz, przybliżoną lokalizację (miasto, kraj ustalone z adresu IP, który Google Analytics 4 nie przechowuje), typ urządzenia, system i przeglądarkę, rozdzielczość ekranu oraz język. Google zapisuje cookies <code>_ga</code> i <code>_ga_S4K8EW3YGQ</code>, które pozwalają odróżnić powracającą przeglądarkę od nowej. Wygasają po 2 latach.</li>
+  </ul>
+  <p>Nie używamy funkcji reklamowych Google ani sygnałów Google (zgody na nie są wyłączone), nie łączymy statystyk z innymi danymi i nie próbujemy ustalić, kim jesteś. Widzimy tylko zbiorcze raporty.</p>
+  <p><strong>Podstawa prawna:</strong> Twoja zgoda (art. 6 ust. 1 lit. a RODO, art. 399 Prawa komunikacji elektronicznej). Możesz ją w każdej chwili cofnąć przyciskiem <button type="button" class="linkish" data-consent-open>Ustawienia cookies</button> (jest też w stopce każdej strony). Po cofnięciu zgody usuwamy cookies Google Analytics z Twojej przeglądarki. Cofnięcie nie wpływa na zgodność z prawem wcześniejszego zbierania statystyk.</p>
+  <p><strong>Odbiorca i przekazanie poza EOG:</strong> dane trafiają do Google Ireland Limited. Mogą być przetwarzane także przez Google LLC w USA, które uczestniczy w programie EU-U.S. Data Privacy Framework (decyzja Komisji Europejskiej stwierdzająca odpowiedni stopień ochrony). Zasady: {ext("https://policies.google.com/privacy?hl=pl", "polityka prywatności Google")}, {ext("https://business.safety.google/adsprocessorterms/", "warunki przetwarzania danych")}.</p>
+  <p><strong>Jak długo:</strong> dane o wizytach są przechowywane w Google Analytics przez 14 miesięcy, potem Google je usuwa.</p>
+  <p><strong>Twój wybór</strong> zapisujemy w pamięci przeglądarki (localStorage, wpis <code>op-zgoda-statystyki</code>), żeby nie pytać na każdej stronie. To nie jest cookie, nie jest nigdzie wysyłane i znika po wyczyszczeniu danych strony w przeglądarce.</p>
+  <p>Jeśli dodasz stronę do ekranu głównego telefonu, przeglądarka może przechowywać jej pliki w zwykłej pamięci podręcznej. Nie są to dane o Tobie.</p>
 </section>
 
 <section id="hosting">
@@ -1029,18 +1049,23 @@ def build_privacy():
 
 <section id="zewnetrzne">
   <h2>Usługi zewnętrzne</h2>
-  <p>Czcionki, zdjęcia i skrypty strony są na naszym serwerze. Jedyny wyjątek to <strong>mapa atrakcji</strong> (tylko strona Mapa): jej podkład pochodzi z serwerów OpenStreetMap, więc przeglądarka przekazuje im adres IP ({ext("https://osmfoundation.org/wiki/Privacy_Policy", "zasady OSMF")}).</p>
+  <p>Czcionki, zdjęcia i skrypty strony są na naszym serwerze. Wyjątki to:</p>
+  <ul>
+    <li><strong>Google Analytics</strong> (googletagmanager.com, google-analytics.com), wyłącznie po Twojej zgodzie, opisane wyżej;</li>
+    <li><strong>mapa atrakcji</strong> (tylko strona Mapa): jej podkład pochodzi z serwerów OpenStreetMap, więc przeglądarka przekazuje im adres IP ({ext("https://osmfoundation.org/wiki/Privacy_Policy", "zasady OSMF")}).</li>
+  </ul>
   <p>Linki „Pokaż na mapie” i „Trasa” otwierają Mapy Google, a pozostałe linki prowadzą do stron muzeów, organizatorów i innych serwisów. Po przejściu na nie obowiązują ich własne zasady prywatności.</p>
 </section>
 
 <section id="prawa">
   <h2>Twoje prawa</h2>
-  <p>Sami nie przetwarzamy Twoich danych osobowych. Masz jednak prawa wynikające z RODO wobec firm opisanych wyżej, np. prawo dostępu do danych, ich sprostowania lub usunięcia. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych ({ext("https://uodo.gov.pl", "uodo.gov.pl")}).</p>
+  <p>W zakresie statystyk masz prawo do cofnięcia zgody, dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania i przeniesienia. Statystyki nie pozwalają nam jednak ustalić, które dane dotyczą właśnie Ciebie, więc najprostszym sposobem jest cofnięcie zgody, które usuwa identyfikator z Twojej przeglądarki. W innych sprawach napisz na {mail}.</p>
+  <p>Wobec GitHub, OpenStreetMap i Google masz te same prawa na podstawie RODO. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych ({ext("https://uodo.gov.pl", "uodo.gov.pl")}).</p>
   <p class="muted">Ostatnia aktualizacja: {PRIVACY_UPDATED}.</p>
 </section>
 </div>
 """
-    return page("Prywatność – Odkrywaj Poznań", body, desc="Zasady prywatności przewodnika Odkrywaj Poznań: bez cookies, bez statystyk, informacje o serwerze i usługach zewnętrznych.")
+    return page("Prywatność – Odkrywaj Poznań", body, desc="Zasady prywatności przewodnika Odkrywaj Poznań: statystyki Google Analytics tylko za zgodą, cookies, serwer i usługi zewnętrzne.")
 
 
 def build_404():
