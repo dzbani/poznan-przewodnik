@@ -380,7 +380,7 @@ MONUMENTS = [
       [wiki("Pomnik Hipolita Cegielskiego w Poznaniu")]),
 
     M("pomnik-paderewskiego", "Pomnik Ignacego Jana Paderewskiego",
-      "",
+      "Figura Paderewskiego przed szklaną fasadą Akademii Muzycznej",
       "Pomnik pianisty i męża stanu przed Akademią Muzyczną jego imienia, odsłonięty w 2015 roku.",
       "Figura Ignacego Jana Paderewskiego stoi przed budynkiem Akademii Muzycznej w Poznaniu, której jest patronem. Odsłonięto ją w 2015 roku, w 155. rocznicę urodzin Paderewskiego.",
       [("O pomniku", [
@@ -392,7 +392,7 @@ MONUMENTS = [
       ])],
       "ul. Święty Marcin 87 (przed Akademią Muzyczną), Poznań",
       ("poznan.pl: Pomnik Paderewskiego", PM + "pomnik-paderewskiego,65724.html"),
-      img=None),
+      img=True),
 
     M("pomnik-ratajskiego", "Pomnik Cyryla Ratajskiego",
       "Siedząca figura Cyryla Ratajskiego przed Poznańskim Centrum Finansowym",

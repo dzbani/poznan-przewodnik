@@ -66,7 +66,7 @@ THEATRES = [
     ),
     dict(
         id="teatr-osmego-dnia", name="Teatr Ósmego Dnia",
-        kind="Teatr alternatywny", lang=False, img=None, attraction=None,
+        kind="Teatr alternatywny", lang=False, img="teatr-osmego-dnia", attraction=None,
         desc=["Legendarny teatr alternatywny, założony w 1964 roku jako teatr studencki. W czasach PRL jego spektakle ostro komentowały rzeczywistość, a w latach 1986–1989 zespół działał wyłącznie za granicą, grając m.in. przedstawienia uliczne w całej Europie.",
               "Siedziba jest na II piętrze. Teatr otwiera się godzinę przed wydarzeniem, a przy wejściu jest winda i platforma."],
         address="ul. Ratajczaka 44, 61-728 Poznań",
