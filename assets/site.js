@@ -154,3 +154,38 @@
   toggle();
   btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 })();
+
+// 6. Wydarzenia: zakończone edycje są oznaczane według dzisiejszej daty w przeglądarce,
+//    a na stronie głównej widać tylko najbliższe (data-upcoming) jeszcze trwające wydarzenia.
+(function () {
+  var d = new Date();
+  var today = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  document.querySelectorAll('.cal-event[data-end]').forEach(function (ev) {
+    if (ev.dataset.end >= today) return;
+    ev.classList.add('is-past');
+    var badge = ev.querySelector('.event-past');
+    if (badge) badge.hidden = false;
+  });
+  // Kalendarz zaczyna się od bieżącego miesiąca; wcześniejsze miesiące trafiają na koniec (przyszły rok).
+  var cal = document.querySelector('.cal');
+  if (cal) {
+    var month = d.getMonth() + 1, toc = document.querySelector('.toc');
+    var secs = Array.prototype.slice.call(cal.querySelectorAll('.cal-month'));
+    var tail = cal.querySelector('.cal > p:last-child');
+    secs.filter(function (s) { return parseInt(s.id.slice(1), 10) < month; }).forEach(function (s) {
+      cal.insertBefore(s, tail);
+      var link = toc && toc.querySelector('a[href="#' + s.id + '"]');
+      if (link) toc.appendChild(link);
+    });
+  }
+  var box = document.querySelector('.events[data-upcoming]');
+  if (!box) return;
+  var max = parseInt(box.dataset.upcoming, 10), shown = 0;
+  box.querySelectorAll('.event[data-end]').forEach(function (ev) {
+    var on = ev.dataset.end >= today && shown < max;
+    ev.hidden = !on;
+    if (on) shown++;
+  });
+  var empty = box.parentNode.querySelector('.events-empty');
+  if (empty) empty.hidden = shown > 0;
+})();

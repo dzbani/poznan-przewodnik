@@ -97,3 +97,9 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] Znaczniki wersji ?v= przy style.css/site.js/map.js (przeglądarki trzymały stary CSS)
 - Nowa atrakcja = dopisać współrzędne: python src/geocode.py (pomija istniejące) i sprawdzić wynik
 - Podkład odświeżyć: python src/fetch_basemap.py (usuń basemap_raw.json) && python src/render_basemap.py
+
+## Kalendarz wydarzeń — GOTOWE 30.09.2026
+- [x] kalendarz.html z src/data_events.py (CALENDAR, 14 wydarzeń), sekcja „Nadchodzące wydarzenia” na stronie głównej liczona z kalendarza
+- [x] site.js: zakończone edycje oznaczone wg daty w przeglądarce, kalendarz zaczyna się od bieżącego miesiąca
+- Pominięte: Jarmark Świętojański (nie odbył się 2024 i 2025), „Poznań za pół ceny” (miasto zrezygnowało)
+- Do uzupełnienia: termin Betlejem Poznańskiego 2026/27 (Plac Wolności, Stary Rynek); terminy 2027 po ogłoszeniu (pole dates)

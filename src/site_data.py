@@ -1038,14 +1038,3 @@ from data_parks import PARKS  # noqa: E402  (etap 7: duże i zabytkowe parki, Mo
 from data_monuments import MONUMENTS  # noqa: E402  (etap 7: pomniki i fontanny z POI poznan.pl)
 ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS, key=lambda a: _ORDER[a["cat"]])
 
-EVENTS = [
-    ("11 Lis 2026", "Imieniny Ulicy Święty Marcin",
-     "Największe święto ulicy w Poznaniu, w Narodowe Święto Niepodległości. Korowód świętego Marcina, przekazanie kluczy do miasta, koncerty i jarmark przed CK Zamek.",
-     "ul. Święty Marcin"),
-    ("Sezon 2026/27", "Betlejem Poznańskie",
-     "Świąteczny jarmark z diabelskim młynem i karuzelą. Poprzednia edycja trwała od 15.11.2025 do 6.01.2026 na Placu Wolności, Starym Rynku i MTP. Termin na 2026 rok nie jest jeszcze ogłoszony.",
-     "3 lokalizacje"),
-    ("11–13 Gru 2026", "Poznań Ice Festival",
-     "Jubileuszowa, 20. edycja festiwalu rzeźb lodowych. Rzeźbiarze z całego świata rywalizują w Speed Ice Carving i w Konkursie Głównym.",
-     "Stary Rynek"),
-]

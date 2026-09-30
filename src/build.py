@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 """Generator stron przewodnika. Uruchom: python src/build.py
-Tworzy: index.html, informacje.html, plany.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
+Tworzy: index.html, informacje.html, plany.html, kalendarz.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
+import datetime
 import json
 import os
 import shutil
 from html import escape
 from urllib.parse import quote_plus
 
-from site_data import ATTRACTIONS, CATEGORIES, CHECKED, EVENTS
+from site_data import ATTRACTIONS, CATEGORIES, CHECKED
 from data_guide import (TOP10, KIDS, INDOOR_EXTRA, PLANS, HISTORY, LEGENDS, DIALECT, CUISINE,
                         CLIMATE, TOILETS)
+from data_events import CALENDAR, CAL_CHECKED
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDITS = {c["slug"]: c for c in json.load(open(os.path.join(ROOT, "img", "credits.json"), encoding="utf-8"))}
@@ -35,6 +37,25 @@ ICON = {
     "up": '<path d="M12 19V5M6 11l6-6 6 6"/>',
     "alert": '<path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/>',
 }
+
+
+MONTHS = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień",
+          "Wrzesień", "Październik", "Listopad", "Grudzień"]
+MONTHS_GEN = ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia",
+              "września", "października", "listopada", "grudnia"]
+UPCOMING_MAX = 4
+
+
+def fmt_range(start, end):
+    """'2026-06-21', '2026-06-28' -> '21–28 czerwca 2026'."""
+    a, b = datetime.date.fromisoformat(start), datetime.date.fromisoformat(end)
+    if a == b:
+        return f"{a.day} {MONTHS_GEN[a.month - 1]} {a.year}"
+    if (a.year, a.month) == (b.year, b.month):
+        return f"{a.day}–{b.day} {MONTHS_GEN[a.month - 1]} {a.year}"
+    if a.year == b.year:
+        return f"{a.day} {MONTHS_GEN[a.month - 1]} – {b.day} {MONTHS_GEN[b.month - 1]} {a.year}"
+    return f"{a.day} {MONTHS_GEN[a.month - 1]} {a.year} – {b.day} {MONTHS_GEN[b.month - 1]} {b.year}"
 
 
 def icon(name, cls="ico"):
@@ -105,6 +126,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
         {nav_link("index.html#atrakcje", "Atrakcje", "atrakcje")}
         {nav_link("mapa.html", "Mapa", "mapa")}
         {nav_link("plany.html", "Plany zwiedzania", "plany")}
+        {nav_link("kalendarz.html", "Wydarzenia", "kalendarz")}
         {nav_link("informacje.html", "Praktycznie", "info")}
         {nav_link("o-poznaniu.html", "O Poznaniu", "o")}
       </ul>
@@ -127,7 +149,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}plany.html">Plany zwiedzania</a></li>
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
       <li><a href="{prefix}o-poznaniu.html">O Poznaniu: historia, legendy, gwara</a></li>
-      <li><a href="{prefix}index.html#wydarzenia">Wydarzenia</a></li>
+      <li><a href="{prefix}kalendarz.html">Kalendarz wydarzeń</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
@@ -209,12 +231,22 @@ def build_index():
   <img src="img/{cover['img']}.jpg" alt="" loading="lazy" decoding="async">
   <span class="tile-t">{escape(n)}</span><span class="tile-n">{len(items)}</span></a></li>""")
     top = "".join(card(BY_SLUG[s], num=i) for i, s in enumerate(TOP10, 1))
-    events = "".join(f"""<article class="event">
-  <p class="event-date">{escape(dt)}</p>
-  <h3>{escape(t)}</h3>
-  <p>{escape(ds)}</p>
-  <p class="muted">{icon('pin')} {escape(where)}</p>
-</article>""" for dt, t, ds, where in EVENTS)
+    # Wszystkie wydarzenia z datą; site.js ukrywa zakończone i pokazuje najbliższe UPCOMING_MAX.
+    # Bez JS widać stan z dnia budowania strony.
+    today = datetime.date.today().isoformat()
+    dated = sorted((e for e in CALENDAR if e["dates"]), key=lambda e: e["dates"][0])
+    shown = 0
+    ev_items = []
+    for e in dated:
+        visible = e["dates"][1] >= today and shown < UPCOMING_MAX
+        shown += visible
+        ev_items.append(f"""<article class="event" data-end="{e['dates'][1]}"{'' if visible else ' hidden'}>
+  <p class="event-date">{escape(fmt_range(*e['dates']))}</p>
+  <h3><a href="kalendarz.html#{e['id']}">{escape(e['name'])}</a></h3>
+  <p>{escape(e['desc'][0])}</p>
+  <p class="muted">{icon('pin')} {escape(e['place'])}</p>
+</article>""")
+    events = "".join(ev_items)
     closed = [a for a in ATTRACTIONS if a["status"]]
     closed_html = "".join(
         f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>: {escape(a["status"][1].split(". ")[0])}.</li>'
@@ -312,8 +344,10 @@ def build_index():
 
 <section id="wydarzenia" class="wrap section">
   <div class="section-head"><p class="kicker">Kalendarz</p><h2>Nadchodzące wydarzenia</h2></div>
-  <div class="events">{events}</div>
-  <p class="muted small">Pełny kalendarz kulturalny: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a></p>
+  <div class="events" data-upcoming="{UPCOMING_MAX}">{events}</div>
+  <p class="events-empty muted"{'' if shown == 0 else ' hidden'}>Najbliższe terminy nie są jeszcze ogłoszone. Sprawdź, kiedy zwykle odbywają się wydarzenia, w kalendarzu.</p>
+  <p><a class="btn btn-ghost" href="kalendarz.html">Kalendarz wydarzeń na cały rok {icon('arrow')}</a></p>
+  <p class="muted small">Bieżący program kulturalny: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a></p>
 </section>
 """
     return page("Poznań na pierwszy raz", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.", active="atrakcje")
@@ -656,6 +690,55 @@ def build_plans():
     return page("Plany zwiedzania – Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, za darmo i w poniedziałek.", active="plany")
 
 
+def cal_event(e):
+    if e["dates"]:
+        badge = f'<p class="event-date">{escape(fmt_range(*e["dates"]))}</p>'
+        end = f' data-end="{e["dates"][1]}"'
+    else:
+        badge = '<p class="event-date event-tba">Termin wkrótce</p>'
+        end = ""
+    desc = "".join(f"<p>{escape(p)}</p>" for p in e["desc"])
+    note = f'<p class="cal-note">{icon("alert")} {escape(e["note"])}</p>' if e["note"] else ""
+    src = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener">{escape(t)}</a></li>' for t, u in e["sources"])
+    return f"""<article id="{e['id']}" class="event cal-event"{end}>
+  <div class="cal-badges">{badge}<p class="event-past" hidden>Edycja zakończona</p></div>
+  <h3>{escape(e['name'])}</h3>
+  <p class="cal-when">{icon('clock')} {escape(e['when'])}</p>
+  <p class="muted">{icon('pin')} {escape(e['place'])}</p>
+  {desc}
+  {note}
+  <p><a href="{escape(e['link'][1])}" target="_blank" rel="noopener">{icon('globe')} {escape(e['link'][0])}</a></p>
+  <details class="sources"><summary>Źródła informacji</summary><ul>{src}</ul></details>
+</article>"""
+
+
+def build_calendar():
+    months = []
+    toc = []
+    for m in range(1, 13):
+        evs = sorted((e for e in CALENDAR if e["month"] == m), key=lambda e: e["dates"][0] if e["dates"] else "9")
+        if not evs:
+            continue
+        mid = f"m{m:02d}"
+        toc.append(f'<a href="#{mid}">{MONTHS[m - 1]}</a>')
+        months.append(f"""<section id="{mid}" class="cal-month">
+  <h2>{MONTHS[m - 1]}</h2>
+  <div class="events">{''.join(cal_event(e) for e in evs)}</div>
+</section>""")
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Planowanie wizyty</p>
+  <h1>Kalendarz wydarzeń</h1>
+  <p class="lead">Najważniejsze coroczne festiwale, jarmarki i imprezy w Poznaniu, miesiąc po miesiącu. Przy każdym wydarzeniu podajemy termin najbliższej lub ostatniej edycji. Gdy nowy termin nie jest jeszcze ogłoszony, piszemy, kiedy wydarzenie zwykle się odbywa. Kalendarz zaczyna się od bieżącego miesiąca.</p>
+  <nav class="toc" aria-label="Wybierz miesiąc">{''.join(toc)}</nav>
+</header>
+<div class="wrap cal">{''.join(months)}
+  <p class="muted small">Terminy sprawdzono {CAL_CHECKED} na stronach organizatorów. Przed przyjazdem potwierdź je u organizatora. Bieżący program kulturalny miasta: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a>.</p>
+</div>
+"""
+    return page("Kalendarz wydarzeń – Poznań", body, desc="Coroczne wydarzenia w Poznaniu: Malta Festival, Ethno Port, Noc Muzeów, Imieniny Ulicy Święty Marcin, jarmarki świąteczne, maraton i inne. Terminy i miejsca.", active="kalendarz")
+
+
 def build_about():
     timeline = "".join(f'<li><p class="tl-date">{escape(d)}</p><p>{escape(t)}</p></li>' for d, t in HISTORY)
     legends = "".join(f'<article class="legend"><h3>{escape(t)}</h3><p>{escape(x)}</p></article>' for t, x in LEGENDS)
@@ -793,6 +876,7 @@ def main():
     for name in ("style.css", "site.js", "map.js", "leaflet.css"):
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
+           "kalendarz.html": build_calendar(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
