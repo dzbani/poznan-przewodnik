@@ -127,6 +127,10 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>{escape(title)}</title>
+<link rel="icon" href="{prefix}img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{prefix}img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{prefix}img/apple-touch-icon.png">
+<meta name="theme-color" content="#22437F">
 <meta name="description" content="{escape(desc)}">
 {FONTS}
 {head}<link rel="stylesheet" href="{prefix}assets/style.css?v={asset_v("style.css")}">
@@ -135,7 +139,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <a class="skip" href="#tresc">Przejdź do treści</a>
 <header class="topbar">
   <div class="topbar-in">
-    <a class="logo" href="{prefix}index.html">Poznań<span>przewodnik dla odwiedzających</span></a>
+    <a class="logo" href="{prefix}index.html"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><span class="logo-t">Odkrywaj Poznań<span>przewodnik dla odwiedzających</span></span></a>
     <nav aria-label="Nawigacja główna">
       <ul>
         {nav_link("atrakcje.html", "Atrakcje", "atrakcje")}
@@ -154,7 +158,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <footer class="footer">
   <div class="wrap footer-in">
     <div>
-      <p class="footer-logo">Poznań</p>
+      <p class="footer-logo"><img src="{prefix}img/logo.svg" alt="Odkrywaj Poznań" width="120" height="120" loading="lazy"></p>
       <p class="muted">Nieoficjalny przewodnik, niezwiązany z Urzędem Miasta Poznania.
       Datę sprawdzenia godzin i cen podajemy na stronie każdej atrakcji. Przed wizytą potwierdź je na stronie obiektu.</p>
     </div>
@@ -267,7 +271,7 @@ def build_attractions():
   <p class="empty" hidden>Nic nie pasuje do wyszukiwania. Spróbuj innego słowa albo <button type="button" class="linkish" data-reset>pokaż wszystkie atrakcje</button>.</p>
 </section>
 """
-    return page("Atrakcje Poznania – przewodnik", listing, desc="Wszystkie atrakcje Poznania w kategoriach: zabytki, muzea, kościoły, parki, pomniki, rozrywka i wycieczki za miasto. Wyszukiwarka i filtry.", active="atrakcje")
+    return page("Atrakcje – Odkrywaj Poznań", listing, desc="Wszystkie atrakcje Poznania w kategoriach: zabytki, muzea, kościoły, parki, pomniki, rozrywka i wycieczki za miasto. Wyszukiwarka i filtry.", active="atrakcje")
 
 
 def build_index():
@@ -387,7 +391,7 @@ def build_index():
   <p class="muted small">Bieżący program kulturalny: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a></p>
 </section>
 """
-    return page("Poznań na pierwszy raz", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.")
+    return page("Odkrywaj Poznań – przewodnik dla odwiedzających", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.")
 
 
 def kv_rows(rows):
@@ -489,7 +493,7 @@ def build_attraction(a, idx):
   </nav>
 </section>
 """
-    return page(f"{a['name']} – Poznań", body, prefix="../", desc=a["short"], active="atrakcje")
+    return page(f"{a['name']} – Odkrywaj Poznań", body, prefix="../", desc=a["short"], active="atrakcje")
 
 
 def build_info():
@@ -612,7 +616,7 @@ def build_info():
 {info_extra()}
 </div>
 """
-    return page("Informacje praktyczne – Poznań", body, desc="Dojazd, komunikacja miejska, karta turystyczna, informacja turystyczna, zdrowie, toalety, taksówki, parkowanie i numery alarmowe w Poznaniu.", active="info")
+    return page("Informacje praktyczne – Odkrywaj Poznań", body, desc="Dojazd, komunikacja miejska, karta turystyczna, informacja turystyczna, zdrowie, toalety, taksówki, parkowanie i numery alarmowe w Poznaniu.", active="info")
 
 
 def info_extra():
@@ -739,7 +743,7 @@ def build_plans():
 </header>
 <div class="wrap plans">{''.join(blocks)}</div>
 """
-    return page("Plany zwiedzania – Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, za darmo i w poniedziałek.", active="plany")
+    return page("Plany zwiedzania – Odkrywaj Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, za darmo i w poniedziałek.", active="plany")
 
 
 def venue_card(v):
@@ -790,7 +794,7 @@ def build_theatres():
   </section>
 </div>
 """
-    return page("Teatry i koncerty – Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.")
+    return page("Teatry i koncerty – Odkrywaj Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.")
 
 
 def cal_event(e):
@@ -839,7 +843,7 @@ def build_calendar():
   <p class="muted small">Terminy sprawdzono {CAL_CHECKED} na stronach organizatorów. Przed przyjazdem potwierdź je u organizatora. Bieżący program kulturalny miasta: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a>. Stałe sceny: <a href="teatry.html">teatry i koncerty</a>.</p>
 </div>
 """
-    return page("Kalendarz wydarzeń – Poznań", body, desc="Coroczne wydarzenia w Poznaniu: Malta Festival, Ethno Port, Noc Muzeów, Imieniny Ulicy Święty Marcin, jarmarki świąteczne, maraton i inne. Terminy i miejsca.", active="kalendarz")
+    return page("Kalendarz wydarzeń – Odkrywaj Poznań", body, desc="Coroczne wydarzenia w Poznaniu: Malta Festival, Ethno Port, Noc Muzeów, Imieniny Ulicy Święty Marcin, jarmarki świąteczne, maraton i inne. Terminy i miejsca.", active="kalendarz")
 
 
 def build_about():
@@ -895,7 +899,7 @@ def build_about():
 </section>
 </div>
 """
-    return page("O Poznaniu: historia, legendy, gwara i kuchnia", body, desc="Historia Poznania w pigułce, legendy o koziołkach i hejnale, słowniczek gwary poznańskiej, kuchnia wielkopolska i klimat.", active="o")
+    return page("O Poznaniu: historia, legendy, gwara i kuchnia – Odkrywaj Poznań", body, desc="Historia Poznania w pigułce, legendy o koziołkach i hejnale, słowniczek gwary poznańskiej, kuchnia wielkopolska i klimat.", active="o")
 
 
 def build_credits():
@@ -920,7 +924,7 @@ def build_credits():
   <tbody>{''.join(rows)}</tbody>
 </table></div></div>
 """
-    return page("Autorzy zdjęć – Poznań", body, desc="Autorzy i licencje zdjęć użytych w przewodniku.")
+    return page("Autorzy zdjęć – Odkrywaj Poznań", body, desc="Autorzy i licencje zdjęć użytych w przewodniku.")
 
 
 COORDS = json.load(open(os.path.join(ROOT, "src", "coords.json"), encoding="utf-8"))
@@ -966,7 +970,7 @@ def build_map():
 <p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Do nawigacji użyj linku „Trasa komunikacją” na stronie atrakcji.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
-    return page("Mapa atrakcji – Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",
+    return page("Mapa atrakcji – Odkrywaj Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",
                 active="mapa", head=f'<link rel="stylesheet" href="assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
                 scripts='<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>\n'
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
