@@ -48,7 +48,7 @@
       "<h3>" + esc(it.n) + "</h3>" +
       '<p class="pop-badge' + (it.x ? " is-closed" : "") + '">' + esc(it.b) + "</p>" +
       "<p>" + esc(it.d) + "</p>" +
-      '<a class="pop-more" href="atrakcje/' + esc(it.s) + '.html">Szczegóły, godziny i ceny</a>' +
+      '<a class="pop-more" href="atrakcje/' + esc(it.s) + '">Szczegóły, godziny i ceny</a>' +
       (it.ap ? '<p class="pop-note">Położenie przybliżone.</p>' : "") +
       "</div>", { maxWidth: 260, minWidth: 220, autoPanPadding: [20, 20] });
     marker.bindTooltip(esc(it.n), { direction: "top", offset: [0, -6] });

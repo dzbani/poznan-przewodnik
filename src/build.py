@@ -4,6 +4,7 @@ Tworzy: index.html, atrakcje.html, informacje.html, plany.html, kalendarz.html, 
 import datetime
 import json
 import os
+import re
 import shutil
 from html import escape
 from urllib.parse import quote_plus
@@ -980,6 +981,28 @@ def build_map():
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
 
 
+SITE_URL = "https://odkrywajpoznan.pl/"
+LINK_RE = re.compile(r'\b(href|action)="([^"]*)"')
+
+
+def clean_links(html):
+    """Adresy wewnętrzne bez .html (GitHub Pages podaje /plany jako plany.html).
+    Linki zewnętrzne, kotwice i pliki inne niż HTML zostają bez zmian."""
+    def fix(m):
+        attr, url = m.group(1), m.group(2)
+        if re.match(r"^(https?:|//|mailto:|tel:|#|data:)", url):
+            return m.group(0)
+        path, rest = re.match(r"^([^#?]*)(.*)$", url).groups()
+        if path.endswith("index.html"):
+            path = path[:-len("index.html")] or "./"
+        elif path.endswith(".html"):
+            path = path[:-len(".html")]
+        else:
+            return m.group(0)
+        return f'{attr}="{path}{rest}"'
+    return LINK_RE.sub(fix, html)
+
+
 def main():
     os.makedirs(os.path.join(ROOT, "atrakcje"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
@@ -990,10 +1013,20 @@ def main():
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
+    urls = []
     for path, html in out.items():
+        # Adres kanoniczny bez .html: te same strony działają też pod /x.html, więc wskazujemy Google właściwy.
+        clean = "" if path == "index.html" else path[:-len(".html")]
+        urls.append(SITE_URL + clean)
+        html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n', 1)
         with open(os.path.join(ROOT, path), "w", encoding="utf-8", newline="\n") as f:
-            f.write(html)
-    missing = [a["img"] for a in ATTRACTIONS if a.get("img") and not os.path.exists(os.path.join(ROOT, "img", a["img"] + ".jpg"))]
+            f.write(clean_links(html))
+    with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8", newline="\n") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                + "".join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls) + "</urlset>\n")
+    with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
+    missing =[a["img"] for a in ATTRACTIONS if a.get("img") and not os.path.exists(os.path.join(ROOT, "img", a["img"] + ".jpg"))]
     print(f"Zapisano {len(out)} stron. Brakujące zdjęcia: {missing or 'brak'}")
 
 
