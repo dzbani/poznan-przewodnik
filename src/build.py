@@ -164,6 +164,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <p class="footer-logo"><img src="{prefix}img/logo.svg" alt="Odkrywaj Poznań" width="120" height="120" loading="lazy"></p>
       <p class="muted">Nieoficjalny przewodnik, niezwiązany z Urzędem Miasta Poznania.
       Datę sprawdzenia godzin i cen podajemy na stronie każdej atrakcji. Przed wizytą potwierdź je na stronie obiektu.</p>
+      <p class="muted footer-contact">Widzisz błąd lub nieaktualną informację? Napisz: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></p>
     </div>
     <ul class="footer-links">
       <li><a href="{prefix}atrakcje.html">Wszystkie atrakcje</a></li>
@@ -402,6 +403,14 @@ def kv_rows(rows):
     return "".join(f"<tr><th scope=\"row\">{escape(k)}</th><td>{escape(v)}</td></tr>" for k, v in rows)
 
 
+def report_url(a):
+    """Wiadomość e-mail z nazwą atrakcji i adresem strony, żeby zgłaszający nie musiał ich opisywać."""
+    from urllib.parse import quote
+    subject = f"Poprawka: {a['name']}"
+    body = f"Strona: {SITE_URL}atrakcje/{a['slug']}\n\nCo jest nieaktualne lub błędne:\n"
+    return f"mailto:{CONTACT_EMAIL}?subject={quote(subject)}&body={quote(body)}"
+
+
 def trip_panel(a):
     t = a.get("trip")
     if not t:
@@ -485,6 +494,7 @@ def build_attraction(a, idx):
       {contact}
     </div>
     <p class="checked">Sprawdzono {a['checked']}. Godziny i ceny mogą się zmienić, więc przed wizytą potwierdź je na stronie obiektu.</p>
+    <p class="report"><a href="{report_url(a)}">{icon('alert')} Zgłoś nieaktualną informację</a></p>
   </aside>
 </div>
 

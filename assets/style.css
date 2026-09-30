@@ -454,3 +454,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .nf { padding-bottom: 8px; }
 .nf-search { max-width: 520px; margin-top: 22px; }
 .nf-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+
+/* ─── Kontakt: zgłaszanie błędów ─── */
+.footer-contact { margin-top: 8px; }
+.report { font-size: 0.88rem; }
+.report a { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.report a:hover { color: var(--gold-2); }
