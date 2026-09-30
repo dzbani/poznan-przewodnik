@@ -1,5 +1,24 @@
 // Wspólny skrypt wszystkich stron przewodnika.
 
+// 0. Menu „☰” na wąskich ekranach: otwieranie, zamykanie klawiszem Esc, kliknięciem obok i po wyborze pozycji.
+(function () {
+  var bar = document.querySelector('.topbar');
+  var btn = bar && bar.querySelector('.menu-btn');
+  if (!btn) return;
+  function set(open) {
+    bar.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+  }
+  btn.addEventListener('click', function () { set(!bar.classList.contains('menu-open')); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && bar.classList.contains('menu-open')) { set(false); btn.focus(); }
+  });
+  document.addEventListener('click', function (e) {
+    if (bar.classList.contains('menu-open') && !bar.contains(e.target)) set(false);
+  });
+  bar.querySelectorAll('nav a').forEach(function (a) { a.addEventListener('click', function () { set(false); }); });
+})();
+
 // 1. Każda strona otwiera się od góry. Przeglądarka (i okno podglądu Artifactu)
 //    potrafi przywrócić pozycję przewinięcia z poprzedniej strony, przez co podstrona
 //    otwierała się na samym dole. Wyjątek: link z kotwicą (#sekcja) przewija do sekcji.

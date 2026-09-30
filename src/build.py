@@ -127,6 +127,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>{escape(title)}</title>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="icon" href="{prefix}img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{prefix}img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="{prefix}img/apple-touch-icon.png">
@@ -141,7 +142,8 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <header class="topbar">
   <div class="topbar-in">
     <a class="logo" href="{prefix}index.html" aria-label="Odkrywaj Poznań – strona główna"><img class="logo-mark" src="{prefix}img/logo-znak.svg" alt="" width="72" height="40"><img class="logo-word" src="{prefix}img/logo-napis.svg" alt="Odkrywaj Poznań" width="108" height="40"></a>
-    <nav aria-label="Nawigacja główna">
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
+    <nav id="menu" aria-label="Nawigacja główna">
       <ul>
         {nav_link("atrakcje.html", "Atrakcje", "atrakcje")}
         {nav_link("mapa.html", "Mapa", "mapa")}
@@ -149,6 +151,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
         {nav_link("kalendarz.html", "Wydarzenia", "kalendarz")}
         {nav_link("informacje.html", "Praktycznie", "info")}
         {nav_link("o-poznaniu.html", "O Poznaniu", "o")}
+        <li class="nav-extra"><a href="{prefix}teatry.html"{' aria-current="page"' if active == "teatry" else ""}>Teatry i koncerty</a></li>
       </ul>
     </nav>
   </div>
@@ -795,7 +798,7 @@ def build_theatres():
   </section>
 </div>
 """
-    return page("Teatry i koncerty – Odkrywaj Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.")
+    return page("Teatry i koncerty – Odkrywaj Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.", active="teatry")
 
 
 def cal_event(e):
