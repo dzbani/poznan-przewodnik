@@ -76,8 +76,22 @@ def maps_url(a):
 
 
 def route_url(a):
-    return ("https://www.google.com/maps/dir/?api=1&travelmode=transit&destination="
+    # Wycieczki za miasto: trasa z dworca Poznań Główny; w mieście: z bieżącej lokalizacji.
+    origin = "&origin=" + quote_plus("Poznań Główny") if a.get("trip") else ""
+    return ("https://www.google.com/maps/dir/?api=1&travelmode=transit" + origin + "&destination="
             + quote_plus(f'{a["name"]}, {a["address"]}'))
+
+
+CENTER = (52.4084, 16.9342)  # Stary Rynek
+
+
+def distance_km(lat, lon):
+    """Odległość w linii prostej od Starego Rynku, zaokrąglona do 5 km."""
+    import math
+    p1, p2 = math.radians(CENTER[0]), math.radians(lat)
+    dp, dl = p2 - p1, math.radians(lon - CENTER[1])
+    h = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return max(5, round(2 * 6371 * math.asin(math.sqrt(h)) / 5) * 5)
 
 
 def media_html(a, prefix, lazy=False):
@@ -357,6 +371,20 @@ def kv_rows(rows):
     return "".join(f"<tr><th scope=\"row\">{escape(k)}</th><td>{escape(v)}</td></tr>" for k, v in rows)
 
 
+def trip_panel(a):
+    t = a.get("trip")
+    if not t:
+        return ""
+    rows = "".join(f"<p><strong>{escape(k)}.</strong> {escape(v)}</p>" for k, v in t["getting"])
+    return f"""<div class="panel">
+      <h2>{icon('route')} Dojazd z Poznania</h2>
+      <div class="trip-go">
+      <p class="trip-dist">Ok. {distance_km(t['lat'], t['lon'])} km od centrum Poznania w linii prostej.</p>
+      {rows}
+      </div>
+    </div>"""
+
+
 def build_attraction(a, idx):
     cat_name = CAT[a["cat"]][0]
     status = ""
@@ -409,9 +437,10 @@ def build_attraction(a, idx):
       <h2>{icon('pin')} Adres</h2>
       <p class="sel">{escape(a['address'])}</p>
       <p class="links"><a href="{maps_url(a)}" target="_blank" rel="noopener">Pokaż na mapie</a>
-      <a href="{route_url(a)}" target="_blank" rel="noopener">{icon('route')} Trasa komunikacją</a>
-      <a href="../mapa.html#{a['slug']}">Na mapie przewodnika</a></p>
+      <a href="{route_url(a)}" target="_blank" rel="noopener">{icon('route')} {'Trasa z dworca Poznań Główny' if a.get('trip') else 'Trasa komunikacją'}</a>
+      {'' if a.get('trip') else f'<a href="../mapa.html#{a["slug"]}">Na mapie przewodnika</a>'}</p>
     </div>
+    {trip_panel(a)}
     <div class="panel">
       <h2>{icon('clock')} Godziny otwarcia</h2>
       <table class="kv"><tbody>{kv_rows(a['hours'])}</tbody></table>
@@ -823,14 +852,17 @@ def build_credits():
 COORDS = json.load(open(os.path.join(ROOT, "src", "coords.json"), encoding="utf-8"))
 # Kolory kategorii na mapie (czytelne na jasnym podkładzie, różne odcienie).
 CAT_COLORS = {"zabytki": "#8B1A1A", "pomniki": "#8A5A12", "koscioly": "#5B3F8C", "muzea": "#1F5E8C",
-              "przyroda": "#2F7D4A", "rodzina": "#C2571B", "wspolczesny": "#0F7C80"}
+              "przyroda": "#2F7D4A", "rodzina": "#C2571B", "wspolczesny": "#0F7C80",
+              "wycieczki": "#6B6B2A"}
+OFF_MAP = {"wycieczki"}  # poza podkładem mapy (tylko Poznań)
 MAP_BOUNDS = [[52.25, 16.72], [52.51, 17.08]]  # ten sam prostokąt co podkład (src/fetch_basemap.py)
 
 
 def build_map():
-    cat_names = {k: n for k, n, _ in CATEGORIES}
+    cat_names = {k: n for k, n, _ in CATEGORIES if k not in OFF_MAP}
+    mapped = [a for a in ATTRACTIONS if a["cat"] not in OFF_MAP]
     items = []
-    for a in ATTRACTIONS:
+    for a in mapped:
         c = COORDS[a["slug"]]
         items.append({"s": a["slug"], "n": a["name"], "c": a["cat"], "lat": c["lat"], "lon": c["lon"],
                       "d": a["short"], "b": a["badge"], "img": a.get("img"), "t": tags(a),
@@ -842,13 +874,13 @@ def build_map():
                          for k, n in quick)
     tabs = ['<button type="button" class="tab" aria-pressed="true" data-filter="all">Wszystkie</button>'] + [
         f'<button type="button" class="tab" aria-pressed="false" data-filter="{k}"><span class="dot" style="--dot:{CAT_COLORS[k]}"></span>{escape(n)}</button>'
-        for k, n, _ in CATEGORIES]
+        for k, n, _ in CATEGORIES if k not in OFF_MAP]
     js = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     body = f"""
 <header class="wrap page-head map-head">
   <p class="kicker">Mapa</p>
   <h1>Atrakcje na mapie</h1>
-  <p class="lead">{count_attractions(len(ATTRACTIONS))} na jednej mapie. Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</p>
+  <p class="lead">{count_attractions(len(mapped))} w Poznaniu na jednej mapie. Wycieczki za miasto mają na swoich podstronach trasę dojazdu. Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</p>
   <div class="finder map-finder">
     <div class="quick" role="group" aria-label="Szybkie filtry">{quick_html}</div>
     <div class="tabs" role="group" aria-label="Filtruj według kategorii">{''.join(tabs)}</div>

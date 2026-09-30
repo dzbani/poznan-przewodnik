@@ -1076,5 +1076,85 @@
   "licurl": "https://unsplash.com/license",
   "page": "https://unsplash.com/photos/a-row-of-buildings-wkNq3at-Br0",
   "modified": "pomniejszono i skompresowano"
+ },
+ {
+  "slug": "zamek-kornik",
+  "title": "Castillo de Kórnik, Kórnik, Polonia, 2016-12-21, DD 01.jpg",
+  "artist": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Castillo_de_K%C3%B3rnik,_K%C3%B3rnik,_Polonia,_2016-12-21,_DD_01.jpg"
+ },
+ {
+  "slug": "arboretum-kornik",
+  "title": "Arboretum, Kórnik 2010 (19).jpg",
+  "artist": "Nostrix",
+  "license": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arboretum,_K%C3%B3rnik_2010_(19).jpg"
+ },
+ {
+  "slug": "rogalin",
+  "title": "Rogalin, Poland - Palace of Raczynski Family - panoramio - MARELBU.jpg",
+  "artist": "MARELBU",
+  "license": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rogalin,_Poland_-_Palace_of_Raczynski_Family_-_panoramio_-_MARELBU.jpg"
+ },
+ {
+  "slug": "katedra-gniezno",
+  "title": "Catedral de Gniezno, Gniezno, Polonia, 2014-09-14, DD 28.jpg",
+  "artist": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Gniezno,_Gniezno,_Polonia,_2014-09-14,_DD_28.jpg"
+ },
+ {
+  "slug": "mppp-gniezno",
+  "title": "Muzeum początków Państwa Polskiego Gniezno (6477593589).jpg",
+  "artist": "mik Krakow",
+  "license": "CC BY-SA 2.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Muzeum_pocz%C4%85tk%C3%B3w_Pa%C5%84stwa_Polskiego_Gniezno_(6477593589).jpg"
+ },
+ {
+  "slug": "ostrow-lednicki",
+  "title": "Lednogóra. Ostrów Lednicki. ruiny grodziska.JPG",
+  "artist": "Olerys",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lednog%C3%B3ra._Ostr%C3%B3w_Lednicki._ruiny_grodziska.JPG"
+ },
+ {
+  "slug": "biskupin",
+  "title": "Biskupin - gate and wall.jpg",
+  "artist": "User:Fazer",
+  "license": "CC BY-SA 2.5",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Biskupin_-_gate_and_wall.jpg"
+ },
+ {
+  "slug": "wpn",
+  "title": "Goreckie Lake 2020 (1).jpg",
+  "artist": "MOs810",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Goreckie_Lake_2020_(1).jpg"
+ },
+ {
+  "slug": "szreniawa",
+  "title": "National Museum of Agriculture in Szreniawa, outside area.JPG",
+  "artist": "Wistula",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Agriculture_in_Szreniawa,_outside_area.JPG"
+ },
+ {
+  "slug": "fiedler",
+  "title": "P1150882 Muzeum Arkadego Fiedlera.JPG",
+  "artist": "Jsporysz",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:P1150882_Muzeum_Arkadego_Fiedlera.JPG"
  }
 ]

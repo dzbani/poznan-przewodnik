@@ -103,3 +103,9 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] site.js: zakończone edycje oznaczone wg daty w przeglądarce, kalendarz zaczyna się od bieżącego miesiąca
 - Pominięte: Jarmark Świętojański (nie odbył się 2024 i 2025), „Poznań za pół ceny” (miasto zrezygnowało)
 - Do uzupełnienia: termin Betlejem Poznańskiego 2026/27 (Plac Wolności, Stary Rynek); terminy 2027 po ogłoszeniu (pole dates)
+
+## Wycieczki za miasto — partia 1 GOTOWE 30.09.2026
+- [x] Nowa kategoria „wycieczki” (src/data_trips.py, TRIPS): Zamek w Kórniku, Arboretum Kórnickie, Pałac w Rogalinie, Katedra Gnieźnieńska, MPPP w Gnieźnie, Ostrów Lednicki, Biskupin, Wielkopolski Park Narodowy, Muzeum Rolnictwa w Szreniawie, Muzeum Fiedlera
+- [x] Pole trip (lat, lon, getting): panel „Dojazd z Poznania”, odległość od Starego Rynku, trasa z dworca Poznań Główny; kategoria poza mapą (OFF_MAP w build.py)
+- [ ] Partia 2 (propozycje): Wielkopolski Park Etnograficzny w Dziekanowicach, Zamek w Gołuchowie, Parowozownia Wolsztyn, Pałac w Śmiełowie, Grody Piastowskie?
+- Uwaga: sezonowe — Zamek Kórnik do 30.11, Ostrów Lednicki 12.04–31.10, Szreniawa zimą tylko grupy
