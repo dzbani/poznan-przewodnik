@@ -109,3 +109,8 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] Pole trip (lat, lon, getting): panel „Dojazd z Poznania”, odległość od Starego Rynku, trasa z dworca Poznań Główny; kategoria poza mapą (OFF_MAP w build.py)
 - [ ] Partia 2 (propozycje): Wielkopolski Park Etnograficzny w Dziekanowicach, Zamek w Gołuchowie, Parowozownia Wolsztyn, Pałac w Śmiełowie, Grody Piastowskie?
 - Uwaga: sezonowe — Zamek Kórnik do 30.11, Ostrów Lednicki 12.04–31.10, Szreniawa zimą tylko grupy
+
+## Mapa na kafelkach OpenStreetMap — GOTOWE 30.09.2026
+- [x] map.js: L.tileLayer tile.openstreetmap.org zamiast własnego podkładu SVG (na GitHub Pages nie ma CSP artefaktu), bez ograniczenia do granic Poznania, zoom 8–18
+- [x] Wycieczki za miasto na mapie (współrzędne z pola trip), po wybraniu kategorii mapa dopasowuje widok (fitVisible)
+- NIEUŻYWANE od teraz: img/mapa-podklad.svg, src/fetch_basemap.py, src/render_basemap.py, src/basemap_raw.json — można usunąć

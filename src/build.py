@@ -441,7 +441,7 @@ def build_attraction(a, idx):
       <p class="sel">{escape(a['address'])}</p>
       <p class="links"><a href="{maps_url(a)}" target="_blank" rel="noopener">Pokaż na mapie</a>
       <a href="{route_url(a)}" target="_blank" rel="noopener">{icon('route')} {'Trasa z dworca Poznań Główny' if a.get('trip') else 'Trasa komunikacją'}</a>
-      {'' if a.get('trip') else f'<a href="../mapa.html#{a["slug"]}">Na mapie przewodnika</a>'}</p>
+      <a href="../mapa.html#{a['slug']}">Na mapie przewodnika</a></p>
     </div>
     {trip_panel(a)}
     <div class="panel">
@@ -908,33 +908,29 @@ COORDS = json.load(open(os.path.join(ROOT, "src", "coords.json"), encoding="utf-
 CAT_COLORS = {"zabytki": "#8B1A1A", "pomniki": "#8A5A12", "koscioly": "#5B3F8C", "muzea": "#1F5E8C",
               "przyroda": "#2F7D4A", "rodzina": "#C2571B", "wspolczesny": "#0F7C80",
               "wycieczki": "#6B6B2A"}
-OFF_MAP = {"wycieczki"}  # poza podkładem mapy (tylko Poznań)
-MAP_BOUNDS = [[52.25, 16.72], [52.51, 17.08]]  # ten sam prostokąt co podkład (src/fetch_basemap.py)
 
 
 def build_map():
-    cat_names = {k: n for k, n, _ in CATEGORIES if k not in OFF_MAP}
-    mapped = [a for a in ATTRACTIONS if a["cat"] not in OFF_MAP]
+    cat_names = {k: n for k, n, _ in CATEGORIES}
     items = []
-    for a in mapped:
-        c = COORDS[a["slug"]]
+    for a in ATTRACTIONS:
+        c = a["trip"] if a.get("trip") else COORDS[a["slug"]]
         items.append({"s": a["slug"], "n": a["name"], "c": a["cat"], "lat": c["lat"], "lon": c["lon"],
                       "d": a["short"], "b": a["badge"], "img": a.get("img"), "t": tags(a),
                       "x": is_closed(a), "ap": bool(c.get("approx"))})
-    data = {"items": items, "cats": {k: {"n": cat_names[k], "col": CAT_COLORS[k]} for k in cat_names},
-            "bounds": MAP_BOUNDS}
+    data = {"items": items, "cats": {k: {"n": cat_names[k], "col": CAT_COLORS[k]} for k in cat_names}}
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
     quick_html = "".join(f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
                          for k, n in quick)
     tabs = ['<button type="button" class="tab" aria-pressed="true" data-filter="all">Wszystkie</button>'] + [
         f'<button type="button" class="tab" aria-pressed="false" data-filter="{k}"><span class="dot" style="--dot:{CAT_COLORS[k]}"></span>{escape(n)}</button>'
-        for k, n, _ in CATEGORIES if k not in OFF_MAP]
+        for k, n, _ in CATEGORIES]
     js = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     body = f"""
 <header class="wrap page-head map-head">
   <p class="kicker">Mapa</p>
   <h1>Atrakcje na mapie</h1>
-  <p class="lead">{count_attractions(len(mapped))} w Poznaniu na jednej mapie. Wycieczki za miasto mają na swoich podstronach trasę dojazdu. Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</p>
+  <p class="lead">{count_attractions(len(ATTRACTIONS))} na jednej mapie, razem z wycieczkami za miasto. Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</p>
   <div class="finder map-finder">
     <div class="quick" role="group" aria-label="Szybkie filtry">{quick_html}</div>
     <div class="tabs" role="group" aria-label="Filtruj według kategorii">{''.join(tabs)}</div>
@@ -947,7 +943,7 @@ def build_map():
     <ol class="map-list" id="map-items"></ol>
   </aside>
 </div>
-<p class="wrap map-note small muted">Podkład mapy i położenie atrakcji: dane © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, licencja ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Do nawigacji użyj linku „Trasa komunikacją” na stronie atrakcji.</p>
+<p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Do nawigacji użyj linku „Trasa komunikacją” na stronie atrakcji.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
     return page("Mapa atrakcji – Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",

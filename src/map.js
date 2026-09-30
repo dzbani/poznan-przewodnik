@@ -1,4 +1,4 @@
-/* Mapa atrakcji: Leaflet + własny podkład SVG (dane OpenStreetMap), filtry jak na stronie głównej. */
+/* Mapa atrakcji: Leaflet + kafelki OpenStreetMap, filtry jak na stronie głównej. */
 (function () {
   var el = document.getElementById("map");
   var dataEl = document.getElementById("map-data");
@@ -7,18 +7,19 @@
     return;
   }
   var data = JSON.parse(dataEl.textContent);
-  var bounds = L.latLngBounds(data.bounds);
   var narrow = window.matchMedia("(max-width: 860px)").matches;
 
   var map = L.map(el, {
-    minZoom: 11, maxZoom: 16, zoomSnap: 0.5, zoomDelta: 0.5,
-    maxBounds: bounds.pad(0.05), maxBoundsViscosity: 0.8,
+    minZoom: 8, maxZoom: 18, zoomSnap: 0.5, zoomDelta: 0.5,
     attributionControl: true, zoomControl: true
   });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>');
-  L.imageOverlay("img/mapa-podklad.svg", bounds, { interactive: false, className: "map-base" }).addTo(map);
-  map.setView([52.4084, 16.9342], narrow ? 13 : 13.5);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>'
+  }).addTo(map);
+  var CENTER = [52.4084, 16.9342];
+  map.setView(CENTER, narrow ? 13 : 13.5);
 
   var plural = function (n) {
     var t = n % 10, h = n % 100;
@@ -81,6 +82,13 @@
       e.li.hidden = !ok;
     });
     count.textContent = n === data.items.length ? "Wszystkie: " + plural(n) : "Na mapie: " + plural(n) + " z " + data.items.length;
+    return n;
+  }
+  // Wycieczki za miasto leżą do 90 km od centrum: po wybraniu tej kategorii mapa obejmuje wszystkie punkty.
+  function fitVisible() {
+    var pts = Object.keys(byslug).filter(function (s) { return map.hasLayer(byslug[s].marker); })
+      .map(function (s) { return byslug[s].marker.getLatLng(); });
+    if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [30, 30], maxZoom: 15 });
   }
   function bind(selector, key, attr) {
     var btns = document.querySelectorAll(selector);
@@ -89,6 +97,8 @@
         btns.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
         state[key] = b.getAttribute(attr);
         apply();
+        if (key === "cat" && state.cat === "wycieczki") fitVisible();
+        else if (key === "cat" && state.cat === "all") map.setView(CENTER, narrow ? 13 : 13.5);
       });
     });
   }
