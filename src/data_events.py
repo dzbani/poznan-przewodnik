@@ -3,11 +3,11 @@
 Każde wydarzenie: id, month (miesiąc, w którym zwykle się zaczyna), name, place, when (kiedy zwykle),
 dates (start, koniec) bieżącej edycji w formacie RRRR-MM-DD albo None, gdy termin nie jest ogłoszony,
 note (o terminie), desc (akapity), link (etykieta, adres), sources.
-Sprawdzono 30.09.2026. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
+Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń). Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "30.09.2026"
+CAL_CHECKED = "01.10.2026"
 
 CALENDAR = [
     dict(
@@ -82,7 +82,7 @@ CALENDAR = [
     dict(
         id="wieniawski", month=10, name="Międzynarodowy Konkurs Skrzypcowy im. Henryka Wieniawskiego", place="Poznań",
         when="Co pięć lat, w październiku",
-        dates=("2026-10-08", "2026-10-24"), note="W 2026 roku 17. edycja. Ostatni koncert laureatów, 25 października, odbywa się w Warszawie.",
+        dates=("2026-10-08", "2026-10-25"), note="W 2026 roku 17. edycja. Ostatni koncert laureatów, 25 października, odbywa się w Warszawie.",
         desc=["Międzynarodowy konkurs dla młodych skrzypków, organizowany przez Towarzystwo Muzyczne im. Henryka Wieniawskiego w Poznaniu. Uczestnicy z całego świata grają w kolejnych etapach przesłuchań, a konkurs kończy się finałem i koncertami laureatów. Bilety sprzedaje organizator."],
         link=("wieniawski.pl", "https://wieniawski.pl/xviimks.html"),
         sources=[("Towarzystwo Muzyczne im. H. Wieniawskiego: XVII Konkurs 8–25 X 2026", "https://wieniawski.pl/xviimks.html")],
@@ -129,5 +129,101 @@ CALENDAR = [
         desc=["Festiwal rzeźby lodowej: rzeźbiarze z kilku krajów tworzą na oczach widzów kilkumetrowe rzeźby z brył lodu, piłami mechanicznymi i dłutami. W 2026 roku startuje 24 rzeźbiarzy."],
         link=("poznan.pl", "https://www.poznan.pl/mim/turystyka/news/poznan-ice-festival-wraca-na-stary-rynek,243196.html"),
         sources=[("Codzienny Poznań: Poznań Ice Festival wraca na Stary Rynek (18.09.2026)", "https://codziennypoznan.pl/artykul/2026-09-18/tony-lodu-i-mistrzowie-z-calego-swiata-poznan-ice-festival-wraca-na-stary-rynek-z-jubileuszowa-edycja/")],
+    ),
+    # ─── Uzupełnienia 01.10.2026 ───
+    dict(
+        id="targi-ksiazki", month=3, name="Poznańskie Targi Książki", place="Międzynarodowe Targi Poznańskie",
+        when="Co roku w marcu",
+        dates=("2027-03-12", "2027-03-14"), note="Termin edycji 2027 podał organizator.",
+        desc=["Targi wydawców i spotkania z autorami z Polski i zagranicy: od kryminału i reportażu po literaturę dziecięcą. Organizator podaje, że w poprzedniej edycji odbyło się 466 spotkań autorskich. Wstęp jest biletowany."],
+        link=("targiksiazki.pl", "https://targiksiazki.pl/"),
+        sources=[("Poznańskie Targi Książki (organizator)", "https://targiksiazki.pl/")],
+    ),
+    dict(
+        id="next-fest", month=4, name="NEXT FEST Music Showcase & Conference", place="Kluby i sceny w całym mieście",
+        when="Co roku wiosną, zwykle w kwietniu",
+        dates=("2027-04-15", "2027-04-17"), note="Termin edycji 2027 podał organizator.",
+        desc=["Festiwal nowej muzyki: koncerty debiutantów i znanych wykonawców w kilkunastu klubach i na scenach plenerowych, do tego panele i warsztaty dla branży muzycznej."],
+        link=("nextfest.pl", "https://nextfest.pl/"),
+        sources=[("NEXT FEST (organizator)", "https://nextfest.pl/"),
+                 ("poznan.pl: festiwale", "https://www.poznan.pl/mim/turystyka/festiwale,poi,4240/")],
+    ),
+    dict(
+        id="motor-show", month=4, name="Poznań Motor Show", place="Międzynarodowe Targi Poznańskie",
+        when="Co roku wiosną",
+        dates=("2027-04-22", "2027-04-25"), note="Termin edycji 2027 podał organizator.",
+        desc=["Targi motoryzacyjne: premiery samochodów i motocykli, wystawy i pokazy. Wstęp jest biletowany."],
+        link=("motorshow.pl", "https://www.motorshow.pl/pl/"),
+        sources=[("Poznań Motor Show (organizator)", "https://www.motorshow.pl/pl/")],
+    ),
+    dict(
+        id="juwenalia", month=5, name="Juwenalia Poznań", place="Park Jana Pawła II (Łęgi Dębińskie)",
+        when="Co roku pod koniec maja",
+        dates=("2026-05-28", "2026-05-30"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        desc=["Największe studenckie święto w regionie: trzy dni koncertów na dwóch scenach w parku na Łęgach Dębińskich. Wstęp jest biletowany."],
+        link=("juwenalia.poznan.pl", "https://juwenalia.poznan.pl/"),
+        sources=[("Juwenalia Poznań (organizator)", "https://juwenalia.poznan.pl/")],
+    ),
+    dict(
+        id="scena-nad-rusalka", month=6, name="Scena nad Rusałką", place="Jezioro Rusałka",
+        when="Latem, w czwartkowe wieczory (w 2026 roku od czerwca do końca sierpnia)",
+        dates=("2026-06-04", "2026-08-27"), note="Program na 2027 rok nie jest jeszcze ogłoszony.",
+        desc=["Cykl bezpłatnych koncertów plenerowych nad jeziorem Rusałka. W 2026 roku: trzydniowe otwarcie 4–6 czerwca, a potem koncerty w każdy czwartek od 11 czerwca do 27 sierpnia, razem 33 koncerty."],
+        link=("rusalka.poznan.pl", "https://rusalka.poznan.pl/wydarzenia/"),
+        sources=[("poznan.pl: koncerty nad Rusałką", "https://www.poznan.pl/mim/smartcity/infoteka,1042/koncerty-nad-rusalka,279900.html"),
+                 ("PIK Poznań: Scena nad Rusałką", "https://pik.poznan.pl/scena-nad-rusalka/")],
+    ),
+    dict(
+        id="animator", month=7, name="Międzynarodowy Festiwal Filmów Animowanych Animator", place="Poznań, miejsca festiwalowe w centrum",
+        when="Co roku w lipcu",
+        dates=("2027-07-03", "2027-07-11"), note="Termin 20. edycji (2027) podał organizator.",
+        desc=["Największy festiwal filmu animowanego w Polsce: około 300 filmów z całego świata, retrospektywy i premiery. Od 2017 roku zwycięzca konkursu międzynarodowego może ubiegać się o nominację do Oscara. Organizuje go Estrada Poznańska."],
+        link=("animator-festival.com", "https://animator-festival.com/"),
+        sources=[("Animator (organizator)", "https://animator-festival.com/"),
+                 ("poznan.pl: festiwale", "https://www.poznan.pl/mim/turystyka/festiwale,poi,4240/")],
+    ),
+    dict(
+        id="blue-summer-jazz", month=7, name="Blue Summer Jazz Festival", place="Park Starego Browaru",
+        when="Co roku w lipcu, przez dwa wieczory",
+        dates=("2027-07-17", "2027-07-18"), note="Termin edycji 2027 podał organizator.",
+        desc=["Plenerowa, wakacyjna odsłona klubu Blue Note: jazz, soul i funk na scenie w Parku Starego Browaru. Wstęp jest biletowany."],
+        link=("bluesummerjazz.pl", "https://bluesummerjazz.pl/"),
+        sources=[("Blue Summer Jazz Festival (organizator)", "https://bluesummerjazz.pl/")],
+    ),
+    dict(
+        id="swieto-bamberskie", month=8, name="Festiwal Tradycji Poznańskich i Święto Bamberskie", place="Stary Rynek i okolice",
+        when="Co roku w pierwszy weekend sierpnia",
+        dates=("2026-07-29", "2026-08-02"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        desc=["Święto upamiętnia przybycie Bambrów, osadników spod Bambergu. Najważniejszy jest korowód w strojach bamberskich: w 2026 roku przeszedł 2 sierpnia z ul. Mostowej na Stary Rynek, gdzie przed ratuszem odczytano historyczny kontrakt i udekorowano girlandą figurę Bamberki.",
+              "Festiwalowi towarzyszą warsztaty, pokazy i koncerty."],
+        link=("festiwaltradycjipoznanskich.eu", "https://festiwaltradycjipoznanskich.eu/"),
+        sources=[("Festiwal Tradycji Poznańskich (organizator)", "https://festiwaltradycjipoznanskich.eu/"),
+                 ("naszemiasto.pl: program 2026", "https://poznan.naszemiasto.pl/potancowka-korowod-i-darmowe-koncerty-rusza-festiwal-tradycji-poznanskich-i-31-swieto-bamberskie-sprawdz-program/ar/c1p2-29219423")],
+    ),
+    dict(
+        id="festiwal-dobrego-smaku", month=8, name="Ogólnopolski Festiwal Dobrego Smaku", place="Plac Wolności",
+        when="Co roku w sierpniu",
+        dates=("2026-08-21", "2026-08-23"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        desc=["Jedna z największych imprez kulinarnych w Polsce: Jarmark Dobrego Smaku z regionalnymi produktami, pokazy kulinarne, warsztaty i koncerty. W 2026 roku odbyła się 20. edycja, pierwszy raz na Placu Wolności. Wstęp jest wolny."],
+        link=("ofds.pl", "https://ofds.pl/"),
+        sources=[("Ogólnopolski Festiwal Dobrego Smaku (organizator)", "https://ofds.pl/")],
+    ),
+    dict(
+        id="ale-kino", month=11, name="Ale Kino! – Międzynarodowy Festiwal Filmów dla Młodej Widowni", place="Centrum Kultury Zamek (Kino Pałacowe) i inne miejsca festiwalowe",
+        when="Co roku pod koniec listopada, przez osiem dni",
+        dates=("2026-11-22", "2026-11-29"), note="Termin 44. edycji podał organizator.",
+        desc=["Festiwal filmów dla dzieci i młodzieży: animacje, fabuły i dokumenty z całego świata. Kontynuuje przegląd zapoczątkowany w 1963 roku. Seanse są biletowane."],
+        link=("alekino.com", "https://alekino.com/"),
+        sources=[("Ale Kino! (organizator)", "https://alekino.com/"),
+                 ("poznan.pl: festiwale", "https://www.poznan.pl/mim/turystyka/festiwale,poi,4240/")],
+    ),
+    dict(
+        id="rocznica-powstania", month=12, name="Rocznica wybuchu Powstania Wielkopolskiego", place="Centrum Poznania",
+        when="Co roku 26 i 27 grudnia",
+        dates=("2026-12-26", "2026-12-27"), note="Szczegółowy program na 2026 rok nie jest jeszcze ogłoszony.",
+        desc=["27 grudnia to Narodowy Dzień Zwycięskiego Powstania Wielkopolskiego. W 2025 roku program wyglądał tak: 26 grudnia inscenizacja przyjazdu Ignacego Paderewskiego pociągiem na Dworzec Letni, a 27 grudnia msza w Farze, uroczystości pod pomnikiem, minuta ciszy o 16:40 (zatrzymują się tramwaje i autobusy, wyją syreny) i wieczorny marsz spod hotelu Bazar."],
+        link=("poznan.pl", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html"),
+        sources=[("poznan.pl: 107. rocznica Powstania Wielkopolskiego", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html"),
+                 ("MPK Poznań: obchody 27 grudnia 2025", "https://www.mpk.poznan.pl/komunikaty/obchody-107-rocznicy-wybuchu-powstania-wielkopolskiego-27-grudnia-2025-r/")],
     ),
 ]
