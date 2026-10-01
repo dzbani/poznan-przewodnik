@@ -420,6 +420,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .pop .pop-badge { display: inline-block; font-size: 0.72rem; font-weight: 600; color: var(--gold-2); border: 1px solid rgba(34, 67, 127, 0.35); border-radius: 999px; padding: 1px 9px; }
 .pop .pop-badge.is-closed { color: var(--closed); border-color: rgba(164, 35, 35, 0.45); }
 .pop .pop-more { display: inline-block; font-weight: 600; font-size: 0.85rem; }
+.pop .pop-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; }
+.pop .pop-nav a { flex: 1 1 auto; text-align: center; font-size: 0.78rem; font-weight: 600; text-decoration: none; color: var(--gold); border: 1px solid rgba(34, 67, 127, 0.35); border-radius: 8px; padding: 6px 8px; }
+.pop .pop-nav a:hover, .pop .pop-nav a:focus-visible { background: rgba(34, 67, 127, 0.08); }
 .pop .pop-note { font-size: 0.75rem; color: var(--muted); margin-top: 6px; }
 @media (max-width: 860px) {
   .map-layout { grid-template-columns: 1fr; }

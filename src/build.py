@@ -999,7 +999,9 @@ def build_map():
         c = a["trip"] if a.get("trip") else COORDS[a["slug"]]
         items.append({"s": a["slug"], "n": a["name"], "c": a["cat"], "lat": c["lat"], "lon": c["lon"],
                       "d": a["short"], "b": a["badge"], "img": a.get("img"), "t": tags(a),
-                      "x": is_closed(a), "ap": bool(c.get("approx"))})
+                      "x": is_closed(a), "ap": bool(c.get("approx")),
+                      # Nawigacja w Google Maps (zwykłe linki: nic nie jest wysyłane do Google przed kliknięciem).
+                      "gm": maps_url(a), "rt": route_url(a), "rf": bool(a.get("trip"))})
     data = {"items": items, "cats": {k: {"n": cat_names[k], "col": CAT_COLORS[k]} for k in cat_names}}
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
     quick_html = "".join(f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
@@ -1025,7 +1027,7 @@ def build_map():
     <ol class="map-list" id="map-items"></ol>
   </aside>
 </div>
-<p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Do nawigacji użyj linku „Trasa komunikacją” na stronie atrakcji.</p>
+<p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Przyciski w opisie punktu otwierają Google Maps z położeniem atrakcji albo trasą komunikacją.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
     return page("Mapa atrakcji – Odkrywaj Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",
