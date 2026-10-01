@@ -103,23 +103,29 @@ PLANS = [
 # ─── O Poznaniu ───
 # Źródło: poznan.pl, „Rys historyczny”; daty z podstron atrakcji w tym przewodniku.
 # Uzupełnienia 01.10.2026 sprawdzone w pl.wikipedia (Wielkie Księstwo Poznańskie, Cytadela, UAM, MTP,
-# PeWuKa, Marian Rejewski, Kraj Warty) i w rysie historycznym poznan.pl (1939, 1945).
+# PeWuKa, Marian Rejewski, Kraj Warty, powstania 1848 i 1918, pielgrzymki Jana Pawła II 1983 i 1997)
+# i w rysie historycznym poznan.pl (1939, 1945). Trzeci element (opcjonalny) = slug podstrony atrakcji.
 HISTORY = [
     ("IX wiek", "Na Ostrowie Tumskim, między Wartą a Cybiną, powstaje gród."),
     ("X wiek", "Gród jest jedną z głównych siedzib księcia Mieszka I."),
     ("968", "W Poznaniu powstaje pierwsze biskupstwo na ziemiach polskich."),
+    ("XI wiek", "W katedrze spoczywają pierwsi władcy Polski, w tym Bolesław Chrobry. W 1038 roku gród niszczy najazd czeskiego księcia Brzetysława I.", "ostrow-tumski"),
     ("1253", "Przemysł I nadaje Poznaniowi prawa miejskie. Na lewym brzegu Warty wytyczono Stary Rynek."),
     ("XVI wiek", "Złoty wiek miasta. W 1519 roku biskup Jan Lubrański zakłada Akademię Lubrańskiego, w latach 1550–1560 Giovanni Battista di Quadro nadaje ratuszowi renesansowy wygląd, a w latach 70. jezuici otwierają kolegium, jedną z najbardziej cenionych szkół Rzeczypospolitej."),
     ("1793", "W II rozbiorze Polski Poznań zostaje przyłączony do Prus."),
+    ("1806", "W listopadzie do Poznania przybywa Napoleon. Przez prawie trzy tygodnie mieszka w dawnym Kolegium Jezuickim.", "kolegium-jezuickie"),
     ("1815", "Po kongresie wiedeńskim Poznań zostaje siedzibą władz Wielkiego Księstwa Poznańskiego, części Prus. Namiestnikiem jest książę Antoni Radziwiłł."),
-    ("1828–1842", "Prusacy budują na Winiarach potężny fort, dziś Cytadelę. Poznań zamienia się w miasto-twierdzę otoczone fortyfikacjami."),
-    ("1905–1910", "Dla cesarza Wilhelma II powstaje Zamek Cesarski, serce nowej Dzielnicy Cesarskiej."),
-    ("1918–1919", "Zwycięskie powstanie wielkopolskie przywraca Poznań Polsce. W 1919 roku powstaje Uniwersytet Poznański, dziś Uniwersytet im. Adama Mickiewicza."),
+    ("1848", "W czasie Wiosny Ludów 20 marca powstaje w Poznaniu Komitet Narodowy, a w Wielkopolsce wybucha powstanie przeciw Prusom. W maju powstańcy kapitulują."),
+    ("1828–1842", "Prusacy budują na Winiarach potężny fort, dziś Cytadelę. Poznań zamienia się w miasto-twierdzę otoczone fortyfikacjami.", "cytadela"),
+    ("1905–1910", "Dla cesarza Wilhelma II powstaje Zamek Cesarski, serce nowej Dzielnicy Cesarskiej.", "zamek-cesarski"),
+    ("1918–1919", "26 grudnia 1918 roku Ignacy Paderewski przemawia do poznaniaków przed hotelem Bazar, a następnego dnia wybucha powstanie wielkopolskie. Zwycięskie powstanie przywraca Poznań Polsce. W 1919 roku powstaje Uniwersytet Poznański, dziś Uniwersytet im. Adama Mickiewicza.", "bazar"),
     ("1921", "Odbywa się pierwszy Targ Poznański. Od 1925 roku to targi międzynarodowe, a Poznań staje się miastem targów."),
     ("1929", "Od 16 maja do 30 września trwa Powszechna Wystawa Krajowa (PeWuKa), pokaz dorobku dziesięciu lat niepodległej Polski."),
-    ("1932", "Marian Rejewski, absolwent matematyki Uniwersytetu Poznańskiego, łamie szyfr niemieckiej Enigmy. Współpracują z nim Jerzy Różycki i Henryk Zygalski, również absolwenci poznańskiej uczelni."),
+    ("1932", "Marian Rejewski, absolwent matematyki Uniwersytetu Poznańskiego, łamie szyfr niemieckiej Enigmy. Współpracują z nim Jerzy Różycki i Henryk Zygalski, również absolwenci poznańskiej uczelni.", "centrum-szyfrow-enigma"),
     ("1939–1945", "10 września 1939 roku Niemcy zajmują Poznań i włączają go do Rzeszy jako stolicę Kraju Warty. Część mieszkańców zostaje wysiedlona. Po ciężkich walkach miasto zostaje zdobyte 23 lutego 1945 roku, zniszczone w około 55%."),
-    ("1956", "28 czerwca robotnicy wychodzą na ulice. Poznański Czerwiec to pierwszy masowy protest przeciw władzy komunistycznej w PRL."),
+    ("1956", "28 czerwca robotnicy wychodzą na ulice. Poznański Czerwiec to pierwszy masowy protest przeciw władzy komunistycznej w PRL. W 25. rocznicę, 28 czerwca 1981 roku, odsłonięto pomnik Poznańskiego Czerwca, czyli Poznańskie Krzyże.", "pomnik-czerwca-1956"),
+    ("1983 i 1997", "Poznań odwiedza papież Jan Paweł II. 20 czerwca 1983 roku beatyfikuje Urszulę Ledóchowską podczas mszy na Łęgach Dębińskich, a 3 czerwca 1997 roku spotyka się z młodzieżą na placu Mickiewicza.", "legi-debinskie"),
+    ("2012", "Na przebudowanym Stadionie Miejskim odbywają się trzy mecze fazy grupowej Euro 2012.", "stadion"),
 ]
 
 # Źródło: poznan.pl, „Podania i legendy” (streszczenia własne); rogale: pl.wikipedia „Rogal świętomarciński”.

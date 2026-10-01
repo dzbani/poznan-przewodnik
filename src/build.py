@@ -882,7 +882,12 @@ def build_calendar():
 
 
 def build_about():
-    timeline = "".join(f'<li><p class="tl-date">{escape(d)}</p><p>{escape(t)}</p></li>' for d, t in HISTORY)
+    def tl_more(h):
+        # Opcjonalny trzeci element: slug atrakcji, o której można przeczytać więcej.
+        if len(h) < 3:
+            return ""
+        return f' <a href="atrakcje/{h[2]}.html">{escape(BY_SLUG[h[2]]["name"])} →</a>'
+    timeline = "".join(f'<li><p class="tl-date">{escape(h[0])}</p><p>{escape(h[1])}{tl_more(h)}</p></li>' for h in HISTORY)
     legends = "".join(f'<article class="legend"><h3>{escape(t)}</h3><p>{escape(x)}</p></article>' for t, x in LEGENDS)
     words = "".join(f'<div><dt>{escape(w)}</dt><dd>{escape(m)}</dd></div>' for w, m in DIALECT)
     dishes = "".join(f'<li><h3>{escape(n)}</h3><p>{escape(d)}</p></li>' for n, d in CUISINE)
