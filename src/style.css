@@ -430,6 +430,23 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
   .map-side { max-height: none; }
   .map-list { max-height: 360px; }
 }
+/* Telefon: mapa ma być widoczna od razu po wejściu. Filtry w dwóch przewijanych w bok paskach
+   zamiast 13 przycisków w kilku rzędach, krótszy nagłówek. */
+@media (max-width: 600px) {
+  .map-head { padding-top: 20px; }
+  .map-head h1 { font-size: 2rem; margin-bottom: 8px; }
+  .map-head .lead { font-size: 1rem; }
+  .map-head .lead-more { display: none; }
+  .map-finder { margin-top: 12px; gap: 8px; }
+  .map-finder .quick, .map-finder .tabs {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    margin-inline: -16px; padding-inline: 16px; scroll-padding-inline: 16px;
+    mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  }
+  .map-finder .quick::-webkit-scrollbar, .map-finder .tabs::-webkit-scrollbar { display: none; }
+  .map-finder .qf, .map-finder .tab { flex: 0 0 auto; white-space: nowrap; }
+  .map-layout { margin-top: 12px; }
+}
 
 /* ─── Teatry i koncerty ─── */
 .venues { padding-block: 8px 48px; display: grid; gap: 24px; }

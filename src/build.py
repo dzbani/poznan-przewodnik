@@ -1014,7 +1014,7 @@ def build_map():
 <header class="wrap page-head map-head">
   <p class="kicker">Mapa</p>
   <h1>Atrakcje na mapie</h1>
-  <p class="lead">{count_attractions(len(ATTRACTIONS))} na jednej mapie, razem z wycieczkami za miasto. Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</p>
+  <p class="lead">{count_attractions(len(ATTRACTIONS))} na jednej mapie, razem z wycieczkami za miasto.<span class="lead-more"> Kliknij punkt albo nazwę na liście, żeby zobaczyć opis i przejść do szczegółów.</span></p>
   <div class="finder map-finder">
     <div class="quick" role="group" aria-label="Szybkie filtry">{quick_html}</div>
     <div class="tabs" role="group" aria-label="Filtruj według kategorii">{''.join(tabs)}</div>
