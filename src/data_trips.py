@@ -349,7 +349,7 @@ TRIPS = [
                ("Wt–nd, 28.10–30.11 i 16.02–31.03", "9:00–15:00"), ("1.12–15.02", "tylko zgłoszone grupy"),
                ("Poniedziałek", "nieczynne")],
         tickets=[("Normalny", "25 zł"), ("Ulgowy", "20 zł"), ("Rodzinny (2 dorosłych + dzieci)", "50 zł"),
-                 ("Spacerowy (bez ekspozycji)", "7 zł"), ("Dzieci do 7 lat", "bezpłatnie"), ("Sobota", "bezpłatnie")],
+                 ("Spacerowy (bez ekspozycji)", "7 zł"), ("Dzieci do 7 lat", "bezpłatnie"), ("Sobota", "bezpłatnie, poza dniami imprez biletowanych")], checked="01.10.2026",
         phone="+48 61 810 76 29", www=("muzeum-szreniawa.pl", "https://muzeum-szreniawa.pl/bilety/"),
         credit="szreniawa",
         trip=dict(lat=52.31613, lon=16.79779, getting=[

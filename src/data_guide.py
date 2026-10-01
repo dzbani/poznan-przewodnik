@@ -181,7 +181,7 @@ CLIMATE = [
 ]
 
 # ─── Informacje praktyczne: uzupełnienia ───
-# Źródło: poznan.pl, lista toalet publicznych (POI), sprawdzone 29.09.2026. Tylko miejsca przy trasach turystycznych.
+# Źródło: poznan.pl, lista toalet publicznych (POI), sprawdzone 29.09.2026 i ponownie 01.10.2026 (każda pozycja). Tylko miejsca przy trasach turystycznych.
 TOILETS = [
     ("Stary Rynek", "róg ul. Różany Targ i ul. Quadro, przy bocznej ścianie ratusza", "pn–pt 8:00–22:00, sb–nd 10:00–22:00"),
     ("Plac Wolności", "tył budynku Arkadii, od strony ul. 3 Maja", "pn–pt 8:00–20:00, sb 8:00–16:00, nd nieczynna"),
@@ -196,5 +196,5 @@ TOILETS = [
     ("Park Sołacki", "ul. Małopolska, naprzeciwko ul. Śląskiej, automatyczna", "całodobowo"),
     ("Most św. Rocha", "przy zejściu nad Wartę, automatyczna", "całodobowo"),
     ("Rynek Jeżycki", "na rynku", "pn–sb 6:00–18:00"),
-    ("Dworzec Zachodni", "budynek stacji PST", "od pn do pt 6:00–22:00"),
+    ("Dworzec Zachodni", "budynek stacji PST", "pn–pt 6:00–22:00, sb–nd 8:00–20:00"),
 ]

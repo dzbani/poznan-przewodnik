@@ -535,22 +535,37 @@ def build_info():
     it_points = [
         ("Stary Rynek", "Stary Rynek 59/60", "pn–sb 9:30–18:00, nd 9:00–17:00", "+48 61 852 61 56"),
         ("Plac Kolegiacki", "pl. Kolegiacki 17", "sezonowo 1.05–30.09: pn–sb 10:00–18:00, nd 9:00–17:00", "+48 883 400 034"),
-        ("Lotnisko Ławica", "ul. Bukowska 285", "codziennie 7:00–19:00", "info@airport-poznan.com.pl"),
+        ("Lotnisko Ławica", "ul. Bukowska 285", "codziennie (źródła podają różne godziny: 7:00–19:00 albo 8:00–20:00)", "info@airport-poznan.com.pl"),
         ("Brama Poznania", "ul. Gdańska 2", "wt–pt 9:00–18:00, sb–nd 10:00–19:00", "+48 61 647 76 34"),
     ]
     it_rows = "".join(f"<tr><th scope=\"row\">{escape(n)}</th><td>{escape(ad)}</td><td>{escape(h)}</td><td class=\"sel\">{escape(c)}</td></tr>" for n, ad, h, c in it_points)
     free_days = ""
-    for day, label in (("Wtorek", "We wtorki"), ("Sobota", "W soboty"), ("Niedziela", "W niedziele")):
+    for day, label in (("Poniedziałek", "W poniedziałki"), ("Wtorek", "We wtorki"), ("Środa", "W środy"), ("Czwartek", "W czwartki"),
+                       ("Piątek", "W piątki"), ("Sobota", "W soboty"), ("Niedziela", "W niedziele")):
         items = [a for a in ATTRACTIONS if any(k == day for k, _ in a["tickets"])]
         if items:
             lis = "".join(f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a></li>' for a in items)
             free_days += f'<h3>{label} wstęp wolny</h3><ul class="link-list">{lis}</ul>'
 
-    free_all = [a for a in ATTRACTIONS if any(v.startswith("bezpłatnie") for _, v in a["tickets"]) and not a["status"] or a["slug"] in ("stary-rynek",)]
-    free_all_html = "".join(f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a></li>' for a in dict((x["slug"], x) for x in free_all).values())
+    # Tylko miejsca bez biletu. „Dzieci do 3 lat bezpłatnie” w płatnym cenniku nie wystarcza.
+    free_all = [a for a in ATTRACTIONS if is_free(a)]
+    free_all_html = "".join(f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a></li>' for a in free_all)
     closed_html = "".join(f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>: {escape(a["status"][1])}</li>'
                           for a in ATTRACTIONS if a["status"] and a["status"][0] == "closed")
-    mon_closed = [a for a in ATTRACTIONS if any(k == "Poniedziałek" and "nieczynne" in v for k, v in a["hours"])]
+    def closed_monday(a):
+        # Etykiety typu „Poniedziałek–wtorek”, „Niedziela–poniedziałek”, „Poniedziałek, niedziela, święta”.
+        named = set()
+        for k, v in a["hours"]:
+            named.update(seo._day_set(k.replace(", święta", "")) or [])
+        for k, v in a["hours"]:
+            if "nieczynne" in v and "nieczynne dla" not in v:
+                days = seo._day_set(k.replace(", święta", ""))
+                if k.lower() == "pozostałe dni":  # np. Muzeum Farmacji: czynne tylko w czwartki
+                    days = [d for d in range(7) if d not in named]
+                if days and 0 in days:
+                    return True
+        return False
+    mon_closed = [a for a in ATTRACTIONS if not is_closed(a) and closed_monday(a)]
     mon_html = "".join(f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a></li>' for a in mon_closed)
     body = f"""
 <header class="wrap page-head">
@@ -570,10 +585,11 @@ def build_info():
 <section id="przyjazd">
   <h2>Przyjazd</h2>
   <h3>Lotnisko Poznań-Ławica</h3>
-  <p>Lotnisko leży przy ul. Bukowskiej 285. Od kwietnia 2026 roku z terminalu do dworca Poznań Główny jeżdżą autobusy linii <strong>148</strong> i <strong>159</strong>: w godzinach szczytu co 7–8 minut, poza szczytem i w weekendy co 10 minut. Linia 148 jedzie przez Rondo Kaponiera. Rzadziej, co 30–40 minut, kursuje też linia <strong>177</strong>.</p>
-  <p>Bilet kupisz kartą płatniczą przy terminalu w autobusie. Na lotnisku działa punkt informacji turystycznej, czynny codziennie 7:00–19:00.</p>
+  <p>Lotnisko leży przy ul. Bukowskiej 285. Między terminalem a dworcem Poznań Główny kursują autobusy linii <strong>148</strong> i <strong>159</strong>. Od 18 kwietnia 2026 roku jeżdżą na zmianę, więc z przystanków Poznań Główny, Rondo Kaponiera i Bałtyk oraz spod terminalu odjeżdżają co 7–8 minut w godzinach szczytu, a poza szczytem i w weekendy co 10 minut. Linia <strong>177</strong> kursuje co 30 minut w szczycie i co 40 minut poza nim.</p>
+  <p>Bilet kupisz kartą płatniczą przy terminalu w autobusie. Na lotnisku działa punkt informacji turystycznej.</p>
+  <p class="muted">Źródło: <a href="https://www.ztm.poznan.pl/aktualnosci/komunikaty/linie-nr-148-159-oraz-177-zmiany-w-komunikacji-na-trasie-poznan-glowny-port-lotniczy-lawica-od-18-kwietnia/" target="_blank" rel="noopener">ZTM Poznań: linie 148, 159 i 177 od 18 kwietnia 2026</a></p>
   <h3>Dworzec Poznań Główny</h3>
-  <p>Dworzec kolejowy stoi przy ul. Dworcowej i ma 11 peronów. Jest połączony z centrum handlowym Avenida. Przystanek autobusów na lotnisko (148 i 159) znajduje się przy ul. Dworcowej, od strony Avenidy.</p>
+  <p>Budynek dworca jest połączony z centrum handlowym Avenida. Autobusy na lotnisko (148 i 159) odjeżdżają z przystanku Poznań Główny.</p>
 </section>
 
 <section id="komunikacja">
@@ -585,22 +601,22 @@ def build_info():
       <tr><th scope="row">do 15 minut</th><td>5 zł</td><td>2,50 zł</td></tr>
       <tr><th scope="row">do 45 minut</th><td>7 zł</td><td>3,50 zł</td></tr>
       <tr><th scope="row">do 90 minut</th><td>9 zł</td><td>4,50 zł</td></tr>
-      <tr><th scope="row">24 godziny, strefa A</th><td>18 zł</td><td></td></tr>
+      <tr><th scope="row">24 godziny, strefa A</th><td>18 zł</td><td>9 zł</td></tr>
       <tr><th scope="row">24 godziny, strefy A+B+C+D</th><td>24 zł</td><td>12 zł</td></tr>
-      <tr><th scope="row">7 dni, strefa A</th><td>59 zł</td><td></td></tr>
+      <tr><th scope="row">7 dni, strefa A</th><td>59 zł</td><td>29,50 zł</td></tr>
       <tr><th scope="row">7 dni, strefy A+B+C+D</th><td>94 zł</td><td>47 zł</td></tr>
     </tbody>
   </table></div>
   <h3>Jak kupić bilet</h3>
-  <p>W tramwajach i autobusach są terminale do płatności zbliżeniowej. Wybierz bilet na ekranie i przyłóż kartę płatniczą albo telefon. Przy kontroli przyłóż do czytnika kontrolera tę samą kartę, którą płaciłeś. Bilety kupisz też w aplikacji PEKA.</p>
-  <p>Opłaca się bilet rodzinny 24-godzinny: dwa bilety dla dorosłych obejmują 2 dorosłych i do 3 dzieci w wieku do 18 lat. Jest też bilet weekendowy, ważny od piątku 20:00 do niedzieli 24:00.</p>
-  <p class="muted">Źródło: <a href="https://www.ztm.poznan.pl/wszystko-o-biletach/cennik-biletow/" target="_blank" rel="noopener">ZTM Poznań: cennik biletów</a></p>
+  <p>W tramwajach i autobusach są terminale do płatności zbliżeniowej. Kupisz w nich bilety czasowe i 24-godzinne: wybierz bilet na ekranie i przyłóż kartę płatniczą albo telefon. Terminal nie drukuje biletu, a przy kontroli wystarczy okazać kartę, którą płaciłeś. Bilety kupisz też w aplikacjach moBILET, SkyCash, GoPay, jakdojade.pl i zBiletem oraz w biletomatach na przystankach.</p>
+  <p>Opłaca się promocja „Rodzina 24 h”: dwa jednocześnie skasowane normalne bilety 24-godzinne obejmują 2 dorosłych i do 3 dzieci w wieku do 18 lat. Z kolei bilet 24-godzinny skasowany od piątku 20:00 do soboty 24:00 jest ważny do niedzieli 24:00 („Weekend 24 h”).</p>
+  <p class="muted">Źródła: <a href="https://www.ztm.poznan.pl/wszystko-o-biletach/cennik-biletow/" target="_blank" rel="noopener">ZTM Poznań: cennik biletów</a>, <a href="https://www.ztm.poznan.pl/wszystko-o-biletach/rodzaje-i-formy-biletow/" target="_blank" rel="noopener">ZTM: rodzaje i formy biletów</a>, <a href="https://www.opspoznan.pl/" target="_blank" rel="noopener">portal pasażera: zakup w terminalu</a></p>
 </section>
 
 <section id="karta">
   <h2>Poznańska Karta Turystyczna</h2>
-  <p>Karta daje bezpłatny wstęp do większości poznańskich muzeów oraz zniżki m.in. w restauracjach, obiektach sportowych i w zoo. Jest dostępna na 24, 48 lub 72 godziny, w wersji normalnej lub ulgowej, z komunikacją miejską albo bez niej.</p>
-  <p>Kupisz ją online, w aplikacji na iOS i Androida oraz w punktach informacji turystycznej. Aktualne ceny pakietów są na stronie <a href="https://karta.visitpoznan.pl/" target="_blank" rel="noopener">karta.visitpoznan.pl</a>.</p>
+  <p>Karta daje bezpłatny wstęp do większości poznańskich muzeów oraz zniżki m.in. w restauracjach, obiektach sportowych i na bilet do Nowego Zoo. Pakiet Poznań jest dostępny na 24, 48 lub 72 godziny, w wersji normalnej lub ulgowej, z komunikacją miejską albo bez niej. Jest też pakiet „Dookoła Poznania” z atrakcjami w powiecie poznańskim.</p>
+  <p>Kupisz ją online, w aplikacji oraz w punktach informacji turystycznej na Starym Rynku, na placu Kolegiackim (sezonowo) i na lotnisku, a także w sklepie z pamiątkami w Bramie Poznania. Aktualne ceny pakietów są na stronie <a href="https://karta.visitpoznan.pl/" target="_blank" rel="noopener">karta.visitpoznan.pl</a>.</p>
 </section>
 
 <section id="informacja">
@@ -610,6 +626,7 @@ def build_info():
     <thead><tr><th scope="col">Punkt</th><th scope="col">Adres</th><th scope="col">Godziny</th><th scope="col">Kontakt</th></tr></thead>
     <tbody>{it_rows}</tbody>
   </table></div>
+  <p class="muted">Źródło: <a href="https://visitpoznan.pl/it" target="_blank" rel="noopener">visitpoznan.pl: Informacja Turystyczna</a></p>
 </section>
 
 <section id="muzea">
@@ -662,13 +679,14 @@ def info_extra():
   <h2>Zdrowie i pomoc medyczna</h2>
   <p>W nagłym zagrożeniu życia dzwoń pod <strong>112</strong> albo <strong>999</strong>. Połączenie jest bezpłatne.</p>
   <h3>Szpitalne oddziały ratunkowe (SOR)</h3>
+  <p>SOR-y działają m.in. w tych szpitalach:</p>
   <ul>
     <li>Szpital Wojewódzki w Poznaniu, ul. Juraszów 7/19</li>
     <li>Wielospecjalistyczny Szpital Miejski im. Józefa Strusia, ul. Szwajcarska 3</li>
   </ul>
   <p>Na SOR jedź tylko w stanach nagłych. Przy mniej pilnych dolegliwościach wieczorem, w nocy i w weekend pomoże nocna i świąteczna opieka zdrowotna.</p>
   <h3>Nocna i świąteczna opieka zdrowotna</h3>
-  <p>Działa od poniedziałku do piątku w godzinach 18:00–8:00 oraz całodobowo w soboty, niedziele i święta. Nie musisz mieszkać w Poznaniu, żeby z niej skorzystać. Wybrane punkty:</p>
+  <p>Działa od poniedziałku do piątku w godzinach 18:00–8:00 oraz całodobowo w soboty, niedziele i święta. Nie musisz mieszkać w Poznaniu, żeby z niej skorzystać. Wybrane punkty z listy podanej przez miasto (poznan.pl, grudzień 2025):</p>
   <div class="table-wrap"><table class="grid">
     <thead><tr><th scope="col">Placówka</th><th scope="col">Adres</th><th scope="col">Telefon</th></tr></thead>
     <tbody>
@@ -677,17 +695,17 @@ def info_extra():
       <tr><th scope="row">Specjalistyczny Zespół Opieki Zdrowotnej nad Matką i Dzieckiem</th><td>ul. Adama Wrzoska 1</td><td class="sel">61 616 20 20</td></tr>
     </tbody>
   </table></div>
-  <p>Pełną listę punktów i informację, gdzie najbliżej uzyskasz pomoc, podaje całodobowa Telefoniczna Informacja Pacjenta NFZ: <strong class="sel">800 190 590</strong>.</p>
+  <p>Pełną listę punktów i informację, gdzie najbliżej uzyskasz pomoc, podaje Telefoniczna Informacja Pacjenta NFZ: <strong class="sel">800 190 590</strong>.</p>
   <h3>Dentysta w nocy i w święta</h3>
-  <p>Doraźną pomoc stomatologiczną zapewnia POZDENT, tel. <span class="sel">61 835 18 01</span>.</p>
+  <p>Doraźną pomoc stomatologiczną zapewnia Pozdent Stomatologia, ul. Czajcza 1a (Wilda), tel. <span class="sel">61 835 18 01</span>.</p>
   <h3>Apteki</h3>
-  <p>Każda apteka ma na drzwiach informację o najbliższej aptece dyżurnej, czynnej w nocy i w święta.</p>
+  <p>Listę aptek czynnych w nocy i w święta podaje <a href="https://www.woia.pl/" target="_blank" rel="noopener">Wielkopolska Okręgowa Izba Aptekarska</a>.</p>
   <p class="muted">Źródła: <a href="https://www.poznan.pl/mim/info/news/gdzie-do-lekarza-w-swieta,269048.html" target="_blank" rel="noopener">poznan.pl: gdzie do lekarza w święta</a>.</p>
 </section>
 
 <section id="toalety">
   <h2>Toalety publiczne</h2>
-  <p>Miejskie toalety przy trasach turystycznych. Toalety automatyczne są czynne całą dobę. Toaletę znajdziesz też w każdym muzeum, centrum handlowym i na dworcu.</p>
+  <p>Miejskie toalety przy trasach turystycznych. Toalety automatyczne z tej listy są czynne całą dobę.</p>
   <div class="table-wrap"><table class="grid">
     <thead><tr><th scope="col">Miejsce</th><th scope="col">Gdzie dokładnie</th><th scope="col">Godziny</th></tr></thead>
     <tbody>{toilets}</tbody>
@@ -697,7 +715,7 @@ def info_extra():
 
 <section id="taksowki">
   <h2>Taksówki i przejazdy na aplikację</h2>
-  <p>Taksówkę zamówisz telefonicznie albo w aplikacji. Całą dobę działa m.in. iTaxi, tel. <span class="sel">737 737 737</span>. W Poznaniu działają też przewozy na aplikację, takie jak Uber i Bolt. Postoje taksówek są m.in. przy dworcu Poznań Główny i na lotnisku.</p>
+  <p>Taksówkę zamówisz telefonicznie albo w aplikacji, np. iTaxi, tel. <span class="sel">737 737 737</span>. W Poznaniu działają też przewozy na aplikację, takie jak Uber i Bolt.</p>
   <p>Przed kursem zapytaj o cenę albo sprawdź ją w aplikacji.</p>
 </section>
 
@@ -712,20 +730,20 @@ def info_extra():
       <tr><th scope="row">ŚSPP Centrum (czerwona)</th><td>Stare Miasto</td><td>pn–sb 8:00–20:00</td><td>9,50 zł</td><td>11,00 zł</td><td>13,00 zł</td><td>9,50 zł</td></tr>
     </tbody>
   </table></div>
-  <p>Podane ceny dotyczą kierowców spoza Poznania. Zapłacisz w parkomacie albo w aplikacji mobilnej. W niedziele postój jest bezpłatny we wszystkich strefach, a w strefie niebieskiej także w soboty.</p>
-  <p>Wygodniej zostawić auto na parkingu <strong>Park&amp;Ride</strong> przy pętli tramwajowej i dojechać do centrum tramwajem. Takie parkingi są m.in. przy pętlach Sobieskiego, Strzeszyn, Rondo Starołęka i Św. Michała.</p>
-  <p class="muted">Źródła: <a href="https://zdm.poznan.pl/oplaty-za-postoj" target="_blank" rel="noopener">ZDM Poznań: opłaty za postój</a> (cennik od 1.09.2025), <a href="https://zdm.poznan.pl/" target="_blank" rel="noopener">ZDM: parkingi Park&amp;Ride</a>.</p>
+  <p>Podane ceny dotyczą kierowców spoza Poznania. Opłatę wnosi się w parkomacie, inne formy płatności opisuje strona ZDM. W niedziele postój jest bezpłatny we wszystkich strefach, a w strefie niebieskiej także w soboty.</p>
+  <p>Wygodniej zostawić auto na parkingu <strong>Park&amp;Ride</strong> i dojechać do centrum komunikacją miejską. Miejskie parkingi P&amp;R to: Szymanowskiego (przy PST), św. Michała, Biskupińska (przy stacji Poznań Strzeszyn), Rondo Starołęka i Junikowo PKM (Plewiska, przy stacji Poznań Junikowo). Z biletem okresowym ZTM na karcie PEKA postój jest bezpłatny.</p>
+  <p class="muted">Źródła: <a href="https://zdm.poznan.pl/oplaty-za-postoj" target="_blank" rel="noopener">ZDM Poznań: opłaty za postój</a> (cennik od 1.09.2025), <a href="https://zdm.poznan.pl/parkowanie-parkingi-park-ride-1" target="_blank" rel="noopener">ZDM: parkingi Park&amp;Ride</a>.</p>
 </section>
 
 <section id="rowery">
   <h2>Rowerem</h2>
-  <p>Poznań ma sieć dróg rowerowych i kilka tras rekreacyjnych przez tereny zielone. Najpopularniejsze prowadzą wzdłuż Warty (Wartostrada), przez Cytadelę, wokół Malty i Rusałki, na Dębinę, przez Lasek Marceliński i na Morasko.</p>
-  <p>Mapę rowerową miasta na 2026 rok i opisy tras znajdziesz na stronie <a href="https://www.poznan.pl/rowery/" target="_blank" rel="noopener">poznan.pl/rowery</a>.</p>
+  <p>Poznań ma sieć dróg rowerowych. Wzdłuż Warty biegnie <a href="atrakcje/bulwary-warta.html">Wartostrada</a>, ścieżka piesza i rowerowa nad rzeką.</p>
+  <p>Mapę rowerową Poznania 2026 znajdziesz na stronie <a href="https://www.poznan.pl/rowery/" target="_blank" rel="noopener">poznan.pl/rowery</a>.</p>
 </section>
 
 <section id="przewodnicy">
   <h2>Zwiedzanie z przewodnikiem</h2>
-  <p>Oprowadzanie z licencjonowanym przewodnikiem organizuje m.in. Koło Przewodników PTTK im. Marcelego Mottego. O przewodników i wycieczki możesz też zapytać w punktach informacji turystycznej.</p>
+  <p>Oprowadzanie z przewodnikiem organizuje m.in. <a href="https://www.przewodnicy-pttk.org/" target="_blank" rel="noopener">Koło Przewodników PTTK im. Marcelego Mottego</a> (pl. Kolegiacki 16). Przewodnika można też zamówić w punktach informacji turystycznej.</p>
   <p>Na samodzielny spacer przydadzą się <a href="https://visitpoznan.pl/audioprzewodniki-po-poznaniu/" target="_blank" rel="noopener">audioprzewodniki Visit Poznań</a> oraz oznakowany <a href="atrakcje/trakt-krolewsko-cesarski.html">Trakt Królewsko-Cesarski</a>.</p>
 </section>
 

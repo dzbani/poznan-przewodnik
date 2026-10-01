@@ -4,7 +4,7 @@ w źródłach podanych w polu "sources" każdej atrakcji.
 Po zmianie danych uruchom: python src/build.py
 """
 
-CHECKED = "28.09.2026"
+CHECKED = "01.10.2026"
 
 CATEGORIES = [
     ("zabytki", "Zabytki i historia", "Tysiąc lat historii: od grodu Mieszka I po zamek cesarza."),
@@ -163,7 +163,7 @@ ATTRACTIONS = [
         ],
         address="Góra Przemysła 1, 61-768 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
-        tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 7–26 lat", "1 zł"), ("Wtorek", "wstęp wolny na wystawę stałą")],
+        tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny")], checked="01.10.2026",
         phone="+48 61 856 80 75", www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="zamek-krolewski",
         sources=[("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
@@ -253,7 +253,7 @@ ATTRACTIONS = [
         ],
         address="al. Marcinkowskiego 9, 61-745 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
-        tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 7–26 lat", "1 zł"), ("Wtorek", "wstęp wolny na wystawy stałe")],
+        tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny")], checked="01.10.2026",
         phone="+48 61 856 80 00", www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="muzeum-narodowe",
         sources=[("kultura.poznan.pl: Muzeum Narodowe", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-narodowe-w-poznaniu,15730.html"),
@@ -714,7 +714,7 @@ MORE = [
         ],
         address="Stary Rynek 45, 61-772 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
-        tickets=[("Ceny biletów", "na mnp.art.pl"), ("Z Poznańską Kartą Turystyczną", "bezpłatnie")],
+        tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny"), ("Z Poznańską Kartą Turystyczną", "bezpłatnie")], checked="01.10.2026",
         phone=None, www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="muzeum-instrumentow",
         sources=[("kultura.poznan.pl: Muzeum Instrumentów Muzycznych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202/muzeum-instrumentow-muzycznych-oddzial-muzeum-narodowego,15707.html"),
@@ -766,7 +766,7 @@ MORE = [
         ],
         address="ul. Grobla 25 (wejście od ul. Mostowej 7), 61-858 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
-        tickets=[("Ceny biletów", "na mnp.art.pl")],
+        tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny")], checked="01.10.2026",
         phone="+48 61 852 30 06", www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="muzeum-kultur-swiata",
         sources=[("poznan.pl: Muzeum Kultur Świata", "https://www.poznan.pl/mim/turystyka/muzea-w-poznaniu,poi,202,12/muzeum-etnograficzne-oddzial-muzeum-narodowego,15728.html"),
