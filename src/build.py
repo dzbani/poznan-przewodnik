@@ -14,6 +14,7 @@ from data_guide import (TOP10, KIDS, INDOOR_EXTRA, PLANS, HISTORY, LEGENDS, DIAL
                         CLIMATE, TOILETS)
 from data_events import CALENDAR, CAL_CHECKED
 from data_theatres import THEATRES, THEATRE_SOURCES, THEATRES_CHECKED
+import seo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDITS = {c["slug"]: c for c in json.load(open(os.path.join(ROOT, "img", "credits.json"), encoding="utf-8"))}
@@ -524,7 +525,10 @@ def build_attraction(a, idx):
   </nav>
 </section>
 """
-    return page(f"{a['name']} – Odkrywaj Poznań", body, prefix="../", desc=a["short"], active="atrakcje")
+    t = a.get("trip")
+    lat_lon = (t["lat"], t["lon"]) if t else (COORDS[a["slug"]]["lat"], COORDS[a["slug"]]["lon"])
+    return page(seo.title(a), body, prefix="../", desc=seo.description(a), active="atrakcje",
+                head=seo.json_ld(a, SITE_URL, cat_name, lat_lon))
 
 
 def build_info():
