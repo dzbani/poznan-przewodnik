@@ -102,6 +102,8 @@ PLANS = [
 
 # ─── O Poznaniu ───
 # Źródło: poznan.pl, „Rys historyczny”; daty z podstron atrakcji w tym przewodniku.
+# Uzupełnienia 01.10.2026 sprawdzone w pl.wikipedia (Wielkie Księstwo Poznańskie, Cytadela, UAM, MTP,
+# PeWuKa, Marian Rejewski, Kraj Warty) i w rysie historycznym poznan.pl (1939, 1945).
 HISTORY = [
     ("IX wiek", "Na Ostrowie Tumskim, między Wartą a Cybiną, powstaje gród."),
     ("X wiek", "Gród jest jedną z głównych siedzib księcia Mieszka I."),
@@ -109,12 +111,18 @@ HISTORY = [
     ("1253", "Przemysł I nadaje Poznaniowi prawa miejskie. Na lewym brzegu Warty wytyczono Stary Rynek."),
     ("XVI wiek", "Złoty wiek miasta. W 1519 roku biskup Jan Lubrański zakłada Akademię Lubrańskiego, w latach 1550–1560 Giovanni Battista di Quadro nadaje ratuszowi renesansowy wygląd, a w latach 70. jezuici otwierają kolegium, jedną z najbardziej cenionych szkół Rzeczypospolitej."),
     ("1793", "W II rozbiorze Polski Poznań zostaje przyłączony do Prus."),
+    ("1815", "Po kongresie wiedeńskim Poznań zostaje siedzibą władz Wielkiego Księstwa Poznańskiego, części Prus. Namiestnikiem jest książę Antoni Radziwiłł."),
+    ("1828–1842", "Prusacy budują na Winiarach potężny fort, dziś Cytadelę. Poznań zamienia się w miasto-twierdzę otoczone fortyfikacjami."),
     ("1905–1910", "Dla cesarza Wilhelma II powstaje Zamek Cesarski, serce nowej Dzielnicy Cesarskiej."),
-    ("1918–1919", "Zwycięskie powstanie wielkopolskie przywraca Poznań Polsce."),
+    ("1918–1919", "Zwycięskie powstanie wielkopolskie przywraca Poznań Polsce. W 1919 roku powstaje Uniwersytet Poznański, dziś Uniwersytet im. Adama Mickiewicza."),
+    ("1921", "Odbywa się pierwszy Targ Poznański. Od 1925 roku to targi międzynarodowe, a Poznań staje się miastem targów."),
+    ("1929", "Od 16 maja do 30 września trwa Powszechna Wystawa Krajowa (PeWuKa), pokaz dorobku dziesięciu lat niepodległej Polski."),
+    ("1932", "Marian Rejewski, absolwent matematyki Uniwersytetu Poznańskiego, łamie szyfr niemieckiej Enigmy. Współpracują z nim Jerzy Różycki i Henryk Zygalski, również absolwenci poznańskiej uczelni."),
+    ("1939–1945", "10 września 1939 roku Niemcy zajmują Poznań i włączają go do Rzeszy jako stolicę Kraju Warty. Część mieszkańców zostaje wysiedlona. Po ciężkich walkach miasto zostaje zdobyte 23 lutego 1945 roku, zniszczone w około 55%."),
     ("1956", "28 czerwca robotnicy wychodzą na ulice. Poznański Czerwiec to pierwszy masowy protest przeciw władzy komunistycznej w PRL."),
 ]
 
-# Źródło: poznan.pl, „Podania i legendy” (streszczenia własne).
+# Źródło: poznan.pl, „Podania i legendy” (streszczenia własne); rogale: pl.wikipedia „Rogal świętomarciński”.
 LEGENDS = [
     ("O powstaniu Poznania",
      "Po długiej rozłące trzej bracia, Lech, Czech i Rus, spotkali się tam, gdzie Cybina wpada do Warty. Rozpoznali się od razu i zawołali: „Poznaję!”. Na pamiątkę spotkania zbudowali w tym miejscu gród i nazwali go Poznaniem."),
@@ -126,6 +134,8 @@ LEGENDS = [
      "W XVII wieku bogata wdowa Petronela poślubiła młodego czeladnika kamieniarskiego. Gdy ten zakochał się w innej, oskarżyła go o próbę otrucia. Sąd ukarał go tylko grzywną i nakazał postawić własnym kosztem fontannę przed ratuszem. Tak powstała fontanna z porwaniem Prozerpiny przez Plutona."),
     ("O mieczu św. Piotra",
      "Rzymski miecz z Muzeum Archidiecezjalnego ma być tym, którym św. Piotr odciął ucho słudze arcykapłana w Ogrodzie Oliwnym. Według Jana Długosza papież podarował go pierwszemu biskupowi poznańskiemu Jordanowi."),
+    ("O rogalach świętomarcińskich",
+     "Według popularnej legendy w listopadzie 1891 roku proboszcz parafii św. Marcina, ks. Jan Lewicki, zaapelował do wiernych, by wzorem patrona pomogli biednym. Cukiernik Józef Melzer namówił swojego szefa, by upiec rogale. Zamożni poznaniacy je kupowali, a biedni dostawali za darmo. Kształt rogala ma przypominać podkowę zgubioną przez konia świętego. W rzeczywistości rogale na 11 listopada pieczono w Poznaniu wcześniej: najstarsza znana reklama pochodzi z 1860 roku."),
     ("O księżnej Ludgardzie",
      "Ludgarda, pierwsza żona Przemysła II, nie dała mu następcy. Według legendy w 1283 roku zginęła z tego powodu w łaźni u stóp poznańskiego zamku. Źródła historyczne podają jednak, że zmarła w Gnieźnie i tam ją pochowano."),
 ]
@@ -136,8 +146,11 @@ DIALECT = [
     ("tej", "ty (zawołanie: „Tej, chodź tu!”)"), ("laczki", "domowe pantofle bez napiętka"),
     ("tytka", "papierowa torebka"), ("ancug", "garnitur"), ("sznytka", "kromka chleba, kanapka"),
     ("gzik", "twarożek ze śmietaną i szczypiorkiem lub cebulą"), ("galoty", "majtki"),
-    ("szczun", "chłopak, smarkacz"), ("korbol", "dynia"), ("ryczka", "niski taboret"),
+    ("szczun", "chłopak"), ("korbol", "dynia"), ("ryczka", "niski taboret"),
     ("wuchta", "mnóstwo"), ("fyrtel", "dzielnica, okolica"), ("jupka", "kurtka"), ("bana", "pociąg"),
+    ("ino", "tylko"), ("szagą", "na ukos, na skos"), ("rajzefiber", "podniecenie, niepokój przed podróżą"),
+    ("mantel", "płaszcz"), ("antrejka", "przedpokój"), ("kejter", "pies, kundel"), ("ćmik", "papieros"),
+    ("glanc", "połysk (stąd „szneka z glancem”)"),
 ]
 
 # Źródło: Wikipedia, „Kuchnia wielkopolska”; rogal: Kapituła Rogala Świętomarcińskiego.
@@ -146,8 +159,8 @@ CUISINE = [
     ("Pyry z gzikiem", "Ziemniaki z twarożkiem ze śmietaną, szczypiorkiem albo cebulą."),
     ("Szare kluski", "Kluski z surowych ziemniaków, podawane z kapustą, bigosem albo okrasą z cebulki."),
     ("Czernina", "Zupa z krwi kaczej (dawniej gęsiej)."),
-    ("Plyndze", "Placki ziemniaczane."),
-    ("Kaczka po poznańsku", "Pieczona kaczka z jabłkami, podawana z modrą kapustą i kluskami."),
+    ("Plyndze", "Placki ziemniaczane (w gwarze plyndz, plendz albo plindz)."),
+    ("Pieczona kaczka z jabłkami", "Podawana z modrą kapustą i pyzami."),
     ("Szneka z glancem", "Drożdżówka w kształcie ślimaka, polana lukrem."),
     ("Ślepe ryby", "Gęsta zupa ziemniaczana. Ryb w niej nie ma, stąd nazwa."),
 ]

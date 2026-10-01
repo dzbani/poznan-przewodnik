@@ -902,13 +902,13 @@ def build_about():
 <section id="historia">
   <h2>Historia w pigułce</h2>
   <ol class="timeline">{timeline}</ol>
-  <p class="muted">Źródła: <a href="https://www.poznan.pl/mim/turystyka/rys-historyczny-poznania,p,25064,25065.html?wo_id=2024" target="_blank" rel="noopener">poznan.pl: rys historyczny</a> oraz podstrony atrakcji w tym przewodniku.</p>
+  <p class="muted">Źródła: <a href="https://www.poznan.pl/mim/turystyka/rys-historyczny-poznania,p,25064,25065.html?wo_id=2024" target="_blank" rel="noopener">poznan.pl: rys historyczny</a>, hasła Wikipedii o poszczególnych wydarzeniach oraz podstrony atrakcji w tym przewodniku.</p>
 </section>
 
 <section id="legendy">
   <h2>Legendy</h2>
   <div class="legends">{legends}</div>
-  <p class="muted">Źródło: <a href="https://www.poznan.pl/mim/wortals/turystyka/podania-i-legendy,p,27888,27889.html" target="_blank" rel="noopener">poznan.pl: podania i legendy</a> (streszczenia).</p>
+  <p class="muted">Źródło: <a href="https://www.poznan.pl/mim/wortals/turystyka/podania-i-legendy,p,27888,27889.html" target="_blank" rel="noopener">poznan.pl: podania i legendy</a> (streszczenia) i <a href="https://pl.wikipedia.org/wiki/Rogal_%C5%9Bwi%C4%99tomarci%C5%84ski" target="_blank" rel="noopener">Wikipedia: rogal świętomarciński</a>.</p>
 </section>
 
 <section id="gwara">
@@ -923,7 +923,7 @@ def build_about():
   <ul class="dishes">{dishes}</ul>
   <p>Oryginalne rogale świętomarcińskie pieką tylko wielkopolskie cukiernie z certyfikatem Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego. Historię rogala poznasz w <a href="atrakcje/rogalowe-muzeum.html">Rogalowym Muzeum</a>, a ziemniaków w <a href="atrakcje/muzeum-pyry.html">Muzeum Pyry</a>.</p>
   <p>Restauracja Muga ma gwiazdkę Michelin czwarty rok z rzędu. W Przewodniku Michelin 2026 znalazło się 25 lokali z Poznania i okolic.</p>
-  <p class="muted">Źródło: <a href="https://pl.wikipedia.org/wiki/Kuchnia_wielkopolska" target="_blank" rel="noopener">Wikipedia: kuchnia wielkopolska</a>.</p>
+  <p class="muted">Źródła: <a href="https://pl.wikipedia.org/wiki/Kuchnia_wielkopolska" target="_blank" rel="noopener">Wikipedia: kuchnia wielkopolska</a>, <a href="https://www.poznan.pl/mim/info/news/25-restauracji-z-poznania-i-okolic-z-wyroznieniami-michelin-2026,281300.html" target="_blank" rel="noopener">poznan.pl: wyróżnienia Michelin 2026</a>.</p>
 </section>
 
 <section id="klimat">
