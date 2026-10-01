@@ -152,12 +152,13 @@ CUISINE = [
     ("Ślepe ryby", "Gęsta zupa ziemniaczana. Ryb w niej nie ma, stąd nazwa."),
 ]
 
-# Źródło: Wikipedia, „Poznań” – klimat, średnie z lat 1971–2000.
+# Źródło: IMGW-PIB, dane publiczne, miesięczne dane synoptyczne stacji Poznań-Ławica (352160330).
+# Średnie z lat 1991–2020 (aktualna norma klimatyczna WMO), policzone 01.10.2026 z 360 miesięcy, bez braków.
 CLIMATE = [
-    ("−1,0 °C", "średnia temperatura stycznia"),
-    ("18,2 °C", "średnia temperatura lipca"),
-    ("634 mm", "roczna suma opadów"),
-    ("lipiec", "najbardziej deszczowy miesiąc (76 mm)"),
+    ("−0,4 °C", "średnia temperatura stycznia"),
+    ("19,5 °C", "średnia temperatura lipca"),
+    ("539 mm", "roczna suma opadów"),
+    ("lipiec", "najbardziej deszczowy miesiąc (84 mm)"),
 ]
 
 # ─── Informacje praktyczne: uzupełnienia ───

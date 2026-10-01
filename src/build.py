@@ -731,7 +731,7 @@ def info_extra():
 
 <section id="pogoda">
   <h2>Pogoda i pory roku</h2>
-  <p>Poznań ma klimat umiarkowany. Najcieplejszy jest lipiec (średnio 18,2 °C), najzimniejszy styczeń (średnio −1,0 °C). Lipiec jest też najbardziej deszczowy, więc latem warto mieć parasol.</p>
+  <p>Poznań ma klimat umiarkowany. Najcieplejszy jest lipiec (średnio 19,5 °C), najzimniejszy styczeń (średnio −0,4 °C). Lipiec jest też najbardziej deszczowy, więc latem warto mieć parasol.</p>
   <p>Aktualną prognozę podaje <a href="https://meteo.imgw.pl/" target="_blank" rel="noopener">IMGW</a>. Więcej o klimacie: <a href="o-poznaniu.html#klimat">O Poznaniu</a>.</p>
 </section>
 """
@@ -930,7 +930,7 @@ def build_about():
   <h2>Klimat</h2>
   <div class="facts facts-flat">{climate}</div>
   <p>Latem jest ciepło, ale bywają ulewy. Zimą temperatura często spada poniżej zera. Na zwiedzanie najprzyjemniejsze są późna wiosna i wczesna jesień.</p>
-  <p class="muted">Średnie z lat 1971–2000. Źródło: <a href="https://pl.wikipedia.org/wiki/Pozna%C5%84#Klimat" target="_blank" rel="noopener">Wikipedia: Poznań, klimat</a>. Prognoza: <a href="https://meteo.imgw.pl/" target="_blank" rel="noopener">IMGW</a>.</p>
+  <p class="muted">Średnie z lat 1991–2020, stacja Poznań-Ławica. Obliczenia na podstawie <a href="https://danepubliczne.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/synop/" target="_blank" rel="noopener">danych IMGW-PIB</a>. Prognoza: <a href="https://meteo.imgw.pl/" target="_blank" rel="noopener">IMGW</a>.</p>
 </section>
 </div>
 """
