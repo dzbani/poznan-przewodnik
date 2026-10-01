@@ -457,6 +457,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 
 /* ─── Kontakt: zgłaszanie błędów ─── */
 .footer-contact { margin-top: 8px; }
+.footer-bar { border-top: 1px solid var(--line); padding-block: 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; font-size: 0.85rem; color: var(--muted); }
+.footer-name { font-family: "Playfair Display", Georgia, serif; font-size: 1rem; color: var(--text); }
+.footer-legal { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+.footer-legal a, .footer-legal .linkish { color: var(--muted); text-decoration: none; font-size: inherit; }
+.footer-legal a:hover, .footer-legal .linkish:hover { color: var(--gold-2); text-decoration: underline; }
+@media (max-width: 700px) { .footer-bar { flex-direction: column; align-items: flex-start; } }
 .report { font-size: 0.88rem; }
 .report a { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
 .report a:hover { color: var(--gold-2); }

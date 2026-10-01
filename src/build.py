@@ -177,10 +177,17 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}kalendarz.html">Kalendarz wydarzeń</a></li>
       <li><a href="{prefix}teatry.html">Teatry i koncerty</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
-      <li><a href="{prefix}prywatnosc.html">Prywatność</a></li>
-      <li><button type="button" class="linkish" data-consent-open>Ustawienia cookies</button></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
+  </div>
+  <div class="wrap footer-bar">
+    <span class="footer-name">Odkrywaj Poznań</span>
+    <ul class="footer-legal">
+      <li><a href="{prefix}prywatnosc.html">Prywatność</a></li>
+      <li><button type="button" class="linkish" data-consent-open>Ustawienia cookies</button></li>
+      <li><a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></li>
+    </ul>
+    <span class="footer-copy">© {COPYRIGHT_YEAR} odkrywajpoznan.pl</span>
   </div>
 </footer>
 <div class="consent" role="region" aria-label="Zgoda na statystyki" data-ga="{GA_ID}" hidden>
@@ -1002,6 +1009,7 @@ def build_map():
 
 # Google Analytics 4: ładowany przez site.js WYŁĄCZNIE po kliknięciu „Akceptuję” w banerze zgody.
 GA_ID = "G-S4K8EW3YGQ"
+COPYRIGHT_YEAR = datetime.date.today().year
 
 # Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
 CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
