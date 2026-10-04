@@ -105,8 +105,43 @@
     });
   }
   bind(".map-finder .tab", "cat", "data-filter");
-  bind(".map-finder .qf", "quick", "data-quick");
+  bind(".map-finder .qf:not(.locate-btn)", "quick", "data-quick");
   apply();
+
+  var userMarker = null;
+  var locateBtn = document.getElementById("locate-btn");
+  if (locateBtn) {
+    locateBtn.addEventListener("click", function () {
+      if (!navigator.geolocation) {
+        alert("Geolokalizacja nie jest dostępna w Twojej przeglądarce.");
+        return;
+      }
+      locateBtn.disabled = true;
+      locateBtn.textContent = "⏳ Szukam...";
+      navigator.geolocation.getCurrentPosition(
+        function (pos) {
+          var lat = pos.coords.latitude;
+          var lon = pos.coords.longitude;
+          if (userMarker) map.removeLayer(userMarker);
+          userMarker = L.circleMarker([lat, lon], {
+            radius: 8, weight: 3, color: "#0066CC", fillColor: "#3399FF", fillOpacity: 0.7
+          }).addTo(map);
+          userMarker.bindPopup("<p><strong>Jesteś tutaj</strong></p>", { maxWidth: 150 });
+          userMarker.bindTooltip("Twoja lokalizacja", { direction: "top", offset: [0, -10] });
+          map.flyTo([lat, lon], 15, { duration: 0.6 });
+          locateBtn.disabled = false;
+          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem';
+        },
+        function (err) {
+          var msg = err.code === 1 ? "Odmówiłeś dostępu do lokalizacji." : "Nie mogę ustalić Twojej lokalizacji.";
+          alert(msg);
+          locateBtn.disabled = false;
+          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem';
+        },
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      );
+    });
+  }
 
   function fromHash() {
     var s = decodeURIComponent(location.hash.slice(1));

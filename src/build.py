@@ -260,7 +260,7 @@ def finder_parts():
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
     quick_html = "".join(
         f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
-        for k, n in quick)
+        for k, n in quick) + '<button type="button" id="locate-btn" class="qf locate-btn" aria-label="Pokaż moją lokalizację"><span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem</button>'
     groups = []
     for k, n, d in CATEGORIES:
         items = [a for a in ATTRACTIONS if a["cat"] == k]
@@ -1005,7 +1005,7 @@ def build_map():
     data = {"items": items, "cats": {k: {"n": cat_names[k], "col": CAT_COLORS[k]} for k in cat_names}}
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
     quick_html = "".join(f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
-                         for k, n in quick)
+                         for k, n in quick) + '<button type="button" id="locate-btn" class="qf locate-btn" aria-label="Pokaż moją lokalizację"><span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem</button>'
     tabs = ['<button type="button" class="tab" aria-pressed="true" data-filter="all">Wszystkie</button>'] + [
         f'<button type="button" class="tab" aria-pressed="false" data-filter="{k}"><span class="dot" style="--dot:{CAT_COLORS[k]}"></span>{escape(n)}</button>'
         for k, n, _ in CATEGORIES]
