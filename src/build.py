@@ -330,7 +330,7 @@ def build_index():
                     for pid, t, who, *_ in PLANS)
     body = f"""
 <section class="hero hero-full">
-  <img class="hero-bg" src="img/hero-stary-rynek.jpg" srcset="img/hero-stary-rynek-1200.jpg 1200w, img/hero-stary-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
+  <img class="hero-bg" src="img/hero-rynek.jpg" srcset="img/hero-rynek-1200.jpg 1200w, img/hero-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
   <div class="wrap hero-in">
   <div class="hero-text">
     <p class="kicker">Przewodnik dla odwiedzających</p>
