@@ -55,7 +55,7 @@ CHURCHES = [
         extra=["Z tą samą tradycją z 1399 roku wiąże się pobliski kościół Najświętszej Krwi Pana Jezusa przy ulicy Żydowskiej."]),
     church(
         "kosciol-bernardynow", "Kościół św. Franciszka Serafickiego (Bernardynów)", 40378,
-        "ul. Garbary 22, 61-868 Poznań",
+        "ul. Garbary 22, 61-867 Poznań",
         "Barokowy kościół bernardynów z wysokimi hełmami wież i rzeźbami świętych na fasadzie.",
         "Kościół nazywany jest kościołem bernardynów, bo w 1456 roku założyli tu klasztor franciszkanie obserwanci, zwani od Bernardyna ze Sieny bernardynami. Obecny barokowy kościół zbudowano w latach 1661–1668.",
         ["Gotycki kościół z lat 1471–1473 spalili Szwedzi w 1655 roku. Nowy zaprojektowali Krzysztof Bonadura Starszy i Jerzy Catenazzi.",
@@ -78,7 +78,7 @@ CHURCHES = [
         "Romański kościół św. Jana Jerozolimskiego za Murami"),
     church(
         "kosciol-sw-jozefa", "Kościół św. Józefa (Karmelitów Bosych)", 40380,
-        "ul. Działowa 25, Poznań",
+        "ul. Działowa 25, 61-747 Poznań",
         "Barokowy kościół karmelitów bosych, gdzie spoczywa pierwowzór Jana Skrzetuskiego z „Ogniem i mieczem”.",
         "Barokowy kościół zbudowano w latach 1644–1678 według projektu Krzysztofa Bonadury Starszego i Jerzego Catenazziego. Od odbudowy po 1945 roku opiekują się nim karmelici bosi.",
         ["Po kasacie klasztoru Prusacy oddali kościół wojsku. Po 1840 roku wnętrze przebudowano według Karla Friedricha Schinkla na ewangelicki kościół garnizonowy.",
@@ -89,7 +89,7 @@ CHURCHES = [
         "Barokowa fasada kościoła Karmelitów Bosych"),
     church(
         "kosciol-sw-malgorzaty", "Kościół św. Małgorzaty na Śródce", 40381,
-        "ul. Filipińska, 61-840 Poznań",
+        "ul. Filipińska, 61-114 Poznań",
         "Gotycki kościół z XIV wieku przy Rynku Śródeckim, tuż obok muralu.",
         "Pierwszy kościół na Śródce powstał zapewne przed 1231 rokiem. Obecną świątynię wzniesiono w XIV wieku. W latach 1671–1805 należała do filipinów.",
         ["W XV wieku dobudowano kaplicę św. Barbary, a około 1652 roku kaplicę św. Filipa Nereusza.",
@@ -115,7 +115,7 @@ CHURCHES = [
         extra=["11 listopada ulica Święty Marcin obchodzi swoje imieniny."]),
     church(
         "kosciol-dominikanow", "Kościół Dominikanów (NSPJ i MB Pocieszenia)", 40383,
-        "ul. Szewska 18, Poznań",
+        "ul. Szewska 18, 61-760 Poznań",
         "Kościół dominikanów z 1244 roku z sanktuarium Matki Boskiej Różańcowej.",
         "Pierwszy kościół dominikanów ufundowali w 1244 roku książęta wielkopolscy Przemysł I i Bolesław Pobożny. Obecny kształt świątynia dostała na początku XVIII wieku według projektu Jana Catenazziego. Jest sanktuarium Matki Boskiej Różańcowej.",
         ["Zachowały się częściowo wczesnogotyckie mury z XIII wieku z portalem w fasadzie zachodniej, odsłoniętym w 1923 roku.",
@@ -136,7 +136,7 @@ CHURCHES = [
         "Neogotycki kościół Najświętszego Zbawiciela"),
     church(
         "kosciol-najsw-krwi", "Kościół Najświętszej Krwi Pana Jezusa", 40385,
-        "ul. Żydowska 34, Poznań",
+        "ul. Żydowska 34, 61-761 Poznań",
         "Kościół w dawnej kamienicy związanej z tradycją cudu trzech hostii z 1399 roku.",
         "Kościół stoi w miejscu kamienicy, z którą wiąże się tradycja tzw. cudu trzech hostii z 1399 roku. W XVII wieku karmelici przebudowali ją na kościół, wykorzystując gotyckie mury i piwnicę ze studzienką.",
         ["Obecny wygląd budynek zyskał na początku XX wieku. Na fasadzie widać fragmenty dawnych murów."],
@@ -194,7 +194,7 @@ CHURCHES = [
         phone="+48 61 833 34 62", www=("poznancr.pl", "http://www.poznancr.pl/")),
     church(
         "kosciol-maryi-krolowej", "Kościół Maryi Królowej", 66243,
-        "Rynek Wildecki 4, 61-558 Poznań",
+        "Rynek Wildecki 4, 61-546 Poznań",
         "Neorenesansowy kościół na Rynku Wildeckim z 45-metrową wieżą.",
         "Kościół zbudowano w latach 1904–1907 w stylu neorenesansowym. Do końca II wojny światowej należał do gminy ewangelickiej jako kościół św. Mateusza. Od 1945 roku jest katolicki.",
         ["Po przejęciu przez parafię katolicką zmieniono wezwanie na obecne."],

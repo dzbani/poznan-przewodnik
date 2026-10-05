@@ -106,7 +106,7 @@ def media_html(a, prefix, lazy=False):
 def credit_badge(slug, prefix=""):
     """Dyskretna ikonka „i” w rogu zdjęcia: autor i licencja w dymku, klik prowadzi do strony autorów."""
     c = CREDITS[slug]
-    txt = escape(f'Zdjęcie: {c["artist"]}, {c["license"]}')
+    txt = escape(f'Zdjęcie: {c["artist"]}' + (f', {c["license"]}' if c["license"] else ""))
     return (f'<a class="photo-credit" href="{prefix}zdjecia.html#foto-{slug}" data-credit="{txt}" '
             f'aria-label="{txt}. Pokaż źródło">i</a>')
 

@@ -42,7 +42,7 @@ MONUMENTS = [
           "Rzeźba stoi nisko, a na grzbietach koziołków można usiąść, dlatego to jedno z najpopularniejszych miejsc na pamiątkowe zdjęcie z Poznania.",
           "Prawdziwe koziołki trykają się codziennie o 12:00 na wieży ratusza, kilka minut spacerem stąd.",
       ])],
-      "pl. Kolegiacki, Poznań",
+      "pl. Kolegiacki, 61-841 Poznań",
       ("poznan.pl: Pomnik Poznańskich Koziołków", PM + "poznanskich-koziolkow,51451.html"),
       [wiki("Pomnik koziołków w Poznaniu")]),
 
@@ -59,7 +59,7 @@ MONUMENTS = [
           "Scenę porwania Prozerpiny przez Plutona, władcę podziemi, wykutą w piaskowcu.",
           "Płaskorzeźby czterech żywiołów na ścianach basenu (ogień, woda, powietrze i ziemia) oraz herb Poznania.",
       ])],
-      "Stary Rynek (przed ratuszem), Poznań",
+      "Stary Rynek (przed ratuszem), 61-772 Poznań",
       ("poznan.pl: Fontanna Prozerpiny", PF + "fontanna-prozerpiny,41208.html"),
       [wiki("Fontanna Prozerpiny w Poznaniu")]),
 
@@ -76,7 +76,7 @@ MONUMENTS = [
           "Kazimiera Iłłakowiczówna napisała o niej wiersz „Bambereczka”.",
           "Więcej o Bambrach opowiada Muzeum Bambrów Poznańskich przy ulicy Mostowej.",
       ])],
-      "Stary Rynek (zachodnia ściana ratusza), Poznań",
+      "Stary Rynek (zachodnia ściana ratusza), 61-768 Poznań",
       ("poznan.pl: Studzienka Bamberki", PF + "studzienka-bamberki,41217.html"),
       [wiki("Studzienka Bamberki w Poznaniu")]),
 
@@ -91,7 +91,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "To jedna z czterech fontann rynku. Pozostałe to Prozerpiny, Neptuna i Marsa, więc łatwo obejść wszystkie podczas jednego spaceru.",
       ])],
-      "Stary Rynek (róg ul. Wodnej i Świętosławskiej), Poznań",
+      "Stary Rynek (róg ul. Wodnej i Świętosławskiej), 61-772 Poznań",
       ("poznan.pl: Fontanna Apolla", PF + "fontanna-apolla,41209.html"),
       [wiki("Fontanna Apolla w Poznaniu")]),
 
@@ -103,7 +103,7 @@ MONUMENTS = [
           "Przez wieki działał tu targ rybny. Poznań był silnie związany z Wartą i jej odnogami: wielu mieszkańców pracowało jako rybacy, flisacy i piaskarze. Przypominają o tym nazwy ulic, takie jak Wodna, Mostowa, Grobla czy Rybaki.",
           "Fontanna stoi w miejscu dawnej studni z XVII wieku. Podobnie jak fontanny Apolla i Marsa jest współczesnym nawiązaniem do dawnych rynkowych studni.",
       ])],
-      "Stary Rynek (u wylotu ul. Paderewskiego), Poznań",
+      "Stary Rynek (u wylotu ul. Paderewskiego), 61-772 Poznań",
       ("poznan.pl: Fontanna Neptuna", PF + "fontanna-neptuna,41210.html"),
       [wiki("Fontanna Neptuna w Poznaniu")]),
 
@@ -115,7 +115,7 @@ MONUMENTS = [
           "W XVII wieku stała tu jedna z rynkowych fontann, która do końca XIX wieku dostarczała mieszkańcom wodę. Nowa fontanna przywróciła to historyczne miejsce.",
           "Rzeźba przedstawia rzymskiego boga wojny, jedną z czterech postaci, które od 1615 roku zdobiły studnie na rynku.",
       ])],
-      "Stary Rynek (część północno-zachodnia), Poznań",
+      "Stary Rynek (część północno-zachodnia), 61-772 Poznań",
       ("poznan.pl: Fontanna Marsa", PF + "fontanna-marsa,41211.html"),
       [wiki("Fontanna Marsa w Poznaniu")]),
 
@@ -131,7 +131,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "O gwarze poznańskiej i jej najważniejszych słowach przeczytasz na stronie O Poznaniu.",
       ])],
-      "ul. Półwiejska / ul. Strzelecka, Poznań",
+      "ul. Półwiejska / ul. Strzelecka, 61-888 Poznań",
       ("poznan.pl: Pomnik Starego Marycha", PM + "starego-marycha,51450.html"),
       [wiki("Pomnik Starego Marycha w Poznaniu")]),
 
@@ -143,7 +143,7 @@ MONUMENTS = [
           "Pomnik odsłonięto 29 maja 2003 roku. Był efektem akcji „Ocalmy latarnie” prowadzonej przez „Gazetę Wyborczą” i gazownię, która miała uratować zabytkowe latarnie gazowe w Poznaniu.",
           "Autorem rzeźby jest Robert Sobociński. Częścią kompozycji jest oryginalna, odnowiona latarnia gazowa przeniesiona z ulicy Słowackiego na Jeżycach.",
       ])],
-      "ul. Grobla (skwer przy Starej Gazowni), Poznań",
+      "ul. Grobla (skwer przy Starej Gazowni), 61-858 Poznań",
       ("poznan.pl: Pomnik Zygi Latarnika", PM + "zygi-latarnika,51570.html"),
       [wiki("Pomnik Zygi Latarnika")]),
 
@@ -159,7 +159,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Na tym samym placu stoi Pomnik Poznańskiego Czerwca 1956, a obok rozciąga się Park Mickiewicza przed Teatrem Wielkim.",
       ])],
-      "pl. Adama Mickiewicza, Poznań",
+      "pl. Adama Mickiewicza, 61-712 Poznań",
       ("poznan.pl: Pomnik Adama Mickiewicza", PM + "adama-mickiewicza,40372.html"),
       [wiki("Pomnik Adama Mickiewicza w Poznaniu")]),
 
@@ -175,7 +175,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Przed wojną w Zamku mieściły się pomieszczenia uniwersytetu. Kilka kroków dalej działa Centrum Szyfrów Enigma z multimedialną wystawą o tej historii.",
       ])],
-      "ul. Święty Marcin 80/82 (przed Zamkiem Cesarskim), Poznań",
+      "ul. Święty Marcin 80/82 (przed Zamkiem Cesarskim), 61-809 Poznań",
       ("poznan.pl: Pomnik Pogromców Enigmy", PM + "pogromcow-enigmy,51452.html"),
       [wiki("Pomnik kryptologów w Poznaniu")]),
 
@@ -191,7 +191,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Obok stoją rzeźba Magdaleny Abakanowicz „5 Figur” i Pomnik Katyński w Ogrodzie Zamkowym.",
       ])],
-      "Dziedziniec Różany Zamku Cesarskiego (od ul. Fredry lub al. Niepodległości), Poznań",
+      "Dziedziniec Różany Zamku Cesarskiego (od ul. Fredry / al. Niepodległości), 61-809 Poznań",
       ("poznan.pl: Fontanna Lwów", PF + "fontanna-lwow,41213.html"),
       [wiki("Fontanna Lwów w Poznaniu")],
       hours=[("Dostęp", "dziedziniec zamku, godzin nie podano w źródle")]),
@@ -207,7 +207,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Od 2014 roku cały ogród nosi imię Ofiar Katynia i Sybiru. Więcej o nim przeczytasz na stronie Ogrodu Zamkowego.",
       ])],
-      "Ogród Zamkowy, ul. Fredry / al. Niepodległości, Poznań",
+      "Ogród Zamkowy, ul. Fredry / al. Niepodległości, 61-701 Poznań",
       ("poznan.pl: Pomnik Ofiar Katynia i Sybiru", PM + "ofiar-katynia-i-sybiru,40376.html"),
       img="ogrod-zamkowy", credit="ogrod-zamkowy"),
 
@@ -220,7 +220,7 @@ MONUMENTS = [
           "Składa się z sześciu słupów pamięci z tablicami, oszklonej krypty symbolizującej zejście do podziemia i unoszących się nad nimi sylwetek orłów. Rdzawą blachę sprowadzono z Finlandii.",
           "Żeliwne tabliczki upamiętniają Wielkopolan, którzy zginęli od 1 września 1939 do 3 lipca 1945 roku.",
       ])],
-      "al. Niepodległości / ul. Libelta, Poznań",
+      "al. Niepodległości / ul. Libelta, 61-714 Poznań",
       ("poznan.pl: Pomnik Polskiego Państwa Podziemnego", PM + "polskiego-panstwa-podziemnego,39373.html"),
       [wiki("Pomnik Polskiego Państwa Podziemnego w Poznaniu")]),
 
@@ -235,7 +235,7 @@ MONUMENTS = [
        ("Historia", [
           "Projekt Anny Rodzińskiej i architekta Józefa Iwiańskiego wygrał konkurs w 1978 roku, ale budowa latami się przeciągała. Władze proponowały inne lokalizacje, zarzucały też projektowi, że bryły najeźdźcy są za duże. Pomnik powstał dopiero w latach 1981–1982.",
       ])],
-      "al. Niepodległości (u stóp Wzgórza św. Wojciecha), Poznań",
+      "al. Niepodległości (u stóp Wzgórza św. Wojciecha), 61-747 Poznań",
       ("poznan.pl: Pomnik Armii „Poznań”", PM + "armii-poznan,40367.html"),
       [wiki("Pomnik Armii Poznań")]),
 
@@ -252,7 +252,7 @@ MONUMENTS = [
           "Powstanie wybuchło dzień po przemówieniu Ignacego Jana Paderewskiego przed Hotelem Bazar. Jego historię opowiada Muzeum Powstania Wielkopolskiego na Starym Rynku.",
           "Stąd jest około 300 metrów do Starego Browaru.",
       ])],
-      "ul. Królowej Jadwigi / ul. Wierzbięcice, Poznań",
+      "ul. Królowej Jadwigi / ul. Wierzbięcice, 61-871 Poznań",
       ("poznan.pl: Pomnik Powstańców Wielkopolskich", PM + "powstancow-wielkopolskich,40373.html"),
       [wiki("Pomnik Powstańców Wielkopolskich")]),
 
@@ -268,7 +268,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "To jedno z głównych miejsc uroczystości patriotycznych w Poznaniu, m.in. podczas Dni Ułana.",
       ])],
-      "ul. Ludgardy / ul. Paderewskiego, Poznań",
+      "ul. Ludgardy / ul. Paderewskiego, 61-709 Poznań",
       ("poznan.pl: Pomnik 15. Pułku Ułanów Poznańskich", PM + "15-pulku-ulanow-poznanskich,40374.html"),
       [wiki("Pomnik 15. Pułku Ułanów Poznańskich")]),
 
@@ -284,7 +284,7 @@ MONUMENTS = [
        ("Co zobaczyć", [
           "Medalion z wizerunkiem Wincentego Priessnitza, pioniera wodolecznictwa, z napisem po grecku i po polsku „Nic lepszego nad wodę”. W polskim napisie brakuje litery „s”.",
       ])],
-      "pl. Wolności (przed Biblioteką Raczyńskich), Poznań",
+      "pl. Wolności (przed Biblioteką Raczyńskich), 61-739 Poznań",
       ("poznan.pl: Fontanna Higiei", PF + "fontanna-higiei,41215.html"),
       [wiki("Fontanna Higiei w Poznaniu")]),
 
@@ -301,7 +301,7 @@ MONUMENTS = [
           "Według dziennikarza Adama Pleskaczyńskiego „delfiny” to w rzeczywistości sumy, o czym ma świadczyć budowa ich pysków.",
           "Tuż obok stoją pomnik Karola Marcinkowskiego i rzeźba Golema.",
       ])],
-      "al. Marcinkowskiego / ul. 23 Lutego, Poznań",
+      "al. Marcinkowskiego / ul. 23 Lutego, 61-745 Poznań",
       ("poznan.pl: Fontanna Kronthala (Studzienka z delfinami)", PF + "fontanna-kronthala-studzienka-z-delfinami,41212.html"),
       [wiki("Fontanna z delfinami w Poznaniu")]),
 
@@ -317,7 +317,7 @@ MONUMENTS = [
           "Marcinkowski był jednym z założycieli Hotelu Bazar, ośrodka polskiego życia w XIX-wiecznym Poznaniu.",
           "Obok są Fontanna z delfinami i gmach poczty. Drugi pomnik Marcinkowskiego stoi przed I Liceum Ogólnokształcącym przy ulicy Bukowskiej.",
       ])],
-      "al. Marcinkowskiego / ul. 23 Lutego, Poznań",
+      "al. Marcinkowskiego / ul. 23 Lutego, 61-745 Poznań",
       ("poznan.pl: Pomnik Karola Marcinkowskiego", PM + "karola-marcinkowskiego,40371.html"),
       [wiki("Pomnik Karola Marcinkowskiego w Poznaniu")]),
 
@@ -330,7 +330,7 @@ MONUMENTS = [
           "Poeta siedzi na kufrze, z piórem i arkuszem w rękach. Figura z brązu stoi na 2,5-metrowej kolumnie z piaskowca, a cały pomnik ma około 4 metrów wysokości.",
           "Autorami są Joanna Buczak i Dariusz Wieczerzak, których projekt wygrał konkurs Towarzystwa Opieki nad Zabytkami. Na cokole widnieje napis „Zapomnianym poetom”.",
       ])],
-      "ul. 23 Lutego / ul. Masztalarska, Poznań",
+      "ul. 23 Lutego / ul. Masztalarska, 61-744 Poznań",
       ("poznan.pl: Pomnik Klemensa Janickiego", PM + "klemensa-janickiego,60787.html"),
       [wiki("Pomnik Klemensa Janickiego w Poznaniu")]),
 
@@ -345,7 +345,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Mszę dla około miliona wiernych papież odprawił wtedy na Łęgach Dębińskich, dziś Parku Jana Pawła II.",
       ])],
-      "Ostrów Tumski, Poznań",
+      "Ostrów Tumski, 61-109 Poznań",
       ("poznan.pl: Pomnik Jana Pawła II", PM + "jana-pawla-ii,40369.html")),
 
     M("pomnik-kochanowskiego", "Pomnik Jana Kochanowskiego",
@@ -359,7 +359,7 @@ MONUMENTS = [
        ("Ciekawostka", [
           "W latach 1564–1574 Kochanowski był prepozytem poznańskiej kapituły katedralnej, co dawało mu duże dochody. Według Wikipedii sam nigdy nie przebywał w Poznaniu.",
       ])],
-      "ul. Lubrańskiego 1 (przed Akademią Lubrańskiego), Poznań",
+      "ul. Lubrańskiego 1 (przed Akademią Lubrańskiego), 61-108 Poznań",
       ("poznan.pl: Pomnik Jana Kochanowskiego", PM + "jana-kochanowskiego,40368.html"),
       [wiki("Pomnik Jana Kochanowskiego w Poznaniu")]),
 
@@ -375,7 +375,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Pierwsze zakłady Cegielskiego działały przy pobliskiej ulicy Koziej, a później przy Strzeleckiej.",
       ])],
-      "ul. Święty Marcin / ul. Podgórna, Poznań",
+      "ul. Święty Marcin / ul. Podgórna, 61-829 Poznań",
       ("poznan.pl: Pomnik Hipolita Cegielskiego", PM + "hipolita-cegielskiego,51453.html"),
       [wiki("Pomnik Hipolita Cegielskiego w Poznaniu")]),
 
@@ -390,7 +390,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "Paderewski był pianistą, kompozytorem i politykiem. Jego przemówienie przed Hotelem Bazar 26 grudnia 1918 roku poprzedziło wybuch powstania wielkopolskiego.",
       ])],
-      "ul. Święty Marcin 87 (przed Akademią Muzyczną), Poznań",
+      "ul. Święty Marcin 87 (przed Akademią Muzyczną), 61-808 Poznań",
       ("poznan.pl: Pomnik Paderewskiego", PM + "pomnik-paderewskiego,65724.html"),
       img=True),
 
@@ -405,7 +405,7 @@ MONUMENTS = [
        ("Warto wiedzieć", [
           "To kilka kroków od Starego Browaru i deptaka na Półwiejskiej z pomnikiem Starego Marycha.",
       ])],
-      "pl. Andersa 5, Poznań",
+      "pl. Andersa 5, 61-894 Poznań",
       ("poznan.pl: Pomnik Cyryla Ratajskiego", PM + "cyryla-ratajskiego,40375.html"),
       [wiki("Pomnik Cyryla Ratajskiego w Poznaniu")]),
 
@@ -418,7 +418,7 @@ MONUMENTS = [
           "Niemcy zniszczyli pomnik w czasie wojny. Autorka sama go odtworzyła, a w 1967 roku stanął w obecnym miejscu.",
           "Według Wikipedii do odlewu użyto dzwonu z wieży zegarowej Zamku Cesarskiego, który spadł w czasie walk w 1945 roku.",
       ])],
-      "ul. Grunwaldzka / ul. Bukowska, Poznań",
+      "ul. Grunwaldzka / ul. Bukowska, 60-809 Poznań",
       ("poznan.pl: Pomnik Tadeusza Kościuszki", PM + "tadeusza-kosciuszki,40370.html"),
       [wiki("Pomnik Tadeusza Kościuszki w Poznaniu")]),
 
@@ -431,7 +431,7 @@ MONUMENTS = [
           "Brązowa figura trzyma kamerton przy uchu i ogląda „pod światło” szklane klatki filmowe ze zdjęciami z filmów, do których Komeda pisał muzykę.",
           "W 2012 roku wandale przewrócili i połamali rzeźbę. Po renowacji wróciła na miejsce w tym samym roku.",
       ])],
-      "Uniwersytet Medyczny, ul. Przybyszewskiego / ul. Bukowska, Poznań",
+      "Uniwersytet Medyczny, ul. Przybyszewskiego 49 / ul. Bukowska, 60-355 Poznań",
       ("poznan.pl: Pomnik Krzysztofa Komedy Trzcińskiego", PM + "krzysztofa-komedy-trzcinskiego,51796.html"),
       [wiki("Pomnik Krzysztofa Komedy-Trzcińskiego w Poznaniu")]),
 
@@ -447,7 +447,7 @@ MONUMENTS = [
           "Rzeźba z polerowanej, trawionej kwasem stali ma około 166 cm, czyli średni wzrost kobiety w Polsce. Przedstawia zarys postaci bez rysów twarzy, a w jej lustrzanej powierzchni można się przejrzeć.",
           "Pomysł wyszedł od Ewy Łowżył, założycielki Chóru Czarownic, a rzeźbę zaprojektowała poznańska artystka Alicja Biała.",
       ])],
-      "Park Stare Koryto Warty, Poznań",
+      "Park Stare Koryto Warty, 61-124 Poznań",
       ("poznan.pl: Wiedźma z Chwaliszewa", PM + "wiedzma-z-chwaliszewa,86852.html"),
       [("Malta Festival: Wiedźma z Chwaliszewa", "https://malta-festival.pl/wiedzmazchwaliszewa")],
       img=None),
@@ -462,7 +462,7 @@ MONUMENTS = [
        ("Co zobaczyć", [
           "Fontanna ma kształt ośmioramiennej gwiazdy, a woda tryska z jej środka. Wieczorem jest podświetlana kolorowymi światłami.",
       ])],
-      "Park Wilsona, ul. Matejki / ul. Parkowa, Poznań",
+      "Park Wilsona, ul. Śniadeckich 30, 61-001 Poznań Poznań",
       ("poznan.pl: Fontanna w Parku Wilsona", PF + "fontanna-w-parku-wilsona,41214.html"),
       hours=[("Park", "codziennie 5:00–22:00")]),
 
@@ -478,7 +478,7 @@ MONUMENTS = [
           "Kolumnę w ośmiokątnym basenie: na dole maszkarony, wyżej dzieci na delfinach, a na szczycie chłopiec obejmujący wielką rybę.",
           "Płaskorzeźby na ścianach basenu, pokazujące różne sposoby wykorzystania wody.",
       ])],
-      "ul. Mostowa 7 (dziedziniec Muzeum Kultur Świata), Poznań",
+      "ul. Mostowa 7 (dziedziniec Muzeum Bamberskiego), 61-854 Poznań",
       ("poznan.pl: Studzienka Taschnera", PF + "studzienka-taschnera,41216.html"),
       [wiki("Studzienka Taschnera w Poznaniu")],
       hours=[("Dostęp", "dziedziniec muzeum, godzin nie podano w źródle")]),
