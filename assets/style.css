@@ -410,6 +410,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .map-list button { width: 100%; display: flex; align-items: center; gap: 2px; text-align: left; font: inherit; font-size: 0.9rem; color: var(--text); background: none; border: 0; border-radius: 8px; padding: 7px 8px; cursor: pointer; }
 .map-list button:hover, .map-list button:focus-visible { background: var(--surface-2); }
 .map-list .nm { min-width: 0; }
+.map-dist { display: block; margin-left: auto; font-size: 0.8rem; color: var(--muted); white-space: nowrap; padding-left: 8px; }
 .map-note { margin-top: 12px; }
 .map-note a { color: var(--muted); }
 .leaflet-container { font-family: var(--sans); font-size: 0.85rem; background: #EEF2F2; }
