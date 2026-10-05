@@ -3,11 +3,11 @@
 Każde wydarzenie: id, month (miesiąc, w którym zwykle się zaczyna), name, place, when (kiedy zwykle),
 dates (start, koniec) bieżącej edycji w formacie RRRR-MM-DD albo None, gdy termin nie jest ogłoszony,
 note (o terminie), desc (akapity), link (etykieta, adres), sources.
-Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń). Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
+Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 2027 i Betlejem zaktualizowano 05.10.2026. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "01.10.2026"
+CAL_CHECKED = "05.10.2026"
 
 CALENDAR = [
     dict(
@@ -21,7 +21,7 @@ CALENDAR = [
     dict(
         id="polmaraton", month=4, name="Poznań Półmaraton", place="Ulice Poznania",
         when="Co roku w kwietniu, w niedzielę",
-        dates=("2026-04-19", "2026-04-19"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        dates=("2027-04-18", "2027-04-18"), note="Termin edycji 2027 podał organizator.",
         desc=["Bieg na 21,097 km ulicami miasta. W 2026 roku metę minęło 13 505 osób.",
               "W dniu biegu w centrum są duże utrudnienia w ruchu i zmiany tras komunikacji miejskiej."],
         link=("halfmarathon.poznan.pl", "https://halfmarathon.poznan.pl/"),
@@ -38,10 +38,11 @@ CALENDAR = [
     dict(
         id="enter-enea", month=5, name="Enter Enea Festival", place="Jezioro Strzeszyńskie",
         when="Co roku na przełomie maja i czerwca",
-        dates=("2026-05-31", "2026-06-03"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        dates=("2027-05-23", "2027-05-26"), note="Termin edycji 2027 podał organizator. Miejsca tej edycji organizator jeszcze nie potwierdził.",
         desc=["Festiwal jazzu i muzyki improwizowanej nad Jeziorem Strzeszyńskim. Dyrektorem artystycznym jest pianista Leszek Możdżer. W 2026 roku odbyła się 16. edycja: 11 koncertów w cztery dni."],
         link=("media.enea.pl", "https://media.enea.pl/pr/870010/enter-enea-festival-swiatowy-jazz-w-poznaniu"),
-        sources=[("Enea: Enter Enea Festival – światowy jazz w Poznaniu (16.05.2026)", "https://media.enea.pl/pr/870010/enter-enea-festival-swiatowy-jazz-w-poznaniu")],
+        sources=[("Enter Enea Festival (organizator): termin 2027", "https://entereneafestival.pl/"),
+                 ("Enea: Enter Enea Festival – światowy jazz w Poznaniu (16.05.2026)", "https://media.enea.pl/pr/870010/enter-enea-festival-swiatowy-jazz-w-poznaniu")],
     ),
     dict(
         id="ethno-port", month=6, name="Festiwal Ethno Port", place="Centrum Kultury Zamek, ul. Święty Marcin 80/82",
@@ -55,7 +56,7 @@ CALENDAR = [
     dict(
         id="pyrkon", month=6, name="Pyrkon – Festiwal Fantastyki", place="Międzynarodowe Targi Poznańskie",
         when="Co roku, w 2026 roku w czerwcu",
-        dates=("2026-06-19", "2026-06-21"), note="Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        dates=("2027-06-18", "2027-06-20"), note="Termin edycji 2027 podał organizator.",
         desc=["Festiwal fantastyki: gry, komiksy, cosplay, literatura, film i seriale. W 2026 roku obchodził 25-lecie i miał ponad 2000 punktów programu. Wstęp jest biletowany."],
         link=("pyrkon.pl", "https://pyrkon.pl/"),
         sources=[("Pyrkon: termin i miejsce", "https://pyrkon.pl/en/time-place/"),
@@ -116,10 +117,11 @@ CALENDAR = [
     dict(
         id="betlejem", month=11, name="Betlejem Poznańskie na Placu Wolności i Starym Rynku", place="Plac Wolności i Stary Rynek",
         when="Co roku od drugiej połowy listopada do 6 stycznia",
-        dates=None, note="Termin na sezon 2026/27 nie jest jeszcze ogłoszony. W sezonie 2025/26 jarmark na Placu Wolności trwał od 21 listopada do 6 stycznia.",
+        dates=("2026-11-20", "2027-01-06"), note="Plac Wolności: od 20 listopada 2026 do 6 stycznia 2027. Stary Rynek: od 21 listopada 2026 do 6 stycznia 2027.",
         desc=["Świąteczne jarmarki w ścisłym centrum: stoiska z ozdobami, rękodziełem i jedzeniem, występy artystów i warsztaty dla dzieci. To jedyny jarmark, który miasto dopuszcza na Starym Rynku."],
         link=("pik.poznan.pl", "https://pik.poznan.pl/jarmark-bozonarodzeniowy-betlejem-poznanskie/"),
-        sources=[("PIK Poznań: Jarmark Bożonarodzeniowy – Betlejem Poznańskie", "https://pik.poznan.pl/jarmark-bozonarodzeniowy-betlejem-poznanskie/"),
+        sources=[("Betlejem Poznańskie (organizator): terminy 2026/27", "https://betlejempoznanskie.pl/"),
+                 ("PIK Poznań: Jarmark Bożonarodzeniowy – Betlejem Poznańskie", "https://pik.poznan.pl/jarmark-bozonarodzeniowy-betlejem-poznanskie/"),
                  ("ESKA Poznań: nie będzie Jarmarku Świętojańskiego 2025", "https://poznan.eska.pl/nie-bedzie-jarmarku-swietojanskiego-w-poznaniu-mamy-odpowiedz-jarmarki-nie-wpisuja-sie-w-obecne-cele-aa-9jCz-vvgX-b18q.html")],
     ),
     dict(
