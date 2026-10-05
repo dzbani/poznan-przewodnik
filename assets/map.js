@@ -109,6 +109,50 @@
   apply();
 
   var userMarker = null;
+  var userLat = null, userLon = null;
+
+  // Funkcja do liczenia odległości między dwoma punktami (metoda Haversine, wynik w km).
+  function distance_km(lat1, lon1, lat2, lon2) {
+    var R = 6371;
+    var toRad = Math.PI / 180;
+    var dLat = (lat2 - lat1) * toRad;
+    var dLon = (lon2 - lon1) * toRad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * toRad) * Math.cos(lat2 * toRad) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+  }
+
+  // Funkcja do formatowania odległości.
+  function format_distance(km) {
+    if (km < 1) return Math.round(km * 1000) + " m";
+    return (km < 10 ? km.toFixed(1) : Math.round(km)) + " km";
+  }
+
+  // Funkcja do sortowania listy po odległości od użytkownika.
+  function sort_by_distance() {
+    if (userLat === null || userLon === null) return;
+    var items_arr = [];
+    Object.keys(byslug).forEach(function (s) {
+      var e = byslug[s], it = e.it;
+      var dist = distance_km(userLat, userLon, it.lat, it.lon);
+      items_arr.push({ slug: s, dist: dist, elem: e });
+    });
+    items_arr.sort(function (a, b) { return a.dist - b.dist; });
+
+    // Wyczyść listę i dodaj elementy w nowej kolejności.
+    list.innerHTML = "";
+    items_arr.forEach(function (item) {
+      var e = item.elem, it = e.it;
+      var li = document.createElement("li");
+      var dist_text = ' <span class="map-dist">' + format_distance(item.dist) + '</span>';
+      li.innerHTML = '<button type="button"><span class="dot" style="--dot:' + (it.x ? "#8C7B6D" : data.cats[it.c].col) + '"></span>' +
+        '<span class="nm">' + esc(it.n) + "</span>" + (userLat !== null ? dist_text : "") + "</button>";
+      li.querySelector("button").addEventListener("click", function () { focusItem(it.s); });
+      list.appendChild(li);
+    });
+  }
+
   var locateBtn = document.getElementById("locate-btn");
   if (locateBtn) {
     locateBtn.addEventListener("click", function () {
@@ -120,15 +164,17 @@
       locateBtn.textContent = "⏳ Szukam...";
       navigator.geolocation.getCurrentPosition(
         function (pos) {
-          var lat = pos.coords.latitude;
-          var lon = pos.coords.longitude;
+          userLat = pos.coords.latitude;
+          userLon = pos.coords.longitude;
           if (userMarker) map.removeLayer(userMarker);
-          userMarker = L.circleMarker([lat, lon], {
+          userMarker = L.circleMarker([userLat, userLon], {
             radius: 8, weight: 3, color: "#0066CC", fillColor: "#3399FF", fillOpacity: 0.7
           }).addTo(map);
           userMarker.bindPopup("<p><strong>Jesteś tutaj</strong></p>", { maxWidth: 150 });
           userMarker.bindTooltip("Twoja lokalizacja", { direction: "top", offset: [0, -10] });
-          map.flyTo([lat, lon], 15, { duration: 0.6 });
+          map.flyTo([userLat, userLon], 15, { duration: 0.6 });
+          // Sortuj listę po odległości od użytkownika.
+          sort_by_distance();
           locateBtn.disabled = false;
           locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem';
         },

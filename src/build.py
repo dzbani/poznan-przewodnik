@@ -330,7 +330,7 @@ def build_index():
                     for pid, t, who, *_ in PLANS)
     body = f"""
 <section class="hero hero-full">
-  <img class="hero-bg" src="img/hero-stary-rynek.jpg" srcset="img/hero-stary-rynek-1200.jpg 1200w, img/hero-stary-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
+  <img class="hero-bg" src="img/hero-rynek.jpg" srcset="img/hero-rynek-1200.jpg 1200w, img/hero-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
   <div class="wrap hero-in">
   <div class="hero-text">
     <p class="kicker">Przewodnik dla odwiedzających</p>
@@ -1042,7 +1042,7 @@ COPYRIGHT_YEAR = datetime.date.today().year
 
 # Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
 CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
-PRIVACY_UPDATED = "30.09.2026"
+PRIVACY_UPDATED = "05.10.2026"
 
 
 def build_privacy():
@@ -1054,7 +1054,7 @@ def build_privacy():
   <h1>Prywatność</h1>
   <p class="lead">Krótko: nie ma tu reklam, formularzy ani kont. Jedyne, o co prosimy, to zgoda na anonimowe statystyki odwiedzin w Google Analytics. Bez Twojej zgody strona nie zapisuje cookies i nie łączy się z Google.</p>
   <nav class="toc" aria-label="Spis treści">
-    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies i statystyki</a><a href="#hosting">Serwer</a>
+    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies i statystyki</a><a href="#geolokalizacja">Geolokalizacja</a><a href="#hosting">Serwer</a>
     <a href="#zewnetrzne">Usługi zewnętrzne</a><a href="#prawa">Twoje prawa</a>
   </nav>
 </header>
@@ -1078,6 +1078,22 @@ def build_privacy():
   <p><strong>Jak długo:</strong> dane o wizytach są przechowywane w Google Analytics przez 14 miesięcy, potem Google je usuwa.</p>
   <p><strong>Twój wybór</strong> zapisujemy w pamięci przeglądarki (localStorage, wpis <code>op-zgoda-statystyki</code>), żeby nie pytać na każdej stronie. To nie jest cookie, nie jest nigdzie wysyłane i znika po wyczyszczeniu danych strony w przeglądarce.</p>
   <p>Jeśli dodasz stronę do ekranu głównego telefonu, przeglądarka może przechowywać jej pliki w zwykłej pamięci podręcznej. Nie są to dane o Tobie.</p>
+</section>
+
+<section id="geolokalizacja">
+  <h2>Geolokalizacja</h2>
+  <p>Na stronie Mapa masz przycisk <strong>„Gdzie jestem"</strong>. Jeśli go klikniesz, przeglądarka poprosi Cię o pozwolenie na dostęp do Twojej lokalizacji GPS. To zupełnie opcjonalne.</p>
+  <ul>
+    <li><strong>Jeśli na przycisk nie klikniesz:</strong> żadna lokalizacja nie jest gromadzona. Mapę możesz przeglądać normalnie, klikając nazwy i filtrując atrakcje.</li>
+    <li><strong>Jeśli wyrażysz zgodę:</strong> przeglądarce pozwolisz użyć GPS (lub przybliżonego położenia z WiFi/sieci komórkowej). Informacja o Twojej lokalizacji <strong>zostaje tylko w Twojej przeglądarce</strong> — nigdzie nam nie jest wysyłana. Używamy jej wyłącznie do:
+      <ul>
+        <li>wyświetlenia Twojego markera na mapie,</li>
+        <li>sortowania listy atrakcji od najbliższych, z odległościami w kilometrach.</li>
+      </ul>
+    </li>
+    <li><strong>Jeśli odmówisz:</strong> przycisk pozostaje dostępny do następnej próby. Możesz odwołać zgodę w ustawieniach przeglądarki.</li>
+  </ul>
+  <p><strong>Obsługa:</strong> geolokalizacja pracuje z przeglądarkami obsługującymi <code>navigator.geolocation</code> (Chrome, Firefox, Safari, Edge). Dane nie trafią nigdzie poza Twoją przeglądarkę.</p>
 </section>
 
 <section id="hosting">

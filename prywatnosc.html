@@ -15,7 +15,7 @@
 <meta name="theme-color" content="#22437F">
 <meta name="description" content="Zasady prywatności przewodnika Odkrywaj Poznań: statystyki Google Analytics tylko za zgodą, cookies, serwer i usługi zewnętrzne.">
 
-<link rel="stylesheet" href="assets/style.css?v=5ee4a88c">
+<link rel="stylesheet" href="assets/style.css?v=3059fd45">
 </head>
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
@@ -43,7 +43,7 @@
   <h1>Prywatność</h1>
   <p class="lead">Krótko: nie ma tu reklam, formularzy ani kont. Jedyne, o co prosimy, to zgoda na anonimowe statystyki odwiedzin w Google Analytics. Bez Twojej zgody strona nie zapisuje cookies i nie łączy się z Google.</p>
   <nav class="toc" aria-label="Spis treści">
-    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies i statystyki</a><a href="#hosting">Serwer</a>
+    <a href="#kto">Kto prowadzi stronę</a><a href="#cookies">Cookies i statystyki</a><a href="#geolokalizacja">Geolokalizacja</a><a href="#hosting">Serwer</a>
     <a href="#zewnetrzne">Usługi zewnętrzne</a><a href="#prawa">Twoje prawa</a>
   </nav>
 </header>
@@ -69,6 +69,22 @@
   <p>Jeśli dodasz stronę do ekranu głównego telefonu, przeglądarka może przechowywać jej pliki w zwykłej pamięci podręcznej. Nie są to dane o Tobie.</p>
 </section>
 
+<section id="geolokalizacja">
+  <h2>Geolokalizacja</h2>
+  <p>Na stronie Mapa masz przycisk <strong>„Gdzie jestem"</strong>. Jeśli go klikniesz, przeglądarka poprosi Cię o pozwolenie na dostęp do Twojej lokalizacji GPS. To zupełnie opcjonalne.</p>
+  <ul>
+    <li><strong>Jeśli na przycisk nie klikniesz:</strong> żadna lokalizacja nie jest gromadzona. Mapę możesz przeglądać normalnie, klikając nazwy i filtrując atrakcje.</li>
+    <li><strong>Jeśli wyrażysz zgodę:</strong> przeglądarce pozwolisz użyć GPS (lub przybliżonego położenia z WiFi/sieci komórkowej). Informacja o Twojej lokalizacji <strong>zostaje tylko w Twojej przeglądarce</strong> — nigdzie nam nie jest wysyłana. Używamy jej wyłącznie do:
+      <ul>
+        <li>wyświetlenia Twojego markera na mapie,</li>
+        <li>sortowania listy atrakcji od najbliższych, z odległościami w kilometrach.</li>
+      </ul>
+    </li>
+    <li><strong>Jeśli odmówisz:</strong> przycisk pozostaje dostępny do następnej próby. Możesz odwołać zgodę w ustawieniach przeglądarki.</li>
+  </ul>
+  <p><strong>Obsługa:</strong> geolokalizacja pracuje z przeglądarkami obsługującymi <code>navigator.geolocation</code> (Chrome, Firefox, Safari, Edge). Dane nie trafią nigdzie poza Twoją przeglądarkę.</p>
+</section>
+
 <section id="hosting">
   <h2>Serwer</h2>
   <p>Strona jest udostępniana przez usługę GitHub Pages (GitHub, Inc.). Jak każdy serwer, GitHub zapisuje w dziennikach techniczne dane o połączeniu, m.in. adres IP, datę i godzinę oraz adres otwieranej strony, w celu zapewnienia bezpieczeństwa i działania usługi. Nie mamy dostępu do tych dzienników. Zasady: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">polityka prywatności GitHub</a>.</p>
@@ -89,7 +105,7 @@
   <h2>Twoje prawa</h2>
   <p>W zakresie statystyk masz prawo do cofnięcia zgody, dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania i przeniesienia. Statystyki nie pozwalają nam jednak ustalić, które dane dotyczą właśnie Ciebie, więc najprostszym sposobem jest cofnięcie zgody, które usuwa identyfikator z Twojej przeglądarki. W innych sprawach napisz na <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a>.</p>
   <p>Wobec GitHub, OpenStreetMap i Google masz te same prawa na podstawie RODO. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" target="_blank" rel="noopener">uodo.gov.pl</a>).</p>
-  <p class="muted">Ostatnia aktualizacja: 30.09.2026.</p>
+  <p class="muted">Ostatnia aktualizacja: 05.10.2026.</p>
 </section>
 </div>
 
@@ -132,6 +148,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Wróć na górę strony" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="assets/site.js?v=9f167c56"></script>
+<script src="assets/site.js?v=c3b8fa6e"></script>
 </body>
 </html>
