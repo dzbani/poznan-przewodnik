@@ -149,6 +149,18 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .notice h2 { font-size: 1.15rem; margin-bottom: 6px; }
 .notice ul { list-style: none; color: var(--text-2); font-size: 0.95rem; display: grid; gap: 4px; }
 
+/* Zwijana ramka na stronie głównej: domyślnie tylko nagłówek z liczbą pozycji */
+.notice-fold { background: var(--warn-bg); border: 1px solid rgba(201,168,76,0.45); border-radius: var(--radius); color: var(--gold-2); }
+.notice-fold summary { display: flex; align-items: center; gap: 12px; padding: 14px 20px; cursor: pointer; list-style: none; }
+.notice-fold summary::-webkit-details-marker { display: none; }
+.notice-fold summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: var(--radius); }
+.notice-fold h2 { font-size: 1.05rem; margin: 0; flex: 1; }
+.notice-n { font-size: 0.78rem; font-weight: 700; color: var(--on-gold); background: var(--gold); border-radius: 999px; padding: 2px 9px; }
+.notice-fold summary::after { content: ""; width: 8px; height: 8px; margin: 0 4px 3px 2px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.2s; }
+.notice-fold[open] summary::after { transform: rotate(-135deg); margin-bottom: 0; }
+.notice-fold ul { list-style: none; color: var(--text-2); font-size: 0.95rem; display: grid; gap: 6px; padding: 0 20px 18px 58px; }
+@media (max-width: 600px) { .notice-fold ul { padding-left: 20px; } }
+
 /* ─── Filtr kategorii ─── */
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
 .tab { font: inherit; font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--text); cursor: pointer; }
@@ -160,6 +172,10 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 
 /* ─── Karty atrakcji ─── */
 .cards { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+/* Top 10 na stronie głównej: 5+5 na szerokim ekranie, 2 kolumny na średnim, 1 na telefonie */
+.top-list { grid-template-columns: repeat(5, 1fr); gap: 16px; }
+@media (max-width: 1100px) { .top-list { grid-template-columns: repeat(2, 1fr); gap: 20px; } }
+@media (max-width: 560px) { .top-list { grid-template-columns: 1fr; } }
 .card a { display: flex; flex-direction: column; height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); transition: border-color 0.2s, transform 0.2s; }
 .card a:hover { border-color: rgba(34,67,127,0.45); transform: translateY(-3px); box-shadow: 0 10px 24px rgba(20,35,60,0.10); color: var(--text); }
 .card-media { position: relative; aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; background: var(--surface-2); }
@@ -311,7 +327,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .num { position: absolute; right: 12px; bottom: 12px; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--gold); color: var(--on-gold); font-family: var(--serif); font-size: 1.3rem; font-weight: 700; box-shadow: 0 4px 14px rgba(0,0,0,0.25); }
 
 /* ─── Kafelki kategorii ─── */
-.tiles { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 14px; }
+.tiles { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+@media (max-width: 700px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
 .tile { position: relative; display: block; aspect-ratio: 4 / 3; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); text-decoration: none; }
 .tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
 .tile::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,10,5,0.05) 30%, rgba(20,10,5,0.85) 100%); }

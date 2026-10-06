@@ -379,9 +379,11 @@ def build_index():
   </div>
 </section>
 
-<section class="wrap notice" aria-labelledby="zamkniete">
-  {icon('alert', 'ico ico-lg')}
-  <div><h2 id="zamkniete">Czasowo zamknięte lub ważne przed wizytą</h2><ul>{closed_html}</ul></div>
+<section class="wrap" aria-labelledby="zamkniete">
+  <details class="notice-fold">
+    <summary>{icon('alert', 'ico ico-lg')}<h2 id="zamkniete">Czasowo zamknięte lub ważne przed wizytą</h2><span class="notice-n">{len(closed)}</span></summary>
+    <ul>{closed_html}</ul>
+  </details>
 </section>
 
 <section class="wrap section plan" aria-labelledby="plany-h">
