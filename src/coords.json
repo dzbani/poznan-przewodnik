@@ -828,5 +828,35 @@
   "lon": 16.9176985,
   "q": "Teatr Wielki, Poznań",
   "name": "Teatr Wielki, 9, Aleksandra Fredry, Stare Miasto, Poznań"
+ },
+ "fort-iii": {
+  "lat": 52.4,
+  "lon": 16.996944,
+  "q": "Fort III, Krańcowa 81, Poznań",
+  "name": "Fort III, Krańcowa 81, Poznań"
+ },
+ "plac-wolnosci": {
+  "lat": 52.4081225,
+  "lon": 16.9277159,
+  "q": "Plac Wolności, Poznań",
+  "name": "Plac Wolności, Poznań"
+ },
+ "collegium-minus": {
+  "lat": 52.4081657,
+  "lon": 16.9156127,
+  "q": "Collegium Minus, Wieniawskiego 1, Poznań",
+  "name": "Collegium Minus, Wieniawskiego 1, Poznań"
+ },
+ "domki-budnicze": {
+  "lat": 52.408147,
+  "lon": 16.934103,
+  "q": "Domki budnicze, Stary Rynek, Poznań",
+  "name": "Domki budnicze, Stary Rynek, Poznań"
+ },
+ "cmentarz-zasluzonych-wielkopolan": {
+  "lat": 52.414811,
+  "lon": 16.9289881,
+  "q": "Cmentarz Zasłużonych Wielkopolan, Poznań",
+  "name": "Cmentarz Zasłużonych Wielkopolan, Poznań"
  }
 }

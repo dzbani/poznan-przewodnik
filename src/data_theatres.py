@@ -18,7 +18,7 @@ THEATRES = [
     ),
     dict(
         id="filharmonia", name="Filharmonia Poznańska (Aula Uniwersytecka)",
-        kind="Koncerty symfoniczne i kameralne", lang=True, img="aula-uam", attraction=None,
+        kind="Koncerty symfoniczne i kameralne", lang=True, img="aula-uam", attraction="collegium-minus",
         desc=["Filharmonia działa od 1947 roku, a koncerty daje w neorenesansowej Auli Uniwersyteckiej w gmachu Collegium Minus z 1910 roku, przy placu Mickiewicza. Aula słynie ze znakomitej akustyki.",
               "W strukturze Filharmonii jest też chór chłopięcy i męski Poznańskie Słowiki. W Auli grają również inni wykonawcy, a na ich koncerty bilety sprzedają organizatorzy.",
               "Kasa biletowa jest przy wejściu do Auli. Od października do czerwca działa od wtorku do piątku w godzinach 13:00–17:00, a w dni koncertów Filharmonii także od godziny przed koncertem."],

@@ -1219,5 +1219,37 @@
   "license": "CC0",
   "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "page": "https://commons.wikimedia.org/wiki/File:Teatr_%C3%93smego_Dnia,_Pozna%C5%84.jpg"
+ },
+ {
+  "slug": "fort-iii",
+  "title": "Fort 3 Poznań.JPG",
+  "artist": "Rzuwig",
+  "license": "Public domain",
+  "licurl": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fort_3_Pozna%C5%84.JPG"
+ },
+ {
+  "slug": "domki-budnicze",
+  "title": "Poznań, domki budnicze na Starym Rynku.jpg",
+  "artist": "MNS Design",
+  "license": "CC BY-SA 3.0 pl",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Pozna%C5%84,_domki_budnicze_na_Starym_Rynku.jpg"
+ },
+ {
+  "slug": "plac-wolnosci",
+  "title": "Fountain of Freedom, Wolności Square, Poznań, Poland.jpg",
+  "artist": "Igor123121",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fountain_of_Freedom,_Wolno%C5%9Bci_Square,_Pozna%C5%84,_Poland.jpg"
+ },
+ {
+  "slug": "cmentarz-zasluzonych-wielkopolan",
+  "title": "Cmentarz Zasłużonych Wielkopolan w Poznaniu - lipiec 2017 - 66.jpg",
+  "artist": "Koefbac",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cmentarz_Zas%C5%82u%C5%BConych_Wielkopolan_w_Poznaniu_-_lipiec_2017_-_66.jpg"
  }
 ]
