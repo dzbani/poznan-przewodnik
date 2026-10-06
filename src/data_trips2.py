@@ -365,4 +365,34 @@ TRIPS2 = [
                  ("Wikipedia: Park Krajobrazowy Puszcza Zielonka", "https://pl.wikipedia.org/wiki/Park_Krajobrazowy_Puszcza_Zielonka"),
                  ("Region Wielkopolska: Park Krajobrazowy Puszcza Zielonka", "https://regionwielkopolska.pl/en/katalog-obiektow/park-krajobrazowy-puszcza-zielonka/")],
     ),
+    dict(
+        slug="czmoniec-bobrowy-szlak", cat="wycieczki", name="Wieża widokowa i Bobrowy Szlak w Czmońcu",
+        img="czmoniec-bobrowy-szlak", img_alt="Drewniana wieża widokowa na Bobrowym Szlaku w Czmońcu",
+        short="Drewniana wieża widokowa nad łąkami i starorzeczami Warty oraz krótka ścieżka przyrodnicza. Bez biletów, w gminie Kórnik.",
+        badge="Bezpłatnie",
+        status=None,
+        lead="W Czmońcu, w gminie Kórnik, na skraju rozległych łąk w dolinie Warty stoi drewniana wieża widokowa. Stoi na Bobrowym Szlaku, ścieżce przyrodniczej prowadzącej przez starorzecza Warty. To krótka, spokojna wycieczka dla miłośników natury i ptaków.",
+        sections=[
+            ("Co zobaczyć", [
+                "Drewnianą wieżę widokową o wysokości około 14 m, otwartą w 2010 roku. Zbudowano ją z inicjatywy sołtysa Czmońca, a platforma na szczycie mieści jednocześnie do 20 osób. Widać z niej łąki, starorzecza Warty i kępy drzew. Inne źródła podają wysokość wieży 14–15 m.",
+                "Bobrowy Szlak, ścieżkę przyrodniczą w dolinie Warty, przez łąki i starorzecza. Można do niej dojść od północy, a ścieżka prowadzi do wieży.",
+            ]),
+            ("Warto wiedzieć", [
+                "Według portalu Visit Poznań do wieży można dojechać samochodem ulicą Malwową (droga gruntowa). Nieoznakowany parking jest kilkaset metrów od wieży. Można też dojść pieszo Bobrowym Szlakiem od północy.",
+                "Teren jest otwarty, bez kas i wyznaczonych godzin. Przed wyjazdem sprawdź aktualne zasady dojazdu i parkowania, bo dojazd drogą gruntową może być utrudniony. Informacje o okolicy są też na kornik.travel.",
+                "Wycieczkę można połączyć z wizytą w Kórniku lub Rogalinie.",
+            ]),
+        ],
+        address="Czmoniec, ul. Malwowa (wieża na zachód od wsi), gmina Kórnik",
+        hours=[("Wieża i szlak", "teren otwarty, bez wyznaczonych godzin")],
+        tickets=[("Wstęp", "bezpłatnie")],
+        phone=None, www=("visitpoznan.pl", "https://visitpoznan.pl/wieza-widokowa-w-czmoncu"),
+        credit="czmoniec-bobrowy-szlak",
+        trip=dict(lat=52.178889, lon=17.018611, getting=[
+            ("Samochód", "Ulicą Malwową (droga gruntowa) do nieoznakowanego parkingu kilkaset metrów od wieży."),
+            ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
+        ]),
+        sources=[("Visit Poznań: Wieża widokowa w Czmońcu (dojazd, stan 10.02.2024)", "https://visitpoznan.pl/wieza-widokowa-w-czmoncu"),
+                 ("Wikipedia: Czmoniec (wieża widokowa, 2010)", "https://pl.wikipedia.org/wiki/Czmoniec")],
+    ),
 ]
