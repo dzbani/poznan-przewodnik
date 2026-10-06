@@ -858,5 +858,29 @@
   "lon": 16.9289881,
   "q": "Cmentarz Zasłużonych Wielkopolan, Poznań",
   "name": "Cmentarz Zasłużonych Wielkopolan, Poznań"
+ },
+ "podziemia-katedry": {
+  "lat": 52.411573,
+  "lon": 16.948646,
+  "q": "Podziemia Katedry Poznańskiej, Ostrów Tumski 17, Poznań",
+  "name": "Podziemia Katedry Poznańskiej, Ostrów Tumski 17, Poznań"
+ },
+ "most-biskupa-jordana": {
+  "lat": 52.411611,
+  "lon": 16.950856,
+  "q": "Most Biskupa Jordana, Poznań",
+  "name": "Most Biskupa Jordana, Poznań"
+ },
+ "rynek-srodecki": {
+  "lat": 52.410897,
+  "lon": 16.953864,
+  "q": "Rynek Śródecki, Poznań",
+  "name": "Rynek Śródecki, Poznań"
+ },
+ "lasek-katynski": {
+  "lat": 52.4157716,
+  "lon": 16.8695445,
+  "q": "Lasek Katyński, Poznań",
+  "name": "Lasek Katyński, Poznań"
  }
 }
