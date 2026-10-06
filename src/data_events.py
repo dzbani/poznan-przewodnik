@@ -3,11 +3,11 @@
 Każde wydarzenie: id, month (miesiąc, w którym zwykle się zaczyna), name, place, when (kiedy zwykle),
 dates (start, koniec) bieżącej edycji w formacie RRRR-MM-DD albo None, gdy termin nie jest ogłoszony,
 note (o terminie), desc (akapity), link (etykieta, adres), sources.
-Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 2027 i Betlejem zaktualizowano 05.10.2026. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
+Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 2027 i Betlejem zaktualizowano 05.10.2026, dodano Festiwal „Pamiętajmy o Osieckiej” 06.10.2026. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "05.10.2026"
+CAL_CHECKED = "06.10.2026"
 
 CALENDAR = [
     dict(
@@ -87,6 +87,15 @@ CALENDAR = [
         desc=["Międzynarodowy konkurs dla młodych skrzypków, organizowany przez Towarzystwo Muzyczne im. Henryka Wieniawskiego w Poznaniu. Uczestnicy z całego świata grają w kolejnych etapach przesłuchań, a konkurs kończy się finałem i koncertami laureatów. Bilety sprzedaje organizator."],
         link=("wieniawski.pl", "https://wieniawski.pl/xviimks.html"),
         sources=[("Towarzystwo Muzyczne im. H. Wieniawskiego: XVII Konkurs 8–25 X 2026", "https://wieniawski.pl/xviimks.html")],
+    ),
+    dict(
+        id="osiecka", month=10, name="Festiwal „Pamiętajmy o Osieckiej”", place="Teatr Nowy, ul. Dąbrowskiego 5",
+        when="W 2026 roku w październiku",
+        dates=("2026-10-08", "2026-10-11"), note="W 2026 roku 29. edycja.",
+        desc=["Konkurs wokalny i koncerty poświęcone piosenkom Agnieszki Osieckiej. W programie są koncerty finalistów, koncert z udziałem jury, koncert „OFF-SIECKA” i koncert laureatów.",
+              "Wydarzenia odbywają się na dwóch scenach Teatru Nowego: im. Tadeusza Łomnickiego i im. Sławy Kwaśniewskiej."],
+        link=("teatrnowy.pl", "https://teatrnowy.pl/pamietajmy-o-osieckiej-2026/"),
+        sources=[("Teatr Nowy: 29. Festiwal Pamiętajmy o Osieckiej 2026", "https://teatrnowy.pl/pamietajmy-o-osieckiej-2026/")],
     ),
     dict(
         id="pga", month=10, name="Poznań Game Arena", place="Międzynarodowe Targi Poznańskie",
