@@ -347,7 +347,7 @@ def build_index():
     </div>
   </div>
   </div>
-<a class="hero-credit" href="zdjecia.html#foto-hero-stary-rynek">Fot. Egor Komarov / Unsplash</a>
+<a class="hero-credit" href="zdjecia.html#foto-hero-rynek">Fot. Piotr Rybarczyk</a>
 </section>
 
 <section class="wrap facts" aria-label="Najważniejsze informacje">
