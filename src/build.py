@@ -1185,6 +1185,38 @@ def clean_links(html):
     return LINK_RE.sub(fix, html)
 
 
+OG_W, OG_H = 1200, 630
+
+
+def og_image(name):
+    """Zdjęcie 1200×630 do podglądu linku (Open Graph); tworzone z img/<name>.jpg przy pierwszym buildzie."""
+    out_dir = os.path.join(ROOT, "img", "og")
+    dst = os.path.join(out_dir, name + ".jpg")
+    if not os.path.exists(dst):
+        from PIL import Image
+        os.makedirs(out_dir, exist_ok=True)
+        im = Image.open(os.path.join(ROOT, "img", name + ".jpg")).convert("RGB")
+        k = max(OG_W / im.width, OG_H / im.height)
+        im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
+        x, y = (im.width - OG_W) // 2, (im.height - OG_H) // 2
+        im.crop((x, y, x + OG_W, y + OG_H)).save(dst, "JPEG", quality=70, optimize=True, progressive=True)
+    return f"{SITE_URL}img/og/{name}.jpg"
+
+
+def og_tags(html, url, image, alt):
+    """Open Graph + karta Twittera; tytuł i opis bierzemy z gotowej strony, żeby były identyczne jak w Google."""
+    title = re.search(r"<title>(.*?)</title>", html, re.S).group(1)
+    m = re.search(r'<meta name="description" content="(.*?)">', html, re.S)
+    desc = m.group(1) if m else ""
+    tags = [("og:type", "website"), ("og:locale", "pl_PL"), ("og:site_name", "Odkrywaj Poznań"),
+            ("og:title", title), ("og:description", desc), ("og:url", url),
+            ("og:image", image), ("og:image:width", str(OG_W)), ("og:image:height", str(OG_H)),
+            ("og:image:alt", escape(alt))]
+    out = "".join(f'<meta property="{k}" content="{v}">\n' for k, v in tags if v)
+    out += '<meta name="twitter:card" content="summary_large_image">\n'
+    return out
+
+
 def main():
     os.makedirs(os.path.join(ROOT, "atrakcje"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
@@ -1197,11 +1229,18 @@ def main():
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
     urls = []
+    by_slug = {a["slug"]: a for a in ATTRACTIONS}
     for path, html in out.items():
         # Adres kanoniczny bez .html: te same strony działają też pod /x.html, więc wskazujemy Google właściwy.
         clean = "" if path == "index.html" else path[:-len(".html")]
         urls.append(SITE_URL + clean)
-        html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n', 1)
+        att = by_slug.get(path[len("atrakcje/"):-len(".html")]) if path.startswith("atrakcje/") else None
+        if att and att.get("img"):
+            og_img, og_alt = og_image(att["img"]), att["img_alt"]
+        else:
+            og_img, og_alt = og_image("hero-rynek"), "Stary Rynek w Poznaniu"
+        html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n'
+                            + og_tags(html, SITE_URL + clean, og_img, og_alt), 1)
         with open(os.path.join(ROOT, path), "w", encoding="utf-8", newline="\n") as f:
             f.write(clean_links(html))
     # Strona błędu: bez canonical i poza mapą strony.
