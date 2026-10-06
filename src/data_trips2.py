@@ -210,4 +210,45 @@ TRIPS2 = [
                  ("Ośrodek Kultury Leśnej w Gołuchowie: informacja turystyczna", "https://www.okl.lasy.gov.pl/informacja-turystyczna"),
                  ("OKL: regulamin Pokazowej Zagrody Zwierząt (zarządzenie nr 6/2025 z 5.03.2025)", "https://www.okl.lasy.gov.pl/documents/998963/51382627/Regulamin+PZZ/533eea8b-4846-42fe-475f-d01c1ebd3256")],
     ),
+    dict(
+        slug="muzeum-lesnictwa-goluchow", cat="wycieczki", name="Muzeum Leśnictwa w Gołuchowie",
+        img="muzeum-lesnictwa-goluchow", img_alt="Powozownia, jeden z budynków Muzeum Leśnictwa w Gołuchowie",
+        short="Cztery zabytkowe budynki dawnego folwarku z wystawami o lesie, leśnictwie i jego technice. Wt–nd 10:00–16:00.",
+        badge="Wt–nd",
+        status=None,
+        lead="Muzeum Leśnictwa działa w Ośrodku Kultury Leśnej w Gołuchowie, w XIX-wiecznych budynkach dawnego folwarku zamkowego Działyńskich. Otwarto je w październiku 1986 roku, a od 1987 roku jest samodzielną jednostką Lasów Państwowych. Obok są zamek, park-arboretum i Pokazowa Zagroda Zwierząt.",
+        sections=[
+            ("Wystawy", [
+                "Oficyna: wystawy „Kulturotwórcza rola lasu” (obrazy, grafiki, rzeźby, ceramika i szkło inspirowane lasem) oraz „Dzieje leśnictwa w Polsce”, od czasów zaborów po PRL, m.in. z modelami dawnych mielerzy, dziegciarni i barci leśnej. Budynek powstał z przebudowy gorzelni.",
+                "Powozownia z 1854 roku: „Spotkanie z lasem”, o geografii, ekologii i botanice lasu. Pokazuje m.in. 256 gatunków roślin, grzybów i zwierząt leśnych z Polskiej Czerwonej Księgi oraz XIX-wieczne „księgi drzewne” prof. Carla von Hinterlanga. Jest tu też multimedialna makieta ośrodka.",
+                "Owczarnia z 1849 roku (1039 m²): „Technika leśna” z maszynami do produkcji węgla drzewnego, smoły, dziegciu, potażu, terpentyny i sadzy oraz dawnymi przyrządami pomiarowymi. Przeszklony pasaż łączy ją z Powozownią.",
+                "Dybul, dawna obora: „Ochrona lasu”, o zagrożeniach naturalnych i cywilizacyjnych dla lasu.",
+            ]),
+            ("Warto wiedzieć", [
+                "Bilet pełny obejmuje wszystkie obiekty, można też kupić bilety do pojedynczych budynków. Honorowana jest Karta Dużej Rodziny ze zniżką 50% biletu normalnego. Zwiedzanie z przewodnikiem rezerwują grupy do 30 osób.",
+                "Pokazowa Zagroda Zwierząt z żubrami i park-arboretum są bezpłatne i można je zwiedzić tego samego dnia. Zamek w Gołuchowie to osobne muzeum.",
+            ]),
+        ],
+        address="ul. Działyńskich 2, 63-322 Gołuchów",
+        hours=[
+            ("Wt–nd", "10:00–16:00"),
+            ("Ostatnie wejście", "15:15"),
+            ("Poniedziałek", "nieczynne"),
+        ],
+        tickets=[
+            ("Pełny (wszystkie obiekty)", "25 zł"),
+            ("Ulgowy", "18 zł"),
+            ("Rodzinny (2 dorosłych + do 3 dzieci)", "40 zł"),
+            ("Pojedynczy obiekt (Oficyna, Powozownia, Owczarnia)", "15 zł, ulgowy 10 zł"),
+            ("Karta Dużej Rodziny", "50% biletu normalnego"),
+        ],
+        phone="+48 539 330 611", www=("okl.lasy.gov.pl", "https://www.okl.lasy.gov.pl/muzeum-lesnictwa"),
+        credit="muzeum-lesnictwa-goluchow",
+        trip=dict(lat=51.853157, lon=17.935975, getting=[
+            ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
+        ]),
+        sources=[("Ośrodek Kultury Leśnej w Gołuchowie: informacja turystyczna (godziny, ceny)", "https://www.okl.lasy.gov.pl/informacja-turystyczna"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: Muzeum Leśnictwa", "https://www.okl.lasy.gov.pl/muzeum-lesnictwa"),
+                 ("Wikipedia: Muzeum Leśnictwa w Gołuchowie", "https://pl.wikipedia.org/wiki/Muzeum_Leśnictwa_w_Gołuchowie")],
+    ),
 ]
