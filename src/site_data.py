@@ -1040,19 +1040,20 @@ from data_monuments import MONUMENTS  # noqa: E402  (etap 7: pomniki i fontanny 
 from data_theatres import THEATRE_ATTR  # noqa: E402  (Teatr Wielki, 30.09.2026)
 from data_trips import TRIPS  # noqa: E402  (wycieczki za miasto, 30.09.2026)
 from data_gaps import GAPS  # noqa: E402
-from data_gaps2 import GAPS2  # noqa: E402  (uzupełnienie luk po porównaniu z poznan.pl, 06.10.2026)
+from data_gaps2 import GAPS2  # noqa: E402
+from data_trips2 import TRIPS2  # noqa: E402  (wycieczki, partia 2, 06.10.2026)  (uzupełnienie luk po porównaniu z poznan.pl, 06.10.2026)
 # Data sprawdzenia godzin i cen każdej atrakcji (pole checked). Domyślnie według partii danych;
 # przy ponownej weryfikacji jednej atrakcji wpisz jej własne checked="DD.MM.RRRR".
 _CHECKED_BY_BATCH = [
     (ATTRACTIONS + MORE, "28.09.2026"),
     (EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS, "29.09.2026"),
     (TRIPS + THEATRE_ATTR, "30.09.2026"),
-    (GAPS + GAPS2, "06.10.2026"),
+    (GAPS + GAPS2 + TRIPS2, "06.10.2026"),
 ]
 _CHECKED_SLUGS = {"park-solacki": "29.09.2026", "trakt-krolewsko-cesarski": "29.09.2026",  # czwarta tura
                   "stary-browar": "30.09.2026"}  # rozbudowa opisu, nowy adres i godziny
 for _batch, _date in _CHECKED_BY_BATCH:
     for _a in _batch:
         _a.setdefault("checked", _CHECKED_SLUGS.get(_a["slug"], _date))
-ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2, key=lambda a: _ORDER[a["cat"]])
+ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2, key=lambda a: _ORDER[a["cat"]])
 
