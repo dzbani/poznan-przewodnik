@@ -177,4 +177,37 @@ TRIPS2 = [
                  ("Parowozownia Wolsztyn: rozkład jazdy parowozów", "https://parowozowniawolsztyn.pl/?page_id=2141"),
                  ("Wikipedia: Parowozownia Wolsztyn", "https://pl.wikipedia.org/wiki/Parowozownia_Wolsztyn")],
     ),
+    dict(
+        slug="zagroda-zwierzat-goluchow", cat="wycieczki", name="Pokazowa Zagroda Zwierząt w Gołuchowie",
+        img="zagroda-zwierzat-goluchow", img_alt="Żubr w Pokazowej Zagrodzie Zwierząt w Gołuchowie",
+        short="Ponad 20 ha lasu, w którym żyją żubry, koniki polskie, daniele i dziki. Wstęp bezpłatny, czynna od świtu do zmierzchu.",
+        badge="Bezpłatnie",
+        status=None,
+        lead="Pokazowa Zagroda Zwierząt należy do Ośrodka Kultury Leśnej w Gołuchowie, obok zamku i parku-arboretum. Zajmuje ponad 20 hektarów ogrodzonego lasu mieszanego z sosną i dębem. Najważniejszym gatunkiem są żubry. Wstęp jest bezpłatny, a zagroda otwarta przez cały rok.",
+        sections=[
+            ("Zwierzęta", [
+                "Zagrodę założono w kwietniu 1977 roku z myślą o rosnącej liczbie żubrów i rozproszeniu ich hodowli. Do końca 2024 roku hodowano tu 128 żubrów, w tym 114 urodzonych w Gołuchowie.",
+                "Oprócz żubrów można zobaczyć koniki polskie, daniele i dziki. Zwierzęta oglądasz z wyznaczonych alejek.",
+            ]),
+            ("Warto wiedzieć", [
+                "Zagroda jest czynna codziennie, od wschodu do zachodu słońca. Wstęp jest bezpłatny. Rocznie odwiedza ją około 120 tysięcy osób.",
+                "Przy wejściu trzeba przejść przez maty dezynfekcyjne. Dzieci do 12 lat mogą przebywać na terenie tylko pod opieką dorosłych.",
+                "Obowiązuje zakaz karmienia, dotykania i płoszenia zwierząt, fotografowania z lampą błyskową oraz poruszania się poza alejkami. Nie wolno wprowadzać zwierząt domowych (poza psami przewodnikami), a także jeździć rowerem, na rolkach czy hulajnodze.",
+                "Obok działa Muzeum Leśnictwa w dawnych zabudowaniach folwarku (wt–nd 10:00–16:00, bilet pełny 25 zł, ulgowy 18 zł) oraz bezpłatny park-arboretum. Zamek w Gołuchowie jest osobnym muzeum.",
+            ]),
+        ],
+        address="ul. Działyńskich 2, 63-322 Gołuchów",
+        hours=[
+            ("Zagroda, codziennie, cały rok", "od wschodu do zachodu słońca"),
+        ],
+        tickets=[("Wstęp", "bezpłatnie")],
+        phone="+48 62 76 15 045", www=("okl.lasy.gov.pl", "https://www.okl.lasy.gov.pl/pokazowa-zagroda"),
+        credit="zagroda-zwierzat-goluchow",
+        trip=dict(lat=51.8595602, lon=17.9241702, getting=[
+            ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
+        ]),
+        sources=[("Ośrodek Kultury Leśnej w Gołuchowie: Pokazowa Zagroda Zwierząt", "https://www.okl.lasy.gov.pl/pokazowa-zagroda"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: informacja turystyczna", "https://www.okl.lasy.gov.pl/informacja-turystyczna"),
+                 ("OKL: regulamin Pokazowej Zagrody Zwierząt (zarządzenie nr 6/2025 z 5.03.2025)", "https://www.okl.lasy.gov.pl/documents/998963/51382627/Regulamin+PZZ/533eea8b-4846-42fe-475f-d01c1ebd3256")],
+    ),
 ]
