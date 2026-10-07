@@ -95,12 +95,45 @@ def distance_km(lat, lon):
     return max(5, round(2 * 6371 * math.asin(math.sqrt(h)) / 5) * 5)
 
 
-def media_html(a, prefix, lazy=False):
+
+def resp_set(name, widths):
+    """Wersje WebP zdjęcia img/<name>.jpg o podanych szerokościach (img/r/); tworzone przy pierwszym buildzie.
+    Zwraca [(szerokość, plik względem katalogu głównego)] bez powiększania małych źródeł."""
+    src = os.path.join(ROOT, "img", name + ".jpg")
+    from PIL import Image
+    im = None
+    out = []
+    for w in widths:
+        dst = os.path.join(ROOT, "img", "r", f"{name}-{w}.webp")
+        if not os.path.exists(dst):
+            if im is None:
+                im = Image.open(src).convert("RGB")
+            if im.width < w:
+                continue
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            im.resize((w, round(im.height * w / im.width)), Image.LANCZOS).save(dst, "WEBP", quality=72, method=6)
+        out.append((w, f"img/r/{name}-{w}.webp"))
+    if not out:
+        w = Image.open(src).width
+        dst = os.path.join(ROOT, "img", "r", f"{name}-{w}.webp")
+        if not os.path.exists(dst):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            Image.open(src).convert("RGB").save(dst, "WEBP", quality=72, method=6)
+        out.append((w, f"img/r/{name}-{w}.webp"))
+    return out
+
+
+def srcset_attr(name, prefix, widths=(640, 1200)):
+    return ", ".join(f"{prefix}{f} {w}w" for w, f in resp_set(name, widths))
+
+
+def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px"):
     """Zdjęcie atrakcji albo plansza z nazwą, gdy na Commons nie ma zdjęcia z podanym autorem."""
     if not a.get("img"):
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
     extra = ' loading="lazy" decoding="async"' if lazy else ""
-    return f'<img src="{prefix}img/{a["img"]}.jpg" alt="{escape(a["img_alt"])}"{extra}>'
+    return (f'<img src="{prefix}img/{a["img"]}.jpg" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
+            f'alt="{escape(a["img_alt"])}"{extra}>')
 
 
 def credit_badge(slug, prefix=""):
@@ -298,12 +331,13 @@ def build_attractions():
 
 
 def build_index():
+    HERO_SRCSET = srcset_attr("hero-rynek", "", (800, 1280, 1920))
     tiles = []
     for k, n, d in CATEGORIES:
         items = [a for a in ATTRACTIONS if a["cat"] == k]
         cover = next(a for a in items if a.get("img"))
         tiles.append(f"""<li><a class="tile" href="atrakcje.html#kat-{k}">
-  <img src="img/{cover['img']}.jpg" alt="" loading="lazy" decoding="async">
+  <img src="img/{cover['img']}.jpg" srcset="{srcset_attr(cover['img'], '')}" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
   <span class="tile-t">{escape(n)}</span><span class="tile-n">{len(items)}</span></a></li>""")
     top = "".join(card(BY_SLUG[s], num=i) for i, s in enumerate(TOP10, 1))
     # Wszystkie wydarzenia z datą; site.js ukrywa zakończone i pokazuje najbliższe UPCOMING_MAX.
@@ -330,7 +364,7 @@ def build_index():
                     for pid, t, who, *_ in PLANS)
     body = f"""
 <section class="hero hero-full">
-  <img class="hero-bg" src="img/hero-rynek.jpg" srcset="img/hero-rynek-1200.jpg 1200w, img/hero-rynek.jpg 2560w" sizes="100vw" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
+  <img class="hero-bg" src="img/hero-rynek.jpg" srcset="{HERO_SRCSET}" sizes="100vw" width="2000" height="1500" alt="Kolorowe kamienice przy Starym Rynku w Poznaniu" fetchpriority="high">
   <div class="wrap hero-in">
   <div class="hero-text">
     <p class="kicker">Przewodnik dla odwiedzających</p>
@@ -416,7 +450,8 @@ def build_index():
   <p class="muted small">Bieżący program kulturalny: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a></p>
 </section>
 """
-    return page("Odkrywaj Poznań – przewodnik dla odwiedzających", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.")
+    preload = f'<link rel="preload" as="image" imagesrcset="{HERO_SRCSET}" imagesizes="100vw" fetchpriority="high">\n'
+    return page("Odkrywaj Poznań – przewodnik dla odwiedzających", body, desc="Przewodnik dla turystów: atrakcje Poznania w kategoriach, plany zwiedzania, godziny otwarcia, ceny biletów i informacje praktyczne.", head=preload)
 
 
 def kv_rows(rows):
@@ -472,7 +507,7 @@ def build_attraction(a, idx):
 
 <header class="wrap a-hero">
   <figure class="a-hero-img">
-    {media_html(a, "../")}
+    {media_html(a, "../", sizes="(max-width: 760px) 92vw, 640px")}
     {credit_badge(a['credit'], "../") if a.get("img") else ""}
   </figure>
   <div class="a-hero-text">
