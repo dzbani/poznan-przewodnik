@@ -169,8 +169,6 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 <link rel="manifest" href="{prefix}manifest.webmanifest">
 <meta name="theme-color" content="#22437F">
 <meta name="description" content="{escape(desc)}">
-<link rel="preload" href="{prefix}fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{prefix}fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
 {FONTS}
 {head}<link rel="stylesheet" href="{prefix}assets/style.css?v={asset_v("style.css")}">
 </head>
