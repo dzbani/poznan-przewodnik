@@ -3,7 +3,7 @@
 Fort III, Plac Wolności, Collegium Minus, Domki budnicze, Cmentarz Zasłużonych Wielkopolan.
 Opisy streszczone własnymi słowami z poznan.pl, Wikipedii, visitpoznan.pl i publikacji UAM."""
 
-P = "https://www.poznan.pl/mim/wortals/wortal,2024/"
+P = "https://www.poznan.pl/mim/wortals/turystyka/"
 
 GAPS = [
     dict(

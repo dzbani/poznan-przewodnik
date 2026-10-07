@@ -6,8 +6,8 @@ Pomnik Poznańskiego Czerwca 1956 jest w site_data.py (kategoria przeniesiona tu
 
 from urllib.parse import quote
 
-PM = "https://www.poznan.pl/mim/wortals/wortal,2024/pomniki,poi,2473/"
-PF = "https://www.poznan.pl/mim/wortals/wortal,2024/fontanny-i-studzienki,poi,2571/"
+PM = "https://www.poznan.pl/mim/wortals/turystyka/pomniki,poi,2473/"
+PF = "https://www.poznan.pl/mim/wortals/turystyka/fontanny-i-studzienki,poi,2571/"
 
 
 def wiki(title):
@@ -449,7 +449,7 @@ MONUMENTS = [
       ])],
       "Park Stare Koryto Warty, 61-124 Poznań",
       ("poznan.pl: Wiedźma z Chwaliszewa", PM + "wiedzma-z-chwaliszewa,86852.html"),
-      [("Malta Festival: Wiedźma z Chwaliszewa", "https://malta-festival.pl/wiedzmazchwaliszewa")],
+      [("Malta Festival: Wiedźma z Chwaliszewa", "https://malta-festival.pl/wiedzmazchwaliszewa/")],
       img=None),
 
     M("fontanna-park-wilsona", "Fontanna w Parku Wilsona",

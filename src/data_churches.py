@@ -4,7 +4,7 @@
 (opisy streszczone własnymi słowami). Katedra, Fara, NMP in Summo i kościół
 św. Wojciecha mają osobne wpisy w innych plikach."""
 
-POI = "https://www.poznan.pl/mim/wortals/wortal,2024/koscioly-zabytkowe,poi,2471/-,{}.html"
+POI = "https://www.poznan.pl/mim/wortals/turystyka/koscioly-zabytkowe,poi,2471/-,{}.html"
 
 
 def church(slug, name, poi_id, address, short, lead, history, see, img_alt,
@@ -191,7 +191,7 @@ CHURCHES = [
          "Jednonawowe, halowe wnętrze z kasetonowym stropem i posągiem zwycięskiego Chrystusa w prezbiterium.",
          "Wieżę z figurami polskich świętych: Andrzeja Boboli, Kazimierza, Stanisława ze Szczepanowa i Jana Kantego."],
         "Neoklasycystyczny kościół Zmartwychwstania Pańskiego na Wildzie",
-        phone="+48 61 833 34 62", www=("poznancr.pl", "http://www.poznancr.pl/")),
+        phone="+48 61 833 34 62", www=("poznancr.pl", "https://www.poznancr.pl/")),
     church(
         "kosciol-maryi-krolowej", "Kościół Maryi Królowej", 66243,
         "Rynek Wildecki 4, 61-546 Poznań",
@@ -202,7 +202,7 @@ CHURCHES = [
          "Wnętrze ze sklepieniem beczkowym, witrażami, malarstwem ściennym i rzeźbami.",
          "Pomnik Archanioła Michała przed kościołem."],
         "Kościół Maryi Królowej na Rynku Wildeckim",
-        phone="+48 61 833 15 90", www=("parafia-maryi-krolowej.poznan.pl", "http://www.parafia-maryi-krolowej.poznan.pl/")),
+        phone="+48 61 833 15 90", www=("parafia-maryi-krolowej.poznan.pl", "https://parafia-maryi-krolowej.poznan.pl/")),
     church(
         "kosciol-jana-vianneya", "Kościół św. Jana Vianneya", 66475,
         "ul. Podlaska 10, 60-623 Poznań",
@@ -213,7 +213,7 @@ CHURCHES = [
          "Jasne, przestronne wnętrze z krucyfiksem w ołtarzu głównym i witrażami nawiązującymi do św. Jana Vianneya, św. Wojciecha i Ostatniej Wieczerzy."],
         "Rotunda kościoła św. Jana Vianneya na Sołaczu",
         extra=["Kościół leży niedaleko Parku Sołackiego, więc łatwo połączyć oba miejsca."],
-        www=("jmv-solacz.pl", "http://www.jmv-solacz.pl/")),
+        www=("jmv-solacz.pl", "https://www.jmv-solacz.pl/")),
     church(
         "kosciol-sw-anny", "Kościół św. Anny", 66502,
         "ul. Limanowskiego 13, 60-744 Poznań",
@@ -224,5 +224,5 @@ CHURCHES = [
          "Sklepienia kryształowe i krzyżowo-żebrowe, polichromie i oryginalne witraże.",
          "Obraz Chrystusa Cierpiącego z XVIII wieku, kopię obrazu Leonarda da Vinci z twarzą św. Anny i płaskorzeźby XIX-wiecznego włoskiego artysty Cirilla dell'Antonio."],
         "Neogotycki kościół św. Anny na Łazarzu",
-        www=("swanna.tami.pl", "http://swanna.tami.pl/")),
+        www=("swanna.tami.pl", "https://swanna.tami.pl/")),
 ]

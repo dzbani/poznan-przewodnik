@@ -134,7 +134,7 @@ ATTRACTIONS = [
         address="ul. Gołębia 1, 61-834 Poznań",
         hours=[("Kościół", "codziennie 6:00–19:30"), ("Koncert organowy", "soboty 12:15"), ("Zwiedzanie z przewodnikiem", "soboty ok. 12:45")],
         tickets=[("Wejście do kościoła", "bezpłatnie"), ("Trasy z przewodnikiem", "2–5 zł od osoby"), ("Wizyta u organisty", "5 zł od osoby")],
-        phone="+48 61 852 69 50", www=("fara.archpoznan.pl", "https://fara.archpoznan.pl/"),
+        phone="+48 61 852 69 50", www=("fara.archpoznan.pl", "https://fara.archpoznan.pl/pl/"),
         credit="fara",
         sources=[("Fara Poznańska: zwiedzanie", "https://fara.archpoznan.pl/pl/zwiedzanie?view=article&id=24%3Agodziny-otwarcia&catid=2"),
                  ("Visit Poznań: Fara Poznańska", "https://visitpoznan.pl/fara-poznanska")],
@@ -168,7 +168,7 @@ ATTRACTIONS = [
         credit="zamek-krolewski",
         sources=[("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
                  ("Wikipedia: Zamek Królewski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Królewski_w_Poznaniu"),
-                 ("poznan.pl: Wieża widokowa – Wzgórze Przemysła", "https://www.poznan.pl/mim/wortals/wortal,2024/inne-atrakcje,poi,3391/wieza-widokowa-wzgorze-przemysla,61910.html")],
+                 ("poznan.pl: Wieża widokowa – Wzgórze Przemysła", "https://www.poznan.pl/mim/wortals/turystyka/inne-atrakcje,poi,3391/wieza-widokowa-wzgorze-przemysla,61910.html")],
     ),
     dict(
         slug="zamek-cesarski", cat="zabytki", name="Zamek Cesarski",

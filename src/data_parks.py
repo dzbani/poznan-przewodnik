@@ -4,7 +4,7 @@
 Astronomiczne UAM, PTOP „Salamandra”, Wikipedia. Opisy streszczone własnymi słowami.
 Celowo bez numerów linii i przystanków (na podstronie jest link „Trasa komunikacją”)."""
 
-P = "https://www.poznan.pl/mim/wortals/wortal,2024/parki,poi,3338/"
+P = "https://www.poznan.pl/mim/wortals/turystyka/parki,poi,3338/"
 
 PARKS = [
     dict(

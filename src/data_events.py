@@ -138,7 +138,7 @@ CALENDAR = [
         when="Co roku w grudniu",
         dates=("2026-12-11", "2026-12-13"), note="W 2026 roku 20., jubileuszowa edycja.",
         desc=["Festiwal rzeźby lodowej: rzeźbiarze z kilku krajów tworzą na oczach widzów kilkumetrowe rzeźby z brył lodu, piłami mechanicznymi i dłutami. W 2026 roku startuje 24 rzeźbiarzy."],
-        link=("poznan.pl", "https://www.poznan.pl/mim/turystyka/news/poznan-ice-festival-wraca-na-stary-rynek,243196.html"),
+        link=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/news,1042/poznan-ice-festival-wraca-na-stary-rynek,243196.html"),
         sources=[("Codzienny Poznań: Poznań Ice Festival wraca na Stary Rynek (18.09.2026)", "https://codziennypoznan.pl/artykul/2026-09-18/tony-lodu-i-mistrzowie-z-calego-swiata-poznan-ice-festival-wraca-na-stary-rynek-z-jubileuszowa-edycja/")],
     ),
     # ─── Uzupełnienia 01.10.2026 ───
@@ -147,8 +147,8 @@ CALENDAR = [
         when="Co roku w marcu",
         dates=("2027-03-12", "2027-03-14"), note="Termin edycji 2027 podał organizator.",
         desc=["Targi wydawców i spotkania z autorami z Polski i zagranicy: od kryminału i reportażu po literaturę dziecięcą. Organizator podaje, że w poprzedniej edycji odbyło się 466 spotkań autorskich. Wstęp jest biletowany."],
-        link=("targiksiazki.pl", "https://targiksiazki.pl/"),
-        sources=[("Poznańskie Targi Książki (organizator)", "https://targiksiazki.pl/")],
+        link=("targiksiazki.pl", "https://targiksiazki.pl/pl"),
+        sources=[("Poznańskie Targi Książki (organizator)", "https://targiksiazki.pl/pl")],
     ),
     dict(
         id="next-fest", month=4, name="NEXT FEST Music Showcase & Conference", place="Kluby i sceny w całym mieście",
@@ -164,8 +164,8 @@ CALENDAR = [
         when="Co roku wiosną",
         dates=("2027-04-22", "2027-04-25"), note="Termin edycji 2027 podał organizator.",
         desc=["Targi motoryzacyjne: premiery samochodów i motocykli, wystawy i pokazy. Wstęp jest biletowany."],
-        link=("motorshow.pl", "https://www.motorshow.pl/pl/"),
-        sources=[("Poznań Motor Show (organizator)", "https://www.motorshow.pl/pl/")],
+        link=("motorshow.pl", "https://motorshow.pl/pl/"),
+        sources=[("Poznań Motor Show (organizator)", "https://motorshow.pl/pl/")],
     ),
     dict(
         id="juwenalia", month=5, name="Juwenalia Poznań", place="Park Jana Pawła II (Łęgi Dębińskie)",
@@ -232,9 +232,8 @@ CALENDAR = [
         id="rocznica-powstania", month=12, name="Rocznica wybuchu Powstania Wielkopolskiego", place="Centrum Poznania",
         when="Co roku 26 i 27 grudnia",
         dates=("2026-12-26", "2026-12-27"), note="Szczegółowy program na 2026 rok nie jest jeszcze ogłoszony.",
-        desc=["27 grudnia to Narodowy Dzień Zwycięskiego Powstania Wielkopolskiego. W 2025 roku program wyglądał tak: 26 grudnia inscenizacja przyjazdu Ignacego Paderewskiego pociągiem na Dworzec Letni, a 27 grudnia msza w Farze, uroczystości pod pomnikiem, minuta ciszy o 16:40 (zatrzymują się tramwaje i autobusy, wyją syreny) i wieczorny marsz spod hotelu Bazar."],
+        desc=["27 grudnia to Narodowy Dzień Zwycięskiego Powstania Wielkopolskiego. W 2025 roku program wyglądał tak: 26 grudnia o 15:30 inscenizacja przyjazdu Ignacego Paderewskiego na Dworzec Letni PKP, a 27 grudnia msza w Farze (15:00) i główne uroczystości o 16:40, kiedy uruchamiane są syreny alarmowe i biją dzwony w kościołach."],
         link=("poznan.pl", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html"),
-        sources=[("poznan.pl: 107. rocznica Powstania Wielkopolskiego", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html"),
-                 ("MPK Poznań: obchody 27 grudnia 2025", "https://www.mpk.poznan.pl/komunikaty/obchody-107-rocznicy-wybuchu-powstania-wielkopolskiego-27-grudnia-2025-r/")],
+        sources=[("poznan.pl: 107. rocznica Powstania Wielkopolskiego", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html")],
     ),
 ]

@@ -780,8 +780,8 @@ def info_extra():
 
 <section id="przewodnicy">
   <h2>Zwiedzanie z przewodnikiem</h2>
-  <p>Oprowadzanie z przewodnikiem organizuje m.in. <a href="https://www.przewodnicy-pttk.org/" target="_blank" rel="noopener">Koło Przewodników PTTK im. Marcelego Mottego</a> (pl. Kolegiacki 16). Przewodnika można też zamówić w punktach informacji turystycznej.</p>
-  <p>Na samodzielny spacer przydadzą się <a href="https://visitpoznan.pl/audioprzewodniki-po-poznaniu/" target="_blank" rel="noopener">audioprzewodniki Visit Poznań</a> oraz oznakowany <a href="atrakcje/trakt-krolewsko-cesarski.html">Trakt Królewsko-Cesarski</a>.</p>
+  <p>Oprowadzanie z przewodnikiem organizuje m.in. <a href="https://www.przewodnicy-pttk.org/pl/strona-glowna/" target="_blank" rel="noopener">Koło Przewodników PTTK im. Marcelego Mottego</a> (pl. Kolegiacki 16). Przewodnika można też zamówić w punktach informacji turystycznej.</p>
+  <p>Na samodzielny spacer przydadzą się <a href="https://visitpoznan.pl/audioprzewodniki-po-poznaniu" target="_blank" rel="noopener">audioprzewodniki Visit Poznań</a> oraz oznakowany <a href="atrakcje/trakt-krolewsko-cesarski.html">Trakt Królewsko-Cesarski</a>.</p>
 </section>
 
 <section id="pogoda">

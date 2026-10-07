@@ -54,7 +54,7 @@ THEATRES = [
         kind="Taniec współczesny", lang=True, img=None, attraction=None,
         desc=["Zespół założony w 1973 roku, którego pierwszym dyrektorem był choreograf Conrad Drzewiecki. Już w pierwszych latach zaliczano go do najlepszych zespołów w Europie i zapraszano na międzynarodowe festiwale. Współpracowali z nim choreografowie z całego świata, m.in. Mats Ek i Ohad Naharin."],
         address="ul. Taczaka 8, 61-818 Poznań",
-        links=[("Repertuar i bilety", "https://ptt-poznan.pl/bilety")],
+        links=[("Repertuar i bilety", "https://ptt-poznan.pl/bilety/informacje")],
     ),
     dict(
         id="teatr-animacji", name="Teatr Animacji",

@@ -3,7 +3,7 @@
 Źródła: portal miasta poznan.pl (kategorie Fortyfikacje, Jeziora, Parki,
 Inne atrakcje), MPK Poznań, Wikipedia. Opisy streszczone własnymi słowami."""
 
-P = "https://www.poznan.pl/mim/wortals/wortal,2024/"
+P = "https://www.poznan.pl/mim/wortals/turystyka/"
 
 FINAL = [
     dict(
@@ -79,7 +79,7 @@ FINAL = [
         address="ul. Lechicka 59, 61-695 Poznań",
         hours=[("Maj–wrzesień", "ostatnia sobota miesiąca"), ("Wejścia", "12:00 i 15:00")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł")],
-        phone="+48 506 737 222", www=("kernwerk.pl", "http://www.kernwerk.pl/"),
+        phone="+48 506 737 222", www=("kernwerk.pl", "https://www.kernwerk.pl/"),
         credit="fort-va",
         sources=[("poznan.pl: Fort Va Bonin", P + "fortyfikacje,poi,2575/fort-va-bonin,52714.html")],
     ),
@@ -337,9 +337,9 @@ FINAL = [
         address="przystanek Biblioteka Uniwersytecka (ul. Ratajczaka: 61-815) / dworzec Poznań Główny, 61-896 Poznań",
         hours=[("Sezon", "letni, weekendy i święta"), ("Rozkład", "na mpk.poznan.pl")],
         tickets=[("Jednorazowy", "7 zł, ulgowy 5 zł"), ("Dzienny", "12 zł, ulgowy 9 zł")],
-        phone=None, www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/turystyka/linie-turystyczne"),
+        phone=None, www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/linie-turystyczne/"),
         credit="linie-turystyczne",
-        sources=[("MPK Poznań: linie turystyczne", "https://www.mpk.poznan.pl/turystyka/linie-turystyczne"),
+        sources=[("MPK Poznań: linie turystyczne", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/linie-turystyczne/"),
                  ("poznan.pl: Sezonowe linie turystyczne", P + "inne-atrakcje,poi,3391/sezonowe-linie-turystyczne,74590.html")],
     ),
 ]
