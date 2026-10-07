@@ -520,3 +520,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .btn-consent { background: var(--gold); color: var(--on-gold); border: 0; cursor: pointer; font: inherit; font-weight: 600; min-width: 128px; justify-content: center; }
 .btn-consent:hover { background: var(--gold-2); color: var(--on-gold); }
 @media (max-width: 600px) { .consent { bottom: 8px; padding: 16px; } .consent-btns { width: 100%; } .btn-consent { flex: 1; } }
+
+/* ─── Zestawienie muzeów ─── */
+.compare { min-width: 720px; }
+.compare tbody th { min-width: 190px; }
+.compare td div + div { margin-top: 2px; }
+.compare td { font-size: 0.88rem; }

@@ -204,6 +204,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
     </div>
     <ul class="footer-links">
       <li><a href="{prefix}atrakcje.html">Wszystkie atrakcje</a></li>
+      <li><a href="{prefix}muzea.html">Muzea: godziny i ceny</a></li>
       <li><a href="{prefix}mapa.html">Mapa atrakcji</a></li>
       <li><a href="{prefix}plany.html">Plany zwiedzania</a></li>
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
@@ -1154,6 +1155,81 @@ def build_method():
                 desc="Skąd bierzemy godziny, ceny i opisy, co robimy, gdy źródła się nie zgadzają, i jak zgłosić błąd. Zasady weryfikacji informacji w przewodniku Odkrywaj Poznań.")
 
 
+def build_museums():
+    from museums_table import derive, open_monday, sort_key, DAYS, LABEL
+    mus = sorted((a for a in ATTRACTIONS if a["cat"] == "muzea"), key=lambda a: sort_key(a["name"]))
+    info = {a["slug"]: derive(a) for a in mus}
+    link = lambda a: f'<a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>'
+
+    def free_cell(a):
+        d = info[a["slug"]]
+        if d["free_always"]:
+            return "zawsze"
+        return ", ".join(LABEL[x] for x in d["free_days"]) or "—"
+
+    rows = []
+    for a in mus:
+        d = info[a["slug"]]
+        hours = "".join(f"<div><span class=\"muted\">{escape(l)}:</span> {escape(x)}</div>" for l, x in a["hours"])
+        tick = [(l, x) for l, x in a["tickets"] if not ("wstęp wolny" in x.lower() or l.lower() in LABEL.values())]
+        tickets = "".join(f"<div><span class=\"muted\">{escape(l)}:</span> {escape(x)}</div>" for l, x in tick) or "—"
+        note = '<div class="muted small">Czasowo zamknięte</div>' if is_closed(a) else ""
+        rows.append(f"""<tr id="{a['slug']}"><th scope="row">{link(a)}{note}<div class="muted small">sprawdzono {a['checked']}</div></th>
+<td>{hours}</td><td>{tickets}</td><td>{escape(free_cell(a))}</td></tr>""")
+
+    monday = [a for a in mus if open_monday(a, info[a["slug"]])]
+    monday_html = "".join(f"<li>{link(a)}</li>" for a in monday)
+    free_by_day = []
+    for day in DAYS:
+        names = [a for a in mus if day in info[a["slug"]]["free_days"]]
+        if names:
+            free_by_day.append(f"<li><strong>{LABEL[day].capitalize()}:</strong> " + ", ".join(link(a) for a in names) + "</li>")
+    always = [a for a in mus if info[a["slug"]]["free_always"]]
+    if always:
+        free_by_day.append("<li><strong>Zawsze bezpłatnie:</strong> " + ", ".join(link(a) for a in always) + "</li>")
+    pkt = [a for a in mus if any("poznańską kartą turystyczną" in l.lower() and "bezpłatn" in x.lower() for l, x in a["tickets"])]
+    pkt_html = ", ".join(link(a) for a in pkt)
+
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Zestawienie</p>
+  <h1>Muzea w Poznaniu: godziny, ceny i dni bezpłatne</h1>
+  <p class="lead">{len(mus)} muzeów z przewodnika w jednej tabeli: kiedy są otwarte, ile kosztuje bilet i w które dni wstęp jest wolny. Dane pochodzą z kart atrakcji, więc każdą liczbę możesz sprawdzić w źródle (<a href="jak-weryfikujemy.html">jak weryfikujemy informacje</a>).</p>
+  <nav class="toc" aria-label="Spis treści">
+    <a href="#tabela">Tabela</a><a href="#poniedzialek">Otwarte w poniedziałek</a><a href="#bezplatnie">Wstęp wolny</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="poniedzialek">
+  <h2>Otwarte w poniedziałek</h2>
+  <p>W poniedziałek większość muzeów jest nieczynna. Poniżej tylko te, w których nasze źródła wprost podają, że w poniedziałek jest otwarte. Jeśli muzeum nie ma godzin dla poniedziałku w naszych danych, nie wpisujemy go na tę listę.</p>
+  <ul>{monday_html}</ul>
+</section>
+
+<section id="bezplatnie">
+  <h2>Wstęp wolny według dni</h2>
+  <ul>{"".join(free_by_day)}</ul>
+  <p>Z Poznańską Kartą Turystyczną bezpłatnie: {pkt_html}.</p>
+</section>
+
+<section id="tabela">
+  <h2>Wszystkie muzea</h2>
+  <p>W kolejności alfabetycznej. Godziny i ceny są przepisane z kart atrakcji bez skracania, a przy nazwie widać datę, kiedy je ostatnio sprawdziliśmy.</p>
+  <div class="table-wrap"><table class="grid compare">
+  <thead><tr><th scope="col">Muzeum</th><th scope="col">Godziny</th><th scope="col">Bilety</th><th scope="col">Wstęp wolny</th></tr></thead>
+  <tbody>
+  {"".join(rows)}
+  </tbody></table></div>
+  <p class="muted small">Godziny i ceny zmieniają się. Przed wizytą potwierdź je na stronie muzeum (link na karcie atrakcji). Brak informacji w tabeli oznacza, że nie mamy jej z wiarygodnego źródła.</p>
+</section>
+</div>
+"""
+    return page("Muzea w Poznaniu: godziny otwarcia, ceny biletów i dni bezpłatne – Odkrywaj Poznań", body,
+                desc=f"Zestawienie {len(mus)} muzeów w Poznaniu: godziny otwarcia, ceny biletów normalnych i ulgowych, dni wstępu wolnego i muzea otwarte w poniedziałek.",
+                active="atrakcje")
+
+
 def build_privacy():
     mail = f'<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>'
     ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
@@ -1333,7 +1409,7 @@ def main():
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
-           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(),
+           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(), "muzea.html": build_museums(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
