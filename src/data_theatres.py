@@ -62,7 +62,7 @@ THEATRES = [
         desc=["Teatr lalek działa w Poznaniu od 1945 roku, od 1989 roku pod nazwą Teatr Animacji. Gra w budynku Centrum Kultury Zamek, czyli w dawnym Zamku Cesarskim (wejście główne).",
               "Kasa jest czynna od godziny przed spektaklem i w każdy piątek w godzinach 15:00–18:00. Bilet na spektakl dla dzieci kosztuje 55 zł (ulgowy 50 zł)."],
         address="ul. Święty Marcin 80/82, 61-809 Poznań",
-        links=[("Repertuar", "https://www.teatranimacji.pl/"), ("Ceny biletów", "https://www.teatranimacji.pl/en/tickets")],
+        links=[("Repertuar", "https://www.teatranimacji.pl/pl/repertuar"), ("Ceny biletów", "https://www.teatranimacji.pl/en/tickets")],
     ),
     dict(
         id="teatr-osmego-dnia", name="Teatr Ósmego Dnia",
