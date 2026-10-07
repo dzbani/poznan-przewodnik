@@ -205,6 +205,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
     <ul class="footer-links">
       <li><a href="{prefix}atrakcje.html">Wszystkie atrakcje</a></li>
       <li><a href="{prefix}muzea.html">Muzea: godziny i ceny</a></li>
+      <li><a href="{prefix}zmiany.html">Co się zmieniło</a></li>
       <li><a href="{prefix}mapa.html">Mapa atrakcji</a></li>
       <li><a href="{prefix}plany.html">Plany zwiedzania</a></li>
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
@@ -1230,6 +1231,60 @@ def build_museums():
                 active="atrakcje")
 
 
+def build_changes():
+    import data_changes as dc
+    ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{escape(text)}</a>'
+
+    def from_status(slugs):
+        out = []
+        for slug in slugs:
+            a = BY_SLUG[slug]
+            src = next((x for x in a["sources"] if "wikipedia.org" not in x[1]), a["sources"][0])
+            out.append(f"""<li class="change"><h3><a href="atrakcje/{slug}.html">{escape(a['name'])}</a></h3>
+<p>{escape(a['status'][1])}</p>
+<p class="muted small">Stan na {a['checked']}. Źródło: {ext(src[1], src[0])}</p></li>""")
+        return "".join(out)
+
+    rules = "".join(f"""<li class="change"><p class="change-meta"><span class="chip">{escape(r['kind'])}</span> {escape(r['when'])}</p>
+<h3>{escape(r['title'])}</h3><p>{escape(r['text'])}</p>
+<p class="muted small"><a href="{r['page'][0]}">{escape(r['page'][1])}</a> · Źródło: {ext(r['src'][1], r['src'][0])}</p></li>"""
+                    for r in sorted(dc.RULES, key=lambda r: r["sort"], reverse=True))
+    newest = max(datetime.datetime.strptime(BY_SLUG[s]["checked"], "%d.%m.%Y").date() for s in dc.CLOSED + dc.SEASONAL)
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Aktualności</p>
+  <h1>Co się zmieniło</h1>
+  <p class="lead">Zamknięcia, remonty, nowe ceny i zasady, które mogą pokrzyżować plany zwiedzania. Każdy wpis ma źródło i link do atrakcji. Wpisujemy tylko to, co potwierdza oficjalne źródło.</p>
+  <nav class="toc" aria-label="Spis treści">
+    <a href="#zamkniete">Zamknięte lub w remoncie</a><a href="#zima">Sezon i zima 2026/27</a><a href="#zasady">Ceny, nazwy i zasady</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="zamkniete">
+  <h2>Zamknięte lub w remoncie</h2>
+  <ul class="changes">{from_status(dc.CLOSED)}</ul>
+</section>
+
+<section id="zima">
+  <h2>Sezon i zima 2026/27</h2>
+  <p>Część atrakcji poza miastem działa tylko w sezonie. Poniżej to, co zmienia się wraz z końcem sezonu letniego.</p>
+  <ul class="changes">{from_status(dc.SEASONAL)}</ul>
+</section>
+
+<section id="zasady">
+  <h2>Ceny, nazwy i zasady</h2>
+  <ul class="changes">{rules}</ul>
+</section>
+
+<p class="muted small">Dziennik obejmuje zmiany znane w dniu sprawdzenia danej atrakcji (najnowsza: {newest.strftime("%d.%m.%Y")}). Skąd bierzemy informacje: <a href="jak-weryfikujemy.html">jak weryfikujemy</a>. Zauważyłeś zmianę, której tu nie ma? Napisz na <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
+</div>
+"""
+    return page("Co się zmieniło: zamknięcia, remonty i nowe ceny w Poznaniu – Odkrywaj Poznań", body,
+                desc="Aktualne zamknięcia i remonty atrakcji w Poznaniu (Ratusz, Palmiarnia), sezonowe ograniczenia zimą oraz zmiany cen, nazw i zasad. Każdy wpis ze źródłem.",
+                active="atrakcje")
+
+
 def build_privacy():
     mail = f'<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>'
     ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
@@ -1409,7 +1464,7 @@ def main():
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
-           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(), "muzea.html": build_museums(),
+           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(), "muzea.html": build_museums(), "zmiany.html": build_changes(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)

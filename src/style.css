@@ -526,3 +526,10 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .compare tbody th { min-width: 190px; }
 .compare td div + div { margin-top: 2px; }
 .compare td { font-size: 0.88rem; }
+
+/* ─── Dziennik zmian ─── */
+.changes { list-style: none; padding-left: 0 !important; display: grid; gap: 14px; }
+.change { padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.change h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.change h3 a { text-decoration: none; }
+.change-meta { display: flex; gap: 10px; align-items: center; font-size: 0.85rem; color: var(--muted); margin-bottom: 4px; }
