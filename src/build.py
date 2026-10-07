@@ -211,6 +211,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}kalendarz.html">Kalendarz wydarzeń</a></li>
       <li><a href="{prefix}teatry.html">Teatry i koncerty</a></li>
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
+      <li><a href="{prefix}jak-weryfikujemy.html">Jak weryfikujemy informacje</a></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
     </ul>
   </div>
@@ -548,7 +549,7 @@ def build_attraction(a, idx):
       <h2>Kontakt</h2>
       {contact}
     </div>
-    <p class="checked">Sprawdzono {a['checked']}. Godziny i ceny mogą się zmienić, więc przed wizytą potwierdź je na stronie obiektu.</p>
+    <p class="checked">Sprawdzono {a['checked']}. Godziny i ceny mogą się zmienić, więc przed wizytą potwierdź je na stronie obiektu. <a href="../jak-weryfikujemy.html">Jak weryfikujemy</a></p>
     <p class="report"><a href="{report_url(a)}">{icon('alert')} Zgłoś nieaktualną informację</a></p>
   </aside>
 </div>
@@ -1079,7 +1080,78 @@ COPYRIGHT_YEAR = datetime.date.today().year
 
 # Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
 CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
+LINKS_CHECKED = "07.10.2026"   # data ostatniego uruchomienia src/check_links.py; podbić po kolejnej kontroli
 PRIVACY_UPDATED = "05.10.2026"
+
+
+def build_method():
+    mail = f'<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>'
+    dates = sorted(datetime.datetime.strptime(a["checked"], "%d.%m.%Y").date() for a in ATTRACTIONS)
+    fmt = lambda d: d.strftime("%d.%m.%Y")
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">O serwisie</p>
+  <h1>Jak weryfikujemy informacje</h1>
+  <p class="lead">W przewodniku ważniejsze od tego, żeby było dużo, jest to, żeby było prawdziwie. Poniżej opisujemy, skąd bierzemy dane, co robimy, gdy źródła się nie zgadzają, i czego nie obiecujemy.</p>
+  <nav class="toc" aria-label="Spis treści">
+    <a href="#zrodla">Skąd bierzemy dane</a><a href="#sprzecznosci">Gdy źródła się nie zgadzają</a><a href="#daty">Daty sprawdzenia</a>
+    <a href="#czego-nie">Czego nie robimy</a><a href="#zdjecia">Zdjęcia</a><a href="#bledy">Znalazłeś błąd?</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="zrodla">
+  <h2>Skąd bierzemy dane</h2>
+  <ul>
+    <li><strong>Godziny, ceny, adresy i telefony</strong> bierzemy ze strony samego obiektu albo z oficjalnych portali: miejskiego poznan.pl, turystycznego visitpoznan.pl i serwisów organizatorów, na przykład muzeów. Wyszukiwarki i agregatory często pokazują stare dane. Przykład: Rogalowe Muzeum Poznania miało w wynikach wyszukiwania ceny sprzed podwyżki, a według strony muzeum od 2 stycznia 2026 roku bilet kosztuje 41 i 47 zł.</li>
+    <li><strong>Opisy historyczne</strong> opieramy na oficjalnych portalach i na Wikipedii. Z Wikipedii nie bierzemy godzin ani cen.</li>
+    <li><strong>Każda z {len(ATTRACTIONS)} atrakcji</strong> ma pod opisem listę źródeł z linkami, więc możesz sprawdzić, skąd pochodzi dana informacja.</li>
+    <li><strong>Klimat Poznania</strong> policzyliśmy z surowych danych IMGW z lat 1991–2020 (stacja Poznań-Ławica), a nie przepisaliśmy z innych stron.</li>
+    <li><strong>Kalendarz wydarzeń</strong> zawiera tylko to, co potwierdza strona organizatora albo oficjalny portal. Daty kolejnej edycji wpisujemy dopiero wtedy, gdy organizator je ogłosi, nie na podstawie szacunków.</li>
+  </ul>
+</section>
+
+<section id="sprzecznosci">
+  <h2>Gdy źródła się nie zgadzają</h2>
+  <p>Nie wybieramy „na oko”. W takiej sytuacji robimy jedną z dwóch rzeczy: podajemy tylko to, co potwierdzają wszystkie źródła, i opisujemy rozbieżność z nazwami źródeł, albo pomijamy daną informację i odsyłamy do obiektu.</p>
+  <ul>
+    <li><a href="atrakcje/fort-iii.html">Fort III</a>: dwa oficjalne portale różnie podają dni i godziny wejść. Napisaliśmy, co jest pewne, a rozbieżność opisaliśmy wprost.</li>
+    <li><a href="atrakcje/muzeum-czerwca-1956.html">Muzeum Poznańskiego Czerwca 1956</a>: godzin nie udało się potwierdzić w żadnym aktualnym źródle, więc ich nie podajemy i prosimy o kontakt z muzeum.</li>
+    <li><a href="atrakcje/niewidzialna-ulica.html">Niewidzialna Ulica</a>: źródła podają różne ceny, więc odsyłamy do strony obiektu zamiast wpisywać jedną z nich.</li>
+  </ul>
+</section>
+
+<section id="daty">
+  <h2>Daty sprawdzenia</h2>
+  <p>Pod każdą atrakcją widać datę „Sprawdzono”. To dzień, w którym ostatnio porównaliśmy dane ze źródłami. Obecnie wszystkie atrakcje były sprawdzane od {fmt(dates[0])} do {fmt(dates[-1])}, a część „Informacje praktyczne” {CHECKED}.</p>
+  <p>Godziny i ceny zmieniają się, a data nie jest gwarancją, że dziś jest tak samo. Przed wizytą potwierdź je na stronie obiektu. Nie obiecujemy odświeżania danych w stałym rytmie, ale zmiany, o których się dowiadujemy, sprawdzamy i wprowadzamy.</p>
+  <p>Linki do źródeł kontrolujemy automatycznie (ostatnia kontrola: {LINKS_CHECKED}), a gdy źródło przestaje istnieć, usuwamy je razem z informacjami, które tylko na nim się opierały.</p>
+</section>
+
+<section id="czego-nie">
+  <h2>Czego nie robimy</h2>
+  <ul>
+    <li>Nie podajemy numerów telefonów, godzin ani cen, jeśli nie mamy ich z wiarygodnego źródła.</li>
+    <li>Nie podajemy linii ani przystanków do atrakcji bez sprawdzenia. Zamiast tego jest link do trasy komunikacją publiczną w Mapach Google.</li>
+    <li>Nie piszemy recenzji ani ocen i nie przyjmujemy płatnych wpisów. Na stronie nie ma reklam.</li>
+    <li>Opieramy się na źródłach publicznych, a nie na własnych relacjach z wizyt w każdym miejscu.</li>
+  </ul>
+  <p>Przewodnik prowadzi prywatna, niekomercyjna strona niezwiązana z Urzędem Miasta Poznania (<a href="prywatnosc.html#kto">więcej</a>).</p>
+</section>
+
+<section id="zdjecia">
+  <h2>Zdjęcia</h2>
+  <p>Większość zdjęć pochodzi z Wikimedia Commons na otwartych licencjach. Autora i licencję zdjęcia znajdziesz po kliknięciu ikonki „i” w rogu zdjęcia, a wszystkie razem na stronie <a href="zdjecia.html">Autorzy zdjęć</a>. Gdy na Commons nie ma zdjęcia z podanym autorem, zamiast niego pokazujemy planszę z nazwą miejsca.</p>
+</section>
+
+<section id="bledy">
+  <h2>Znalazłeś błąd?</h2>
+  <p>Przy każdej atrakcji jest link „Zgłoś nieaktualną informację”, który otwiera gotowy e-mail z nazwą miejsca. Możesz też napisać na {mail}. Zgłoszenie sprawdzamy w źródłach, zanim zmienimy dane.</p>
+</section>
+</div>
+"""
+    return page("Jak weryfikujemy informacje – Odkrywaj Poznań", body,
+                desc="Skąd bierzemy godziny, ceny i opisy, co robimy, gdy źródła się nie zgadzają, i jak zgłosić błąd. Zasady weryfikacji informacji w przewodniku Odkrywaj Poznań.")
 
 
 def build_privacy():
@@ -1261,7 +1333,7 @@ def main():
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
-           "prywatnosc.html": build_privacy(),
+           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
