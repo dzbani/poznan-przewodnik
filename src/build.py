@@ -131,7 +131,7 @@ def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width
     """Zdjęcie atrakcji albo plansza z nazwą, gdy na Commons nie ma zdjęcia z podanym autorem."""
     if not a.get("img"):
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
-    extra = ' loading="lazy" decoding="async"' if lazy else ""
+    extra = ' loading="lazy" decoding="async"' if lazy else ' fetchpriority="high"'
     return (f'<img src="{prefix}img/{a["img"]}.jpg" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
             f'alt="{escape(a["img_alt"])}"{extra}>')
 
