@@ -292,7 +292,7 @@ TRIPS = [
         short="Lasy, jeziora i polodowcowe wzgórza tuż za Poznaniem, z ruinami zameczku na wyspie Jeziora Góreckiego. Wstęp bezpłatny.",
         badge="Bezpłatnie",
         status=None,
-        lead="Wielkopolski Park Narodowy powstał 16 kwietnia 1957 roku na południe od Poznania, między Luboniem, Stęszewem a Mosiną. Ma ok. 7585 hektarów. Jego inicjator, prof. Adam Wodziczko, nazwał ten teren muzeum form polodowcowych i żywym muzeum przyrody.",
+        lead="Wielkopolski Park Narodowy powstał 16 kwietnia 1957 roku na południe od Poznania, między Luboniem, Stęszewem a Mosiną. Ma ok. 7584 hektarów (75,84 km²). Jego inicjator, prof. Adam Wodziczko, nazwał ten teren muzeum form polodowcowych i żywym muzeum przyrody.",
         sections=[
             ("Przyroda", [
                 "Park chroni krajobraz ukształtowany przez lądolód: moreny, ozy, wydmy i jeziora rynnowe. Oz Bukowsko-Mosiński ma 37 km długości, najwięcej w Polsce. W 18 obszarach ochrony ścisłej przyroda rozwija się bez ingerencji człowieka.",

@@ -205,7 +205,7 @@ MONUMENTS = [
           "Pomnik upamiętnia oficerów Wojska Polskiego i policjantów zamordowanych w 1940 roku w Katyniu, Charkowie i Miednoje, a także ofiary zsyłek na Sybir.",
       ]),
        ("Warto wiedzieć", [
-          "Od 2014 roku cały ogród nosi imię Ofiar Katynia i Sybiru. Więcej o nim przeczytasz na stronie Ogrodu Zamkowego.",
+          "Pomnik stoi w Ogrodzie Zamku Cesarskiego. Więcej o ogrodzie przeczytasz na stronie Ogrodu Zamkowego.",
       ])],
       "Ogród Zamkowy, ul. Fredry / al. Niepodległości, 61-701 Poznań",
       ("poznan.pl: Pomnik Ofiar Katynia i Sybiru", PM + "ofiar-katynia-i-sybiru,40376.html"),
@@ -233,7 +233,7 @@ MONUMENTS = [
           "Na ścianach wypisano nazwy pól bitewnych i jednostek Armii „Poznań” oraz nazwiska kilkudziesięciu poległych. W środku jest wyrzeźbiony krzyż Virtuti Militari.",
       ]),
        ("Historia", [
-          "Projekt Anny Rodzińskiej i architekta Józefa Iwiańskiego wygrał konkurs w 1978 roku, ale budowa latami się przeciągała. Władze proponowały inne lokalizacje, zarzucały też projektowi, że bryły najeźdźcy są za duże. Pomnik powstał dopiero w latach 1981–1982.",
+          "Projekt Anny Rodzińskiej i architekta Józefa Iwiańskiego wygrał konkurs w 1978 roku, ale budowa latami się przeciągała. Władze proponowały inne lokalizacje, zarzucały też projektowi, że bryły najeźdźcy są za duże. Pomnik powstał dopiero w 1982 roku i został odsłonięty 1 września.",
       ])],
       "al. Niepodległości (u stóp Wzgórza św. Wojciecha), 61-747 Poznań",
       ("poznan.pl: Pomnik Armii „Poznań”", PM + "armii-poznan,40367.html"),
@@ -370,7 +370,7 @@ MONUMENTS = [
       [("O pomniku", [
           "Odsłonięto go 19 września 2009 roku. Zaprojektował go poznański rzeźbiarz Krzysztof Jakubik, a fundatorem było Towarzystwo im. Hipolita Cegielskiego.",
           "Cegielski stoi oparty o maszynę parową, symbol swoich zakładów, z których wyrosły słynne Zakłady Cegielskiego (HCP).",
-          "Pomysł upamiętnienia Cegielskiego pojawił się już w okresie międzywojennym, ale zrealizowano go dopiero po 2000 roku.",
+          "Pomysł upamiętnienia Cegielskiego pojawił się już w okresie międzywojennym, ale pomnik odsłonięto dopiero 19 września 2009 roku.",
       ]),
        ("Warto wiedzieć", [
           "Pierwsze zakłady Cegielskiego działały przy pobliskiej ulicy Koziej, a później przy Strzeleckiej.",

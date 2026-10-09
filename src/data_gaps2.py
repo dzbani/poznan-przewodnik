@@ -17,11 +17,11 @@ GAPS2 = [
                 "Fragmenty katedry przedromańskiej i romańskiej: mury z kamienia łamanego i przedromańskie bazy kolumn.",
                 "Relikty grobowców, najprawdopodobniej pierwszych władców Polski: Mieszka I i Bolesława Chrobrego.",
                 "Relikt misy z X wieku, być może chrzcielnicy, z której mógł przyjąć chrzest Mieszko I wraz z poddanymi. Według innej hipotezy misa służyła do rozrabiania wapna.",
-                "Lapidarium z fragmentami nagrobków, płyt i epitafiów oraz krypta, w której od 1963 roku spoczywają arcybiskupi i biskupi pomocniczy poznańscy.",
+                "Lapidarium z fragmentami nagrobków, płyt i epitafiów oraz krypta, w której spoczywają arcybiskupi i biskupi pomocniczy poznańscy.",
                 "Przy wejściu wiszą plansze prof. Zofii Kurnatowskiej o dziejach katedry i Ostrowa Tumskiego, a podczas zwiedzania wyświetlany jest film.",
             ]),
             ("Historia odkryć", [
-                "Główne odkrycia pochodzą z badań w 1946 roku i w latach 1951–1956, prowadzonych równolegle z odbudową katedry (1946–1956). Ujawniły one wcześniejsze fazy budowy świątyni, starsze od gotyku.",
+                "Główne odkrycia pochodzą z badań prowadzonych równolegle z odbudową katedry (1946–1956). Ujawniły one wcześniejsze fazy budowy świątyni, starsze od gotyku.",
             ]),
             ("Warto wiedzieć", [
                 "Bilet kupuje się w punkcie obsługi turystycznej na terenie katedry lub w zakrystii. Katedra jest czynnym kościołem: nie zwiedza się jej podczas mszy, nabożeństw i koncertów, obowiązuje odpowiedni strój i cisza.",
@@ -59,11 +59,11 @@ GAPS2 = [
         sections=[
             ("Historia przeprawy", [
                 "Przeprawa w tym miejscu istniała od wczesnego średniowiecza. W 2007 roku odkryto relikty mostu z X wieku (37 dębowych elementów), a najstarsza wzmianka o mostach pochodzi z 1146 roku.",
-                "W 1905 roku oddano stalowy most kratownicowy z torami tramwajowymi, a 13 listopada 1913 roku otwarto nowszy. Wysadziły go 5 września 1939 roku wycofujące się oddziały Wojska Polskiego. W 1970 roku ostatnią, tymczasową przeprawę rozebrano, bo ruch przejął most Mieszka I. Przerwano wtedy trakt używany od prawie tysiąca lat.",
+                "W 1905 roku oddano stalowy most kratownicowy z torami tramwajowymi, a 13 listopada 1913 roku otwarto nowszy. Wysadziły go 5 września 1939 roku wycofujące się oddziały Wojska Polskiego. Powojenna, tymczasowa przeprawa istniała do końca lat 60. XX wieku. Przerwano wtedy trakt używany od prawie tysiąca lat.",
             ]),
             ("Nowy most", [
-                "Nowy most oficjalnie otwarto 7 grudnia 2007 roku. Wykorzystano w nim stalowe przęsło nurtowe z rozebranego mostu Rocha. Przęsło o rozpiętości 70 m i wadze 450 ton przeniesiono nad mostem Mieszka I, a ten moment 29 września 2007 roku oglądały setki poznaniaków.",
-                "Od stycznia 2008 roku po moście biegnie też droga rowerowa. Nazwa upamiętnia Jordana, pierwszego biskupa Poznania i Polski.",
+                "Nowy most oficjalnie otwarto 7 grudnia 2007 roku. Wykorzystano w nim stalowe przęsło nurtowe z rozebranego mostu Rocha. Przęsło o rozpiętości 70 m przeniesiono nad mostem Mieszka I 29 września 2007 roku.",
+                "To kładka pieszo-rowerowa. Nazwa upamiętnia Jordana, pierwszego biskupa Poznania i Polski.",
             ]),
             ("Warto wiedzieć", [
                 "Na poręczach wiszą kłódki zakochanych, a most jest popularnym miejscem sesji ślubnych. Z mostu widać Katedrę Poznańską.",

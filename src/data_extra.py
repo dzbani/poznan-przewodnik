@@ -10,7 +10,7 @@ EXTRA = [
         short="Jak trzech matematyków z Poznania złamało szyfr Enigmy. Multimedialna wystawa z audioprzewodnikiem.",
         badge="Pn nieczynne",
         status=None,
-        lead="Centrum Szyfrów Enigma, otwarte w 2019 roku, opowiada o tym, jak trzej polscy matematycy, Marian Rejewski, Henryk Zygalski i Jerzy Różycki, złamali szyfry niemieckiej maszyny Enigma. Prowadzi je Poznańskie Centrum Dziedzictwa.",
+        lead="Centrum Szyfrów Enigma, otwarte w 2021 roku, opowiada o tym, jak trzej polscy matematycy, Marian Rejewski, Henryk Zygalski i Jerzy Różycki, złamali szyfry niemieckiej maszyny Enigma. Prowadzi je Poznańskie Centrum Dziedzictwa.",
         sections=[
             ("Co zobaczyć", [
                 "Nowoczesną, multimedialną wystawę o złamaniu szyfrów Enigmy. Centrum podkreśla, że to osiągnięcie, zapoczątkowane w Poznaniu, otworzyło drogę do rewolucji cyfrowej.",
@@ -28,6 +28,7 @@ EXTRA = [
         phone="+48 61 888 45 12", www=("csenigma.pl", "https://csenigma.pl/zaplanuj-wizyte/"),
         credit="centrum-szyfrow-enigma",
         sources=[("Centrum Szyfrów Enigma: zaplanuj wizytę", "https://csenigma.pl/zaplanuj-wizyte/"),
+                 ("Wikipedia: Centrum Szyfrów Enigma w Poznaniu", "https://pl.wikipedia.org/wiki/Centrum_Szyfr%C3%B3w_Enigma_w_Poznaniu"),
                  ("kultura.poznan.pl: Centrum Szyfrów Enigma", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/centrum-szyfrow-enigma,75354.html")],
     ),
     dict(
@@ -250,7 +251,7 @@ EXTRA = [
                 "Basztę Katarzynek, jedyną zachowaną oryginalną basztę.",
                 "Relikty bastionu artyleryjskiego przy ulicy 23 Lutego.",
                 "Fragmenty muru zewnętrznego z Furtą Zamkową przy Zamku Królewskim oraz zachodnie odcinki przy ulicy Ludgardy.",
-                "Ścieżkę turystyczną z 2008 roku między bastionem a reliktami Bramy Wronieckiej.",
+                "Ścieżkę turystyczną między bastionem a reliktami Bramy Wronieckiej.",
             ]),
             ("Warto wiedzieć", [
                 "Od sierpnia 2013 roku przebieg dawnych murów wyznacza 17 tablic wmurowanych w chodniki Starego Miasta.",

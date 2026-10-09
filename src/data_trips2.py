@@ -17,7 +17,7 @@ TRIPS2 = [
             ("Historia", [
                 "Wczesnorenesansowy zamek z wieżami w narożach zbudowano w latach 1550–1560. W początkach XVII wieku, za Wacława Leszczyńskiego, dostał rezydencjonalne skrzydła i arkadowe loggie. W 1695 roku Leszczyńscy sprzedali Gołuchów Suskim, a kolejni właściciele doprowadzili zamek do ruiny.",
                 "Ruiny kupił w 1856 roku Tytus Działyński (część źródeł podaje 1853) jako prezent ślubny dla syna Jana Kantego i Izabelli z Czartoryskich. Izabella odbudowała zamek w latach 1875–1885, częściowo według szkiców Eugène'a Viollet-le-Duca. Projekt końcowy przygotował francuski architekt Maurycy Auguste Ouradou.",
-                "Od 1951 roku w zamku działa oddział Muzeum Narodowego w Poznaniu. W grudniu 2016 roku zamek kupił od Fundacji Książąt Czartoryskich Skarb Państwa.",
+                "Od 1951 roku w zamku działa oddział Muzeum Narodowego w Poznaniu.",
             ]),
             ("Co zobaczyć", [
                 "Zabytkowe wnętrza z włoskimi, francuskimi i hiszpańskimi kominkami, obramieniami okien i mozaikami.",
@@ -142,8 +142,8 @@ TRIPS2 = [
         lead="Parowozownia w Wolsztynie to czynna stacja parowozów, z której do dziś wyjeżdżają pociągi z lokomotywą parową. Halę z wieżą ciśnień zbudowano w 1907 roku. To nie skansen, tylko żywe miejsce, gdzie przygotowuje się parowozy do jazdy.",
         sections=[
             ("Historia", [
-                "W 1907 roku powstała czterotorowa hala parowozowa z wieżą ciśnień, w 1912 roku 16-metrowa obrotnica, a w 1949 roku powiększono ją do 20 m. W 1991 roku parowozownię przemianowano na Parowozownię Wolsztyn i zorganizowano pierwszą Paradę Parowozów.",
-                "29 czerwca 2016 roku utworzono tu instytucję kultury, a 15 maja 2017 roku wznowiono regularne przewozy pasażerskie. Od 2004 roku odbywa się też konkurs Miss Świata Parowozów.",
+                "W 1907 roku powstała parowozownia z wieżą wodną. W 1991 roku parowozownię przemianowano na Parowozownię Wolsztyn i zorganizowano pierwszą Paradę Parowozów.",
+                "W czerwcu 2016 roku powołano tu instytucję kultury, a na początku 2017 roku otrzymała ona certyfikat przewoźnika kolejowego. Od 2004 roku odbywa się też konkurs Miss Świata Parowozów.",
             ]),
             ("Co zobaczyć", [
                 "Około 20 lokomotyw różnych serii, w tym słynny parowóz Pm36-2 „Piękna Helena”. W regularnej służbie jeździ powojenny parowóz Pt47-65.",
@@ -348,7 +348,7 @@ TRIPS2 = [
                 "Arboretum Leśne w Zielonce, ośrodek dydaktyczny uczelni przyrodniczej, oraz ścieżki dydaktyczne wokół Zielonki.",
             ]),
             ("Warto wiedzieć", [
-                "Teren parku jest ogólnodostępny, a wstęp bezpłatny. W parku wytyczono około 270 km oznakowanych tras rowerowych.",
+                "Teren parku jest ogólnodostępny, a wstęp bezpłatny. W parku są oznakowane trasy rowerowe.",
                 "Kościoły na szlaku to czynne świątynie. Przed wejściem do wnętrza sprawdź, czy nie trwa nabożeństwo, albo umów się z parafią.",
                 "Informacji udziela Zespół Parków Krajobrazowych Województwa Wielkopolskiego (tel. 61 65 54 650).",
             ]),

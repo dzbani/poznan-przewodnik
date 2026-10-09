@@ -29,7 +29,7 @@ ATTRACTIONS = [
         lead="Stary Rynek to plac wytyczony około 1253 roku przy lokacji miasta. Ma kształt kwadratu o boku 141 metrów, a w jego środku stoi ratusz, jeden z najcenniejszych renesansowych budynków w tej części Europy.",
         sections=[
             ("O miejscu", [
-                "Rynek powstał jako centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy o wymiarach około 74 na 76 metrów.",
+                "Rynek powstał jako centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy.",
                 "Ratusz ma średniowieczne początki. W latach 1550–1560 przebudował go Giovanni Battista di Quadro, architekt z Ticino. Podwyższył budynek o jedno piętro i rozbudował go w kierunku zachodnim, nadając mu renesansowy wygląd.",
             ]),
             ("Co zobaczyć", [
@@ -291,7 +291,7 @@ ATTRACTIONS = [
         short="Historia zwycięskiego powstania 1918–1919 w klasycystycznym Odwachu na rynku.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Powstania Wielkopolskiego 1918–1919 mieści się w Odwachu, klasycystycznym budynku z lat 1783–1787 w środku Starego Rynku. Jest oddziałem Wielkopolskiego Muzeum Niepodległości.",
+        lead="Muzeum Powstania Wielkopolskiego 1918–1919 mieści się w Odwachu, klasycystycznym budynku z lat 1785–1787 w środku Starego Rynku. Jest oddziałem Wielkopolskiego Muzeum Niepodległości.",
         sections=[
             ("Co zobaczyć", [
                 "Wystawę o Powstaniu Wielkopolskim, jednym z nielicznych zwycięskich powstań w historii Polski, po którym Wielkopolska wróciła do odrodzonego państwa.",
@@ -306,7 +306,8 @@ ATTRACTIONS = [
         phone=None, www=("wmn.poznan.pl", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-powstania-wielkopolskiego-1918-1919/"),
         credit="muzeum-powstania",
         sources=[("WMN: ceny biletów", "https://www.wmn.poznan.pl/ceny-biletow/"),
-                 ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/")],
+                 ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/"),
+                 ("Region Wielkopolska: Odwach w Poznaniu", "https://regionwielkopolska.pl/en/katalog-obiektow/odwach-in-poznan/")],
     ),
     dict(
         slug="muzeum-archeologiczne", cat="muzea", name="Muzeum Archeologiczne",
@@ -314,7 +315,7 @@ ATTRACTIONS = [
         short="Pradzieje Wielkopolski i starożytny Egipt w renesansowym Pałacu Górków.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Archeologiczne działa od 1862 roku, a jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowywano do 1968 roku.",
+        lead="Muzeum Archeologiczne działa od 1862 roku, a jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowano po wojnie (prace zakończono w 1967 roku), a w 1968 roku otwarto tu pierwszą powojenną wystawę stałą.",
         sections=[
             ("Co zobaczyć", [
                 "Wystawę stałą o pradziejach Wielkopolski, od epoki kamienia po średniowiecze.",
@@ -345,7 +346,7 @@ ATTRACTIONS = [
         lead="Jezioro Maltańskie to sztuczny zbiornik, oddany do użytku w 1952 roku. Ma 2,2 km długości i około 64 hektarów powierzchni. Wokół niego biegnie popularna trasa spacerowa i rowerowa.",
         sections=[
             ("Co zobaczyć", [
-                "Tor regatowy z systemem Albano, zbudowany w latach 1987–1990, przystosowany do zawodów międzynarodowych.",
+                "Tor regatowy przebudowany tak, by w 1990 roku gościć mistrzostwa świata w kajakarstwie, przystosowany do zawodów międzynarodowych.",
                 "Nad jeziorem są też Termy Maltańskie, całoroczny stok Malta Ski, Kolejka Parkowa Maltanka i Nowe Zoo.",
             ]),
             ("Warto wiedzieć", [
@@ -418,7 +419,7 @@ ATTRACTIONS = [
         lead="Nowe Zoo otwarto 16 września 1974 roku na Białej Górze nad Maltą. Ma 120 hektarów powierzchni i jest drugim co do wielkości ogrodem zoologicznym w Polsce.",
         sections=[
             ("Co zobaczyć", [
-                "Słoniarnię otwartą w 2008 roku, z wybiegiem o powierzchni 2,5 hektara.",
+                "Słoniarnię z wybiegiem dla słoni afrykańskich.",
                 "Trzyhektarowy azyl dla niedźwiedzi, stworzony razem z niemiecko-austriacką fundacją.",
                 "Kolekcję ptaków drapieżnych i sów, jedną z najbogatszych w Europie.",
                 "Pawilon nosorożców czarnych i pawilon zwierząt nocnych.",
@@ -450,7 +451,7 @@ ATTRACTIONS = [
         sections=[
             ("Co zobaczyć", [
                 "Pawilon Zwierząt Zmiennocieplnych z 2012 roku z gadami, płazami i rybami, w tym waranami z Komodo.",
-                "Zabytkową grotę z 1906 roku, pawilon naczelnych z 1927 roku i woliery dla ptaków brodzących z 1924 roku.",
+                "Zabytkową grotę z 1906 roku, pawilon naczelnych z 1927 roku i woliery dla ptaków brodzących.",
                 "Muzeum Historii Zoo w dawnej lwiarni, otwarte w 2022 roku, również bezpłatne.",
             ]),
             ("Warto wiedzieć", [
@@ -857,7 +858,7 @@ MORE = [
         short="Lasy i jeziora polodowcowe tuż za miastem. Dojedziesz pociągiem.",
         badge="Wycieczka za miasto",
         status=None,
-        lead="Wielkopolski Park Narodowy utworzono 16 kwietnia 1957 roku. Zajmuje prawie 7585 hektarów na południe od Poznania, między Luboniem, Stęszewem i Mosiną. Co roku odwiedza go około 1,2 miliona osób.",
+        lead="Wielkopolski Park Narodowy utworzono 16 kwietnia 1957 roku. Zajmuje ok. 7584 hektarów na południe od Poznania, między Luboniem, Stęszewem i Mosiną. Co roku odwiedza go około 1,2 miliona osób.",
         sections=[
             ("Co zobaczyć", [
                 "Jeziora polodowcowe, a wśród nich Jezioro Góreckie z Wyspą Zamkową.",
