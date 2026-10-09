@@ -462,8 +462,9 @@ MONUMENTS = [
        ("Co zobaczyć", [
           "Fontanna ma kształt ośmioramiennej gwiazdy, a woda tryska z jej środka. Wieczorem jest podświetlana kolorowymi światłami.",
       ])],
-      "Park Wilsona, ul. Śniadeckich 30, 61-001 Poznań Poznań",
+      "Park Wilsona, ul. Śniadeckich 30, 61-001 Poznań",
       ("poznan.pl: Fontanna w Parku Wilsona", PF + "fontanna-w-parku-wilsona,41214.html"),
+      extra_sources=[("Palmiarnia Poznańska: godziny otwarcia Parku Wilsona", "https://palmiarnia.poznan.pl/park-wilsona/godziny-otwarcia/")],
       hours=[("Park", "codziennie 5:00–22:00")]),
 
     M("studzienka-taschnera", "Studzienka Taschnera",

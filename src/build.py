@@ -147,7 +147,7 @@ def credit_badge(slug, prefix=""):
 def asset_v(name):
     """Znacznik wersji pliku (skrót zawartości), żeby przeglądarki nie trzymały starej kopii po aktualizacji."""
     import hashlib
-    return hashlib.md5(open(os.path.join(ROOT, "src", name), "rb").read()).hexdigest()[:8]
+    return hashlib.md5(open(os.path.join(ROOT, "src", name), "rb").read().replace(b"\r", b"")).hexdigest()[:8]  # bez znaku CR: ten sam skrót na Windows (CRLF) i w repozytorium (LF)
 
 
 def page(title, body, prefix="", desc="", active="", head="", scripts=""):

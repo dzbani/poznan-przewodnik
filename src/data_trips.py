@@ -120,7 +120,7 @@ TRIPS = [
                ("Park, listopad–luty", "9:00–16:30")],
         tickets=[("Karnet na wszystkie ekspozycje", "45 zł, ulgowy 30 zł"), ("Pałac", "20 zł, ulgowy 13 zł"),
                  ("Galeria malarstwa", "20 zł, ulgowy 13 zł"), ("Gabinet londyński / powozownia", "po 8 zł, ulgowy 5 zł"),
-                 ("Tylko ogród i park", "5 zł, ulgowy 2 zł"), ("Uczniowie i studenci 7–26 lat", "1 zł"), ("Wtorek", "bezpłatnie")],
+                 ("Tylko ogród i park", "5 zł, ulgowy 2 zł"), ("Osoby w wieku 8–26 lat („Muzeum za 1 zł”)", "1 zł"), ("Wtorek", "bezpłatnie")],
         phone="+48 61 813 88 00", www=("mnp.art.pl", "https://mnp.art.pl/profile/wizyta-muzeum-palac-w-rogalinie"),
         credit="rogalin",
         trip=dict(lat=52.234581, lon=16.929689, getting=[
@@ -128,7 +128,7 @@ TRIPS = [
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
         ]),
         sources=[("Muzeum Narodowe w Poznaniu: wizyta w Muzeum Pałacu w Rogalinie", "https://mnp.art.pl/profile/wizyta-muzeum-palac-w-rogalinie"),
-                 ("MNP: cennik biletów Muzeum Pałacu w Rogalinie (PDF)", "https://mnp.art.pl/wp-content/uploads/2022/10/Bilety-wstepu-i-oprowadzan_Muzeum-Palac-w-Rogalinie_2025.pdf"),
+                 ("MNP: cennik biletów Muzeum Pałacu w Rogalinie (PDF, 2026)", "https://mnp.art.pl/wp-content/uploads/2022/10/Plansza-Rogalin-cennik-i-regulamin_2026.pdf"),
                  ("MNP: bilet do ogrodu i parku w Rogalinie", "https://mnp.art.pl/muzeum-palac-w-rogalinie/bilet-do-ogrodu-i-parku-w-rogalinie"),
                  ("Wikipedia: Pałac w Rogalinie", "https://pl.wikipedia.org/wiki/Pa%C5%82ac_w_Rogalinie"),
                  ("Wikipedia: Rogaliński Park Krajobrazowy", "https://pl.wikipedia.org/wiki/Rogali%C5%84ski_Park_Krajobrazowy")],

@@ -207,9 +207,11 @@ FINAL = [
         address="ul. Śniadeckich 30, 61-001 Poznań",
         hours=[("Park", "codziennie 5:00–22:00")],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone=None, www=("poznan.pl", "https://www.poznan.pl/"),
+        phone=None, www=("palmiarnia.poznan.pl", "https://palmiarnia.poznan.pl/park-wilsona/godziny-otwarcia/"),
         credit="park-wilsona",
-        sources=[("Wikipedia: Park Wilsona w Poznaniu", "https://pl.wikipedia.org/wiki/Park_Wilsona_w_Poznaniu")],
+        sources=[("Palmiarnia Poznańska: godziny otwarcia Parku Wilsona", "https://palmiarnia.poznan.pl/park-wilsona/godziny-otwarcia/"),
+                 ("poznan.pl: Park Thomasa Woodrowa Wilsona", "https://www.poznan.pl/mim/turystyka/-,p,112,142.html"),
+                 ("Wikipedia: Park Wilsona w Poznaniu", "https://pl.wikipedia.org/wiki/Park_Wilsona_w_Poznaniu")],
     ),
     dict(
         slug="park-chopina", cat="przyroda", name="Park Chopina",

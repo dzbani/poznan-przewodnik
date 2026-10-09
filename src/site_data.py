@@ -75,7 +75,7 @@ ATTRACTIONS = [
             ]),
         ],
         address="ul. Ostrów Tumski 17, 61-109 Poznań",
-        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–29.02)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Wieża widokowa", "od 1.06.2026, sezonowo")],
+        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–29.02)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Wieża widokowa", "od 1.06.2026; w sezonie 1.03–15.11 jak krypty: dni powszednie 9:00–16:00, niedziele 14:00–18:00")],
         tickets=[("Wejście do katedry", "bezpłatnie"), ("Podziemia", "10 zł, ulgowy 8 zł, rodzinny 25 zł"), ("Wieża widokowa", "14 zł, ulgowy 12 zł, rodzinny 40 zł")],
         phone="+48 61 852 96 42", www=("katedra.archpoznan.pl", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
         credit="ostrow-tumski",
@@ -1056,4 +1056,31 @@ for _batch, _date in _CHECKED_BY_BATCH:
     for _a in _batch:
         _a.setdefault("checked", _CHECKED_SLUGS.get(_a["slug"], _date))
 ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2, key=lambda a: _ORDER[a["cat"]])
+
+# Przegląd 09.10.2026: godziny i ceny 70 atrakcji z liczbami porównano z oficjalnymi stronami obiektów
+# (cenniki PDF, strony muzeów, kasy biletowe). Atrakcje bezpłatne i całodobowe (opisowe godziny) nie mają
+# liczb do porównania, więc zostają przy dawnej dacie.
+_VERIFIED_20261009 = {
+    "stary-rynek", "ostrow-tumski", "brama-poznania", "zamek-krolewski",
+    "zamek-cesarski", "cytadela", "genius-loci", "fort-iva",
+    "fort-va", "teatr-wielki", "fort-iii", "cmentarz-zasluzonych-wielkopolan",
+    "podziemia-katedry", "fontanna-park-wilsona", "fara", "muzeum-narodowe",
+    "rogalowe-muzeum", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow",
+    "muzeum-czerwca-1956", "muzeum-kultur-swiata", "muzeum-sienkiewicza", "muzeum-bambrow",
+    "centrum-szyfrow-enigma", "fort-vii", "muzeum-wojskowe", "muzeum-pyry",
+    "fotoplastykon", "akademia-lubranskiego", "muzeum-broni-pancernej", "muzeum-farmacji",
+    "muzeum-historii-ubioru", "muzeum-iluzji", "muzeum-prl", 
+    "muzeum-czekolady", "salon-nowowiejskiego", "muzeum-bizuterii-moja", "mieszkanie-illakowiczowny",
+    "makiety-dawnego-poznania", "niewidzialna-ulica", "ogrod-botaniczny", "wielkopolski-park-narodowy",
+    "park-wilsona", "park-rataje", "nowe-zoo", "stare-zoo",
+    "kolejka-maltanka", "termy-maltanskie", "linie-turystyczne", "stary-browar",
+    "stadion", "jezyce", "zamek-kornik", "arboretum-kornik",
+    "rogalin", "katedra-gniezno", "mppp-gniezno", "ostrow-lednicki",
+    "biskupin", "wpn", "szreniawa", "fiedler",
+    "zamek-goluchow", "palac-smielow", "wpe-dziekanowice", "parowozownia-wolsztyn",
+    "muzeum-lesnictwa-goluchow", "skansen-miniatur-pobiedziska", "grod-pobiedziska",
+}
+for _a in ATTRACTIONS:
+    if _a["slug"] in _VERIFIED_20261009:
+        _a["checked"] = "09.10.2026"
 
