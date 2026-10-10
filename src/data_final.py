@@ -150,7 +150,7 @@ FINAL = [
             ("Warto wiedzieć", [
                 "Przy wieży jest plac zabaw.",
                 "Przy Stawie Edy można bezpłatnie skorzystać z miejsca na ognisko po wcześniejszym zgłoszeniu mailowym do Zarządu Zieleni Miejskiej.",
-                "Dojazd autobusami do przystanków Kowalewicka n/ż lub Glinianki n/ż. Parkingi są przy ulicach Mieleszyńskiej i Witaszka.",
+                "Dojazd autobusami do przystanków Kowalewicka n/ż (linie 180, 610 i 702) lub Glinianki n/ż (180, 250, 610, 616, 702, 703, 704 i 707), według rozkładu ZTM z 10.10.2026. Parkingi są przy ulicach Mieleszyńskiej i Witaszka.",
             ]),
         ],
         address="ul. Mieleszyńska / ul. Witaszka, 60-113 Poznań",
@@ -178,7 +178,7 @@ FINAL = [
             ]),
             ("Dla rodzin", [
                 "Dwa place zabaw, w tym karuzelę integracyjną dla dzieci z niepełnosprawnością ruchową, oraz wybieg dla psów.",
-                "Dojazd tramwajami 2, 9, 18 i 19 albo autobusem 176 (przystanek Żelazka n/ż).",
+                "Dojazd autobusem 176 (przystanek Żelazka n/ż) albo 603 (przystanek Droga Dębińska), według rozkładu ZTM z 10.10.2026. Strona poznan.pl podaje też tramwaje 2, 9, 18 i 19, ale nie wskazuje przystanku, więc sprawdź trasę w rozkładzie.",
             ]),
         ],
         address="ul. Dolna Wilda / ul. Ojca Mariana Żelazka, 61-553 Poznań",
@@ -233,7 +233,7 @@ FINAL = [
                 "Stare drzewa, m.in. lipę drobnolistną o obwodzie około 3 metrów, jawor, dąb i platan.",
             ]),
             ("Warto wiedzieć", [
-                "Dojazd tramwajami 3, 5, 8, 13 i 16 do przystanku Wrocławska albo 6, 9, 12 i 19 do przystanku Pl. Wiosny Ludów.",
+                "Dojazd tramwajami (według rozkładu ZTM z 10.10.2026): 3, 4, 5, 8, 13, 15, 16 i 17 do przystanku Wrocławska albo 2, 9 i 19 do przystanku Pl. Wiosny Ludów.",
             ]),
         ],
         address="ul. Podgórna, 61-829 Poznań",
@@ -287,7 +287,7 @@ FINAL = [
             ]),
             ("Warto wiedzieć", [
                 "Park leży naprzeciw Zamku Cesarskiego, więc łatwo połączyć go ze zwiedzaniem Dzielnicy Cesarskiej.",
-                "Dojazd tramwajem do przystanków Fredry lub Zamek.",
+                "Dojazd tramwajami 2, 3, 4, 5, 8, 9, 13, 15, 16, 17 i 19 do przystanku Zamek (według rozkładu ZTM z 10.10.2026).",
             ]),
         ],
         address="ul. Wieniawskiego / al. Niepodległości, 61-712 Poznań",

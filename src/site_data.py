@@ -663,7 +663,7 @@ MORE = [
                 "Wystawy i prezentacje multimedialne, które pokazują, jak budowano umocnienia we wczesnym średniowieczu.",
             ]),
             ("Warto wiedzieć", [
-                "Dojazd: tramwaje 4, 8 i 17 albo autobusy 67 i 83 do przystanku Katedra.",
+                "Dojazd (według rozkładu ZTM z 10.10.2026): przystanek Katedra obsługują autobusy 167, 213, 223 i 911 oraz linia T7, a tramwaje 5, 6, 7 i 8 zatrzymują się na Rondzie Śródka. Strona rezerwatu podaje starsze numery linii, które nie zgadzają się z obecnym rozkładem.",
                 "Obiekt jest przystosowany dla osób z niepełnosprawnościami.",
                 "Jest bilet na trzy miejsca na Ostrowie Tumskim (Brama Poznania, Genius Loci i Akademia Lubrańskiego) w cenie 49 zł.",
                 "Ostatnie wejście jest pół godziny przed zamknięciem.",
@@ -1078,6 +1078,13 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] == "zamek-cesarski":
         _a["checked"] = "10.10.2026"
+
+# Numery linii ZTM sprawdzone 10.10.2026 w oficjalnym pliku rozkładów (GTFS ważny 10–31.10.2026).
+_ZTM_SLUGS = ("genius-loci", "fort-vii", "muzeum-historii-ubioru", "szachty", "legi-debinskie", "park-chopina",
+              "park-mickiewicza", "muzeum-armii-poznan", "muzeum-uzbrojenia", "park-marcinkowskiego")
+for _a in ATTRACTIONS:
+    if _a["slug"] in _ZTM_SLUGS:
+        _a["sources"] = list(_a["sources"]) + [("ZTM Poznań: rozkłady jazdy (plik GTFS ważny 10–31.10.2026)", "https://www.ztm.poznan.pl/")]
 
 # Sezonowość sprawdzona 10.10.2026 w komunikatach MPK (koniec sezonu Maltanki i linii turystycznych), na maltaski.pl i na stronie katedry.
 for _a in ATTRACTIONS:

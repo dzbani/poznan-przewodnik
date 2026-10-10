@@ -74,7 +74,7 @@ GAPS3 = [
                 "W tym samym parku działa Muzeum Armii „Poznań”. Bilet wspólny na oba muzea kosztuje 20 zł (ulgowy 12 zł).",
                 "We wtorki wstęp do muzeum jest bezpłatny. Zwiedzanie z przewodnikiem wymaga wcześniejszej rezerwacji i kosztuje 70 zł po polsku oraz 90 zł po angielsku. Lekcja muzealna kosztuje 100 zł. Bilety można kupić też online na tobilet.pl.",
                 "Według komunikatu muzeum z czerwca 2025 roku obiekt jest czynny 10:00–17:00, a ostatnie wejście jest o 16:30. Muzeum bywa zamykane na czas dużych wydarzeń w parku, więc przed wizytą sprawdź komunikaty na jego stronie.",
-                "Dojazd: tramwaje (przystanki Murawa, Pasieka) i autobusy (Urząd Marszałkowski, Winogrady, Armii Poznań, Grochowe Łąki). Bezpłatny parking jest przy parku, wjazd od ulicy Garbary.",
+                "Dojazd (według rozkładu ZTM z 10.10.2026): tramwaje 4 i 19 (przystanek Murawa) oraz 3, 4, 10 i 19 (przystanek Pasieka) albo autobusy do przystanków Urząd Marszałkowski, Winogrady, Armii Poznań i Grochowe Łąki. Bezpłatny parking jest przy parku, wjazd od ulicy Garbary.",
             ]),
         ],
         address="al. Armii Poznań, Park Cytadela, 61-663 Poznań",
@@ -114,7 +114,7 @@ GAPS3 = [
             ("Warto wiedzieć", [
                 "Od 20 stycznia 2026 roku muzeum jest czynne od wtorku do niedzieli w godzinach 10:00–16:00. Ostatnie wejście na ekspozycję jest o 15:30.",
                 "W tym samym parku działa Muzeum Uzbrojenia. Bilet wspólny na oba muzea kosztuje 20 zł (ulgowy 12 zł). We wtorki wstęp jest bezpłatny. Oprowadzanie z przewodnikiem po polsku kosztuje 30 zł (cennik WMN), a termin warto ustalić z muzeum. Bilety można kupić też online na tobilet.pl.",
-                "Dojazd: tramwaje (przystanki Murawa, Pasieka) i autobusy (Urząd Marszałkowski, Winogrady, Armii Poznań, Grochowe Łąki). Bezpłatny parking jest przy parku, wjazd od ulicy Garbary.",
+                "Dojazd (według rozkładu ZTM z 10.10.2026): tramwaje 4 i 19 (przystanek Murawa) oraz 3, 4, 10 i 19 (przystanek Pasieka) albo autobusy do przystanków Urząd Marszałkowski, Winogrady, Armii Poznań i Grochowe Łąki. Bezpłatny parking jest przy parku, wjazd od ulicy Garbary.",
             ]),
         ],
         address="al. Armii Poznań, Park Cytadela (Mała Śluza), 61-663 Poznań",
