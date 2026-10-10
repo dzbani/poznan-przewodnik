@@ -26,7 +26,9 @@
 <meta name="theme-color" content="#22437F">
 <meta name="description" content="Wszystkie atrakcje Poznania w kategoriach: zabytki, muzea, kościoły, parki, pomniki, rozrywka i wycieczki za miasto. Wyszukiwarka i filtry.">
 
-<link rel="stylesheet" href="assets/style.css?v=35e743c3">
+<link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=665ce9b1">
 </head>
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
@@ -61,12 +63,12 @@
       <label for="q" class="sr">Szukaj atrakcji</label>
       <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Nazwa, ulica albo rodzaj miejsca" autocomplete="off" data-search-input>
     </div>
-    <div class="quick" role="group" aria-label="Szybkie filtry"><button type="button" class="qf" aria-pressed="true" data-quick="all">Wszystko</button><button type="button" class="qf" aria-pressed="false" data-quick="free">Bezpłatne</button><button type="button" class="qf" aria-pressed="false" data-quick="kids">Dla dzieci</button><button type="button" class="qf" aria-pressed="false" data-quick="indoor">Pod dachem, na deszcz</button><button type="button" id="locate-btn" class="qf locate-btn" aria-label="Pokaż moją lokalizację"><span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem</button></div>
+    <div class="quick" role="group" aria-label="Szybkie filtry"><button type="button" class="qf" aria-pressed="true" data-quick="all">Wszystko</button><button type="button" class="qf" aria-pressed="false" data-quick="free">Bezpłatne</button><button type="button" class="qf" aria-pressed="false" data-quick="kids">Dla dzieci</button><button type="button" class="qf" aria-pressed="false" data-quick="indoor">Pod dachem, na deszcz</button><button type="button" id="locate-btn" class="qf locate-btn" aria-label="Gdzie jestem: pokaż moją lokalizację"><span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem</button></div>
     <div class="tabs" role="group" aria-label="Filtruj według kategorii"><button type="button" class="tab" aria-pressed="true" data-filter="all">Wszystkie</button><button type="button" class="tab" aria-pressed="false" data-filter="zabytki">Zabytki i historia</button><button type="button" class="tab" aria-pressed="false" data-filter="pomniki">Pomniki i fontanny</button><button type="button" class="tab" aria-pressed="false" data-filter="koscioly">Kościoły</button><button type="button" class="tab" aria-pressed="false" data-filter="muzea">Muzea</button><button type="button" class="tab" aria-pressed="false" data-filter="przyroda">Parki i przyroda</button><button type="button" class="tab" aria-pressed="false" data-filter="rodzina">Dla rodzin i aktywnie</button><button type="button" class="tab" aria-pressed="false" data-filter="wspolczesny">Współczesny Poznań</button><button type="button" class="tab" aria-pressed="false" data-filter="wycieczki">Wycieczki za miasto</button></div>
     <p class="result" aria-live="polite"></p>
   </div>
   <section class="cat-group" data-cat="zabytki" aria-labelledby="kat-zabytki">
-  <div class="cat-head"><h3 id="kat-zabytki">Zabytki i historia</h3><p>Tysiąc lat historii: od grodu Mieszka I po zamek cesarza.</p></div>
+  <div class="cat-head"><h2 id="kat-zabytki">Zabytki i historia</h2><p>Tysiąc lat historii: od grodu Mieszka I po zamek cesarza.</p></div>
   <ul class="cards"><li class="card" data-cat="zabytki" data-tags="free kids" data-words="Stary Rynek i Ratusz Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się w południe. Zabytki i historia Stary Rynek, 61-772 Poznań Bezpłatnie">
   <a href="atrakcje/stary-rynek">
     <div class="card-media"><img src="img/stare-miasto.jpg" srcset="img/r/stare-miasto-640.webp 640w, img/r/stare-miasto-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Kamienice przy Starym Rynku w Poznaniu" loading="lazy" decoding="async">
@@ -381,7 +383,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="pomniki" aria-labelledby="kat-pomniki">
-  <div class="cat-head"><h3 id="kat-pomniki">Pomniki i fontanny</h3><p>Od barokowej fontanny przed ratuszem po Starego Marycha z rowerem.</p></div>
+  <div class="cat-head"><h2 id="kat-pomniki">Pomniki i fontanny</h2><p>Od barokowej fontanny przed ratuszem po Starego Marycha z rowerem.</p></div>
   <ul class="cards"><li class="card" data-cat="pomniki" data-tags="free" data-words="Pomnik Poznańskiego Czerwca 1956 Poznańskie Krzyże upamiętniające pierwszy masowy protest przeciw władzy komunistycznej. Pomniki i fontanny pl. Adama Mickiewicza, 61-712 Poznań Bezpłatnie">
   <a href="atrakcje/pomnik-czerwca-1956">
     <div class="card-media"><img src="img/pomnik-czerwca-1956.jpg" srcset="img/r/pomnik-czerwca-1956-640.webp 640w, img/r/pomnik-czerwca-1956-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Dwa połączone krzyże Pomnika Poznańskiego Czerwca 1956" loading="lazy" decoding="async">
@@ -768,7 +770,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="koscioly" aria-labelledby="kat-koscioly">
-  <div class="cat-head"><h3 id="kat-koscioly">Kościoły</h3><p>Od romańskiego kościoła joannitów po międzywojenne rotundy.</p></div>
+  <div class="cat-head"><h2 id="kat-koscioly">Kościoły</h2><p>Od romańskiego kościoła joannitów po międzywojenne rotundy.</p></div>
   <ul class="cards"><li class="card" data-cat="koscioly" data-tags="free indoor" data-words="Fara Poznańska Barokowa bazylika z organami Ladegasta. Koncerty w każdą sobotę o 12:15. Kościoły ul. Gołębia 1, 61-834 Poznań Wstęp wolny">
   <a href="atrakcje/fara">
     <div class="card-media"><img src="img/fara.jpg" srcset="img/r/fara-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Barokowa fasada Fary Poznańskiej" loading="lazy" decoding="async">
@@ -999,7 +1001,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="muzea" aria-labelledby="kat-muzea">
-  <div class="cat-head"><h3 id="kat-muzea">Muzea</h3><p>Sztuka, archeologia, historia Wielkopolski i rogale.</p></div>
+  <div class="cat-head"><h2 id="kat-muzea">Muzea</h2><p>Sztuka, archeologia, historia Wielkopolski i rogale.</p></div>
   <ul class="cards"><li class="card" data-cat="muzea" data-tags="indoor" data-words="Muzeum Narodowe Jedyny obraz Moneta w polskich zbiorach i duży zbiór obrazów Malczewskiego. Muzea al. Marcinkowskiego 9, 61-745 Poznań Wt wstęp wolny">
   <a href="atrakcje/muzeum-narodowe">
     <div class="card-media"><img src="img/muzeum-narodowe.jpg" srcset="img/r/muzeum-narodowe-640.webp 640w, img/r/muzeum-narodowe-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Gmach Muzeum Narodowego w Poznaniu" loading="lazy" decoding="async">
@@ -1434,7 +1436,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="przyroda" aria-labelledby="kat-przyroda">
-  <div class="cat-head"><h3 id="kat-przyroda">Parki i przyroda</h3><p>Jezioro, ogrody i zieleń w granicach miasta.</p></div>
+  <div class="cat-head"><h2 id="kat-przyroda">Parki i przyroda</h2><p>Jezioro, ogrody i zieleń w granicach miasta.</p></div>
   <ul class="cards"><li class="card" data-cat="przyroda" data-tags="free kids" data-words="Jezioro Maltańskie Sztuczne jezioro z torem regatowym. Spacery, rowery i atrakcje przez cały rok. Parki i przyroda Jezioro Maltańskie, 61-131 Poznań Bezpłatnie">
   <a href="atrakcje/jezioro-maltanskie">
     <div class="card-media"><img src="img/jezioro-malta.jpg" srcset="img/r/jezioro-malta-640.webp 640w, img/r/jezioro-malta-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Rzeźba nad Jeziorem Maltańskim" loading="lazy" decoding="async">
@@ -1749,7 +1751,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="rodzina" aria-labelledby="kat-rodzina">
-  <div class="cat-head"><h3 id="kat-rodzina">Dla rodzin i aktywnie</h3><p>Zoo, kolejka, baseny i stok przez cały rok.</p></div>
+  <div class="cat-head"><h2 id="kat-rodzina">Dla rodzin i aktywnie</h2><p>Zoo, kolejka, baseny i stok przez cały rok.</p></div>
   <ul class="cards"><li class="card" data-cat="rodzina" data-tags="kids" data-words="Nowe Zoo 120 hektarów lasu, słoniarnia, azyl dla niedźwiedzi i ptaki drapieżne. Dla rodzin i aktywnie ul. Krańcowa 81, 61-070 Poznań Codziennie">
   <a href="atrakcje/nowe-zoo">
     <div class="card-media"><img src="img/zoo.jpg" srcset="img/r/zoo-640.webp 640w, img/r/zoo-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Słonie w Nowym Zoo w Poznaniu" loading="lazy" decoding="async">
@@ -1824,7 +1826,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="wspolczesny" aria-labelledby="kat-wspolczesny">
-  <div class="cat-head"><h3 id="kat-wspolczesny">Współczesny Poznań</h3><p>Street art i dawny browar zamieniony w centrum sztuki.</p></div>
+  <div class="cat-head"><h2 id="kat-wspolczesny">Współczesny Poznań</h2><p>Street art i dawny browar zamieniony w centrum sztuki.</p></div>
   <ul class="cards"><li class="card" data-cat="wspolczesny" data-tags="free indoor" data-words="Stary Browar XIX-wieczny browar Huggerów przebudowany na centrum handlu i sztuki, z rzeźbami Mitoraja i nagradzaną architekturą. Współczesny Poznań ul. Półwiejska 42, 61-888 Poznań Bezpłatnie">
   <a href="atrakcje/stary-browar">
     <div class="card-media"><img src="img/stary-browar.jpg" srcset="img/r/stary-browar-640.webp 640w, img/r/stary-browar-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Ceglane budynki Starego Browaru" loading="lazy" decoding="async">
@@ -1899,7 +1901,7 @@
   </a>
 </li></ul>
 </section><section class="cat-group" data-cat="wycieczki" aria-labelledby="kat-wycieczki">
-  <div class="cat-head"><h3 id="kat-wycieczki">Wycieczki za miasto</h3><p>Zamki, pałace i kolebka Polski w zasięgu jednodniowego wyjazdu.</p></div>
+  <div class="cat-head"><h2 id="kat-wycieczki">Wycieczki za miasto</h2><p>Zamki, pałace i kolebka Polski w zasięgu jednodniowego wyjazdu.</p></div>
   <ul class="cards"><li class="card" data-cat="wycieczki" data-tags="" data-words="Zamek w Kórniku Neogotycki zamek Działyńskich z legendą o Białej Damie i jedną z najstarszych bibliotek w Polsce. Wycieczki za miasto ul. Zamkowa 5, 62-035 Kórnik Wt–nd">
   <a href="atrakcje/zamek-kornik">
     <div class="card-media"><img src="img/zamek-kornik.jpg" srcset="img/r/zamek-kornik-640.webp 640w, img/r/zamek-kornik-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Neogotycki zamek w Kórniku odbijający się w wodzie fosy" loading="lazy" decoding="async">

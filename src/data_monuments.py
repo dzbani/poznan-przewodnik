@@ -113,7 +113,7 @@ MONUMENTS = [
       "Fontanna Marsa stoi w północno-zachodniej części Starego Rynku. Odsłonięto ją w 2005 roku. Autorem rzeźby jest Rafał Nowak, a fundatorami Wanda i Romuald Szperlińscy.",
       [("Historia", [
           "W XVII wieku stała tu jedna z rynkowych fontann, która do końca XIX wieku dostarczała mieszkańcom wodę. Nowa fontanna przywróciła to historyczne miejsce.",
-          "Rzeźba przedstawia rzymskiego boga wojny, jedną z czterech postaci, które od 1615 roku zdobiły studnie na rynku.",
+          "Fontanna nosi imię Marsa, rzymskiego boga wojny, i jest jedną z czterech fontann stojących na Rynku.",
       ])],
       "Stary Rynek (część północno-zachodnia), 61-772 Poznań",
       ("poznan.pl: Fontanna Marsa", PF + "fontanna-marsa,41211.html"),
@@ -392,6 +392,8 @@ MONUMENTS = [
       ])],
       "ul. Święty Marcin 87 (przed Akademią Muzyczną), 61-808 Poznań",
       ("poznan.pl: Pomnik Paderewskiego", PM + "pomnik-paderewskiego,65724.html"),
+      extra_sources=[("IPN: M. Rezler, Ignacy Jan Paderewski a Poznań w grudniu 1918 roku",
+                      "https://ipn.gov.pl/pl/historia-z-ipn/233311,Marek-Rezler-Ignacy-Jan-Paderewski-a-Poznan-w-grudniu-1918-roku.pdf")],
       img=True),
 
     M("pomnik-ratajskiego", "Pomnik Cyryla Ratajskiego",

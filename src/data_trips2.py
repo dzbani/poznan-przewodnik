@@ -363,7 +363,9 @@ TRIPS2 = [
         ]),
         sources=[("ZPKWW: Park Krajobrazowy Puszcza Zielonka", "https://zpkww.pl/parki/park-krajobrazowy-puszcza-zielonka/informacje-ogolne/"),
                  ("Wikipedia: Park Krajobrazowy Puszcza Zielonka", "https://pl.wikipedia.org/wiki/Park_Krajobrazowy_Puszcza_Zielonka"),
-                 ("Region Wielkopolska: Park Krajobrazowy Puszcza Zielonka", "https://regionwielkopolska.pl/en/katalog-obiektow/the-puszcza-zielonka-landscape-park/")],
+                 ("Region Wielkopolska: Park Krajobrazowy Puszcza Zielonka", "https://regionwielkopolska.pl/en/katalog-obiektow/the-puszcza-zielonka-landscape-park/"),
+                 ("Visit Poznań: Szlak Kościołów Drewnianych wokół Puszczy Zielonki (lista 12 kościołów)", "https://visitpoznan.pl/szlak-kosciolow-drewnianych-wokol-puszczy-zielonki"),
+                 ("Wielkopolska Ciekawie: kościoły drewniane Puszczy Zielonki (Droga Różańcowa)", "https://wielkopolskaciekawie.pl/wycieczki/puszcza-zielonka-atrakcje-koscioly-drewniane/")],
     ),
     dict(
         slug="czmoniec-bobrowy-szlak", cat="wycieczki", name="Wieża widokowa i Bobrowy Szlak w Czmońcu",

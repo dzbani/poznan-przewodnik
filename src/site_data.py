@@ -189,7 +189,7 @@ ATTRACTIONS = [
             ]),
             ("Co zobaczyć", [
                 "Sala Tronowa, gabinet cesarza, kaplica w stylu bizantyjskim w wieży i ogród różany.",
-                "Audioprzewodnik ma trasy po polsku, angielsku i ukraińsku, trasę dla dzieci (7–14 lat), trasę bez schodów oraz trasę z tłumaczem polskiego języka migowego (w aplikacji).",
+                "Według serwisu PIK Poznań audioprzewodnik ma trasy po polsku, angielsku i ukraińsku, trasę dla dzieci (7–14 lat), trasę bez schodów oraz trasę z tłumaczem polskiego języka migowego (w aplikacji). To starsza informacja, więc aktualną ofertę tras potwierdź w Informacji CK Zamek.",
             ]),
             ("Warto wiedzieć", [
                 "11 listopada przed zamkiem odbywa się jarmark w czasie Imienin Ulicy Święty Marcin.",
@@ -201,6 +201,7 @@ ATTRACTIONS = [
         phone=None, www=("ckzamek.pl", "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/"),
         credit="zamek-cesarski",
         sources=[("CK Zamek: zwiedzanie i audioprzewodniki", "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/"),
+                 ("PIK Poznań: zwiedzanie Zamku (trasy audioprzewodnika)", "https://pik.poznan.pl/zwiedzanie-zamku-w-poznaniu"),
                  ("CK Zamek: cennik (aktualizacja 30.03.2026)", "https://ckzamek.bilety24.pl/wp-content/uploads/2026/04/CENNIK_CK_ZAMEK_aktualizacja_30.03.2026.pdf"),
                  ("Wikipedia: Zamek Cesarski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Cesarski_w_Poznaniu")],
     ),
@@ -220,6 +221,7 @@ ATTRACTIONS = [
             ("Co zobaczyć", [
                 "Nierozpoznani: instalacja Magdaleny Abakanowicz ze 112 żeliwnych postaci, powstała na 750-lecie Poznania.",
                 "Cmentarze: Cmentarz Bohaterów Polskich, parafialny cmentarz św. Wojciecha, cmentarz garnizonowy, cmentarz żołnierzy radzieckich oraz Cmentarz Wojenny Wspólnoty Brytyjskiej, gdzie leży 48 uczestników Wielkiej Ucieczki.",
+                "Rosarium, czyli ogród różany na tarasach, z niewielkim stawem pośrodku.",
                 "Dzwon Pokoju i Przyjaźni Między Narodami.",
                 "Muzeum Uzbrojenia i Muzeum Armii „Poznań”, oddziały Wielkopolskiego Muzeum Niepodległości.",
             ]),
@@ -233,7 +235,8 @@ ATTRACTIONS = [
                  ("Wikipedia: Cytadela w Poznaniu", "https://pl.wikipedia.org/wiki/Cytadela_w_Poznaniu"),
                  ("WMN: ceny biletów", "https://www.wmn.poznan.pl/ceny-biletow/"),
                  ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/"),
-                 ("WMN: Muzeum Armii „Poznań”", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-armii-poznan/")],
+                 ("WMN: Muzeum Armii „Poznań”", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-armii-poznan/"),
+                 ("In Your Pocket: Rosarium w Parku Cytadela", "https://www.inyourpocket.com/poznan/Rose-Garden_129183v")],
         see_also=[("Muzeum Uzbrojenia: czołgi i samoloty pod gołym niebem", "atrakcje/muzeum-uzbrojenia"),
                   ("Muzeum Armii „Poznań”: szlak bojowy 1939 roku", "atrakcje/muzeum-armii-poznan"),
                   ("Pomnik Armii „Poznań”", "atrakcje/pomnik-armii-poznan")],
@@ -254,7 +257,6 @@ ATTRACTIONS = [
                 "Nowy gmach: sztuka polska od oświecenia do dziś, w tym duży zbiór obrazów Jacka Malczewskiego.",
             ]),
             ("Warto wiedzieć", [
-                "Dla rodzin z dziećmi muzeum wypożycza bezpłatny zestaw „Muzealny Poszukiwacz Skarbów”.",
                 "Budynek ma windy i toalety dostępne dla osób z niepełnosprawnościami.",
                 "Z Poznańską Kartą Turystyczną wstęp na wystawy stałe jest bezpłatny.",
             ]),
@@ -323,7 +325,7 @@ ATTRACTIONS = [
         short="Pradzieje Wielkopolski i starożytny Egipt w renesansowym Pałacu Górków.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Archeologiczne działa od 1862 roku, a jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowano po wojnie (prace zakończono w 1967 roku), a w 1968 roku otwarto tu pierwszą powojenną wystawę stałą.",
+        lead="Muzeum Archeologiczne wywodzi się z Muzeum Starożytności Polskich i Słowiańskich, założonego w 1857 roku przy Towarzystwie Przyjaciół Nauk. Jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowano po wojnie (prace zakończono w 1967 roku), a w 1968 roku otwarto tu pierwszą powojenną wystawę stałą.",
         sections=[
             ("Co zobaczyć", [
                 "Wystawę stałą o pradziejach Wielkopolski, od epoki kamienia po średniowiecze.",
@@ -341,6 +343,7 @@ ATTRACTIONS = [
         credit="muzeum-archeologiczne",
         sources=[("Muzeum Archeologiczne: bilety", "https://nowa.muzarp.poznan.pl/pl/bilety"),
                  ("Muzeum Archeologiczne: godziny otwarcia", "https://nowa.muzarp.poznan.pl/pl/godziny-otwarcia"),
+                 ("Muzeum Archeologiczne: folder o historii muzeum i pałacu (PDF)", "https://nowa.muzarp.poznan.pl/fotki/files/files/Z%20w%C4%99dk%C4%85%20po%20wiedz%C4%99/Folder-muzuem_strony.pdf"),
                  ("Wikipedia: Muzeum Archeologiczne w Poznaniu", "https://pl.wikipedia.org/wiki/Muzeum_Archeologiczne_w_Poznaniu")],
     ),
 
@@ -673,6 +676,7 @@ MORE = [
         phone="+48 61 852 21 67", www=("rezerwat.muzarp.poznan.pl", "https://rezerwat.muzarp.poznan.pl/"),
         credit="genius-loci",
         sources=[("Genius Loci: bilety", "https://rezerwat.muzarp.poznan.pl/pl/bilety"),
+                 ("dzieje.pl: Rezerwat archeologiczny na Ostrowie Tumskim (otwarcie, 29.06.2012)", "https://dzieje.pl/node/23833"),
                  ("Genius Loci: godziny otwarcia", "https://rezerwat.muzarp.poznan.pl/pl/godziny-otwarcia"),
                  ("Genius Loci: dla zwiedzających", "https://rezerwat.muzarp.poznan.pl/pl/dla-zwiedzajacych")],
     ),
@@ -986,8 +990,8 @@ MORE = [
         lead="Park Sołacki urządzono w latach 1908–1911 według projektu Hermanna Kube, ówczesnego dyrektora Ogrodów Miejskich w Poznaniu. Ma prawie 15 hektarów i powstał na podmokłych terenach doliny Bogdanki.",
         sections=[
             ("O parku", [
-                "To park w stylu angielskim. Rośnie tu około 3000 drzew i 12 000 krzewów, obok gatunków rodzimych także egzotyczne, m.in. jodła kanadyjska, cyprysik i daglezja.",
-                "Spiętrzona Bogdanka tworzy Stawy Sołackie o nieregularnych brzegach. Większy, wschodni staw ma 3,22 hektara.",
+                "To park w stylu angielskim. Rośnie tu około 3000 drzew i 12 000 krzewów, obok gatunków rodzimych także egzotyczne, m.in. choina kanadyjska, cypryśnik błotny i daglezja.",
+                "Spiętrzona Bogdanka tworzy Stawy Sołackie o nieregularnych brzegach.",
                 "Od 1983 roku park jest wpisany do rejestru zabytków razem z willową dzielnicą Sołacz.",
             ]),
             ("Co zobaczyć", [
@@ -1101,4 +1105,9 @@ _VERIFIED_20261009 = {
 for _a in ATTRACTIONS:
     if _a["slug"] in _VERIFIED_20261009:
         _a["checked"] = "09.10.2026"
+
+# Ponowne sprawdzenie godzin i cen 10.10.2026 (audyt): strona CK Zamek i cennik PDF z 30.03.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "zamek-cesarski":
+        _a["checked"] = "10.10.2026"
 

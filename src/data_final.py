@@ -89,7 +89,7 @@ FINAL = [
         short="Największe jezioro Poznania: żeglarstwo, kąpieliska i 12 km brzegu do spacerów.",
         badge="Bezpłatnie",
         status=None,
-        lead="Jezioro Kierskie to rynna o długości 4,8 km i szerokości 2,1 km, ciągnąca się od Krzyżownik do Kiekrza. Ma 285 hektarów powierzchni i 37,6 metra głębokości.",
+        lead="Jezioro Kierskie to wydłużona rynna ciągnąca się od Krzyżownik do Kiekrza, długa na około 4,5 km i szeroka na kilkaset metrów. Ma 285 hektarów powierzchni i 37,6 metra głębokości.",
         sections=[
             ("Co tu robić", [
                 "Żeglować. W 1933 roku w Kiekrzu powstał Jacht Klub Wielkopolski, a dziś przystanie ma tu kilkanaście klubów żeglarskich.",
@@ -99,6 +99,7 @@ FINAL = [
             ]),
             ("Warto wiedzieć", [
                 "Niedaleko, w Krzyżownikach, znajduje się Przeciwatomowy Schron i Galeria Plakatu.",
+                "Źródła podają różne wymiary jeziora. Portal miasta pisze o długości 4,8 km i szerokości 2,1 km, a Wikipedia o około 4,3–4,5 km długości i szerokości do 0,8 km. Szerokość 2,1 km nie pasuje do powierzchni 285 ha, dlatego w opisie przyjęliśmy dane z Wikipedii.",
             ]),
         ],
         address="Jezioro Kierskie, Poznań-Kiekrz 60-480",
@@ -106,7 +107,8 @@ FINAL = [
         tickets=[("Wstęp", "bezpłatnie")],
         phone=None, www=("poznan.pl", P + "jeziora,poi,2574/jezioro-kierskie,41236.html"),
         credit="jezioro-kierskie",
-        sources=[("poznan.pl: Jezioro Kierskie", P + "jeziora,poi,2574/jezioro-kierskie,41236.html")],
+        sources=[("poznan.pl: Jezioro Kierskie", P + "jeziora,poi,2574/jezioro-kierskie,41236.html"),
+                 ("Wikipedia: Jezioro Kierskie", "https://pl.wikipedia.org/wiki/Jezioro_Kierskie")],
     ),
     dict(
         slug="jezioro-strzeszynskie", cat="przyroda", name="Jezioro Strzeszyńskie",

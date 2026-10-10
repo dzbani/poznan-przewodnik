@@ -686,7 +686,7 @@ EXTRA = [
                ("Zamknięte", "1.01, Wielki Piątek, Wielka Sobota, Wielkanoc, Boże Ciało, 31.10, 1.11, 23–25.12, 31.12")],
         tickets=[("Normalny", "35 zł"), ("Wersje obcojęzyczne", "35 zł"), ("Dzieci poniżej 10 lat (wersja polska)", "25 zł"),
                  ("Z Poznańską Kartą Miejską lub Kartą Piasta", "25 zł"), ("Z Poznańską Kartą Turystyczną", "25% taniej")],
-        phone="+48 532 651 218", www=("makieta.poznan.pl", "http://www.makieta.poznan.pl/"),
+        phone="+48 532 651 218", www=("makieta.poznan.pl", "https://www.makieta.poznan.pl/"),
         credit=None,
         sources=[("Visit Poznań: Makiety Dawnego Poznania", "https://visitpoznan.pl/makiety-dawnego-poznania"),
                  ("kultura.poznan.pl: Makiety dawnego Poznania", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/makiety-dawnego-poznania,78932.html")],

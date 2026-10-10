@@ -167,7 +167,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .tab:hover { border-color: var(--gold); }
 .tab[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--on-gold); font-weight: 600; }
 .cat-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
-.cat-head h3 { font-size: 1.5rem; }
+.cat-head h2 { font-size: 1.5rem; }
 .cat-head p { color: var(--muted); font-size: 0.95rem; }
 
 /* ─── Karty atrakcji ─── */
