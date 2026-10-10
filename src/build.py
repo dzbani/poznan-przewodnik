@@ -695,7 +695,7 @@ def build_info():
 
 <section id="smaki">
   <h2>Lokalne smaki</h2>
-  <p>Symbolem Poznania jest rogal świętomarciński: półfrancuskie ciasto z nadzieniem z białego maku. Od 2008 roku ma unijne Chronione Oznaczenie Geograficzne. Oryginalne rogale pieką tylko wielkopolskie cukiernie z certyfikatem Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego. Najwięcej zjada się ich 11 listopada.</p>
+  <p>Symbolem Poznania jest rogal świętomarciński: półfrancuskie ciasto z nadzieniem z białego maku. Od 2008 roku ma unijne Chronione Oznaczenie Geograficzne. Nazwy „rogal świętomarciński” mogą używać tylko cukiernie z Wielkopolski, które mają certyfikat Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego. Najwięcej zjada się ich 11 listopada.</p>
   <p>Restauracja Muga ma gwiazdkę Michelin czwarty rok z rzędu. W Przewodniku Michelin 2026 znalazło się 25 lokali z Poznania i okolic.</p>
 </section>
 
@@ -991,7 +991,7 @@ def build_about():
 <section id="kuchnia">
   <h2>Co zjeść w Poznaniu</h2>
   <ul class="dishes">{dishes}</ul>
-  <p>Oryginalne rogale świętomarcińskie pieką tylko wielkopolskie cukiernie z certyfikatem Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego. Historię rogala poznasz w <a href="atrakcje/rogalowe-muzeum.html">Rogalowym Muzeum</a>, a ziemniaków w <a href="atrakcje/muzeum-pyry.html">Muzeum Pyry</a>.</p>
+  <p>Nazwy „rogal świętomarciński” mogą używać tylko cukiernie z Wielkopolski, które mają certyfikat Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego. Historię rogala poznasz w <a href="atrakcje/rogalowe-muzeum.html">Rogalowym Muzeum</a>, a ziemniaków w <a href="atrakcje/muzeum-pyry.html">Muzeum Pyry</a>.</p>
   <p>Restauracja Muga ma gwiazdkę Michelin czwarty rok z rzędu. W Przewodniku Michelin 2026 znalazło się 25 lokali z Poznania i okolic.</p>
   <p class="muted">Źródła: <a href="https://pl.wikipedia.org/wiki/Kuchnia_wielkopolska" target="_blank" rel="noopener">Wikipedia: kuchnia wielkopolska</a>, <a href="https://www.poznan.pl/mim/info/news/25-restauracji-z-poznania-i-okolic-z-wyroznieniami-michelin-2026,281300.html" target="_blank" rel="noopener">poznan.pl: wyróżnienia Michelin 2026</a>.</p>
 </section>
