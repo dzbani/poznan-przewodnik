@@ -51,7 +51,7 @@ CHURCHES = [
          "Ołtarz główny z około 1740 roku z obrazem „Ostatnia Wieczerza”.",
          "Portrety króla Władysława Jagiełły i św. Jadwigi w prezbiterium oraz tablice herbowe wielkopolskiej szlachty.",
          "Kaplicę Matki Boskiej Szkaplerznej i barokowy chór z XVII wieku."],
-        "Gotycki kościół Bożego Ciała",
+        "Złocony ołtarz we wnętrzu kościoła Bożego Ciała",
         extra=["Z tą samą tradycją z 1399 roku wiąże się pobliski kościół Najświętszej Krwi Pana Jezusa przy ulicy Żydowskiej."]),
     church(
         "kosciol-bernardynow", "Kościół św. Franciszka Serafickiego (Bernardynów)", 40378,
@@ -86,7 +86,7 @@ CHURCHES = [
         ["Trójnawowe wnętrze z wyposażeniem z lat 1984–1988 i obrazami Alberta Tschautscha z 1878 roku w transepcie.",
          "W kruchcie fragment nagrobka dobroczyńcy konwentu Wojciecha Konarzewskiego i tablicę upamiętniającą Mikołaja Skrzetuskiego, pierwowzór Jana Skrzetuskiego z „Ogniem i mieczem” Sienkiewicza, pochowanego w podziemiach.",
          "Samotnię św. Rafała Kalinowskiego w podziemiach, urządzoną w 1987 roku, i jego pomnik przed kościołem."],
-        "Barokowa fasada kościoła Karmelitów Bosych"),
+        "Rzeźba w niszy barokowej fasady kościoła Karmelitów Bosych"),
     church(
         "kosciol-sw-malgorzaty", "Kościół św. Małgorzaty na Śródce", 40381,
         "ul. Filipińska, 61-114 Poznań",
@@ -144,7 +144,7 @@ CHURCHES = [
          "Późnobarokowe wnętrze z ołtarzem głównym z 1733 roku i malowidłami na sklepieniu z 1735 roku.",
          "Rzeźbę „Opłakiwanie Chrystusa” z początku XVI wieku.",
          "Kaplicę w podziemiach ze studzienką. Według przekazów jej woda pomagała zwłaszcza na choroby oczu."],
-        "Kościół Najświętszej Krwi Pana Jezusa przy ulicy Żydowskiej",
+        "Barokowe ołtarze we wnętrzu kościoła Najświętszej Krwi Pana Jezusa",
         extra=["Z tą samą tradycją wiąże się kościół Bożego Ciała przy ulicy Strzeleckiej."]),
     church(
         "kosciol-wspomozenia-wiernych", "Kościół NMP Wspomożenia Wiernych (Salezjanów)", 40387,
@@ -168,7 +168,7 @@ CHURCHES = [
         ["Późnobarokowo-klasycystyczną budowlę z eliptyczną pseudokopułą wspartą na ośmiu filarach i dwupoziomowymi emporami.",
          "Figury św. Piotra i św. Pawła z 1788 roku nad wejściem oraz rzeźbę Mojżesza z 1787 roku.",
          "Ołtarz główny z „Ostatnią Wieczerzą” połączony z amboną i organami. Prospekt organowy z 1785 roku ma monogram króla Stanisława Augusta."],
-        "Kościół Wszystkich Świętych przy ulicy Grobla",
+        "Rzeźba z tablicą z dziesięcioma przykazaniami w kościele Wszystkich Świętych",
         extra=["Kilka kroków dalej, przy tej samej ulicy, jest Muzeum Kultur Świata."]),
     church(
         "kosciol-mb-bolesnej", "Kościół Matki Boskiej Bolesnej", 66145,
@@ -190,7 +190,7 @@ CHURCHES = [
         ["Monumentalny portyk z kolumnami jońskimi, nawiązujący do świątyni greckiej.",
          "Jednonawowe, halowe wnętrze z kasetonowym stropem i posągiem zwycięskiego Chrystusa w prezbiterium.",
          "Wieżę z figurami polskich świętych: Andrzeja Boboli, Kazimierza, Stanisława ze Szczepanowa i Jana Kantego."],
-        "Neoklasycystyczny kościół Zmartwychwstania Pańskiego na Wildzie",
+        "Wnętrze neoklasycystycznego kościoła Zmartwychwstania Pańskiego na Wildzie",
         phone="+48 61 833 34 62", www=("poznancr.pl", "https://www.poznancr.pl/")),
     church(
         "kosciol-maryi-krolowej", "Kościół Maryi Królowej", 66243,
@@ -211,7 +211,7 @@ CHURCHES = [
         ["Świątynia stoi na wzniesieniu, a prowadzą do niej monumentalne, szerokie schody."],
         ["Centralny portyk kolumnowy, dwa portyki boczne i kopułę nad prezbiterium.",
          "Jasne, przestronne wnętrze z krucyfiksem w ołtarzu głównym i witrażami nawiązującymi do św. Jana Vianneya, św. Wojciecha i Ostatniej Wieczerzy."],
-        "Rotunda kościoła św. Jana Vianneya na Sołaczu",
+        "Kopuła we wnętrzu rotundy kościoła św. Jana Vianneya na Sołaczu",
         extra=["Kościół leży niedaleko Parku Sołackiego, więc łatwo połączyć oba miejsca."],
         www=("jmv-solacz.pl", "https://www.jmv-solacz.pl/")),
     church(

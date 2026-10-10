@@ -135,7 +135,7 @@ FINAL = [
     ),
     dict(
         slug="szachty", cat="przyroda", name="Szachty",
-        img="szachty", img_alt="Wieża widokowa na Szachtach",
+        img="szachty", img_alt="Tablica z regulaminem przy wieży widokowej na Szachtach",
         short="Stawy w dawnych gliniankach, 25-metrowa wieża widokowa i ścieżka przyrodnicza. Wstęp wolny.",
         badge="Wstęp wolny",
         status=None,

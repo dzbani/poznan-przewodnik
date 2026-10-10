@@ -416,7 +416,7 @@ EXTRA = [
     ),
     dict(
         slug="schron-przeciwatomowy", cat="muzea", name="Przeciwatomowy Schron i Galeria Plakatu",
-        img="schron-przeciwatomowy", img_alt="Naziemne zabudowania schronu przy ulicy Słupskiej 62",
+        img="schron-przeciwatomowy", img_alt="Zieleń przy naziemnych zabudowaniach schronu przy ulicy Słupskiej 62",
         short="Tajny schron dla władz miasta z oryginalnym wyposażeniem z PRL i plakaty z epoki socjalizmu.",
         badge="Sprawdź przed wizytą",
         status=("warning", "Według portalu miasta schron jest zamknięty dla zwiedzających indywidualnych do 2026 roku, a grupy mogą umówić wizytę telefonicznie. Przed przyjazdem zadzwoń i potwierdź, czy obiekt jest otwarty."),

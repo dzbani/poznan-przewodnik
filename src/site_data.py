@@ -812,7 +812,7 @@ MORE = [
     ),
     dict(
         slug="muzeum-bambrow", cat="muzea", name="Muzeum Bambrów Poznańskich",
-        img="muzeum-bambrow", img_alt="Studzienka z figurą Bamberki w Poznaniu",
+        img="muzeum-bambrow", img_alt="Studzienka Bamberki, symbol Bambrów Poznańskich (zdjęcie ilustracyjne)",
         short="Historia osadników spod Bambergu, którzy w XVIII wieku zasiedlili podpoznańskie wsie.",
         badge="Pt–sb",
         status=None,
