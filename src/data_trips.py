@@ -295,7 +295,7 @@ TRIPS = [
         lead="Wielkopolski Park Narodowy powstał 16 kwietnia 1957 roku na południe od Poznania, między Luboniem, Stęszewem a Mosiną. Ma ok. 7584 hektarów (75,84 km²). Jego inicjator, prof. Adam Wodziczko, nazwał ten teren muzeum form polodowcowych i żywym muzeum przyrody.",
         sections=[
             ("Przyroda", [
-                "Park chroni krajobraz ukształtowany przez lądolód: moreny, ozy, wydmy i jeziora rynnowe. Oz Bukowsko-Mosiński ma 37 km długości, najwięcej w Polsce. W 18 obszarach ochrony ścisłej przyroda rozwija się bez ingerencji człowieka.",
+                "Park chroni krajobraz ukształtowany przez lądolód: moreny, ozy, wydmy i jeziora rynnowe. Oz Bukowsko-Mosiński ma 37 km długości, najwięcej w Polsce. W 18 obszarach ochrony ścisłej o łącznej powierzchni 260 hektarów przyroda rozwija się bez ingerencji człowieka.",
             ]),
             ("Co zobaczyć", [
                 "Jezioro Góreckie z Wyspą Zamkową. Stoją na niej ruiny zameczku, który Tytus Działyński zbudował w latach 1824–1825 dla siostry, Klaudyny Potockiej.",
@@ -305,6 +305,7 @@ TRIPS = [
             ]),
             ("Warto wiedzieć", [
                 "Za wejście na teren parku nie pobiera się opłat. Płatne jest tylko Muzeum Przyrodnicze.",
+                "Według Wikipedii park odwiedza około 1,2 mln osób rocznie.",
                 "W parku jest 9 parkingów. Osiem jest płatnych (parkometr lub aplikacja), a bezpłatny jest parking przy Trzcielińskim Bagnie.",
             ]),
         ],
@@ -316,6 +317,7 @@ TRIPS = [
         credit="wpn",
         trip=dict(lat=52.26984, lon=16.79714, getting=[
             ("Pociąg", "Najbliżej siedziby parku jest stacja Puszczykówko na linii Poznań–Wrocław. Z dworca idzie się ulicą Dworcową w stronę Jezior."),
+            ("Szlaki od stacji", "Ze stacji Puszczykowo zaczynają się szlaki czerwony i żółty, ze stacji Stęszew zielony i niebieski, a przez stację Mosina prowadzi szlak niebieski łączący park z Rogalińskim Parkiem Krajobrazowym."),
             ("Samochód", "Do Jezior drogą powiatową nr 2495 (Komorniki – Jeziory – Puszczykowo)."),
         ]),
         sources=[("WPN: informacje o biletach (wstęp bezpłatny)", "https://wpn.gov.pl/informacje-o-biletach"),
@@ -324,6 +326,7 @@ TRIPS = [
                  ("WPN: atrakcje turystyczne", "https://wpn.gov.pl/atrakcje-turystyczne"),
                  ("WPN: ścieżki edukacyjne", "https://wpn.gov.pl/sciezki-edukacyjne"),
                  ("WPN: parkingi", "https://wpn.gov.pl/parkingi"),
+                 ("ekologia.pl: przewodnik po WPN (dojazd koleją, szlaki od stacji)", "https://www.ekologia.pl/srodowisko/przewodnik-po-wielkopolskim-parku-narodowym-praktyczne-wskazowki-i-ekoturystyka/"),
                  ("Wikipedia: Wielkopolski Park Narodowy", "https://pl.wikipedia.org/wiki/Wielkopolski_Park_Narodowy")],
     ),
     dict(
