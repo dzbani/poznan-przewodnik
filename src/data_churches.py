@@ -31,7 +31,7 @@ CHURCHES = [
         "kosciol-sw-antoniego", "Kościół św. Antoniego z Padwy (Franciszkanów)", 39371,
         "ul. Franciszkańska 2, 61-768 Poznań",
         "Barokowy kościół franciszkanów na Wzgórzu Przemysła, z malowidłami braci Swachów.",
-        "Kościół franciszkanów konwentualnych stoi na Wzgórzu Przemysła, obok Zamku Królewskiego. Budowano go w latach 1674–1757. Wnętrze należy do najbogatszych barokowych wnętrz w mieście.",
+        "Kościół franciszkanów konwentualnych stoi na Wzgórzu Przemysła, obok Zamku Królewskiego. Budowano go w latach 1674–1757. Wnętrze jest bogato zdobione stiukami i polichromią z około 1702 roku.",
         ["Franciszkanie osiedlili się w Poznaniu w XVII wieku. Klasztor powstał w latach 1672–1749, ale po kasacie w 1834 roku częściowo go rozebrano.",
          "W XIX wieku władze pruskie przekazały kościół katolikom niemieckim. Franciszkanie wrócili tu w 1921 roku. Po zniszczeniach wojennych kościół odbudowano w 1945 roku."],
         ["Stiuki i polichromię z około 1702 roku, dzieło franciszkanina Adama Swacha, ze scenami z życia św. Antoniego, św. Franciszka i Matki Bożej.",

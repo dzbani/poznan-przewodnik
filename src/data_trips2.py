@@ -139,20 +139,20 @@ TRIPS2 = [
         short="Czynna parowozownia z 1907 roku, skąd wyjeżdżają parowozy z pociągami pasażerskimi. Zwiedzanie codziennie 7:00–16:00.",
         badge="Codziennie",
         status=None,
-        lead="Parowozownia w Wolsztynie to czynna stacja parowozów, z której do dziś wyjeżdżają pociągi z lokomotywą parową. Halę z wieżą ciśnień zbudowano w 1907 roku. To nie skansen, tylko żywe miejsce, gdzie przygotowuje się parowozy do jazdy.",
+        lead="Parowozownia w Wolsztynie to czynna stacja parowozów, z której do dziś wyjeżdżają pociągi z lokomotywą parową. Halę z wieżą ciśnień zbudowano w 1907 roku. To czynna parowozownia, w której nadal przygotowuje się parowozy do jazdy.",
         sections=[
             ("Historia", [
                 "W 1907 roku powstała parowozownia z wieżą wodną. W 1991 roku parowozownię przemianowano na Parowozownię Wolsztyn i zorganizowano pierwszą Paradę Parowozów.",
                 "W czerwcu 2016 roku powołano tu instytucję kultury, a na początku 2017 roku otrzymała ona certyfikat przewoźnika kolejowego. Od 2004 roku odbywa się też konkurs Miss Świata Parowozów.",
             ]),
             ("Co zobaczyć", [
-                "Około 20 lokomotyw różnych serii, w tym słynny parowóz Pm36-2 „Piękna Helena”. W regularnej służbie jeździ powojenny parowóz Pt47-65.",
+                "W zbiorach jest około 30 parowozów (dane PAP z 2018 roku), w tym słynny Pm36-2 „Piękna Helena”. W ruchu planowym jeździ m.in. powojenny parowóz Pt47-65.",
                 "Zabytkową obrotnicę, wieżę ciśnień i małe muzeum z dawnymi biletami, sygnalizacją i latarniami kolejarzy oraz makietą fragmentu stacji Wolsztyn.",
                 "Co roku na przełomie kwietnia i maja odbywa się Parada Parowozów (jubileuszowa, 30. edycja miała miejsce 2 maja 2026 roku).",
             ]),
             ("Warto wiedzieć", [
                 "Strona parowozowni radzi przyjść krótko przed odjazdem lokomotywy, żeby zobaczyć tradycyjne przygotowanie parowozu do drogi.",
-                "Pociągi z parowozem jeżdżą na trasie Poznań–Wolsztyn. W ruchu planowym nie kursują w niedziele i święta. Bilety kupisz na stronie Kolei Wielkopolskich, w kasie na dworcu lub u kierownika pociągu. Rozkład jest na stronie parowozowni.",
+                "Pociąg z parowozem w soboty jedzie z Wolsztyna do Poznania Głównego (według rozkładu obowiązującego od 7.03.2026: odjazd z Wolsztyna 10:46, przyjazd 12:50, powrót z Poznania Głównego 15:21). W dni robocze kursuje na trasie Wolsztyn–Zbąszynek, a w niedziele i święta w ruchu planowym nie jeździ. Bilety kupisz na stronie Kolei Wielkopolskich, w kasie na dworcu lub u kierownika pociągu. Przed wyjazdem sprawdź rozkład na stronie parowozowni, bo na czas przeglądów parowóz zastępuje lokomotywa spalinowa.",
                 "Cennik na stronie parowozowni obowiązuje od 1 stycznia 2025 roku. Zwiedzanie z przewodnikiem wymaga wcześniejszej rezerwacji.",
             ]),
         ],
@@ -168,13 +168,15 @@ TRIPS2 = [
         phone="+48 506 985 166", www=("parowozowniawolsztyn.pl", "https://parowozowniawolsztyn.pl/"),
         credit="parowozownia-wolsztyn",
         trip=dict(lat=52.106184, lon=16.112819, getting=[
-            ("Pociąg", "Z Poznania Głównego do Wolsztyna jeżdżą pociągi Kolei Wielkopolskich, część kursów obsługuje parowóz (rozkład na stronie parowozowni)."),
+            ("Pociąg", "Z Poznania Głównego do Wolsztyna jeżdżą pociągi Kolei Wielkopolskich. W soboty jeden kurs obsługuje parowóz, ale ten z Poznania (odjazd 15:21) dojeżdża do Wolsztyna o 17:46, czyli po zamknięciu parowozowni. Na zwiedzanie wybierz więc wcześniejszy, zwykły pociąg."),
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
         ]),
         sources=[("Parowozownia Wolsztyn: strona główna (godziny od 1.10.2026)", "https://parowozowniawolsztyn.pl/"),
                  ("Parowozownia Wolsztyn: godziny otwarcia", "https://parowozowniawolsztyn.pl/?page_id=2131"),
                  ("Parowozownia Wolsztyn: ceny biletów (cennik od 1.01.2025)", "https://parowozowniawolsztyn.pl/?page_id=2136"),
                  ("Parowozownia Wolsztyn: rozkład jazdy parowozów", "https://parowozowniawolsztyn.pl/?page_id=2141"),
+                 ("PAP/dzieje.pl: Wolsztyn, jubileuszowa XXV Parada Parowozów (28.04.2018, liczba parowozów)", "https://dzieje.pl/rozmaitosci/wolsztyn-w-weekend-jubileuszowa-xxv-parada-parowozow"),
+                 ("PAP/dzieje.pl: jubileuszowa 30. Parada Parowozów (19.04.2026)", "https://dzieje.pl/node/168113"),
                  ("Wikipedia: Parowozownia Wolsztyn", "https://pl.wikipedia.org/wiki/Parowozownia_Wolsztyn")],
     ),
     dict(
@@ -183,7 +185,7 @@ TRIPS2 = [
         short="Ponad 20 ha lasu, w którym żyją żubry, koniki polskie, daniele i dziki. Wstęp bezpłatny, czynna od świtu do zmierzchu.",
         badge="Bezpłatnie",
         status=None,
-        lead="Pokazowa Zagroda Zwierząt należy do Ośrodka Kultury Leśnej w Gołuchowie, obok zamku i parku-arboretum. Zajmuje ponad 20 hektarów ogrodzonego lasu mieszanego z sosną i dębem. Najważniejszym gatunkiem są żubry. Wstęp jest bezpłatny, a zagroda otwarta przez cały rok.",
+        lead="Pokazowa Zagroda Zwierząt należy do Ośrodka Kultury Leśnej w Gołuchowie, obok zamku i parku-arboretum. Zajmuje ponad 20 hektarów ogrodzonego lasu mieszanego z sosną i dębem. Powstała z myślą o hodowli żubrów. Wstęp jest bezpłatny, a zagroda otwarta przez cały rok.",
         sections=[
             ("Zwierzęta", [
                 "Zagrodę założono w kwietniu 1977 roku z myślą o rosnącej liczbie żubrów i rozproszeniu ich hodowli. Do końca 2024 roku hodowano tu 128 żubrów, w tym 114 urodzonych w Gołuchowie.",
@@ -305,7 +307,7 @@ TRIPS2 = [
             ]),
             ("Warto wiedzieć", [
                 "Na terenie jest zadaszona wiata, a przy złej pogodzie można skorzystać z sali dydaktycznej. Toalety są w sąsiednim Skansenie Miniatur. Parking przy obiekcie jest bezpłatny.",
-                "Najlepszy czas na wizytę to kwiecień–październik. Strona gródka honoruje Poznańską Kartę Turystyczną i Kartę Dużej Rodziny.",
+                "Gród przyjmuje grupy zorganizowane od kwietnia do października po wcześniejszej rezerwacji. Strona gródka honoruje Poznańską Kartę Turystyczną i Kartę Dużej Rodziny.",
                 "Strzał z katapulty kosztuje 10 zł, a ognisko 150 zł. Grupy zorganizowane przyjmowane są od kwietnia do października, w godzinach 8:00–20:00, po wcześniejszej rezerwacji (601 377 802 lub biuro@grodpobiedziska.pl).",
             ]),
         ],
@@ -339,7 +341,7 @@ TRIPS2 = [
         lead="Park Krajobrazowy Puszcza Zielonka to jeden z największych kompleksów leśnych środkowej Wielkopolski, położony zaledwie kilka kilometrów na północny wschód od Poznania. Utworzono go w 1993 roku, ma 12 202 hektary, a leśny krajobraz jest tu poprzecinany jeziorami i rzekami.",
         sections=[
             ("Przyroda", [
-                "Park chroni największy naturalny kompleks leśny środkowej Wielkopolski, w większości pokryty lasem. Na jego terenie jest pięć rezerwatów przyrody: Jezioro Czarne, Jezioro Pławno, Klasztorne Modrzewie koło Dąbrówki Kościelnej, Las mieszany w Nadleśnictwie Łopuchówko oraz Żywiec dziewięciolistny.",
+                "Park chroni jeden z największych kompleksów leśnych środkowej Wielkopolski, w większości pokryty lasem. Na jego terenie jest pięć rezerwatów przyrody: Jezioro Czarne, Jezioro Pławno, Klasztorne Modrzewie koło Dąbrówki Kościelnej, Las mieszany w Nadleśnictwie Łopuchówko oraz Żywiec dziewięciolistny.",
                 "W parku leży siedem jezior (m.in. Czarne, Pławno i Bolechowskie) oraz płyną Warta, Trojanka i Struga Wierzenicka. Żyją tu jelenie, dziki, bobry, żurawie i ptaki drapieżne.",
             ]),
             ("Co zobaczyć", [
@@ -373,7 +375,7 @@ TRIPS2 = [
         short="Drewniana wieża widokowa nad łąkami i starorzeczami Warty oraz krótka ścieżka przyrodnicza. Bez biletów, w gminie Kórnik.",
         badge="Bezpłatnie",
         status=None,
-        lead="W Czmońcu, w gminie Kórnik, na skraju rozległych łąk w dolinie Warty stoi drewniana wieża widokowa. Stoi na Bobrowym Szlaku, ścieżce przyrodniczej prowadzącej przez starorzecza Warty. To krótka, spokojna wycieczka dla miłośników natury i ptaków.",
+        lead="W Czmońcu, w gminie Kórnik, na skraju rozległych łąk w dolinie Warty stoi drewniana wieża widokowa. Stoi na Bobrowym Szlaku, ścieżce przyrodniczej prowadzącej przez starorzecza Warty.",
         sections=[
             ("Co zobaczyć", [
                 "Drewnianą wieżę widokową o wysokości około 14 m, otwartą w 2010 roku. Zbudowano ją z inicjatywy sołtysa Czmońca, a platforma na szczycie mieści jednocześnie do 20 osób. Widać z niej łąki, starorzecza Warty i kępy drzew. Inne źródła podają wysokość wieży 14–15 m.",

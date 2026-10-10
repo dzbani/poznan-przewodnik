@@ -26,16 +26,16 @@ ATTRACTIONS = [
         short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się w południe.",
         badge="Bezpłatnie",
         status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest nieczynne od 1 lipca 2026 do 30 listopada 2027 z powodu remontu. Część budynku jest za rusztowaniami. Koziołki nadal się trykają, ale w trakcie prac zdarzały się przerwy w działaniu mechanizmu."),
-        lead="Stary Rynek to plac wytyczony około 1253 roku przy lokacji miasta. Ma kształt kwadratu o boku 141 metrów, a w jego środku stoi ratusz, jeden z najcenniejszych renesansowych budynków w tej części Europy.",
+        lead="Stary Rynek to plac wytyczony około 1253 roku przy lokacji miasta. Ma kształt kwadratu o boku 141 metrów, a w jego środku stoi ratusz o renesansowym wyglądzie.",
         sections=[
             ("O miejscu", [
                 "Rynek powstał jako centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy.",
-                "Ratusz ma średniowieczne początki. W latach 1550–1560 przebudował go Giovanni Battista di Quadro, architekt z Ticino. Podwyższył budynek o jedno piętro i rozbudował go w kierunku zachodnim, nadając mu renesansowy wygląd.",
+                "Ratusz ma średniowieczne początki. W latach 1550–1560 przebudował go Giovanni Battista di Quadro, architekt z Lugano w Ticino. Podwyższył budynek o jedną kondygnację, rozbudował go w kierunku zachodnim i dodał attykę oraz trzykondygnacyjną loggię, nadając mu renesansowy wygląd.",
             ]),
             ("Co zobaczyć", [
-                "Koziołki na wieży ratusza: codziennie o 12:00 wychodzą nad zegar i trykają się rogami. Mechanizm zamówiono w 1551 roku razem z zegarem. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
+                "Koziołki na wieży ratusza: codziennie o 12:00 wychodzą nad zegar i trykają się rogami. Zegar z koziołkami zamówiono u Bartłomieja Wolffa z Gubina podczas przebudowy ratusza, a zainstalowano go w 1551 roku. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
                 "Blok śródrynkowy: poza ratuszem stoją tu Waga Miejska, klasycystyczny Odwach (dziś Muzeum Powstania Wielkopolskiego) oraz domki budnicze, dawne kramy kupieckie.",
-                "Cztery fontanny w narożach rynku: Apollina, Neptuna, Marsa i Prozerpiny. Fontanna Prozerpiny pochodzi z XVIII wieku.",
+                "Cztery fontanny: Prozerpiny, Apollina, Neptuna i Marsa. Fontanna Prozerpiny pochodzi z 1766 roku i jako jedyna przetrwała do dziś, a pozostałe trzy odtworzono w latach 2002–2005.",
             ]),
             ("Warto wiedzieć", [
                 "Punkt Informacji Turystycznej działa w kamienicy Stary Rynek 59/60. Można tu dostać mapy i kupić Poznańską Kartę Turystyczną.",
@@ -96,7 +96,7 @@ ATTRACTIONS = [
                 "63-metrowa kładka nad Cybiną łączy główny budynek z odnowioną XIX-wieczną Śluzą Katedralną na Ostrowie Tumskim.",
             ]),
             ("Co zobaczyć", [
-                "Ekspozycję podzielono na cztery strefy tematyczne: Gród (początki osady), Woda (chrzest i chrystianizacja), Złoto (rozwój od XVI do XIX wieku) i Witraż (czasy współczesne).",
+                "Ekspozycję tworzą cztery sale: Gród (początki osadnictwa na Ostrowie Tumskim), Woda (okoliczności Chrztu Polski), Złoto (rozwój Ostrowa od XVI do XIX wieku) i Witraż (wątki z najnowszej historii wyspy). Na dachu budynku jest taras widokowy włączony w ramy ekspozycji.",
             ]),
             ("Warto wiedzieć", [
                 "W budynku działa punkt informacji turystycznej.",
@@ -121,7 +121,7 @@ ATTRACTIONS = [
         lead="Fara, czyli Bazylika Matki Bożej Nieustającej Pomocy i św. Marii Magdaleny, to jeden z najokazalszych kościołów barokowych w Polsce. Budowa zaczęła się w 1649 roku i trwała ponad 50 lat.",
         sections=[
             ("Co zobaczyć", [
-                "Organy zbudowane w 1876 roku przez Friedricha Ladegasta, jednego z najsłynniejszych organmistrzów XIX wieku. Mają 2579 piszczałek, a największe mierzą 6 metrów.",
+                "Organy zbudowane w 1876 roku przez Friedricha Ladegasta, słynnego organmistrza z Weissenfels. Mają 2579 piszczałek, a największe mierzą 6 metrów.",
                 "Po koncercie, około 12:45, można dołączyć do zwiedzania z przewodnikiem. Są trzy trasy: wnętrze kościoła (30–40 minut), miejsca ukryte (zakrystia i barokowy kapitularz) oraz podziemia.",
             ]),
             ("Koncerty organowe", [
@@ -188,7 +188,7 @@ ATTRACTIONS = [
                 "Dziś w zamku działa Centrum Kultury Zamek: kino, galerie, sceny koncertowe i teatralne.",
             ]),
             ("Co zobaczyć", [
-                "Sala Tronowa, gabinet cesarza, kaplica w stylu bizantyjskim w wieży i ogród różany.",
+                "Gabinet Hitlera, urządzony w 1939 roku w miejscu dawnej kaplicy cesarskiej w wieży, z podgrzewanym elektrycznie balkonem. Na Dziedzińcu Różanym stoi Fontanna Lwów wzorowana na fontannie z Patio de los Leones w Alhambrze w Grenadzie.",
                 "Według serwisu PIK Poznań audioprzewodnik ma trasy po polsku, angielsku i ukraińsku, trasę dla dzieci (7–14 lat), trasę bez schodów oraz trasę z tłumaczem polskiego języka migowego (w aplikacji). To starsza informacja, więc aktualną ofertę tras potwierdź w Informacji CK Zamek.",
             ]),
             ("Warto wiedzieć", [
@@ -257,7 +257,6 @@ ATTRACTIONS = [
                 "Nowy gmach: sztuka polska od oświecenia do dziś, w tym duży zbiór obrazów Jacka Malczewskiego.",
             ]),
             ("Warto wiedzieć", [
-                "Budynek ma windy i toalety dostępne dla osób z niepełnosprawnościami.",
                 "Z Poznańską Kartą Turystyczną wstęp na wystawy stałe jest bezpłatny.",
             ]),
         ],
@@ -325,7 +324,7 @@ ATTRACTIONS = [
         short="Pradzieje Wielkopolski i starożytny Egipt w renesansowym Pałacu Górków.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Archeologiczne wywodzi się z Muzeum Starożytności Polskich i Słowiańskich, założonego w 1857 roku przy Towarzystwie Przyjaciół Nauk. Jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowano po wojnie (prace zakończono w 1967 roku), a w 1968 roku otwarto tu pierwszą powojenną wystawę stałą.",
+        lead="Muzeum Archeologiczne wywodzi się z Muzeum Starożytności Polskich i Słowiańskich, założonego w 1857 roku przy Towarzystwie Przyjaciół Nauk. Jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowywano do 1968 roku, a w tym samym roku otwarto tu wystawę stałą „Pradzieje Wielkopolski”.",
         sections=[
             ("Co zobaczyć", [
                 "Wystawę stałą o pradziejach Wielkopolski, od epoki kamienia po średniowiecze.",
@@ -357,7 +356,7 @@ ATTRACTIONS = [
         lead="Jezioro Maltańskie to sztuczny zbiornik, oddany do użytku w 1952 roku. Ma 2,2 km długości i około 64 hektarów powierzchni. Wokół niego biegnie popularna trasa spacerowa i rowerowa.",
         sections=[
             ("Co zobaczyć", [
-                "Tor regatowy przebudowany tak, by w 1990 roku gościć mistrzostwa świata w kajakarstwie, przystosowany do zawodów międzynarodowych.",
+                "Tor regatowy wykonany w latach 1987–1990 z myślą o mistrzostwach świata w kajakarstwie, które w 1990 roku odbyły się w Poznaniu.",
                 "Nad jeziorem są też Termy Maltańskie, całoroczny stok Malta Ski, Kolejka Parkowa Maltanka i Nowe Zoo.",
             ]),
             ("Warto wiedzieć", [
@@ -377,12 +376,12 @@ ATTRACTIONS = [
         short="22 hektary roślin z całego świata i jedna z najbogatszych kolekcji kaktusów w Polsce.",
         badge="Wstęp wolny",
         status=None,
-        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku. Zajmuje około 22 hektarów i ma ponad 2500 taksonów roślin.",
+        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku. Zajmuje około 22 hektarów, a w jego szklarniach rośnie około 2500 taksonów roślin.",
         sections=[
             ("Co zobaczyć", [
                 "Kolekcję sukulentów i kaktusów, jedną z najbogatszych w Polsce (około 1150 gatunków z 228 rodzajów).",
                 "Alpinarium z roślinami gór od strefy umiarkowanej po subarktyczną.",
-                "Szklarnie z roślinami tropikalnymi i subtropikalnymi, w tym jedyną w Polsce kwitnącą welwiczję starszą niż 35 lat.",
+                "Szklarnie z roślinami tropikalnymi i subtropikalnymi, w tym welwiczję przedziwną, ponad 35-letni okaz męski wyhodowany z nasion, który według Wikipedii jest jedynym takim kwitnącym w Polsce.",
             ]),
         ],
         address="ul. Dąbrowskiego 165, 60-594 Poznań",
@@ -580,7 +579,7 @@ ATTRACTIONS = [
             ("Wystawy i zwiedzanie", [
                 "Na Dziedzińcu działa Pop Culture Gallery, prowadzona przez Stary Browar. Pokazuje wystawy łączące modę, sztukę, design i technologię. Były tu już m.in. wystawy Andy'ego Warhola, Björk, Davida LaChapelle'a, Gianniego Versace i Ryszarda Kai. Aktualną wystawę sprawdzisz na stronie centrum.",
                 "Stary Browar organizuje zwiedzanie z przewodnikiem po architekturze, historii i kolekcji dzieł sztuki. Termin trzeba uzgodnić z punktem informacyjnym co najmniej dwa tygodnie wcześniej (informacja@starybrowar.com, tel. 61 859 60 50).",
-                "W kompleksie działa pięciogwiazdkowy hotel Blow Up Hall (wejście od ul. Kościuszki 42), który po kilkuletniej przerwie znów przyjmuje gości. W hotelu, restauracji arte i pasażu są rzeźby, instalacje i sztuka użytkowa z kolekcji właścicieli, tworzona we współpracy z polskimi artystami. Restauracja arte jest czynna codziennie 12:00–22:00, a b.bar 16:00–24:00 (rezerwacja stolika: tel. 61 629 94 02).",
+                "W kompleksie działa hotel Blow Up Hall (wejście od ul. Kościuszki 42). W hotelu, restauracji arte i pasażu są rzeźby, instalacje i sztuka użytkowa z kolekcji właścicieli, tworzona we współpracy z polskimi artystami. Restauracja arte jest czynna codziennie 12:00–22:00, a b.bar 16:00–24:00 (rezerwacja stolika: tel. 61 629 94 02).",
                 "Przy centrum jest zabytkowy park, dobre miejsce na odpoczynek po zwiedzaniu.",
             ]),
         ],
@@ -712,17 +711,16 @@ MORE = [
         short="Skrzypce Wieniawskiego i klawesyn, na którym grał młody Mozart.",
         badge="Pn nieczynne",
         status=None,
-        lead="Muzeum Instrumentów Muzycznych, oddział Muzeum Narodowego, mieści się w kamienicy przy Starym Rynku. Wystawa stała „Nowe brzmienie” zajmuje 16 sal i opowiada o muzyce europejskiej od późnego średniowiecza po XX wiek.",
+        lead="Muzeum Instrumentów Muzycznych, oddział Muzeum Narodowego, mieści się w kamienicy przy Starym Rynku. Wystawa stała „Nowe brzmienie” jest podzielona na 16 galerii i opowiada o muzyce europejskiej od późnego średniowiecza po XX wiek.",
         sections=[
             ("Co zobaczyć", [
                 "Skrzypce Henryka Wieniawskiego.",
-                "Klawesyn, na którym grali młody Wolfgang Amadeusz Mozart i Wilhelm Friedemann Bach.",
+                "Klawesyn, na którym grali młody Wolfgang Amadeusz Mozart i syn Jana Sebastiana Bacha.",
                 "Instrumenty pokazane w kontekście epoki, zespołu, miejsca i tradycji. Na tabletach z przewodnikiem multimedialnym można posłuchać, jak brzmią.",
             ]),
             ("Warto wiedzieć", [
                 "Od 1946 roku działa tu jedyna w Polsce pracownia konserwacji instrumentów muzycznych.",
                 "Z Poznańską Kartą Turystyczną wstęp jest bezpłatny.",
-                "Budynek jest tylko częściowo dostępny dla osób z niepełnosprawnościami.",
             ]),
         ],
         address="Stary Rynek 45, 61-772 Poznań",

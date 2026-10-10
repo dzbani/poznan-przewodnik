@@ -13,8 +13,8 @@ EXTRA = [
         lead="Centrum Szyfrów Enigma, otwarte w 2021 roku, opowiada o tym, jak trzej polscy matematycy, Marian Rejewski, Henryk Zygalski i Jerzy Różycki, złamali szyfry niemieckiej maszyny Enigma. Prowadzi je Poznańskie Centrum Dziedzictwa.",
         sections=[
             ("Co zobaczyć", [
-                "Nowoczesną, multimedialną wystawę o złamaniu szyfrów Enigmy. Centrum podkreśla, że to osiągnięcie, zapoczątkowane w Poznaniu, otworzyło drogę do rewolucji cyfrowej.",
-                "Część ekspozycji pokazuje też, jak na przestrzeni dziejów ukrywano informacje.",
+                "Nowoczesną, multimedialną wystawę o złamaniu szyfrów Enigmy, o losach trzech matematyków na uchodźstwie i o tym, jak ich dokonania zmieniły przebieg wojny oraz wpłynęły na rozwój technologii cyfrowej.",
+                "Ekspozycja pokazuje też historię szyfrów od starożytności po czasy współczesne oraz opowiada o tajnym kursie szyfrów w Poznaniu, który odbyli polscy matematycy.",
             ]),
             ("Jak zwiedzać", [
                 "Bilety kupuje się na konkretną godzinę. Na wystawę wchodzi się co 15 minut, w grupach do 15 osób. Ostatnie wejście jest godzinę przed zamknięciem.",
@@ -114,10 +114,10 @@ EXTRA = [
     dict(
         slug="fotoplastykon", cat="muzea", name="Fotoplastykon Poznański",
         img="fotoplastykon", img_alt="Fotoplastykon Poznański",
-        short="Zabytkowe urządzenie do oglądania trójwymiarowych zdjęć, jedno z nielicznych działających w Polsce.",
+        short="Zabytkowe urządzenie do oglądania trójwymiarowych zdjęć (stereofotografii) przy ulicy Ratajczaka.",
         badge="Nd nieczynne",
         status=None,
-        lead="Fotoplastykon to XIX-wieczne urządzenie do oglądania stereofotografii, czyli zdjęć, które przez okular wyglądają na trójwymiarowe. Poznański egzemplarz jest jednym z nielicznych działających w Polsce.",
+        lead="Fotoplastykon to XIX-wieczne urządzenie do oglądania stereofotografii, czyli zdjęć, które przez okular wyglądają na trójwymiarowe. Pierwszy taki aparat skonstruował August Fuhrmann, a urządzenie uruchomiono po raz pierwszy w 1883 roku.",
         sections=[
             ("Historia", [
                 "Fotoplastykon trafił do Poznania po II wojnie światowej. W latach 1982–2005 stał w galerii fotografa Antoniego Ruta przy ulicy Święty Marcin.",
@@ -190,7 +190,7 @@ EXTRA = [
         short="Barokowy gmach, w którym mieszkał Napoleon. Dziś siedziba Urzędu Miasta Poznania.",
         badge="Bezpłatnie",
         status=None,
-        lead="Kolegium Jezuitów działało w latach 1572–1773 i było jedną z najbardziej cenionych szkół w Rzeczypospolitej. Obecny barokowy gmach powstał w latach 1701–1733 według projektu Giovanniego Catenazziego. Dziś mieści się w nim Urząd Miasta Poznania.",
+        lead="Kolegium Jezuitów działało w latach 1572–1773 jako szkoła średnia z kursami akademickimi, druga w mieście po Akademii Lubrańskiego. Obecny barokowy gmach powstał w latach 1701–1733 według projektu Giovanniego Catenazziego. Dziś mieści się w nim Urząd Miasta Poznania.",
         sections=[
             ("Historia", [
                 "W kolegium uczono języków klasycznych, matematyki, fizyki, filozofii i nauk przyrodniczych. Na początku było 16 profesorów i około 300 uczniów. Do jego tradycji nawiązują Uniwersytet im. Adama Mickiewicza i Liceum św. Marii Magdaleny.",
@@ -248,7 +248,7 @@ EXTRA = [
                 "Po 1431 roku dobudowano drugi, zewnętrzny mur z półkolistymi basztami przystosowanymi do broni palnej. W XVII wieku, wraz z rozwojem artylerii, mury straciły znaczenie obronne.",
             ]),
             ("Co zobaczyć", [
-                "Basztę Katarzynek, jedyną zachowaną oryginalną basztę.",
+                "Basztę Katarzynek, jedyną zachowaną do dziś basztę dawnych murów.",
                 "Relikty bastionu artyleryjskiego przy ulicy 23 Lutego.",
                 "Fragmenty muru zewnętrznego z Furtą Zamkową przy Zamku Królewskim oraz zachodnie odcinki przy ulicy Ludgardy.",
                 "Ścieżkę turystyczną między bastionem a reliktami Bramy Wronieckiej.",
@@ -276,7 +276,7 @@ EXTRA = [
         lead="Muzeum Broni Pancernej jest oddziałem Muzeum Wojska Polskiego w Warszawie. Utworzono je 1 kwietnia 2015 roku, a w obecnej siedzibie przy ul. 3 Pułku Lotniczego działa od października 2019 roku.",
         sections=[
             ("Co zobaczyć", [
-                "Około 230 eksponatów, w tym 75 pojazdów z całego świata. Wiele z nich to egzemplarze unikatowe.",
+                "Około 230 eksponatów, w tym 75 pojazdów z całego świata.",
                 "Ekspozycja zajmuje cztery pawilony po 700 m² i zadaszoną wystawę plenerową o powierzchni 3000 m².",
                 "Wystawy opowiadają o Powstaniu Wielkopolskim, II wojnie światowej, 1. Dywizji Pancernej gen. Stanisława Maczka, stu latach polskiej broni pancernej i czasach zimnej wojny.",
             ]),
@@ -304,7 +304,7 @@ EXTRA = [
             ("Co zobaczyć", [
                 "Oficynę apteczną z przełomu XIX i XX wieku, przeniesioną z apteki w Miłosławiu.",
                 "Naczynia apteczne z drewna, szkła, kamionki i porcelany, żeliwne moździerze i sprzęt laboratoryjny.",
-                "Około 1200 książek, w tym stare druki.",
+                "Księgozbiór liczący około 1200 woluminów, w tym kilka starodruków.",
             ]),
             ("Warto wiedzieć", [
                 "Muzeum najpierw działało w kamienicy na Starym Rynku. Do obecnej siedziby przeniesiono je w 1996 roku, a oficjalnie otwarto w styczniu 2000 roku.",
@@ -399,7 +399,6 @@ EXTRA = [
         sections=[
             ("Co tu się robi", [
                 "Eksponaty można dotykać: zadzwonić z telefonu z tarczą, przymierzyć ubrania z epoki i sprawdzić, jak dobrze zna się Poznań sprzed 50 lat.",
-                "Muzeum jest dla wszystkich grup wiekowych: starsi odwiedzający wspominają, a młodsi dostają interaktywną lekcję historii.",
             ]),
             ("Warto wiedzieć", [
                 "Grupy powyżej 10 osób muszą wcześniej zarezerwować wizytę. Przewodnik po polsku jest wtedy w cenie biletu.",
@@ -533,7 +532,6 @@ EXTRA = [
             ]),
             ("Warto wiedzieć", [
                 "Obie ekspozycje są bezpłatne i dostępne w godzinach otwarcia budynków.",
-                "Grupy zorganizowane powinny wcześniej skontaktować się z muzeum.",
             ]),
         ],
         address="kampus UMP, ul. Bukowska 70, 60-812 Poznań",
@@ -549,7 +547,7 @@ EXTRA = [
         short="Meteoryty Morasko, w tym okaz ważący 261 kg, minerały i skamieniałości. Wstęp wolny.",
         badge="Wstęp wolny",
         status=None,
-        lead="Muzeum Ziemi Wydziału Nauk Geograficznych i Geologicznych UAM gromadzi minerały, skały, skamieniałości i polskie meteoryty. Najcenniejsze są fragmenty meteorytu Morasko.",
+        lead="Muzeum Ziemi Wydziału Nauk Geograficznych i Geologicznych UAM gromadzi minerały, skały, skamieniałości i polskie meteoryty. W kolekcji meteorytów są dwa duże okazy meteorytu Morasko (261 i 160 kg).",
         sections=[
             ("Co zobaczyć", [
                 "Dwa duże fragmenty meteorytu Morasko: ważący 261 kg, znaleziony w 2012 roku, i ważący 160 kg.",

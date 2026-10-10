@@ -278,7 +278,7 @@ FINAL = [
         short="Reprezentacyjny park przed Teatrem Wielkim, z fontanną i platanami, obok Poznańskich Krzyży.",
         badge="Bezpłatnie",
         status=None,
-        lead="Park Mickiewicza powstał w latach 1907–1910 na terenie dawnych fortyfikacji, jako część Dzielnicy Cesarskiej zaprojektowanej przez Josepha Stübbena. Tworzy jedną kompozycję z gmachem Teatru Wielkiego.",
+        lead="Park Mickiewicza powstał w latach 1907–1910 na terenie dawnych fortyfikacji, jako część Dzielnicy Cesarskiej zaprojektowanej przez Josepha Stübbena. Jego założenie jest ściśle związane z gmachem Teatru Wielkiego.",
         sections=[
             ("Co zobaczyć", [
                 "Długi basen z wysoko tryskającą fontanną i reprezentacyjne schody przed Teatrem Wielkim im. Stanisława Moniuszki.",

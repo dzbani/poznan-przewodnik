@@ -101,7 +101,7 @@ PARKS = [
         lead="Park Szelągowski leży na skarpie doliny Warty, na Szelągu, i sąsiaduje z Parkiem Cytadela. Z jego zbocza rozciągają się widoki na dolinę rzeki.",
         sections=[
             ("Historia", [
-                "Nazwa pochodzi od kupieckiej rodziny Szylingów. Najsłynniejszy z nich, burmistrz Mikołaj Szyling, założył tu w XVI wieku fabrykę prochu. Od początku XIX wieku okolica była ulubionym celem wycieczek poznaniaków.",
+                "Nazwa pochodzi od kupieckiej rodziny Szylingów. Najbardziej znany z nich, burmistrz Mikołaj Szyling, założył tu w XVI wieku fabrykę prochu. Od początku XIX wieku okolica była ulubionym celem wycieczek poznaniaków.",
                 "W 1922 roku teren kupiło Bractwo Kurkowe i urządziło Ogród Strzelecki z największą w Polsce krytą strzelnicą i tarasami restauracyjnymi na kilka tysięcy gości.",
                 "W czerwcu 1945 roku odbyły się tu pierwsze powojenne Wianki. Po wojnie teren podupadł, a w 2009 roku park uporządkowano.",
             ]),
@@ -255,7 +255,7 @@ PARKS = [
         lead="Rezerwat przyrody Meteoryt Morasko, utworzony w 1976 roku, leży na północnym skraju Poznania, przy granicy z Suchym Lasem. Chroni kratery, które według większości badaczy powstały po upadku żelaznych meteorytów około 5 tysięcy lat temu, oraz fragment lasu dębowo-grabowego.",
         sections=[
             ("Kratery i meteoryty", [
-                "W rezerwacie jest kilka kraterów. Największy ma kilkadziesiąt metrów średnicy i ponad 11 metrów głębokości, a część z nich wypełnia woda.",
+                "W rezerwacie jest sześć kraterów. Największy ma około 90 metrów średnicy i 11,5 metra głębokości, a część z nich wypełnia woda.",
                 "Pierwszy meteoryt znaleziono tu w 1914 roku. Kolejne odnajdywane są do dziś. W 2012 roku wykopano meteoryt o masie około 261 kg, największy znany w Polsce.",
                 "Poznań to jedno z nielicznych miast na świecie, które mają w swoich granicach kratery meteorytowe.",
             ]),

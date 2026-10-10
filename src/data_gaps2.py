@@ -11,7 +11,7 @@ GAPS2 = [
         short="Relikty katedry przedromańskiej i romańskiej, pozostałości grobowców Mieszka I i Chrobrego oraz misa z X wieku.",
         badge="Sezonowo, płatne",
         status=None,
-        lead="Pod Katedrą Poznańską zachowały się fragmenty wcześniejszych budowli, odkryte podczas badań archeologicznych prowadzonych przy odbudowie świątyni po II wojnie światowej. To jedno z najważniejszych miejsc początków państwa polskiego.",
+        lead="Pod Katedrą Poznańską zachowały się fragmenty wcześniejszych budowli, odkryte podczas badań archeologicznych prowadzonych przy odbudowie świątyni po II wojnie światowej. Można tu zobaczyć ślady dawnych katedr, także tej z czasów pierwszych Piastów.",
         sections=[
             ("Co zobaczyć", [
                 "Fragmenty katedry przedromańskiej i romańskiej: mury z kamienia łamanego i przedromańskie bazy kolumn.",
@@ -66,7 +66,7 @@ GAPS2 = [
                 "To kładka pieszo-rowerowa. Nazwa upamiętnia Jordana, pierwszego biskupa Poznania i Polski.",
             ]),
             ("Warto wiedzieć", [
-                "Na poręczach wiszą kłódki zakochanych, a most jest popularnym miejscem sesji ślubnych. Z mostu widać Katedrę Poznańską.",
+                "Z mostu widać Katedrę Poznańską.",
             ]),
         ],
         address="ul. Ostrówek, 61-125 Poznań (Śródka – Ostrów Tumski)",

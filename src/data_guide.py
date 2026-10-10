@@ -111,7 +111,7 @@ HISTORY = [
     ("968", "W Poznaniu powstaje pierwsze biskupstwo na ziemiach polskich."),
     ("XI wiek", "W katedrze spoczywają pierwsi władcy Polski, w tym Bolesław Chrobry. W 1038 roku gród niszczy najazd czeskiego księcia Brzetysława I.", "ostrow-tumski"),
     ("1253", "Przemysł I nadaje Poznaniowi prawa miejskie. Na lewym brzegu Warty wytyczono Stary Rynek."),
-    ("XVI wiek", "Złoty wiek miasta. W 1519 roku biskup Jan Lubrański zakłada Akademię Lubrańskiego, w latach 1550–1560 Giovanni Battista di Quadro nadaje ratuszowi renesansowy wygląd, a w latach 70. jezuici otwierają kolegium, jedną z najbardziej cenionych szkół Rzeczypospolitej."),
+    ("XVI wiek", "Złoty wiek miasta. W 1519 roku biskup Jan Lubrański zakłada Akademię Lubrańskiego, w latach 1550–1560 Giovanni Battista di Quadro nadaje ratuszowi renesansowy wygląd, a w latach 70. jezuici otwierają kolegium, szkołę średnią z kursami akademickimi."),
     ("1793", "W II rozbiorze Polski Poznań zostaje przyłączony do Prus."),
     ("1806", "W listopadzie do Poznania przybywa Napoleon. Przez prawie trzy tygodnie mieszka w dawnym Kolegium Jezuickim.", "kolegium-jezuickie"),
     ("1815", "Po kongresie wiedeńskim Poznań zostaje siedzibą władz Wielkiego Księstwa Poznańskiego, części Prus. Namiestnikiem jest książę Antoni Radziwiłł."),

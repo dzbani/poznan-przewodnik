@@ -33,13 +33,13 @@ MONUMENTS = [
     M("pomnik-koziolkow", "Pomnik Koziołków",
       "Rzeźba dwóch trykających się koziołków na placu Kolegiackim",
       "Dwa trykające się koziołki z brązu na placu Kolegiackim. Można na nich usiąść do zdjęcia.",
-      "Pomnik przedstawia dwa trykające się koziołki, nawiązujące do najbardziej znanego symbolu Poznania: koziołków, które w południe wychodzą na wieżę ratusza.",
+      "Pomnik przedstawia dwa trykające się koziołki, nawiązujące do jednego z symboli Poznania: koziołków, które w południe wychodzą na wieżę ratusza.",
       [("O pomniku", [
           "Zaprojektował go Robert Sobociński, a stanął w 2002 roku na placu Kolegiackim, niedaleko głównego wejścia do Urzędu Miasta w dawnym kolegium jezuickim.",
           "W 2019 roku, na czas przebudowy placu, rzeźbę przeniesiono do Parku Chopina. Na swoje miejsce wróciła po zakończeniu prac.",
       ]),
        ("Warto wiedzieć", [
-          "Rzeźba stoi nisko, a na grzbietach koziołków można usiąść, dlatego to jedno z najpopularniejszych miejsc na pamiątkowe zdjęcie z Poznania.",
+          "Rzeźba stoi nisko, a na grzbietach koziołków można usiąść, dlatego to popularne miejsce pamiątkowych zdjęć.",
           "Prawdziwe koziołki trykają się codziennie o 12:00 na wieży ratusza, kilka minut spacerem stąd.",
       ])],
       "pl. Kolegiacki, 61-841 Poznań",
@@ -314,12 +314,12 @@ MONUMENTS = [
           "Napis na cokole głosi: „Karol Marcinkowski – twórca pracy organicznej”.",
       ]),
        ("Warto wiedzieć", [
-          "Marcinkowski był jednym z założycieli Hotelu Bazar, ośrodka polskiego życia w XIX-wiecznym Poznaniu.",
+          "Marcinkowski był inicjatorem budowy hotelu Bazar, ośrodka polskiego życia w XIX-wiecznym Poznaniu.",
           "Obok są Fontanna z delfinami i gmach poczty. Drugi pomnik Marcinkowskiego stoi przed I Liceum Ogólnokształcącym przy ulicy Bukowskiej.",
       ])],
       "al. Marcinkowskiego / ul. 23 Lutego, 61-745 Poznań",
       ("poznan.pl: Pomnik Karola Marcinkowskiego", PM + "karola-marcinkowskiego,40371.html"),
-      [wiki("Pomnik Karola Marcinkowskiego w Poznaniu")]),
+      [wiki("Pomnik Karola Marcinkowskiego w Poznaniu"), wiki("Karol Marcinkowski")]),
 
     M("pomnik-janickiego", "Pomnik Klemensa Janickiego",
       "Pomnik siedzącego poety Klemensa Janickiego na kolumnie",
@@ -346,7 +346,8 @@ MONUMENTS = [
           "Mszę dla około miliona wiernych papież odprawił wtedy na Łęgach Dębińskich, dziś Parku Jana Pawła II.",
       ])],
       "Ostrów Tumski, 61-109 Poznań",
-      ("poznan.pl: Pomnik Jana Pawła II", PM + "jana-pawla-ii,40369.html")),
+      ("poznan.pl: Pomnik Jana Pawła II", PM + "jana-pawla-ii,40369.html"),
+      extra_sources=[("Wikipedia: Park Jana Pawła II w Poznaniu (msza z 20 czerwca 1983)", "https://pl.wikipedia.org/wiki/Park_Jana_Paw%C5%82a_II_w_Poznaniu")]),
 
     M("pomnik-kochanowskiego", "Pomnik Jana Kochanowskiego",
       "Obelisk Jana Kochanowskiego z medalionem przed Akademią Lubrańskiego",
@@ -472,7 +473,7 @@ MONUMENTS = [
     M("studzienka-taschnera", "Studzienka Taschnera",
       "Rzeźbiona kolumna Studzienki Taschnera na dziedzińcu przy ulicy Mostowej",
       "Bogato rzeźbiona fontanna z 1908 roku, dziś w ogrodzie Muzeum Kultur Świata.",
-      "Studzienka Taschnera stoi na dziedzińcu Muzeum Kultur Świata przy ulicy Mostowej 7. To jedna z mniej znanych, ale najbardziej ozdobnych fontann w mieście.",
+      "Studzienka Taschnera stoi na dziedzińcu Muzeum Kultur Świata przy ulicy Mostowej 7. To jedna z mniej znanych, ale bardzo oryginalnych fontann.",
       [("Historia", [
           "Odsłonięto ją w 1908 roku na dziedzińcu dzisiejszego Urzędu Miasta przy placu Kolegiackim. Zaprojektował ją berliński rzeźbiarz Ignatius Taschner.",
           "W 1965 roku studzienkę rozebrano i złożono w magazynie na Cytadeli. Dzięki zbiórce Towarzystwa Opieki nad Zabytkami odrestaurowano ją i w 1992 roku ustawiono w obecnym miejscu.",

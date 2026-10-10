@@ -97,7 +97,7 @@ THEATRE_ATTR = [
         lead="Gmach Teatru Wielkiego zaprojektował monachijski architekt Max Littmann. Powstał w zaledwie 18 miesięcy jako nowy teatr miejski i został otwarty w 1910 roku „Czarodziejskim fletem” Mozarta. Neoklasycystyczną fasadę wieńczy figura Pegaza, dzięki której budynek nazywa się Gmachem pod Pegazem.",
         sections=[
             ("Historia", [
-                "Teatr stoi w Dzielnicy Cesarskiej, budowanej przez Niemców na początku XX wieku, i razem z Parkiem Mickiewicza tworzy jedną kompozycję.",
+                "Teatr stoi przy ulicy Fredry w Dzielnicy Cesarskiej, budowanej przez Niemców na początku XX wieku. Po drugiej stronie ulicy Fredry rozciąga się Park Mickiewicza, a za ulicą Wieniawskiego Park Wieniawskiego.",
                 "W 1919 roku teatr przejęły władze polskie. 31 sierpnia 1919 roku polska opera zainaugurowała tu działalność „Halką” Stanisława Moniuszki. W okresie międzywojennym odbyły się tu m.in. prapremiera „Legendy Bałtyku” Feliksa Nowowiejskiego i polska premiera baletu „Harnasie” Karola Szymanowskiego.",
                 "W czasie II wojny światowej działał tu teatr niemiecki. W 1950 roku opera otrzymała imię Stanisława Moniuszki.",
             ]),
@@ -106,7 +106,7 @@ THEATRE_ATTR = [
                 "Zwiedzanie trwa 45–60 minut, kosztuje 10 zł od osoby i jest dla osób od 7 lat. Termin ustala się indywidualnie, pisząc na adres edukacja@opera.poznan.pl.",
             ]),
             ("Spektakle", [
-                "W repertuarze są opery, operetki, balety i koncerty. Opera i balet to dobry wybór także dla osób, które nie znają polskiego.",
+                "W repertuarze są opery, operetki, balety i koncerty. Balet nie wymaga znajomości polskiego.",
                 "Kasa jest czynna od wtorku do soboty w godzinach 13:00–19:00, a w niedziele 2 godziny przed spektaklem (tylko gdy są jeszcze bilety). Bilety ulgowe przysługują m.in. uczniom, studentom do 26 lat, emerytom i rencistom. Wszystkie sceny Poznania są opisane na stronie Teatry i koncerty.",
             ]),
         ],

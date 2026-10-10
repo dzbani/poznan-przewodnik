@@ -102,7 +102,7 @@ TRIPS = [
             ]),
             ("Co zobaczyć", [
                 "Pałac z wnętrzami rodu Raczyńskich.",
-                "Galerię malarstwa z ponad 250 obrazami z kolekcji Edwarda Aleksandra Raczyńskiego. Wisi tu największy obraz Jana Matejki, „Dziewica Orleańska”, oraz płótna Jacka Malczewskiego, Juliana Fałata, Olgi Boznańskiej i Leona Wyczółkowskiego.",
+                "Galerię malarstwa, w której pokazano około 250 prac z kolekcji Edwarda Aleksandra Raczyńskiego. Wiszą tu m.in. „Dziewica Orleańska” Jana Matejki oraz płótna Jacka Malczewskiego, Juliana Fałata, Olgi Boznańskiej i Leona Wyczółkowskiego.",
                 "Gabinet londyński Edwarda Bernarda Raczyńskiego i galerię antenatów w północnym skrzydle oraz powozownię.",
                 "Ogród i park z wielowiekowymi dębami. W dolinie Warty wokół Rogalina rośnie największe w Europie skupisko starych dębów szypułkowych.",
                 "Kościół św. Marcelina z mauzoleum Raczyńskich, otwarty w soboty 13:00–17:00 i w niedziele 12:30–17:00.",
@@ -259,7 +259,7 @@ TRIPS = [
         lead="Biskupin to jedno z najsłynniejszych stanowisk archeologicznych w Europie. Na półwyspie Jeziora Biskupińskiego stała osada obronna z wczesnej epoki żelaza. Drewno na jej budowę ścięto w 748 roku p.n.e., kilkanaście stuleci przed pierwszymi grodami Piastów. Muzeum leży w województwie kujawsko-pomorskim, to najdalsza z wycieczek w przewodniku.",
         sections=[
             ("Odkrycie", [
-                "W 1933 roku, po obniżeniu poziomu wody w jeziorze, z wody wyłoniły się drewniane pale. Nauczyciel Walenty Szwajcer powiadomił o nich profesora Józefa Kostrzewskiego z Poznania. Wykopaliska ruszyły w 1934 roku i były prowadzone na najwyższym ówczesnym poziomie naukowym.",
+                "W 1933 roku, po obniżeniu poziomu wody w jeziorze, z wody wyłoniły się drewniane pale. Nauczyciel Walenty Szwajcer powiadomił o nich profesora Józefa Kostrzewskiego z Poznania. Badania wykopaliskowe ruszyły w 1934 roku i trwały do wybuchu II wojny światowej.",
             ]),
             ("Osada", [
                 "Gród stał na podmokłej wyspie. Miał 11 równoległych ulic wyłożonych drewnem, ulicę okrężną i potężny wał. Mieściło się w nim ok. 106 domów, w których mogło mieszkać 800–1000 osób.",
