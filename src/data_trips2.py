@@ -135,7 +135,7 @@ TRIPS2 = [
     ),
     dict(
         slug="parowozownia-wolsztyn", cat="wycieczki", name="Parowozownia Wolsztyn",
-        img="parowozownia-wolsztyn", img_alt="Półkolista parowozownia w Wolsztynie z obrotnicą",
+        img="parowozownia-wolsztyn", img_alt="Parowóz Ty1-76 na terenie parowozowni w Wolsztynie",
         short="Czynna parowozownia z 1907 roku, skąd wyjeżdżają parowozy z pociągami pasażerskimi. Zwiedzanie codziennie 7:00–16:00.",
         badge="Codziennie",
         status=None,
