@@ -128,11 +128,11 @@ def srcset_attr(name, prefix, widths=(640, 1200)):
     return ", ".join(f"{prefix}{f} {w}w" for w, f in resp_set(name, widths))
 
 
-def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px"):
+def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px", priority=False):
     """Zdjęcie atrakcji albo plansza z nazwą, gdy na Commons nie ma zdjęcia z podanym autorem."""
     if not a.get("img"):
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
-    extra = ' loading="lazy" decoding="async"' if lazy else ""
+    extra = ' loading="lazy" decoding="async"' if lazy else (' fetchpriority="high"' if priority else "")
     return (f'<img src="{prefix}img/{a["img"]}.jpg" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
             f'alt="{escape(a["img_alt"])}"{extra}>')
 
@@ -173,6 +173,8 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
 {FONTS}
 <link rel="preload" href="{prefix}fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{prefix}fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{prefix}fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{prefix}fonts/playfair-display-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
 {head}<link rel="stylesheet" href="{prefix}assets/style.css?v={asset_v("style.css")}">
 </head>
 <body>
@@ -516,7 +518,7 @@ def build_attraction(a, idx):
 
 <header class="wrap a-hero">
   <figure class="a-hero-img">
-    {media_html(a, "../", sizes="(max-width: 760px) 92vw, 640px")}
+    {media_html(a, "../", sizes="(max-width: 760px) 92vw, 640px", priority=True)}
     {credit_badge(a['credit'], "../") if a.get("img") else ""}
   </figure>
   <div class="a-hero-text">
