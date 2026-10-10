@@ -892,7 +892,7 @@ def build_theatres():
   </section>
 </div>
 """
-    return page("Teatry i koncerty – Odkrywaj Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki (opera i balet), Filharmonia Poznańska, Teatr Polski, Teatr Nowy, Teatr Muzyczny, Polski Teatr Tańca, Teatr Animacji. Adresy, kasy, linki do repertuaru.", active="teatry")
+    return page("Teatry i koncerty – Odkrywaj Poznań", body, desc="Teatry i sale koncertowe w Poznaniu: Teatr Wielki, Filharmonia, Teatr Polski, Nowy, Muzyczny, Polski Teatr Tańca i Teatr Animacji. Adresy, kasy, repertuar.", active="teatry")
 
 
 def cal_event(e):
@@ -1027,7 +1027,7 @@ def build_credits():
   <tbody>{''.join(rows)}</tbody>
 </table></div></div>
 """
-    return page("Autorzy zdjęć – Odkrywaj Poznań", body, desc="Autorzy i licencje zdjęć użytych w przewodniku.")
+    return page("Autorzy zdjęć – Odkrywaj Poznań", body, desc="Autorzy i licencje zdjęć użytych w przewodniku Odkrywaj Poznań: nazwiska fotografów, licencje Creative Commons i linki do oryginałów.")
 
 
 COORDS = json.load(open(os.path.join(ROOT, "src", "coords.json"), encoding="utf-8"))
@@ -1040,9 +1040,15 @@ CAT_COLORS = {"zabytki": "#8B1A1A", "pomniki": "#8A5A12", "koscioly": "#5B3F8C",
 def build_map():
     cat_names = {k: n for k, n, _ in CATEGORIES}
     items = []
+    seen = {}
     for a in ATTRACTIONS:
         c = a["trip"] if a.get("trip") else COORDS[a["slug"]]
-        items.append({"s": a["slug"], "n": a["name"], "c": a["cat"], "lat": c["lat"], "lon": c["lon"],
+        # Dwie atrakcje w jednym punkcie (np. zamek i muzeum w zamku): drugą przesuwamy o ok. 13 m, żeby pinezka nie zasłaniała pinezki.
+        key = (round(c["lat"], 5), round(c["lon"], 5))
+        n_same = seen.get(key, 0)
+        seen[key] = n_same + 1
+        pin_lat, pin_lon = round(c["lat"] + 0.00012 * n_same, 6), round(c["lon"] + 0.00009 * n_same, 6)
+        items.append({"s": a["slug"], "n": a["name"], "c": a["cat"], "lat": pin_lat, "lon": pin_lon,
                       "d": a["short"], "b": a["badge"], "img": a.get("img"), "t": tags(a),
                       "x": is_closed(a), "ap": bool(c.get("approx")),
                       # Nawigacja w Google Maps (zwykłe linki: nic nie jest wysyłane do Google przed kliknięciem).
@@ -1087,7 +1093,7 @@ COPYRIGHT_YEAR = datetime.date.today().year
 
 # Kontakt w sprawie strony i prywatności (strona prowadzona pod nazwą serwisu, decyzja z 30.09.2026).
 CONTACT_EMAIL = "kontakt@odkrywajpoznan.pl"
-LINKS_CHECKED = "07.10.2026"   # data ostatniego uruchomienia src/check_links.py; podbić po kolejnej kontroli
+LINKS_CHECKED = "10.10.2026"   # data ostatniego uruchomienia src/check_links.py; podbić po kolejnej kontroli
 PRIVACY_UPDATED = "05.10.2026"
 
 
@@ -1325,7 +1331,7 @@ def build_viewpoints():
 </div>
 """
     return page("Punkty widokowe w Poznaniu: wieże i tarasy z panoramą miasta – Odkrywaj Poznań", body,
-                desc="Gdzie zobaczyć Poznań z góry: taras Collegium Altum na 18. piętrze, wieża Zamku Królewskiego (43 m), wieża archikatedry oraz bezpłatne wieże na Szachtach (25 m) i w Czmońcu.",
+                desc="Gdzie zobaczyć Poznań z góry: taras Collegium Altum, wieża Zamku Królewskiego (43 m), wieża archikatedry i bezpłatne wieże na Szachtach i w Czmońcu.",
                 active="atrakcje")
 
 

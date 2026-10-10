@@ -153,13 +153,14 @@ GAPS3 = [
             ]),
         ],
         address="Góra Przemysła 1, 61-768 Poznań",
+        desc="Muzeum Sztuk Użytkowych w Zamku Królewskim: ok. 2000 przedmiotów od średniowiecza do dziś. Godziny, bilety, wtorki bezpłatnie. Góra Przemysła 1.",
         hours=None, tickets=None,  # uzupełniane z karty Zamku Królewskiego w site_data.py (jedno źródło prawdy)
         phone="+48 61 856 80 75", www=("mnp.art.pl", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
         credit="muzeum-sztuk-uzytkowych",
         sources=[
             ("kultura.poznan.pl: Muzeum Sztuk Użytkowych",
              "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
-            ("Muzeum Narodowe w Poznaniu", "https://mnp.art.pl/"),
+            ("MNP: Muzeum Sztuk Użytkowych w Zamku Królewskim", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
         ],
         see_also=[("Zamek Królewski i wieża widokowa", "atrakcje/zamek-krolewski"),
                   ("Punkty widokowe w Poznaniu", "punkty-widokowe")],

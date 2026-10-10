@@ -60,7 +60,13 @@ def title(a):
         tail = "co zobaczyć, dojazd"
     else:
         tail = "godziny otwarcia, dojazd"
-    return f"{a['name']} – {tail} | Odkrywaj Poznań"
+    out = f"{a['name']} – {tail} | Odkrywaj Poznań"
+    # Bardzo długie nazwy: skracamy końcówkę, żeby tytuł nie przekraczał 100 znaków.
+    for long, short in ((" z Poznania", ""), ("godziny otwarcia", "godziny")):
+        if len(out) > 100:
+            tail = tail.replace(long, short)
+            out = f"{a['name']} – {tail} | Odkrywaj Poznań"
+    return out
 
 
 def _short_days(label):
@@ -112,7 +118,10 @@ def _tickets(a, budget):
 
 
 def description(a):
-    """Meta description z konkretów, o które pyta turysta: godziny, cena, adres."""
+    """Meta description z konkretów, o które pyta turysta: godziny, cena, adres.
+    Pole desc na karcie nadpisuje opis liczony z danych (dla dwóch kart z identycznymi godzinami i adresem)."""
+    if a.get("desc"):
+        return a["desc"]
     address = f"Adres: {a['address']}."
     if a["status"] and a["status"][0] == "closed":
         parts = ["Czasowo zamknięte.", a["short"], address]
