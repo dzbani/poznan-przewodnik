@@ -32,7 +32,7 @@ GAPS = [
         ],
         address="ul. Krańcowa 81, 61-070 Poznań (teren Nowego Zoo)",
         hours=[
-            ("Sezon", "maj–wrzesień"),
+            ("Sezon", "maj–wrzesień (sezon 2026 zakończył się we wrześniu, poza sezonem źródła nie podają regularnych wejść)"),
             ("Niedziele i święta", "zwiedzanie z przewodnikiem; godziny wejść źródła podają różnie, patrz „Warto wiedzieć”"),
             ("Soboty", "tylko wg poznan.pl, sprawdź telefonicznie"),
         ],

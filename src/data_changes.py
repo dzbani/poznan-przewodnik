@@ -29,7 +29,7 @@ RULES = [
          src=("Rogalowe Muzeum: dla indywidualnych", "https://rogalowemuzeum.pl/indywidualni/")),
     dict(sort="2025-11-11", when="od 2025", kind="Zasady",
          title="Imieniny Ulicy Święty Marcin: bez korowodu w dawnej formie",
-         text="Od 2025 roku na ulicy powstaje ogrodzone „imieninowe miasteczko” z czterema bramami i kontrolą przy wejściu. Wstęp jest bezpłatny, a walizki, duże torby i plecaki trzeba zostawić w bezpłatnym depozycie przy bramie.",
+         text="W 2025 roku na ulicy powstało ogrodzone „imieninowe miasteczko” z czterema bramami i kontrolą przy wejściu (wstęp bezpłatny, bagaże w depozycie przy bramie). Na 2026 rok organizator podał na razie tylko, że Kiermasz Świętomarciński 11 listopada (11:00–21:00) odbędzie się w zmienionej formule, na terenie imprezy masowej. Zasady wejścia sprawdź na stronie CK Zamek.",
          page=("kalendarz.html#imieniny-sw-marcin", "Kalendarz wydarzeń"),
          src=("Centrum Kultury Zamek: Imieniny Ulicy Święty Marcin", "https://ckzamek.pl/podstrony/71-imieniny-ulicy-swiety-marcin/")),
     dict(sort="2025-01-01", when="od 2025", kind="Nazwa",

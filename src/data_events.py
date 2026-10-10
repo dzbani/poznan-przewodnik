@@ -110,9 +110,11 @@ CALENDAR = [
         when="Co roku 11 listopada",
         dates=("2026-11-11", "2026-11-11"), note="Zawsze 11 listopada, w Narodowe Święto Niepodległości.",
         desc=["Największe święto miasta, obchodzone od 1994 roku i organizowane przez Centrum Kultury Zamek. Trwa od przedpołudnia do wieczora: kiermasz rogali świętomarcińskich, koncerty, spektakle i atrakcje dla rodzin. Prezydent Poznania przekazuje świętemu Marcinowi klucze do miasta.",
-              "Od 2025 roku nie ma korowodu w dawnej formie. Na ulicy powstaje ogrodzone „imieninowe miasteczko” z czterema bramami i kontrolą przy wejściu. Wstęp jest bezpłatny. Walizki, duże torby i plecaki trzeba zostawić w bezpłatnym depozycie przy bramie."],
+              "W 2025 roku nie było korowodu w dawnej formie: na ulicy powstało ogrodzone „imieninowe miasteczko” z czterema bramami i kontrolą przy wejściu, wstęp był bezpłatny, a walizki, duże torby i plecaki zostawiało się w bezpłatnym depozycie przy bramie.",
+              "W 2026 roku Kiermasz Świętomarciński odbędzie się 11 listopada przed Centrum Kultury Zamek w godzinach 11:00–21:00, w dwóch strefach: handlowej z domkami przy al. Niepodległości i rękodzielniczej z namiotami przy ulicy Święty Marcin, pod pocztą. Odbędzie się na terenie imprezy masowej, więc obowiązują tam przepisy o bezpieczeństwie imprez masowych. Pełnego programu i zasad wejścia na 2026 rok nie udało się potwierdzić (stan na 10.10.2026), więc sprawdź stronę organizatora."],
         link=("ckzamek.pl", "https://ckzamek.pl/podstrony/71-imieniny-ulicy-swiety-marcin/"),
-        sources=[("CK Zamek: Imieniny Ulicy Święty Marcin 2025 – informacje praktyczne", "https://ckzamek.pl/artykuly/13267-informacje-praktyczne/"),
+        sources=[("CK Zamek: Imieniny Ulicy 2026 – Kiermasz Świętomarciński", "https://ckzamek.pl/podstrony/71-imieniny-ulicy-swiety-marcin/"),
+                 ("CK Zamek: Imieniny Ulicy Święty Marcin 2025 – informacje praktyczne", "https://ckzamek.pl/artykuly/13267-informacje-praktyczne/"),
                  ("CK Zamek: plany na 2026 rok", "https://ckzamek.pl/artykuly/13944-sprawdz-co-planujemy-w-2026-roku/")],
     ),
     dict(

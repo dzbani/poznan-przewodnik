@@ -77,7 +77,7 @@ FINAL = [
             ]),
         ],
         address="ul. Lechicka 59, 61-695 Poznań",
-        hours=[("Maj–wrzesień", "ostatnia sobota miesiąca"), ("Wejścia", "12:00 i 15:00")],
+        hours=[("Maj–wrzesień", "ostatnia sobota miesiąca"), ("Wejścia", "12:00 i 15:00"), ("Październik–kwiecień", "źródła nie podają regularnych zwiedzań (sezon 2026 zakończył się we wrześniu)")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł")],
         phone="+48 506 737 222", www=("kernwerk.pl", "https://www.kernwerk.pl/"),
         credit="fort-va",
@@ -325,7 +325,7 @@ FINAL = [
         img="linie-turystyczne", img_alt="Zabytkowy tramwaj Konstal 105N na linii turystycznej 0",
         short="Przejazd zabytkowym tramwajem albo „Ogórkiem”. Kursują w sezonie, w weekendy i święta.",
         badge="Sezonowo",
-        status=("warning", "Linie turystyczne kursują w sezonie letnim, głównie w weekendy i święta. Przed wyjazdem sprawdź aktualny rozkład na stronie MPK Poznań."),
+        status=("closed", "Sezon 2026 zakończył się w weekend 26–27 września (MPK zapowiadało jeszcze okolicznościowe przejazdy specjalne). Linie wracają latem; rozkład sezonu 2027 poda MPK Poznań."),
         lead="W sezonie letnim na ulice Poznania wyjeżdżają historyczne tramwaje i autobusy MPK. Tramwajowa linia turystyczna 0 kursuje od 1999 roku, a autobusowa od 2005 roku.",
         sections=[
             ("Linie w sezonie 2026", [

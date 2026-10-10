@@ -75,7 +75,7 @@ ATTRACTIONS = [
             ]),
         ],
         address="ul. Ostrów Tumski 17, 61-109 Poznań",
-        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–29.02)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Wieża widokowa", "od 1.06.2026; w sezonie 1.03–15.11 jak krypty: dni powszednie 9:00–16:00, niedziele 14:00–18:00")],
+        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–koniec lutego)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Wieża widokowa", "od 1.06.2026; w sezonie 1.03–15.11 jak krypty: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Krypty i wieża po 15.11", "strona archidiecezji podaje je tylko na sezon 1.03–15.11, zimą godzin zwiedzania nie ma")],
         tickets=[("Wejście do katedry", "bezpłatnie"), ("Podziemia", "10 zł, ulgowy 8 zł, rodzinny 25 zł"), ("Wieża widokowa", "14 zł, ulgowy 12 zł, rodzinny 40 zł")],
         phone="+48 61 852 96 42", www=("katedra.archpoznan.pl", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
         credit="ostrow-tumski",
@@ -436,7 +436,7 @@ ATTRACTIONS = [
                 "Fort III z lat 1877–1881, fragment dawnej Twierdzy Poznań.",
             ]),
             ("Warto wiedzieć", [
-                "Wygodnie dojechać tu Kolejką Parkową Maltanka, która kursuje wzdłuż jeziora do stacji Zwierzyniec przy wejściu do zoo.",
+                "W sezonie (w 2026 roku do 27 września) można tu dojechać Kolejką Parkową Maltanka, która kursuje wzdłuż jeziora do stacji Zwierzyniec przy wejściu do zoo.",
                 "Biletu nie trzeba drukować, wystarczy kod w telefonie.",
                 "Parking jest płatny od 1 kwietnia do 31 października.",
                 "Kasy zamykają się godzinę przed zamknięciem zoo.",
@@ -481,17 +481,17 @@ ATTRACTIONS = [
         img="kolejka-maltanka", img_alt="Kolejka Parkowa Maltanka na mijance",
         short="Wąskotorowa kolejka wzdłuż Malty do Nowego Zoo. Kursuje sezonowo.",
         badge="Sezonowo",
-        status=None,
+        status=("closed", "Sezon 2026 zakończył się 27 września, więc kolejka teraz nie kursuje. Rusza ponownie wiosną (w 2026 roku pierwszy kurs odbył się 12 kwietnia). Terminy sezonu 2027 poda MPK Poznań."),
         lead="Maltanka to wąskotorowa kolejka parkowa prowadzona przez MPK Poznań. Kursuje wzdłuż Jeziora Maltańskiego między stacjami Maltanka i Zwierzyniec, przy wejściu do Nowego Zoo.",
         sections=[
             ("Warto wiedzieć", [
-                "Sezon 2026 zaczął się 12 kwietnia, a od 24 kwietnia kolejka kursuje codziennie.",
+                "Sezon 2026 trwał od 12 kwietnia do 27 września, a od 24 kwietnia kolejka kursowała codziennie.",
                 "Od sezonu 2026 można kupić bilet tam i z powrotem. Bilety sprzedają obie stacje końcowe.",
                 "Po drodze kolejka dojeżdża w pobliże Term Maltańskich.",
             ]),
         ],
         address="Kolejka Parkowa Maltanka, ul. Jana Pawła II 1, 61-131 Poznań",
-        hours=[("Dni robocze", "co godzinę, 9:30–18:30"), ("Weekendy i święta", "co 30 minut, 10:00–19:00")],
+        hours=[("W sezonie, dni robocze", "co godzinę, 9:30–18:30"), ("W sezonie, weekendy i święta", "co 30 minut, 10:00–19:00"), ("Poza sezonem (od 28.09.2026)", "kolejka nie kursuje")],
         tickets=[("W jedną stronę", "18 zł, ulgowy (do 16 lat) 12 zł, rodzinny 48 zł"), ("Tam i z powrotem", "24 zł, ulgowy 16 zł, rodzinny 64 zł")],
         phone=None, www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/maltanka/"),
         credit="kolejka-maltanka",
@@ -538,7 +538,7 @@ ATTRACTIONS = [
             ]),
         ],
         address="ul. Wiankowa 2, 61-131 Poznań",
-        hours=[("Godziny", "zależne od pogody, na maltaski.pl")],
+        hours=[("Godziny", "zależne od pogody, na maltaski.pl"), ("Sezony wg maltaski.pl", "zimowy 1.10–31.03, letni 1.04–31.10")],
         tickets=[("Cennik", "na maltaski.pl")],
         phone=None, www=("maltaski.pl", "https://maltaski.pl/"),
         credit="malta-ski",
@@ -1077,5 +1077,10 @@ for _a in ATTRACTIONS:
 # Ponowne sprawdzenie godzin i cen 10.10.2026 (audyt): strona CK Zamek i cennik PDF z 30.03.2026.
 for _a in ATTRACTIONS:
     if _a["slug"] == "zamek-cesarski":
+        _a["checked"] = "10.10.2026"
+
+# Sezonowość sprawdzona 10.10.2026 w komunikatach MPK (koniec sezonu Maltanki i linii turystycznych), na maltaski.pl i na stronie katedry.
+for _a in ATTRACTIONS:
+    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne", "malta-ski", "ostrow-tumski"):
         _a["checked"] = "10.10.2026"
 
