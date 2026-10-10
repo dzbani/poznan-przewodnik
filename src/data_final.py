@@ -157,6 +157,7 @@ FINAL = [
         phone=None, www=("poznan.pl", P + "parki,poi,3338/szachty,86752.html"),
         credit="szachty",
         sources=[("poznan.pl: Szachty", P + "parki,poi,3338/szachty,86752.html")],
+        see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe")],
     ),
     dict(
         slug="legi-debinskie", cat="przyroda", name="Łęgi Dębińskie (Park Jana Pawła II)",

@@ -1346,5 +1346,37 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Czmoniec_view_tower.JPG"
+ },
+ {
+  "slug": "taras-widokowy-collegium-altum",
+  "title": "Collegium Altum in Poznań (cropped).jpg",
+  "artist": "PromocjaUEP",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Collegium_Altum_in_Pozna%C5%84_(cropped).jpg"
+ },
+ {
+  "slug": "muzeum-uzbrojenia",
+  "title": "Poznań - Cytadela - Muzeum Uzbrojenia - Artrac.JPG",
+  "artist": "Artrac",
+  "license": "CC BY-SA 3.0 pl",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Pozna%C5%84_-_Cytadela_-_Muzeum_Uzbrojenia_-_Artrac.JPG"
+ },
+ {
+  "slug": "muzeum-armii-poznan",
+  "title": "Park Cytadela - Muzeum Armii Poznań - panoramio.jpg",
+  "artist": "Mister No",
+  "license": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Park_Cytadela_-_Muzeum_Armii_Pozna%C5%84_-_panoramio.jpg"
+ },
+ {
+  "slug": "muzeum-sztuk-uzytkowych",
+  "title": "Eksponaty Muzeum Sztuk Użytkowych w Poznaniu - styczeń 2018.jpg",
+  "artist": "Koefbac",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Eksponaty_Muzeum_Sztuk_U%C5%BCytkowych_w_Poznaniu_-_stycze%C5%84_2018.jpg"
  }
 ]

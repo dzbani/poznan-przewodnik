@@ -882,5 +882,29 @@
   "lon": 16.8695445,
   "q": "Lasek Katyński, Poznań",
   "name": "Lasek Katyński, Poznań"
+ },
+ "taras-widokowy-collegium-altum": {
+  "lat": 52.404753,
+  "lon": 16.921591,
+  "q": "Collegium Altum, Poznań",
+  "name": "Collegium Altum, 16, Powstańców Wielkopolskich, Święty Marcin, Stare Miasto, Poznań"
+ },
+ "muzeum-uzbrojenia": {
+  "lat": 52.4201,
+  "lon": 16.932844,
+  "q": "Muzeum Uzbrojenia, Cytadela, Poznań",
+  "name": "Muzeum Uzbrojenia, Park Cytadela, Poznań (współrzędne: Wikipedia)"
+ },
+ "muzeum-armii-poznan": {
+  "lat": 52.418073,
+  "lon": 16.933803,
+  "q": "Muzeum Armii Poznań, Poznań",
+  "name": "Muzeum Armii „Poznań”, Aleja Armii Poznań, Stare Winogrady, Stare Miasto, Poznań"
+ },
+ "muzeum-sztuk-uzytkowych": {
+  "lat": 52.409156,
+  "lon": 16.931034,
+  "q": "Zamek Królewski, Poznań",
+  "name": "Zamek Królewski (Muzeum Sztuk Użytkowych), Góra Przemysła 1, Poznań"
  }
 }

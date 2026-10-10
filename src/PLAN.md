@@ -113,3 +113,9 @@ w oficjalnym źródle, linki do strony obiektu i źródeł.
 - [x] map.js: L.tileLayer tile.openstreetmap.org zamiast własnego podkładu SVG (na GitHub Pages nie ma CSP artefaktu), bez ograniczenia do granic Poznania, zoom 8–18
 - [x] Wycieczki za miasto na mapie (współrzędne z pola trip), po wybraniu kategorii mapa dopasowuje widok (fitVisible)
 - Stary podkład SVG i skrypty fetch_basemap.py / render_basemap.py usunięte 30.09.2026 (są w historii gita)
+
+## Luki po porównaniu z konkurencją (VisitPoznań, Wikivoyage, blogi) — GOTOWE 10.10.2026
+- [x] src/data_gaps3.py (GAPS3): Taras widokowy Collegium Altum (UEP), Muzeum Uzbrojenia, Muzeum Armii „Poznań”, Muzeum Sztuk Użytkowych (godziny i ceny brane z karty Zamku Królewskiego w site_data.py)
+- [x] Pole see_also (lista „Zobacz też” na karcie) i strona zbiorcza /punkty-widokowe (build_viewpoints, dane VIEWPOINTS w data_gaps3.py); link w stopce
+- [x] Karta Cytadeli: osobny wiersz godzin Muzeum Armii „Poznań” (wt–nd 10–16 od 20.01.2026) i linki do nowych stron
+- [ ] Dalsze luki z raportu D:\Claude Code dzbani\raport_konkurencja_poznan.txt: HistoryLand (decyzja: komercja), kalendarz (Dni Twierdzy, Kaziuki — po ogłoszeniu terminów 2027), plaże i kąpieliska, lodowisko Malta, Średzka Kolej Powiatowa (niezweryfikowana), wersja EN

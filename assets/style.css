@@ -247,8 +247,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .status-h { font-weight: 700; margin-bottom: 4px; }
 .status p { color: inherit; }
 .status p + p { margin-top: 0; color: var(--text-2); }
-.sources h2 { font-size: 1.1rem; }
+.sources h2, .seealso h2 { font-size: 1.1rem; }
 .sources ul { padding-left: 1.1em; font-size: 0.88rem; display: grid; gap: 4px; }
+.seealso ul { padding-left: 1.1em; font-size: 0.95rem; display: grid; gap: 6px; }
 .a-side { position: sticky; top: 84px; display: grid; gap: 14px; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
 .panel h2 { font-family: var(--sans); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }

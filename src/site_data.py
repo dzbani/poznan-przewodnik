@@ -81,6 +81,7 @@ ATTRACTIONS = [
         credit="ostrow-tumski",
         sources=[("Katedra Poznańska: Turyści w katedrze", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
                  ("Wikipedia: Archikatedra w Poznaniu", "https://pl.wikipedia.org/wiki/Bazylika_archikatedralna_Świętych_Apostołów_Piotra_i_Pawła_w_Poznaniu")],
+        see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe")],
     ),
     dict(
         slug="brama-poznania", cat="zabytki", name="Brama Poznania ICHOT",
@@ -169,6 +170,9 @@ ATTRACTIONS = [
         sources=[("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
                  ("Wikipedia: Zamek Królewski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Królewski_w_Poznaniu"),
                  ("poznan.pl: Wieża widokowa – Wzgórze Przemysła", "https://www.poznan.pl/mim/wortals/turystyka/inne-atrakcje,poi,3391/wieza-widokowa-wzgorze-przemysla,61910.html")],
+        see_also=[("Muzeum Sztuk Użytkowych w Zamku Królewskim", "atrakcje/muzeum-sztuk-uzytkowych"),
+                  ("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe"),
+                  ("Taras widokowy Collegium Altum", "atrakcje/taras-widokowy-collegium-altum")],
     ),
     dict(
         slug="zamek-cesarski", cat="zabytki", name="Zamek Cesarski",
@@ -221,14 +225,18 @@ ATTRACTIONS = [
             ]),
         ],
         address="al. Armii Poznań, 61-663 Poznań",
-        hours=[("Park", "ogólnodostępny"), ("Muzeum Uzbrojenia (III–X)", "wt–sb 10:00–17:00, nd 10:00–16:00"), ("Muzeum Uzbrojenia (XI–II)", "wt–nd 10:00–16:00"), ("Poniedziałek", "muzea nieczynne")],
+        hours=[("Park", "ogólnodostępny"), ("Muzeum Uzbrojenia (III–X)", "wt–sb 10:00–17:00, nd 10:00–16:00"), ("Muzeum Uzbrojenia (XI–II)", "wt–nd 10:00–16:00"), ("Muzeum Armii „Poznań”", "wt–nd 10:00–16:00 (od 20.01.2026)"), ("Poniedziałek", "muzea nieczynne")],
         tickets=[("Park", "bezpłatnie"), ("Muzeum Uzbrojenia", "15 zł, ulgowy 10 zł, dzieci do 7 lat bezpłatnie"), ("Muzeum Armii „Poznań”", "10 zł, ulgowy 6 zł"), ("Bilet łączony obu muzeów", "20 zł, ulgowy 12 zł"), ("Wtorek", "muzea bezpłatnie")],
         phone=None, www=("wmn.poznan.pl", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-uzbrojenia/"),
         credit="cytadela",
         sources=[("Wikipedia: Park Cytadela", "https://pl.wikipedia.org/wiki/Park_Cytadela"),
                  ("Wikipedia: Cytadela w Poznaniu", "https://pl.wikipedia.org/wiki/Cytadela_w_Poznaniu"),
                  ("WMN: ceny biletów", "https://www.wmn.poznan.pl/ceny-biletow/"),
-                 ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/")],
+                 ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/"),
+                 ("WMN: Muzeum Armii „Poznań”", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-armii-poznan/")],
+        see_also=[("Muzeum Uzbrojenia: czołgi i samoloty pod gołym niebem", "atrakcje/muzeum-uzbrojenia"),
+                  ("Muzeum Armii „Poznań”: szlak bojowy 1939 roku", "atrakcje/muzeum-armii-poznan"),
+                  ("Pomnik Armii „Poznań”", "atrakcje/pomnik-armii-poznan")],
     ),
 
     # ─── MUZEA ───
@@ -1043,6 +1051,7 @@ from data_trips import TRIPS  # noqa: E402  (wycieczki za miasto, 30.09.2026)
 from data_gaps import GAPS  # noqa: E402
 from data_gaps2 import GAPS2  # noqa: E402
 from data_trips2 import TRIPS2  # noqa: E402  (wycieczki, partia 2, 06.10.2026)  (uzupełnienie luk po porównaniu z poznan.pl, 06.10.2026)
+from data_gaps3 import GAPS3  # noqa: E402  (taras Collegium Altum i muzea w Cytadeli/Zamku, po porównaniu z konkurencją 10.10.2026)
 # Data sprawdzenia godzin i cen każdej atrakcji (pole checked). Domyślnie według partii danych;
 # przy ponownej weryfikacji jednej atrakcji wpisz jej własne checked="DD.MM.RRRR".
 _CHECKED_BY_BATCH = [
@@ -1050,13 +1059,21 @@ _CHECKED_BY_BATCH = [
     (EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS, "29.09.2026"),
     (TRIPS + THEATRE_ATTR, "30.09.2026"),
     (GAPS + GAPS2 + TRIPS2, "06.10.2026"),
+    (GAPS3, "10.10.2026"),
 ]
 _CHECKED_SLUGS = {"park-solacki": "29.09.2026", "trakt-krolewsko-cesarski": "29.09.2026",  # czwarta tura
                   "stary-browar": "30.09.2026"}  # rozbudowa opisu, nowy adres i godziny
 for _batch, _date in _CHECKED_BY_BATCH:
     for _a in _batch:
         _a.setdefault("checked", _CHECKED_SLUGS.get(_a["slug"], _date))
-ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2, key=lambda a: _ORDER[a["cat"]])
+ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2 + GAPS3, key=lambda a: _ORDER[a["cat"]])
+
+# Muzeum Sztuk Użytkowych jest w Zamku Królewskim i ma te same godziny oraz ceny: bierzemy je z karty Zamku,
+# żeby po zmianie jednej nie rozjechały się dwie strony.
+_ZAMEK = next(_a for _a in ATTRACTIONS if _a["slug"] == "zamek-krolewski")
+for _a in GAPS3:
+    if _a["hours"] is None:
+        _a["hours"], _a["tickets"] = _ZAMEK["hours"], _ZAMEK["tickets"]
 
 # Przegląd 09.10.2026: godziny i ceny 70 atrakcji z liczbami porównano z oficjalnymi stronami obiektów
 # (cenniki PDF, strony muzeów, kasy biletowe). Atrakcje bezpłatne i całodobowe (opisowe godziny) nie mają

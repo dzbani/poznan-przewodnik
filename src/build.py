@@ -14,6 +14,7 @@ from data_guide import (TOP10, KIDS, INDOOR_EXTRA, PLANS, HISTORY, LEGENDS, DIAL
                         CLIMATE, TOILETS)
 from data_events import CALENDAR, CAL_CHECKED
 from data_theatres import THEATRES, THEATRE_SOURCES, THEATRES_CHECKED
+from data_gaps3 import VIEWPOINTS
 import seo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -206,6 +207,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}atrakcje.html">Wszystkie atrakcje</a></li>
       <li><a href="{prefix}muzea.html">Muzea: godziny i ceny</a></li>
       <li><a href="{prefix}zmiany.html">Co się zmieniło</a></li>
+      <li><a href="{prefix}punkty-widokowe.html">Punkty widokowe w Poznaniu</a></li>
       <li><a href="{prefix}mapa.html">Mapa atrakcji</a></li>
       <li><a href="{prefix}plany.html">Plany zwiedzania</a></li>
       <li><a href="{prefix}informacje.html">Informacje praktyczne</a></li>
@@ -499,6 +501,8 @@ def build_attraction(a, idx):
     same = [x for x in ATTRACTIONS if x["cat"] == a["cat"] and x["slug"] != a["slug"]]
     others = "".join(card(x, "../") for x in same[:3])
     sources = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener">{escape(t)}</a></li>' for t, u in a["sources"])
+    see = "".join(f'<li><a href="../{escape(t)}.html">{escape(l)}</a></li>' for l, t in a.get("see_also", []))
+    see_html = f'<section class="seealso"><h2>Zobacz też</h2><ul>{see}</ul></section>' if see else ""
     prev_a = ATTRACTIONS[idx - 1]
     next_a = ATTRACTIONS[(idx + 1) % len(ATTRACTIONS)]
     body = f"""
@@ -524,6 +528,7 @@ def build_attraction(a, idx):
   <article class="a-main">
     {status}
     {sections}
+    {see_html}
     <section class="sources">
       <h2>Źródła informacji</h2>
       <ul>{sources}</ul>
@@ -1285,6 +1290,45 @@ def build_changes():
                 active="atrakcje")
 
 
+def build_viewpoints():
+    """Zestawienie punktów widokowych. Opisy pochodzą z kart atrakcji (data_gaps3.VIEWPOINTS), a godziny i ceny
+    zostają tylko na kartach, żeby dwie wersje nie rozjechały się po aktualizacji."""
+    link = lambda a: f'<a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>'
+    sections = []
+    for slug, what, _ in VIEWPOINTS:
+        a = BY_SLUG[slug]
+        sections.append(f"""<section id="{slug}">
+  <h2>{link(a)}</h2>
+  <p>{escape(what)}</p>
+  <p class="muted small">Sprawdzono {a['checked']}. <a href="atrakcje/{slug}.html">Godziny, ceny i dojazd</a></p>
+</section>""")
+    free = [BY_SLUG[s] for s, _, p in VIEWPOINTS if p == "bezpłatny"]
+    paid = [BY_SLUG[s] for s, _, p in VIEWPOINTS if p == "płatny"]
+    count_word = {3: "Trzy", 4: "Cztery", 5: "Pięć", 6: "Sześć", 7: "Siedem"}.get(len(VIEWPOINTS), str(len(VIEWPOINTS)))
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Zestawienie</p>
+  <h1>Punkty widokowe w Poznaniu: wieże i tarasy z panoramą miasta</h1>
+  <p class="lead">{count_word} miejsc, z których zobaczysz Poznań i okolice z góry: taras i wieże w mieście oraz dwie bezpłatne wieże na Szachtach i w Czmońcu. Każde miejsce ma kartę z godzinami, cenami i dojazdem (<a href="jak-weryfikujemy.html">jak weryfikujemy informacje</a>).</p>
+</header>
+
+<div class="wrap prose">
+<section>
+  <h2>Który punkt wybrać</h2>
+  <ul>
+    <li><strong>W mieście, za bilet:</strong> {", ".join(link(a) for a in paid)}.</li>
+    <li><strong>Bezpłatnie:</strong> {", ".join(link(a) for a in free)}.</li>
+  </ul>
+  <p class="muted small">Godziny i ceny zmieniają się, więc przed wizytą sprawdź je na karcie miejsca i na stronie obiektu.</p>
+</section>
+{"".join(sections)}
+</div>
+"""
+    return page("Punkty widokowe w Poznaniu: wieże i tarasy z panoramą miasta – Odkrywaj Poznań", body,
+                desc="Gdzie zobaczyć Poznań z góry: taras Collegium Altum na 18. piętrze, wieża Zamku Królewskiego (43 m), wieża archikatedry oraz bezpłatne wieże na Szachtach (25 m) i w Czmońcu.",
+                active="atrakcje")
+
+
 def build_privacy():
     mail = f'<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>'
     ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
@@ -1464,7 +1508,7 @@ def main():
         shutil.copy(os.path.join(ROOT, "src", name), os.path.join(ROOT, "assets", name))
     out = {"index.html": build_index(), "informacje.html": build_info(), "plany.html": build_plans(),
            "kalendarz.html": build_calendar(), "teatry.html": build_theatres(), "atrakcje.html": build_attractions(),
-           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(), "muzea.html": build_museums(), "zmiany.html": build_changes(),
+           "prywatnosc.html": build_privacy(), "jak-weryfikujemy.html": build_method(), "muzea.html": build_museums(), "zmiany.html": build_changes(), "punkty-widokowe.html": build_viewpoints(),
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)

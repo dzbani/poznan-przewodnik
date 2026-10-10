@@ -394,5 +394,6 @@ TRIPS2 = [
         ]),
         sources=[("Visit Poznań: Wieża widokowa w Czmońcu (dojazd, stan 10.02.2024)", "https://visitpoznan.pl/wieza-widokowa-w-czmoncu"),
                  ("Wikipedia: Czmoniec (wieża widokowa, 2010)", "https://pl.wikipedia.org/wiki/Czmoniec")],
+        see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe")],
     ),
 ]
