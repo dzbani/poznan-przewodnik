@@ -3,11 +3,11 @@
 Każde wydarzenie: id, month (miesiąc, w którym zwykle się zaczyna), name, place, when (kiedy zwykle),
 dates (start, koniec) bieżącej edycji w formacie RRRR-MM-DD albo None, gdy termin nie jest ogłoszony,
 note (o terminie), desc (akapity), link (etykieta, adres), sources.
-Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 2027 i Betlejem zaktualizowano 05.10.2026, dodano Festiwal „Pamiętajmy o Osieckiej” 06.10.2026. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
+Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 2027 i Betlejem zaktualizowano 05.10.2026, dodano Festiwal „Pamiętajmy o Osieckiej” 06.10.2026, 12.10.2026 dodano Rocznicę Poznańskiego Czerwca 1956 i termin Betlejem 2027. Pominięte celowo: Jarmark Świętojański (nie odbył się w 2024 ani 2025,
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "06.10.2026"
+CAL_CHECKED = "12.10.2026"
 
 CALENDAR = [
     dict(
@@ -128,11 +128,12 @@ CALENDAR = [
     dict(
         id="betlejem", month=11, name="Betlejem Poznańskie na Placu Wolności i Starym Rynku", place="Plac Wolności i Stary Rynek",
         when="Co roku od drugiej połowy listopada do 6 stycznia",
-        dates=("2026-11-20", "2027-01-06"), note="Plac Wolności: od 20 listopada 2026 do 6 stycznia 2027. Stary Rynek: od 21 listopada 2026 do 6 stycznia 2027.",
+        dates=("2026-11-20", "2027-01-06"), note="Plac Wolności: od 20 listopada 2026 do 6 stycznia 2027. Stary Rynek: od 21 listopada 2026 do 6 stycznia 2027. Kolejna edycja na Starym Rynku, według warunków konkursu Estrady Poznańskiej, ma trwać od 19 listopada 2027 do 6 stycznia 2028.",
         desc=["Świąteczne jarmarki w ścisłym centrum: stoiska z ozdobami, rękodziełem i jedzeniem, występy artystów i warsztaty dla dzieci. To jedyny jarmark, który miasto dopuszcza na Starym Rynku."],
         link=("pik.poznan.pl", "https://pik.poznan.pl/jarmark-bozonarodzeniowy-betlejem-poznanskie/"),
         sources=[("Betlejem Poznańskie (organizator): terminy 2026/27", "https://betlejempoznanskie.pl/"),
                  ("PIK Poznań: Jarmark Bożonarodzeniowy – Betlejem Poznańskie", "https://pik.poznan.pl/jarmark-bozonarodzeniowy-betlejem-poznanskie/"),
+                 ("Estrada Poznańska: warunki konkursu na Betlejem 2026–2029 (terminy edycji)", "https://www.estrada.poznan.pl/content/uploads/2026/06/warunki-konkursu-Betlejem-2026-2029.doc"),
                  ("ESKA Poznań: nie będzie Jarmarku Świętojańskiego 2025", "https://poznan.eska.pl/nie-bedzie-jarmarku-swietojanskiego-w-poznaniu-mamy-odpowiedz-jarmarki-nie-wpisuja-sie-w-obecne-cele-aa-9jCz-vvgX-b18q.html")],
     ),
     dict(
@@ -229,6 +230,15 @@ CALENDAR = [
         link=("alekino.com", "https://alekino.com/"),
         sources=[("Ale Kino! (organizator)", "https://alekino.com/"),
                  ("poznan.pl: festiwale", "https://www.poznan.pl/mim/turystyka/festiwale,poi,4240/")],
+    ),
+    dict(
+        id="czerwiec-1956", month=6, name="Rocznica Poznańskiego Czerwca 1956", place="Brama zakładów Cegielskiego i Pomnik Poznańskiego Czerwca 1956 (pl. Mickiewicza)",
+        when="Co roku 28 czerwca",
+        dates=("2027-06-28", "2027-06-28"), note="Termin jest stały, a program na 2027 rok nie jest jeszcze ogłoszony. W 2026 roku, w 70. rocznicę, główne uroczystości z powodu upałów przeniesiono do Auli Uniwersytetu im. Adama Mickiewicza.",
+        desc=["28 czerwca 1956 roku robotnicy z zakładów Cegielskiego wyszli na ulice miasta, a protest przerodził się w pierwszy masowy sprzeciw wobec władzy komunistycznej. Rocznicę obchodzi się co roku, m.in. składaniem wieńców pod tablicą przy bramie zakładów Cegielskiego i pod Pomnikiem Poznańskiego Czerwca 1956 na pl. Mickiewicza."],
+        link=("eska.pl", "https://www.eska.pl/news/polityka/karol-nawrocki-na-70-rocznicy-poznanskiego-czerwca-z-powodu-upalow-zmieniono-plany-aa-6sad-kD9f-q1DV.html"),
+        sources=[("ESKA: 70. rocznica Poznańskiego Czerwca (28.06.2026)", "https://www.eska.pl/news/polityka/karol-nawrocki-na-70-rocznicy-poznanskiego-czerwca-z-powodu-upalow-zmieniono-plany-aa-6sad-kD9f-q1DV.html"),
+                 ("IPN: obchody 70. rocznicy Poznańskiego Czerwca", "https://ipn.gov.pl/pl/aktualnosci/244498,Obchody-70-rocznicy-Poznanskiego-Czerwca-56039.pdf")],
     ),
     dict(
         id="rocznica-powstania", month=12, name="Rocznica wybuchu Powstania Wielkopolskiego", place="Centrum Poznania",
