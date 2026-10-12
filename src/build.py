@@ -846,7 +846,7 @@ def plan_stop(slug, when, hint):
 def build_plans():
     blocks = []
     for pid, title, who, intro, stops, note in PLANS:
-        mode = "walking" if pid in ("dzien-1", "dzien-2", "za-darmo") else "transit"
+        mode = "walking" if pid in ("jeden-dzien", "dzien-1", "dzien-2", "za-darmo") else "transit"
         pts = [quote_plus(f'{BY_SLUG[s]["name"]}, {BY_SLUG[s]["address"]}') for s, _, _ in stops]
         route = (f"https://www.google.com/maps/dir/?api=1&travelmode={mode}&origin={pts[0]}&destination={pts[-1]}"
                  + (f"&waypoints={'%7C'.join(pts[1:-1][:8])}" if len(pts) > 2 else ""))
@@ -870,7 +870,7 @@ def build_plans():
 </header>
 <div class="wrap plans">{''.join(blocks)}</div>
 """
-    return page("Plany zwiedzania – Odkrywaj Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, za darmo i w poniedziałek.", active="plany")
+    return page("Plany zwiedzania – Odkrywaj Poznań", body, desc="Gotowe plany zwiedzania Poznania: 1, 2 i 3 dni, z dziećmi, na deszcz, zimą, za darmo i w poniedziałek.", active="plany")
 
 
 def venue_card(v):
