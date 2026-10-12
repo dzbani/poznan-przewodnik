@@ -770,6 +770,7 @@ def info_extra():
   <p class="muted">Źródła: <a href="https://badam.poznan.pl/wp-content/uploads/2025/11/transport-miejski-w-poznaniu-w-2024-r.pdf" target="_blank" rel="noopener">Urząd Miasta Poznania: transport miejski w Poznaniu w 2024 r.</a>, <a href="https://www.mpk.poznan.pl/pojazdy/tramwaje-liniowe/" target="_blank" rel="noopener">MPK Poznań: tramwaje liniowe</a>.</p>
   <h3>Miejsca, w których potwierdziliśmy udogodnienia</h3>
   <ul>
+    <li><a href="atrakcje/zamek-krolewski.html">Zamek Królewski (Muzeum Sztuk Użytkowych)</a>: do muzeum prowadzi stroma droga z kostki brukowej. W przedprzewodniku muzeum z marca 2024 roku podano, że z powodu awarii zewnętrznego podnośnika osoby na wózkach wchodzą rampą przy budynku Raczyńskich (ok. 20 m za głównym wejściem). Po dotarciu na miejsce trzeba zadzwonić pod <span class="sel">61 856 80 73</span>. W środku jest winda na wszystkie poziomy wystaw i toaleta dla osób z niepełnosprawnością. Przed wizytą zadzwoń i zapytaj o aktualny stan wejścia.</li>
     <li><a href="atrakcje/termy-maltanskie.html">Termy Maltańskie</a>: osoby na wózkach wchodzą przez dolny hol na poziomie terenu.</li>
     <li><a href="atrakcje/taras-widokowy-collegium-altum.html">Taras widokowy Collegium Altum</a>: podjazd i winda, cały taras dostępny dla wózków.</li>
     <li><a href="atrakcje/zamek-kornik.html">Zamek w Kórniku</a>: jest winda, ale do zamku nie można wjechać wózkiem dziecięcym.</li>
