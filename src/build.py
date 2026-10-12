@@ -624,7 +624,7 @@ def build_info():
   <nav class="toc" aria-label="Spis treści">
     <a href="#przyjazd">Przyjazd</a><a href="#komunikacja">Komunikacja</a><a href="#karta">Karta turystyczna</a>
     <a href="#informacja">Informacja turystyczna</a><a href="#muzea">Muzea</a><a href="#bezplatne">Bezpłatnie</a>
-    <a href="#alarmowe">Numery alarmowe</a><a href="#zdrowie">Zdrowie</a><a href="#toalety">Toalety</a>
+    <a href="#alarmowe">Numery alarmowe</a><a href="#zdrowie">Zdrowie</a><a href="#toalety">Toalety</a><a href="#dostepnosc">Dostępność</a>
     <a href="#taksowki">Taksówki</a><a href="#parkowanie">Parkowanie</a><a href="#rowery">Rowerem</a>
     <a href="#przewodnicy">Przewodnicy</a><a href="#pogoda">Pogoda</a><a href="#smaki">Lokalne smaki</a>
   </nav>
@@ -760,6 +760,30 @@ def info_extra():
     <tbody>{toilets}</tbody>
   </table></div>
   <p class="muted">Źródło: <a href="https://www.poznan.pl/mim/turystyka/toalety-publiczne,poi,4094/" target="_blank" rel="noopener">poznan.pl: toalety publiczne</a>, pełna lista z mapą.</p>
+</section>
+
+<section id="dostepnosc">
+  <h2>Dostępność dla osób z niepełnosprawnościami</h2>
+  <p>Nie ma jednej miejskiej listy atrakcji dostosowanych do wózków, więc poniżej zebraliśmy to, co udało się potwierdzić. Przed wizytą zadzwoń do obiektu, bo warunki (winda, podjazd, toaleta) mogą się zmienić.</p>
+  <h3>Tramwaje i autobusy</h3>
+  <p>W 2024 roku niskopodłogowe były 79% tramwajów i wszystkie autobusy miejskie. Nie każdy tramwaj ma więc niską podłogę. Według MPK Poznań (stan na 6 maja 2026) w pełni niskopodłogowe są m.in. Solaris Tramino, Moderus Gamma i Siemens Combino. Tatra RT6 ma niską podłogę tylko w części, a Moderus Beta MF02 w niewielkiej. Strona MPK nie podaje, które linie obsługują które tramwaje, ani nie wskazuje oznaczenia niskopodłogowych w rozkładzie, więc w razie wątpliwości wybierz autobus albo poczekaj na następny tramwaj.</p>
+  <p class="muted">Źródła: <a href="https://badam.poznan.pl/wp-content/uploads/2025/11/transport-miejski-w-poznaniu-w-2024-r.pdf" target="_blank" rel="noopener">Urząd Miasta Poznania: transport miejski w Poznaniu w 2024 r.</a>, <a href="https://www.mpk.poznan.pl/pojazdy/tramwaje-liniowe/" target="_blank" rel="noopener">MPK Poznań: tramwaje liniowe</a>.</p>
+  <h3>Miejsca, w których potwierdziliśmy udogodnienia</h3>
+  <ul>
+    <li><a href="atrakcje/termy-maltanskie.html">Termy Maltańskie</a>: osoby na wózkach wchodzą przez dolny hol na poziomie terenu.</li>
+    <li><a href="atrakcje/taras-widokowy-collegium-altum.html">Taras widokowy Collegium Altum</a>: podjazd i winda, cały taras dostępny dla wózków.</li>
+    <li><a href="atrakcje/zamek-kornik.html">Zamek w Kórniku</a>: jest winda, ale do zamku nie można wjechać wózkiem dziecięcym.</li>
+    <li><a href="atrakcje/genius-loci.html">Rezerwat Archeologiczny Genius Loci</a> i <a href="atrakcje/muzeum-bambrow.html">Muzeum Bambrów Poznańskich</a>: obiekty opisane jako dostępne dla osób z niepełnosprawnościami.</li>
+    <li><a href="atrakcje/muzeum-sztuk-uzytkowych.html">Muzeum Sztuk Użytkowych</a>: trzy ścieżki zwiedzania dla osób z niepełnosprawnością wzroku, słuchu i intelektualną.</li>
+    <li><a href="teatry.html">Teatr Ósmego Dnia</a>: siedziba na II piętrze, przy wejściu są winda i platforma.</li>
+    <li><a href="atrakcje/rusalka.html">Jezioro Rusałka</a>: na kąpielisku jest wózek plażowy typu amfibia. O dostępność pytaj ratowników.</li>
+  </ul>
+  <h3>Miejsca bez windy</h3>
+  <ul>
+    <li><a href="atrakcje/palac-smielow.html">Pałac w Śmiełowie</a>: brak windy, schody przy wejściu głównym, toaleta niedostosowana.</li>
+    <li><a href="atrakcje/zamek-goluchow.html">Zamek w Gołuchowie</a>: trzy kondygnacje bez windy, schody przy wejściu głównym.</li>
+  </ul>
+  <p>Dostępność pozostałych atrakcji nie została jeszcze sprawdzona, więc ich brak na liście nie oznacza, że są niedostępne. Lista miejskich <a href="#toalety">toalet publicznych</a> na poznan.pl nie wskazuje, które są dostosowane do wózków.</p>
 </section>
 
 <section id="taksowki">
