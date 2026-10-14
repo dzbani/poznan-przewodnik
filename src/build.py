@@ -1568,19 +1568,42 @@ def main():
            "o-poznaniu.html": build_about(), "zdjecia.html": build_credits(), "mapa.html": build_map()}
     for i, a in enumerate(ATTRACTIONS):
         out[f"atrakcje/{a['slug']}.html"] = build_attraction(a, i)
+    # Wersja angielska (/en/): teksty w data_en.py, szablon w build_en.py.
+    import build_en
+    os.makedirs(os.path.join(ROOT, "en", "attractions"), exist_ok=True)
+    out.update(build_en.build_all())
+    en_of = build_en.page_map()                      # strona PL -> strona EN
+    pl_of = {v: k for k, v in en_of.items()}         # strona EN -> strona PL
     urls = []
     by_slug = {a["slug"]: a for a in ATTRACTIONS}
-    for path, html in out.items():
+
+    def clean_path(path):
         # Adres kanoniczny bez .html: te same strony działają też pod /x.html, więc wskazujemy Google właściwy.
-        clean = "" if path == "index.html" else path[:-len(".html")]
+        return path[:-len("index.html")] if path.endswith("index.html") else path[:-len(".html")]
+
+    for path, html in out.items():
+        clean = clean_path(path)
         urls.append(SITE_URL + clean)
-        att = by_slug.get(path[len("atrakcje/"):-len(".html")]) if path.startswith("atrakcje/") else None
-        if att and att.get("img"):
-            og_img, og_alt = og_image(att["img"]), att["img_alt"]
+        is_en = path.startswith("en/")
+        if is_en and path.startswith("en/attractions/"):
+            att = by_slug.get(path[len("en/attractions/"):-len(".html")])
         else:
-            og_img, og_alt = og_image("hero-rynek"), "Stary Rynek w Poznaniu"
-        html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n'
-                            + og_tags(html, SITE_URL + clean, og_img, og_alt), 1)
+            att = by_slug.get(path[len("atrakcje/"):-len(".html")]) if path.startswith("atrakcje/") else None
+        if att and att.get("img"):
+            og_img = og_image(att["img"])
+            og_alt = build_en.EN[att["slug"]]["img_alt"] if is_en else att["img_alt"]
+        else:
+            og_img, og_alt = og_image("hero-rynek"), "Old Market Square in Poznań" if is_en else "Stary Rynek w Poznaniu"
+        og = og_tags(html, SITE_URL + clean, og_img, og_alt)
+        if is_en:
+            og = og.replace('content="pl_PL"', 'content="en_US"')
+        alt = ""
+        if path in en_of or path in pl_of:
+            pl_path, en_path = (path, en_of[path]) if path in en_of else (pl_of[path], path)
+            alt = (f'<link rel="alternate" hreflang="pl" href="{SITE_URL}{clean_path(pl_path)}">\n'
+                   f'<link rel="alternate" hreflang="en" href="{SITE_URL}{clean_path(en_path)}">\n'
+                   f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}{clean_path(pl_path)}">\n')
+        html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n' + alt + og, 1)
         with open(os.path.join(ROOT, path), "w", encoding="utf-8", newline="\n") as f:
             f.write(clean_links(html))
     # Strona błędu: bez canonical i poza mapą strony.
