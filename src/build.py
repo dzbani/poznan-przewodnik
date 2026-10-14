@@ -192,7 +192,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
         {nav_link("informacje.html", "Praktycznie", "info")}
         {nav_link("o-poznaniu.html", "O Poznaniu", "o")}
         <li class="nav-extra"><a href="{prefix}teatry.html"{' aria-current="page"' if active == "teatry" else ""}>Teatry i koncerty</a></li>
-        <li class="nav-lang"><a href="{prefix}en/" hreflang="en" lang="en" aria-label="English version">EN</a></li>
+        <li class="nav-lang"><a href="{prefix}en/" hreflang="en" lang="en" aria-label="English version"><span class="l-short">EN</span><span class="l-long">English</span></a></li>
       </ul>
     </nav>
   </div>
@@ -662,7 +662,7 @@ def build_info():
 <section id="komunikacja">
   <h2>Komunikacja miejska</h2>
   <p>Tramwaje i autobusy organizuje Zarząd Transportu Miejskiego (ZTM). Cennik obowiązuje od 1 września 2025 roku. Bilety czasowe obowiązują we wszystkich strefach i pozwalają na przesiadki.</p>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <thead><tr><th scope="col">Bilet</th><th scope="col">Normalny</th><th scope="col">Ulgowy</th></tr></thead>
     <tbody>
       <tr><th scope="row">do 15 minut</th><td>5 zł</td><td>2,50 zł</td></tr>
@@ -721,7 +721,7 @@ def build_info():
 
 <section id="alarmowe">
   <h2>Numery alarmowe</h2>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <tbody>
       <tr><th scope="row">Numer alarmowy (wszystkie służby)</th><td class="sel big">112</td></tr>
       <tr><th scope="row">Pogotowie ratunkowe</th><td class="sel big">999</td></tr>
@@ -754,7 +754,7 @@ def info_extra():
   <p>Na SOR jedź tylko w stanach nagłych. Przy mniej pilnych dolegliwościach wieczorem, w nocy i w weekend pomoże nocna i świąteczna opieka zdrowotna.</p>
   <h3>Nocna i świąteczna opieka zdrowotna</h3>
   <p>Działa od poniedziałku do piątku w godzinach 18:00–8:00 oraz całodobowo w soboty, niedziele i święta. Nie musisz mieszkać w Poznaniu, żeby z niej skorzystać. Wybrane punkty z listy podanej przez miasto (poznan.pl, grudzień 2025):</p>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <thead><tr><th scope="col">Placówka</th><th scope="col">Adres</th><th scope="col">Telefon</th></tr></thead>
     <tbody>
       <tr><th scope="row">Centrum Medyczne HCP</th><td>ul. 28 Czerwca 1956 r. 194</td><td class="sel">61 227 41 88</td></tr>
@@ -773,7 +773,7 @@ def info_extra():
 <section id="toalety">
   <h2>Toalety publiczne</h2>
   <p>Miejskie toalety przy trasach turystycznych. Toalety automatyczne z tej listy są czynne całą dobę.</p>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <thead><tr><th scope="col">Miejsce</th><th scope="col">Gdzie dokładnie</th><th scope="col">Godziny</th></tr></thead>
     <tbody>{toilets}</tbody>
   </table></div>

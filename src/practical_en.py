@@ -55,7 +55,7 @@ def body(checked):
 <section id="transport">
   <h2>Public transport</h2>
   <p>Trams and buses are run by the Public Transport Authority (ZTM). The fare list has applied since 1 September 2025. Time tickets are valid in all zones and allow changes between vehicles.</p>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <thead><tr><th scope="col">Ticket</th><th scope="col">Standard</th><th scope="col">Reduced</th></tr></thead>
     <tbody>
       <tr><th scope="row">up to 15 minutes</th><td>PLN 5</td><td>PLN 2.50</td></tr>
@@ -102,7 +102,7 @@ def body(checked):
 
 <section id="emergency">
   <h2>Emergency numbers</h2>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <tbody>
       <tr><th scope="row">Emergency number (all services)</th><td class="sel big">112</td></tr>
       <tr><th scope="row">Ambulance</th><td class="sel big">999</td></tr>
@@ -126,7 +126,7 @@ def body(checked):
   <p>Go to an emergency department only in urgent cases. For less urgent problems in the evening, at night and at weekends, the night and holiday healthcare service can help.</p>
   <h3>Night and holiday healthcare</h3>
   <p>It operates Monday to Friday 18:00–8:00 and around the clock on Saturdays, Sundays and public holidays. You do not have to live in Poznań to use it. Selected points from the list published by the city (poznan.pl, December 2025):</p>
-  <div class="table-wrap"><table class="grid">
+  <div class="table-wrap"><table class="grid grid-fit">
     <thead><tr><th scope="col">Facility</th><th scope="col">Address</th><th scope="col">Phone</th></tr></thead>
     <tbody>
       <tr><th scope="row">Centrum Medyczne HCP</th><td>ul. 28 Czerwca 1956 r. 194</td><td class="sel">61 227 41 88</td></tr>

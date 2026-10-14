@@ -70,6 +70,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .topbar nav a[aria-current="page"] { color: var(--gold-2); }
 .menu-btn { display: none; }
 .nav-extra { display: none; }
+.nav-lang .l-long { display: none; }
 /* Bez JavaScriptu na wąskim ekranie zostaje pasek przewijany w bok. */
 @media (max-width: 900px) {
   html:not(.js) .topbar-in { padding: 8px 0 4px; gap: 2px; flex-direction: column; align-items: stretch; }
@@ -97,6 +98,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
   .js .menu-open nav { display: block; }
   .js .topbar ul { flex-direction: column; gap: 0; padding: 8px 16px 14px; }
   .js .nav-extra { display: block; }
+  .js .nav-lang .l-long { display: inline; }
+  .js .nav-lang .l-short { display: none; }
   .js .topbar nav a { padding: 13px 12px; font-size: 1.05rem; border-bottom: 1px solid var(--line); border-radius: 0; }
   .js .topbar li:last-child a { border-bottom: 0; }
   .js .topbar nav a[aria-current="page"] { font-weight: 600; background: var(--surface-2); border-radius: 8px; }
@@ -294,6 +297,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .grid thead th { background: var(--surface-2); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
 .grid tbody tr + tr th, .grid tbody tr + tr td { border-top: 1px solid rgba(34,67,127,0.10); }
 .grid tbody th { font-weight: 500; }
+/* Tabele o 3–4 kolumnach (grid-fit) mieszczą się na telefonie bez przewijania w bok. */
+@media (max-width: 600px) {
+  .grid.grid-fit { min-width: 0; font-size: 0.85rem; }
+  .grid-fit th, .grid-fit td { padding: 8px 8px; overflow-wrap: break-word; }
+  .grid-fit thead th { font-size: 0.68rem; letter-spacing: 0.04em; }
+}
 .grid .big { font-family: var(--serif); font-size: 1.4rem; font-weight: 700; color: var(--gold-2); }
 .credits img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; }
 

@@ -35,16 +35,21 @@ def pl_hash(a):
     return hashlib.sha1(json.dumps(data, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
 
 
+def main_text(html):
+    """Sama treść strony (bez nawigacji i stopki), żeby zmiana menu nie unieważniała tłumaczenia."""
+    return html[html.index('<main id="tresc">'):html.index("</main>")]
+
+
 def practical_hash():
     """Skrót polskiej strony Informacje praktyczne (build.build_info), by wykryć zmianę bez zmiany angielskiej."""
     import build
-    return hashlib.sha1(build.build_info().encode("utf-8")).hexdigest()[:12]
+    return hashlib.sha1(main_text(build.build_info()).encode("utf-8")).hexdigest()[:12]
 
 
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
-    return hashlib.sha1(build.build_privacy().encode("utf-8")).hexdigest()[:12]
+    return hashlib.sha1(main_text(build.build_privacy()).encode("utf-8")).hexdigest()[:12]
 
 
 def load():
