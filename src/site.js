@@ -85,7 +85,8 @@
     tabs.forEach(function (t) { t.setAttribute('aria-pressed', String(t.dataset.filter === state.cat)); });
     quick.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.quick === state.quick)); });
     var filtered = state.cat !== 'all' || state.quick !== 'all' || words.length;
-    if (result) result.textContent = filtered ? 'Znaleziono: ' + shown + ' z ' + cards.length : '';
+    var en = document.documentElement.lang === 'en';
+    if (result) result.textContent = filtered ? (en ? 'Found: ' + shown + ' of ' + cards.length : 'Znaleziono: ' + shown + ' z ' + cards.length) : '';
     if (empty) empty.hidden = shown > 0;
   }
 

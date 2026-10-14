@@ -8,7 +8,7 @@ import re
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, tags, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, HISTORY, CLIMATE, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
@@ -16,6 +16,7 @@ from calendar_en import CAL_EN
 import theatres_en
 import museums_en
 import viewpoints_en
+import about_en
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -44,9 +45,11 @@ def translated():
     return [a["slug"] for a in ATTRACTIONS if a["slug"] in EN]
 
 
-def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
+def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts=""):
     """Szablon strony angielskiej. prefix = ścieżka do korzenia serwisu; alt = polski odpowiednik (od korzenia)."""
     cur = ' aria-current="page"' if active == "attractions" else ""
+    cur_map = ' aria-current="page"' if active == "map" else ""
+    cur_ab = ' aria-current="page"' if active == "about" else ""
     cur_pr = ' aria-current="page"' if active == "practical" else ""
     cur_pl = ' aria-current="page"' if active == "plans" else ""
     cur_cal = ' aria-current="page"' if active == "calendar" else ""
@@ -81,12 +84,14 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="{prefix}en/"{cur}>Attractions</a></li>
+        <li><a href="{prefix}en/attractions.html"{cur}>Attractions</a></li>
+        <li><a href="{prefix}en/map.html"{cur_map}>Map</a></li>
         <li><a href="{prefix}en/plans.html"{cur_pl}>Itineraries</a></li>
         <li><a href="{prefix}en/calendar.html"{cur_cal}>Events</a></li>
-        <li><a href="{prefix}en/theatres.html"{cur_th}>Theatres</a></li>
         <li><a href="{prefix}en/practical.html"{cur_pr}>Practical</a></li>
-        <li><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="{prefix}en/about.html"{cur_ab}>About Poznań</a></li>
+        <li class="nav-extra"><a href="{prefix}en/theatres.html"{cur_th}>Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -102,10 +107,17 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="{prefix}en/">All attractions (English)</a></li>
+      <li><a href="{prefix}en/attractions.html">All attractions</a></li>
       <li><a href="{prefix}en/museums.html">Museums: hours and prices</a></li>
       <li><a href="{prefix}en/viewpoints.html">Viewpoints in Poznań</a></li>
-      <li><a href="{prefix}atrakcje.html" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="{prefix}en/map.html">Map of attractions</a></li>
+      <li><a href="{prefix}en/plans.html">Itineraries</a></li>
+      <li><a href="{prefix}en/practical.html">Practical information</a></li>
+      <li><a href="{prefix}en/about.html">About Poznań: history, legends, dialect</a></li>
+      <li><a href="{prefix}en/calendar.html">Events calendar</a></li>
+      <li><a href="{prefix}en/theatres.html">Theatres and concerts</a></li>
+      <li><a href="{prefix}zdjecia.html" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="{prefix}jak-weryfikujemy.html" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -127,7 +139,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden>{icon("up")}</button>
-<script src="{prefix}assets/site.js?v={asset_v("site.js")}"></script>
+{scripts}<script src="{prefix}assets/site.js?v={asset_v("site.js")}"></script>
 </body>
 </html>
 """
@@ -144,17 +156,27 @@ def kv_rows(rows):
     return "".join(f'<tr><th scope="row">{escape(k)}</th><td>{escape(v)}</td></tr>' for k, v in rows)
 
 
-def card_en(a, prefix):
+CHIP = {"free": "Free", "kids": "For children"}
+
+
+def card_en(a, prefix, num=None):
+    pl = BY_SLUG[a["slug"]]
     badge_cls = "badge badge-closed" if a["status"] and a["status"][0] == "closed" else "badge"
     cat = CATEGORIES_EN[a["cat"]][0]
-    return f"""<li class="card">
+    tg = tags(pl)
+    words = " ".join([a["name"], pl["name"], a["short"], cat, a["address"], a["badge"]])
+    num_html = f'<span class="num" aria-hidden="true">{num}</span>' if num else ""
+    chips = "".join(f'<span class="chip chip-{t}">{CHIP[t]}</span>' for t in tg if t != "indoor")
+    chips_html = f'<p class="chips">{chips}</p>' if chips else ""
+    return f"""<li class="card" data-cat="{a['cat']}" data-tags="{' '.join(tg)}" data-words="{escape(words)}">
   <a href="{prefix}en/attractions/{a['slug']}.html">
     <div class="card-media">{media_html(a, prefix, lazy=True)}
-      <span class="{badge_cls}">{escape(a['badge'])}</span></div>
+      <span class="{badge_cls}">{escape(a['badge'])}</span>{num_html}</div>
     <div class="card-body">
       <p class="eyebrow">{escape(cat)}</p>
       <h3>{escape(a['name'])}</h3>
       <p>{escape(a['short'])}</p>
+      {chips_html}
       <span class="more">Details {icon('arrow')}</span>
     </div>
   </a>
@@ -328,30 +350,6 @@ def build_attraction_en(slug, idx, slugs):
     lat_lon = (t["lat"], t["lon"]) if t else (COORDS[slug]["lat"], COORDS[slug]["lon"])
     return page_en(seo_title(pl, a["name"]), body, prefix=p, desc=seo_description(a, pl), alt=f"atrakcje/{slug}.html",
                    active="attractions", head=json_ld(a, pl, cat_name, lat_lon))
-
-
-def build_index_en(slugs):
-    cards = "".join(card_en(merged(s), "../") for s in slugs)
-    body = f"""
-<section class="wrap section list-page">
-  <div class="section-head">
-    <p class="kicker">Visitor guide</p>
-    <h1>Discover Poznań</h1>
-    <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
-    <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
-  </div>
-  <p><a class="btn btn-ghost" href="viewpoints.html">Viewpoints: towers and terraces {icon('arrow')}</a>
-  <a class="btn btn-ghost" href="museums.html">Museums: hours, prices and free days {icon('arrow')}</a>
-  <a class="btn btn-ghost" href="theatres.html">Theatres and concerts: opera, philharmonic, dance {icon('arrow')}</a>
-  <a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
-  <a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
-  <a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
-  <ul class="cards">{cards}</ul>
-</section>
-"""
-    return page_en("Discover Poznań – an independent visitor guide | Odkrywaj Poznań", body, prefix="../",
-                   desc="Independent guide to Poznań: what to see, opening hours, ticket prices and how to get there, checked against official sources.",
-                   alt="index.html", active="attractions")
 
 
 # Strona PL → strona EN (do hreflang w build.main)
@@ -631,7 +629,7 @@ def build_museums_en():
 </div>
 """
     return page_en("Museums in Poznań: opening hours, ticket prices and free days | Odkrywaj Poznań", body, prefix="../",
-                   alt="muzea.html", active="",
+                   alt="muzea.html", active="attractions",
                    desc=f"Overview of {len(mus)} museums in Poznań: opening hours, standard and reduced ticket prices, free-admission days and museums open on Monday.")
 
 
@@ -669,28 +667,101 @@ def build_viewpoints_en():
 </div>
 """
     return page_en("Viewpoints in Poznań: towers and terraces with a view of the city | Odkrywaj Poznań", body, prefix="../",
-                   alt="punkty-widokowe.html", active="",
+                   alt="punkty-widokowe.html", active="attractions",
                    desc="Where to see Poznań from above: the Collegium Altum terrace, the Royal Castle tower (43 m), the archcathedral tower and the free towers at Szachty and in Czmoniec.")
+
+
+def build_about_en():
+    L = about_en.LABELS
+
+    def more(slug):
+        if slug in EN:
+            return f' <a href="attractions/{slug}.html">{escape(EN[slug]["name"])} →</a>'
+        return f' <a href="../atrakcje/{slug}.html" hreflang="pl">{escape(BY_SLUG[slug]["name"])} (in Polish) →</a>'
+
+    timeline = "".join(
+        f'<li><p class="tl-date">{escape(d)}</p><p>{escape(t)}{more(pl[2]) if len(pl) > 2 else ""}</p></li>'
+        for (d, t), pl in zip(about_en.HISTORY, HISTORY))
+    legends = "".join(f'<article class="legend"><h3>{escape(t)}</h3><p>{escape(x)}</p></article>' for t, x in about_en.LEGENDS)
+    words = "".join(f'<div><dt>{escape(w)}</dt><dd>{escape(m)}</dd></div>' for w, m in about_en.DIALECT)
+    dishes = "".join(f'<li><h3>{escape(n)}</h3><p>{escape(d)}</p></li>' for n, d in about_en.CUISINE)
+    climate = "".join(f'<div class="fact"><p class="fact-k">{escape(v)}</p><p>{escape(l)}</p></div>' for v, l in about_en.CLIMATE)
+    ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener" hreflang="pl">{text}</a>'
+    rogal = '<a href="attractions/rogalowe-muzeum.html">Croissant Museum</a>'
+    pyry = '<a href="../atrakcje/muzeum-pyry.html" hreflang="pl">Poznań Potato Museum (in Polish)</a>'
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">{L['kicker']}</p>
+  <h1>{L['title']}</h1>
+  <p class="lead">{about_en.INTRO}</p>
+  <nav class="toc" aria-label="Contents">
+    <a href="#history">History</a><a href="#legends">Legends</a><a href="#dialect">Dialect</a>
+    <a href="#food">Food</a><a href="#climate">Climate</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="history">
+  <h2>{L['h_history']}</h2>
+  <ol class="timeline">{timeline}</ol>
+  <p class="muted">Sources (in Polish): {ext("https://www.poznan.pl/mim/turystyka/rys-historyczny-poznania,p,25064,25065.html?wo_id=2024", "poznan.pl: historical outline")}, Wikipedia articles on individual events, and the attraction pages in this guide.</p>
+</section>
+
+<section id="legends">
+  <h2>{L['h_legends']}</h2>
+  <div class="legends">{legends}</div>
+  <p class="muted">Sources (in Polish): {ext("https://www.poznan.pl/mim/wortals/turystyka/podania-i-legendy,p,27888,27889.html", "poznan.pl: tales and legends")} (summaries) and {ext("https://pl.wikipedia.org/wiki/Rogal_%C5%9Bwi%C4%99tomarci%C5%84ski", "Wikipedia: rogal świętomarciński")}.</p>
+</section>
+
+<section id="dialect">
+  <h2>{L['h_dialect']}</h2>
+  <p>{L['dialect_intro']}</p>
+  <dl class="glossary">{words}</dl>
+  <p class="muted">Source (in Polish): {ext("https://www.poznan.pl/mim/slownik/", "poznan.pl: dictionary of the Poznań dialect")}.</p>
+</section>
+
+<section id="food">
+  <h2>{L['h_food']}</h2>
+  <ul class="dishes">{dishes}</ul>
+  <p>{L['food_p1'].format(rogal=rogal, pyry=pyry)}</p>
+  <p>{L['food_p2']}</p>
+  <p class="muted">Sources (in Polish): {ext("https://pl.wikipedia.org/wiki/Kuchnia_wielkopolska", "Wikipedia: Greater Poland cuisine")}, {ext("https://www.poznan.pl/mim/info/news/25-restauracji-z-poznania-i-okolic-z-wyroznieniami-michelin-2026,281300.html", "poznan.pl: Michelin 2026 distinctions")}.</p>
+</section>
+
+<section id="climate">
+  <h2>{L['h_climate']}</h2>
+  <div class="facts facts-flat">{climate}</div>
+  <p>{L['climate_p']}</p>
+  <p class="muted">{L['climate_src'].format(imgw_data=ext("https://danepubliczne.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/miesieczne/synop/", "IMGW-PIB data"), imgw=ext("https://meteo.imgw.pl/", "IMGW"))}</p>
+</section>
+</div>
+"""
+    return page_en("About Poznań: history, legends, dialect, food and climate | Odkrywaj Poznań", body, prefix="../",
+                   alt="o-poznaniu.html", active="about",
+                   desc="A short history of Poznań, the legends of the goats and the bugle call, a glossary of the Poznań dialect, Greater Poland food and climate.")
 
 
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
-         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html",
-         "punkty-widokowe.html": "en/viewpoints.html"}
+         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html", "atrakcje.html": "en/attractions.html", "mapa.html": "en/map.html",
+         "punkty-widokowe.html": "en/viewpoints.html", "o-poznaniu.html": "en/about.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
 
 
 def build_all():
+    import pages_en
     slugs = translated()
-    out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en(),
+    out = {"en/index.html": pages_en.build_home_en(), "en/attractions.html": pages_en.build_attractions_en(),
+           "en/map.html": pages_en.build_map_en(), "en/privacy.html": build_privacy_en(),
            "en/practical.html": build_practical_en(),
            "en/plans.html": build_plans_en(),
            "en/calendar.html": build_calendar_en(),
            "en/theatres.html": build_theatres_en(),
            "en/museums.html": build_museums_en(),
-           "en/viewpoints.html": build_viewpoints_en()}
+           "en/viewpoints.html": build_viewpoints_en(),
+           "en/about.html": build_about_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

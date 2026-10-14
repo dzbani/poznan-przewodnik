@@ -97,12 +97,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/ogrod-botaniczny" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/ogrod-botaniczny" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -165,7 +167,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="przyroda" data-tags="free kids" data-words="Lake Malta Jezioro Maltańskie An artificial lake with a regatta course. Walks, cycling and things to do all year round. Parks and nature Jezioro Maltańskie, 61-131 Poznań Free">
   <a href="../../en/attractions/jezioro-maltanskie">
     <div class="card-media"><img src="../../img/jezioro-malta.jpg" srcset="../../img/r/jezioro-malta-640.webp 640w, ../../img/r/jezioro-malta-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A sculpture by Lake Malta" loading="lazy" decoding="async">
       <span class="badge">Free</span></div>
@@ -173,10 +175,11 @@
       <p class="eyebrow">Parks and nature</p>
       <h3>Lake Malta</h3>
       <p>An artificial lake with a regatta course. Walks, cycling and things to do all year round.</p>
+      <p class="chips"><span class="chip chip-free">Free</span><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="przyroda" data-tags="" data-words="Poznań Palm House Palmiarnia Poznańska One of the largest palm houses in Europe. Currently closed for rebuilding. Parks and nature ul. Matejki 18, 60-766 Poznań Closed">
   <a href="../../en/attractions/palmiarnia">
     <div class="card-media"><img src="../../img/palmiarnia-hero.jpg" srcset="../../img/r/palmiarnia-hero-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Inside the Poznań Palm House" loading="lazy" decoding="async">
       <span class="badge badge-closed">Closed</span></div>
@@ -184,10 +187,11 @@
       <p class="eyebrow">Parks and nature</p>
       <h3>Poznań Palm House</h3>
       <p>One of the largest palm houses in Europe. Currently closed for rebuilding.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="przyroda" data-tags="free" data-words="Szachty Szachty Ponds in former clay pits, a 25-metre viewing tower and a nature trail. Free entry. Parks and nature ul. Mieleszyńska / ul. Witaszka, 60-113 Poznań Free entry">
   <a href="../../en/attractions/szachty">
     <div class="card-media"><img src="../../img/szachty.jpg" srcset="../../img/r/szachty-640.webp 640w, ../../img/r/szachty-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The view from the top of the viewing tower over the ponds at Szachty" loading="lazy" decoding="async">
       <span class="badge">Free entry</span></div>
@@ -195,6 +199,7 @@
       <p class="eyebrow">Parks and nature</p>
       <h3>Szachty</h3>
       <p>Ponds in former clay pits, a 25-metre viewing tower and a nature trail. Free entry.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -214,10 +219,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -239,6 +251,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

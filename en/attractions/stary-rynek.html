@@ -93,12 +93,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/stary-rynek" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/stary-rynek" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -161,7 +163,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="zabytki" data-tags="free" data-words="Ostrów Tumski and the Archcathedral Ostrów Tumski i Archikatedra The oldest cathedral in Poland. The tombs of the first rulers and the Golden Chapel. Sights and history ul. Ostrów Tumski 17, 61-109 Poznań Cathedral free">
   <a href="../../en/attractions/ostrow-tumski">
     <div class="card-media"><img src="../../img/ostrow-tumski.jpg" srcset="../../img/r/ostrow-tumski-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Archcathedral on Ostrów Tumski" loading="lazy" decoding="async">
       <span class="badge">Cathedral free</span></div>
@@ -169,10 +171,11 @@
       <p class="eyebrow">Sights and history</p>
       <h3>Ostrów Tumski and the Archcathedral</h3>
       <p>The oldest cathedral in Poland. The tombs of the first rulers and the Golden Chapel.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="zabytki" data-tags="kids indoor" data-words="Gate of Poznań ICHOT Brama Poznania ICHOT A multimedia story of the beginnings of the Polish state, opposite the cathedral. Sights and history ul. Gdańska 2, 61-123 Poznań Closed Mon">
   <a href="../../en/attractions/brama-poznania">
     <div class="card-media"><img src="../../img/brama-poznania.jpg" srcset="../../img/r/brama-poznania-640.webp 640w, ../../img/r/brama-poznania-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Gate of Poznań building above the Cybina river" loading="lazy" decoding="async">
       <span class="badge">Closed Mon</span></div>
@@ -180,10 +183,11 @@
       <p class="eyebrow">Sights and history</p>
       <h3>Gate of Poznań ICHOT</h3>
       <p>A multimedia story of the beginnings of the Polish state, opposite the cathedral.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="zabytki" data-tags="indoor" data-words="Royal Castle Zamek Królewski The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower. Sights and history Góra Przemysła 1, 61-768 Poznań Tue free">
   <a href="../../en/attractions/zamek-krolewski">
     <div class="card-media"><img src="../../img/zamek-krolewski.jpg" srcset="../../img/r/zamek-krolewski-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The tower of the Royal Castle on Przemysł Hill" loading="lazy" decoding="async">
       <span class="badge">Tue free</span></div>
@@ -191,6 +195,7 @@
       <p class="eyebrow">Sights and history</p>
       <h3>Royal Castle</h3>
       <p>The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -210,10 +215,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -235,6 +247,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

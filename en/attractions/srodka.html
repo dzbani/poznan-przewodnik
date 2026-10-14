@@ -93,12 +93,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/srodka" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/srodka" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -161,7 +163,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="wspolczesny" data-tags="free indoor" data-words="Stary Browar (Old Brewery) Stary Browar A 19th-century Hugger brewery turned into a centre of shopping and art, with sculptures by Mitoraj and award-winning architecture. Contemporary Poznań ul. Półwiejska 42, 61-888 Poznań Free">
   <a href="../../en/attractions/stary-browar">
     <div class="card-media"><img src="../../img/stary-browar.jpg" srcset="../../img/r/stary-browar-640.webp 640w, ../../img/r/stary-browar-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The brick buildings of Stary Browar" loading="lazy" decoding="async">
       <span class="badge">Free</span></div>
@@ -169,10 +171,11 @@
       <p class="eyebrow">Contemporary Poznań</p>
       <h3>Stary Browar (Old Brewery)</h3>
       <p>A 19th-century Hugger brewery turned into a centre of shopping and art, with sculptures by Mitoraj and award-winning architecture.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="wspolczesny" data-tags="free" data-words="Jeżyce Jeżyce Art Nouveau townhouses, a market on Rynek Jeżycki and the Jeżycjada trail of Małgorzata Musierowicz. Contemporary Poznań Rynek Jeżycki, 60-847 Poznań Free">
   <a href="../../en/attractions/jezyce">
     <div class="card-media"><img src="../../img/jezyce.jpg" srcset="../../img/r/jezyce-640.webp 640w, ../../img/r/jezyce-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Townhouses on Rynek Jeżycki" loading="lazy" decoding="async">
       <span class="badge">Free</span></div>
@@ -180,10 +183,11 @@
       <p class="eyebrow">Contemporary Poznań</p>
       <h3>Jeżyce</h3>
       <p>Art Nouveau townhouses, a market on Rynek Jeżycki and the Jeżycjada trail of Małgorzata Musierowicz.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="wspolczesny" data-tags="" data-words="Collegium Altum Viewing Terrace (UEP) Taras widokowy Collegium Altum (UEP) A panorama of Poznań in all four directions from the 18th floor of the red tower block of the University of Economics. Contemporary Poznań ul. Powstańców Wielkopolskich 16, 61-895 Poznań Daily 9–19">
   <a href="../../en/attractions/taras-widokowy-collegium-altum">
     <div class="card-media"><img src="../../img/taras-widokowy-collegium-altum.jpg" srcset="../../img/r/taras-widokowy-collegium-altum-640.webp 640w, ../../img/r/taras-widokowy-collegium-altum-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The red Collegium Altum tower block above the roofs of Poznań" loading="lazy" decoding="async">
       <span class="badge">Daily 9–19</span></div>
@@ -191,6 +195,7 @@
       <p class="eyebrow">Contemporary Poznań</p>
       <h3>Collegium Altum Viewing Terrace (UEP)</h3>
       <p>A panorama of Poznań in all four directions from the 18th floor of the red tower block of the University of Economics.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -210,10 +215,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -235,6 +247,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
   var el = document.getElementById("map");
   var dataEl = document.getElementById("map-data");
   if (!el || !dataEl || typeof L === "undefined") {
-    if (el) el.innerHTML = '<p class="map-error">Nie udało się wczytać mapy. Odśwież stronę.</p>';
+    if (el) el.innerHTML = '<p class="map-error">' + (document.documentElement.lang === "en" ? "The map could not be loaded. Please refresh the page." : "Nie udało się wczytać mapy. Odśwież stronę.") + '</p>';
     return;
   }
   var data = JSON.parse(dataEl.textContent);
@@ -21,8 +21,13 @@
   var CENTER = [52.4084, 16.9342];
   map.setView(CENTER, narrow ? 13 : 13.5);
 
+  var EN = document.documentElement.lang === "en";
+  var T = function (pl, en) { return EN ? en : pl; };
+  var ROOT = data.root || "";            // ścieżka do korzenia serwisu (img/)
+  var DETAIL = data.detail || "atrakcje/";  // katalog stron atrakcji
   var plural = function (n) {
     var t = n % 10, h = n % 100;
+    if (EN) return n === 1 ? "1 attraction" : n + " attractions";
     if (n === 1) return "1 atrakcja";
     if (t >= 2 && t <= 4 && (h < 12 || h > 14)) return n + " atrakcje";
     return n + " atrakcji";
@@ -41,17 +46,17 @@
       radius: 7, weight: 2, color: "#ffffff", fillColor: it.x ? "#8C7B6D" : cat.col, fillOpacity: 1,
       dashArray: it.ap ? "3 3" : null
     });
-    var photo = it.img ? '<img src="img/' + esc(it.img) + '.jpg" alt="" loading="lazy">' : "";
+    var photo = it.img ? '<img src="' + ROOT + 'img/' + esc(it.img) + '.jpg" alt="" loading="lazy">' : "";
     marker.bindPopup(
       '<div class="pop">' + photo +
       '<p class="pop-cat" style="--dot:' + cat.col + '"><span class="dot"></span>' + esc(cat.n) + "</p>" +
       "<h3>" + esc(it.n) + "</h3>" +
       '<p class="pop-badge' + (it.x ? " is-closed" : "") + '">' + esc(it.b) + "</p>" +
       "<p>" + esc(it.d) + "</p>" +
-      '<a class="pop-more" href="atrakcje/' + esc(it.s) + '">Szczegóły, godziny i ceny</a>' +
-      '<p class="pop-nav"><a href="' + esc(it.gm) + '" target="_blank" rel="noopener">Otwórz w Google Maps</a>' +
-      '<a href="' + esc(it.rt) + '" target="_blank" rel="noopener">' + (it.rf ? "Trasa z dworca Poznań Główny" : "Trasa komunikacją") + "</a></p>" +
-      (it.ap ? '<p class="pop-note">Położenie przybliżone.</p>' : "") +
+      '<a class="pop-more" href="' + DETAIL + esc(it.s) + '">' + T("Szczegóły, godziny i ceny", "Details, hours and prices") + '</a>' +
+      '<p class="pop-nav"><a href="' + esc(it.gm) + '" target="_blank" rel="noopener">' + T("Otwórz w Google Maps", "Open in Google Maps") + '</a>' +
+      '<a href="' + esc(it.rt) + '" target="_blank" rel="noopener">' + (it.rf ? T("Trasa z dworca Poznań Główny", "Directions from Poznań Główny station") : T("Trasa komunikacją", "Directions by public transport")) + "</a></p>" +
+      (it.ap ? '<p class="pop-note">' + T("Położenie przybliżone.", "Approximate location.") + '</p>' : "") +
       "</div>", { maxWidth: 260, minWidth: 220, autoPanPadding: [20, 20] });
     marker.bindTooltip(esc(it.n), { direction: "top", offset: [0, -6] });
 
@@ -83,7 +88,7 @@
       else if (map.hasLayer(e.marker)) map.removeLayer(e.marker);
       e.li.hidden = !ok;
     });
-    count.textContent = n === data.items.length ? "Wszystkie: " + plural(n) : "Na mapie: " + plural(n) + " z " + data.items.length;
+    count.textContent = n === data.items.length ? T("Wszystkie: ", "All: ") + plural(n) : T("Na mapie: ", "On the map: ") + plural(n) + T(" z ", " of ") + data.items.length;
     return n;
   }
   // Wycieczki za miasto leżą do 90 km od centrum: po wybraniu tej kategorii mapa obejmuje wszystkie punkty.
@@ -157,11 +162,11 @@
   if (locateBtn) {
     locateBtn.addEventListener("click", function () {
       if (!navigator.geolocation) {
-        alert("Geolokalizacja nie jest dostępna w Twojej przeglądarce.");
+        alert(T("Geolokalizacja nie jest dostępna w Twojej przeglądarce.", "Geolocation is not available in your browser."));
         return;
       }
       locateBtn.disabled = true;
-      locateBtn.textContent = "⏳ Szukam...";
+      locateBtn.textContent = T("⏳ Szukam...", "⏳ Searching...");
       navigator.geolocation.getCurrentPosition(
         function (pos) {
           userLat = pos.coords.latitude;
@@ -170,19 +175,19 @@
           userMarker = L.circleMarker([userLat, userLon], {
             radius: 8, weight: 3, color: "#0066CC", fillColor: "#3399FF", fillOpacity: 0.7
           }).addTo(map);
-          userMarker.bindPopup("<p><strong>Jesteś tutaj</strong></p>", { maxWidth: 150 });
-          userMarker.bindTooltip("Twoja lokalizacja", { direction: "top", offset: [0, -10] });
+          userMarker.bindPopup("<p><strong>" + T("Jesteś tutaj", "You are here") + "</strong></p>", { maxWidth: 150 });
+          userMarker.bindTooltip(T("Twoja lokalizacja", "Your location"), { direction: "top", offset: [0, -10] });
           map.flyTo([userLat, userLon], 15, { duration: 0.6 });
           // Sortuj listę po odległości od użytkownika.
           sort_by_distance();
           locateBtn.disabled = false;
-          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem';
+          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>' + T("Gdzie jestem", "Where am I");
         },
         function (err) {
-          var msg = err.code === 1 ? "Odmówiłeś dostępu do lokalizacji." : "Nie mogę ustalić Twojej lokalizacji.";
+          var msg = err.code === 1 ? T("Odmówiłeś dostępu do lokalizacji.", "You denied access to your location.") : T("Nie mogę ustalić Twojej lokalizacji.", "Your location could not be determined.");
           alert(msg);
           locateBtn.disabled = false;
-          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem';
+          locateBtn.innerHTML = '<span class="locate-ico" aria-hidden="true">📍</span>' + T("Gdzie jestem", "Where am I");
         },
         { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
       );

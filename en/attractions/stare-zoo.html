@@ -97,12 +97,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/stare-zoo" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/stare-zoo" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -165,7 +167,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="rodzina" data-tags="kids" data-words="New Zoo Nowe Zoo 120 hectares of forest, an elephant house, a bear sanctuary and birds of prey. Family and active ul. Krańcowa 81, 61-070 Poznań Daily">
   <a href="../../en/attractions/nowe-zoo">
     <div class="card-media"><img src="../../img/zoo.jpg" srcset="../../img/r/zoo-640.webp 640w, ../../img/r/zoo-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Elephants in the New Zoo in Poznań" loading="lazy" decoding="async">
       <span class="badge">Daily</span></div>
@@ -173,10 +175,11 @@
       <p class="eyebrow">Family and active</p>
       <h3>New Zoo</h3>
       <p>120 hectares of forest, an elephant house, a bear sanctuary and birds of prey.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="rodzina" data-tags="kids" data-words="Maltanka Park Railway Kolejka Parkowa Maltanka A narrow-gauge railway along Lake Malta to the New Zoo. Runs seasonally. Family and active Kolejka Parkowa Maltanka, ul. Jana Pawła II 1, 61-131 Poznań Seasonal">
   <a href="../../en/attractions/kolejka-maltanka">
     <div class="card-media"><img src="../../img/kolejka-maltanka.jpg" srcset="../../img/r/kolejka-maltanka-640.webp 640w, ../../img/r/kolejka-maltanka-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Maltanka park railway at a passing loop" loading="lazy" decoding="async">
       <span class="badge badge-closed">Seasonal</span></div>
@@ -184,10 +187,11 @@
       <p class="eyebrow">Family and active</p>
       <h3>Maltanka Park Railway</h3>
       <p>A narrow-gauge railway along Lake Malta to the New Zoo. Runs seasonally.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="rodzina" data-tags="kids indoor" data-words="Malta Thermal Baths Termy Maltańskie A water park, sports pools and a sauna zone on Lake Malta, open until 23:00. Family and active ul. Termalna 1, 61-028 Poznań Daily">
   <a href="../../en/attractions/termy-maltanskie">
     <div class="card-media"><img src="../../img/termy-maltanskie.jpg" srcset="../../img/r/termy-maltanskie-640.webp 640w, ../../img/r/termy-maltanskie-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The water park at the Malta Thermal Baths" loading="lazy" decoding="async">
       <span class="badge">Daily</span></div>
@@ -195,6 +199,7 @@
       <p class="eyebrow">Family and active</p>
       <h3>Malta Thermal Baths</h3>
       <p>A water park, sports pools and a sauna zone on Lake Malta, open until 23:00.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -214,10 +219,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -239,6 +251,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

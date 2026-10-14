@@ -92,12 +92,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/czmoniec-bobrowy-szlak" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/czmoniec-bobrowy-szlak" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -160,7 +162,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="wycieczki" data-tags="" data-words="Kórnik Castle Zamek w Kórniku The Neo-Gothic castle of the Działyński family, with the legend of the White Lady and one of the oldest libraries in Poland. Day trips ul. Zamkowa 5, 62-035 Kórnik Tue–Sun">
   <a href="../../en/attractions/zamek-kornik">
     <div class="card-media"><img src="../../img/zamek-kornik.jpg" srcset="../../img/r/zamek-kornik-640.webp 640w, ../../img/r/zamek-kornik-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Neo-Gothic castle in Kórnik reflected in the moat" loading="lazy" decoding="async">
       <span class="badge">Tue–Sun</span></div>
@@ -168,10 +170,11 @@
       <p class="eyebrow">Day trips</p>
       <h3>Kórnik Castle</h3>
       <p>The Neo-Gothic castle of the Działyński family, with the legend of the White Lady and one of the oldest libraries in Poland.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="wycieczki" data-tags="" data-words="Rogalin Palace Pałac w Rogalinie A Baroque palace of the Raczyński family with a gallery of paintings by Matejko and Malczewski and a park with famous old oaks. Day trips ul. Arciszewskiego 2, 62-022 Rogalin Tue–Sun">
   <a href="../../en/attractions/rogalin">
     <div class="card-media"><img src="../../img/rogalin.jpg" srcset="../../img/r/rogalin-640.webp 640w, ../../img/r/rogalin-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Baroque Raczyński Palace in Rogalin" loading="lazy" decoding="async">
       <span class="badge">Tue–Sun</span></div>
@@ -179,10 +182,11 @@
       <p class="eyebrow">Day trips</p>
       <h3>Rogalin Palace</h3>
       <p>A Baroque palace of the Raczyński family with a gallery of paintings by Matejko and Malczewski and a park with famous old oaks.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="zabytki" data-tags="free kids" data-words="Old Market Square and Town Hall Stary Rynek i Ratusz The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon. Sights and history Stary Rynek, 61-772 Poznań Free">
   <a href="../../en/attractions/stary-rynek">
     <div class="card-media"><img src="../../img/stare-miasto.jpg" srcset="../../img/r/stare-miasto-640.webp 640w, ../../img/r/stare-miasto-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Townhouses on the Old Market Square in Poznań" loading="lazy" decoding="async">
       <span class="badge">Free</span></div>
@@ -190,6 +194,7 @@
       <p class="eyebrow">Sights and history</p>
       <h3>Old Market Square and Town Hall</h3>
       <p>The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon.</p>
+      <p class="chips"><span class="chip chip-free">Free</span><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -209,10 +214,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -234,6 +246,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

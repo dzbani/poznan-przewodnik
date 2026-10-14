@@ -132,12 +132,14 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/attractions" aria-current="page">Attractions</a></li>
+        <li><a href="../../en/map">Map</a></li>
         <li><a href="../../en/plans">Itineraries</a></li>
         <li><a href="../../en/calendar">Events</a></li>
-        <li><a href="../../en/theatres">Theatres</a></li>
         <li><a href="../../en/practical">Practical</a></li>
-        <li><a href="../../atrakcje/muzeum-instrumentow" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../../atrakcje/muzeum-instrumentow" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
@@ -200,7 +202,7 @@
 
 <section class="wrap section">
   <div class="section-head"><h2>More to explore</h2></div>
-  <ul class="cards"><li class="card">
+  <ul class="cards"><li class="card" data-cat="muzea" data-tags="indoor" data-words="National Museum Muzeum Narodowe The only Monet painting in Polish collections and a large collection of works by Malczewski. Museums al. Marcinkowskiego 9, 61-745 Poznań Tue free">
   <a href="../../en/attractions/muzeum-narodowe">
     <div class="card-media"><img src="../../img/muzeum-narodowe.jpg" srcset="../../img/r/muzeum-narodowe-640.webp 640w, ../../img/r/muzeum-narodowe-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The National Museum building in Poznań" loading="lazy" decoding="async">
       <span class="badge">Tue free</span></div>
@@ -208,10 +210,11 @@
       <p class="eyebrow">Museums</p>
       <h3>National Museum</h3>
       <p>The only Monet painting in Polish collections and a large collection of works by Malczewski.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="muzea" data-tags="kids indoor" data-words="St Martin&#x27;s Croissant Museum Rogalowe Muzeum Poznania A live show about the St Martin&#x27;s croissant, just off the Old Market Square. Buy tickets in advance. Museums Stary Rynek 41/2 (entrance from ul. Klasztorna 23), 61-772 Poznań Book ahead">
   <a href="../../en/attractions/rogalowe-muzeum">
     <div class="card-media"><img src="../../img/rogalowe-muzeum.jpg" srcset="../../img/r/rogalowe-muzeum-640.webp 640w, ../../img/r/rogalowe-muzeum-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A croissant-baking show at the Croissant Museum" loading="lazy" decoding="async">
       <span class="badge">Book ahead</span></div>
@@ -219,10 +222,11 @@
       <p class="eyebrow">Museums</p>
       <h3>St Martin&#x27;s Croissant Museum</h3>
       <p>A live show about the St Martin&#x27;s croissant, just off the Old Market Square. Buy tickets in advance.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="muzea" data-tags="indoor" data-words="Museum of the Greater Poland Uprising Muzeum Powstania Wielkopolskiego The story of the victorious uprising of 1918–1919 in the neoclassical Guardhouse on the square. Museums Stary Rynek 3, 61-772 Poznań Tue free">
   <a href="../../en/attractions/muzeum-powstania">
     <div class="card-media"><img src="../../img/muzeum-powstania.jpg" srcset="../../img/r/muzeum-powstania-640.webp 640w, ../../img/r/muzeum-powstania-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The neoclassical Guardhouse on the Old Market Square" loading="lazy" decoding="async">
       <span class="badge">Tue free</span></div>
@@ -230,6 +234,7 @@
       <p class="eyebrow">Museums</p>
       <h3>Museum of the Greater Poland Uprising</h3>
       <p>The story of the victorious uprising of 1918–1919 in the neoclassical Guardhouse on the square.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
@@ -249,10 +254,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../../en/">All attractions (English)</a></li>
+      <li><a href="../../en/attractions">All attractions</a></li>
       <li><a href="../../en/museums">Museums: hours and prices</a></li>
       <li><a href="../../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../../en/map">Map of attractions</a></li>
+      <li><a href="../../en/plans">Itineraries</a></li>
+      <li><a href="../../en/practical">Practical information</a></li>
+      <li><a href="../../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../../en/calendar">Events calendar</a></li>
+      <li><a href="../../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -274,6 +286,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../../assets/site.js?v=9f167c56"></script>
+<script src="../../assets/site.js?v=58f63d37"></script>
 </body>
 </html>

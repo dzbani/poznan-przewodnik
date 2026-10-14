@@ -87,6 +87,12 @@ def viewpoints_hash():
     return hashlib.sha1(main_text(build.build_viewpoints()).encode("utf-8")).hexdigest()[:12]
 
 
+def about_hash():
+    """Skrót polskiej strony O Poznaniu (build.build_about) bez nawigacji i stopki."""
+    import build
+    return hashlib.sha1(main_text(build.build_about()).encode("utf-8")).hexdigest()[:12]
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -191,6 +197,23 @@ def check():
             problems.append(f"punkty widokowe: {slug}: różne liczby między PL a EN")
         if slug not in EN:
             problems.append(f"punkty widokowe: atrakcja „{slug}” nie ma tłumaczenia")
+    import data_guide as dg
+    import about_en as ab
+    pairs = [("HISTORY", dg.HISTORY, ab.HISTORY), ("LEGENDS", dg.LEGENDS, ab.LEGENDS), ("DIALECT", dg.DIALECT, ab.DIALECT),
+             ("CUISINE", dg.CUISINE, ab.CUISINE), ("CLIMATE", dg.CLIMATE, ab.CLIMATE)]
+    for name, pl_list, en_list in pairs:
+        if len(pl_list) != len(en_list):
+            problems.append(f"o poznaniu: {name}: {len(en_list)} pozycji w EN, {len(pl_list)} w PL")
+            continue
+        pl_txt = [x for it in pl_list for x in it[:2]]
+        en_txt = [x for it in en_list for x in it[:2]]
+        pl_n = [ab.NUMBER_EXCEPTIONS.get(n, n) for n in event_numbers(pl_txt)]
+        en_n = event_numbers([re.sub(r"\b\d{1,2}(st|nd|rd|th) century", "", t) for t in en_txt])
+        if sorted(pl_n) != sorted(en_n):
+            problems.append(f"o poznaniu: {name}: różne liczby między PL a EN. PL {sorted(pl_n)} ≠ EN {sorted(en_n)}")
+    if stamps.get("_about") != about_hash():
+        problems.append("o poznaniu: polska strona zmieniła się od tłumaczenia (przejrzyj about_en.py, potem --stamp-about)"
+                        if "_about" in stamps else "o poznaniu: brak stempla (--stamp-about)")
     if stamps.get("_viewpoints") != viewpoints_hash():
         problems.append("punkty widokowe: polska strona zmieniła się od tłumaczenia (przejrzyj viewpoints_en.py, potem --stamp-viewpoints)"
                         if "_viewpoints" in stamps else "punkty widokowe: brak stempla (--stamp-viewpoints)")
@@ -225,6 +248,12 @@ def main():
         stamps["_theatres"] = theatres_hash()
         json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
         print("Zapisano stempel: teatry")
+        return
+    if args and args[0] == "--stamp-about":
+        stamps = load()
+        stamps["_about"] = about_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: o poznaniu")
         return
     if args and args[0] == "--stamp-viewpoints":
         stamps = load()

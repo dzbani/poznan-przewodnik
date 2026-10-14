@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Discover Poznań – an independent visitor guide | Odkrywaj Poznań</title>
+<title>Odkrywaj Poznań – a visitor guide to Poznań</title>
 <link rel="canonical" href="https://odkrywajpoznan.pl/en/">
 <link rel="alternate" hreflang="pl" href="https://odkrywajpoznan.pl/">
 <link rel="alternate" hreflang="en" href="https://odkrywajpoznan.pl/en/">
@@ -11,8 +11,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Odkrywaj Poznań">
-<meta property="og:title" content="Discover Poznań – an independent visitor guide | Odkrywaj Poznań">
-<meta property="og:description" content="Independent guide to Poznań: what to see, opening hours, ticket prices and how to get there, checked against official sources.">
+<meta property="og:title" content="Odkrywaj Poznań – a visitor guide to Poznań">
+<meta property="og:description" content="A guide for visitors: attractions of Poznań by category, itineraries, opening hours, ticket prices and practical information.">
 <meta property="og:url" content="https://odkrywajpoznan.pl/en/">
 <meta property="og:image" content="https://odkrywajpoznan.pl/img/og/hero-rynek.jpg">
 <meta property="og:image:width" content="1200">
@@ -27,12 +27,13 @@
 <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 <link rel="manifest" href="../manifest.webmanifest">
 <meta name="theme-color" content="#22437F">
-<meta name="description" content="Independent guide to Poznań: what to see, opening hours, ticket prices and how to get there, checked against official sources.">
+<meta name="description" content="A guide for visitors: attractions of Poznań by category, itineraries, opening hours, ticket prices and practical information.">
 
 <link rel="preload" href="../fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/playfair-display-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" imagesrcset="../img/r/hero-rynek-800.webp 800w, ../img/r/hero-rynek-1280.webp 1280w, ../img/r/hero-rynek-1920.webp 1920w" imagesizes="100vw" fetchpriority="high">
 <link rel="stylesheet" href="../assets/style.css?v=132ff6f0">
 </head>
 <body>
@@ -43,494 +44,376 @@
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
     <nav id="menu" aria-label="Main navigation">
       <ul>
-        <li><a href="../en/" aria-current="page">Attractions</a></li>
+        <li><a href="../en/attractions">Attractions</a></li>
+        <li><a href="../en/map">Map</a></li>
         <li><a href="../en/plans">Itineraries</a></li>
         <li><a href="../en/calendar">Events</a></li>
-        <li><a href="../en/theatres">Theatres</a></li>
         <li><a href="../en/practical">Practical</a></li>
-        <li><a href="../" hreflang="pl" lang="pl">Polski</a></li>
+        <li><a href="../en/about">About Poznań</a></li>
+        <li class="nav-extra"><a href="../en/theatres">Theatres and concerts</a></li>
+        <li class="nav-lang"><a href="../" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
   </div>
 </header>
 <main id="tresc">
 
-<section class="wrap section list-page">
-  <div class="section-head">
+<section class="hero hero-full">
+  <img class="hero-bg" src="../img/hero-rynek.jpg" srcset="../img/r/hero-rynek-800.webp 800w, ../img/r/hero-rynek-1280.webp 1280w, ../img/r/hero-rynek-1920.webp 1920w" sizes="100vw" width="2000" height="1500" alt="Colourful townhouses on the Old Market Square in Poznań" fetchpriority="high">
+  <div class="wrap hero-in">
+  <div class="hero-text">
     <p class="kicker">Visitor guide</p>
-    <h1>Discover Poznań</h1>
-    <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
-    <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje" hreflang="pl" lang="pl">Open the Polish guide</a></p>
+    <h1>Poznań for the first time</h1>
+    <p class="lead">42 checked attractions in eight categories, with opening hours, ticket prices and directions. Plus ready-made itineraries and everything you need to know before you arrive.</p>
+    <form class="search hero-search" role="search" action="attractions" method="get">
+      <label for="q-hero" class="sr">Search attractions</label>
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q-hero" name="q" type="search" placeholder="Search: goats, zoo, museum…" autocomplete="off" enterkeyhint="search">
+    </form>
+    <div class="actions">
+      <a class="btn btn-gold" href="#top10">Where to start <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" href="plans">Itineraries</a>
+      <a class="btn btn-ghost" href="practical">Practical information</a>
+    </div>
   </div>
-  <p><a class="btn btn-ghost" href="viewpoints">Viewpoints: towers and terraces <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn-ghost" href="museums">Museums: hours, prices and free days <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn-ghost" href="theatres">Theatres and concerts: opera, philharmonic, dance <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn-ghost" href="calendar">Events calendar: festivals and fairs by month <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn-ghost" href="plans">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn-ghost" href="practical">Practical information: getting here, tickets, parking, emergencies <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
-  <ul class="cards"><li class="card">
+  </div>
+<a class="hero-credit" href="../zdjecia#foto-hero-rynek" hreflang="pl">Photo: .abyr</a>
+</section>
+
+<section class="wrap facts" aria-label="Key information">
+  <div class="fact"><p class="fact-k">Tuesday</p><p>Free permanent exhibitions at the National Museum and the Archaeological Museum, among others. <a href="museums">Other free days</a></p></div>
+  <div class="fact"><p class="fact-k">Monday</p><p>Most museums are closed. <a href="plans#poniedzialek">What to do on Monday</a></p></div>
+  <div class="fact"><p class="fact-k">12:00</p><p>The goats butt heads every day on the town hall tower. Arrive a few minutes early.</p></div>
+  <div class="fact"><p class="fact-k">PLN 18</p><p>A 24-hour ticket for trams and buses in zone A. You can buy it by card on the vehicle. <a href="practical#transport">Ticket prices</a></p></div>
+</section>
+
+<section id="top10" class="wrap section">
+  <div class="section-head">
+    <p class="kicker">First time in Poznań?</p>
+    <h2>10 places to start with</h2>
+    <p class="muted">The most important sights and the locals' favourite places. Most are in the centre, within walking distance.</p>
+  </div>
+  <ol class="cards top-list"><li class="card" data-cat="zabytki" data-tags="free kids" data-words="Old Market Square and Town Hall Stary Rynek i Ratusz The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon. Sights and history Stary Rynek, 61-772 Poznań Free">
   <a href="../en/attractions/stary-rynek">
     <div class="card-media"><img src="../img/stare-miasto.jpg" srcset="../img/r/stare-miasto-640.webp 640w, ../img/r/stare-miasto-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Townhouses on the Old Market Square in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
+      <span class="badge">Free</span><span class="num" aria-hidden="true">1</span></div>
     <div class="card-body">
       <p class="eyebrow">Sights and history</p>
       <h3>Old Market Square and Town Hall</h3>
       <p>The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon.</p>
+      <p class="chips"><span class="chip chip-free">Free</span><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="zabytki" data-tags="free" data-words="Ostrów Tumski and the Archcathedral Ostrów Tumski i Archikatedra The oldest cathedral in Poland. The tombs of the first rulers and the Golden Chapel. Sights and history ul. Ostrów Tumski 17, 61-109 Poznań Cathedral free">
   <a href="../en/attractions/ostrow-tumski">
     <div class="card-media"><img src="../img/ostrow-tumski.jpg" srcset="../img/r/ostrow-tumski-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Archcathedral on Ostrów Tumski" loading="lazy" decoding="async">
-      <span class="badge">Cathedral free</span></div>
+      <span class="badge">Cathedral free</span><span class="num" aria-hidden="true">2</span></div>
     <div class="card-body">
       <p class="eyebrow">Sights and history</p>
       <h3>Ostrów Tumski and the Archcathedral</h3>
       <p>The oldest cathedral in Poland. The tombs of the first rulers and the Golden Chapel.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="zabytki" data-tags="kids indoor" data-words="Gate of Poznań ICHOT Brama Poznania ICHOT A multimedia story of the beginnings of the Polish state, opposite the cathedral. Sights and history ul. Gdańska 2, 61-123 Poznań Closed Mon">
   <a href="../en/attractions/brama-poznania">
     <div class="card-media"><img src="../img/brama-poznania.jpg" srcset="../img/r/brama-poznania-640.webp 640w, ../img/r/brama-poznania-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Gate of Poznań building above the Cybina river" loading="lazy" decoding="async">
-      <span class="badge">Closed Mon</span></div>
+      <span class="badge">Closed Mon</span><span class="num" aria-hidden="true">3</span></div>
     <div class="card-body">
       <p class="eyebrow">Sights and history</p>
       <h3>Gate of Poznań ICHOT</h3>
       <p>A multimedia story of the beginnings of the Polish state, opposite the cathedral.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/zamek-krolewski">
-    <div class="card-media"><img src="../img/zamek-krolewski.jpg" srcset="../img/r/zamek-krolewski-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The tower of the Royal Castle on Przemysł Hill" loading="lazy" decoding="async">
-      <span class="badge">Tue free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Royal Castle</h3>
-      <p>The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/zamek-cesarski">
-    <div class="card-media"><img src="../img/zamek-cesarski.jpg" srcset="../img/r/zamek-cesarski-640.webp 640w, ../img/r/zamek-cesarski-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The tower of the Imperial Castle in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Daily</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Imperial Castle</h3>
-      <p>Wilhelm II&#x27;s Neo-Romanesque residence from 1905–1910. Today the Zamek Culture Centre.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/cytadela">
-    <div class="card-media"><img src="../img/cytadela.jpg" srcset="../img/r/cytadela-640.webp 640w, ../img/r/cytadela-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Heroes&#x27; Monument in Cytadela Park" loading="lazy" decoding="async">
-      <span class="badge">Park free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Cytadela (Citadel Park)</h3>
-      <p>A park on the site of a Prussian fort. War cemeteries, the Unrecognised and two museums.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/trakt-krolewsko-cesarski">
-    <div class="card-media"><img src="../img/trakt-krolewsko-cesarski.jpg" srcset="../img/r/trakt-krolewsko-cesarski-640.webp 640w, ../img/r/trakt-krolewsko-cesarski-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Royal-Imperial Route marker with a crown by the Gate of Poznań" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Royal-Imperial Route</h3>
-      <p>Poznań&#x27;s main tourist trail: from the Gate of Poznań via Ostrów Tumski and the Old Market Square to the Castle.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/biblioteka-raczynskich">
-    <div class="card-media"><img src="../img/biblioteka-raczynskich.jpg" srcset="../img/r/biblioteka-raczynskich-640.webp 640w, ../img/r/biblioteka-raczynskich-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Raczyński Library building on Freedom Square" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Raczyński Library</h3>
-      <p>A neoclassical building from 1829 with a façade modelled on the Louvre, on Freedom Square.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/mury-miejskie">
-    <div class="card-media"><img src="../img/mury-miejskie.jpg" srcset="../img/r/mury-miejskie-640.webp 640w, ../img/r/mury-miejskie-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A fragment of the city walls on ul. Wroniecka" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Medieval City Walls</h3>
-      <p>Remains of walls from the 13th–15th centuries, the Catherine&#x27;s Tower and a tourist path by the Wronki Gate.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/bazar">
-    <div class="card-media"><img src="../img/bazar.jpg" srcset="../img/r/bazar-640.webp 640w, ../img/r/bazar-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Hotel Bazar building in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Hotel Bazar</h3>
-      <p>A building from 1838, founded by Karol Marcinkowski among others as a centre of Polish life.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/twierdza-poznan">
-    <div class="card-media"><img src="../img/twierdza-poznan.jpg" srcset="../img/r/twierdza-poznan-640.webp 640w, ../img/r/twierdza-poznan-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Railway Caponier, a fragment of the former Poznań Fortress" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Poznań Fortress</h3>
-      <p>Prussian fortifications of the 19th century: the Citadel, a ring of 18 forts and relics in the city centre.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/teatr-wielki">
-    <div class="card-media"><img src="../img/teatr-wielki.jpg" srcset="../img/r/teatr-wielki-640.webp 640w, ../img/r/teatr-wielki-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The neoclassical building of the Grand Theatre in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Opera and ballet</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Sights and history</p>
-      <h3>Grand Theatre (Opera House)</h3>
-      <p>An opera house from 1910 with Pegasus on the roof. Take a behind-the-scenes tour or come to an opera or ballet.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/pomnik-czerwca-1956">
-    <div class="card-media"><img src="../img/pomnik-czerwca-1956.jpg" srcset="../img/r/pomnik-czerwca-1956-640.webp 640w, ../img/r/pomnik-czerwca-1956-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The two joined crosses of the Poznań June 1956 Monument" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Monuments and fountains</p>
-      <h3>Poznań June 1956 Monument</h3>
-      <p>The Poznań Crosses, commemorating the first mass protest against communist rule.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/fara">
-    <div class="card-media"><img src="../img/fara.jpg" srcset="../img/r/fara-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Baroque façade of the Poznań Parish Church" loading="lazy" decoding="async">
-      <span class="badge">Free entry</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Churches</p>
-      <h3>Poznań Parish Church (Fara)</h3>
-      <p>A Baroque basilica with a Ladegast organ. Concerts every Saturday at 12:15.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-narodowe">
-    <div class="card-media"><img src="../img/muzeum-narodowe.jpg" srcset="../img/r/muzeum-narodowe-640.webp 640w, ../img/r/muzeum-narodowe-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The National Museum building in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Tue free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>National Museum</h3>
-      <p>The only Monet painting in Polish collections and a large collection of works by Malczewski.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
+</li><li class="card" data-cat="muzea" data-tags="kids indoor" data-words="St Martin&#x27;s Croissant Museum Rogalowe Muzeum Poznania A live show about the St Martin&#x27;s croissant, just off the Old Market Square. Buy tickets in advance. Museums Stary Rynek 41/2 (entrance from ul. Klasztorna 23), 61-772 Poznań Book ahead">
   <a href="../en/attractions/rogalowe-muzeum">
     <div class="card-media"><img src="../img/rogalowe-muzeum.jpg" srcset="../img/r/rogalowe-muzeum-640.webp 640w, ../img/r/rogalowe-muzeum-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A croissant-baking show at the Croissant Museum" loading="lazy" decoding="async">
-      <span class="badge">Book ahead</span></div>
+      <span class="badge">Book ahead</span><span class="num" aria-hidden="true">4</span></div>
     <div class="card-body">
       <p class="eyebrow">Museums</p>
       <h3>St Martin&#x27;s Croissant Museum</h3>
       <p>A live show about the St Martin&#x27;s croissant, just off the Old Market Square. Buy tickets in advance.</p>
+      <p class="chips"><span class="chip chip-kids">For children</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-powstania">
-    <div class="card-media"><img src="../img/muzeum-powstania.jpg" srcset="../img/r/muzeum-powstania-640.webp 640w, ../img/r/muzeum-powstania-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The neoclassical Guardhouse on the Old Market Square" loading="lazy" decoding="async">
-      <span class="badge">Tue free</span></div>
+</li><li class="card" data-cat="koscioly" data-tags="free indoor" data-words="Poznań Parish Church (Fara) Fara Poznańska A Baroque basilica with a Ladegast organ. Concerts every Saturday at 12:15. Churches ul. Gołębia 1, 61-834 Poznań Free entry">
+  <a href="../en/attractions/fara">
+    <div class="card-media"><img src="../img/fara.jpg" srcset="../img/r/fara-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Baroque façade of the Poznań Parish Church" loading="lazy" decoding="async">
+      <span class="badge">Free entry</span><span class="num" aria-hidden="true">5</span></div>
     <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Museum of the Greater Poland Uprising</h3>
-      <p>The story of the victorious uprising of 1918–1919 in the neoclassical Guardhouse on the square.</p>
+      <p class="eyebrow">Churches</p>
+      <h3>Poznań Parish Church (Fara)</h3>
+      <p>A Baroque basilica with a Ladegast organ. Concerts every Saturday at 12:15.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-archeologiczne">
-    <div class="card-media"><img src="../img/muzeum-archeologiczne.jpg" srcset="../img/r/muzeum-archeologiczne-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Górka Palace, home of the Archaeological Museum" loading="lazy" decoding="async">
-      <span class="badge">Tue free</span></div>
+</li><li class="card" data-cat="zabytki" data-tags="indoor" data-words="Royal Castle Zamek Królewski The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower. Sights and history Góra Przemysła 1, 61-768 Poznań Tue free">
+  <a href="../en/attractions/zamek-krolewski">
+    <div class="card-media"><img src="../img/zamek-krolewski.jpg" srcset="../img/r/zamek-krolewski-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The tower of the Royal Castle on Przemysł Hill" loading="lazy" decoding="async">
+      <span class="badge">Tue free</span><span class="num" aria-hidden="true">6</span></div>
     <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Archaeological Museum</h3>
-      <p>The prehistory of Greater Poland and ancient Egypt in the Renaissance Górka Palace.</p>
+      <p class="eyebrow">Sights and history</p>
+      <h3>Royal Castle</h3>
+      <p>The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-instrumentow">
-    <div class="card-media"><img src="../img/muzeum-instrumentow.jpg" srcset="../img/r/muzeum-instrumentow-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The townhouse of the Museum of Musical Instruments on the Old Market Square" loading="lazy" decoding="async">
-      <span class="badge">Closed Mon</span></div>
+</li><li class="card" data-cat="zabytki" data-tags="indoor" data-words="Imperial Castle Zamek Cesarski Wilhelm II&#x27;s Neo-Romanesque residence from 1905–1910. Today the Zamek Culture Centre. Sights and history ul. Święty Marcin 80/82, 61-809 Poznań Daily">
+  <a href="../en/attractions/zamek-cesarski">
+    <div class="card-media"><img src="../img/zamek-cesarski.jpg" srcset="../img/r/zamek-cesarski-640.webp 640w, ../img/r/zamek-cesarski-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The tower of the Imperial Castle in Poznań" loading="lazy" decoding="async">
+      <span class="badge">Daily</span><span class="num" aria-hidden="true">7</span></div>
     <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Museum of Musical Instruments</h3>
-      <p>Wieniawski&#x27;s violin and the harpsichord on which the young Mozart played.</p>
+      <p class="eyebrow">Sights and history</p>
+      <h3>Imperial Castle</h3>
+      <p>Wilhelm II&#x27;s Neo-Romanesque residence from 1905–1910. Today the Zamek Culture Centre.</p>
+      
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-czerwca-1956">
-    <div class="card-media"><img src="../img/muzeum-czerwca-1956.jpg" srcset="../img/r/muzeum-czerwca-1956-640.webp 640w, ../img/r/muzeum-czerwca-1956-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="An exhibition at the Museum of the Poznań Uprising – June 1956" loading="lazy" decoding="async">
-      <span class="badge">Sun free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Museum of the Poznań June 1956</h3>
-      <p>The story of the workers&#x27; revolt of 28 June 1956, in the Imperial Castle.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/centrum-szyfrow-enigma">
-    <div class="card-media"><img src="../img/centrum-szyfrow-enigma.jpg" srcset="../img/r/centrum-szyfrow-enigma-640.webp 640w, ../img/r/centrum-szyfrow-enigma-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Enigma Cipher Centre exhibition" loading="lazy" decoding="async">
-      <span class="badge">Closed Mon</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Enigma Cipher Centre</h3>
-      <p>How three mathematicians from Poznań broke the Enigma code. A multimedia exhibition with an audio guide.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/fort-vii">
-    <div class="card-media"><img src="../img/fort-vii.jpg" srcset="../img/r/fort-vii-640.webp 640w, ../img/r/fort-vii-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The gate of Fort VII in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Tue free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Fort VII – Museum of the Martyrdom of Greater Poland People</h3>
-      <p>A memorial site in a former fort, where in 1939 the Germans set up the KL Posen camp.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/fotoplastykon">
-    <div class="card-media"><img src="../img/fotoplastykon.jpg" srcset="../img/r/fotoplastykon-640.webp 640w, ../img/r/fotoplastykon-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Poznań Fotoplastikon" loading="lazy" decoding="async">
-      <span class="badge">Closed Sun</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Poznań Fotoplastikon</h3>
-      <p>A historic device for viewing three-dimensional photographs (stereophotography) on ul. Ratajczaka.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/muzeum-broni-pancernej">
-    <div class="card-media"><img src="../img/muzeum-broni-pancernej.jpg" srcset="../img/r/muzeum-broni-pancernej-640.webp 640w, ../img/r/muzeum-broni-pancernej-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A Jagdpanzer 38(t) tank destroyer in the Armoured Weapons Museum" loading="lazy" decoding="async">
-      <span class="badge">Thu free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Armoured Weapons Museum</h3>
-      <p>75 armoured vehicles from around the world, from the Greater Poland Uprising to the Cold War.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/makiety-dawnego-poznania">
-    <div class="card-media"><div class="no-photo" role="img" aria-label="Brak zdjęcia: Models of Old Poznań"><span>Models of Old Poznań</span></div>
-      <span class="badge">Shows daily</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Museums</p>
-      <h3>Models of Old Poznań</h3>
-      <p>Poznań in 1618 at a scale of 1:150, with a light and sound show in the church crypt.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/jezioro-maltanskie">
-    <div class="card-media"><img src="../img/jezioro-malta.jpg" srcset="../img/r/jezioro-malta-640.webp 640w, ../img/r/jezioro-malta-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A sculpture by Lake Malta" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Parks and nature</p>
-      <h3>Lake Malta</h3>
-      <p>An artificial lake with a regatta course. Walks, cycling and things to do all year round.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/ogrod-botaniczny">
-    <div class="card-media"><img src="../img/ogrod-botaniczny.jpg" srcset="../img/r/ogrod-botaniczny-640.webp 640w, ../img/r/ogrod-botaniczny-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Botanical Garden of Adam Mickiewicz University in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Parks and nature</p>
-      <h3>Adam Mickiewicz University Botanical Garden</h3>
-      <p>22 hectares of plants from all over the world and one of the richest collections of cacti in Poland.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/palmiarnia">
-    <div class="card-media"><img src="../img/palmiarnia-hero.jpg" srcset="../img/r/palmiarnia-hero-640.webp 640w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Inside the Poznań Palm House" loading="lazy" decoding="async">
-      <span class="badge badge-closed">Closed</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Parks and nature</p>
-      <h3>Poznań Palm House</h3>
-      <p>One of the largest palm houses in Europe. Currently closed for rebuilding.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/szachty">
-    <div class="card-media"><img src="../img/szachty.jpg" srcset="../img/r/szachty-640.webp 640w, ../img/r/szachty-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The view from the top of the viewing tower over the ponds at Szachty" loading="lazy" decoding="async">
-      <span class="badge">Free entry</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Parks and nature</p>
-      <h3>Szachty</h3>
-      <p>Ponds in former clay pits, a 25-metre viewing tower and a nature trail. Free entry.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/park-mickiewicza">
-    <div class="card-media"><img src="../img/park-mickiewicza.jpg" srcset="../img/r/park-mickiewicza-640.webp 640w, ../img/r/park-mickiewicza-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Mickiewicz Park with the fountain in front of the Grand Theatre" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Parks and nature</p>
-      <h3>Mickiewicz Park</h3>
-      <p>A showpiece park in front of the Grand Theatre, with a fountain and plane trees, next to the Poznań Crosses.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/nowe-zoo">
-    <div class="card-media"><img src="../img/zoo.jpg" srcset="../img/r/zoo-640.webp 640w, ../img/r/zoo-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Elephants in the New Zoo in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Daily</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Family and active</p>
-      <h3>New Zoo</h3>
-      <p>120 hectares of forest, an elephant house, a bear sanctuary and birds of prey.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/stare-zoo">
-    <div class="card-media"><img src="../img/stare-zoo.jpg" srcset="../img/r/stare-zoo-640.webp 640w, ../img/r/stare-zoo-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The grotto in the Old Zoo in Poznań" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Family and active</p>
-      <h3>Old Zoo</h3>
-      <p>One of the oldest zoos in Poland, now a free park close to the railway station.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/kolejka-maltanka">
-    <div class="card-media"><img src="../img/kolejka-maltanka.jpg" srcset="../img/r/kolejka-maltanka-640.webp 640w, ../img/r/kolejka-maltanka-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Maltanka park railway at a passing loop" loading="lazy" decoding="async">
-      <span class="badge badge-closed">Seasonal</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Family and active</p>
-      <h3>Maltanka Park Railway</h3>
-      <p>A narrow-gauge railway along Lake Malta to the New Zoo. Runs seasonally.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/termy-maltanskie">
-    <div class="card-media"><img src="../img/termy-maltanskie.jpg" srcset="../img/r/termy-maltanskie-640.webp 640w, ../img/r/termy-maltanskie-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The water park at the Malta Thermal Baths" loading="lazy" decoding="async">
-      <span class="badge">Daily</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Family and active</p>
-      <h3>Malta Thermal Baths</h3>
-      <p>A water park, sports pools and a sauna zone on Lake Malta, open until 23:00.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/malta-ski">
-    <div class="card-media"><img src="../img/malta-ski.jpg" srcset="../img/r/malta-ski-640.webp 640w, ../img/r/malta-ski-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Malta Ski slope in winter" loading="lazy" decoding="async">
-      <span class="badge">Weather permitting</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Family and active</p>
-      <h3>Malta Ski</h3>
-      <p>An artificial ski slope, a summer toboggan run and a roller coaster above the lake.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
+</li><li class="card" data-cat="wspolczesny" data-tags="free indoor" data-words="Stary Browar (Old Brewery) Stary Browar A 19th-century Hugger brewery turned into a centre of shopping and art, with sculptures by Mitoraj and award-winning architecture. Contemporary Poznań ul. Półwiejska 42, 61-888 Poznań Free">
   <a href="../en/attractions/stary-browar">
     <div class="card-media"><img src="../img/stary-browar.jpg" srcset="../img/r/stary-browar-640.webp 640w, ../img/r/stary-browar-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The brick buildings of Stary Browar" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
+      <span class="badge">Free</span><span class="num" aria-hidden="true">8</span></div>
     <div class="card-body">
       <p class="eyebrow">Contemporary Poznań</p>
       <h3>Stary Browar (Old Brewery)</h3>
       <p>A 19th-century Hugger brewery turned into a centre of shopping and art, with sculptures by Mitoraj and award-winning architecture.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
+</li><li class="card" data-cat="przyroda" data-tags="free kids" data-words="Lake Malta Jezioro Maltańskie An artificial lake with a regatta course. Walks, cycling and things to do all year round. Parks and nature Jezioro Maltańskie, 61-131 Poznań Free">
+  <a href="../en/attractions/jezioro-maltanskie">
+    <div class="card-media"><img src="../img/jezioro-malta.jpg" srcset="../img/r/jezioro-malta-640.webp 640w, ../img/r/jezioro-malta-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A sculpture by Lake Malta" loading="lazy" decoding="async">
+      <span class="badge">Free</span><span class="num" aria-hidden="true">9</span></div>
+    <div class="card-body">
+      <p class="eyebrow">Parks and nature</p>
+      <h3>Lake Malta</h3>
+      <p>An artificial lake with a regatta course. Walks, cycling and things to do all year round.</p>
+      <p class="chips"><span class="chip chip-free">Free</span><span class="chip chip-kids">For children</span></p>
+      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </div>
+  </a>
+</li><li class="card" data-cat="wspolczesny" data-tags="free" data-words="Śródka and the 3D Mural Śródka i mural 3D A three-dimensional mural with a trumpeter on the roof, right next to the Gate of Poznań. Contemporary Poznań ul. Śródka 3, 61-125 Poznań Free">
   <a href="../en/attractions/srodka">
     <div class="card-media"><img src="../img/srodka.jpg" srcset="../img/r/srodka-640.webp 640w, ../img/r/srodka-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="A three-dimensional mural in Śródka" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
+      <span class="badge">Free</span><span class="num" aria-hidden="true">10</span></div>
     <div class="card-body">
       <p class="eyebrow">Contemporary Poznań</p>
       <h3>Śródka and the 3D Mural</h3>
       <p>A three-dimensional mural with a trumpeter on the roof, right next to the Gate of Poznań.</p>
+      <p class="chips"><span class="chip chip-free">Free</span></p>
       <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </div>
   </a>
-</li><li class="card">
-  <a href="../en/attractions/jezyce">
-    <div class="card-media"><img src="../img/jezyce.jpg" srcset="../img/r/jezyce-640.webp 640w, ../img/r/jezyce-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="Townhouses on Rynek Jeżycki" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Contemporary Poznań</p>
-      <h3>Jeżyce</h3>
-      <p>Art Nouveau townhouses, a market on Rynek Jeżycki and the Jeżycjada trail of Małgorzata Musierowicz.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/taras-widokowy-collegium-altum">
-    <div class="card-media"><img src="../img/taras-widokowy-collegium-altum.jpg" srcset="../img/r/taras-widokowy-collegium-altum-640.webp 640w, ../img/r/taras-widokowy-collegium-altum-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The red Collegium Altum tower block above the roofs of Poznań" loading="lazy" decoding="async">
-      <span class="badge">Daily 9–19</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Contemporary Poznań</p>
-      <h3>Collegium Altum Viewing Terrace (UEP)</h3>
-      <p>A panorama of Poznań in all four directions from the 18th floor of the red tower block of the University of Economics.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/zamek-kornik">
-    <div class="card-media"><img src="../img/zamek-kornik.jpg" srcset="../img/r/zamek-kornik-640.webp 640w, ../img/r/zamek-kornik-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Neo-Gothic castle in Kórnik reflected in the moat" loading="lazy" decoding="async">
-      <span class="badge">Tue–Sun</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Day trips</p>
-      <h3>Kórnik Castle</h3>
-      <p>The Neo-Gothic castle of the Działyński family, with the legend of the White Lady and one of the oldest libraries in Poland.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/rogalin">
-    <div class="card-media"><img src="../img/rogalin.jpg" srcset="../img/r/rogalin-640.webp 640w, ../img/r/rogalin-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The Baroque Raczyński Palace in Rogalin" loading="lazy" decoding="async">
-      <span class="badge">Tue–Sun</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Day trips</p>
-      <h3>Rogalin Palace</h3>
-      <p>A Baroque palace of the Raczyński family with a gallery of paintings by Matejko and Malczewski and a park with famous old oaks.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li><li class="card">
-  <a href="../en/attractions/czmoniec-bobrowy-szlak">
-    <div class="card-media"><img src="../img/czmoniec-bobrowy-szlak.jpg" srcset="../img/r/czmoniec-bobrowy-szlak-640.webp 640w, ../img/r/czmoniec-bobrowy-szlak-1200.webp 1200w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px" alt="The wooden viewing tower on the Beaver Trail in Czmoniec" loading="lazy" decoding="async">
-      <span class="badge">Free</span></div>
-    <div class="card-body">
-      <p class="eyebrow">Day trips</p>
-      <h3>Viewing Tower and Beaver Trail in Czmoniec</h3>
-      <p>A wooden viewing tower above the meadows and oxbow lakes of the Warta, and a short nature trail. No tickets, in Kórnik municipality.</p>
-      <span class="more">Details <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </div>
-  </a>
-</li></ul>
+</li></ol>
+</section>
+
+<section class="wrap section" aria-labelledby="kat-h">
+  <div class="section-head"><p class="kicker">Categories</p><h2 id="kat-h">What are you looking for?</h2></div>
+  <ul class="tiles"><li><a class="tile" href="attractions#kat-zabytki">
+  <img src="../img/stare-miasto.jpg" srcset="../img/r/stare-miasto-640.webp 640w, ../img/r/stare-miasto-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Sights and history</span><span class="tile-n">12</span></a></li><li><a class="tile" href="attractions#kat-pomniki">
+  <img src="../img/pomnik-czerwca-1956.jpg" srcset="../img/r/pomnik-czerwca-1956-640.webp 640w, ../img/r/pomnik-czerwca-1956-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Monuments and fountains</span><span class="tile-n">1</span></a></li><li><a class="tile" href="attractions#kat-koscioly">
+  <img src="../img/fara.jpg" srcset="../img/r/fara-640.webp 640w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Churches</span><span class="tile-n">1</span></a></li><li><a class="tile" href="attractions#kat-muzea">
+  <img src="../img/muzeum-narodowe.jpg" srcset="../img/r/muzeum-narodowe-640.webp 640w, ../img/r/muzeum-narodowe-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Museums</span><span class="tile-n">11</span></a></li><li><a class="tile" href="attractions#kat-przyroda">
+  <img src="../img/jezioro-malta.jpg" srcset="../img/r/jezioro-malta-640.webp 640w, ../img/r/jezioro-malta-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Parks and nature</span><span class="tile-n">5</span></a></li><li><a class="tile" href="attractions#kat-rodzina">
+  <img src="../img/zoo.jpg" srcset="../img/r/zoo-640.webp 640w, ../img/r/zoo-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Family and active</span><span class="tile-n">5</span></a></li><li><a class="tile" href="attractions#kat-wspolczesny">
+  <img src="../img/stary-browar.jpg" srcset="../img/r/stary-browar-640.webp 640w, ../img/r/stary-browar-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Contemporary Poznań</span><span class="tile-n">4</span></a></li><li><a class="tile" href="attractions#kat-wycieczki">
+  <img src="../img/zamek-kornik.jpg" srcset="../img/r/zamek-kornik-640.webp 640w, ../img/r/zamek-kornik-1200.webp 1200w" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <span class="tile-t">Day trips</span><span class="tile-n">3</span></a></li></ul>
+  <div class="home-browse">
+    <p class="home-quick"><span class="muted">Quick:</span>
+      <a class="qlink" href="attractions?f=free">Free</a>
+      <a class="qlink" href="attractions?f=kids">For children</a>
+      <a class="qlink" href="attractions?f=indoor">Indoors, for rainy days</a></p>
+    <p class="home-all"><a class="btn btn-gold" href="attractions">All attractions (42) <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" href="map"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> On the map</a></p>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="closed-h">
+  <details class="notice-fold">
+    <summary><svg class="ico ico-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg><h2 id="closed-h">Temporarily closed or important before you visit</h2><span class="notice-n">4</span></summary>
+    <ul><li><a href="attractions/stary-rynek">Old Market Square and Town Hall</a>: The museum inside the Town Hall (Poznań City Museum) is closed from 1 July 2026 to 30 November 2027 for renovation.</li><li><a href="attractions/palmiarnia">Poznań Palm House</a>: The Palm House is temporarily closed to visitors because of rebuilding work (announcement of 31 August 2026).</li><li><a href="attractions/kolejka-maltanka">Maltanka Park Railway</a>: The 2026 season ended on 27 September, so the railway is not running now.</li><li><a href="attractions/zamek-kornik">Kórnik Castle</a>: The visiting season lasts until 30 November 2026.</li></ul>
+  </details>
+</section>
+
+<section class="wrap section plan" aria-labelledby="plans-h">
+  <div class="section-head"><p class="kicker">Ready-made routes</p><h2 id="plans-h">Itineraries</h2>
+  <p class="muted">Routes for 1, 2 or 3 days, with children, for rainy days, for free and for Monday.</p></div>
+  <ul class="plan-grid"><li><a href="plans#jeden-dzien"><h3>One day in Poznań</h3><p>If you have only one day, ideally Tuesday to Saturday</p></a></li><li><a href="plans#dzien-1"><h3>Day 1: Old Town and Ostrów Tumski</h3><p>For your first day, ideally Tuesday to Saturday</p></a></li><li><a href="plans#dzien-2"><h3>Day 2: Imperial District and Jeżyce</h3><p>For your second day</p></a></li><li><a href="plans#dzien-3"><h3>Day 3: Green Poznań</h3><p>For your third day or for fine weather</p></a></li><li><a href="plans#z-dziecmi"><h3>With children</h3><p>Families with preschool and school-age children</p></a></li><li><a href="plans#deszcz"><h3>On a rainy day</h3><p>When it rains or is cold</p></a></li><li><a href="plans#zima"><h3>In winter</h3><p>From November to February, when the days are short</p></a></li><li><a href="plans#za-darmo"><h3>For free</h3><p>On a limited budget</p></a></li><li><a href="plans#poniedzialek"><h3>On Monday</h3><p>When most museums have a day off</p></a></li></ul>
+</section>
+
+<section class="wrap section plan" aria-labelledby="before-h">
+  <div class="section-head"><p class="kicker">Planning your visit</p><h2 id="before-h">Before you arrive</h2></div>
+  <ul class="plan-grid">
+    <li><a href="practical#arrival"><h3>Arriving</h3><p>From Ławica Airport, buses 148 and 159 run to the station every few minutes.</p></a></li>
+    <li><a href="practical#transport"><h3>Public transport</h3><p>ZTM ticket prices and how to pay by card on a tram.</p></a></li>
+    <li><a href="practical#card"><h3>Poznań Tourist Card</h3><p>Free entry to most museums, and discounts.</p></a></li>
+    <li><a href="practical#info"><h3>Tourist information</h3><p>Points on the Old Market Square, Kolegiacki Square, at the airport and in the Gate of Poznań.</p></a></li>
+    <li><a href="museums"><h3>Museums: days and hours</h3><p>When to go in for free, and when the museums are closed.</p></a></li>
+    <li><a href="practical#health"><h3>Health</h3><p>Hospitals, night medical care, a dentist and pharmacies.</p></a></li>
+    <li><a href="practical#toilets"><h3>Public toilets</h3><p>Where they are along tourist routes and their opening hours.</p></a></li>
+    <li><a href="practical#parking"><h3>By car</h3><p>Paid parking zones, prices and Park&amp;Ride car parks.</p></a></li>
+    <li><a href="about"><h3>About Poznań</h3><p>History, legends, dialect, food and weather.</p></a></li>
+    <li><a href="theatres"><h3>Theatres and concerts</h3><p>Opera, philharmonic, dance and puppet theatre. What you can follow without Polish.</p></a></li>
+  </ul>
+</section>
+
+<section id="events" class="wrap section">
+  <div class="section-head"><p class="kicker">Calendar</p><h2>Upcoming events</h2></div>
+  <div class="events" data-upcoming="4"><article class="event" data-end="2026-03-29" hidden>
+  <p class="event-date">21–29 March 2026</p>
+  <h3><a href="calendar#jarmark-wielkanocny">Easter Fair</a></h3>
+  <p>Stalls with regional delicacies, handicrafts and festive baked goods, plus workshops for children. In 2026 the fair was held on Plac Wolności instead of the Old Market Square.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Plac Wolności (Freedom Square)</p>
+</article><article class="event" data-end="2026-05-16" hidden>
+  <p class="event-date">16 May 2026</p>
+  <h3><a href="calendar#noc-muzeow">Museums&#x27; Night</a></h3>
+  <p>One night a year when museums, galleries, theatres and other cultural institutions stay open late and prepare a special programme.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Museums and cultural institutions across the city</p>
+</article><article class="event" data-end="2026-05-30" hidden>
+  <p class="event-date">28–30 May 2026</p>
+  <h3><a href="calendar#juwenalia">Juwenalia Poznań</a></h3>
+  <p>The biggest student celebration in the region: three days of concerts on two stages in the park on Łęgi Dębińskie. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> John Paul II Park (Łęgi Dębińskie)</p>
+</article><article class="event" data-end="2026-08-27" hidden>
+  <p class="event-date">4 June – 27 August 2026</p>
+  <h3><a href="calendar#scena-nad-rusalka">Stage by Lake Rusałka</a></h3>
+  <p>A series of free open-air concerts by Lake Rusałka. In 2026: a three-day opening on 4–6 June, then concerts every Thursday from 11 June to 27 August, 33 concerts in all.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Lake Rusałka</p>
+</article><article class="event" data-end="2026-06-14" hidden>
+  <p class="event-date">11–14 June 2026</p>
+  <h3><a href="calendar#ethno-port">Ethno Port Festival</a></h3>
+  <p>A world music festival: artists from many countries and Polish performers of traditional music. In 2026 the 19th edition took place.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Zamek Culture Centre, ul. Święty Marcin 80/82</p>
+</article><article class="event" data-end="2026-06-28" hidden>
+  <p class="event-date">21–28 June 2026</p>
+  <h3><a href="calendar#malta">Malta Festival Poznań</a></h3>
+  <p>One of the most important arts festivals in Poland: theatre, dance, music, visual arts and film. Many events take place in streets and squares. In 2026 the festival was opened by a free show by Lake Malta.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Lake Malta and venues across the city</p>
+</article><article class="event" data-end="2026-08-02" hidden>
+  <p class="event-date">29 July – 2 August 2026</p>
+  <h3><a href="calendar#swieto-bamberskie">Festival of Poznań Traditions and Bamber Day</a></h3>
+  <p>The celebration commemorates the arrival of the Bambers, settlers from around Bamberg. The most important part is the parade in Bamber costumes: in 2026 it went on 2 August from ul. Mostowa to the Old Market Square, where in front of the town hall the historic contract was read out and the figure of the Bamberka was decorated with a garland.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Old Market Square and surroundings</p>
+</article><article class="event" data-end="2026-08-23" hidden>
+  <p class="event-date">21–23 August 2026</p>
+  <h3><a href="calendar#festiwal-dobrego-smaku">National Festival of Good Taste</a></h3>
+  <p>One of the biggest food events in Poland: the Good Taste Fair with regional products, cooking shows, workshops and concerts. In 2026 the 20th edition took place, for the first time on Plac Wolności. Admission is free.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Plac Wolności</p>
+</article><article class="event" data-end="2026-10-04" hidden>
+  <p class="event-date">4 October 2026</p>
+  <h3><a href="calendar#maraton">Poznań Marathon</a></h3>
+  <p>A marathon run through the streets of the city, named after Maciej Frankiewicz, a former deputy mayor of Poznań.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Streets of Poznań</p>
+</article><article class="event" data-end="2026-10-25">
+  <p class="event-date">8–25 October 2026</p>
+  <h3><a href="calendar#wieniawski">Henryk Wieniawski International Violin Competition</a></h3>
+  <p>An international competition for young violinists, organised by the Henryk Wieniawski Musical Society in Poznań. Participants from around the world play in successive rounds of auditions, and the competition ends with a final and concerts by the laureates. Tickets are sold by the organiser.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań</p>
+</article><article class="event" data-end="2026-10-11" hidden>
+  <p class="event-date">8–11 October 2026</p>
+  <h3><a href="calendar#osiecka">“Let&#x27;s Remember Osiecka” Festival</a></h3>
+  <p>A singing competition and concerts devoted to the songs of Agnieszka Osiecka. The programme includes concerts by the finalists, a concert with the jury, the “OFF-SIECKA” concert and a laureates&#x27; concert.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Teatr Nowy, ul. Dąbrowskiego 5</p>
+</article><article class="event" data-end="2026-10-25">
+  <p class="event-date">23–25 October 2026</p>
+  <h3><a href="calendar#pga">Poznań Game Arena</a></h3>
+  <p>A fair of computer games and multimedia entertainment, according to the organiser the largest in Central and Eastern Europe. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań International Fair</p>
+</article><article class="event" data-end="2026-11-11">
+  <p class="event-date">11 November 2026</p>
+  <h3><a href="calendar#imieniny-sw-marcin">Name Day of Święty Marcin Street</a></h3>
+  <p>The city&#x27;s biggest celebration, held since 1994 and organised by the Zamek Culture Centre. It lasts from late morning until evening: a fair of St Martin&#x27;s croissants, concerts, performances and attractions for families. The Mayor of Poznań hands the keys to the city to St Martin.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> ul. Święty Marcin, by the Zamek Culture Centre</p>
+</article><article class="event" data-end="2026-12-20">
+  <p class="event-date">14 November – 20 December 2026</p>
+  <h3><a href="calendar#jarmark-mtp">Christmas Fair at the Fairgrounds</a></h3>
+  <p>A Christmas fair on the grounds of the Poznań International Fair, a few minutes&#x27; walk from Poznań Główny station.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań International Fair</p>
+</article><article class="event" data-end="2027-01-06" hidden>
+  <p class="event-date">20 November 2026 – 6 January 2027</p>
+  <h3><a href="calendar#betlejem">Poznań Bethlehem on Plac Wolności and the Old Market Square</a></h3>
+  <p>Christmas fairs in the very centre: stalls with decorations, handicrafts and food, performances by artists and workshops for children. It is the only fair the city allows on the Old Market Square.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Plac Wolności and the Old Market Square</p>
+</article><article class="event" data-end="2026-11-29" hidden>
+  <p class="event-date">22–29 November 2026</p>
+  <h3><a href="calendar#ale-kino">Ale Kino! – International Young Audience Film Festival</a></h3>
+  <p>A festival of films for children and young people: animations, features and documentaries from around the world. It continues a review begun in 1963. Screenings are ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Zamek Culture Centre (Palace Cinema) and other festival venues</p>
+</article><article class="event" data-end="2026-12-13" hidden>
+  <p class="event-date">11–13 December 2026</p>
+  <h3><a href="calendar#ice-festival">Poznań Ice Festival</a></h3>
+  <p>An ice sculpture festival: sculptors from several countries create sculptures several metres high from blocks of ice before the eyes of the audience, using chainsaws and chisels. In 2026, 24 sculptors take part.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Old Market Square</p>
+</article><article class="event" data-end="2026-12-27" hidden>
+  <p class="event-date">26–27 December 2026</p>
+  <h3><a href="calendar#rocznica-powstania">Anniversary of the outbreak of the Greater Poland Uprising</a></h3>
+  <p>27 December is the National Day of the Victorious Greater Poland Uprising. In 2025 the programme was as follows: on 26 December at 15:30 a re-enactment of the arrival of Ignacy Paderewski at the PKP Summer Station, and on 27 December a Mass in the Fara (15:00) and the main ceremony at 16:40, when the alarm sirens are sounded and church bells ring.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Centre of Poznań</p>
+</article><article class="event" data-end="2027-03-14" hidden>
+  <p class="event-date">12–14 March 2027</p>
+  <h3><a href="calendar#targi-ksiazki">Poznań Book Fair</a></h3>
+  <p>A fair of publishers and meetings with authors from Poland and abroad: from crime fiction and reportage to children&#x27;s literature. The organiser says that the previous edition had 466 author meetings. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań International Fair</p>
+</article><article class="event" data-end="2027-04-17" hidden>
+  <p class="event-date">15–17 April 2027</p>
+  <h3><a href="calendar#next-fest">NEXT FEST Music Showcase &amp; Conference</a></h3>
+  <p>A festival of new music: concerts by debutants and well-known performers in a dozen or so clubs and on open-air stages, plus panels and workshops for the music industry.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Clubs and stages across the city</p>
+</article><article class="event" data-end="2027-04-18" hidden>
+  <p class="event-date">18 April 2027</p>
+  <h3><a href="calendar#polmaraton">Poznań Half Marathon</a></h3>
+  <p>A 21.097 km run through the streets of the city. In 2026, 13,505 people crossed the finish line.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Streets of Poznań</p>
+</article><article class="event" data-end="2027-04-25" hidden>
+  <p class="event-date">22–25 April 2027</p>
+  <h3><a href="calendar#motor-show">Poznań Motor Show</a></h3>
+  <p>A motor show: premieres of cars and motorcycles, exhibitions and demonstrations. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań International Fair</p>
+</article><article class="event" data-end="2027-05-26" hidden>
+  <p class="event-date">23–26 May 2027</p>
+  <h3><a href="calendar#enter-enea">Enter Enea Festival</a></h3>
+  <p>A festival of jazz and improvised music on Lake Strzeszyńskie. The artistic director is the pianist Leszek Możdżer. In 2026 the 16th edition took place: 11 concerts over four days.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Lake Strzeszyńskie</p>
+</article><article class="event" data-end="2027-06-20" hidden>
+  <p class="event-date">18–20 June 2027</p>
+  <h3><a href="calendar#pyrkon">Pyrkon – Fantasy Festival</a></h3>
+  <p>A festival of fantasy: games, comics, cosplay, literature, film and series. In 2026 it celebrated its 25th anniversary and had more than 2,000 programme items. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań International Fair</p>
+</article><article class="event" data-end="2027-06-28" hidden>
+  <p class="event-date">28 June 2027</p>
+  <h3><a href="calendar#czerwiec-1956">Anniversary of the Poznań June 1956</a></h3>
+  <p>On 28 June 1956 workers from the Cegielski works went out onto the city&#x27;s streets, and the protest grew into the first mass opposition to communist rule. The anniversary is marked every year, among other things by laying wreaths at the plaque by the gate of the Cegielski works and at the Poznań June 1956 Monument on pl. Mickiewicza.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> The gate of the Cegielski works and the Poznań June 1956 Monument (pl. Mickiewicza)</p>
+</article><article class="event" data-end="2027-07-11" hidden>
+  <p class="event-date">3–11 July 2027</p>
+  <h3><a href="calendar#animator">Animator International Animated Film Festival</a></h3>
+  <p>The largest animated film festival in Poland: about 300 films from around the world, retrospectives and premieres. Since 2017 the winner of the international competition can apply for an Oscar nomination. It is organised by Estrada Poznańska.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Poznań, festival venues in the centre</p>
+</article><article class="event" data-end="2027-07-18" hidden>
+  <p class="event-date">17–18 July 2027</p>
+  <h3><a href="calendar#blue-summer-jazz">Blue Summer Jazz Festival</a></h3>
+  <p>The open-air summer edition of the Blue Note club: jazz, soul and funk on a stage in the Stary Browar Park. Admission is ticketed.</p>
+  <p class="muted"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Stary Browar Park</p>
+</article></div>
+  <p class="events-empty muted" hidden>The nearest dates have not been announced yet. See in the calendar when events usually take place.</p>
+  <p><a class="btn btn-ghost" href="calendar">Events calendar for the whole year <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+  <p class="muted small">The current cultural programme: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a> (in Polish)</p>
 </section>
 
 </main>
@@ -542,10 +425,17 @@
       <p class="muted footer-contact">Spotted a mistake or outdated information? Write to: <a href="mailto:kontakt@odkrywajpoznan.pl">kontakt@odkrywajpoznan.pl</a></p>
     </div>
     <ul class="footer-links">
-      <li><a href="../en/">All attractions (English)</a></li>
+      <li><a href="../en/attractions">All attractions</a></li>
       <li><a href="../en/museums">Museums: hours and prices</a></li>
       <li><a href="../en/viewpoints">Viewpoints in Poznań</a></li>
-      <li><a href="../atrakcje" hreflang="pl" lang="pl">Full guide in Polish</a></li>
+      <li><a href="../en/map">Map of attractions</a></li>
+      <li><a href="../en/plans">Itineraries</a></li>
+      <li><a href="../en/practical">Practical information</a></li>
+      <li><a href="../en/about">About Poznań: history, legends, dialect</a></li>
+      <li><a href="../en/calendar">Events calendar</a></li>
+      <li><a href="../en/theatres">Theatres and concerts</a></li>
+      <li><a href="../zdjecia" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="../jak-weryfikujemy" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -567,6 +457,6 @@
   </div>
 </div>
 <button type="button" class="to-top" aria-label="Back to top" hidden><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
-<script src="../assets/site.js?v=9f167c56"></script>
+<script src="../assets/site.js?v=58f63d37"></script>
 </body>
 </html>
