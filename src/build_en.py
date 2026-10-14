@@ -7,10 +7,11 @@ import json
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
+from calendar_en import CAL_EN
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -44,6 +45,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     cur = ' aria-current="page"' if active == "attractions" else ""
     cur_pr = ' aria-current="page"' if active == "practical" else ""
     cur_pl = ' aria-current="page"' if active == "plans" else ""
+    cur_cal = ' aria-current="page"' if active == "calendar" else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,6 +78,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
       <ul>
         <li><a href="{prefix}en/"{cur}>Attractions</a></li>
         <li><a href="{prefix}en/plans.html"{cur_pl}>Itineraries</a></li>
+        <li><a href="{prefix}en/calendar.html"{cur_cal}>Events</a></li>
         <li><a href="{prefix}en/practical.html"{cur_pr}>Practical</a></li>
         <li><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
@@ -322,7 +325,8 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
-  <p><a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
+  <p><a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
+  <a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
   <a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
   <ul class="cards">{cards}</ul>
 </section>
@@ -397,9 +401,73 @@ def build_plans_en():
                    desc="Ready-made sightseeing itineraries for Poznań: 1, 2 and 3 days, with children, on a rainy day, in winter, for free and on Monday.")
 
 
+def fmt_range_en(start, end):
+    """'2026-06-21', '2026-06-28' -> '21–28 June 2026'."""
+    a, b = datetime.date.fromisoformat(start), datetime.date.fromisoformat(end)
+    ma, mb = EN_MONTHS[a.month - 1], EN_MONTHS[b.month - 1]
+    if a == b:
+        return f"{a.day} {ma} {a.year}"
+    if (a.year, a.month) == (b.year, b.month):
+        return f"{a.day}–{b.day} {ma} {a.year}"
+    if a.year == b.year:
+        return f"{a.day} {ma} – {b.day} {mb} {a.year}"
+    return f"{a.day} {ma} {a.year} – {b.day} {mb} {b.year}"
+
+
+def cal_event_en(e):
+    t = CAL_EN[e["id"]]
+    if e["dates"]:
+        badge = f'<p class="event-date">{escape(fmt_range_en(*e["dates"]))}</p>'
+        end = f' data-end="{e["dates"][1]}"'
+    else:
+        badge = '<p class="event-date event-tba">Date to be announced</p>'
+        end = ""
+    desc = "".join(f"<p>{escape(p)}</p>" for p in t["desc"])
+    note = f'<p class="cal-note">{icon("alert")} {escape(t["note"])}</p>' if t["note"] else ""
+    src = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener" hreflang="pl">{escape(s)}</a></li>' for s, u in e["sources"])
+    return f"""<article id="{e['id']}" class="event cal-event"{end}>
+  <div class="cal-badges">{badge}<p class="event-past" hidden>Edition ended</p></div>
+  <h3>{escape(t['name'])}</h3>
+  <p class="cal-when">{icon('clock')} {escape(t['when'])}</p>
+  <p class="muted">{icon('pin')} {escape(t['place'])}</p>
+  {desc}
+  {note}
+  <p><a href="{escape(e['link'][1])}" target="_blank" rel="noopener">{icon('globe')} {escape(e['link'][0])}</a></p>
+  <details class="sources"><summary>Sources (in Polish)</summary><ul>{src}</ul></details>
+</article>"""
+
+
+def build_calendar_en():
+    months, toc = [], []
+    for m in range(1, 13):
+        evs = sorted((e for e in CALENDAR if e["month"] == m), key=lambda e: e["dates"][0] if e["dates"] else "9")
+        if not evs:
+            continue
+        mid = f"m{m:02d}"
+        toc.append(f'<a href="#{mid}">{EN_MONTHS[m - 1]}</a>')
+        months.append(f"""<section id="{mid}" class="cal-month">
+  <h2>{EN_MONTHS[m - 1]}</h2>
+  <div class="events">{''.join(cal_event_en(e) for e in evs)}</div>
+</section>""")
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Planning your visit</p>
+  <h1>Events calendar</h1>
+  <p class="lead">The most important annual festivals, fairs and events in Poznań, month by month. For each event we give the date of the nearest or latest edition. When the new date has not yet been announced, we say when the event usually takes place. The calendar starts with the current month.</p>
+  <nav class="toc" aria-label="Choose a month">{''.join(toc)}</nav>
+</header>
+<div class="wrap cal">{''.join(months)}
+  <p class="muted small">Dates checked {en_date(CAL_CHECKED)} on the organisers' websites. Please confirm them with the organiser before you travel. The city's current cultural programme: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a> (in Polish). Permanent venues: <a href="../teatry.html" hreflang="pl" lang="pl">teatry i koncerty</a> (in Polish).</p>
+</div>
+"""
+    return page_en("Events in Poznań: festivals, fairs and holidays by month | Odkrywaj Poznań", body, prefix="../",
+                   alt="kalendarz.html", active="calendar",
+                   desc="Annual events in Poznań: Malta Festival, Ethno Port, Museums' Night, the name day of Święty Marcin Street, Christmas fairs, the marathon and more. Dates and venues.")
+
+
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
-         "plany.html": "en/plans.html"}
+         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -409,7 +477,8 @@ def build_all():
     slugs = translated()
     out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en(),
            "en/practical.html": build_practical_en(),
-           "en/plans.html": build_plans_en()}
+           "en/plans.html": build_plans_en(),
+           "en/calendar.html": build_calendar_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

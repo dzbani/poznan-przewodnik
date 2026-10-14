@@ -54,6 +54,20 @@ def plans_hash():
     return hashlib.sha1(json.dumps(PLANS, ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
 
 
+def calendar_hash():
+    """Skrót polskiego kalendarza wydarzeń (data_events.CALENDAR)."""
+    from data_events import CALENDAR
+    return hashlib.sha1(json.dumps(CALENDAR, ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
+
+
+def event_numbers(parts):
+    """Wszystkie liczby (godziny, lata, kwoty) z tekstów wydarzenia; „13 505” i „13,505” dają te same liczby."""
+    text = " ".join(parts)
+    text = re.sub(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", r"\1 \3", text)  # 10.10.2026 -> „10 2026” (miesiąc słowami w EN)
+    text = re.sub(r"(\d)[ ,.](\d{3})\b", r"\1\2", text)  # separatory tysięcy i przecinek dziesiętny: 13 505 = 13,505, 21,097 = 21.097
+    return sorted(re.findall(r"\d+", text))
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -108,6 +122,24 @@ def check():
         for s, _w2, _h in stops:
             if s not in EN:
                 problems.append(f"plany: {pid}: atrakcja „{s}” nie ma tłumaczenia")
+    from data_events import CALENDAR
+    from calendar_en import CAL_EN
+    for ev in CALENDAR:
+        t = CAL_EN.get(ev["id"])
+        if not t:
+            problems.append(f"kalendarz: brak angielskiego opisu wydarzenia „{ev['id']}”")
+            continue
+        if len(t["desc"]) != len(ev["desc"]):
+            problems.append(f"kalendarz: {ev['id']}: {len(t['desc'])} akapitów w EN, {len(ev['desc'])} w PL")
+        if bool(t["note"]) != bool(ev["note"]):
+            problems.append(f"kalendarz: {ev['id']}: uwaga jest tylko w jednej wersji")
+        pl_nums = event_numbers([ev["name"], ev["when"], ev["place"], ev["note"]] + ev["desc"])
+        en_nums = event_numbers([t["name"], t["when"], t["place"], t["note"]] + t["desc"])
+        if pl_nums != en_nums:
+            problems.append(f"kalendarz: {ev['id']}: różne liczby. PL {pl_nums} ≠ EN {en_nums}")
+    if stamps.get("_calendar") != calendar_hash():
+        problems.append("kalendarz: polski kalendarz zmienił się od tłumaczenia (przejrzyj calendar_en.py, potem --stamp-calendar)"
+                        if "_calendar" in stamps else "kalendarz: brak stempla (--stamp-calendar)")
     if stamps.get("_plans") != plans_hash():
         problems.append("plany: polskie plany zmieniły się od tłumaczenia (przejrzyj plans_en.py, potem --stamp-plans)"
                         if "_plans" in stamps else "plany: brak stempla (--stamp-plans)")
@@ -119,6 +151,12 @@ def check():
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-calendar":
+        stamps = load()
+        stamps["_calendar"] = calendar_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: kalendarz")
+        return
     if args and args[0] == "--stamp-plans":
         stamps = load()
         stamps["_plans"] = plans_hash()
