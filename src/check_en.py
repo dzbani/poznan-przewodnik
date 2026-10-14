@@ -5,6 +5,7 @@ Użycie:
   python src/check_en.py                 raport: nieaktualne tłumaczenia i niezgodności liczb
   python src/check_en.py --stamp slug…   zapisuje obecny stan polskiego tekstu jako „przetłumaczony”
   python src/check_en.py --stamp-all     to samo dla wszystkich tłumaczeń (po przeglądzie całości)
+  python src/check_en.py --stamp-privacy zapisuje stempel angielskiej polityki prywatności (src/privacy_en.py)
 
 Co sprawdza:
 1. Czy polski tekst atrakcji zmienił się od ostatniego „stempla” (en_stamps.json): jeśli tak, tłumaczenie
@@ -33,15 +34,21 @@ def pl_hash(a):
     return hashlib.sha1(json.dumps(data, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
 
 
+def privacy_hash():
+    """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
+    import build
+    return hashlib.sha1(build.build_privacy().encode("utf-8")).hexdigest()[:12]
+
+
 def load():
     return json.load(open(STAMPS, encoding="utf-8")) if os.path.exists(STAMPS) else {}
 
 
 def numbers(rows, kind):
     text = " ".join(f"{k} {v}" for k, v in rows)
-    if kind == "pl":
-        return sorted(re.findall(r"\d{1,2}:\d{2}", text) + re.findall(r"(\d+)\s*zł", text))
-    return sorted(re.findall(r"\d{1,2}:\d{2}", text) + re.findall(r"PLN\s*(\d+)", text))
+    price = r"(\d+)(?:–(\d+))?\s*zł" if kind == "pl" else r"PLN\s*(\d+)(?:–(\d+))?"
+    prices = [n for pair in re.findall(price, text) for n in pair if n]  # zakres „2–5 zł” = dwie kwoty
+    return sorted(re.findall(r"\d{1,2}:\d{2}", text) + prices)
 
 
 def check():
@@ -65,11 +72,20 @@ def check():
             problems.append(f"{slug}: komunikat o statusie jest tylko w jednej wersji")
         if len(e.get("see_also", [])) != len(a.get("see_also", [])):
             problems.append(f"{slug}: różna liczba odsyłaczy „Zobacz też”")
+    if stamps.get("_privacy") != privacy_hash():
+        problems.append("prywatnosc: polska polityka zmieniła się od tłumaczenia (zaktualizuj privacy_en.py, potem --stamp-privacy)"
+                        if "_privacy" in stamps else "prywatnosc: brak stempla (--stamp-privacy)")
     return problems
 
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-privacy":
+        stamps = load()
+        stamps["_privacy"] = privacy_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: prywatnosc")
+        return
     if args and args[0] in ("--stamp", "--stamp-all"):
         stamps = load()
         slugs = list(EN) if args[0] == "--stamp-all" else args[1:]

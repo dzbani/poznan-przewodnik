@@ -148,3 +148,7 @@ EN = {
         tickets=[("Admission", "free")],
     ),
 }
+
+
+from data_en_batch2 import EN_BATCH2  # noqa: E402  (partia 2, 14.10.2026)
+EN.update(EN_BATCH2)

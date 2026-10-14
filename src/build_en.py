@@ -96,7 +96,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
   <div class="wrap footer-bar">
     <span class="footer-name">Odkrywaj Poznań</span>
     <ul class="footer-legal">
-      <li><a href="{prefix}prywatnosc.html" hreflang="pl" lang="pl">Privacy (Polish)</a></li>
+      <li><a href="{prefix}en/privacy.html">Privacy</a></li>
       <li><button type="button" class="linkish" data-consent-open>Cookie settings</button></li>
       <li><a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></li>
     </ul>
@@ -104,7 +104,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
   </div>
 </footer>
 <div class="consent" role="region" aria-label="Analytics consent" data-ga="{GA_ID}" hidden>
-  <p>We would like to count visits with Google Analytics to learn which parts of the guide are useful. This needs cookies, so we will switch statistics on only with your consent. <a href="{prefix}prywatnosc.html#cookies" hreflang="pl" lang="pl">Details (Polish)</a></p>
+  <p>We would like to count visits with Google Analytics to learn which parts of the guide are useful. This needs cookies, so we will switch statistics on only with your consent. <a href="{prefix}en/privacy.html#cookies">Details</a></p>
   <div class="consent-btns">
     <button type="button" class="btn btn-consent" data-consent="denied">Decline</button>
     <button type="button" class="btn btn-consent" data-consent="granted">Accept</button>
@@ -223,7 +223,8 @@ def build_attraction_en(slug, idx, slugs):
     see_html = f'<section class="seealso"><h2>See also</h2><ul>{see}</ul></section>' if see else ""
     prev_s = slugs[idx - 1]
     next_s = slugs[(idx + 1) % len(slugs)]
-    more =[s for s in slugs if s != slug][:3]
+    rest = [s for s in slugs if s != slug]
+    more = ([s for s in rest if BY_SLUG[s]["cat"] == pl["cat"]] + [s for s in rest if BY_SLUG[s]["cat"] != pl["cat"]])[:3]
     others = "".join(card_en(merged(s), p) for s in more)
     from urllib.parse import quote
     report = (f"mailto:{CONTACT_EMAIL}?subject={quote('Correction: ' + a['name'])}"
@@ -317,8 +318,15 @@ def build_index_en(slugs):
 
 
 # Strona PL → strona EN (do hreflang w build.main)
+def build_privacy_en():
+    import privacy_en
+    return page_en("Privacy – Odkrywaj Poznań", privacy_en.body(en_date), prefix="../",
+                   desc="Privacy of the Odkrywaj Poznań guide: Google Analytics statistics only with your consent, cookies, server and external services.",
+                   alt="prywatnosc.html")
+
+
 def page_map():
-    m = {"index.html": "en/index.html"}
+    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -326,7 +334,7 @@ def page_map():
 
 def build_all():
     slugs = translated()
-    out = {"en/index.html": build_index_en(slugs)}
+    out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out
