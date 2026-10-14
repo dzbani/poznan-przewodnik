@@ -48,6 +48,12 @@ def practical_hash():
     return hashlib.sha1(main_text(build.build_info()).encode("utf-8")).hexdigest()[:12]
 
 
+def plans_hash():
+    """Skrót polskich planów zwiedzania (data_guide.PLANS)."""
+    from data_guide import PLANS
+    return hashlib.sha1(json.dumps(PLANS, ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -91,6 +97,20 @@ def check():
     if stamps.get("_privacy") != privacy_hash():
         problems.append("prywatnosc: polska polityka zmieniła się od tłumaczenia (zaktualizuj privacy_en.py, potem --stamp-privacy)"
                         if "_privacy" in stamps else "prywatnosc: brak stempla (--stamp-privacy)")
+    from data_guide import PLANS
+    from plans_en import PLANS_EN
+    for pid, _t, _w, _i, stops, _n in PLANS:
+        e = PLANS_EN.get(pid)
+        if not e:
+            problems.append(f"plany: brak angielskiego planu „{pid}”")
+        elif len(e["stops"]) != len(stops):
+            problems.append(f"plany: {pid}: {len(e['stops'])} punktów w EN, {len(stops)} w PL")
+        for s, _w2, _h in stops:
+            if s not in EN:
+                problems.append(f"plany: {pid}: atrakcja „{s}” nie ma tłumaczenia")
+    if stamps.get("_plans") != plans_hash():
+        problems.append("plany: polskie plany zmieniły się od tłumaczenia (przejrzyj plans_en.py, potem --stamp-plans)"
+                        if "_plans" in stamps else "plany: brak stempla (--stamp-plans)")
     if stamps.get("_practical") != practical_hash():
         problems.append("informacje: polska strona zmieniła się od tłumaczenia (przejrzyj practical_en.py, potem --stamp-practical)"
                         if "_practical" in stamps else "informacje: brak stempla (--stamp-practical)")
@@ -99,6 +119,12 @@ def check():
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-plans":
+        stamps = load()
+        stamps["_plans"] = plans_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: plany")
+        return
     if args and args[0] == "--stamp-practical":
         stamps = load()
         stamps["_practical"] = practical_hash()

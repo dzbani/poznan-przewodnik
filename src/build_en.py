@@ -7,9 +7,10 @@ import json
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
+from plans_en import PLANS_EN
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -42,6 +43,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     """Szablon strony angielskiej. prefix = ścieżka do korzenia serwisu; alt = polski odpowiednik (od korzenia)."""
     cur = ' aria-current="page"' if active == "attractions" else ""
     cur_pr = ' aria-current="page"' if active == "practical" else ""
+    cur_pl = ' aria-current="page"' if active == "plans" else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,6 +75,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     <nav id="menu" aria-label="Main navigation">
       <ul>
         <li><a href="{prefix}en/"{cur}>Attractions</a></li>
+        <li><a href="{prefix}en/plans.html"{cur_pl}>Itineraries</a></li>
         <li><a href="{prefix}en/practical.html"{cur_pr}>Practical</a></li>
         <li><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
@@ -319,7 +322,8 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
-  <p><a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
+  <p><a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
+  <a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
   <ul class="cards">{cards}</ul>
 </section>
 """
@@ -344,8 +348,58 @@ def build_practical_en():
                    desc="Getting to Poznań from the airport and station, public transport tickets, the Tourist Card, luggage storage, parking, cycling, emergency numbers and medical help.")
 
 
+def plan_stop_en(slug, when, hint):
+    a = merged(slug)
+    hours = "; ".join(f"{k}: {v}" for k, v in a["hours"][:2])
+    link = f"attractions/{slug}.html"
+    return f"""<li class="stop">
+  <a class="stop-img" href="{link}" tabindex="-1" aria-hidden="true">{media_html(a, "../", lazy=True)}</a>
+  <div>
+    <p class="stop-when">{escape(when)}</p>
+    <h3><a href="{link}">{escape(a['name'])}</a></h3>
+    <p>{escape(hint)}</p>
+    <p class="stop-hours">{icon('clock')} {escape(hours)}</p>
+  </div>
+</li>"""
+
+
+def build_plans_en():
+    from urllib.parse import quote_plus
+    blocks, toc = [], []
+    for pid, _title, _who, _intro, stops, _note in PLANS:
+        e = PLANS_EN[pid]
+        mode = "walking" if pid in ("jeden-dzien", "dzien-1", "dzien-2", "za-darmo") else "transit"
+        pts = [quote_plus(f'{BY_SLUG[s]["name"]}, {BY_SLUG[s]["address"]}') for s, _, _ in stops]
+        route = (f"https://www.google.com/maps/dir/?api=1&travelmode={mode}&origin={pts[0]}&destination={pts[-1]}"
+                 + (f"&waypoints={'%7C'.join(pts[1:-1][:8])}" if len(pts) > 2 else ""))
+        items = "".join(plan_stop_en(s, w, h) for (s, _, _), (w, h) in zip(stops, e["stops"]))
+        blocks.append(f"""<section id="{pid}" class="plan-block">
+  <div class="plan-head">
+    <p class="kicker">{escape(e['who'])}</p>
+    <h2>{escape(e['title'])}</h2>
+    <p class="lead">{escape(e['intro'])}</p>
+    <p><a class="btn btn-ghost btn-sm" href="{escape(route)}" target="_blank" rel="noopener">{icon('route')} Route in Google Maps</a></p>
+  </div>
+  <ol class="stops">{items}</ol>
+  <p class="plan-note">{icon('alert')} {escape(e['note'])}</p>
+</section>""")
+        toc.append(f'<a href="#{pid}">{escape(e["title"].split(":")[0])}</a>')
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Planning your visit</p>
+  <h1>Sightseeing itineraries</h1>
+  <p class="lead">Ready-made routes for first-time visitors to Poznań. At each stop we give the opening hours, and full information is on the attraction's page.</p>
+  <nav class="toc" aria-label="Choose an itinerary">{''.join(toc)}</nav>
+</header>
+<div class="wrap plans">{''.join(blocks)}</div>
+"""
+    return page_en("Sightseeing itineraries for Poznań: 1, 2 and 3 days | Odkrywaj Poznań", body, prefix="../", alt="plany.html", active="plans",
+                   desc="Ready-made sightseeing itineraries for Poznań: 1, 2 and 3 days, with children, on a rainy day, in winter, for free and on Monday.")
+
+
 def page_map():
-    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html"}
+    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
+         "plany.html": "en/plans.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -354,7 +408,8 @@ def page_map():
 def build_all():
     slugs = translated()
     out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en(),
-           "en/practical.html": build_practical_en()}
+           "en/practical.html": build_practical_en(),
+           "en/plans.html": build_plans_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out
