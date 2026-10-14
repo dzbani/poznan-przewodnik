@@ -161,3 +161,7 @@ EN.update(EN_BATCH4)
 
 from data_en_batch5 import EN_BATCH5  # noqa: E402  (partia 5, 14.10.2026)
 EN.update(EN_BATCH5)
+
+
+from data_en_batch6 import EN_BATCH6  # noqa: E402  (partia 6, 14.10.2026)
+EN.update(EN_BATCH6)
