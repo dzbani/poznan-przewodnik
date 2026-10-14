@@ -192,6 +192,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
         {nav_link("informacje.html", "Praktycznie", "info")}
         {nav_link("o-poznaniu.html", "O Poznaniu", "o")}
         <li class="nav-extra"><a href="{prefix}teatry.html"{' aria-current="page"' if active == "teatry" else ""}>Teatry i koncerty</a></li>
+        <li class="nav-lang"><a href="{prefix}en/" hreflang="en" lang="en" aria-label="English version">EN</a></li>
       </ul>
     </nav>
   </div>
@@ -1598,6 +1599,9 @@ def main():
         if is_en:
             og = og.replace('content="pl_PL"', 'content="en_US"')
         alt = ""
+        if path in en_of:  # przełącznik „EN” w nawigacji prowadzi do angielskiego odpowiednika tej strony
+            html = re.sub(r'(<li class="nav-lang"><a href=")([^"]*?)en/(" hreflang="en")',
+                          lambda m: m.group(1) + m.group(2) + en_of[path] + m.group(3), html, count=1)
         if path in en_of or path in pl_of:
             pl_path, en_path = (path, en_of[path]) if path in en_of else (pl_of[path], path)
             alt = (f'<link rel="alternate" hreflang="pl" href="{SITE_URL}{clean_path(pl_path)}">\n'

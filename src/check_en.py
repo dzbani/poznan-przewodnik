@@ -5,6 +5,7 @@ Użycie:
   python src/check_en.py                 raport: nieaktualne tłumaczenia i niezgodności liczb
   python src/check_en.py --stamp slug…   zapisuje obecny stan polskiego tekstu jako „przetłumaczony”
   python src/check_en.py --stamp-all     to samo dla wszystkich tłumaczeń (po przeglądzie całości)
+  python src/check_en.py --stamp-practical  stempel angielskiej strony Practical (src/practical_en.py)
   python src/check_en.py --stamp-privacy zapisuje stempel angielskiej polityki prywatności (src/privacy_en.py)
 
 Co sprawdza:
@@ -32,6 +33,12 @@ FIELDS = ("name", "short", "badge", "status", "lead", "sections", "address", "ho
 def pl_hash(a):
     data = {k: a.get(k) for k in FIELDS}
     return hashlib.sha1(json.dumps(data, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
+
+
+def practical_hash():
+    """Skrót polskiej strony Informacje praktyczne (build.build_info), by wykryć zmianę bez zmiany angielskiej."""
+    import build
+    return hashlib.sha1(build.build_info().encode("utf-8")).hexdigest()[:12]
 
 
 def privacy_hash():
@@ -75,11 +82,20 @@ def check():
     if stamps.get("_privacy") != privacy_hash():
         problems.append("prywatnosc: polska polityka zmieniła się od tłumaczenia (zaktualizuj privacy_en.py, potem --stamp-privacy)"
                         if "_privacy" in stamps else "prywatnosc: brak stempla (--stamp-privacy)")
+    if stamps.get("_practical") != practical_hash():
+        problems.append("informacje: polska strona zmieniła się od tłumaczenia (przejrzyj practical_en.py, potem --stamp-practical)"
+                        if "_practical" in stamps else "informacje: brak stempla (--stamp-practical)")
     return problems
 
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-practical":
+        stamps = load()
+        stamps["_practical"] = practical_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: informacje")
+        return
     if args and args[0] == "--stamp-privacy":
         stamps = load()
         stamps["_privacy"] = privacy_hash()

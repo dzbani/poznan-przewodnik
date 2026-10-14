@@ -41,6 +41,7 @@ def translated():
 def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     """Szablon strony angielskiej. prefix = ścieżka do korzenia serwisu; alt = polski odpowiednik (od korzenia)."""
     cur = ' aria-current="page"' if active == "attractions" else ""
+    cur_pr = ' aria-current="page"' if active == "practical" else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,6 +73,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     <nav id="menu" aria-label="Main navigation">
       <ul>
         <li><a href="{prefix}en/"{cur}>Attractions</a></li>
+        <li><a href="{prefix}en/practical.html"{cur_pr}>Practical</a></li>
         <li><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
     </nav>
@@ -309,6 +311,7 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
+  <p><a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
   <ul class="cards">{cards}</ul>
 </section>
 """
@@ -325,8 +328,16 @@ def build_privacy_en():
                    alt="prywatnosc.html")
 
 
+def build_practical_en():
+    import practical_en
+    from site_data import CHECKED
+    return page_en("Practical information for visitors to Poznań | Odkrywaj Poznań", practical_en.body(en_date(CHECKED)),
+                   prefix="../", alt="informacje.html", active="practical",
+                   desc="Getting to Poznań from the airport and station, public transport tickets, the Tourist Card, luggage storage, parking, cycling, emergency numbers and medical help.")
+
+
 def page_map():
-    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html"}
+    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -334,7 +345,8 @@ def page_map():
 
 def build_all():
     slugs = translated()
-    out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en()}
+    out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en(),
+           "en/practical.html": build_practical_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out
