@@ -480,7 +480,7 @@ def build_calendar_en():
 """
     return page_en("Events in Poznań: festivals, fairs and holidays by month | Odkrywaj Poznań", body, prefix="../",
                    alt="kalendarz.html", active="calendar",
-                   desc="Annual events in Poznań: Malta Festival, Ethno Port, Museums' Night, the name day of Święty Marcin Street, Christmas fairs, the marathon and more. Dates and venues.")
+                   desc="Annual events in Poznań: Malta Festival, Ethno Port, Museums' Night, the St Martin Street Name Day, Christmas fairs, the marathon and more. Dates and venues.")
 
 
 def venue_card_en(v):

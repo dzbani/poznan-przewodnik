@@ -97,7 +97,7 @@ EN_BATCH2 = {
                 "According to the PIK Poznań service, the audio guide offers routes in Polish, English and Ukrainian, a route for children (aged 7–14), a step-free route and a route with a Polish Sign Language interpreter (in the app). This is older information, so please confirm the current routes with the CK Zamek information desk.",
             ]),
             ("Good to know", [
-                "On 11 November a fair is held in front of the castle during the St Martin's Street name-day celebrations.",
+                "On 11 November a fair is held in front of the castle during the St Martin Street Name Day celebrations.",
             ]),
         ],
         hours=[("Sightseeing", "daily 12:00–19:00"), ("Ticket sales", "until 18:00")],
@@ -139,7 +139,7 @@ EN_BATCH2 = {
                 "Next to the centre is a historic park, a good place to rest after sightseeing.",
             ]),
         ],
-        hours=[("Monday–Saturday", "9:00–21:00"), ("Trading Sundays", "10:00–20:00"), ("Other Sundays", "only selected venues open"),
+        hours=[("Monday–Saturday", "9:00–21:00"), ("Shopping Sundays", "10:00–20:00"), ("Other Sundays", "only selected venues open"),
                ("Pop Culture Gallery", "12:00–20:00")],
         tickets=[("Entry and viewing the art", "free"), ("Exhibitions in the Pop Culture Gallery", "depends on the exhibition")],
     ),

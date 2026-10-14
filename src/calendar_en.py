@@ -85,7 +85,7 @@ CAL_EN = {
         desc=["A fair of computer games and multimedia entertainment, according to the organiser the largest in Central and Eastern Europe. Admission is ticketed."],
     ),
     "imieniny-sw-marcin": dict(
-        name="Name Day of Święty Marcin Street",
+        name="St Martin Street Name Day (Imieniny Ulicy Święty Marcin)",
         place="ul. Święty Marcin, by the Zamek Culture Centre",
         when="Every year on 11 November",
         note="Always on 11 November, the Polish National Independence Day.",
@@ -101,7 +101,7 @@ CAL_EN = {
         desc=["A Christmas fair on the grounds of the Poznań International Fair, a few minutes' walk from Poznań Główny station."],
     ),
     "betlejem": dict(
-        name="Poznań Bethlehem on Plac Wolności and the Old Market Square",
+        name="Poznań Bethlehem Christmas Market on Plac Wolności and the Old Market Square",
         place="Plac Wolności and the Old Market Square",
         when="Every year from the second half of November to 6 January",
         note="Plac Wolności: from 20 November 2026 to 6 January 2027. Old Market Square: from 21 November 2026 to 6 January 2027. According to the terms of the Estrada Poznańska competition, the next edition on the Old Market Square is to run from 19 November 2027 to 6 January 2028.",

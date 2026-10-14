@@ -57,7 +57,7 @@ def body(en_date):
 
 <section id="hosting">
   <h2>Server</h2>
-  <p>The site is served by GitHub Pages (GitHub, Inc.). Like any server, GitHub records technical connection data in its logs, including the IP address, date and time and the address of the page opened, to keep the service secure and working. We do not have access to these logs. Terms: {ext("https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "GitHub privacy statement")}.</p>
+  <p>The site is served by GitHub Pages (GitHub, Inc.). Like any server, GitHub records technical connection data in its logs, including the IP address, date and time and the address of the page opened, to ensure the security and functionality of the service. We do not have access to these logs. Terms: {ext("https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "GitHub privacy statement")}.</p>
   <p>The domain is registered with OVH.</p>
 </section>
 

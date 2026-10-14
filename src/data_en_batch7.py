@@ -81,7 +81,7 @@ EN_BATCH7 = {
         short="A showpiece square with the Freedom Fountain, surrounded by the Bazar, the National Museum and the Raczyński Library.",
         badge="Free",
         status=None,
-        lead="Plac Wolności is a rectangular square measuring 85 by 205 m, west of the medieval centre. Poznań people call it “Plajta” in dialect. Today it is the city's drawing room, and in winter the site of the Poznań Bethlehem.",
+        lead="Plac Wolności is a rectangular square measuring 85 by 205 m, west of the medieval centre. Poznań people call it “Plajta” in dialect. Today it is the city's drawing room, and in winter the site of the Poznań Bethlehem Christmas Market.",
         sections=[
             ("History", [
                 "In 1798 the city bought the land for 2,500 thalers and levelled a hill called Mucha Góra (Fly Hill) to create the square. It was named Wilhelmsplatz, after the Prussian king Frederick William III.",
@@ -96,7 +96,7 @@ EN_BATCH7 = {
             ]),
             ("Good to know", [
                 "Under the square's surface is a three-level car park for more than 500 cars, opened in 2006.",
-                "The square hosts fairs and seasonal events, among them the Poznań Bethlehem (in the 2026/27 season from 20 November to 6 January) and the Easter Fair. Current dates are in the events calendar.",
+                "The square hosts fairs and seasonal events, among them the Poznań Bethlehem Christmas Market (in the 2026/27 season from 20 November to 6 January) and the Easter Fair. Current dates are in the events calendar.",
             ]),
         ],
         hours=[("Square", "open 24 hours")],
@@ -241,7 +241,7 @@ EN_BATCH7 = {
                 "Tram 0 (Sundays and selected public holidays): historic cars between the University Library and the stop 27 Grudnia-Teatr Polski. Departures at 12:30, 13:30, 14:30, 16:00 and 17:00.",
                 "Tram 20 (Saturdays): the same route, run by faster historic trams, at the same times.",
                 "Bus 100 (weekends and public holidays): from Poznań Główny station to the New Zoo, every 40 minutes between 9:40 and 17:40.",
-                "Bus 102 (Saturdays): from Poznań Główny station to the Armoured Weapons Museum, departures at 10:00 and 12:00.",
+                "Bus 102 (Saturdays): from Poznań Główny station to the Museum of Armoured Weapons, departures at 10:00 and 12:00.",
                 "On selected days the historic lines H (tram) and A (bus) also run. MPK announces the dates separately.",
             ]),
             ("Tickets", [

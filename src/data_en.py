@@ -31,14 +31,14 @@ EN = {
         short="The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon.",
         badge="Free",
         status="The museum inside the Town Hall (Poznań City Museum) is closed from 1 July 2026 to 30 November 2027 for renovation. Part of the building is under scaffolding. The goats still appear, but the mechanism has occasionally stopped during the works.",
-        lead="Stary Rynek (Old Market Square) was laid out around 1253, when the city was chartered. It is a square with sides of 141 metres, and the Renaissance-style town hall stands at its centre.",
+        lead="Stary Rynek (Old Market Square) was laid out around 1253, when the city was chartered. It is a square measuring 141 metres on each side, and the Renaissance-style town hall stands at its centre.",
         sections=[
             ("About the place", [
                 "The square was the centre of the chartered town, founded between the castle and the Warta river. Townhouses surround the open space, and a block of buildings fills its middle.",
                 "The town hall has medieval origins. Between 1550 and 1560 it was rebuilt by Giovanni Battista di Quadro, an architect from Lugano in Ticino. He added a storey, extended the building to the west, and gave it an attic parapet and a three-storey loggia, which created its Renaissance look.",
             ]),
             ("What to see", [
-                "The Poznań Billy Goats on the town hall tower: every day at 12:00 they emerge above the clock and butt their horns. The clock was ordered from Bartłomiej Wolff of Gubin during the rebuilding and installed in 1551. A crowd gathers below at noon, so arrive a few minutes early.",
+                "The Poznań Goats on the town hall tower: every day at 12:00 they emerge above the clock and butt heads. The clock was ordered from Bartłomiej Wolff of Gubin during the rebuilding and installed in 1551. A crowd gathers below at noon, so arrive a few minutes early.",
                 "The central block of buildings: besides the town hall, it holds the Weigh House, the neoclassical Guardhouse (now the Museum of the Greater Poland Uprising) and the little merchants' houses (domki budnicze), former trading stalls.",
                 "Four fountains: Proserpina, Apollo, Neptune and Mars. The Proserpina fountain dates from 1766 and is the only one that survived. The other three were rebuilt between 2002 and 2005.",
             ]),
@@ -47,7 +47,7 @@ EN = {
                 "Within a few hundred metres you will find the Croissant Museum, the Parish Church (Fara), the Archaeological Museum and the Museum of the Greater Poland Uprising.",
             ]),
         ],
-        hours=[("Square", "open 24 hours"), ("Billy goats", "daily at 12:00"), ("Museum in the Town Hall", "closed until 30 Nov 2027")],
+        hours=[("Square", "open 24 hours"), ("Poznań Goats", "daily at 12:00"), ("Museum in the Town Hall", "closed until 30 Nov 2027")],
         tickets=[("Square and goats", "free")],
     ),
     "ostrow-tumski": dict(
@@ -114,7 +114,7 @@ EN = {
         sections=[
             ("About the croissant", [
                 "Since 2008 the name “rogal świętomarciński” has been a Protected Geographical Indication of the European Union (Commission Regulation (EC) No 1070/2008 of 30 October 2008). Only a bakery in the Greater Poland region that holds a certificate from the Chapter of the Poznań Traditional St Martin's Croissant may use the name.",
-                "Poznań residents eat these croissants above all on 11 November, the name day of Święty Marcin Street.",
+                "Poznań residents eat these croissants above all on 11 November, the St Martin Street Name Day.",
             ]),
             ("The shows", [
                 "The croissant show lasts 55–60 minutes; the show “with coats of arms” lasts 65 minutes.",

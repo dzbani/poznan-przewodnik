@@ -9,7 +9,7 @@ PLANS_EN = {
         who="If you have only one day, ideally Tuesday to Saturday",
         intro="The most important places in one walking route. If you have only 2–3 hours, do stops 1 to 3.",
         stops=[
-            ("morning", "Walk around the square with its fountains and little merchants' houses, and before 12:00 stand in front of the town hall to see the Billy Goats."),
+            ("morning", "Walk around the square with its fountains and little merchants' houses, and before 12:00 stand in front of the town hall to see the Poznań Goats."),
             ("late morning", "An interactive show about the St Martin's croissant right by the square. Shows often sell out, so buy a ticket in advance."),
             ("afternoon", "From the Old Market Square you can walk along ul. Wielka across the Warta to the archcathedral. Visiting is possible on weekdays until 16:00, so do not come here too late."),
             ("late afternoon", "A footbridge across the Cybina takes you to a multimedia exhibition on the beginnings of the state."),
@@ -24,9 +24,9 @@ PLANS_EN = {
         stops=[
             ("morning", "Start with the viewing tower: from above you will see where you are going next."),
             ("late morning", "The Baroque Parish Church stands a few minutes' walk from the castle."),
-            ("before 12:00", "Stand in front of the town hall a few minutes before noon to see the Billy Goats."),
+            ("before 12:00", "Stand in front of the town hall a few minutes before noon to see the Poznań Goats."),
             ("early afternoon", "An interactive show about the St Martin's croissant. Shows often sell out, so buy a ticket in advance."),
-            ("on the way", "Remains of the walls, the bastion on ul. 23 Lutego and the Catherine's Tower."),
+            ("on the way", "Remains of the walls, the bastion on ul. 23 Lutego and Catherine's Tower."),
             ("afternoon", "From the Old Market Square you can walk along ul. Wielka across the Warta to the archcathedral."),
             ("late afternoon", "A footbridge across the Cybina takes you to a multimedia exhibition on the beginnings of the state."),
             ("evening", "In Śródka see the three-dimensional mural and have dinner."),
@@ -34,9 +34,9 @@ PLANS_EN = {
         note="On Mondays the Royal Castle and the Gate of Poznań are closed. On that day swap them for the cathedral and a walk along the Warta boulevards.",
     ),
     "dzien-2": dict(
-        title="Day 2: Imperial District and Jeżyce",
+        title="Day 2: Imperial Quarter and Jeżyce",
         who="For your second day",
-        intro="Poznań at the turn of the 19th and 20th centuries: the buildings of the Imperial District, the museums by Freedom Square and the townhouses of Jeżyce.",
+        intro="Poznań at the turn of the 19th and 20th centuries: the buildings of the Imperial Quarter, the museums by Freedom Square and the townhouses of Jeżyce.",
         stops=[
             ("morning", "The painting gallery on Aleje Marcinkowskiego. On Tuesdays the permanent exhibitions are free."),
             ("on the way", "A neoclassical building on Freedom Square."),
@@ -45,7 +45,7 @@ PLANS_EN = {
             ("on the way", "The crosses in Mickiewicz Park, opposite the castle."),
             ("on the way", "A park between the castle and the Opera, good for a short rest."),
             ("afternoon", "Art Nouveau townhouses, the market on Rynek Jeżycki and the Jeżycjada trail. You can walk there or go by tram."),
-            ("evening", "A 19th-century brick brewery with sculptures by Mitoraj and other artists, shops and a park. Open until 21:00, on Sundays only trading Sundays."),
+            ("evening", "A 19th-century brick brewery with sculptures by Mitoraj and other artists, shops and a park. Open until 21:00, on Sundays only shopping Sundays."),
         ],
         note="The National Museum is closed on Mondays.",
     ),
@@ -67,7 +67,7 @@ PLANS_EN = {
         who="Families with preschool and school-age children",
         intro="Short walks, shows and plenty of outdoor activity.",
         stops=[
-            ("before 12:00", "The Billy Goats on the town hall are a must."),
+            ("before 12:00", "The Poznań Goats on the town hall are a must."),
             ("after the goats", "An interactive show: how the St Martin's croissant is made."),
             ("late morning or after lunch", "A model of old Poznań with a light and sound show."),
             ("afternoon", "A ride on the park railway beside Lake Malta (in season only; in 2026 from 12 April to 27 September)."),
@@ -95,7 +95,7 @@ PLANS_EN = {
         intro="A route planned for a short day: sightseeing indoors and a walk around the square at fair time.",
         stops=[
             ("morning", "The Museum of Decorative Arts and the viewing tower. You can take a lift to the covered terrace, and in bad weather the open terrace is closed."),
-            ("before 12:00", "The Billy Goats butt heads every day at 12:00. During the Poznań Bethlehem (from 21 November 2026 to 6 January 2027) fair stalls stand on the square."),
+            ("before 12:00", "The Poznań Goats butt heads every day at 12:00. During the Poznań Bethlehem Christmas Market (from 21 November 2026 to 6 January 2027) fair stalls stand on the square."),
             ("early afternoon", "A show about the St Martin's croissant, warm and indoors."),
             ("afternoon", "You can visit the archcathedral on weekdays until 16:00, so start there before dark. Our sources do not give visiting hours for the crypts and tower after 15 November, so ask on site."),
             ("late afternoon", "A multimedia exhibition on the beginnings of the state, open until 18:00 or 19:00."),
@@ -108,7 +108,7 @@ PLANS_EN = {
         who="On a limited budget",
         intro="You can see many of the most beautiful places without a ticket. On Tuesdays some museums have free admission.",
         stops=[
-            ("before 12:00", "The square, the little merchants' houses, the fountains and the Billy Goats."),
+            ("before 12:00", "The square, the little merchants' houses, the fountains and the Poznań Goats."),
             ("late morning", "You can visit the interior of the church without a ticket. On Saturdays at 12:15 organ concerts are held."),
             ("afternoon", "Entry to the cathedral is free."),
             ("all day", "A marked trail links the most important monuments."),
@@ -124,7 +124,7 @@ PLANS_EN = {
         who="When most museums have a day off",
         intro="Places that are open on Mondays too.",
         stops=[
-            ("before 12:00", "The Billy Goats butt heads every day."),
+            ("before 12:00", "The Poznań Goats butt heads every day."),
             ("late morning", "Shows are held every day."),
             ("midday", "You can visit the cathedral on weekdays."),
             ("from 12:00", "The castle is open every day."),

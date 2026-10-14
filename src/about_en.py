@@ -20,7 +20,7 @@ HISTORY = [
     ("1815", "After the Congress of Vienna, Poznań becomes the seat of the authorities of the Grand Duchy of Posen, part of Prussia. The governor is Prince Antoni Radziwiłł."),
     ("1828–1842", "The Prussians build a mighty fort in Winiary, today's Citadel. Poznań turns into a fortress city surrounded by fortifications."),
     ("1848", "During the Spring of Nations, a National Committee is formed in Poznań on 20 March, and an uprising against the Prussians breaks out in Greater Poland. In May the insurgents surrender."),
-    ("1905–1910", "The Imperial Castle is built for Emperor Wilhelm II, the heart of the new Imperial District."),
+    ("1905–1910", "The Imperial Castle is built for Emperor Wilhelm II, the heart of the new Imperial Quarter."),
     ("1918–1919", "On 26 December 1918 Ignacy Paderewski speaks to the people of Poznań in front of the Hotel Bazar, and the next day the Greater Poland Uprising breaks out. The victorious uprising returns Poznań to Poland. In 1919 the University of Poznań is founded, today Adam Mickiewicz University."),
     ("1921", "The first Poznań Fair is held. From 1925 it is an international fair, and Poznań becomes a city of trade fairs."),
     ("1929", "From 16 May to 30 September the General National Exhibition (PeWuKa) takes place, a showcase of the achievements of ten years of independent Poland."),

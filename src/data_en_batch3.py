@@ -174,12 +174,12 @@ EN_BATCH3 = {
         tickets=[("Entry to the garden", "free")],
     ),
     "muzeum-broni-pancernej": dict(
-        name="Armoured Weapons Museum",
-        img_alt="A Jagdpanzer 38(t) tank destroyer in the Armoured Weapons Museum",
+        name="Museum of Armoured Weapons",
+        img_alt="A Jagdpanzer 38(t) tank destroyer in the Museum of Armoured Weapons",
         short="75 armoured vehicles from around the world, from the Greater Poland Uprising to the Cold War.",
         badge="Thu free",
         status=None,
-        lead="The Armoured Weapons Museum is a branch of the Polish Army Museum in Warsaw. It was established on 1 April 2015 and has operated in its present home on ul. 3 Pułku Lotniczego since October 2019.",
+        lead="The Museum of Armoured Weapons is a branch of the Polish Army Museum in Warsaw. It was established on 1 April 2015 and has operated in its present home on ul. 3 Pułku Lotniczego since October 2019.",
         sections=[
             ("What to see", [
                 "About 230 exhibits, including 75 vehicles from around the world.",
@@ -242,10 +242,10 @@ EN_BATCH3 = {
         short="An opera house from 1910 with Pegasus on the roof. Take a behind-the-scenes tour or come to an opera or ballet.",
         badge="Opera and ballet",
         status=None,
-        lead="The Grand Theatre building was designed by the Munich architect Max Littmann. It was built in only 18 months as a new municipal theatre and opened in 1910 with Mozart's “The Magic Flute”. The neoclassical façade is crowned by a figure of Pegasus, which is why the building is called the House under Pegasus.",
+        lead="The Grand Theatre building was designed by the Munich architect Max Littmann. It was built in only 18 months as a new municipal theatre and opened in 1910 with Mozart's “The Magic Flute”. The neoclassical façade is crowned by a figure of Pegasus, which is why the building is known locally as the House under the Sign of Pegasus (Dom pod Pegazem).",
         sections=[
             ("History", [
-                "The theatre stands on ul. Fredry in the Imperial District, built by the Germans at the beginning of the 20th century. On the other side of ul. Fredry lies Mickiewicz Park, and beyond ul. Wieniawskiego Wieniawski Park.",
+                "The theatre stands on ul. Fredry in the Imperial Quarter, built by the Germans at the beginning of the 20th century. On the other side of ul. Fredry lies Mickiewicz Park, and beyond ul. Wieniawskiego Wieniawski Park.",
                 "In 1919 the theatre was taken over by the Polish authorities. On 31 August 1919 the Polish opera began its work here with Stanisław Moniuszko's “Halka”. Between the wars the theatre staged, among others, the world premiere of Feliks Nowowiejski's “Legend of the Baltic” and the Polish premiere of Karol Szymanowski's ballet “Harnasie”.",
                 "During the Second World War a German theatre operated here. In 1950 the opera was named after Stanisław Moniuszko.",
             ]),
@@ -319,7 +319,7 @@ EN_BATCH3 = {
                 "It consisted of a large fort on Winiary Hill (today's Citadel), fortifications on the right bank of the Warta (including Ostrów Tumski, Śródka and Malta) and a core on the left bank. Ul. Kościuszki and ul. Kazimierza Wielkiego now run along the former fortifications.",
                 "In 1902 it was decided to dismantle the core on the left bank. Demolition continued after Poland regained independence and after the Second World War, so only fragments remain of this part of the fortress.",
             ]),
-            ("The fort fortress", [
+            ("The ring of forts", [
                 "In the second half of the 19th century the fortress was modernised. Nine main forts and nine intermediate forts were planned. The main forts were built in 1873–1884 to a standard Prussian design by Gen. von Biehler: pentagonal, with a moat and an artillery rampart.",
             ]),
             ("Where to see the relics", [

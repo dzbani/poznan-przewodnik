@@ -56,7 +56,7 @@ EN_BATCH4 = {
                 "The Teatr Nowy on ul. Dąbrowskiego and the church of the Sacred Heart of Jesus and St Florian from 1906.",
             ]),
             ("The Jeżycjada trail", [
-                "Jeżyce is the setting of the “Jeżycjada”, a series of novels by Małgorzata Musierowicz. The Poznań Local Tourist Organisation created the Poznań Jeżycjada Trail together with the author: about 7 km (a shortened 3 km variant) through Jeżyce and the Imperial District, with quotations and recordings read by the writer.",
+                "Jeżyce is the setting of the “Jeżycjada”, a series of novels by Małgorzata Musierowicz. The Poznań Local Tourist Organisation created the Poznań Jeżycjada Trail together with the author: about 7 km (a shortened 3 km variant) through Jeżyce and the Imperial Quarter, with quotations and recordings read by the writer.",
             ]),
             ("Good to know", [
                 "Jeżyce is also home to the Old Zoo and the Botanical Garden of Adam Mickiewicz University. Both are described on separate pages.",
@@ -116,7 +116,7 @@ EN_BATCH4 = {
     "mury-miejskie": dict(
         name="Medieval City Walls",
         img_alt="A fragment of the city walls on ul. Wroniecka",
-        short="Remains of walls from the 13th–15th centuries, the Catherine's Tower and a tourist path by the Wronki Gate.",
+        short="Remains of walls from the 13th–15th centuries, Catherine's Tower and a tourist path by the Wronki Gate.",
         badge="Free",
         status=None,
         lead="Defensive walls surrounded Poznań from the 13th to the 15th century. They were about 1,725 metres long and 7 metres high, and the inner towers reached 11 metres.",
@@ -126,7 +126,7 @@ EN_BATCH4 = {
                 "After 1431 a second, outer wall was added with semicircular towers adapted for firearms. In the 17th century, with the development of artillery, the walls lost their defensive significance.",
             ]),
             ("What to see", [
-                "The Catherine's Tower (Baszta Katarzynek), the only tower of the former walls to survive to this day.",
+                "Catherine's Tower (Baszta Katarzynek), the only tower of the former walls to survive to this day.",
                 "The remains of an artillery bastion on ul. 23 Lutego.",
                 "Fragments of the outer wall with the Castle Postern (Furta Zamkowa) by the Royal Castle, and western sections on ul. Ludgardy.",
                 "A tourist path between the bastion and the remains of the Wronki Gate.",
@@ -144,7 +144,7 @@ EN_BATCH4 = {
         short="A showpiece park in front of the Grand Theatre, with a fountain and plane trees, next to the Poznań Crosses.",
         badge="Free",
         status=None,
-        lead="Mickiewicz Park was created in 1907–1910 on the site of former fortifications, as part of the Imperial District designed by Joseph Stübben. Its layout is closely linked with the Grand Theatre building.",
+        lead="Mickiewicz Park was created in 1907–1910 on the site of former fortifications, as part of the Imperial Quarter designed by Joseph Stübben. Its layout is closely linked with the Grand Theatre building.",
         sections=[
             ("What to see", [
                 "A long pool with a high-jetting fountain and the ceremonial steps in front of the Stanisław Moniuszko Grand Theatre.",
@@ -152,7 +152,7 @@ EN_BATCH4 = {
                 "The southern part of the park, which leads into Adam Mickiewicz Square with the monument to Adam Mickiewicz and the Poznań June 1956 Monument.",
             ]),
             ("Good to know", [
-                "The park lies opposite the Imperial Castle, so it is easy to combine with a tour of the Imperial District.",
+                "The park lies opposite the Imperial Castle, so it is easy to combine with a tour of the Imperial Quarter.",
                 "Trams 2, 3, 4, 5, 8, 9, 13, 15, 16, 17 and 19 run to the stop Zamek (according to the ZTM timetable of 10 October 2026).",
             ]),
         ],
@@ -173,7 +173,7 @@ EN_BATCH4 = {
                 "The left cross bears the date 1956. On the right are the dates of later protests in communist Poland: 1968, 1970, 1976, 1980 and 1981. The inscription refers to the workers' slogans: “For freedom, law and bread”.",
             ]),
             ("Good to know", [
-                "The monument stands in the Imperial District, opposite the Imperial Castle. The castle houses the Museum of the Poznań Uprising – June 1956.",
+                "The monument stands in the Imperial Quarter, opposite the Imperial Castle. The castle houses the Museum of the Poznań Uprising – June 1956.",
             ]),
         ],
         hours=[("Monument", "open around the clock")],

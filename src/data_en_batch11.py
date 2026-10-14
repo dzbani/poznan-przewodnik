@@ -301,7 +301,7 @@ EN_BATCH11 = {
         short="A historic park next to the Grand Theatre, formerly called “Teatralka”, with a sledging hill.",
         badge="Free",
         status=None,
-        lead="Wieniawski Park, in the interwar period called “Teatralka”, lies in the centre of Poznań, in the northern part of the Imperial District, right next to the Grand Theatre. It was laid out in 1907–1910.",
+        lead="Wieniawski Park, in the interwar period called “Teatralka”, lies in the centre of Poznań, in the northern part of the Imperial Quarter, right next to the Grand Theatre. It was laid out in 1907–1910.",
         sections=[
             ("What to see", [
                 "A sledging hill in the southern part of the park, on whose top elements of former small architecture have survived.",
