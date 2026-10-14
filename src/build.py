@@ -303,7 +303,7 @@ def finder_parts():
     quick = [("all", "Wszystko"), ("free", "Bezpłatne"), ("kids", "Dla dzieci"), ("indoor", "Pod dachem, na deszcz")]
     quick_html = "".join(
         f'<button type="button" class="qf" aria-pressed="{str(k == "all").lower()}" data-quick="{k}">{escape(n)}</button>'
-        for k, n in quick) + '<button type="button" id="locate-btn" class="qf locate-btn" aria-label="Gdzie jestem: pokaż moją lokalizację"><span class="locate-ico" aria-hidden="true">📍</span>Gdzie jestem</button>'
+        for k, n in quick)
     groups = []
     for k, n, d in CATEGORIES:
         items = [a for a in ATTRACTIONS if a["cat"] == k]
