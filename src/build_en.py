@@ -473,7 +473,7 @@ def build_calendar_en():
   <nav class="toc" aria-label="Choose a month">{''.join(toc)}</nav>
 </header>
 <div class="wrap cal">{''.join(months)}
-  <p class="muted small">Dates checked {en_date(CAL_CHECKED)} on the organisers' websites. Please confirm them with the organiser before you travel. The city's current cultural programme: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a> (in Polish). Permanent venues: <a href="../teatry.html" hreflang="pl" lang="pl">teatry i koncerty</a> (in Polish).</p>
+  <p class="muted small">Dates checked {en_date(CAL_CHECKED)} on the organisers' websites. Please confirm them with the organiser before you travel. The city's current cultural programme: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a> (in Polish). Permanent venues: <a href="theatres.html">theatres and concerts</a>.</p>
 </div>
 """
     return page_en("Events in Poznań: festivals, fairs and holidays by month | Odkrywaj Poznań", body, prefix="../",
@@ -688,7 +688,7 @@ def build_about_en():
     climate = "".join(f'<div class="fact"><p class="fact-k">{escape(v)}</p><p>{escape(l)}</p></div>' for v, l in about_en.CLIMATE)
     ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener" hreflang="pl">{text}</a>'
     rogal = '<a href="attractions/rogalowe-muzeum.html">Croissant Museum</a>'
-    pyry = '<a href="../atrakcje/muzeum-pyry.html" hreflang="pl">Poznań Potato Museum (in Polish)</a>'
+    pyry = '<a href="attractions/muzeum-pyry.html">Poznań Potato Museum</a>'
     body = f"""
 <header class="wrap page-head">
   <p class="kicker">{L['kicker']}</p>

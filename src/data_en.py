@@ -189,3 +189,7 @@ EN.update(EN_BATCH11)
 
 from data_en_batch12 import EN_BATCH12  # noqa: E402  (partia 12, 14.10.2026)
 EN.update(EN_BATCH12)
+
+
+from data_en_batch13 import EN_BATCH13  # noqa: E402  (partia 13, 14.10.2026; ostatnia)
+EN.update(EN_BATCH13)

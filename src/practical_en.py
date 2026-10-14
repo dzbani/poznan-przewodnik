@@ -48,7 +48,7 @@ def body(checked):
     <li><strong>Jeżyce:</strong> a district of Art Nouveau townhouses, close to the Poznań International Fair. A good choice if you are going to a trade fair.</li>
     <li><strong>Łazarz and Wilda:</strong> residential districts south of the centre. From here you can get to the centre by public transport.</li>
   </ul>
-  <p>Prices depend on the date, so we do not quote rates. On the days of major events at the Poznań International Fair (for example Pyrkon or Poznań Game Arena), and during fairs and the marathon, it is worth booking accommodation in advance. See the events calendar (in Polish) for dates: <a href="../kalendarz.html" hreflang="pl" lang="pl">Kalendarz wydarzeń</a>.</p>
+  <p>Prices depend on the date, so we do not quote rates. On the days of major events at the Poznań International Fair (for example Pyrkon or Poznań Game Arena), and during fairs and the marathon, it is worth booking accommodation in advance. See the <a href="calendar.html">events calendar</a> for dates.</p>
   <p>You choose and book accommodation on booking sites or directly with the property. We do not recommend specific hotels.</p>
 </section>
 
