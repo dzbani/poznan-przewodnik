@@ -536,6 +536,18 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 .compare tbody th { min-width: 190px; }
 .compare td div + div { margin-top: 2px; }
 .compare td { font-size: 0.88rem; }
+/* Tabela muzeów na telefonie: każdy wiersz staje się kartą z podpisanymi polami (bez przewijania w bok). */
+@media (max-width: 700px) {
+  .compare-wrap { border: 0; overflow: visible; margin-inline: 0; }
+  .compare, .compare tbody, .compare tr, .compare th, .compare td { display: block; }
+  .compare { min-width: 0; }
+  .compare thead { display: none; }
+  .compare tbody tr { margin-bottom: 14px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+  .compare tbody tr + tr th, .compare tbody tr + tr td { border-top: 0; }
+  .compare tbody th { min-width: 0; padding: 12px 14px; background: var(--surface-2); }
+  .compare td { padding: 10px 14px; border-top: 1px solid var(--line); }
+  .compare td::before { content: attr(data-label); display: block; margin-bottom: 4px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+}
 
 /* ─── Dziennik zmian ─── */
 .changes { list-style: none; padding-left: 0 !important; display: grid; gap: 14px; }

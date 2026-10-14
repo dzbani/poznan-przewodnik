@@ -580,7 +580,7 @@ def build_museums_en():
         tickets = "".join(f'<div><span class="muted">{escape(l)}:</span> {escape(x)}</div>' for l, x in tick) or "—"
         note = '<div class="muted small">Temporarily closed</div>' if is_closed(a) else ""
         rows.append(f"""<tr id="{a['slug']}"><th scope="row">{link(a)}{note}<div class="muted small">checked {en_date(a['checked'])}</div></th>
-<td>{hours}</td><td>{tickets}</td><td>{escape(free_cell(a))}</td></tr>""")
+<td data-label="Hours">{hours}</td><td data-label="Tickets">{tickets}</td><td data-label="Free admission">{escape(free_cell(a))}</td></tr>""")
 
     monday_html = "".join(f"<li>{link(a)}</li>" for a in mus if open_monday(a, info[a["slug"]]))
     free_by_day = []
@@ -620,7 +620,7 @@ def build_museums_en():
 <section id="table">
   <h2>All museums</h2>
   <p>In alphabetical order. Hours and prices are copied from the attraction pages without shortening, and next to each name you can see the date we last checked them.</p>
-  <div class="table-wrap"><table class="grid compare">
+  <div class="table-wrap compare-wrap"><table class="grid compare">
   <thead><tr><th scope="col">Museum</th><th scope="col">Hours</th><th scope="col">Tickets</th><th scope="col">Free admission</th></tr></thead>
   <tbody>
   {"".join(rows)}
