@@ -8,7 +8,7 @@ import re
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, tags, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, HISTORY, CLIMATE, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (LINKS_CHECKED, CHECKED as SITE_CHECKED, ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, tags, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, HISTORY, CLIMATE, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
@@ -17,6 +17,7 @@ import theatres_en
 import museums_en
 import viewpoints_en
 import about_en
+import method_en
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -117,7 +118,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts
       <li><a href="{prefix}en/calendar.html">Events calendar</a></li>
       <li><a href="{prefix}en/theatres.html">Theatres and concerts</a></li>
       <li><a href="{prefix}zdjecia.html" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
-      <li><a href="{prefix}jak-weryfikujemy.html" hreflang="pl" lang="pl">How we verify information (in Polish)</a></li>
+      <li><a href="{prefix}en/how-we-verify.html">How we verify information</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
   </div>
@@ -597,7 +598,7 @@ def build_museums_en():
 <header class="wrap page-head">
   <p class="kicker">Overview</p>
   <h1>Museums in Poznań: opening hours, prices and free days</h1>
-  <p class="lead">{len(mus)} museums from the guide in one table: when they are open, how much a ticket costs and on which days admission is free. The data comes from the attraction pages, so you can check every figure at its source (<a href="../jak-weryfikujemy.html" hreflang="pl" lang="pl">how we verify information</a>, in Polish).</p>
+  <p class="lead">{len(mus)} museums from the guide in one table: when they are open, how much a ticket costs and on which days admission is free. The data comes from the attraction pages, so you can check every figure at its source (<a href="how-we-verify.html">how we verify information</a>).</p>
   <nav class="toc" aria-label="Contents">
     <a href="#table">Table</a><a href="#monday">Open on Monday</a><a href="#free">Free admission</a>
   </nav>
@@ -651,7 +652,7 @@ def build_viewpoints_en():
 <header class="wrap page-head">
   <p class="kicker">Overview</p>
   <h1>Viewpoints in Poznań: towers and terraces with a view of the city</h1>
-  <p class="lead">{count_word} places from which you can see Poznań and its surroundings from above: a terrace and towers in the city, and two free towers at Szachty and in Czmoniec. Each place has a page with hours, prices and directions (<a href="../jak-weryfikujemy.html" hreflang="pl" lang="pl">how we verify information</a>, in Polish).</p>
+  <p class="lead">{count_word} places from which you can see Poznań and its surroundings from above: a terrace and towers in the city, and two free towers at Szachty and in Czmoniec. Each place has a page with hours, prices and directions (<a href="how-we-verify.html">how we verify information</a>).</p>
 </header>
 
 <div class="wrap prose">
@@ -741,10 +742,19 @@ def build_about_en():
                    desc="A short history of Poznań, the legends of the goats and the bugle call, a glossary of the Poznań dialect, Greater Poland food and climate.")
 
 
+def build_method_en():
+    dates = sorted(datetime.datetime.strptime(a["checked"], "%d.%m.%Y").date() for a in ATTRACTIONS)
+    f = lambda d: en_date(d.strftime("%d.%m.%Y"))
+    return page_en("How we verify information – where our hours, prices and descriptions come from | Odkrywaj Poznań",
+                   method_en.body(len(ATTRACTIONS), f(dates[0]), f(dates[-1]), en_date(SITE_CHECKED), en_date(LINKS_CHECKED)),
+                   prefix="../", alt="jak-weryfikujemy.html", active="",
+                   desc="Where we get opening hours, prices and descriptions, what we do when sources disagree, and how to report a mistake. The rules of verifying information in the Odkrywaj Poznań guide.")
+
+
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
          "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html", "atrakcje.html": "en/attractions.html", "mapa.html": "en/map.html",
-         "punkty-widokowe.html": "en/viewpoints.html", "o-poznaniu.html": "en/about.html"}
+         "punkty-widokowe.html": "en/viewpoints.html", "jak-weryfikujemy.html": "en/how-we-verify.html", "o-poznaniu.html": "en/about.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -761,7 +771,8 @@ def build_all():
            "en/theatres.html": build_theatres_en(),
            "en/museums.html": build_museums_en(),
            "en/viewpoints.html": build_viewpoints_en(),
-           "en/about.html": build_about_en()}
+           "en/about.html": build_about_en(),
+           "en/how-we-verify.html": build_method_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

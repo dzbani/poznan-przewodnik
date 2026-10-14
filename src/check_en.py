@@ -93,6 +93,12 @@ def about_hash():
     return hashlib.sha1(main_text(build.build_about()).encode("utf-8")).hexdigest()[:12]
 
 
+def method_hash():
+    """Skrót polskiej strony Jak weryfikujemy (build.build_method) bez nawigacji i stopki."""
+    import build
+    return hashlib.sha1(main_text(build.build_method()).encode("utf-8")).hexdigest()[:12]
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -214,6 +220,9 @@ def check():
     if stamps.get("_about") != about_hash():
         problems.append("o poznaniu: polska strona zmieniła się od tłumaczenia (przejrzyj about_en.py, potem --stamp-about)"
                         if "_about" in stamps else "o poznaniu: brak stempla (--stamp-about)")
+    if stamps.get("_method") != method_hash():
+        problems.append("jak weryfikujemy: polska strona zmieniła się od tłumaczenia (przejrzyj method_en.py, potem --stamp-method)"
+                        if "_method" in stamps else "jak weryfikujemy: brak stempla (--stamp-method)")
     if stamps.get("_viewpoints") != viewpoints_hash():
         problems.append("punkty widokowe: polska strona zmieniła się od tłumaczenia (przejrzyj viewpoints_en.py, potem --stamp-viewpoints)"
                         if "_viewpoints" in stamps else "punkty widokowe: brak stempla (--stamp-viewpoints)")
@@ -254,6 +263,12 @@ def main():
         stamps["_about"] = about_hash()
         json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
         print("Zapisano stempel: o poznaniu")
+        return
+    if args and args[0] == "--stamp-method":
+        stamps = load()
+        stamps["_method"] = method_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: jak weryfikujemy")
         return
     if args and args[0] == "--stamp-viewpoints":
         stamps = load()
