@@ -7,11 +7,12 @@ import json
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, THEATRES, THEATRES_CHECKED, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
 from calendar_en import CAL_EN
+import theatres_en
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -46,6 +47,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     cur_pr = ' aria-current="page"' if active == "practical" else ""
     cur_pl = ' aria-current="page"' if active == "plans" else ""
     cur_cal = ' aria-current="page"' if active == "calendar" else ""
+    cur_th = ' aria-current="page"' if active == "theatres" else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,6 +81,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
         <li><a href="{prefix}en/"{cur}>Attractions</a></li>
         <li><a href="{prefix}en/plans.html"{cur_pl}>Itineraries</a></li>
         <li><a href="{prefix}en/calendar.html"{cur_cal}>Events</a></li>
+        <li><a href="{prefix}en/theatres.html"{cur_th}>Theatres</a></li>
         <li><a href="{prefix}en/practical.html"{cur_pr}>Practical</a></li>
         <li><a href="{prefix}{alt}" hreflang="pl" lang="pl">Polski</a></li>
       </ul>
@@ -325,7 +328,8 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
-  <p><a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
+  <p><a class="btn btn-ghost" href="theatres.html">Theatres and concerts: opera, philharmonic, dance {icon('arrow')}</a>
+  <a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
   <a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
   <a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
   <ul class="cards">{cards}</ul>
@@ -465,9 +469,72 @@ def build_calendar_en():
                    desc="Annual events in Poznań: Malta Festival, Ethno Port, Museums' Night, the name day of Święty Marcin Street, Christmas fairs, the marathon and more. Dates and venues.")
 
 
+def venue_card_en(v):
+    t = theatres_en.VENUES_EN[v["id"]]
+    img = ""
+    if v["img"]:
+        img = (f'<figure class="venue-img"><img src="../img/{v["img"]}.jpg" alt="" loading="lazy" decoding="async">'
+               f'{credit_badge_en(v["img"], "../")}</figure>')
+    lang = (f'<p class="venue-lang venue-lang-ok">{theatres_en.LANG_OK}</p>' if v["lang"]
+            else f'<p class="venue-lang">{theatres_en.LANG_PL}</p>')
+    desc = "".join(f"<p>{escape(p)}</p>" for p in t["desc"])
+    links = "".join(f'<a href="{escape(u)}" target="_blank" rel="noopener">{icon("globe")} {escape(label)}</a>'
+                    for (_, u), label in zip(v["links"], t["links"]))
+    if v["attraction"]:
+        slug = v["attraction"]
+        if slug in EN:
+            links += f'<a href="attractions/{slug}.html">{icon("arrow")} {escape(EN[slug]["name"])} in the guide</a>'
+        else:
+            links += f'<a href="../atrakcje/{slug}.html" hreflang="pl">{icon("arrow")} {escape(BY_SLUG[slug]["name"])} in the guide (in Polish)</a>'
+    from urllib.parse import quote_plus
+    maps = "https://www.google.com/maps/search/?api=1&query=" + quote_plus(f'{v["name"]}, {v["address"]}')
+    return f"""<article id="{v['id']}" class="venue">
+  {img}
+  <div class="venue-body">
+    <p class="kicker">{escape(t['kind'])}</p>
+    <h2>{escape(t['name'])}</h2>
+    {lang}
+    {desc}
+    <p class="muted">{icon('pin')} <a href="{maps}" target="_blank" rel="noopener">{escape(v['address'])}</a></p>
+    <p class="venue-links">{links}</p>
+  </div>
+</article>"""
+
+
+def build_theatres_en():
+    from data_theatres import THEATRE_SOURCES
+    toc = "".join(f'<a href="#{v["id"]}">{escape(theatres_en.VENUES_EN[v["id"]]["name"].split(" (")[0])}</a>' for v in THEATRES)
+    src = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener" hreflang="pl">{escape(t)}</a></li>' for t, u in THEATRE_SOURCES)
+    more = theatres_en.MORE
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Culture</p>
+  <h1>Theatres and concerts</h1>
+  <p class="lead">{escape(theatres_en.INTRO)}</p>
+  <nav class="toc" aria-label="Choose a venue">{toc}</nav>
+</header>
+<div class="wrap venues">
+  {''.join(venue_card_en(v) for v in THEATRES)}
+  <aside class="panel venue-more">
+    <h2>Good to know</h2>
+    <p>{escape(more[0])}</p>
+    <p>Concerts, theatre stages and festivals also operate at the <a href="attractions/zamek-cesarski.html">Zamek Culture Centre (Imperial Castle)</a>. The annual festivals, including Malta Festival and Ethno Port, are in the <a href="calendar.html">events calendar</a>.</p>
+  </aside>
+  <section class="sources">
+    <h2>Sources (in Polish)</h2>
+    <ul>{src}</ul>
+    <p class="muted small">Checked {en_date(THEATRES_CHECKED)}.</p>
+  </section>
+</div>
+"""
+    return page_en("Theatres and concerts in Poznań: opera, philharmonic, drama and dance | Odkrywaj Poznań", body, prefix="../",
+                   alt="teatry.html", active="theatres",
+                   desc="Theatres and concert halls in Poznań: the Grand Theatre (Opera), Philharmonic, Teatr Polski, Teatr Nowy, Musical Theatre, Polish Dance Theatre and Animation Theatre. Addresses, box offices, repertoire.")
+
+
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
-         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html"}
+         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -478,7 +545,8 @@ def build_all():
     out = {"en/index.html": build_index_en(slugs), "en/privacy.html": build_privacy_en(),
            "en/practical.html": build_practical_en(),
            "en/plans.html": build_plans_en(),
-           "en/calendar.html": build_calendar_en()}
+           "en/calendar.html": build_calendar_en(),
+           "en/theatres.html": build_theatres_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

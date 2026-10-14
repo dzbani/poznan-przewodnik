@@ -68,6 +68,12 @@ def event_numbers(parts):
     return sorted(re.findall(r"\d+", text))
 
 
+def theatres_hash():
+    """Skrót polskich danych teatrów (data_theatres.THEATRES)."""
+    from data_theatres import THEATRES
+    return hashlib.sha1(json.dumps(THEATRES, ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -137,6 +143,22 @@ def check():
         en_nums = event_numbers([t["name"], t["when"], t["place"], t["note"]] + t["desc"])
         if pl_nums != en_nums:
             problems.append(f"kalendarz: {ev['id']}: różne liczby. PL {pl_nums} ≠ EN {en_nums}")
+    from data_theatres import THEATRES
+    from theatres_en import VENUES_EN
+    for v in THEATRES:
+        t = VENUES_EN.get(v["id"])
+        if not t:
+            problems.append(f"teatry: brak angielskiego opisu sceny „{v['id']}”")
+            continue
+        if len(t["desc"]) != len(v["desc"]):
+            problems.append(f"teatry: {v['id']}: {len(t['desc'])} akapitów w EN, {len(v['desc'])} w PL")
+        if len(t["links"]) != len(v["links"]):
+            problems.append(f"teatry: {v['id']}: {len(t['links'])} etykiet linków w EN, {len(v['links'])} w PL")
+        if event_numbers(v["desc"] + [v["kind"]]) != event_numbers(t["desc"] + [t["kind"]]):
+            problems.append(f"teatry: {v['id']}: różne liczby (godziny, ceny, lata) między PL a EN")
+    if stamps.get("_theatres") != theatres_hash():
+        problems.append("teatry: polskie dane zmieniły się od tłumaczenia (przejrzyj theatres_en.py, potem --stamp-theatres)"
+                        if "_theatres" in stamps else "teatry: brak stempla (--stamp-theatres)")
     if stamps.get("_calendar") != calendar_hash():
         problems.append("kalendarz: polski kalendarz zmienił się od tłumaczenia (przejrzyj calendar_en.py, potem --stamp-calendar)"
                         if "_calendar" in stamps else "kalendarz: brak stempla (--stamp-calendar)")
@@ -151,6 +173,12 @@ def check():
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-theatres":
+        stamps = load()
+        stamps["_theatres"] = theatres_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: teatry")
+        return
     if args and args[0] == "--stamp-calendar":
         stamps = load()
         stamps["_calendar"] = calendar_hash()
