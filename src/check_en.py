@@ -74,6 +74,12 @@ def theatres_hash():
     return hashlib.sha1(json.dumps(THEATRES, ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
 
 
+def museums_hash():
+    """Skrót polskiej strony Muzea (build.build_museums) bez nawigacji i stopki."""
+    import build
+    return hashlib.sha1(main_text(build.build_museums()).encode("utf-8")).hexdigest()[:12]
+
+
 def privacy_hash():
     """Skrót polskiej strony Prywatność (build.build_privacy), by wykryć zmianę polityki bez zmiany angielskiej."""
     import build
@@ -156,6 +162,22 @@ def check():
             problems.append(f"teatry: {v['id']}: {len(t['links'])} etykiet linków w EN, {len(v['links'])} w PL")
         if event_numbers(v["desc"] + [v["kind"]]) != event_numbers(t["desc"] + [t["kind"]]):
             problems.append(f"teatry: {v['id']}: różne liczby (godziny, ceny, lata) między PL a EN")
+    from museums_en import MUSEUMS_EN
+    for a in PL.values():
+        if a["cat"] != "muzea" or a["slug"] in EN:
+            continue
+        m = MUSEUMS_EN.get(a["slug"])
+        if not m:
+            problems.append(f"muzea: brak angielskich danych muzeum „{a['slug']}” (museums_en.py)")
+            continue
+        for key in ("hours", "tickets"):
+            if len(m[key]) != len(a[key]):
+                problems.append(f"muzea: {a['slug']}: {key}: {len(m[key])} wierszy w EN, {len(a[key])} w PL")
+            elif numbers(m[key], "en") != numbers(a[key], "pl"):
+                problems.append(f"muzea: {a['slug']}: {key}: różne godziny/kwoty. PL {numbers(a[key], 'pl')} ≠ EN {numbers(m[key], 'en')}")
+    if stamps.get("_museums") != museums_hash():
+        problems.append("muzea: polska strona zmieniła się od tłumaczenia (przejrzyj museums_en.py, potem --stamp-museums)"
+                        if "_museums" in stamps else "muzea: brak stempla (--stamp-museums)")
     if stamps.get("_theatres") != theatres_hash():
         problems.append("teatry: polskie dane zmieniły się od tłumaczenia (przejrzyj theatres_en.py, potem --stamp-theatres)"
                         if "_theatres" in stamps else "teatry: brak stempla (--stamp-theatres)")
@@ -173,6 +195,12 @@ def check():
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-museums":
+        stamps = load()
+        stamps["_museums"] = museums_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: muzea")
+        return
     if args and args[0] == "--stamp-theatres":
         stamps = load()
         stamps["_theatres"] = theatres_hash()

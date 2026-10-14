@@ -13,6 +13,7 @@ from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
 from calendar_en import CAL_EN
 import theatres_en
+import museums_en
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -100,6 +101,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     </div>
     <ul class="footer-links">
       <li><a href="{prefix}en/">All attractions (English)</a></li>
+      <li><a href="{prefix}en/museums.html">Museums: hours and prices</a></li>
       <li><a href="{prefix}atrakcje.html" hreflang="pl" lang="pl">Full guide in Polish</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
@@ -328,7 +330,8 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
-  <p><a class="btn btn-ghost" href="theatres.html">Theatres and concerts: opera, philharmonic, dance {icon('arrow')}</a>
+  <p><a class="btn btn-ghost" href="museums.html">Museums: hours, prices and free days {icon('arrow')}</a>
+  <a class="btn btn-ghost" href="theatres.html">Theatres and concerts: opera, philharmonic, dance {icon('arrow')}</a>
   <a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
   <a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
   <a class="btn btn-ghost" href="practical.html">Practical information: getting here, tickets, parking, emergencies {icon('arrow')}</a></p>
@@ -532,9 +535,98 @@ def build_theatres_en():
                    desc="Theatres and concert halls in Poznań: the Grand Theatre (Opera), Philharmonic, Teatr Polski, Teatr Nowy, Musical Theatre, Polish Dance Theatre and Animation Theatre. Addresses, box offices, repertoire.")
 
 
+def build_museums_en():
+    from museums_table import derive, open_monday, sort_key, DAYS, LABEL
+    from build import is_closed
+
+    def en_of(a):
+        if a["slug"] in EN:
+            e = EN[a["slug"]]
+            return e["name"], e["hours"], e["tickets"]
+        m = museums_en.MUSEUMS_EN[a["slug"]]
+        return m["name"], m["hours"], m["tickets"]
+
+    mus = sorted((a for a in ATTRACTIONS if a["cat"] == "muzea"), key=lambda a: sort_key(en_of(a)[0]))
+    info = {a["slug"]: derive(a) for a in mus}
+
+    def link(a):
+        name = escape(en_of(a)[0])
+        if a["slug"] in EN:
+            return f'<a href="attractions/{a["slug"]}.html">{name}</a>'
+        return f'<a href="../atrakcje/{a["slug"]}.html" hreflang="pl">{name}</a> <span class="muted small">(page in Polish)</span>'
+
+    def free_cell(a):
+        d = info[a["slug"]]
+        if d["free_always"]:
+            return "always"
+        return ", ".join(museums_en.DAY_EN[x] for x in d["free_days"]) or "—"
+
+    rows = []
+    for a in mus:
+        name, hours_en, tickets_en = en_of(a)
+        hours = "".join(f'<div><span class="muted">{escape(l)}:</span> {escape(x)}</div>' for l, x in hours_en)
+        tick = [(le, xe) for (lp, xp), (le, xe) in zip(a["tickets"], tickets_en)
+                if not ("wstęp wolny" in xp.lower() or lp.lower() in LABEL.values())]
+        tickets = "".join(f'<div><span class="muted">{escape(l)}:</span> {escape(x)}</div>' for l, x in tick) or "—"
+        note = '<div class="muted small">Temporarily closed</div>' if is_closed(a) else ""
+        rows.append(f"""<tr id="{a['slug']}"><th scope="row">{link(a)}{note}<div class="muted small">checked {en_date(a['checked'])}</div></th>
+<td>{hours}</td><td>{tickets}</td><td>{escape(free_cell(a))}</td></tr>""")
+
+    monday_html = "".join(f"<li>{link(a)}</li>" for a in mus if open_monday(a, info[a["slug"]]))
+    free_by_day = []
+    for day in DAYS:
+        names = [a for a in mus if day in info[a["slug"]]["free_days"]]
+        if names:
+            free_by_day.append(f"<li><strong>{museums_en.DAY_EN[day]}:</strong> " + ", ".join(link(a) for a in names) + "</li>")
+    always = [a for a in mus if info[a["slug"]]["free_always"]]
+    if always:
+        free_by_day.append("<li><strong>Always free:</strong> " + ", ".join(link(a) for a in always) + "</li>")
+    pkt = [a for a in mus if any("poznańską kartą turystyczną" in l.lower() and "bezpłatn" in x.lower() for l, x in a["tickets"])]
+    pkt_html = ", ".join(link(a) for a in pkt)
+
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Overview</p>
+  <h1>Museums in Poznań: opening hours, prices and free days</h1>
+  <p class="lead">{len(mus)} museums from the guide in one table: when they are open, how much a ticket costs and on which days admission is free. The data comes from the attraction pages, so you can check every figure at its source (<a href="../jak-weryfikujemy.html" hreflang="pl" lang="pl">how we verify information</a>, in Polish).</p>
+  <nav class="toc" aria-label="Contents">
+    <a href="#table">Table</a><a href="#monday">Open on Monday</a><a href="#free">Free admission</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="monday">
+  <h2>Open on Monday</h2>
+  <p>On Mondays most museums are closed. Below are only those where our sources state explicitly that they are open on Mondays. If a museum has no Monday hours in our data, we do not put it on this list.</p>
+  <ul>{monday_html}</ul>
+</section>
+
+<section id="free">
+  <h2>Free admission by day</h2>
+  <ul>{"".join(free_by_day)}</ul>
+  <p>Free with the Poznań Tourist Card: {pkt_html}.</p>
+</section>
+
+<section id="table">
+  <h2>All museums</h2>
+  <p>In alphabetical order. Hours and prices are copied from the attraction pages without shortening, and next to each name you can see the date we last checked them.</p>
+  <div class="table-wrap"><table class="grid compare">
+  <thead><tr><th scope="col">Museum</th><th scope="col">Hours</th><th scope="col">Tickets</th><th scope="col">Free admission</th></tr></thead>
+  <tbody>
+  {"".join(rows)}
+  </tbody></table></div>
+  <p class="muted small">Hours and prices change. Before your visit, confirm them on the museum's website (link on the attraction page). A dash in the table means that we do not have the information from a reliable source.</p>
+</section>
+</div>
+"""
+    return page_en("Museums in Poznań: opening hours, ticket prices and free days | Odkrywaj Poznań", body, prefix="../",
+                   alt="muzea.html", active="",
+                   desc=f"Overview of {len(mus)} museums in Poznań: opening hours, standard and reduced ticket prices, free-admission days and museums open on Monday.")
+
+
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
-         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html"}
+         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -546,7 +638,8 @@ def build_all():
            "en/practical.html": build_practical_en(),
            "en/plans.html": build_plans_en(),
            "en/calendar.html": build_calendar_en(),
-           "en/theatres.html": build_theatres_en()}
+           "en/theatres.html": build_theatres_en(),
+           "en/museums.html": build_museums_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out
