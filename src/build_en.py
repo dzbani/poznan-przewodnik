@@ -4,16 +4,18 @@ Wywoływane z build.py (main). Fakty (adres, współrzędne, zdjęcia, źródła
 a teksty z data_en.py. Strony PL i EN wskazują się nawzajem przez hreflang (robi to build.main)."""
 import datetime
 import json
+import re
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, THEATRES, THEATRES_CHECKED, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
 from calendar_en import CAL_EN
 import theatres_en
 import museums_en
+import viewpoints_en
 
 EN_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
              "November", "December"]
@@ -102,6 +104,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active=""):
     <ul class="footer-links">
       <li><a href="{prefix}en/">All attractions (English)</a></li>
       <li><a href="{prefix}en/museums.html">Museums: hours and prices</a></li>
+      <li><a href="{prefix}en/viewpoints.html">Viewpoints in Poznań</a></li>
       <li><a href="{prefix}atrakcje.html" hreflang="pl" lang="pl">Full guide in Polish</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
@@ -232,7 +235,14 @@ def build_attraction_en(slug, idx, slugs):
                       for t, u in pl["sources"])
     see = ""
     for (_, target), label in zip(pl.get("see_also", []), e.get("see_also", [])):
-        see += f'<li><a href="{p}{escape(target)}.html" hreflang="pl">{escape(label)}</a></li>'
+        label = re.sub(r" \(in Polish\)$", "", label)
+        tslug = target.split("/")[-1]
+        if target == "punkty-widokowe":
+            see += f'<li><a href="{p}en/viewpoints.html">{escape(label)}</a></li>'
+        elif target.startswith("atrakcje/") and tslug in EN:
+            see += f'<li><a href="{tslug}.html">{escape(label)}</a></li>'
+        else:
+            see += f'<li><a href="{p}{escape(target)}.html" hreflang="pl">{escape(label)} (in Polish)</a></li>'
     see_html = f'<section class="seealso"><h2>See also</h2><ul>{see}</ul></section>' if see else ""
     prev_s = slugs[idx - 1]
     next_s = slugs[(idx + 1) % len(slugs)]
@@ -330,7 +340,8 @@ def build_index_en(slugs):
     <p class="lead">An independent guide to the city's best sights, with opening hours, ticket prices and directions checked against official sources.</p>
     <p class="muted">The English edition is growing. The pages below are fully translated; the complete guide, with more than a hundred attractions, plans and practical information, is in Polish. <a href="../atrakcje.html" hreflang="pl" lang="pl">Open the Polish guide</a></p>
   </div>
-  <p><a class="btn btn-ghost" href="museums.html">Museums: hours, prices and free days {icon('arrow')}</a>
+  <p><a class="btn btn-ghost" href="viewpoints.html">Viewpoints: towers and terraces {icon('arrow')}</a>
+  <a class="btn btn-ghost" href="museums.html">Museums: hours, prices and free days {icon('arrow')}</a>
   <a class="btn btn-ghost" href="theatres.html">Theatres and concerts: opera, philharmonic, dance {icon('arrow')}</a>
   <a class="btn btn-ghost" href="calendar.html">Events calendar: festivals and fairs by month {icon('arrow')}</a>
   <a class="btn btn-ghost" href="plans.html">Sightseeing itineraries: 1, 2 and 3 days, with children, rainy day {icon('arrow')}</a>
@@ -624,9 +635,48 @@ def build_museums_en():
                    desc=f"Overview of {len(mus)} museums in Poznań: opening hours, standard and reduced ticket prices, free-admission days and museums open on Monday.")
 
 
+def build_viewpoints_en():
+    def link(slug):
+        return f'<a href="attractions/{slug}.html">{escape(EN[slug]["name"])}</a>'
+
+    sections = []
+    for slug, _what, _ in VIEWPOINTS:
+        sections.append(f"""<section id="{slug}">
+  <h2>{link(slug)}</h2>
+  <p>{escape(viewpoints_en.WHAT[slug])}</p>
+  <p class="muted small">Checked {en_date(BY_SLUG[slug]['checked'])}. <a href="attractions/{slug}.html">Hours, prices and directions</a></p>
+</section>""")
+    free = [s for s, _, pr in VIEWPOINTS if pr == "bezpłatny"]
+    paid = [s for s, _, pr in VIEWPOINTS if pr == "płatny"]
+    count_word = viewpoints_en.COUNT_WORD.get(len(VIEWPOINTS), str(len(VIEWPOINTS)))
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Overview</p>
+  <h1>Viewpoints in Poznań: towers and terraces with a view of the city</h1>
+  <p class="lead">{count_word} places from which you can see Poznań and its surroundings from above: a terrace and towers in the city, and two free towers at Szachty and in Czmoniec. Each place has a page with hours, prices and directions (<a href="../jak-weryfikujemy.html" hreflang="pl" lang="pl">how we verify information</a>, in Polish).</p>
+</header>
+
+<div class="wrap prose">
+<section>
+  <h2>Which one to choose</h2>
+  <ul>
+    <li><strong>In the city, with a ticket:</strong> {", ".join(link(s) for s in paid)}.</li>
+    <li><strong>Free:</strong> {", ".join(link(s) for s in free)}.</li>
+  </ul>
+  <p class="muted small">Hours and prices change, so check them on the place's page and on the venue's website before your visit.</p>
+</section>
+{"".join(sections)}
+</div>
+"""
+    return page_en("Viewpoints in Poznań: towers and terraces with a view of the city | Odkrywaj Poznań", body, prefix="../",
+                   alt="punkty-widokowe.html", active="",
+                   desc="Where to see Poznań from above: the Collegium Altum terrace, the Royal Castle tower (43 m), the archcathedral tower and the free towers at Szachty and in Czmoniec.")
+
+
 def page_map():
     m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
-         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html"}
+         "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html",
+         "punkty-widokowe.html": "en/viewpoints.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -639,7 +689,8 @@ def build_all():
            "en/plans.html": build_plans_en(),
            "en/calendar.html": build_calendar_en(),
            "en/theatres.html": build_theatres_en(),
-           "en/museums.html": build_museums_en()}
+           "en/museums.html": build_museums_en(),
+           "en/viewpoints.html": build_viewpoints_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

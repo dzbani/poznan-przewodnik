@@ -65,6 +65,7 @@ def event_numbers(parts):
     text = " ".join(parts)
     text = re.sub(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", r"\1 \3", text)  # 10.10.2026 -> „10 2026” (miesiąc słowami w EN)
     text = re.sub(r"(\d)[ ,.](\d{3})\b", r"\1\2", text)  # separatory tysięcy i przecinek dziesiętny: 13 505 = 13,505, 21,097 = 21.097
+    text = re.sub(r"\b(\d{1,2})\.\d{2}\b", r"\1", text)  # 1.03–15.11 = 1 Mar–15 Nov: porównujemy same dni
     return sorted(re.findall(r"\d+", text))
 
 
@@ -78,6 +79,12 @@ def museums_hash():
     """Skrót polskiej strony Muzea (build.build_museums) bez nawigacji i stopki."""
     import build
     return hashlib.sha1(main_text(build.build_museums()).encode("utf-8")).hexdigest()[:12]
+
+
+def viewpoints_hash():
+    """Skrót polskiej strony Punkty widokowe (build.build_viewpoints) bez nawigacji i stopki."""
+    import build
+    return hashlib.sha1(main_text(build.build_viewpoints()).encode("utf-8")).hexdigest()[:12]
 
 
 def privacy_hash():
@@ -175,6 +182,18 @@ def check():
                 problems.append(f"muzea: {a['slug']}: {key}: {len(m[key])} wierszy w EN, {len(a[key])} w PL")
             elif numbers(m[key], "en") != numbers(a[key], "pl"):
                 problems.append(f"muzea: {a['slug']}: {key}: różne godziny/kwoty. PL {numbers(a[key], 'pl')} ≠ EN {numbers(m[key], 'en')}")
+    from data_gaps3 import VIEWPOINTS
+    from viewpoints_en import WHAT
+    for slug, what, _ in VIEWPOINTS:
+        if slug not in WHAT:
+            problems.append(f"punkty widokowe: brak angielskiego opisu „{slug}”")
+        elif event_numbers([what]) != event_numbers([WHAT[slug]]):
+            problems.append(f"punkty widokowe: {slug}: różne liczby między PL a EN")
+        if slug not in EN:
+            problems.append(f"punkty widokowe: atrakcja „{slug}” nie ma tłumaczenia")
+    if stamps.get("_viewpoints") != viewpoints_hash():
+        problems.append("punkty widokowe: polska strona zmieniła się od tłumaczenia (przejrzyj viewpoints_en.py, potem --stamp-viewpoints)"
+                        if "_viewpoints" in stamps else "punkty widokowe: brak stempla (--stamp-viewpoints)")
     if stamps.get("_museums") != museums_hash():
         problems.append("muzea: polska strona zmieniła się od tłumaczenia (przejrzyj museums_en.py, potem --stamp-museums)"
                         if "_museums" in stamps else "muzea: brak stempla (--stamp-museums)")
@@ -206,6 +225,12 @@ def main():
         stamps["_theatres"] = theatres_hash()
         json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
         print("Zapisano stempel: teatry")
+        return
+    if args and args[0] == "--stamp-viewpoints":
+        stamps = load()
+        stamps["_viewpoints"] = viewpoints_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: punkty widokowe")
         return
     if args and args[0] == "--stamp-calendar":
         stamps = load()
