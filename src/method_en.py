@@ -59,7 +59,7 @@ def body(n_attractions, first_date, last_date, practical_date, links_date):
 
 <section id="photos">
   <h2>Photographs</h2>
-  <p>Most photographs come from Wikimedia Commons under open licences. You will find the author and the licence of a photograph by clicking the “i” icon in its corner, and all of them together on the page <a href="../zdjecia.html" hreflang="pl" lang="pl">Photo credits</a> (in Polish). When Commons has no photograph with a named author, we show a placard with the name of the place instead.</p>
+  <p>Most photographs come from Wikimedia Commons under open licences. You will find the author and the licence of a photograph by clicking the “i” icon in its corner, and all of them together on the page <a href="photo-credits.html">Photo credits</a>. When Commons has no photograph with a named author, we show a placard with the name of the place instead.</p>
 </section>
 
 <section id="errors">

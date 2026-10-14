@@ -82,7 +82,7 @@ def build_home_en():
     </div>
   </div>
   </div>
-<a class="hero-credit" href="../zdjecia.html#foto-hero-rynek" hreflang="pl">Photo: .abyr</a>
+<a class="hero-credit" href="photo-credits.html#foto-hero-rynek">Photo: .abyr</a>
 </section>
 
 <section class="wrap facts" aria-label="Key information">

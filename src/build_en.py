@@ -117,7 +117,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts
       <li><a href="{prefix}en/about.html">About Poznań: history, legends, dialect</a></li>
       <li><a href="{prefix}en/calendar.html">Events calendar</a></li>
       <li><a href="{prefix}en/theatres.html">Theatres and concerts</a></li>
-      <li><a href="{prefix}zdjecia.html" hreflang="pl" lang="pl">Photo credits (in Polish)</a></li>
+      <li><a href="{prefix}en/photo-credits.html">Photo credits</a></li>
       <li><a href="{prefix}en/how-we-verify.html">How we verify information</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
     </ul>
@@ -148,8 +148,9 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts
 
 def credit_badge_en(slug, prefix):
     c = CREDITS[slug]
-    txt = escape(f'Photo: {c["artist"]}' + (f', {c["license"]}' if c["license"] else ""))
-    return (f'<a class="photo-credit" href="{prefix}zdjecia.html#foto-{slug}" data-credit="{txt}" '
+    lic = CREDIT_LICENSE_EN.get(c["license"], c["license"])
+    txt = escape(f'Photo: {c["artist"]}' + (f', {lic}' if lic else ""))
+    return (f'<a class="photo-credit" href="{prefix}en/photo-credits.html#foto-{slug}" data-credit="{txt}" '
             f'aria-label="{txt}. Show source">i</a>')
 
 
@@ -751,8 +752,43 @@ def build_method_en():
                    desc="Where we get opening hours, prices and descriptions, what we do when sources disagree, and how to report a mistake. The rules of verifying information in the Odkrywaj Poznań guide.")
 
 
+CREDIT_LICENSE_EN = {"Za zgodą autora": "Used with the author's permission", "Licencja indywidualna": "Individual licence"}
+CREDIT_CHANGES_EN = {"pomniejszono i skompresowano": "downsized and compressed",
+                     "pomniejszono, skompresowano i przycięto kadr": "downsized, compressed and cropped"}
+CREDIT_TITLE_EN = {"hero-rynek": "Old Market Square in Poznań – panorama with the Town Hall and townhouses"}
+
+
+def build_photo_credits_en():
+    """Odpowiednik build.build_credits: te same dane z CREDITS, tłumaczone tylko etykiety i opisy zmian."""
+    rows = []
+    for c in sorted(CREDITS.values(), key=lambda c: c["slug"]):
+        lic = escape(CREDIT_LICENSE_EN.get(c["license"], c["license"]))
+        if c.get("licurl"):
+            lic = f'<a href="{escape(c["licurl"])}" target="_blank" rel="noopener">{lic}</a>'
+        changes = escape(CREDIT_CHANGES_EN[c.get("modified", "pomniejszono i skompresowano")])
+        title = escape(CREDIT_TITLE_EN.get(c["slug"], c["title"]))
+        rows.append(f"<tr id=\"foto-{c['slug']}\"><td><img src=\"../img/{c.get('file', c['slug'] + '.jpg')}\" alt=\"\" loading=\"lazy\"></td>"
+                    f"<td><a href=\"{escape(c['page'])}\" target=\"_blank\" rel=\"noopener\">{title}</a></td>"
+                    f"<td>{escape(c['artist'])}</td><td>{lic}</td><td>{changes}</td></tr>")
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">Sources</p>
+  <h1>Photo credits</h1>
+  <p class="lead">All photographs come from Wikimedia Commons and are used under Creative Commons licences or are in the public domain. Click the file title to see the original, or the licence name to read its terms.</p>
+  <p class="muted">For this guide the photographs were downsized and compressed, and on the pages they may be shown in a cropped frame. Any other changes are described in the “Changes” column. Modified versions are shared under the same licences as the originals.</p>
+</header>
+<div class="wrap"><div class="table-wrap"><table class="grid credits">
+  <thead><tr><th scope="col"><span class="sr">Thumbnail</span></th><th scope="col">File</th><th scope="col">Author</th><th scope="col">Licence</th><th scope="col">Changes</th></tr></thead>
+  <tbody>{''.join(rows)}</tbody>
+</table></div></div>
+"""
+    return page_en("Photo credits – authors and licences of the photographs | Odkrywaj Poznań", body, prefix="../",
+                   alt="zdjecia.html", active="",
+                   desc="Authors and licences of the photographs used in the Odkrywaj Poznań guide: photographers' names, Creative Commons licences and links to the originals.")
+
+
 def page_map():
-    m = {"index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
+    m = {"zdjecia.html": "en/photo-credits.html", "index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
          "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html", "atrakcje.html": "en/attractions.html", "mapa.html": "en/map.html",
          "punkty-widokowe.html": "en/viewpoints.html", "jak-weryfikujemy.html": "en/how-we-verify.html", "o-poznaniu.html": "en/about.html"}
     for s in translated():
@@ -772,7 +808,8 @@ def build_all():
            "en/museums.html": build_museums_en(),
            "en/viewpoints.html": build_viewpoints_en(),
            "en/about.html": build_about_en(),
-           "en/how-we-verify.html": build_method_en()}
+           "en/how-we-verify.html": build_method_en(),
+           "en/photo-credits.html": build_photo_credits_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out
