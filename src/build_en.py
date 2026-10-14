@@ -7,7 +7,7 @@ import json
 from html import escape
 
 import seo
-from build import (ATTRACTIONS, BY_SLUG, COORDS, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
+from build import (ATTRACTIONS, BY_SLUG, COORDS, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
                    asset_v, icon, maps_url, media_html, route_url)
 from data_en import CATEGORIES_EN, EN
 
@@ -231,6 +231,13 @@ def build_attraction_en(slug, idx, slugs):
     from urllib.parse import quote
     report = (f"mailto:{CONTACT_EMAIL}?subject={quote('Correction: ' + a['name'])}"
               f"&body={quote(f'Page: {SITE_URL}en/attractions/{slug}' + chr(10) + chr(10) + 'What is outdated or wrong:' + chr(10))}")
+    trip = ""
+    if pl.get("trip") and e.get("getting"):
+        t = pl["trip"]
+        getting = "".join(f"<p><strong>{escape(k)}.</strong> {escape(v)}</p>" for k, v in e["getting"])
+        trip = (f'<div class="panel"><h2>{icon("route")} Getting there from Poznań</h2><div class="trip-go">'
+                f'<p class="trip-dist">About {distance_km(t["lat"], t["lon"])} km from the centre of Poznań as the crow flies.</p>'
+                f'{getting}</div></div>')
     route_label = "Directions from Poznań Główny station" if pl.get("trip") else "Directions by public transport"
     body = f"""
 <nav class="wrap crumbs" aria-label="Breadcrumbs">
@@ -269,6 +276,7 @@ def build_attraction_en(slug, idx, slugs):
       <p class="links"><a href="{maps_url(pl)}" target="_blank" rel="noopener">Show on map</a>
       <a href="{route_url(pl)}" target="_blank" rel="noopener">{icon('route')} {route_label}</a></p>
     </div>
+    {trip}
     <div class="panel">
       <h2>{icon('clock')} Opening hours</h2>
       <table class="kv"><tbody>{kv_rows(a['hours'])}</tbody></table>

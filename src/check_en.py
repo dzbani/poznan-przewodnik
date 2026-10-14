@@ -32,6 +32,8 @@ FIELDS = ("name", "short", "badge", "status", "lead", "sections", "address", "ho
 
 def pl_hash(a):
     data = {k: a.get(k) for k in FIELDS}
+    if a.get("trip"):  # tylko wycieczki za miasto; bez klucza, żeby nie unieważniać starszych stempli
+        data["trip"] = a["trip"]
     return hashlib.sha1(json.dumps(data, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
 
 
@@ -82,6 +84,8 @@ def check():
             problems.append(f"{slug}: {len(e['sections'])} sekcji w EN, {len(a['sections'])} w PL")
         if bool(e.get("status")) != bool(a["status"]):
             problems.append(f"{slug}: komunikat o statusie jest tylko w jednej wersji")
+        if bool(a.get("trip")) and len(e.get("getting", [])) != len(a["trip"]["getting"]):
+            problems.append(f"{slug}: różna liczba wierszy „Dojazd z Poznania” (getting)")
         if len(e.get("see_also", [])) != len(a.get("see_also", [])):
             problems.append(f"{slug}: różna liczba odsyłaczy „Zobacz też”")
     if stamps.get("_privacy") != privacy_hash():
