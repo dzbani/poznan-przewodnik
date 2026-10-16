@@ -112,7 +112,8 @@ CAL_EN = {
         place="Old Market Square",
         when="Every year in December",
         note="In 2026 the 20th, jubilee edition.",
-        desc=["An ice sculpture festival: sculptors from several countries create sculptures several metres high from blocks of ice before the eyes of the audience, using chainsaws and chisels. In 2026, 24 sculptors take part."],
+        desc=["An ice sculpture festival: sculptors from several countries create sculptures several metres high from blocks of ice before the eyes of the audience, using chainsaws and chisels. In 2026, 24 sculptors take part.",
+              "According to the organiser, the 2026 programme is: a small sculpture contest on Friday 11 December (16:00–18:30, results at 19:00), speed carving on Saturday 12 December (11:00–18:30), and the main contest on Sunday 13 December (9:00–17:00, results at 18:00) together with ice workshops for children (12:00–15:00)."],
     ),
     "targi-ksiazki": dict(
         name="Poznań Book Fair",
@@ -180,7 +181,7 @@ CAL_EN = {
     ),
     "ale-kino": dict(
         name="Ale Kino! – International Young Audience Film Festival",
-        place="Zamek Culture Centre (Palace Cinema) and other festival venues",
+        place="Palace Cinema at the Zamek Culture Centre, Helios cinema in Posnania, and Scena Wspólna",
         when="Every year at the end of November, for eight days",
         note="The date of the 44th edition was given by the organiser.",
         desc=["A festival of films for children and young people: animations, features and documentaries from around the world. It continues a review begun in 1963. Screenings are ticketed."],

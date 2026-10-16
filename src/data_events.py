@@ -7,7 +7,7 @@ Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "12.10.2026"
+CAL_CHECKED = "16.10.2026"
 
 CALENDAR = [
     dict(
@@ -140,9 +140,11 @@ CALENDAR = [
         id="ice-festival", month=12, name="Poznań Ice Festival", place="Stary Rynek",
         when="Co roku w grudniu",
         dates=("2026-12-11", "2026-12-13"), note="W 2026 roku 20., jubileuszowa edycja.",
-        desc=["Festiwal rzeźby lodowej: rzeźbiarze z kilku krajów tworzą na oczach widzów kilkumetrowe rzeźby z brył lodu, piłami mechanicznymi i dłutami. W 2026 roku startuje 24 rzeźbiarzy."],
+        desc=["Festiwal rzeźby lodowej: rzeźbiarze z kilku krajów tworzą na oczach widzów kilkumetrowe rzeźby z brył lodu, piłami mechanicznymi i dłutami. W 2026 roku startuje 24 rzeźbiarzy.",
+              "Według organizatora w 2026 roku: w piątek 11 grudnia mały konkurs rzeźbiarski (16:00–18:30, wyniki o 19:00), w sobotę 12 grudnia szybkie rzeźbienie (11:00–18:30), w niedzielę 13 grudnia konkurs główny (9:00–17:00, wyniki o 18:00) oraz warsztaty lodowe dla dzieci (12:00–15:00)."],
         link=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/news,1042/poznan-ice-festival-wraca-na-stary-rynek,243196.html"),
-        sources=[("Codzienny Poznań: Poznań Ice Festival wraca na Stary Rynek (18.09.2026)", "https://codziennypoznan.pl/artykul/2026-09-18/tony-lodu-i-mistrzowie-z-calego-swiata-poznan-ice-festival-wraca-na-stary-rynek-z-jubileuszowa-edycja/")],
+        sources=[("Codzienny Poznań: Poznań Ice Festival wraca na Stary Rynek (18.09.2026)", "https://codziennypoznan.pl/artykul/2026-09-18/tony-lodu-i-mistrzowie-z-calego-swiata-poznan-ice-festival-wraca-na-stary-rynek-z-jubileuszowa-edycja/"),
+                 ("Betlejem Poznańskie (organizator): program Ice Festival 2026", "https://betlejempoznanskie.pl/")],
     ),
     # ─── Uzupełnienia 01.10.2026 ───
     dict(
@@ -223,7 +225,7 @@ CALENDAR = [
         sources=[("Ogólnopolski Festiwal Dobrego Smaku (organizator)", "https://ofds.pl/")],
     ),
     dict(
-        id="ale-kino", month=11, name="Ale Kino! – Międzynarodowy Festiwal Filmów dla Młodej Widowni", place="Centrum Kultury Zamek (Kino Pałacowe) i inne miejsca festiwalowe",
+        id="ale-kino", month=11, name="Ale Kino! – Międzynarodowy Festiwal Filmów dla Młodej Widowni", place="Kino Pałacowe w Centrum Kultury Zamek, Kino Helios w Posnanii i Scena Wspólna",
         when="Co roku pod koniec listopada, przez osiem dni",
         dates=("2026-11-22", "2026-11-29"), note="Termin 44. edycji podał organizator.",
         desc=["Festiwal filmów dla dzieci i młodzieży: animacje, fabuły i dokumenty z całego świata. Kontynuuje przegląd zapoczątkowany w 1963 roku. Seanse są biletowane."],
