@@ -9,7 +9,7 @@ from html import escape
 
 import seo
 from build import (LINKS_CHECKED, CHECKED as SITE_CHECKED, ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, tags, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, HISTORY, CLIMATE, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
-                   asset_v, icon, maps_url, media_html, route_url)
+                   asset_v, icon, maps_url, media_html, quick_facts, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
 from calendar_en import CAL_EN
@@ -300,6 +300,7 @@ def build_attraction_en(slug, idx, slugs):
     <p class="kicker">{escape(cat_name)}</p>
     <h1>{escape(a['name'])}</h1>
     <p class="lead">{escape(a['lead'])}</p>
+    {quick_facts(a, ("Hours", "Tickets", "see below", "Summary: opening hours and tickets"))}
   </div>
 </header>
 
@@ -322,11 +323,11 @@ def build_attraction_en(slug, idx, slugs):
       <a href="{route_url(pl)}" target="_blank" rel="noopener">{icon('route')} {route_label}</a></p>
     </div>
     {trip}
-    <div class="panel">
+    <div class="panel" id="hours">
       <h2>{icon('clock')} Opening hours</h2>
       <table class="kv"><tbody>{kv_rows(a['hours'])}</tbody></table>
     </div>
-    <div class="panel">
+    <div class="panel" id="tickets">
       <h2>{icon('ticket')} Tickets</h2>
       <table class="kv"><tbody>{kv_rows(a['tickets'])}</tbody></table>
     </div>

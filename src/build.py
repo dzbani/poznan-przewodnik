@@ -468,6 +468,25 @@ def kv_rows(rows):
     return "".join(f"<tr><th scope=\"row\">{escape(k)}</th><td>{escape(v)}</td></tr>" for k, v in rows)
 
 
+QUICK_LIMITS = {"hours": 140, "tickets": 130}
+
+
+def quick_facts(a, labels):
+    """Skrót godzin i biletów pod nagłówkiem (CSS pokazuje go tylko, gdy panel boczny ląduje pod tekstem).
+
+    Treść składana z tych samych wierszy co tabele, więc nie może się z nimi rozjechać. Gdy wiersze są zbyt
+    długie na jedną linię (sezony, wiele cenników), zostaje sam odnośnik do pełnej tabeli.
+    labels: (godziny, bilety, „zobacz niżej”, etykieta aria).
+    """
+    items = []
+    for anchor, ico, title, rows in (("hours", "clock", labels[0], a["hours"]), ("tickets", "ticket", labels[1], a["tickets"])):
+        text = " · ".join(f"{k}: {v}" for k, v in rows)
+        if len(text) > QUICK_LIMITS[anchor]:
+            text = labels[2]
+        items.append(f'<li><a href="#{anchor}">{icon(ico)}<span><strong>{escape(title)}</strong> {escape(text)}</span></a></li>')
+    return f'<ul class="a-quick" aria-label="{escape(labels[3])}">{"".join(items)}</ul>'
+
+
 def report_url(a):
     """Wiadomość e-mail z nazwą atrakcji i adresem strony, żeby zgłaszający nie musiał ich opisywać."""
     from urllib.parse import quote
@@ -526,6 +545,7 @@ def build_attraction(a, idx):
     <p class="kicker">{escape(cat_name)}</p>
     <h1>{escape(a['name'])}</h1>
     <p class="lead">{escape(a['lead'])}</p>
+    {quick_facts(a, ("Godziny", "Bilety", "zobacz niżej", "Skrót: godziny i bilety"))}
   </div>
 </header>
 
@@ -549,11 +569,11 @@ def build_attraction(a, idx):
       <a href="../mapa.html#{a['slug']}">Na mapie przewodnika</a></p>
     </div>
     {trip_panel(a)}
-    <div class="panel">
+    <div class="panel" id="hours">
       <h2>{icon('clock')} Godziny otwarcia</h2>
       <table class="kv"><tbody>{kv_rows(a['hours'])}</tbody></table>
     </div>
-    <div class="panel">
+    <div class="panel" id="tickets">
       <h2>{icon('ticket')} Bilety</h2>
       <table class="kv"><tbody>{kv_rows(a['tickets'])}</tbody></table>
     </div>
