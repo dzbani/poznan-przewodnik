@@ -369,6 +369,10 @@ ATTRACTIONS = [
         phone=None, www=("visitpoznan.pl", "https://visitpoznan.pl/"),
         credit="jezioro-malta",
         sources=[("Wikipedia: Jezioro Maltańskie", "https://pl.wikipedia.org/wiki/Jezioro_Maltańskie")],
+        see_also=[("Lodowisko Malta: sezonowe lodowisko", "atrakcje/lodowisko-malta"),
+                  ("Malta Ski: stok, tor saneczkowy, kolejka górska", "atrakcje/malta-ski"),
+                  ("Termy Maltańskie", "atrakcje/termy-maltanskie"),
+                  ("Kolejka Parkowa Maltanka", "atrakcje/kolejka-maltanka")],
     ),
     dict(
         slug="ogrod-botaniczny", cat="przyroda", name="Ogród Botaniczny UAM",
@@ -544,6 +548,9 @@ ATTRACTIONS = [
         credit="malta-ski",
         sources=[("Visit Poznań: Malta Ski", "https://visitpoznan.pl/centrum-sportowo-rekreacyjne-malta-ski"),
                  ("Malta Ski", "https://maltaski.pl/")],
+        see_also=[("Lodowisko Malta: sezonowe lodowisko", "atrakcje/lodowisko-malta"),
+                  ("Jezioro Maltańskie", "atrakcje/jezioro-maltanskie"),
+                  ("Termy Maltańskie", "atrakcje/termy-maltanskie")],
     ),
 
     # ─── WSPÓŁCZESNY ───

@@ -146,6 +146,8 @@ EN = {
         ],
         hours=[("Area around the lake", "open 24 hours")],
         tickets=[("Admission", "free")],
+        see_also=["Malta Ice Rink: the seasonal rink", "Malta Ski: slope, summer toboggan run, roller coaster",
+                  "Malta Thermal Baths", "Maltanka Park Railway"],
     ),
 }
 

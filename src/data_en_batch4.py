@@ -112,6 +112,7 @@ EN_BATCH4 = {
         ],
         hours=[("Hours", "depend on the weather, see maltaski.pl"), ("Seasons according to maltaski.pl", "winter 17 Oct–31 Mar, summer 1 Apr–31 Oct")],
         tickets=[("Price list", "on maltaski.pl")],
+        see_also=["Malta Ice Rink: the seasonal rink", "Lake Malta", "Malta Thermal Baths"],
     ),
     "mury-miejskie": dict(
         name="Medieval City Walls",
