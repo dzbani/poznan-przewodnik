@@ -419,7 +419,7 @@ EXTRA = [
         img="schron-przeciwatomowy", img_alt="Zieleń przy naziemnych zabudowaniach schronu przy ulicy Słupskiej 62",
         short="Tajny schron dla władz miasta z oryginalnym wyposażeniem z PRL i plakaty z epoki socjalizmu.",
         badge="Sprawdź przed wizytą",
-        status=("warning", "Według portalu miasta schron jest zamknięty dla zwiedzających indywidualnych do 2026 roku, a grupy mogą umówić wizytę telefonicznie. Przed przyjazdem zadzwoń i potwierdź, czy obiekt jest otwarty."),
+        status=("warning", "Strona miejska o schronie nie ma daty i podaje, że obiekt jest zamknięty dla zwiedzających do 2026 roku, a grupy mogą umówić wizytę telefonicznie. Strona Wielkopolskiego Muzeum Niepodległości nie wymienia schronu wśród swoich oddziałów. W 2026 roku schron otwarto na Noc Muzeów (16 maja). Godziny i ceny poniżej pochodzą ze strony miasta i mogą być nieaktualne, więc przed przyjazdem zadzwoń: +48 61 852 94 64."),
         lead="Przy ulicy Słupskiej, na Krzyżownikach niedaleko Jeziora Kierskiego, znajduje się tajny schron przeciwatomowy zbudowany dla prezydenta Poznania i najwyższych władz miasta.",
         sections=[
             ("Co zobaczyć", [
@@ -429,6 +429,7 @@ EXTRA = [
             ("Warto wiedzieć", [
                 "Ostatnie wejście jest 30 minut przed zamknięciem.",
                 "Grupy zorganizowane muszą wcześniej zarezerwować wizytę telefonicznie.",
+                "Podczas Nocy Muzeów 16 maja 2026 roku schron był udostępniony w godzinach 16:00–24:00, ostatnie wejście 30 minut przed zamknięciem, wstęp bezpłatny, bez zapisów.",
             ]),
         ],
         address="ul. Słupska 62, 60-458 Poznań",
@@ -436,7 +437,10 @@ EXTRA = [
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł")],
         phone="+48 61 852 94 64", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html"),
         credit="schron-przeciwatomowy",
-        sources=[("kultura.poznan.pl: Przeciwatomowy Schron i Galeria Plakatu", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html")],
+        sources=[("kultura.poznan.pl: Przeciwatomowy Schron i Galeria Plakatu", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html"),
+                 ("Noc Muzeów Poznań 2026: schron przeciwatomowy", "https://nocmuzeow.poznan.pl/?p=1406"),
+                 ("Wielkopolskie Muzeum Niepodległości: godziny otwarcia i oddziały", "https://www.wmn.poznan.pl/godziny-otwarcia/")],
+        checked="19.10.2026",
     ),
     dict(
         slug="gaspar", cat="muzea", name="GASPAR Muzeum Starych Narzędzi i Maszyn",

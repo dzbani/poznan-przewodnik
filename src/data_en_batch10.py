@@ -251,7 +251,7 @@ EN_BATCH10 = {
         img_alt="Greenery by the above-ground buildings of the shelter on ul. Słupska 62",
         short="A secret shelter for the city authorities with original equipment from communist times and posters from the socialist era.",
         badge="Check before visiting",
-        status="According to the city portal, the shelter is closed to individual visitors until 2026, and groups can arrange a visit by phone. Before you come, phone and confirm whether the site is open.",
+        status="The city's page about the shelter is undated and says the site is closed to visitors until 2026, while groups can arrange a visit by phone. The website of the Museum of Independence in Greater Poland does not list the shelter among its branches. In 2026 the shelter was opened for the Night of Museums (16 May). The hours and prices below come from the city's page and may be out of date, so please phone before you come: +48 61 852 94 64.",
         lead="On ul. Słupska, in Krzyżowniki near Lake Kierskie, there is a secret nuclear shelter built for the mayor of Poznań and the city's top authorities.",
         sections=[
             ("What to see", [
@@ -261,6 +261,7 @@ EN_BATCH10 = {
             ("Good to know", [
                 "The last entry is 30 minutes before closing.",
                 "Organised groups must book their visit in advance by phone.",
+                "During the Night of Museums on 16 May 2026 the shelter was open from 16:00 to midnight, with the last entry 30 minutes before closing, free admission and no booking.",
             ]),
         ],
         hours=[("Wednesday–Friday", "10:00–16:00"), ("Last Saturday of the month", "10:00–16:00")],
