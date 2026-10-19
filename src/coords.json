@@ -900,5 +900,11 @@
   "lon": 16.931034,
   "q": "Zamek Królewski, Poznań",
   "name": "Zamek Królewski (Muzeum Sztuk Użytkowych), Góra Przemysła 1, Poznań"
+ },
+ "lodowisko-malta": {
+  "lat": 52.405195,
+  "lon": 16.954833,
+  "q": "Kryte Lodowisko Malta, Jana Pawła II, Poznań",
+  "name": "Kryte Lodowisko Malta, Jana Pawła II, Rataje, Poznań"
  }
 }

@@ -1024,6 +1024,7 @@ from data_gaps import GAPS  # noqa: E402
 from data_gaps2 import GAPS2  # noqa: E402
 from data_trips2 import TRIPS2  # noqa: E402  (wycieczki, partia 2, 06.10.2026)  (uzupełnienie luk po porównaniu z poznan.pl, 06.10.2026)
 from data_gaps3 import GAPS3  # noqa: E402  (taras Collegium Altum i muzea w Cytadeli/Zamku, po porównaniu z konkurencją 10.10.2026)
+from data_gaps4 import GAPS4  # noqa: E402  (Lodowisko Malta, 19.10.2026)
 # Data sprawdzenia godzin i cen każdej atrakcji (pole checked). Domyślnie według partii danych;
 # przy ponownej weryfikacji jednej atrakcji wpisz jej własne checked="DD.MM.RRRR".
 _CHECKED_BY_BATCH = [
@@ -1032,13 +1033,14 @@ _CHECKED_BY_BATCH = [
     (TRIPS + THEATRE_ATTR, "30.09.2026"),
     (GAPS + GAPS2 + TRIPS2, "06.10.2026"),
     (GAPS3, "10.10.2026"),
+    (GAPS4, "19.10.2026"),
 ]
 _CHECKED_SLUGS = {"park-solacki": "29.09.2026", "trakt-krolewsko-cesarski": "29.09.2026",  # czwarta tura
                   "stary-browar": "30.09.2026"}  # rozbudowa opisu, nowy adres i godziny
 for _batch, _date in _CHECKED_BY_BATCH:
     for _a in _batch:
         _a.setdefault("checked", _CHECKED_SLUGS.get(_a["slug"], _date))
-ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2 + GAPS3, key=lambda a: _ORDER[a["cat"]])
+ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2 + GAPS3 + GAPS4, key=lambda a: _ORDER[a["cat"]])
 
 # Muzeum Sztuk Użytkowych jest w Zamku Królewskim i ma te same godziny oraz ceny: bierzemy je z karty Zamku,
 # żeby po zmianie jednej nie rozjechały się dwie strony.

@@ -193,3 +193,7 @@ EN.update(EN_BATCH12)
 
 from data_en_batch13 import EN_BATCH13  # noqa: E402  (partia 13, 14.10.2026; ostatnia)
 EN.update(EN_BATCH13)
+
+
+from data_en_batch14 import EN_BATCH14  # noqa: E402  (partia 14, 19.10.2026: Lodowisko Malta)
+EN.update(EN_BATCH14)
