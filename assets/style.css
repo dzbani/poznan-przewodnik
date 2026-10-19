@@ -536,7 +536,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text
 /* Oba przyciski wyglądają tak samo: odrzucenie nie może być trudniejsze niż zgoda. */
 .btn-consent { background: var(--gold); color: var(--on-gold); border: 0; cursor: pointer; font: inherit; font-weight: 600; min-width: 128px; justify-content: center; }
 .btn-consent:hover { background: var(--gold-2); color: var(--on-gold); }
-@media (max-width: 600px) { .consent { bottom: 8px; padding: 16px; } .consent-btns { width: 100%; } .btn-consent { flex: 1; } }
+@media (max-width: 600px) { .consent { bottom: 8px; padding: 12px 14px; gap: 10px; width: calc(100% - 16px); } .consent p { flex-basis: 100%; font-size: 0.82rem; line-height: 1.4; } .consent-btns { width: 100%; gap: 8px; flex-wrap: nowrap; } .btn-consent { flex: 1; min-width: 0; padding: 9px 12px; font-size: 0.9rem; } }
 
 /* ─── Zestawienie muzeów ─── */
 .compare { min-width: 720px; }
