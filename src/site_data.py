@@ -538,7 +538,7 @@ ATTRACTIONS = [
             ]),
         ],
         address="ul. Wiankowa 2, 61-131 Poznań",
-        hours=[("Godziny", "zależne od pogody, na maltaski.pl"), ("Sezony wg maltaski.pl", "zimowy 1.10–31.03, letni 1.04–31.10")],
+        hours=[("Godziny", "zależne od pogody, na maltaski.pl"), ("Sezony wg maltaski.pl", "zimowy 17.10–31.03, letni 1.04–31.10")],
         tickets=[("Cennik", "na maltaski.pl")],
         phone=None, www=("maltaski.pl", "https://maltaski.pl/"),
         credit="malta-ski",
@@ -1088,6 +1088,8 @@ for _a in ATTRACTIONS:
 
 # Sezonowość sprawdzona 10.10.2026 w komunikatach MPK (koniec sezonu Maltanki i linii turystycznych), na maltaski.pl i na stronie katedry.
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne", "malta-ski", "ostrow-tumski"):
+    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne", "ostrow-tumski"):
         _a["checked"] = "10.10.2026"
+    if _a["slug"] == "malta-ski":
+        _a["checked"] = "19.10.2026"   # sezony zimowy 17.10–31.03 i letni 1.04–31.10 wg maltaski.pl
 

@@ -110,7 +110,7 @@ EN_BATCH4 = {
                 "The roller coaster and the toboggan run are partners of the Poznań Tourist Card.",
             ]),
         ],
-        hours=[("Hours", "depend on the weather, see maltaski.pl"), ("Seasons according to maltaski.pl", "winter 1 Oct–31 Mar, summer 1 Apr–31 Oct")],
+        hours=[("Hours", "depend on the weather, see maltaski.pl"), ("Seasons according to maltaski.pl", "winter 17 Oct–31 Mar, summer 1 Apr–31 Oct")],
         tickets=[("Price list", "on maltaski.pl")],
     ),
     "mury-miejskie": dict(
