@@ -209,6 +209,15 @@
   var id = box.dataset.ga, KEY = 'op-zgoda-statystyki', loaded = false;
   function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  // Ruch właściciela: adres z ?wewnetrzny=1 zapisuje flagę w tej przeglądarce (?wewnetrzny=0 ją usuwa).
+  // Z flagą GA4 dostaje traffic_type=internal i filtr „Internal Traffic” wyklucza takie wejścia.
+  var OWN = 'op-wewnetrzny';
+  (function () {
+    var m = location.search.match(/[?&]wewnetrzny=([01])(?:&|$)/);
+    if (!m) return;
+    try { if (m[1] === '1') localStorage.setItem(OWN, '1'); else localStorage.removeItem(OWN); } catch (e) {}
+  })();
+  function isOwn() { try { return localStorage.getItem(OWN) === '1'; } catch (e) { return false; } }
   function loadGA() {
     if (loaded || !id) return;
     loaded = true;
@@ -216,7 +225,7 @@
     window.gtag = function () { window.dataLayer.push(arguments); };
     gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     gtag('js', new Date());
-    gtag('config', id);
+    gtag('config', id, isOwn() ? { traffic_type: 'internal' } : {});
     var s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
