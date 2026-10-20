@@ -259,14 +259,14 @@ EN_BATCH10 = {
                 "A Poster Gallery from the socialist period, divided into three themed parts.",
             ]),
             ("Good to know", [
-                "The last entry is 30 minutes before closing.",
+                "The last entry (for the tour) is at 15:30, 30 minutes before closing.",
                 "Individual visitors enter without booking. Booking applies only to organised groups, who reserve a visit by phone.",
                 "The shelter is underground and is not accessible to wheelchair users.",
                 "We confirmed the hours, prices and admission rules by phone with the site on 20 October 2026. The city's page about the shelter is undated and the website of the Museum of Independence in Greater Poland does not list it among its branches, so it is worth phoning before you visit: +48 887 222 465.",
                 "During the Night of Museums on 16 May 2026 the shelter was open from 16:00 to midnight, with the last entry 30 minutes before closing, free admission and no booking.",
             ]),
         ],
-        hours=[("Wednesday–Friday", "10:00–16:00"), ("Last Saturday of the month", "10:00–16:00")],
+        hours=[("Wednesday–Friday", "10:00–16:00, last entry 15:30"), ("Last Saturday of the month", "10:00–16:00, last entry 15:30")],
         tickets=[("Standard", "PLN 15"), ("Reduced", "PLN 10")],
     ),
     "gaspar": dict(

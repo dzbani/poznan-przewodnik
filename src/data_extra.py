@@ -427,7 +427,7 @@ EXTRA = [
                 "Galerię Plakatu z okresu socjalizmu, podzieloną na trzy części tematyczne.",
             ]),
             ("Warto wiedzieć", [
-                "Ostatnie wejście jest 30 minut przed zamknięciem.",
+                "Ostatnie wejście (zwiedzanie) jest o 15:30, czyli 30 minut przed zamknięciem.",
                 "Osoby indywidualne wchodzą bez zapisów. Zapisy dotyczą tylko grup zorganizowanych, które rezerwują wizytę telefonicznie.",
                 "Schron znajduje się pod ziemią i nie jest dostępny dla osób na wózkach.",
                 "Godziny, ceny i zasady wstępu potwierdziliśmy telefonicznie w obiekcie 20 października 2026 roku. Strona miejska o schronie nie ma daty, a strona Wielkopolskiego Muzeum Niepodległości nie wymienia go wśród swoich oddziałów, więc przed wizytą warto zadzwonić: +48 887 222 465.",
@@ -435,7 +435,7 @@ EXTRA = [
             ]),
         ],
         address="ul. Słupska 62, 60-458 Poznań",
-        hours=[("Środa–piątek", "10:00–16:00"), ("Ostatnia sobota miesiąca", "10:00–16:00")],
+        hours=[("Środa–piątek", "10:00–16:00, ostatnie wejście 15:30"), ("Ostatnia sobota miesiąca", "10:00–16:00, ostatnie wejście 15:30")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł")],
         phone="+48 887 222 465", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html"),
         credit="schron-przeciwatomowy",
