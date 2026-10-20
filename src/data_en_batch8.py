@@ -300,7 +300,7 @@ EN_BATCH8 = {
     ),
     "muzeum-czekolady": dict(
         name="Chocolate Museum",
-        img_alt="Ul. Wrocławska, where the Chocolate Museum is housed",
+        img_alt="The Chocolate Museum shopfront with its sign, a poster and the entrance door",
         short="A visit with a workshop: tasting, pralines and your own bar of chocolate to take home.",
         badge="Daily",
         status=None,

@@ -756,7 +756,7 @@ def build_method_en():
 CREDIT_LICENSE_EN = {"Za zgodą autora": "Used with the author's permission", "Licencja indywidualna": "Individual licence"}
 CREDIT_CHANGES_EN = {"pomniejszono i skompresowano": "downsized and compressed",
                      "pomniejszono, skompresowano i przycięto kadr": "downsized, compressed and cropped"}
-CREDIT_TITLE_EN = {"hero-rynek": "Old Market Square in Poznań – panorama with the Town Hall and townhouses"}
+CREDIT_TITLE_EN = {"muzeum-czekolady": "Chocolate Museum – shopfront and entrance", "hero-rynek": "Old Market Square in Poznań – panorama with the Town Hall and townhouses"}
 
 
 def build_photo_credits_en():

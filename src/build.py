@@ -133,8 +133,9 @@ def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width
     if not a.get("img"):
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
     extra = ' loading="lazy" decoding="async"' if lazy else (' fetchpriority="high"' if priority else "")
+    pos = f' style="object-position: {a["img_pos"]}"' if a.get("img_pos") else ""
     return (f'<img src="{prefix}img/{a["img"]}.jpg" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
-            f'alt="{escape(a["img_alt"])}"{extra}>')
+            f'alt="{escape(a["img_alt"])}"{pos}{extra}>')
 
 
 def credit_badge(slug, prefix=""):
@@ -1559,7 +1560,7 @@ def og_image(name):
         im = Image.open(os.path.join(ROOT, "img", name + ".jpg")).convert("RGB")
         k = max(OG_W / im.width, OG_H / im.height)
         im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
-        x, y = (im.width - OG_W) // 2, (im.height - OG_H) // 2
+        x, y = (im.width - OG_W) // 2, (0 if im.height > im.width else (im.height - OG_H) // 2)  # zdjęcie pionowe: od góry (szyld, fasada)
         im.crop((x, y, x + OG_W, y + OG_H)).save(dst, "JPEG", quality=70, optimize=True, progressive=True)
     return f"{SITE_URL}img/og/{name}.jpg"
 

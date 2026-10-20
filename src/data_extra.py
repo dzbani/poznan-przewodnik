@@ -473,7 +473,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-czekolady", cat="muzea", name="Muzeum Czekolady",
-        img="muzeum-czekolady", img_alt="Ulica Wrocławska, przy której mieści się Muzeum Czekolady",
+        img="muzeum-czekolady", img_pos="center top", img_alt="Witryna Muzeum Czekolady z szyldem, plakatem i drzwiami wejściowymi",
         short="Zwiedzanie z warsztatem: degustacja, praliny i własna tabliczka czekolady do zabrania.",
         badge="Codziennie",
         status=None,
