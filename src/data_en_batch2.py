@@ -24,7 +24,10 @@ EN_BATCH2 = {
         ],
         hours=[("Monday", "closed"), ("Tuesday–Friday", "9:00–18:00"), ("Saturday–Sunday", "10:00–19:00")],
         tickets=[("Standard", "PLN 35"), ("Reduced", "PLN 29"), ("Family (up to 5 people, max 2 adults)", "PLN 75"),
-                 ("Combined Ostrów Tumski ticket", "PLN 49, reduced PLN 36, family PLN 109")],
+                 ("Combined Ostrów Tumski ticket", "PLN 49, reduced PLN 36, family PLN 109"),
+                 ("Large Family Card", "PLN 13"), ("Senior Card (selected cards)", "PLN 18"),
+                 ("Organised group", "PLN 25 per person; booking: 61 647 76 29, Tue–Fri 9:00–14:00"),
+                 ("Guide for a group", "PLN 160 in Polish, PLN 220 in a foreign language")],
     ),
     "fara": dict(
         name="Poznań Parish Church (Fara)",
