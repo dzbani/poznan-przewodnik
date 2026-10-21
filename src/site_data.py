@@ -22,7 +22,7 @@ ATTRACTIONS = [
     # ─── ZABYTKI ───
     dict(
         slug="stary-rynek", cat="zabytki", name="Stary Rynek i Ratusz",
-        img="stare-miasto", img_alt="Kamienice przy Starym Rynku w Poznaniu",
+        img="hero-rynek", img_alt="Kolorowe kamienice i ratusz przy Starym Rynku w Poznaniu",
         short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się w południe.",
         badge="Bezpłatnie",
         status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest nieczynne od 1 lipca 2026 do 30 listopada 2027 z powodu remontu. Część budynku jest za rusztowaniami. Koziołki nadal się trykają, ale w trakcie prac zdarzały się przerwy w działaniu mechanizmu."),
@@ -46,7 +46,7 @@ ATTRACTIONS = [
         hours=[("Plac", "dostępny całą dobę"), ("Koziołki", "codziennie o 12:00"), ("Muzeum w Ratuszu", "nieczynne do 30.11.2027")],
         tickets=[("Plac i koziołki", "bezpłatnie")],
         phone=None, www=("visitpoznan.pl", "https://visitpoznan.pl/"),
-        credit="stare-miasto",
+        credit="hero-rynek",
         sources=[("Wikipedia: Stary Rynek w Poznaniu", "https://pl.wikipedia.org/wiki/Stary_Rynek_w_Poznaniu"),
                  ("Wikipedia: Ratusz w Poznaniu", "https://pl.wikipedia.org/wiki/Ratusz_w_Poznaniu"),
                  ("kultura.poznan.pl: Ratusz – Muzeum Poznania (remont)", "https://kultura.poznan.pl/mim/kultura/object.html?id_klasy=202&lang=&id_cz=12&id_obiektu=40787"),

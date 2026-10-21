@@ -45,14 +45,6 @@
   "kb": 165
  },
  {
-  "slug": "stare-miasto",
-  "title": "Poznań - Kamienica, Stary Rynek 79 - MF-IMG 1523.jpg",
-  "artist": "Magda Felis",
-  "license": "CC BY-SA 3.0 pl",
-  "licurl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
-  "page": "https://commons.wikimedia.org/wiki/File:Pozna%C5%84_-_Kamienica,_Stary_Rynek_79_-_MF-IMG_1523.jpg"
- },
- {
   "slug": "ostrow-tumski",
   "title": "Catedral de Poznan, Poznan, Polonia, 2014-09-18, DD 10.jpg",
   "artist": "Diego Delso",
@@ -1049,7 +1041,7 @@
  {
   "slug": "hero-rynek",
   "title": "Stary Rynek w Poznaniu — panorama z ratuszem i kamienicami",
-  "artist": "Piotr Rybarczyk",
+  "artist": ".abyr",
   "license": "Licencja indywidualna",
   "page": "https://odkrywajpoznan.pl",
   "modified": "pomniejszono i skompresowano"

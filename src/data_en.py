@@ -27,7 +27,7 @@ CATEGORIES_EN = {
 EN = {
     "stary-rynek": dict(
         name="Old Market Square and Town Hall",
-        img_alt="Townhouses on the Old Market Square in Poznań",
+        img_alt="Colourful townhouses and the town hall on the Old Market Square in Poznań",
         short="The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon.",
         badge="Free",
         status="The museum inside the Town Hall (Poznań City Museum) is closed from 1 July 2026 to 30 November 2027 for renovation. Part of the building is under scaffolding. The goats still appear, but the mechanism has occasionally stopped during the works.",
