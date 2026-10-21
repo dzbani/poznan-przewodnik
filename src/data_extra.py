@@ -668,7 +668,7 @@ EXTRA = [
     ),
     dict(
         slug="makiety-dawnego-poznania", cat="muzea", name="Makiety Dawnego Poznania",
-        img=None, img_alt="",
+        img="makiety-dawnego-poznania", img_pos="42% center", og_pos="18% center", img_alt="Panorama makiety dawnego Poznania z rynkiem, ratuszem, kościołami i murami miejskimi",
         short="Poznań z 1618 roku w skali 1:150, z pokazem światła i dźwięku w podziemiach kościoła.",
         badge="Pokazy codziennie",
         status=None,
@@ -691,7 +691,7 @@ EXTRA = [
         tickets=[("Normalny", "35 zł"), ("Wersje obcojęzyczne", "35 zł"), ("Dzieci poniżej 10 lat (wersja polska)", "25 zł"),
                  ("Z Poznańską Kartą Miejską lub Kartą Piasta", "25 zł"), ("Z Poznańską Kartą Turystyczną", "25% taniej")],
         phone="+48 532 651 218", www=("makieta.poznan.pl", "https://www.makieta.poznan.pl/"),
-        credit=None,
+        credit="makiety-dawnego-poznania",
         sources=[("Visit Poznań: Makiety Dawnego Poznania", "https://visitpoznan.pl/makiety-dawnego-poznania"),
                  ("kultura.poznan.pl: Makiety dawnego Poznania", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/makiety-dawnego-poznania,78932.html")],
     ),

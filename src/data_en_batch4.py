@@ -67,7 +67,7 @@ EN_BATCH4 = {
     ),
     "makiety-dawnego-poznania": dict(
         name="Models of Old Poznań",
-        img_alt="",
+        img_alt="A panorama of the model of old Poznań with the market square, the Town Hall, churches and city walls",
         short="Poznań in 1618 at a scale of 1:150, with a light and sound show in the church crypt.",
         badge="Shows daily",
         status=None,

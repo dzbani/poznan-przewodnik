@@ -125,6 +125,16 @@ def resp_set(name, widths):
 
 
 _IMG_V = {}
+_IMG_WIDE = {}
+
+
+def img_wide(name):
+    """Panorama (proporcje powyżej 2,5:1): w ramce 4:3 jest kadrowana z dużym powiększeniem, więc dostaje większe warianty."""
+    if name not in _IMG_WIDE:
+        from PIL import Image
+        w, h = Image.open(os.path.join(ROOT, "img", name + ".jpg")).size
+        _IMG_WIDE[name] = w / h > 2.5
+    return _IMG_WIDE[name]
 
 
 def img_v(name):
@@ -147,7 +157,8 @@ def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
     extra = ' loading="lazy" decoding="async"' if lazy else (' fetchpriority="high"' if priority else "")
     pos = f' style="object-position: {a["img_pos"]}"' if a.get("img_pos") else ""
-    return (f'<img src="{prefix}img/{a["img"]}.jpg?v={img_v(a["img"])}" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
+    wide = img_wide(a["img"])
+    return (f'<img src="{prefix}img/{a["img"]}.jpg?v={img_v(a["img"])}" srcset="{srcset_attr(a["img"], prefix, (1200, 2000) if wide else (640, 1200))}" sizes="{"1400px" if wide else sizes}" '
             f'alt="{escape(a["img_alt"])}"{pos}{extra}>')
 
 
@@ -1563,13 +1574,18 @@ def clean_links(html):
 OG_W, OG_H = 1200, 630
 
 
-def og_pozycja_pion(name, im):
-    """Gdzie ciąć zdjęcie pionowe do miniatury 1200×630: 0 = od góry (domyślnie), 1 = od dołu; bierze „img_pos” atrakcji (np. „center 30%”)."""
-    if im.height <= im.width:
-        return None
-    pos = next((a.get("img_pos") for a in ATTRACTIONS if a.get("img") == name and a.get("img_pos")), "") or ""
-    m = re.search(r"(\d+)%\s*$", pos)
-    return int(m.group(1)) / 100 if m else (1.0 if pos.endswith("bottom") else 0.0)
+def og_pozycja(name, im):
+    """Gdzie ciąć zdjęcie do miniatury 1200×630: (fx, fy) w zakresie 0–1, z „og_pos” albo „img_pos” atrakcji (np. „42% center”, „center 60%”).
+    Bez img_pos: zdjęcie pionowe od góry, poziome pośrodku."""
+    pos = next((a.get("og_pos") or a.get("img_pos") for a in ATTRACTIONS if a.get("img") == name and (a.get("og_pos") or a.get("img_pos"))), "") or ""
+    t = pos.split()
+
+    def frac(tok, domyslnie):
+        if tok.endswith("%"):
+            return int(tok[:-1]) / 100
+        return {"left": 0.0, "top": 0.0, "center": 0.5, "right": 1.0, "bottom": 1.0}.get(tok, domyslnie)
+    fy0 = 0.0 if im.height > im.width else 0.5
+    return (frac(t[0], 0.5) if len(t) > 0 else 0.5), (frac(t[1], fy0) if len(t) > 1 else fy0)
 
 
 def og_image(name):
@@ -1582,8 +1598,8 @@ def og_image(name):
         im = Image.open(os.path.join(ROOT, "img", name + ".jpg")).convert("RGB")
         k = max(OG_W / im.width, OG_H / im.height)
         im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
-        fy = og_pozycja_pion(name, im)
-        x, y = (im.width - OG_W) // 2, (round((im.height - OG_H) * fy) if fy is not None else (im.height - OG_H) // 2)  # zdjęcie pionowe: wg img_pos (domyślnie od góry)
+        fx, fy = og_pozycja(name, im)
+        x, y = round((im.width - OG_W) * fx), round((im.height - OG_H) * fy)  # kadr wg img_pos
         im.crop((x, y, x + OG_W, y + OG_H)).save(dst, "JPEG", quality=70, optimize=True, progressive=True)
     return f"{SITE_URL}img/og/{name}.jpg"
 
