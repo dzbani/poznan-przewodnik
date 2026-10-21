@@ -106,7 +106,7 @@ EN = {
     ),
     "rogalowe-muzeum": dict(
         name="St Martin's Croissant Museum",
-        img_alt="A croissant-baking show at the Croissant Museum",
+        img_alt="St Martin's croissants and ingredients (almonds, raisins, candied peel) around a heart drawn in flour with the words ROGA-LOVE",
         short="A live show about the St Martin's croissant, just off the Old Market Square. Buy tickets in advance.",
         badge="Book ahead",
         status=None,

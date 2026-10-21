@@ -276,7 +276,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="rogalowe-muzeum", cat="muzea", name="Rogalowe Muzeum Poznania",
-        img="rogalowe-muzeum", img_alt="Pokaz wypieku rogali w Rogalowym Muzeum",
+        img="rogalowe-muzeum", img_alt="Rogale świętomarcińskie i składniki (migdały, rodzynki, kandyzowana skórka) wokół serca z mąki z napisem ROGA-LOVE",
         short="Pokaz o rogalach świętomarcińskich przy Starym Rynku. Bilety warto kupić wcześniej.",
         badge="Rezerwuj wcześniej",
         status=None,
