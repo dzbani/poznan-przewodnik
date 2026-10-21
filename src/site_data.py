@@ -85,7 +85,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="brama-poznania", cat="zabytki", name="Brama Poznania ICHOT",
-        img="brama-poznania", img_alt="Budynek Bramy Poznania nad Cybiną",
+        img="brama-poznania", img_alt="Betonowy budynek Bramy Poznania i przeszklona kładka nad Cybiną wśród zieleni",
         short="Multimedialna opowieść o początkach państwa polskiego, naprzeciw katedry.",
         badge="Pn nieczynne",
         status=None,
@@ -96,7 +96,8 @@ ATTRACTIONS = [
                 "63-metrowa kładka nad Cybiną łączy główny budynek z odnowioną XIX-wieczną Śluzą Katedralną na Ostrowie Tumskim.",
             ]),
             ("Co zobaczyć", [
-                "Ekspozycję tworzą cztery sale: Gród (początki osadnictwa na Ostrowie Tumskim), Woda (okoliczności Chrztu Polski), Złoto (rozwój Ostrowa od XVI do XIX wieku) i Witraż (wątki z najnowszej historii wyspy). Na dachu budynku jest taras widokowy włączony w ramy ekspozycji.",
+                "Ekspozycja główna opowiada ponad tysiącletnią historię wyspy katedralnej, która sąsiaduje z budynkiem Bramy Poznania: od założenia grodu w X wieku po współczesność. Mówi o ludziach, wydarzeniach i ważnych momentach związanych z wyspą, na której rozwijały się nauka, sztuka i handel.",
+                "Zwiedzanie prowadzi przez cztery sale: Gród (początki osadnictwa na Ostrowie Tumskim), Woda (okoliczności Chrztu Polski), Złoto (rozwój Ostrowa od XVI do XIX wieku) i Witraż (wątki z najnowszej historii wyspy). Na dachu budynku jest taras widokowy włączony w ramy ekspozycji.",
             ]),
             ("Warto wiedzieć", [
                 "W budynku działa punkt informacji turystycznej.",
@@ -111,7 +112,8 @@ ATTRACTIONS = [
                  ("Przewodnik dla grupy", "160 zł po polsku, 220 zł w języku obcym")],
         phone="+48 61 647 76 34", www=("bramapoznania.pl", "https://bramapoznania.pl/"),
         credit="brama-poznania",
-        sources=[("Brama Poznania: cennik", "https://bramapoznania.pl/cennik"),
+        sources=[("Brama Poznania: ekspozycja główna", "https://bramapoznania.pl/ekspozycja-glowna"),
+                 ("Brama Poznania: cennik", "https://bramapoznania.pl/cennik"),
                  ("Brama Poznania: godziny otwarcia", "https://bramapoznania.pl/godziny-otwarcia"),
                  ("Wikipedia: Brama Poznania ICHOT", "https://pl.wikipedia.org/wiki/Brama_Poznania_ICHOT")],
         checked="20.10.2026",

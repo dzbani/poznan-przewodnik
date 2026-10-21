@@ -4,7 +4,7 @@
 EN_BATCH2 = {
     "brama-poznania": dict(
         name="Gate of Poznań ICHOT",
-        img_alt="The Gate of Poznań building above the Cybina river",
+        img_alt="The concrete Gate of Poznań building and its glazed footbridge over the Cybina, surrounded by greenery",
         short="A multimedia story of the beginnings of the Polish state, opposite the cathedral.",
         badge="Closed Mon",
         status=None,
@@ -15,7 +15,8 @@ EN_BATCH2 = {
                 "A 63-metre footbridge over the Cybina links the main building with the restored 19th-century Cathedral Lock on Ostrów Tumski.",
             ]),
             ("What to see", [
-                "The exhibition consists of four rooms: Stronghold (the beginnings of settlement on Ostrów Tumski), Water (the circumstances of Poland's baptism), Gold (the development of the island from the 16th to the 19th century) and Stained Glass (themes from the island's recent history). The viewing terrace on the roof is part of the exhibition.",
+                "The main exhibition tells the story, more than a thousand years long, of the cathedral island next to the Gate of Poznań building, from the founding of the stronghold in the 10th century to the present day. It is about people, events and key moments linked to the island, where learning, art and trade developed.",
+                "The visit leads through four rooms: Stronghold (the beginnings of settlement on Ostrów Tumski), Water (the circumstances of Poland's baptism), Gold (the development of the island from the 16th to the 19th century) and Stained Glass (themes from the island's recent history). The viewing terrace on the roof is part of the exhibition.",
             ]),
             ("Good to know", [
                 "A tourist information point operates in the building.",
