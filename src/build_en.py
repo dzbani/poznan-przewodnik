@@ -9,7 +9,7 @@ from html import escape
 
 import seo
 from build import (LINKS_CHECKED, CHECKED as SITE_CHECKED, ATTRACTIONS, BY_SLUG, COORDS, PLANS, CALENDAR, tags, CAL_CHECKED, THEATRES, THEATRES_CHECKED, VIEWPOINTS, HISTORY, CLIMATE, distance_km, CONTACT_EMAIL, COPYRIGHT_YEAR, CREDITS, FONTS, GA_ID, SITE_URL,
-                   asset_v, icon, maps_url, media_html, quick_facts, route_url)
+                   asset_v, icon, img_v, maps_url, media_html, quick_facts, route_url)
 from data_en import CATEGORIES_EN, EN
 from plans_en import PLANS_EN
 from calendar_en import CAL_EN
@@ -488,7 +488,7 @@ def venue_card_en(v):
     t = theatres_en.VENUES_EN[v["id"]]
     img = ""
     if v["img"]:
-        img = (f'<figure class="venue-img"><img src="../img/{v["img"]}.jpg" alt="" loading="lazy" decoding="async">'
+        img = (f'<figure class="venue-img"><img src="../img/{v["img"]}.jpg?v={img_v(v["img"])}" alt="" loading="lazy" decoding="async">'
                f'{credit_badge_en(v["img"], "../")}</figure>')
     lang = (f'<p class="venue-lang venue-lang-ok">{theatres_en.LANG_OK}</p>' if v["lang"]
             else f'<p class="venue-lang">{theatres_en.LANG_PL}</p>')
@@ -768,7 +768,7 @@ def build_photo_credits_en():
             lic = f'<a href="{escape(c["licurl"])}" target="_blank" rel="noopener">{lic}</a>'
         changes = escape(CREDIT_CHANGES_EN[c.get("modified", "pomniejszono i skompresowano")])
         title = escape(CREDIT_TITLE_EN.get(c["slug"], c["title"]))
-        rows.append(f"<tr id=\"foto-{c['slug']}\"><td><img src=\"../img/{c.get('file', c['slug'] + '.jpg')}\" alt=\"\" loading=\"lazy\"></td>"
+        rows.append(f"<tr id=\"foto-{c['slug']}\"><td><img src=\"../img/{c.get('file', c['slug'] + '.jpg')}?v={img_v(c.get('file', c['slug'] + '.jpg')[:-4])}\" alt=\"\" loading=\"lazy\"></td>"
                     f"<td><a href=\"{escape(c['page'])}\" target=\"_blank\" rel=\"noopener\">{title}</a></td>"
                     f"<td>{escape(c['artist'])}</td><td>{lic}</td><td>{changes}</td></tr>")
     body = f"""

@@ -124,8 +124,21 @@ def resp_set(name, widths):
     return out
 
 
+_IMG_V = {}
+
+
+def img_v(name):
+    """Znacznik wersji zdjęcia (skrót zawartości img/<name>.jpg) w adresach obrazów, żeby po podmianie zdjęcia
+    przeglądarki nie pokazywały starej kopii z pamięci podręcznej (adres pliku się nie zmienia)."""
+    if name not in _IMG_V:
+        import hashlib
+        fp = os.path.join(ROOT, "img", name + ".jpg")
+        _IMG_V[name] = hashlib.md5(open(fp, "rb").read()).hexdigest()[:8] if os.path.exists(fp) else "0"
+    return _IMG_V[name]
+
+
 def srcset_attr(name, prefix, widths=(640, 1200)):
-    return ", ".join(f"{prefix}{f} {w}w" for w, f in resp_set(name, widths))
+    return ", ".join(f"{prefix}{f}?v={img_v(name)} {w}w" for w, f in resp_set(name, widths))
 
 
 def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px", priority=False):
@@ -134,7 +147,7 @@ def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width
         return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
     extra = ' loading="lazy" decoding="async"' if lazy else (' fetchpriority="high"' if priority else "")
     pos = f' style="object-position: {a["img_pos"]}"' if a.get("img_pos") else ""
-    return (f'<img src="{prefix}img/{a["img"]}.jpg" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
+    return (f'<img src="{prefix}img/{a["img"]}.jpg?v={img_v(a["img"])}" srcset="{srcset_attr(a["img"], prefix)}" sizes="{sizes}" '
             f'alt="{escape(a["img_alt"])}"{pos}{extra}>')
 
 
@@ -348,7 +361,7 @@ def build_index():
         items = [a for a in ATTRACTIONS if a["cat"] == k]
         cover = next(a for a in items if a.get("img"))
         tiles.append(f"""<li><a class="tile" href="atrakcje.html#kat-{k}">
-  <img src="img/{cover['img']}.jpg" srcset="{srcset_attr(cover['img'], '')}" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <img src="img/{cover['img']}.jpg?v={img_v(cover['img'])}" srcset="{srcset_attr(cover['img'], '')}" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
   <span class="tile-t">{escape(n)}</span><span class="tile-n">{len(items)}</span></a></li>""")
     top = "".join(card(BY_SLUG[s], num=i) for i, s in enumerate(TOP10, 1))
     # Wszystkie wydarzenia z datą; site.js ukrywa zakończone i pokazuje najbliższe UPCOMING_MAX.
@@ -919,7 +932,7 @@ def build_plans():
 def venue_card(v):
     img = ""
     if v["img"]:
-        img = f"""<figure class="venue-img"><img src="img/{v['img']}.jpg" alt="" loading="lazy" decoding="async">{credit_badge(v['img'])}</figure>"""
+        img = f"""<figure class="venue-img"><img src="img/{v['img']}.jpg?v={img_v(v['img'])}" alt="" loading="lazy" decoding="async">{credit_badge(v['img'])}</figure>"""
     lang = ('<p class="venue-lang venue-lang-ok">Bez znajomości polskiego</p>' if v["lang"]
             else '<p class="venue-lang">Spektakle po polsku</p>')
     desc = "".join(f"<p>{escape(p)}</p>" for p in v["desc"])
@@ -1084,7 +1097,7 @@ def build_credits():
         if c.get("licurl"):
             lic = f'<a href="{escape(c["licurl"])}" target="_blank" rel="noopener">{lic}</a>'
         changes = escape(c.get("modified", "pomniejszono i skompresowano"))
-        rows.append(f"<tr id=\"foto-{c['slug']}\"><td><img src=\"img/{c.get('file', c['slug'] + '.jpg')}\" alt=\"\" loading=\"lazy\"></td>"
+        rows.append(f"<tr id=\"foto-{c['slug']}\"><td><img src=\"img/{c.get('file', c['slug'] + '.jpg')}?v={img_v(c.get('file', c['slug'] + '.jpg')[:-4])}\" alt=\"\" loading=\"lazy\"></td>"
                     f"<td><a href=\"{escape(c['page'])}\" target=\"_blank\" rel=\"noopener\">{escape(c['title'])}</a></td>"
                     f"<td>{escape(c['artist'])}</td><td>{lic}</td><td>{changes}</td></tr>")
     body = f"""
