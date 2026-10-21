@@ -24,7 +24,7 @@ RULES = [
          src=("Muzeum: komunikat o ponownym otwarciu", "https://www.wmn.poznan.pl/moje-aktualnosci/muzeum-powstania-poznanskiego-czerwiec-1956-w-poznaniu-ponownie-otwiera-sie-dla-zwiedzajacych/")),
     dict(sort="2026-01-02", when="od 2.01.2026", kind="Ceny",
          title="Rogalowe Muzeum Poznania: nowy cennik",
-         text="Dla zwiedzających indywidualnych pokaz rogalowy kosztuje 41 zł (ulgowy 37 zł), a pokaz z herbami 47 zł (ulgowy 43 zł). Wyszukiwarki często pokazują jeszcze stare, niższe ceny.",
+         text="Dla zwiedzających indywidualnych pokaz rogalowy kosztuje 41 zł (ulgowy 37 zł), a pokaz rogalowo-koziołkowy 47 zł (ulgowy 43 zł). Wyszukiwarki często pokazują jeszcze stare, niższe ceny.",
          page=("atrakcje/rogalowe-muzeum.html", "Rogalowe Muzeum Poznania"),
          src=("Rogalowe Muzeum: dla indywidualnych", "https://rogalowemuzeum.pl/indywidualni/")),
     dict(sort="2025-11-11", when="od 2025", kind="Zasady",
