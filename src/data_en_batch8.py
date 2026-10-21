@@ -191,7 +191,7 @@ EN_BATCH8 = {
     ),
     "muzeum-sztuk-uzytkowych": dict(
         name="Museum of Decorative Arts",
-        img_alt="A glass goblet and a porcelain plate with a coat of arms in a display case of the Museum of Decorative Arts",
+        img_alt="A display case with a mannequin in historic dress, woven sashes and textiles on the walls in the Museum of Decorative Arts",
         short="Furniture, glass, ceramics and jewellery from the Middle Ages to the present, in the Royal Castle. Free admission on Tuesdays.",
         badge="Tue free",
         status=None,

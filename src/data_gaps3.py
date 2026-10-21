@@ -134,7 +134,7 @@ GAPS3 = [
     ),
     dict(
         slug="muzeum-sztuk-uzytkowych", cat="muzea", name="Muzeum Sztuk Użytkowych",
-        img="muzeum-sztuk-uzytkowych", img_alt="Szklany puchar i porcelanowy talerz z herbem w gablocie Muzeum Sztuk Użytkowych",
+        img="muzeum-sztuk-uzytkowych", img_alt="Gablota z manekinem w dawnym stroju, pasami tkanymi i tkaninami na ścianach w ekspozycji Muzeum Sztuk Użytkowych",
         short="Meble, szkło, ceramika i biżuteria od średniowiecza po współczesność w Zamku Królewskim. We wtorki wstęp wolny.",
         badge="Wt wstęp wolny",
         status=None,
