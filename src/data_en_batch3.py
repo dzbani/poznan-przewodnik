@@ -175,7 +175,7 @@ EN_BATCH3 = {
     ),
     "muzeum-broni-pancernej": dict(
         name="Museum of Armoured Weapons",
-        img_alt="A Jagdpanzer 38(t) tank destroyer in the Museum of Armoured Weapons",
+        img_alt="A T-72 “Wilk” tank with reactive armour in the Museum of Armoured Weapons, with a mannequin in a tank crew uniform beside it",
         short="75 armoured vehicles from around the world, from the Greater Poland Uprising to the Cold War.",
         badge="Thu free",
         status=None,

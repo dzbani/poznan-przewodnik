@@ -269,7 +269,7 @@ EXTRA = [
     # ─── Partia 2 ───
     dict(
         slug="muzeum-broni-pancernej", cat="muzea", name="Muzeum Broni Pancernej",
-        img="muzeum-broni-pancernej", img_alt="Niszczyciel czołgów Jagdpanzer 38(t) w Muzeum Broni Pancernej",
+        img="muzeum-broni-pancernej", img_alt="Czołg T-72 „Wilk” z pancerzem reaktywnym w ekspozycji Muzeum Broni Pancernej, obok manekin w stroju czołgisty",
         short="75 pojazdów pancernych z całego świata, od Powstania Wielkopolskiego po zimną wojnę.",
         badge="Czw wstęp wolny",
         status=None,
