@@ -798,21 +798,22 @@ MORE = [
     ),
     dict(
         slug="muzeum-sienkiewicza", cat="muzea", name="Muzeum Literackie Henryka Sienkiewicza",
-        img="muzeum-sienkiewicza", img_alt="Kamienica przy Starym Rynku 84",
+        img="muzeum-sienkiewicza", img_pos="center 60%", img_alt="Zdobiona sgraffitami kamienica przy Starym Rynku 84, siedziba Muzeum Literackiego Henryka Sienkiewicza, z rzeźbą w niszy i fontanną na pierwszym planie",
         short="Pamiątki po nobliście w XVI-wiecznej kamienicy na rynku. W soboty wstęp wolny.",
         badge="Sb wstęp wolny",
         status=None,
         lead="Muzeum Literackie Henryka Sienkiewicza to oddział Biblioteki Raczyńskich w XVI-wiecznej kamienicy przy Starym Rynku 84. Jest najmłodszym muzeum poświęconym pisarzowi w Polsce.",
         sections=[
             ("O muzeum", [
-                "Zbiory zgromadził Ignacy Moś, kolekcjoner, który całe życie zbierał pamiątki po nobliście i przekazał je Bibliotece Raczyńskich.",
-                "Sienkiewicz był w Poznaniu tylko kilka razy i nigdy nie mieszkał w tej kamienicy.",
+                "Autor „Trylogii” rzadko bywał w Wielkopolsce, a w tej kamienicy nie gościł nigdy. Z Poznaniem związał go Ignacy Moś, charyzmatyczny kolekcjoner, który większość życia poświęcił na gromadzenie pamiątek po pisarzu, a zbiory przekazał Bibliotece Raczyńskich.",
+                "Siedzibą muzeum jest zabytkowa kamienica, której dawnymi właścicielami byli m.in. Jan Baptysta Quadro, budowniczy renesansowego ratusza, oraz prezydent miasta Cyryl Ratajski.",
             ]),
             ("Co zobaczyć", [
+                "Maskę pośmiertną i odlew prawej dłoni pisarza, dzieła rzeźbiarza Franciszka Blacka.",
+                "Osobisty egzemplarz „Quo vadis” na papierze japońskim, z heliograwiurami Piotra Stachiewicza, pochodzący z prywatnej biblioteki pisarza. Mosiowi podarował go syn Sienkiewicza.",
                 "Replikę medalu Nagrody Nobla z 1905 roku.",
-                "Kolekcję rzeźbiarza Franciszka Ksawerego Blacka z odlewem prawej dłoni pisarza i jego maską pośmiertną.",
-                "Fragment rękopisu „Potopu” i ponad 4000 książek w wielu językach, m.in. chińskim, hebrajskim, arabskim, wietnamskim i esperanto.",
-                "Projekty scenografii do filmu „W pustyni i w puszczy” z 1973 roku.",
+                "Rzeźbę „Ursus walczący z turem” Marcina Rożka.",
+                "Pierwsze wydania niemal wszystkich powieści Sienkiewicza i ich przekłady na języki z całego świata, także tak rzadkie jak chiński, japoński, gruziński, arabski i hebrajski.",
             ]),
         ],
         address="Stary Rynek 84, 61-772 Poznań",

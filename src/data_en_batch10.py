@@ -98,21 +98,22 @@ EN_BATCH10 = {
     ),
     "muzeum-sienkiewicza": dict(
         name="Henryk Sienkiewicz Literary Museum",
-        img_alt="The townhouse at Stary Rynek 84",
+        img_alt="The sgraffito-decorated townhouse at Stary Rynek 84, home of the Henryk Sienkiewicz Literary Museum, with a sculpture in a niche and a fountain in the foreground",
         short="Mementoes of the Nobel laureate in a 16th-century townhouse on the square. Free admission on Saturdays.",
         badge="Sat free",
         status=None,
         lead="The Henryk Sienkiewicz Literary Museum is a branch of the Raczyński Library in a 16th-century townhouse at Stary Rynek 84. It is the youngest museum devoted to the writer in Poland.",
         sections=[
             ("About the museum", [
-                "The collection was gathered by Ignacy Moś, a collector who spent his whole life gathering mementoes of the Nobel laureate and gave them to the Raczyński Library.",
-                "Sienkiewicz was in Poznań only a few times and never lived in this townhouse.",
+                "The author of the “Trilogy” rarely visited Greater Poland and never set foot in this townhouse. It was Ignacy Moś, a charismatic collector, who linked him with Poznań: he devoted most of his life to gathering mementoes of the writer and gave the collection to the Raczyński Library.",
+                "The museum is housed in a historic townhouse whose former owners included Jan Baptysta Quadro, the builder of the Renaissance Town Hall, and the city's president Cyryl Ratajski.",
             ]),
             ("What to see", [
+                "The writer's death mask and a cast of his right hand, works by the sculptor Franciszek Black.",
+                "A personal copy of “Quo vadis” on Japanese paper, with heliogravures by Piotr Stachiewicz, from the writer's private library. Sienkiewicz's son gave it to Moś.",
                 "A replica of the Nobel Prize medal of 1905.",
-                "The collection of the sculptor Franciszek Ksawery Black, with a cast of the writer's right hand and his death mask.",
-                "A fragment of the manuscript of “The Deluge” and more than 4,000 books in many languages, among them Chinese, Hebrew, Arabic, Vietnamese and Esperanto.",
-                "Set designs for the 1973 film “In Desert and Wilderness”.",
+                "The sculpture “Ursus Fighting the Aurochs” by Marcin Rożek.",
+                "First editions of almost all of Sienkiewicz's novels and their translations into languages from all over the world, including such rare ones as Chinese, Japanese, Georgian, Arabic and Hebrew.",
             ]),
         ],
         hours=[("Tuesday, Friday, Saturday", "9:00–16:00"), ("Wednesday, Thursday", "12:00–19:00"),
