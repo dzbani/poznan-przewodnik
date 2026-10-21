@@ -620,7 +620,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-bizuterii-moja", cat="muzea", name="Muzeum Biżuterii MoJA",
-        img="muzeum-bizuterii-moja", img_alt="Ulica 27 Grudnia, przy której mieści się Muzeum Biżuterii MoJA",
+        img="muzeum-bizuterii-moja", img_alt="Wejście i witryna z biżuterią Muzeum Biżuterii MoJA przy ulicy 27 Grudnia",
         short="Biżuteria na wystawach stałych i czasowych, obok Okrąglaka i Teatru Polskiego.",
         badge="Wt nieczynne",
         status=None,

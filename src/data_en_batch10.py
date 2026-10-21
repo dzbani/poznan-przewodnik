@@ -294,7 +294,7 @@ EN_BATCH10 = {
     ),
     "muzeum-bizuterii-moja": dict(
         name="MoJA Jewellery Museum",
-        img_alt="Ul. 27 Grudnia, where the MoJA Jewellery Museum is housed",
+        img_alt="The entrance and the jewellery display window of the MoJA Jewellery Museum on ul. 27 Grudnia",
         short="Jewellery in permanent and temporary exhibitions, next to the Okrąglak and the Teatr Polski.",
         badge="Closed Tue",
         status=None,
