@@ -667,7 +667,7 @@ MORE = [
     ),
     dict(
         slug="genius-loci", cat="zabytki", name="Rezerwat Archeologiczny Genius Loci",
-        img="genius-loci", img_alt="Zachowany wał obronny grodu w rezerwacie Genius Loci",
+        img="genius-loci", img_alt="Drewniana makieta z kłód i kamieni w ekspozycji Rezerwatu Archeologicznego Genius Loci, obok szklane schody",
         short="Oryginalny wał obronny grodu z X wieku na Ostrowie Tumskim.",
         badge="Nd wstęp wolny",
         status=None,

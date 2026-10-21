@@ -4,7 +4,7 @@
 EN_BATCH7 = {
     "genius-loci": dict(
         name="Genius Loci Archaeological Reserve",
-        img_alt="The preserved defensive rampart of the stronghold in the Genius Loci reserve",
+        img_alt="A wooden model made of logs and stones in the exhibition of the Genius Loci Archaeological Reserve, beside a glass staircase",
         short="The original defensive rampart of a 10th-century stronghold on Ostrów Tumski.",
         badge="Sun free",
         status=None,
