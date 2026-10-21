@@ -6,7 +6,7 @@ EXTRA = [
     # ─── Partia 1 ───
     dict(
         slug="centrum-szyfrow-enigma", cat="muzea", name="Centrum Szyfrów Enigma",
-        img="centrum-szyfrow-enigma", img_alt="Ekspozycja Centrum Szyfrów Enigma",
+        img="centrum-szyfrow-enigma", img_alt="Wnętrze ekspozycji Centrum Szyfrów Enigma: świetlny żyrandol z liter i zwiedzający przy interaktywnych stanowiskach",
         short="Jak trzech matematyków z Poznania złamało szyfr Enigmy. Multimedialna wystawa z audioprzewodnikiem.",
         badge="Pn nieczynne",
         status=None,

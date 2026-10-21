@@ -85,7 +85,7 @@ EN = {
     ),
     "centrum-szyfrow-enigma": dict(
         name="Enigma Cipher Centre",
-        img_alt="The Enigma Cipher Centre exhibition",
+        img_alt="Inside the Enigma Cipher Centre exhibition: a chandelier of glowing letters and visitors at the interactive stations",
         short="How three mathematicians from Poznań broke the Enigma code. A multimedia exhibition with an audio guide.",
         badge="Closed Mon",
         status=None,
