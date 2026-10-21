@@ -526,7 +526,7 @@ EXTRA = [
     # ─── Partia 3 ───
     dict(
         slug="muzeum-ump", cat="muzea", name="Muzeum Uniwersytetu Medycznego",
-        img=None, img_alt="",
+        img="muzeum-ump", img_alt="Zabytkowe urządzenia medyczne w ekspozycji Muzeum Uniwersytetu Medycznego, z fotelem stomatologicznym i lampą rentgenowską",
         short="Historia medycyny i uczelni w otwartej ekspozycji na kampusie UMP. Wstęp wolny.",
         badge="Wstęp wolny",
         status=None,
@@ -544,7 +544,7 @@ EXTRA = [
         hours=[("Ekspozycje", "w godzinach otwarcia budynków uczelni")],
         tickets=[("Wstęp", "bezpłatnie")],
         phone=None, www=("muzeum.ump.edu.pl", "https://muzeum.ump.edu.pl/zwiedzanie"),
-        credit=None,
+        credit="muzeum-ump",
         sources=[("Muzeum UMP: zwiedzanie", "https://muzeum.ump.edu.pl/zwiedzanie")],
     ),
     dict(

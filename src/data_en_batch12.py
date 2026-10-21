@@ -49,7 +49,7 @@ EN_BATCH12 = {
     ),
     "muzeum-ump": dict(
         name="Poznań University of Medical Sciences Museum",
-        img_alt="",
+        img_alt="Historic medical equipment in the Poznań University of Medical Sciences Museum, with a dental chair and an X-ray lamp",
         short="The history of medicine and of the university in open exhibitions on the UMP campus. Free entry.",
         badge="Free entry",
         status=None,
