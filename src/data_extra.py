@@ -395,10 +395,12 @@ EXTRA = [
         short="Codzienność w PRL do dotknięcia: telefon z tarczą, ubrania z epoki, mieszkanie i zakład pracy.",
         badge="Pn nieczynne",
         status=None,
-        lead="Muzeum PRL-u przy ulicy Żydowskiej pokazuje codzienne życie w Polsce Ludowej: jak wyglądały mieszkanie i zakład pracy, czym bawiły się dzieci, co się czytało i jadło.",
+        lead="Muzeum PRL-u przy ulicy Żydowskiej 4, tuż obok Starego Rynku, pokazuje codzienne życie w Polsce Ludowej: jak wyglądały mieszkanie, sklep i zakład pracy, czym bawiły się dzieci, co się czytało i jadło.",
         sections=[
             ("Co tu się robi", [
-                "Eksponaty można dotykać: zadzwonić z telefonu z tarczą, przymierzyć ubrania z epoki i sprawdzić, jak dobrze zna się Poznań sprzed 50 lat.",
+                "Eksponaty można dotykać: otwierać szafki, zaglądać do mebli i siadać na wyposażeniu z epoki, zadzwonić z telefonu z tarczą, przymierzyć ubrania z epoki i sprawdzić, jak dobrze zna się Poznań sprzed 50 lat. Muzeum zachęca nawet do tego, by „powąchać PRL”.",
+                "W mieszkaniu urządzonym w stylu epoki stoi kultowa meblościanka, a w sklepie Społem czekają oryginalne produkty z dawnych półek. Jest też biurko partyjnego sekretarza.",
+                "Najmłodsi znajdą dawne zabawki i przedmioty codziennego użytku, których nie znają ze współczesnych domów, oraz zabawy przygotowane specjalnie dla dzieci.",
             ]),
             ("Warto wiedzieć", [
                 "Grupy powyżej 10 osób muszą wcześniej zarezerwować wizytę. Przewodnik po polsku jest wtedy w cenie biletu.",
