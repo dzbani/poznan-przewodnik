@@ -398,9 +398,11 @@ EXTRA = [
         lead="Muzeum PRL-u przy ulicy Żydowskiej 4, tuż obok Starego Rynku, pokazuje codzienne życie w Polsce Ludowej: jak wyglądały mieszkanie, sklep i zakład pracy, czym bawiły się dzieci, co się czytało i jadło.",
         sections=[
             ("Co tu się robi", [
-                "Eksponaty można dotykać: otwierać szafki, zaglądać do mebli i siadać na wyposażeniu z epoki, zadzwonić z telefonu z tarczą, przymierzyć ubrania z epoki i sprawdzić, jak dobrze zna się Poznań sprzed 50 lat. Muzeum zachęca nawet do tego, by „powąchać PRL”.",
-                "W mieszkaniu urządzonym w stylu epoki stoi kultowa meblościanka, a w sklepie Społem czekają oryginalne produkty z dawnych półek. Jest też biurko partyjnego sekretarza.",
-                "Najmłodsi znajdą dawne zabawki i przedmioty codziennego użytku, których nie znają ze współczesnych domów, oraz zabawy przygotowane specjalnie dla dzieci.",
+                "Chcesz zobaczyć, jak naprawdę wyglądało życie w Polsce Ludowej? W Muzeum PRL-u w Poznaniu nie tylko oglądasz eksponaty – możesz ich dotykać, otwierać szafki, zaglądać do mebli i siadać na wyposażeniu z epoki, a nawet powąchać PRL.",
+                "Wejdź do mieszkania urządzonego w stylu PRL-u i sprawdź, jak wyglądała codzienność sprzed kilku dekad. Otwórz kultową meblościankę, odkryj przedmioty, które kiedyś znajdowały się w niemal każdym polskim domu. Zajrzyj do sklepu Społem, poznaj oryginalne produkty i zobacz biurko partyjnego sekretarza.",
+                "Najmłodsi mogą odkrywać świat dawnych zabawek i codziennych przedmiotów, których nie znają ze współczesnych domów. Dla dzieci przygotowano angażujące zabawy.",
+                "To muzeum, w którym można swobodnie eksplorować przestrzeń, zaglądać w każdy kąt, a nawet się poprzebierać. Dla jednych będzie to sentymentalny powrót do dzieciństwa, dla innych – fascynujące spotkanie z rzeczywistością, której nie znają z własnego doświadczenia.",
+                "Odwiedź Muzeum PRL-u przy ul. Żydowskiej 4, tuż obok poznańskiego Starego Rynku, i przekonaj się, że historia może być nie tylko oglądana, ale również dotykana i przeżywana!",
             ]),
             ("Warto wiedzieć", [
                 "Grupy powyżej 10 osób muszą wcześniej zarezerwować wizytę. Przewodnik po polsku jest wtedy w cenie biletu.",

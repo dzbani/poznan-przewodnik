@@ -286,9 +286,11 @@ EN_BATCH8 = {
         lead="The PRL Museum at ul. Żydowska 4, right next to the Old Market Square, shows everyday life in the Polish People's Republic: what a flat, a shop and a workplace looked like, how children played, what people read and ate.",
         sections=[
             ("What you do here", [
-                "The exhibits can be touched: you can open cupboards, look inside furniture and sit on period furnishings, make a call from a dial telephone, try on period clothes and see how well you know Poznań of 50 years ago. The museum even invites you to “sniff the PRL”.",
-                "In the flat furnished in the style of the era stands the iconic wall unit, and in the Społem shop you will find original products from the old shelves. There is also a Party secretary's desk.",
-                "The youngest visitors will find old toys and everyday objects they do not know from modern homes, as well as activities prepared specially for children.",
+                "Want to see what life in the Polish People's Republic was really like? At the PRL Museum in Poznań you do not just look at the exhibits – you can touch them, open cupboards, look inside furniture and sit on period furnishings, and even sniff the PRL.",
+                "Step into a flat furnished in the PRL style and see what everyday life looked like a few decades ago. Open the iconic wall unit and discover objects that once stood in almost every Polish home. Look into the Społem shop, see the original products and the desk of a Party secretary.",
+                "The youngest visitors can explore a world of old toys and everyday objects they do not know from modern homes. Engaging activities have been prepared for children.",
+                "This is a museum where you can freely explore the space, look into every corner and even dress up. For some it will be a sentimental return to childhood, for others a fascinating encounter with a reality they do not know from their own experience.",
+                "Visit the PRL Museum at ul. Żydowska 4, right next to Poznań's Old Market Square, and find that history can be not only viewed but also touched and lived!",
             ]),
             ("Good to know", [
                 "Groups of more than 10 people must book their visit in advance. A guide in Polish is then included in the ticket price.",
