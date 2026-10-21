@@ -96,7 +96,7 @@ GAPS3 = [
     ),
     dict(
         slug="muzeum-armii-poznan", cat="muzea", name="Muzeum Armii „Poznań”",
-        img="muzeum-armii-poznan", img_alt="Brama Muzeum Armii „Poznań” w Parku Cytadela, na słupie bramy armata",
+        img="muzeum-armii-poznan", img_alt="Tablica informacyjna i ceglany słup bramy z napisem Muzeum Armii Poznań, wśród zieleni Parku Cytadela",
         short="Szlak bojowy Armii „Poznań” z 1939 roku w kazamatach Fortu Winiary. We wtorki wstęp wolny.",
         badge="Wt wstęp wolny",
         status=None,

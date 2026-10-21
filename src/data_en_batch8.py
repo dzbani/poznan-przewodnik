@@ -250,7 +250,7 @@ EN_BATCH8 = {
     ),
     "muzeum-armii-poznan": dict(
         name="“Poznań” Army Museum",
-        img_alt="The gate of the “Poznań” Army Museum in Cytadela Park, with a cannon on the gatepost",
+        img_alt="An information board and a brick gatepost with the “Muzeum Armii Poznań” sign, among the greenery of Cytadela Park",
         short="The 1939 combat trail of the “Poznań” Army in the casemates of Fort Winiary. Free admission on Tuesdays.",
         badge="Tue free",
         status=None,
