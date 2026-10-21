@@ -51,7 +51,7 @@ TRIPS = [
     ),
     dict(
         slug="arboretum-kornik", cat="wycieczki", name="Arboretum Kórnickie",
-        img="arboretum-kornik", img_alt="Zielona polana i drzewa w Arboretum Kórnickim",
+        img="arboretum-kornik", img_alt="Kwitnące magnolie w Arboretum Kórnickim, w tle wieża i mury zamku oraz zwiedzający na alei",
         short="Park z ok. 3500 gatunkami i odmianami drzew i krzewów, tuż obok zamku. Wiosną słynie z kwitnących magnolii.",
         badge="Codziennie",
         status=None,
@@ -62,9 +62,14 @@ TRIPS = [
                 "W 2026 roku arboretum obchodzi 200-lecie, a zamek 600-lecie.",
             ]),
             ("Co zobaczyć", [
-                "Kilkusetletnie lipy, buki i dęby oraz ponad stuletnie egzotyczne magnolie, jodły greckie i cypryśniki błotne.",
+                "Kwitnące magnolie (kwiecień i maj), największą w Polsce kolekcję lilaków (maj) oraz różaneczniki i azalie (druga połowa maja).",
+                "Najstarszego w Polsce cypryśnika błotnego i jego korzenie.",
+                "Kilkusetletnie lipy, buki i dęby oraz ponad stuletnie egzotyczne magnolie, jodły greckie i metasekwoje.",
+                "Jesienią grujecznik japoński, którego liście pachną watą cukrową.",
                 "Ścieżkę „Drzewa Świata” (3,5 km) z tablicami o 25 gatunkach drzew z Ameryki Północnej, Azji i Europy.",
-                "Ścieżki edukacyjne, polanę piknikową i plac zabaw.",
+                "Ścieżkę „Cisowe komnaty” o cisie pospolitym, jego trujących właściwościach i dawnym wykorzystaniu.",
+                "Grę terenową z pieczątkami dla najmłodszych „Skrzaty w Arboretum” i drewniane domki skrzatów.",
+                "Polanę piknikową, edukacyjną i przyrodniczy plac zabaw.",
             ]),
             ("Warto wiedzieć", [
                 "Bilet kupuje się w kasie przed wejściem, kartą albo gotówką. Sprzedaż kończy się pół godziny przed zamknięciem. Zamek jest osobną instytucją z własnymi biletami.",

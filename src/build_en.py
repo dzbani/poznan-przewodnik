@@ -756,7 +756,7 @@ def build_method_en():
 CREDIT_LICENSE_EN = {"Za zgodą autora": "Used with the author's permission", "Za zgodą muzeum": "Used with the museum's permission", "Licencja indywidualna": "Individual licence"}
 CREDIT_CHANGES_EN = {"pomniejszono i skompresowano": "downsized and compressed",
                      "pomniejszono, skompresowano i przycięto kadr": "downsized, compressed and cropped"}
-CREDIT_TITLE_EN = {"muzeum-narodowe": "National Museum in Poznań – the façade", "fort-vii": "Fort VII – the entrance gate", "muzeum-sztuk-uzytkowych": "Museum of Decorative Arts – the exhibition", "brama-poznania": "Gate of Poznań – the building and the footbridge over the Cybina", "centrum-szyfrow-enigma": "Enigma Cipher Centre – inside the exhibition", "muzeum-ump": "Medical University Museum – the exhibition", "muzeum-czekolady": "Chocolate Museum – shopfront and entrance", "hero-rynek": "Old Market Square in Poznań – panorama with the Town Hall and townhouses"}
+CREDIT_TITLE_EN = {"arboretum-kornik": "Kórnik Arboretum – blooming magnolias and the castle", "muzeum-narodowe": "National Museum in Poznań – the façade", "fort-vii": "Fort VII – the entrance gate", "muzeum-sztuk-uzytkowych": "Museum of Decorative Arts – the exhibition", "brama-poznania": "Gate of Poznań – the building and the footbridge over the Cybina", "centrum-szyfrow-enigma": "Enigma Cipher Centre – inside the exhibition", "muzeum-ump": "Medical University Museum – the exhibition", "muzeum-czekolady": "Chocolate Museum – shopfront and entrance", "hero-rynek": "Old Market Square in Poznań – panorama with the Town Hall and townhouses"}
 
 
 def build_photo_credits_en():

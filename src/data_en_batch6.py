@@ -127,7 +127,7 @@ EN_BATCH6 = {
     ),
     "arboretum-kornik": dict(
         name="Kórnik Arboretum",
-        img_alt="A green clearing and trees in the Kórnik Arboretum",
+        img_alt="Blooming magnolias in the Kórnik Arboretum, with the castle tower and walls behind and visitors on the path",
         short="A park with about 3,500 species and varieties of trees and shrubs, right next to the castle. Famous for its blooming magnolias in spring.",
         badge="Daily",
         status=None,
@@ -138,9 +138,14 @@ EN_BATCH6 = {
                 "In 2026 the arboretum celebrates its 200th anniversary, and the castle its 600th.",
             ]),
             ("What to see", [
-                "Lime, beech and oak trees several centuries old, and magnolias, Greek firs and bald cypresses more than a hundred years old.",
+                "Blooming magnolias (April and May), the largest collection of lilacs in Poland (May), and rhododendrons and azaleas (the second half of May).",
+                "The oldest bald cypress in Poland and its roots.",
+                "Lime, beech and oak trees several centuries old, and exotic magnolias, Greek firs and dawn redwoods more than a hundred years old.",
+                "In autumn, the katsura tree, whose leaves smell of candy floss.",
                 "The “Trees of the World” trail (3.5 km) with boards about 25 tree species from North America, Asia and Europe.",
-                "Educational paths, a picnic clearing and a playground.",
+                "The “Yew Chambers” trail about the common yew, its poisonous properties and its former uses.",
+                "A field game with stamps for the youngest, “Gnomes in the Arboretum”, and the wooden gnome houses.",
+                "A picnic and educational clearing and a nature playground.",
             ]),
             ("Good to know", [
                 "You buy a ticket at the ticket office before the entrance, by card or cash. Sales end half an hour before closing. The castle is a separate institution with its own tickets.",
