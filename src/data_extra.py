@@ -87,7 +87,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-pyry", cat="muzea", name="Poznańskie Muzeum Pyry",
-        img="muzeum-pyry", img_alt="Ulica Wroniecka, przy której mieści się Muzeum Pyry",
+        img="muzeum-pyry", img_pos="center 30%", img_alt="Uliczka w centrum Poznania z szyldem Poznańskiego Muzeum Pyry na kutym wysięgniku",
         short="Godzina z humorem o ziemniakach, z wykopkami i pieczeniem własnej pyry. Rezerwacja wymagana.",
         badge="Rezerwacja",
         status=None,

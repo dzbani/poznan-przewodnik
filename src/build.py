@@ -1563,6 +1563,15 @@ def clean_links(html):
 OG_W, OG_H = 1200, 630
 
 
+def og_pozycja_pion(name, im):
+    """Gdzie ciąć zdjęcie pionowe do miniatury 1200×630: 0 = od góry (domyślnie), 1 = od dołu; bierze „img_pos” atrakcji (np. „center 30%”)."""
+    if im.height <= im.width:
+        return None
+    pos = next((a.get("img_pos") for a in ATTRACTIONS if a.get("img") == name and a.get("img_pos")), "") or ""
+    m = re.search(r"(\d+)%\s*$", pos)
+    return int(m.group(1)) / 100 if m else (1.0 if pos.endswith("bottom") else 0.0)
+
+
 def og_image(name):
     """Zdjęcie 1200×630 do podglądu linku (Open Graph); tworzone z img/<name>.jpg przy pierwszym buildzie."""
     out_dir = os.path.join(ROOT, "img", "og")
@@ -1573,7 +1582,8 @@ def og_image(name):
         im = Image.open(os.path.join(ROOT, "img", name + ".jpg")).convert("RGB")
         k = max(OG_W / im.width, OG_H / im.height)
         im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
-        x, y = (im.width - OG_W) // 2, (0 if im.height > im.width else (im.height - OG_H) // 2)  # zdjęcie pionowe: od góry (szyld, fasada)
+        fy = og_pozycja_pion(name, im)
+        x, y = (im.width - OG_W) // 2, (round((im.height - OG_H) * fy) if fy is not None else (im.height - OG_H) // 2)  # zdjęcie pionowe: wg img_pos (domyślnie od góry)
         im.crop((x, y, x + OG_W, y + OG_H)).save(dst, "JPEG", quality=70, optimize=True, progressive=True)
     return f"{SITE_URL}img/og/{name}.jpg"
 

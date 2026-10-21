@@ -165,7 +165,7 @@ EN_BATCH10 = {
     ),
     "muzeum-pyry": dict(
         name="Poznań Potato Museum (Muzeum Pyry)",
-        img_alt="Ul. Wroniecka, where the Potato Museum is housed",
+        img_alt="A street in central Poznań with the Poznań Potato Museum sign on a wrought-iron bracket",
         short="An hour with humour about potatoes, with digging and baking your own potato. Booking required.",
         badge="Booking",
         status=None,
