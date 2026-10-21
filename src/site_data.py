@@ -328,7 +328,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="muzeum-archeologiczne", cat="muzea", name="Muzeum Archeologiczne",
-        img="muzeum-archeologiczne", img_alt="Pałac Górków, siedziba Muzeum Archeologicznego",
+        img="muzeum-archeologiczne", img_pos="center 40%", img_alt="Rzeźbiony renesansowy portal z kutą kratą przy wejściu do Pałacu Górków, siedziby Muzeum Archeologicznego",
         short="Pradzieje Wielkopolski i starożytny Egipt w renesansowym Pałacu Górków.",
         badge="Wt wstęp wolny",
         status=None,

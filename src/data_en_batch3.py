@@ -46,7 +46,7 @@ EN_BATCH3 = {
     ),
     "muzeum-archeologiczne": dict(
         name="Archaeological Museum",
-        img_alt="The Górka Palace, home of the Archaeological Museum",
+        img_alt="A carved Renaissance portal with a wrought-iron gate at the entrance to the Górka Palace, home of the Archaeological Museum",
         short="The prehistory of Greater Poland and ancient Egypt in the Renaissance Górka Palace.",
         badge="Tue free",
         status=None,
