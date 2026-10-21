@@ -5,7 +5,7 @@ Pole „getting” (tylko wycieczki za miasto) tłumaczy sekcję „Dojazd z Poz
 EN_BATCH3 = {
     "muzeum-narodowe": dict(
         name="National Museum",
-        img_alt="The National Museum building in Poznań",
+        img_alt="The façade of the National Museum building in Poznań, with its pediment, inscription and mosaics above the windows",
         short="The only Monet painting in Polish collections and a large collection of works by Malczewski.",
         badge="Tue free",
         status=None,

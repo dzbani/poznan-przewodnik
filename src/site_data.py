@@ -251,7 +251,7 @@ ATTRACTIONS = [
     # ─── MUZEA ───
     dict(
         slug="muzeum-narodowe", cat="muzea", name="Muzeum Narodowe",
-        img="muzeum-narodowe", img_alt="Gmach Muzeum Narodowego w Poznaniu",
+        img="muzeum-narodowe", img_alt="Fasada gmachu Muzeum Narodowego w Poznaniu z szczytem, napisem i mozaikami nad oknami",
         short="Jedyny obraz Moneta w polskich zbiorach i duży zbiór obrazów Malczewskiego.",
         badge="Wt wstęp wolny",
         status=None,
