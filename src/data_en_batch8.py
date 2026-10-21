@@ -279,7 +279,7 @@ EN_BATCH8 = {
     ),
     "muzeum-prl": dict(
         name="Museum of the Polish People's Republic (PRL Museum)",
-        img_alt="Ul. Żydowska, where the PRL Museum is housed",
+        img_alt="A dial telephone, a typewriter, a glass in a metal holder and period printed matter on green cloth at the PRL Museum",
         short="Everyday life in communist Poland to touch: a dial telephone, period clothes, a flat and a workplace.",
         badge="Closed Mon",
         status=None,

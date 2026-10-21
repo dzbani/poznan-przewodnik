@@ -391,7 +391,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-prl", cat="muzea", name="Muzeum PRL-u",
-        img="muzeum-prl", img_alt="Ulica Żydowska, przy której mieści się Muzeum PRL-u",
+        img="muzeum-prl", img_alt="Telefon z tarczą, maszyna do pisania, szklanka w koszyczku i dawne druki na zielonym suknie w Muzeum PRL-u",
         short="Codzienność w PRL do dotknięcia: telefon z tarczą, ubrania z epoki, mieszkanie i zakład pracy.",
         badge="Pn nieczynne",
         status=None,
