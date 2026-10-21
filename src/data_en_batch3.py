@@ -334,7 +334,7 @@ EN_BATCH3 = {
     ),
     "fort-vii": dict(
         name="Fort VII – Museum of the Martyrdom of Greater Poland People",
-        img_alt="The gate of Fort VII in Poznań",
+        img_alt="The brick entrance gate of Fort VII with its historic inscription and a cross on the earth rampart above it",
         short="A memorial site in a former fort, where in 1939 the Germans set up the KL Posen camp.",
         badge="Tue free",
         status=None,

@@ -33,7 +33,7 @@ EXTRA = [
     ),
     dict(
         slug="fort-vii", cat="muzea", name="Fort VII – Muzeum Martyrologii Wielkopolan",
-        img="fort-vii", img_alt="Brama Fortu VII w Poznaniu",
+        img="fort-vii", img_alt="Ceglana brama wjazdowa Fortu VII z historycznym napisem i krzyżem na wale ziemnym nad nią",
         short="Miejsce pamięci w dawnym forcie, gdzie w 1939 roku Niemcy utworzyli obóz KL Posen.",
         badge="Wt wstęp wolny",
         status=None,
