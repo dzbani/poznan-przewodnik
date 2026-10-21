@@ -644,7 +644,7 @@ EXTRA = [
     ),
     dict(
         slug="mieszkanie-illakowiczowny", cat="muzea", name="Mieszkanie-Pracownia Kazimiery Iłłakowiczówny",
-        img="mieszkanie-illakowiczowny", img_alt="Ulica Gajowa, przy której mieści się mieszkanie poetki",
+        img="mieszkanie-illakowiczowny", img_pos="center 60%", img_alt="Pracownia poetki: biurko z lampą, drewniany regał narożny, komoda z radiem i zielone ściany",
         short="Autentyczne mieszkanie poetki i sekretarki Piłsudskiego. Zwiedzanie po zapisach.",
         badge="Po zapisie",
         status=None,

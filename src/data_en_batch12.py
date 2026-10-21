@@ -129,7 +129,7 @@ EN_BATCH12 = {
     ),
     "mieszkanie-illakowiczowny": dict(
         name="Kazimiera Iłłakowiczówna Apartment-Studio",
-        img_alt="Ul. Gajowa, where the poet's apartment is",
+        img_alt="The poet's study: a desk with a lamp, a wooden corner bookcase, a chest of drawers with a radio and green walls",
         short="The authentic apartment of the poet and secretary to Piłsudski. Visits by registration.",
         badge="Registration",
         status=None,
