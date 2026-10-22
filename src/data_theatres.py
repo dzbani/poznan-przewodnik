@@ -90,7 +90,7 @@ THEATRE_SOURCES = [
 THEATRE_ATTR = [
     dict(
         slug="teatr-wielki", cat="zabytki", name="Teatr Wielki (Opera)",
-        img="teatr-wielki", img_alt="Neoklasycystyczny gmach Teatru Wielkiego w Poznaniu",
+        img="teatr-wielki", img_alt="Oświetlony wieczorem gmach Teatru Wielkiego w Poznaniu, odbity w wodzie",
         short="Gmach opery z 1910 roku z Pegazem na dachu. Można zwiedzić go za kulisami albo przyjść na operę lub balet.",
         badge="Opera i balet",
         status=None,

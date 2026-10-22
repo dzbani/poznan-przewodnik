@@ -238,7 +238,7 @@ EN_BATCH3 = {
     ),
     "teatr-wielki": dict(
         name="Grand Theatre (Opera House)",
-        img_alt="The neoclassical building of the Grand Theatre in Poznań",
+        img_alt="The Grand Theatre in Poznań lit up in the evening, reflected in the water",
         short="An opera house from 1910 with Pegasus on the roof. Take a behind-the-scenes tour or come to an opera or ballet.",
         badge="Opera and ballet",
         status=None,
