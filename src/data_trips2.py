@@ -267,7 +267,6 @@ TRIPS2 = [
             ]),
             ("Warto wiedzieć", [
                 "Grupy powyżej 10 osób płacą 10 zł (dorośli) i 8 zł (dzieci), a opiekun na 15 dzieci wchodzi bezpłatnie. Zwiedzanie z przewodnikiem kosztuje 13 zł (dorośli) i 11 zł (dzieci).",
-                "Z toalet w skansenie korzystają też odwiedzający Gród Pobiedziska.",
             ]),
         ],
         address="ul. Fabryczna 68, 62-010 Pobiedziska",
@@ -306,7 +305,7 @@ TRIPS2 = [
                 "Ognisko z pokazami historycznego gotowania i sklepik z pamiątkami.",
             ]),
             ("Warto wiedzieć", [
-                "Na terenie jest zadaszona wiata, a przy złej pogodzie można skorzystać z sali dydaktycznej. Toalety są w sąsiednim Skansenie Miniatur. Parking przy obiekcie jest bezpłatny.",
+                "Na terenie jest zadaszona wiata, a przy złej pogodzie można skorzystać z sali dydaktycznej. Parking przy obiekcie jest bezpłatny.",
                 "Gród przyjmuje grupy zorganizowane od kwietnia do października po wcześniejszej rezerwacji. Strona gródka honoruje Poznańską Kartę Turystyczną i Kartę Dużej Rodziny.",
                 "Strzał z katapulty kosztuje 10 zł, a ognisko 150 zł. Grupy zorganizowane przyjmowane są od kwietnia do października, w godzinach 8:00–20:00, po wcześniejszej rezerwacji (601 377 802 lub biuro@grodpobiedziska.pl).",
             ]),

@@ -230,7 +230,7 @@ EN_BATCH6 = {
                 "A campfire with shows of historical cooking and a souvenir shop.",
             ]),
             ("Good to know", [
-                "There is a covered shelter on the grounds, and in bad weather you can use the educational room. Toilets are in the neighbouring Miniature Park. Parking at the site is free.",
+                "There is a covered shelter on the grounds, and in bad weather you can use the educational room. Parking at the site is free.",
                 "The Stronghold accepts organised groups from April to October by prior booking. Its website honours the Poznań Tourist Card and the Large Family Card.",
                 "A catapult shot costs PLN 10, and a campfire PLN 150. Organised groups are accepted from April to October, 8:00–20:00, by prior booking (601 377 802 or biuro@grodpobiedziska.pl).",
             ]),
@@ -256,7 +256,6 @@ EN_BATCH6 = {
             ]),
             ("Good to know", [
                 "Groups of more than 10 people pay PLN 10 (adults) and PLN 8 (children), and one carer for every 15 children enters free. A guided tour costs PLN 13 (adults) and PLN 11 (children).",
-                "Visitors to the Pobiedziska Stronghold also use the toilets in the Miniature Park.",
             ]),
         ],
         hours=[("April–September", "10:00–18:00"), ("October–March", "9:00–16:00")],
