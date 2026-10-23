@@ -244,7 +244,7 @@ EN_BATCH6 = {
     ),
     "skansen-miniatur-pobiedziska": dict(
         name="Piast Trail Miniature Park in Pobiedziska",
-        img_alt="A miniature of a historic church in the Miniature Park in Pobiedziska",
+        img_alt="Models of the Town Hall and the cathedral in the Miniature Park in Pobiedziska, with picnic tables and a knight statue in the foreground",
         short="More than 30 models of monuments of Greater Poland and the Piast Trail at a scale of 1:20, between Poznań and Gniezno. Ticket PLN 12.",
         badge="All year",
         status=None,

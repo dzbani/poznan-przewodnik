@@ -255,7 +255,7 @@ TRIPS2 = [
     ),
     dict(
         slug="skansen-miniatur-pobiedziska", cat="wycieczki", name="Skansen Miniatur Szlaku Piastowskiego w Pobiedziskach",
-        img="skansen-miniatur-pobiedziska", img_alt="Miniatura zabytkowego kościoła w Skansenie Miniatur w Pobiedziskach",
+        img="skansen-miniatur-pobiedziska", img_alt="Makiety Ratusza i katedry w Skansenie Miniatur w Pobiedziskach, na pierwszym planie ławki i rzeźba rycerza", img_pos="55% center",
         short="Ponad 30 makiet zabytków Wielkopolski i Szlaku Piastowskiego w skali 1:20, między Poznaniem a Gnieznem. Bilet 12 zł.",
         badge="Cały rok",
         status=None,
