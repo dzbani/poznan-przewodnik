@@ -416,7 +416,7 @@ EXTRA = [
     ),
     dict(
         slug="schron-przeciwatomowy", cat="muzea", name="Przeciwatomowy Schron i Galeria Plakatu",
-        img="schron-przeciwatomowy", img_alt="Zieleń przy naziemnych zabudowaniach schronu przy ulicy Słupskiej 62",
+        img="schron-przeciwatomowy", img_alt="Dwukondygnacyjny budynek naziemny schronu przy ulicy Słupskiej 62, z czerwonym dachem, za ogrodzeniem i tujami",
         short="Tajny schron dla władz miasta z oryginalnym wyposażeniem z PRL i plakaty z epoki socjalizmu.",
         badge="Śr–pt 10–16",
         status=None,

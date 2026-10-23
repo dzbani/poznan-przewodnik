@@ -249,7 +249,7 @@ EN_BATCH10 = {
     ),
     "schron-przeciwatomowy": dict(
         name="Nuclear Shelter and Poster Gallery",
-        img_alt="Greenery by the above-ground buildings of the shelter on ul. Słupska 62",
+        img_alt="The above-ground building of the shelter at ul. Słupska 62, with a red roof, behind a fence and arborvitae trees",
         short="A secret shelter for the city authorities with original equipment from communist times and posters from the socialist era.",
         badge="Wed–Fri 10–16",
         status=None,
