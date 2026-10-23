@@ -90,7 +90,7 @@ EN_BATCH12 = {
     ),
     "izba-prl-w7": dict(
         name="PRL Room in the former Hall W7",
-        img_alt="",
+        img_alt="Inside the PRL Room: a laid table, display cases with memorabilia, old photographs and a metal sign on the wall",
         short="A private collection of mementoes of communist Poland in a historic hall of the Cegielski works. Free entry.",
         badge="Free entry",
         status=None,

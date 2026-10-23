@@ -499,7 +499,7 @@ EXTRA = [
     ),
     dict(
         slug="izba-prl-w7", cat="muzea", name="Izba PRL w dawnej Hali W7",
-        img=None, img_alt="",
+        img="izba-prl-w7", img_alt="Wnętrze Izby PRL: nakryty stół, gabloty z pamiątkami, stare fotografie i metalowy szyld na ścianie", img_pos="50% center",
         short="Prywatna kolekcja pamiątek z PRL w historycznej hali zakładów Cegielskiego. Wstęp wolny.",
         badge="Wstęp wolny",
         status=None,
@@ -519,7 +519,7 @@ EXTRA = [
         hours=[("Zwiedzanie", "po wcześniejszym umówieniu")],
         tickets=[("Wstęp", "bezpłatnie")],
         phone="+48 536 779 688", www=("poznan.pl", "https://www.poznan.pl/mim/main/it/izba-prl-przy-dawnej-hali-w7-hcp,poi,202/izba-prl-przy-dawnej-hali-w7-hcp,84872.html"),
-        credit=None,
+        credit="izba-prl-w7",
         sources=[("poznan.pl: Izba PRL przy dawnej Hali W7 HCP", "https://www.poznan.pl/mim/main/it/izba-prl-przy-dawnej-hali-w7-hcp,poi,202/izba-prl-przy-dawnej-hali-w7-hcp,84872.html")],
     ),
 
