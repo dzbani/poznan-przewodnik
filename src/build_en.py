@@ -120,6 +120,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts
       <li><a href="{prefix}en/photo-credits.html">Photo credits</a></li>
       <li><a href="{prefix}en/how-we-verify.html">How we verify information</a></li>
       <li><a href="https://visitpoznan.pl/en/" target="_blank" rel="noopener">Visit Poznań (official portal)</a></li>
+      <li><a href="https://daybyday.today/" target="_blank" rel="noopener">By the same author: daybyday.today</a></li>
     </ul>
   </div>
   <div class="wrap footer-bar">

@@ -247,6 +247,7 @@ def page(title, body, prefix="", desc="", active="", head="", scripts=""):
       <li><a href="{prefix}zdjecia.html">Autorzy zdjęć</a></li>
       <li><a href="{prefix}jak-weryfikujemy.html">Jak weryfikujemy informacje</a></li>
       <li><a href="https://visitpoznan.pl/" target="_blank" rel="noopener">Visit Poznań (oficjalny portal)</a></li>
+      <li><a href="https://daybyday.today/" target="_blank" rel="noopener">Tego samego autora: daybyday.today</a></li>
     </ul>
   </div>
   <div class="wrap footer-bar">
@@ -1245,7 +1246,7 @@ def build_method():
     <li>Nie piszemy recenzji ani ocen i nie przyjmujemy płatnych wpisów. Na stronie nie ma reklam.</li>
     <li>Opieramy się na źródłach publicznych, a nie na własnych relacjach z wizyt w każdym miejscu.</li>
   </ul>
-  <p>Przewodnik prowadzi prywatna, niekomercyjna strona niezwiązana z Urzędem Miasta Poznania (<a href="prywatnosc.html#kto">więcej</a>).</p>
+  <p>Przewodnik prowadzi prywatna, niekomercyjna strona niezwiązana z Urzędem Miasta Poznania (<a href="prywatnosc.html#kto">więcej</a>). Ten sam autor prowadzi też <a href="https://daybyday.today/" target="_blank" rel="noopener">daybyday.today</a>: imieniny, święta i kalendarz.</p>
 </section>
 
 <section id="zdjecia">

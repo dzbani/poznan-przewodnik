@@ -54,7 +54,7 @@ def body(n_attractions, first_date, last_date, practical_date, links_date):
     <li>We do not write reviews or ratings and do not accept paid entries. There are no ads on the site.</li>
     <li>We rely on public sources, not on our own accounts of visits to every place.</li>
   </ul>
-  <p>This guide is a private, non-commercial website, not affiliated with the City of Poznań Office (<a href="privacy.html#who">more</a>).</p>
+  <p>This guide is a private, non-commercial website, not affiliated with the City of Poznań Office (<a href="privacy.html#who">more</a>). The same author also runs <a href="https://daybyday.today/" target="_blank" rel="noopener">daybyday.today</a> (name days, holidays and a calendar, in Polish).</p>
 </section>
 
 <section id="photos">
