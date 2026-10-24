@@ -400,8 +400,8 @@
 "hash": "7940f41133da8cec56393cdb128a2fa1"
 },
 "atrakcje/ostrow-lednicki.html": {
-"date": "2026-10-23",
-"hash": "8fa014371a2ea197b7f3502d51dc107f"
+"date": "2026-10-24",
+"hash": "53f9e287bd3215cb26f62324fd0d1460"
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-10-23",
@@ -656,8 +656,8 @@
 "hash": "b1eabff8228db7ba2fab1ac66f7a5bce"
 },
 "atrakcje/wpe-dziekanowice.html": {
-"date": "2026-10-23",
-"hash": "1014387ee4f2210b3ea9f893e6b2260a"
+"date": "2026-10-24",
+"hash": "0f55aaf1cdf1ae57659e29acf72d017b"
 },
 "atrakcje/wpn.html": {
 "date": "2026-10-23",
@@ -1093,7 +1093,7 @@
 },
 "en/attractions/ostrow-lednicki.html": {
 "date": "2026-10-24",
-"hash": "b9b9f8ff5dba0b82597502bbdac91528"
+"hash": "9e538aaab4ef410f228a5da07fd2821c"
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-10-24",
@@ -1349,7 +1349,7 @@
 },
 "en/attractions/wpe-dziekanowice.html": {
 "date": "2026-10-24",
-"hash": "2d96b12e8c686202cb8617f42c744df3"
+"hash": "9c91ea435a17936b571a646578e8cc1f"
 },
 "en/attractions/wpn.html": {
 "date": "2026-10-24",
@@ -1385,7 +1385,7 @@
 },
 "en/changes.html": {
 "date": "2026-10-24",
-"hash": "e4500d7ccf8884fcdd7e8ba784ab39e8"
+"hash": "259e16077824442f0d14c7fccf457d40"
 },
 "en/how-we-verify.html": {
 "date": "2026-10-24",
@@ -1477,6 +1477,6 @@
 },
 "zmiany.html": {
 "date": "2026-10-24",
-"hash": "bb3a9326c8eb53f367e610b2d9b4ba7e"
+"hash": "3dd28b45a5f65db5ad71c4704df3102b"
 }
 }

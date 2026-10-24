@@ -1117,4 +1117,7 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno", "zamek-kornik", "szreniawa"):
         _a["checked"] = "24.10.2026"
+    # Ostrów Lednicki i WPE: tabela godzin 2026 (obrazek na lednicamuzeum.pl) i cennik porównane 24.10.2026, bez zmian w danych.
+    if _a["slug"] in ("ostrow-lednicki", "wpe-dziekanowice"):
+        _a["checked"] = "24.10.2026"
 
