@@ -1120,4 +1120,7 @@ for _a in ATTRACTIONS:
     # Ostrów Lednicki i WPE: tabela godzin 2026 (obrazek na lednicamuzeum.pl) i cennik porównane 24.10.2026, bez zmian w danych.
     if _a["slug"] in ("ostrow-lednicki", "wpe-dziekanowice"):
         _a["checked"] = "24.10.2026"
+    # Makiety Dawnego Poznania: strona muzeum (pokazy, cennik) 24.10.2026; zima trwa do 30.04, nie do 31.03.
+    if _a["slug"] == "makiety-dawnego-poznania":
+        _a["checked"] = "24.10.2026"
 
