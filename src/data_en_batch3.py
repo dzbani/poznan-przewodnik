@@ -127,7 +127,7 @@ EN_BATCH3 = {
         img_alt="The Neo-Gothic castle in Kórnik reflected in the moat",
         short="The Neo-Gothic castle of the Działyński family, with the legend of the White Lady and one of the oldest libraries in Poland.",
         badge="Tue–Sun",
-        status="The visiting season lasts until 30 November 2026. From 1 December to 13 February the castle is closed to visitors.",
+        status="According to the castle's website the 2026 tourist season ends on 14 December. The website gives no hours for December or the winter break, so check them with the castle before visiting in December or from January to mid-February.",
         lead="Kórnik Castle stands on a former island, surrounded by water. It has medieval origins, but its look as a fairy-tale Neo-Gothic residence was given to it in the 19th century by Tytus Działyński. Today it houses the Kórnik Library of the Polish Academy of Sciences and a museum with historic interiors.",
         sections=[
             ("History", [
@@ -146,9 +146,11 @@ EN_BATCH3 = {
                 "Photographs for private purposes may be taken free of charge, without flash or a tripod.",
             ]),
         ],
-        hours=[("Tue–Sun, 14 Feb–30 Apr and 1 Oct–30 Nov", "10:00–16:00, last entry 15:15"),
+        hours=[("Tue–Sun, 14 Feb–30 Apr and 1 Oct–30 Nov", "10:00–15:15, last entry 14:30"),
                ("Tue–Sun, 1 May–30 Sep", "10:00–17:00, last entry 16:15"),
-               ("Thursdays in May and June", "10:00–20:00"), ("Monday", "closed"), ("1 Dec–13 Feb", "closed")],
+               ("Thursdays in May and June", "10:00–20:00, last entry 19:00"),
+               ("Monday", "closed"), ("1 Nov", "closed"), ("11 Nov", "10:00–15:00, last entry 14:15"),
+               ("From 1 Dec", "the 2026 season ends on 14 Dec; the castle's website gives no hours for December and winter")],
         tickets=[("Standard", "PLN 40"), ("Reduced (including children, young people and pensioners)", "PLN 20"),
                  ("Audio guide", "PLN 15"), ("Guide in Polish (group)", "PLN 150")],
         getting=[("Bus", "Buses 501 and 560 and suburban operators, stop Kórnik/Pl. Niepodległości, 5 minutes on foot. The castle also recommends buses from the Bus Station next to Poznań Główny station and from the Rondo Rataje stop."),

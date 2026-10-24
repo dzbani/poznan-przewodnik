@@ -1111,3 +1111,10 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "malta-ski":
         _a["checked"] = "19.10.2026"   # sezony zimowy 17.10–31.03 i letni 1.04–31.10 wg maltaski.pl
 
+# Przegląd sezonowy 24.10.2026: godziny i ceny porównane ze stronami obiektów (biskupin.pl, grodpobiedziska.pl,
+# wzgorzelecha.pl, bkpan.poznan.pl, muzeum-szreniawa.pl). Poprawione: zamek w Kórniku (godziny sezonu niskiego,
+# koniec sezonu 14.12) i Szreniawa (zmiana na godziny zimowe 24.10).
+for _a in ATTRACTIONS:
+    if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno", "zamek-kornik", "szreniawa"):
+        _a["checked"] = "24.10.2026"
+

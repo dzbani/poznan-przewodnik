@@ -20,8 +20,8 @@
 "hash": "626d4efe018c9fa378340ee8278dfa1d"
 },
 "atrakcje/biskupin.html": {
-"date": "2026-10-23",
-"hash": "363aaa8a5206df9074646defbf4d0d1e"
+"date": "2026-10-24",
+"hash": "51df8195c32c71b28a3599f8f82e73f4"
 },
 "atrakcje/brama-poznania.html": {
 "date": "2026-10-23",
@@ -124,8 +124,8 @@
 "hash": "b0a4076caff5739f08d56c95d59ac213"
 },
 "atrakcje/grod-pobiedziska.html": {
-"date": "2026-10-23",
-"hash": "0c2c3c0a5c12afc81b4a8900cd260d04"
+"date": "2026-10-24",
+"hash": "6cff3e68df3c399aa160fdc8b62fb220"
 },
 "atrakcje/izba-prl-w7.html": {
 "date": "2026-10-23",
@@ -148,8 +148,8 @@
 "hash": "edc0ea28ae3a256bc1c9d5675d0a440d"
 },
 "atrakcje/katedra-gniezno.html": {
-"date": "2026-10-23",
-"hash": "318ab59a1c895824d0008db14c917308"
+"date": "2026-10-24",
+"hash": "edff973b37b20579f9835086460f1438"
 },
 "atrakcje/kolegium-jezuickie.html": {
 "date": "2026-10-23",
@@ -628,8 +628,8 @@
 "hash": "0e4505d70f885f07a8dcde0ab91f4cfc"
 },
 "atrakcje/szreniawa.html": {
-"date": "2026-10-23",
-"hash": "e367f60275279f0fc0f23b804f0a431d"
+"date": "2026-10-24",
+"hash": "64845cb48c131d1c395168a558078912"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-23",
@@ -680,8 +680,8 @@
 "hash": "39b3237444029df0f63d112f8eede186"
 },
 "atrakcje/zamek-kornik.html": {
-"date": "2026-10-23",
-"hash": "479efda1d51ebdf2bc3a04a98d109b28"
+"date": "2026-10-24",
+"hash": "09de31c8f410b2d38a442bdcc87665b8"
 },
 "atrakcje/zamek-krolewski.html": {
 "date": "2026-10-23",
@@ -713,7 +713,7 @@
 },
 "en/attractions/biskupin.html": {
 "date": "2026-10-24",
-"hash": "12a323307ebb9109e5c8b6e5ff6cc183"
+"hash": "d3ce81e899362a83a6cac4001597a127"
 },
 "en/attractions/brama-poznania.html": {
 "date": "2026-10-24",
@@ -817,7 +817,7 @@
 },
 "en/attractions/grod-pobiedziska.html": {
 "date": "2026-10-24",
-"hash": "ef22dfb7fce333f43d1361a3328ea003"
+"hash": "935f89750f44cc2b3442dc39e7db23fa"
 },
 "en/attractions/izba-prl-w7.html": {
 "date": "2026-10-24",
@@ -841,7 +841,7 @@
 },
 "en/attractions/katedra-gniezno.html": {
 "date": "2026-10-24",
-"hash": "89bf63716e3afb556cad4e93f83c70ad"
+"hash": "7afe024ba3fb1a33cee5ca206555a399"
 },
 "en/attractions/kolegium-jezuickie.html": {
 "date": "2026-10-24",
@@ -1321,7 +1321,7 @@
 },
 "en/attractions/szreniawa.html": {
 "date": "2026-10-24",
-"hash": "c4a60cba0cf939fc4af46c3f39abc392"
+"hash": "98a87151dcb098cbe7e4c951c0fc7cc8"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-24",
@@ -1373,7 +1373,7 @@
 },
 "en/attractions/zamek-kornik.html": {
 "date": "2026-10-24",
-"hash": "343becff5123e175bff64cbd6fba267b"
+"hash": "3547e3f2a9e443f973607e6303e79cf2"
 },
 "en/attractions/zamek-krolewski.html": {
 "date": "2026-10-24",
@@ -1385,7 +1385,7 @@
 },
 "en/changes.html": {
 "date": "2026-10-24",
-"hash": "6639bae67d6227736de3495a2e699f83"
+"hash": "e4500d7ccf8884fcdd7e8ba784ab39e8"
 },
 "en/how-we-verify.html": {
 "date": "2026-10-24",
@@ -1393,7 +1393,7 @@
 },
 "en/index.html": {
 "date": "2026-10-24",
-"hash": "144c58dc7e7d03dcd9c4683fcc70fae2"
+"hash": "35c0c0f43a30e55a092030f40c3da96d"
 },
 "en/map.html": {
 "date": "2026-10-24",
@@ -1428,8 +1428,8 @@
 "hash": "1ec17b760390d30c7adb4d28753d99a7"
 },
 "index.html": {
-"date": "2026-10-23",
-"hash": "3d69903b6be523b47745478793522a8b"
+"date": "2026-10-24",
+"hash": "3feca8e88b8597b66bc1afd802788b8d"
 },
 "informacje.html": {
 "date": "2026-10-23",
@@ -1477,6 +1477,6 @@
 },
 "zmiany.html": {
 "date": "2026-10-24",
-"hash": "5c4e3374548889874b34b31007400109"
+"hash": "bb3a9326c8eb53f367e610b2d9b4ba7e"
 }
 }
