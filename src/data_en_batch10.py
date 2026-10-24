@@ -274,7 +274,7 @@ EN_BATCH10 = {
         name="GASPAR Museum of Old Tools and Machines",
         img_alt="",
         short="A private technology museum with mementoes of Hipolit Cegielski and a narrow-gauge railway.",
-        badge="By appointment",
+        badge="Weekends",
         status=None,
         lead="GASPAR is a private technology museum whose patron is Hipolit Cegielski, the founder of the famous Poznań HCP works.",
         sections=[
@@ -284,13 +284,14 @@ EN_BATCH10 = {
                 "Buildings put up from salvaged materials in the half-timbered technique, and an original narrow-gauge railway.",
             ]),
             ("Good to know", [
-                "The museum is open on selected weekends, and on other days by prior appointment.",
-                "It is visited with a guide. The museum also runs themed workshops.",
-                "Current dates and prices are on the museum's website.",
+                "The museum is open on Saturdays and Sundays from 12:00 to 17:00, and on other days by prior appointment.",
+                "It is visited with a guide, who is included in the ticket price (in Polish and English). The museum also runs themed workshops.",
+                "The museum has no separate website: the address gaspar.org.pl leads to its profile on the Turturi service, where dates and prices are listed. According to that profile the museum is closed on 1 and 11 November and 24–26 December in 2026.",
             ]),
         ],
-        hours=[("Selected weekends", "dates at gaspar.org.pl"), ("Other days", "by appointment")],
-        tickets=[("Ticket prices", "at gaspar.org.pl")],
+        hours=[("Saturday and Sunday", "12:00–17:00"), ("Other days", "by appointment")],
+        tickets=[("Standard", "PLN 30"), ("Reduced (under 18)", "PLN 25"), ("Family (1–2 adults + 1–3 children over 5)", "PLN 75"),
+                 ("Group (more than 10 people)", "PLN 25 per person"), ("Children under 5", "free")],
     ),
     "muzeum-bizuterii-moja": dict(
         name="MoJA Jewellery Museum",
