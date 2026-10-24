@@ -249,7 +249,7 @@ def build_map_en():
 <script type="application/json" id="map-data">{js}</script>
 """
     return page_en("Map of Poznań attractions | Odkrywaj Poznań", body, prefix="../", alt="mapa.html", active="map",
-                   desc="Poznań attractions from the guide on one map, with filters.",
+                   desc="Poznań attractions from the guide on one map, with category filters and day trips outside the city. Click a point to see details.",
                    head=f'<link rel="stylesheet" href="../assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
                    scripts=f'<script src="../assets/leaflet.js?v={asset_v("leaflet.js")}"></script>\n'
                            f'<script src="../assets/map.js?v={asset_v("map.js")}"></script>\n')

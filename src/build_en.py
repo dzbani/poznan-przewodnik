@@ -199,7 +199,15 @@ def seo_title(pl, name):
         tail = "what to see, how to get there"
     else:
         tail = "opening hours, how to get there"
-    return f"{name} – {tail} | Odkrywaj Poznań"
+    out = f"{name} – {tail} | Odkrywaj Poznań"
+    # Długie tytuły skracamy etapami (Google ucina ok. 60 znaków): najpierw końcówkę, a gdy to za mało, także markę.
+    for long, short in ((" from Poznań", ""), ("how to get there", "getting there"), ("opening hours", "hours")):
+        if len(out) > 70:
+            tail = tail.replace(long, short)
+            out = f"{name} – {tail} | Odkrywaj Poznań"
+    if len(out) > 80:
+        out = f"{name} – {tail}"
+    return out
 
 
 def seo_description(a, pl):
@@ -545,7 +553,7 @@ def build_theatres_en():
 """
     return page_en("Theatres and concerts in Poznań: opera, philharmonic, drama and dance | Odkrywaj Poznań", body, prefix="../",
                    alt="teatry.html", active="theatres",
-                   desc="Theatres and concert halls in Poznań: the Grand Theatre (Opera), Philharmonic, Teatr Polski, Teatr Nowy, Musical Theatre, Polish Dance Theatre and Animation Theatre. Addresses, box offices, repertoire.")
+                   desc="Theatres and concert halls in Poznań: the Grand Theatre (Opera), Philharmonic, Teatr Polski, Teatr Nowy and more. Addresses, box offices, repertoire.")
 
 
 def build_museums_en():
@@ -751,7 +759,7 @@ def build_method_en():
     return page_en("How we verify information – where our hours, prices and descriptions come from | Odkrywaj Poznań",
                    method_en.body(len(ATTRACTIONS), f(dates[0]), f(dates[-1]), en_date(SITE_CHECKED), en_date(LINKS_CHECKED)),
                    prefix="../", alt="jak-weryfikujemy.html", active="",
-                   desc="Where we get opening hours, prices and descriptions, what we do when sources disagree, and how to report a mistake. The rules of verifying information in the Odkrywaj Poznań guide.")
+                   desc="Where we get opening hours, prices and descriptions, what we do when sources disagree and how to report a mistake in the Odkrywaj Poznań guide.")
 
 
 CREDIT_LICENSE_EN = {"Za zgodą autora": "Used with the author's permission", "Za zgodą muzeum": "Used with the museum's permission", "Licencja indywidualna": "Individual licence"}
