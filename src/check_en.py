@@ -81,6 +81,12 @@ def museums_hash():
     return hashlib.sha1(main_text(build.build_museums()).encode("utf-8")).hexdigest()[:12]
 
 
+def changes_hash():
+    """Skrót polskiej strony Co się zmieniło (build.build_changes) bez nawigacji i stopki."""
+    import build
+    return hashlib.sha1(main_text(build.build_changes()).encode("utf-8")).hexdigest()[:12]
+
+
 def viewpoints_hash():
     """Skrót polskiej strony Punkty widokowe (build.build_viewpoints) bez nawigacji i stopki."""
     import build
@@ -226,6 +232,9 @@ def check():
     if stamps.get("_viewpoints") != viewpoints_hash():
         problems.append("punkty widokowe: polska strona zmieniła się od tłumaczenia (przejrzyj viewpoints_en.py, potem --stamp-viewpoints)"
                         if "_viewpoints" in stamps else "punkty widokowe: brak stempla (--stamp-viewpoints)")
+    if stamps.get("_changes") != changes_hash():
+        problems.append("zmiany: polska strona zmieniła się od tłumaczenia (przejrzyj changes_en.py, potem --stamp-changes)"
+                        if "_changes" in stamps else "zmiany: brak stempla (--stamp-changes)")
     if stamps.get("_museums") != museums_hash():
         problems.append("muzea: polska strona zmieniła się od tłumaczenia (przejrzyj museums_en.py, potem --stamp-museums)"
                         if "_museums" in stamps else "muzea: brak stempla (--stamp-museums)")
@@ -246,6 +255,12 @@ def check():
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--stamp-changes":
+        stamps = load()
+        stamps["_changes"] = changes_hash()
+        json.dump(stamps, open(STAMPS, "w", encoding="utf-8", newline="\n"), indent=1, ensure_ascii=False, sort_keys=True)
+        print("Zapisano stempel: zmiany")
+        return
     if args and args[0] == "--stamp-museums":
         stamps = load()
         stamps["_museums"] = museums_hash()

@@ -2,10 +2,12 @@
 """Generator stron przewodnika. Uruchom: python src/build.py
 Tworzy: index.html, atrakcje.html, informacje.html, plany.html, kalendarz.html, teatry.html, o-poznaniu.html, zdjecia.html, atrakcje/<slug>.html"""
 import datetime
+import hashlib
 import json
 import os
 import re
 import shutil
+import subprocess
 from html import escape
 from urllib.parse import quote_plus
 
@@ -1637,6 +1639,18 @@ def main():
     en_of = build_en.page_map()                      # strona PL -> strona EN
     pl_of = {v: k for k, v in en_of.items()}         # strona EN -> strona PL
     urls = []
+    # Data modyfikacji do sitemapy: zapamiętujemy skrót treści każdej strony i zmieniamy datę tylko wtedy, gdy treść się zmieniła.
+    # Pierwszy zapis bierze datę ostatniego commita pliku, żeby nie udawać, że wszystko zmieniło się dziś.
+    lastmod_file = os.path.join(ROOT, "src", "lastmod.json")
+    lastmod = json.load(open(lastmod_file, encoding="utf-8")) if os.path.exists(lastmod_file) else {}
+    today = datetime.date.today().isoformat()
+
+    def first_date(path):
+        try:
+            r = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path], cwd=ROOT, capture_output=True, text=True, timeout=20)
+            return r.stdout.strip() or today
+        except Exception:
+            return today
     by_slug = {a["slug"]: a for a in ATTRACTIONS}
 
     def clean_path(path):
@@ -1669,14 +1683,23 @@ def main():
                    f'<link rel="alternate" hreflang="en" href="{SITE_URL}{clean_path(en_path)}">\n'
                    f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}{clean_path(pl_path)}">\n')
         html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n' + alt + og, 1)
+        final = clean_links(html)
+        digest = hashlib.md5(final.encode("utf-8")).hexdigest()
+        prev = lastmod.get(path)
+        if prev is None:
+            lastmod[path] = {"hash": digest, "date": first_date(path)}
+        elif prev["hash"] != digest:
+            lastmod[path] = {"hash": digest, "date": today}
         with open(os.path.join(ROOT, path), "w", encoding="utf-8", newline="\n") as f:
-            f.write(clean_links(html))
+            f.write(final)
+    with open(lastmod_file, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(lastmod, f, indent=0, sort_keys=True)
     # Strona błędu: bez canonical i poza mapą strony.
     with open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8", newline="\n") as f:
         f.write(clean_links(build_404()))
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8", newline="\n") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                + "".join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls) + "</urlset>\n")
+                + "".join(f"  <url><loc>{escape(u)}</loc><lastmod>{lastmod[p]['date']}</lastmod></url>\n" for u, p in zip(urls, out)) + "</urlset>\n")
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
     missing =[a["img"] for a in ATTRACTIONS if a.get("img") and not os.path.exists(os.path.join(ROOT, "img", a["img"] + ".jpg"))]

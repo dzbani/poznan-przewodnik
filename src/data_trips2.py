@@ -176,7 +176,7 @@ TRIPS2 = [
                  ("Parowozownia Wolsztyn: ceny biletów (cennik od 1.01.2025)", "https://parowozowniawolsztyn.pl/?page_id=2136"),
                  ("Parowozownia Wolsztyn: rozkład jazdy parowozów", "https://parowozowniawolsztyn.pl/?page_id=2141"),
                  ("PAP/dzieje.pl: Wolsztyn, jubileuszowa XXV Parada Parowozów (28.04.2018, liczba parowozów)", "https://dzieje.pl/rozmaitosci/wolsztyn-w-weekend-jubileuszowa-xxv-parada-parowozow"),
-                 ("PAP/dzieje.pl: jubileuszowa 30. Parada Parowozów (19.04.2026)", "https://dzieje.pl/node/168113"),
+                 ("PAP/dzieje.pl: jubileuszowa 30. Parada Parowozów (19.04.2026)", "https://dzieje.pl/wiadomosci/10-lokomotyw-z-polski-i-europy-na-jubileuszowej-paradzie-w-wolsztynie"),
                  ("Wikipedia: Parowozownia Wolsztyn", "https://pl.wikipedia.org/wiki/Parowozownia_Wolsztyn")],
     ),
     dict(
@@ -289,7 +289,7 @@ TRIPS2 = [
         sources=[("Skansen Miniatur Szlaku Piastowskiego: strona główna (godziny)", "https://miniatury.pobiedziska.pl/"),
                  ("Skansen Miniatur Szlaku Piastowskiego: cennik", "https://miniatury.pobiedziska.pl/cms/263/cennik"),
                  ("Gród Pobiedziska: informacje dla zwiedzających", "https://grodpobiedziska.pl/"),
-                 ("poznan.pl: Skansen Miniatur w Pobiedziskach", "https://poznan.pl/mim/turystyka/en/-,p,186.html")],
+                 ("poznan.pl: Skansen Miniatur w Pobiedziskach", "https://www.poznan.pl/mim/turystyka/en/-,p,186.html")],
     ),
     dict(
         slug="grod-pobiedziska", cat="wycieczki", name="Gród Pobiedziska",

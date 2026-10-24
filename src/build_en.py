@@ -110,6 +110,7 @@ def page_en(title, body, prefix="", desc="", head="", alt="", active="", scripts
     <ul class="footer-links">
       <li><a href="{prefix}en/attractions.html">All attractions</a></li>
       <li><a href="{prefix}en/museums.html">Museums: hours and prices</a></li>
+      <li><a href="{prefix}en/changes.html">What has changed</a></li>
       <li><a href="{prefix}en/viewpoints.html">Viewpoints in Poznań</a></li>
       <li><a href="{prefix}en/map.html">Map of attractions</a></li>
       <li><a href="{prefix}en/plans.html">Itineraries</a></li>
@@ -753,6 +754,67 @@ def build_about_en():
                    desc="A short history of Poznań, the legends of the goats and the bugle call, a glossary of the Poznań dialect, Greater Poland food and climate.")
 
 
+def build_changes_en():
+    import data_changes as dc
+    import changes_en
+    ext = lambda url, text: f'<a href="{url}" target="_blank" rel="noopener">{escape(text)}</a>'
+
+    def from_status(slugs):
+        out = []
+        for slug in slugs:
+            a = merged(slug)
+            pl = BY_SLUG[slug]
+            src = next((x for x in pl["sources"] if "wikipedia.org" not in x[1]), pl["sources"][0])
+            out.append(f"""<li class="change"><h3><a href="attractions/{slug}.html">{escape(a['name'])}</a></h3>
+<p>{escape(a['status'][1])}</p>
+<p class="muted small">As of {en_date(pl['checked'])}. Source (in Polish): {ext(src[1], src[0])}</p></li>""")
+        return "".join(out)
+
+    rules = []
+    for r in sorted(dc.RULES, key=lambda r: r["sort"], reverse=True):
+        e = changes_en.RULES_EN[r["sort"]]
+        page_href, page_label = e["page"]
+        if page_label is None:
+            page_label = EN[page_href.split("/")[-1][:-5]]["name"]
+        rules.append(f"""<li class="change"><p class="change-meta"><span class="chip">{changes_en.KIND[r['kind']]}</span> {escape(e['when'])}</p>
+<h3>{escape(e['title'])}</h3><p>{escape(e['text'])}</p>
+<p class="muted small"><a href="{page_href}">{escape(page_label)}</a> · Source (in Polish): {ext(r['src'][1], e['src'])}</p></li>""")
+    newest = max(datetime.datetime.strptime(BY_SLUG[s]["checked"], "%d.%m.%Y").date() for s in dc.CLOSED + dc.SEASONAL)
+    body = f"""
+<header class="wrap page-head">
+  <p class="kicker">News</p>
+  <h1>What has changed</h1>
+  <p class="lead">Closures, renovations, new prices and rules that may upset your sightseeing plans. Every entry has a source and a link to the attraction. We list only what an official source confirms.</p>
+  <nav class="toc" aria-label="Contents">
+    <a href="#closed">Closed or under renovation</a><a href="#winter">Season and winter 2026/27</a><a href="#rules">Prices, names and rules</a>
+  </nav>
+</header>
+
+<div class="wrap prose">
+<section id="closed">
+  <h2>Closed or under renovation</h2>
+  <ul class="changes">{from_status(dc.CLOSED)}</ul>
+</section>
+
+<section id="winter">
+  <h2>Season and winter 2026/27</h2>
+  <p>Some attractions outside the city operate only in the season. Below is what changes when the summer season ends.</p>
+  <ul class="changes">{from_status(dc.SEASONAL)}</ul>
+</section>
+
+<section id="rules">
+  <h2>Prices, names and rules</h2>
+  <ul class="changes">{"".join(rules)}</ul>
+</section>
+
+<p class="muted small">The log covers changes known on the day each attraction was checked (the latest: {en_date(newest.strftime("%d.%m.%Y"))}). Where our information comes from: <a href="how-we-verify.html">how we verify</a>. Noticed a change that is not listed here? Write to <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
+</div>
+"""
+    return page_en("What has changed: closures, renovations and new prices in Poznań | Odkrywaj Poznań", body,
+                   prefix="../", alt="zmiany.html", active="attractions",
+                   desc="Current closures and renovations of Poznań attractions (Town Hall, Palm House), winter seasonal limits and changes of prices, names and rules. Every entry has a source.")
+
+
 def build_method_en():
     dates = sorted(datetime.datetime.strptime(a["checked"], "%d.%m.%Y").date() for a in ATTRACTIONS)
     f = lambda d: en_date(d.strftime("%d.%m.%Y"))
@@ -800,7 +862,8 @@ def build_photo_credits_en():
 def page_map():
     m = {"zdjecia.html": "en/photo-credits.html", "index.html": "en/index.html", "prywatnosc.html": "en/privacy.html", "informacje.html": "en/practical.html",
          "plany.html": "en/plans.html", "kalendarz.html": "en/calendar.html", "teatry.html": "en/theatres.html", "muzea.html": "en/museums.html", "atrakcje.html": "en/attractions.html", "mapa.html": "en/map.html",
-         "punkty-widokowe.html": "en/viewpoints.html", "jak-weryfikujemy.html": "en/how-we-verify.html", "o-poznaniu.html": "en/about.html"}
+         "punkty-widokowe.html": "en/viewpoints.html", "jak-weryfikujemy.html": "en/how-we-verify.html", "o-poznaniu.html": "en/about.html",
+         "zmiany.html": "en/changes.html"}
     for s in translated():
         m[f"atrakcje/{s}.html"] = f"en/attractions/{s}.html"
     return m
@@ -819,7 +882,8 @@ def build_all():
            "en/viewpoints.html": build_viewpoints_en(),
            "en/about.html": build_about_en(),
            "en/how-we-verify.html": build_method_en(),
-           "en/photo-credits.html": build_photo_credits_en()}
+           "en/photo-credits.html": build_photo_credits_en(),
+           "en/changes.html": build_changes_en()}
     for i, s in enumerate(slugs):
         out[f"en/attractions/{s}.html"] = build_attraction_en(s, i, slugs)
     return out

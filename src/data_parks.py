@@ -277,7 +277,7 @@ PARKS = [
         credit="morasko",
         sources=[
             ("Instytut Obserwatorium Astronomiczne UAM: ścieżka w rezerwacie", "https://www.astro.amu.edu.pl/en/outreach/mor-cra/"),
-            ("PTOP „Salamandra”: Rezerwat Meteoryt Morasko", "https://www.salamandra.org.pl/rezerwat.html"),
+            ("PTOP „Salamandra”: Rezerwat Meteoryt Morasko", "https://www.salamandra.org.pl/rezerwat/"),
             ("Wikipedia: Rezerwat przyrody Meteoryt Morasko", "https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Meteoryt_Morasko"),
         ],
     ),

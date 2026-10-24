@@ -440,7 +440,7 @@ EXTRA = [
         phone="+48 887 222 465", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html"),
         credit="schron-przeciwatomowy",
         sources=[("kultura.poznan.pl: Przeciwatomowy Schron i Galeria Plakatu", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/przeciwatomowy-schron-i-galeria-plakatu-oddzial-wielkopolskiego-muzeum-niepodleglosci,55885.html"),
-                 ("Noc Muzeów Poznań 2026: schron przeciwatomowy", "https://nocmuzeow.poznan.pl/?p=1406"),
+                 ("Noc Muzeów Poznań 2026: schron przeciwatomowy", "https://nocmuzeow.poznan.pl/event/przeciwatomowy-schron-dla-wladz-miasta-poznania-oraz-galeria-plakatu-z-okresu-socjalizmu/"),
                  ("Wielkopolskie Muzeum Niepodległości: godziny otwarcia i oddziały", "https://www.wmn.poznan.pl/godziny-otwarcia/")],
         checked="20.10.2026",
     ),
