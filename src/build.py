@@ -23,6 +23,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDITS = {c["slug"]: c for c in json.load(open(os.path.join(ROOT, "img", "credits.json"), encoding="utf-8"))}
 CAT = {k: (name, desc) for k, name, desc in CATEGORIES}
 BY_SLUG = {a["slug"]: a for a in ATTRACTIONS}
+
+# Scalone karty: stary adres -> nowy (patrz strony-odsyłacze na końcu main()).
+REDIRECTS = {"muzeum-sztuk-uzytkowych": "zamek-krolewski"}
 CAT_WORDS = {4: "czterech", 5: "pięciu", 6: "sześciu", 7: "siedmiu", 8: "ośmiu"}
 
 # Czcionki są na własnym serwerze (/fonts, @font-face na początku style.css); bez Google Fonts.
@@ -836,12 +839,11 @@ def info_extra():
   <p class="muted">Źródła: <a href="https://badam.poznan.pl/wp-content/uploads/2025/11/transport-miejski-w-poznaniu-w-2024-r.pdf" target="_blank" rel="noopener">Urząd Miasta Poznania: transport miejski w Poznaniu w 2024 r.</a>, <a href="https://www.mpk.poznan.pl/pojazdy/tramwaje-liniowe/" target="_blank" rel="noopener">MPK Poznań: tramwaje liniowe</a>.</p>
   <h3>Miejsca, w których potwierdziliśmy udogodnienia</h3>
   <ul>
-    <li><a href="atrakcje/zamek-krolewski.html">Zamek Królewski (Muzeum Sztuk Użytkowych)</a>: do muzeum prowadzi stroma droga z kostki brukowej. Według strony muzeum (26.10.2026) osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po dotarciu na miejsce trzeba zadzwonić pod <span class="sel">61 85 68 073</span>. W środku winda dowozi na wszystkie ekspozycje, ale na tarasy widokowe prowadzą tylko schody. Przed wizytą zadzwoń i zapytaj o aktualny stan wejścia.</li>
+    <li><a href="atrakcje/zamek-krolewski.html">Zamek Królewski i Muzeum Sztuk Użytkowych</a>: do muzeum prowadzi stroma droga z kostki brukowej. Według strony muzeum (26.10.2026) osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po dotarciu na miejsce trzeba zadzwonić pod <span class="sel">61 85 68 073</span>. W środku winda dowozi na wszystkie ekspozycje, ale na tarasy widokowe prowadzą tylko schody. Przed wizytą zadzwoń i zapytaj o aktualny stan wejścia.</li>
     <li><a href="atrakcje/termy-maltanskie.html">Termy Maltańskie</a>: osoby na wózkach wchodzą przez dolny hol na poziomie terenu.</li>
     <li><a href="atrakcje/taras-widokowy-collegium-altum.html">Taras widokowy Collegium Altum</a>: podjazd i winda, cały taras dostępny dla wózków.</li>
     <li><a href="atrakcje/zamek-kornik.html">Zamek w Kórniku</a>: jest winda, ale do zamku nie można wjechać wózkiem dziecięcym.</li>
     <li><a href="atrakcje/genius-loci.html">Rezerwat Archeologiczny Genius Loci</a> i <a href="atrakcje/muzeum-bambrow.html">Muzeum Bambrów Poznańskich</a>: obiekty opisane jako dostępne dla osób z niepełnosprawnościami.</li>
-    <li><a href="atrakcje/muzeum-sztuk-uzytkowych.html">Muzeum Sztuk Użytkowych</a>: trzy ścieżki zwiedzania dla osób z niepełnosprawnością wzroku, słuchu i intelektualną.</li>
     <li><a href="teatry.html">Teatr Ósmego Dnia</a>: siedziba na II piętrze, przy wejściu są winda i platforma.</li>
     <li><a href="atrakcje/rusalka.html">Jezioro Rusałka</a>: na kąpielisku jest wózek plażowy typu amfibia. O dostępność pytaj ratowników.</li>
   </ul>
@@ -1267,8 +1269,8 @@ def build_method():
 
 
 def build_museums():
-    from museums_table import derive, open_monday, sort_key, DAYS, LABEL
-    mus = sorted((a for a in ATTRACTIONS if a["cat"] == "muzea"), key=lambda a: sort_key(a["name"]))
+    from museums_table import derive, open_monday, sort_key, DAYS, LABEL, is_museum
+    mus = sorted((a for a in ATTRACTIONS if is_museum(a)), key=lambda a: sort_key(a["name"]))
     info = {a["slug"]: derive(a) for a in mus}
     link = lambda a: f'<a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>'
 
@@ -1702,6 +1704,21 @@ def main():
                 + "".join(f"  <url><loc>{escape(u)}</loc><lastmod>{lastmod[p]['date']}</lastmod></url>\n" for u, p in zip(urls, out)) + "</urlset>\n")
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
+    # Strony-odsyłacze po scaleniu kart: stary adres prowadzi do nowego (GitHub Pages nie ma przekierowań 301).
+    # Nie trafiają do sitemapy; canonical wskazuje nową stronę.
+    for old, new in REDIRECTS.items():
+        for old_path, new_path, lang, name, text in (
+                (f"atrakcje/{old}.html", f"atrakcje/{new}", "pl", BY_SLUG[new]["name"], "Ta strona została przeniesiona:"),
+                (f"en/attractions/{old}.html", f"en/attractions/{new}", "en", build_en.EN[new]["name"], "This page has moved:")):
+            target = SITE_URL + new_path
+            title = ("Strona przeniesiona: " if lang == "pl" else "Page moved: ") + name
+            page = (f'<!doctype html>\n<html lang="{lang}">\n<head>\n<meta charset="utf-8">\n'
+                    f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+                    f'<title>{escape(title)}</title>\n<link rel="canonical" href="{target}">\n'
+                    f'<meta http-equiv="refresh" content="0; url={target}">\n</head>\n'
+                    f'<body>\n<p>{text} <a href="{target}">{escape(name)}</a></p>\n</body>\n</html>\n')
+            with open(os.path.join(ROOT, old_path), "w", encoding="utf-8", newline="\n") as f:
+                f.write(page)
     missing =[a["img"] for a in ATTRACTIONS if a.get("img") and not os.path.exists(os.path.join(ROOT, "img", a["img"] + ".jpg"))]
     print(f"Zapisano {len(out)} stron. Brakujące zdjęcia: {missing or 'brak'}")
 

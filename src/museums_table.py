@@ -8,6 +8,13 @@ import re
 import sys
 
 DAYS = ["pn", "wt", "sr", "cz", "pt", "sb", "nd"]
+
+# Karty w innej kategorii niż „muzea”, które są też muzeami (Zamek Królewski i Muzeum Sztuk Użytkowych).
+MUSEUM_EXTRA = {"zamek-krolewski"}
+
+
+def is_museum(a):
+    return a["cat"] == "muzea" or a["slug"] in MUSEUM_EXTRA
 NAMES = {"poniedziałek": "pn", "poniedziałki": "pn", "wtorek": "wt", "środa": "sr", "środę": "sr", "czwartek": "cz",
          "piątek": "pt", "sobota": "sb", "sobotę": "sb", "niedziela": "nd", "niedziele": "nd"}
 LABEL = {"pn": "poniedziałek", "wt": "wtorek", "sr": "środa", "cz": "czwartek", "pt": "piątek", "sb": "sobota", "nd": "niedziela"}
@@ -79,7 +86,7 @@ if __name__ == "__main__":
     sys.path.insert(0, "src")
     from site_data import ATTRACTIONS
     for a in ATTRACTIONS:
-        if a["cat"] != "muzea":
+        if not is_museum(a):
             continue
         d = derive(a)
         print(("PN " if open_monday(a, d) else "   ") + f"{a['name'][:44]:44} | cena: {d['price'] or '—':14} | wolny: {','.join(d['free_days']) or ('zawsze' if d['free_always'] else '—'):8} | nieczynne: {','.join(d['closed']) or '—':22} | otwarte: {','.join(d['opened']) or '—'}")

@@ -155,37 +155,47 @@ ATTRACTIONS = [
                  ("Visit Poznań: Fara Poznańska", "https://visitpoznan.pl/fara-poznanska")],
     ),
     dict(
-        slug="zamek-krolewski", cat="zabytki", name="Zamek Królewski",
+        slug="zamek-krolewski", cat="zabytki", name="Zamek Królewski i Muzeum Sztuk Użytkowych",
         img="zamek-krolewski", img_alt="Wieża Zamku Królewskiego na Wzgórzu Przemysła",
-        short="Zamek Przemysła II z Muzeum Sztuk Użytkowych i 43-metrową wieżą widokową.",
+        short="Zamek Przemysła II z Muzeum Sztuk Użytkowych i 43-metrową wieżą widokową. We wtorki wstęp wolny.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Zamek na Wzgórzu Przemysła wzniesiono prawdopodobnie w XIII wieku z inicjatywy Przemysła II. Budowę mógł zacząć już jego ojciec, Przemysł I. Po zniszczeniach 1945 roku zamek odbudowywano dwa razy, ostatnio w latach 2010–2013.",
+        lead="Zamek na Wzgórzu Przemysła wzniesiono prawdopodobnie w XIII wieku z inicjatywy Przemysła II. Budowę mógł zacząć już jego ojciec, Przemysł I. Po zniszczeniach 1945 roku zamek odbudowywano dwa razy, ostatnio w latach 2010–2013. Dziś mieści się w nim Muzeum Sztuk Użytkowych, oddział Muzeum Narodowego w Poznaniu, a w wieży jest taras widokowy.",
         sections=[
             ("O miejscu", [
                 "Obecny wygląd to efekt dwóch odbudów: z lat 1959–1964 i 2010–2013.",
                 "Od 26 czerwca 2016 roku można wejść na wieżę widokową, z której rozciąga się widok na miasto.",
             ]),
-            ("Co zobaczyć", [
-                "Muzeum Sztuk Użytkowych (oddział Muzeum Narodowego) zajmuje prawie 1500 m². Pokazuje około 2000 przedmiotów od średniowiecza do współczesności: meble, ceramikę, szkło i biżuterię.",
-                "Po obejrzeniu wystawy można wejść na 43-metrową wieżę z tarasem widokowym.",
+            ("Muzeum Sztuk Użytkowych", [
+                "Muzeum pokazuje około 2000 przedmiotów od średniowiecza do współczesności i według własnego opisu jest jedynym takim miejscem w Polsce. Stała ekspozycja zajmuje prawie 1500 m² w połączonych budynkach Raczyńskiego i Zamku Przemysła.",
+                "Dominuje europejska sztuka użytkowa, wśród niej wyroby polskie. Są też obiekty z innych kontynentów, pokazane z europejskiej perspektywy. W zbiorach są m.in. meble, ceramika, szkło i metale, broń, biżuteria, tkaniny, stroje i design, a w muzeum można też posłuchać muzyki i obejrzeć filmy.",
+                "Część wystawy dotyczy króla Przemysła II i znaku Orła Białego, a także dziejów zamku poznańskiego od XIII wieku do 1945 roku oraz powojennych koncepcji jego odbudowy.",
             ]),
             ("Wieża widokowa", [
-                "Wieża ma dwa tarasy: zadaszony na wysokości 30 metrów i otwarty na samym szczycie. Widać z nich panoramę Poznania i okolic.",
-                "Na górę prowadzi blisko 200 stopni. Według muzeum na tarasy widokowe wchodzi się wyłącznie schodami (winda w budynku obsługuje ekspozycje). 26.10.2026 strona muzeum informowała dodatkowo o awarii windy.",
+                "Na wieżę można wejść po obejrzeniu wystawy. Ma 43 metry i dwa tarasy: zadaszony na wysokości 30 metrów i otwarty na samym szczycie. Widać z nich panoramę Poznania i okolic.",
+                "Na górę prowadzi blisko 200 stopni. Według muzeum na tarasy widokowe wchodzi się wyłącznie schodami. 26.10.2026 strona muzeum informowała dodatkowo o awarii windy.",
                 "Na tarasie może jednocześnie przebywać do 25 osób. Przy złej pogodzie taras otwarty jest zamykany.",
+            ]),
+            ("Warto wiedzieć", [
+                "Winda w budynku dowozi na wszystkie ekspozycje. Osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po przybyciu trzeba zadzwonić pod 61 85 68 073. Muzeum ma też „Przedprzewodnik” dla osób ze szczególnymi potrzebami.",
+                "Najdłużej, do 20:00, muzeum jest czynne w piątki. Kasa zamyka się 30 minut przed zamknięciem muzeum. Godziny mogą się zmienić w dni świąteczne, przy dodatkowych dniach wolnych lub przerwach technicznych.",
+                "Muzeum jest nieczynne 1 stycznia, w Wielki Piątek, Wielką Sobotę, Niedzielę i Poniedziałek Wielkanocny, w Boże Ciało, 1 listopada oraz 24, 25, 26 i 31 grudnia. W dni 6 stycznia, 1 maja, 3 maja, 15 sierpnia i 11 listopada jest czynne jak w niedzielę. Najbliższe ciche godziny (15:00–17:00) przypadają 6 grudnia 2026 roku.",
+                "Dzieci i młodzież w wieku 8–26 lat płacą 1 zł, a we wtorki wstęp jest bezpłatny dla wszystkich. Strona muzeum podaje też zasady dla posiadaczy Karty Dużej Rodziny i Poznańskiej Karty Turystycznej.",
             ]),
         ],
         address="Góra Przemysła 1, 61-768 Poznań",
+        desc="Zamek Królewski w Poznaniu z Muzeum Sztuk Użytkowych i 43-metrową wieżą widokową: godziny, bilety, wtorki bezpłatnie. Góra Przemysła 1.",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
         tickets=[("Normalny", "20 zł"), ("Ulgowy", "13 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny"), ("Bilet grupowy (do 25 osób)", "250 zł"), ("Wystawa czasowa", "7 zł, ulgowy 5 zł")], checked="26.10.2026",
-        phone="+48 61 856 80 75", www=("mnp.art.pl", "https://mnp.art.pl/"),
+        phone="+48 61 856 80 75", www=("mnp.art.pl", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
         credit="zamek-krolewski",
-        sources=[("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
+        sources=[("MNP: Wizyta (godziny, bilety, dostępność)", "https://mnp.art.pl/profile/wizyta"),
+                 ("MNP: Muzeum Sztuk Użytkowych w Zamku Królewskim", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
+                 ("MNP: Zamek", "https://mnp.art.pl/profile/zamek"),
+                 ("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
                  ("Wikipedia: Zamek Królewski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Królewski_w_Poznaniu"),
                  ("poznan.pl: Wieża widokowa – Wzgórze Przemysła", "https://www.poznan.pl/mim/wortals/turystyka/inne-atrakcje,poi,3391/wieza-widokowa-wzgorze-przemysla,61910.html")],
-        see_also=[("Muzeum Sztuk Użytkowych w Zamku Królewskim", "atrakcje/muzeum-sztuk-uzytkowych"),
-                  ("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe"),
+        see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe"),
                   ("Taras widokowy Collegium Altum", "atrakcje/taras-widokowy-collegium-altum")],
     ),
     dict(
@@ -1066,13 +1076,6 @@ for _batch, _date in _CHECKED_BY_BATCH:
         _a.setdefault("checked", _CHECKED_SLUGS.get(_a["slug"], _date))
 ATTRACTIONS = sorted(ATTRACTIONS + MORE + EXTRA + CHURCHES + FINAL + PARKS + MONUMENTS + TRIPS + THEATRE_ATTR + GAPS + GAPS2 + TRIPS2 + GAPS3 + GAPS4, key=lambda a: _ORDER[a["cat"]])
 
-# Muzeum Sztuk Użytkowych jest w Zamku Królewskim i ma te same godziny oraz ceny: bierzemy je z karty Zamku,
-# żeby po zmianie jednej nie rozjechały się dwie strony.
-_ZAMEK = next(_a for _a in ATTRACTIONS if _a["slug"] == "zamek-krolewski")
-for _a in GAPS3:
-    if _a["hours"] is None:
-        _a["hours"], _a["tickets"] = _ZAMEK["hours"], _ZAMEK["tickets"]
-
 # Przegląd 09.10.2026: godziny i ceny 70 atrakcji z liczbami porównano z oficjalnymi stronami obiektów
 # (cenniki PDF, strony muzeów, kasy biletowe). Atrakcje bezpłatne i całodobowe (opisowe godziny) nie mają
 # liczb do porównania, więc zostają przy dawnej dacie.
@@ -1116,6 +1119,9 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Zamek Królewski i Muzeum Sztuk Użytkowych: pełne porównanie ze stronami MNP (wizyta, muzeum, zamek) 26.10.2026.
+    if _a["slug"] == "zamek-krolewski":
+        _a["checked"] = "26.10.2026"
     # Fara: pełne porównanie karty ze stroną parafii (zwiedzanie, historia, architektura, organy, kontakt) 26.10.2026.
     if _a["slug"] == "fara":
         _a["checked"] = "26.10.2026"

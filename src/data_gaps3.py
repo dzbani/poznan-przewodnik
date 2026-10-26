@@ -132,41 +132,6 @@ GAPS3 = [
                   ("Cytadela: park, cmentarze i Nierozpoznani", "atrakcje/cytadela")],
         checked="10.10.2026",
     ),
-    dict(
-        slug="muzeum-sztuk-uzytkowych", cat="muzea", name="Muzeum Sztuk Użytkowych",
-        img="muzeum-sztuk-uzytkowych", img_alt="Gablota z manekinem w dawnym stroju, pasami tkanymi i tkaninami na ścianach w ekspozycji Muzeum Sztuk Użytkowych",
-        short="Meble, szkło, ceramika i biżuteria od średniowiecza po współczesność w Zamku Królewskim. We wtorki wstęp wolny.",
-        badge="Wt wstęp wolny",
-        status=None,
-        lead="Muzeum Sztuk Użytkowych, oddział Muzeum Narodowego w Poznaniu, mieści się w Zamku Królewskim na Wzgórzu Przemysła. Muzeum pokazuje około 2000 przedmiotów od średniowiecza do współczesności i według własnego opisu jest jedynym takim miejscem w Polsce.",
-        sections=[
-            ("Co zobaczyć", [
-                "Stała ekspozycja zajmuje prawie 1500 m² w połączonych budynkach Raczyńskiego i Zamku Przemysła.",
-                "Dominuje europejska sztuka użytkowa, wśród niej wyroby polskie. Są też obiekty z innych kontynentów, pokazane z europejskiej perspektywy. W zbiorach są m.in. meble, ceramika, szkło i metale, broń, biżuteria, tkaniny, stroje i design, a w muzeum można też posłuchać muzyki i obejrzeć filmy.",
-                "Część wystawy dotyczy króla Przemysła II i znaku Orła Białego, a także dziejów zamku poznańskiego od XIII wieku do 1945 roku oraz powojennych koncepcji jego odbudowy.",
-                "Po obejrzeniu wystawy można wejść na 43-metrową wieżę zamkową z tarasem widokowym.",
-            ]),
-            ("Warto wiedzieć", [
-                "Winda w budynku dowozi na wszystkie ekspozycje, ale na tarasy widokowe wchodzi się tylko schodami. Osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po przybyciu trzeba zadzwonić pod 61 85 68 073. Muzeum ma też „Przedprzewodnik” dla osób ze szczególnymi potrzebami.",
-                "Najdłużej, do 20:00, muzeum jest czynne w piątki. Kasa zamyka się 30 minut przed zamknięciem muzeum. Godziny mogą się zmienić w dni świąteczne, przy dodatkowych dniach wolnych lub przerwach technicznych.",
-                "Muzeum jest nieczynne 1 stycznia, w Wielki Piątek, Wielką Sobotę, Niedzielę i Poniedziałek Wielkanocny, w Boże Ciało, 1 listopada oraz 24, 25, 26 i 31 grudnia. W dni 6 stycznia, 1 maja, 3 maja, 15 sierpnia i 11 listopada jest czynne jak w niedzielę. Najbliższe ciche godziny (15:00–17:00) przypadają 6 grudnia 2026 roku.",
-                "Dzieci i młodzież w wieku 8–26 lat płacą 1 zł, a we wtorki wstęp jest bezpłatny dla wszystkich. Strona muzeum podaje też zasady dla posiadaczy Karty Dużej Rodziny i Poznańskiej Karty Turystycznej.",
-            ]),
-        ],
-        address="Góra Przemysła 1, 61-768 Poznań",
-        desc="Muzeum Sztuk Użytkowych w Zamku Królewskim: ok. 2000 przedmiotów od średniowiecza do dziś. Godziny, bilety, wtorki bezpłatnie. Góra Przemysła 1.",
-        hours=None, tickets=None,  # uzupełniane z karty Zamku Królewskiego w site_data.py (jedno źródło prawdy)
-        phone="+48 61 856 80 75", www=("mnp.art.pl", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
-        credit="muzeum-sztuk-uzytkowych",
-        sources=[
-            ("kultura.poznan.pl: Muzeum Sztuk Użytkowych",
-             "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
-            ("MNP: Muzeum Sztuk Użytkowych w Zamku Królewskim", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
-        ],
-        see_also=[("Zamek Królewski i wieża widokowa", "atrakcje/zamek-krolewski"),
-                  ("Punkty widokowe w Poznaniu", "punkty-widokowe")],
-        checked="26.10.2026",
-    ),
 ]
 
 # Strona zbiorcza „Punkty widokowe”: opisy z kart atrakcji (nie dodają nowych faktów), kolejność = od centrum.

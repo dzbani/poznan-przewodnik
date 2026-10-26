@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-10-26",
-"hash": "e22b6f4f0366ad2bbeaea0db9a4ec767"
+"hash": "37c2c37d6b281a34f32c0d21bf1d0168"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-23",
@@ -25,7 +25,7 @@
 },
 "atrakcje/brama-poznania.html": {
 "date": "2026-10-26",
-"hash": "29a70b2eff248953d73e34b2b65bfaf4"
+"hash": "cb42114f54f18e7ac586d45c4d2d762f"
 },
 "atrakcje/bulwary-warta.html": {
 "date": "2026-10-23",
@@ -136,8 +136,8 @@
 "hash": "14da94b2be220857e06f4b60fa02fafd"
 },
 "atrakcje/jezioro-maltanskie.html": {
-"date": "2026-10-23",
-"hash": "12a1f3ff07e253b9660efb808225d68b"
+"date": "2026-10-26",
+"hash": "37e78eda2d07ae00bec2e4d3f2c6ad22"
 },
 "atrakcje/jezioro-strzeszynskie.html": {
 "date": "2026-10-23",
@@ -284,8 +284,8 @@
 "hash": "6e2537269b8eb32e68e51879ff1dcf15"
 },
 "atrakcje/muzeum-armii-poznan.html": {
-"date": "2026-10-23",
-"hash": "3f7abb56e0b4279df101f69cf4d2d44c"
+"date": "2026-10-26",
+"hash": "80b9689155a20fe2c77109e869c84245"
 },
 "atrakcje/muzeum-bambrow.html": {
 "date": "2026-10-23",
@@ -405,7 +405,7 @@
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-10-26",
-"hash": "ac8002558ad62edbdc01793fa0de5550"
+"hash": "b12e4cf3b7f1c994d2250ee260c64938"
 },
 "atrakcje/palac-dzialynskich.html": {
 "date": "2026-10-26",
@@ -613,7 +613,7 @@
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-10-26",
-"hash": "17e2d56540ea9d5156c86873491d9267"
+"hash": "e2062c4a2ee5a7142a1baded413f0798"
 },
 "atrakcje/studzienka-bamberki.html": {
 "date": "2026-10-23",
@@ -673,7 +673,7 @@
 },
 "atrakcje/zamek-cesarski.html": {
 "date": "2026-10-26",
-"hash": "10a804964044ad5061643def5553ab87"
+"hash": "ed6b1634e160a0e31379bde3d296dd79"
 },
 "atrakcje/zamek-goluchow.html": {
 "date": "2026-10-23",
@@ -685,7 +685,7 @@
 },
 "atrakcje/zamek-krolewski.html": {
 "date": "2026-10-26",
-"hash": "99a62418effd17615126ad2af7d1314e"
+"hash": "0045e9647d41d97cbd1b22d63a697519"
 },
 "en/about.html": {
 "date": "2026-10-26",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-10-26",
-"hash": "d4953de729cce1a18311b35b490d5076"
+"hash": "74bacf8cde9e98077249388ca06bf555"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-24",
@@ -717,7 +717,7 @@
 },
 "en/attractions/brama-poznania.html": {
 "date": "2026-10-26",
-"hash": "cd876739ebd724b056e95c8b369c3e89"
+"hash": "5c1fa9532f82de4fc25512cf998cec1a"
 },
 "en/attractions/bulwary-warta.html": {
 "date": "2026-10-24",
@@ -828,8 +828,8 @@
 "hash": "6771402f6ab1bd9d3986cff5bf3f6afe"
 },
 "en/attractions/jezioro-maltanskie.html": {
-"date": "2026-10-24",
-"hash": "23f7c131bf7d0348fc1b1518ea03e1dd"
+"date": "2026-10-26",
+"hash": "951e3295bf78a6bdfed1c57245b2c26b"
 },
 "en/attractions/jezioro-strzeszynskie.html": {
 "date": "2026-10-24",
@@ -976,8 +976,8 @@
 "hash": "d0e5c65ddca6ede0c77fbc036edaceea"
 },
 "en/attractions/muzeum-armii-poznan.html": {
-"date": "2026-10-24",
-"hash": "f20c6f02c8aa1c49ae4ad056e191a32a"
+"date": "2026-10-26",
+"hash": "b2f76445011b9885dc68059e41eb04ad"
 },
 "en/attractions/muzeum-bambrow.html": {
 "date": "2026-10-24",
@@ -1097,7 +1097,7 @@
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-10-26",
-"hash": "c8649585609e721c7bc880b3f89cf50f"
+"hash": "18d9fef4bc246bc0615f70c1ccd9b76d"
 },
 "en/attractions/palac-dzialynskich.html": {
 "date": "2026-10-26",
@@ -1305,7 +1305,7 @@
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-10-26",
-"hash": "6eda852387eb83271d2bdd4c2dd0f112"
+"hash": "91554ed56e261d27f25d6a0885ed05d7"
 },
 "en/attractions/studzienka-bamberki.html": {
 "date": "2026-10-24",
@@ -1365,7 +1365,7 @@
 },
 "en/attractions/zamek-cesarski.html": {
 "date": "2026-10-26",
-"hash": "c87bb7484f2b87129fc2d555983a6fca"
+"hash": "c5a6194151fc98fedcd33f60b3c93e1c"
 },
 "en/attractions/zamek-goluchow.html": {
 "date": "2026-10-24",
@@ -1377,7 +1377,7 @@
 },
 "en/attractions/zamek-krolewski.html": {
 "date": "2026-10-26",
-"hash": "9746d75ff2c752af50c63aee5bd081e5"
+"hash": "0a81b0a2e837a185a91f024857eeaed0"
 },
 "en/calendar.html": {
 "date": "2026-10-24",
@@ -1389,31 +1389,31 @@
 },
 "en/how-we-verify.html": {
 "date": "2026-10-26",
-"hash": "59592fb95ca1b1d1bda55c8a235057b8"
+"hash": "4bfa894ce8b8b027fda3336bf70e0a4e"
 },
 "en/index.html": {
 "date": "2026-10-26",
-"hash": "b90ffa47ad268a47d96bba5acf8f2c97"
+"hash": "5e7edac8392655228662f03804d6f8bd"
 },
 "en/map.html": {
 "date": "2026-10-26",
-"hash": "b78399434bd8ffc1637eaa197f34d60f"
+"hash": "0b9ec1777309cc1548f0cda42253c7a3"
 },
 "en/museums.html": {
 "date": "2026-10-26",
-"hash": "8cbb9528dc1875e918316bb014f25919"
+"hash": "6fbbcccfa91bea94a28cecac050b3679"
 },
 "en/photo-credits.html": {
 "date": "2026-10-26",
-"hash": "06a04192f3d0eca6723c8a7a5e0a46a2"
+"hash": "b6f07d02bb3f8d0cdeff062222291ef2"
 },
 "en/plans.html": {
 "date": "2026-10-26",
-"hash": "9b76da71dfd7ae9bf24b29496fcc4b15"
+"hash": "eed2d0eb0515c385ec874581f0c575d2"
 },
 "en/practical.html": {
 "date": "2026-10-26",
-"hash": "6d4194496bb3b2bca1cd09707052491e"
+"hash": "fd5c289c4cc7e81df12eed39a789d5fb"
 },
 "en/privacy.html": {
 "date": "2026-10-24",
@@ -1425,19 +1425,19 @@
 },
 "en/viewpoints.html": {
 "date": "2026-10-26",
-"hash": "354c419a36279af0f02e281346eb6ff7"
+"hash": "2324e2c5e0c27eb3591a383419aeb48c"
 },
 "index.html": {
 "date": "2026-10-26",
-"hash": "b52f3b4711b8bf103a5242344613108d"
+"hash": "670b14aca2407fb5e1aa7ba2f7afc29e"
 },
 "informacje.html": {
 "date": "2026-10-26",
-"hash": "a6703582e30b305b509a360c7e656918"
+"hash": "c7f88f52c0fa1b15842efbcc6a0579a2"
 },
 "jak-weryfikujemy.html": {
 "date": "2026-10-26",
-"hash": "79a6cec1be91c892045438fd7a20f595"
+"hash": "af017514d4e507576d9047ff996627d4"
 },
 "kalendarz.html": {
 "date": "2026-10-23",
@@ -1445,11 +1445,11 @@
 },
 "mapa.html": {
 "date": "2026-10-26",
-"hash": "181f462e41b63e616646c1e53b30516c"
+"hash": "28b749939e2f696c7d4a12837c465ef3"
 },
 "muzea.html": {
 "date": "2026-10-26",
-"hash": "4d065889b82609e50aedc0cc4aa65dc6"
+"hash": "13ca25d8fa563e8e79b6941c83b25ebc"
 },
 "o-poznaniu.html": {
 "date": "2026-10-26",
@@ -1457,7 +1457,7 @@
 },
 "plany.html": {
 "date": "2026-10-26",
-"hash": "20e331262748a3160d5b54a86d625872"
+"hash": "ef8c0e1f865fd8ef615887edb86145d0"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1465,7 +1465,7 @@
 },
 "punkty-widokowe.html": {
 "date": "2026-10-26",
-"hash": "84bdad0752d60760aaf4bace85ade415"
+"hash": "475c1539bdbcde94cfb4675a5763553e"
 },
 "teatry.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-10-26",
-"hash": "eb056c1b1cfb8b324136ef658edd11a4"
+"hash": "1d07bce71b136565cadba3e19c7e21e4"
 },
 "zmiany.html": {
 "date": "2026-10-24",

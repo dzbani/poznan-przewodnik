@@ -175,12 +175,11 @@ def body(checked):
   <p class="muted">Sources (in Polish): {ext("https://badam.poznan.pl/wp-content/uploads/2025/11/transport-miejski-w-poznaniu-w-2024-r.pdf", "Poznań City Hall: urban transport in Poznań in 2024")}, {ext("https://www.mpk.poznan.pl/pojazdy/tramwaje-liniowe/", "MPK Poznań: line trams")}.</p>
   <h3>Places where we confirmed facilities</h3>
   <ul>
-    <li><strong>Royal Castle (Museum of Decorative Arts):</strong> a steep cobbled road leads to the museum. According to the museum's website (26 October 2026), wheelchair users and people with prams enter by an alternative entrance, a ramp by the Raczyński building (about 15 m from the main entrance). On arrival you must call 61 85 68 073. Inside, a lift reaches all the exhibitions, but the viewing terraces can be reached only by stairs. Call before your visit and ask about the current state of the entrance.</li>
+    <li><strong>Royal Castle and Museum of Decorative Arts:</strong> a steep cobbled road leads to the museum. According to the museum's website (26 October 2026), wheelchair users and people with prams enter by an alternative entrance, a ramp by the Raczyński building (about 15 m from the main entrance). On arrival you must call 61 85 68 073. Inside, a lift reaches all the exhibitions, but the viewing terraces can be reached only by stairs. Call before your visit and ask about the current state of the entrance.</li>
     <li><strong>Malta Thermal Baths:</strong> wheelchair users enter through the lower hall at ground level.</li>
     <li><strong>Collegium Altum viewing terrace:</strong> a ramp and a lift; the whole terrace is accessible to wheelchairs.</li>
     <li><strong>Kórnik Castle:</strong> there is a lift, but prams cannot be taken into the castle.</li>
     <li><strong>Genius Loci Archaeological Reserve and the Museum of Poznań Bambers:</strong> venues described as accessible to people with disabilities.</li>
-    <li><strong>Museum of Decorative Arts:</strong> three visiting routes for people with visual, hearing and intellectual disabilities.</li>
     <li><strong>Teatr Ósmego Dnia:</strong> its seat is on the second floor, with a lift and a platform at the entrance.</li>
     <li><strong>Lake Rusałka:</strong> the bathing area has an amphibious beach wheelchair. Ask the lifeguards about availability.</li>
   </ul>
