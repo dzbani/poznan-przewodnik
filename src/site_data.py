@@ -55,31 +55,33 @@ ATTRACTIONS = [
     dict(
         slug="ostrow-tumski", cat="zabytki", name="Ostrów Tumski i Archikatedra",
         img="ostrow-tumski", img_alt="Archikatedra na Ostrowie Tumskim",
-        short="Najstarsza katedra w Polsce. Groby pierwszych władców i Złota Kaplica.",
-        badge="Katedra bezpłatnie",
+        short="Najstarsza katedra w Polsce. Relikty grobów pierwszych władców i Złota Kaplica.",
+        badge="Krypty i wieża płatne",
         status=None,
         lead="Ostrów Tumski to wyspa między Wartą a Cybiną, na której w X wieku stał gród pierwszych Piastów. Biskupstwo działa tu od 968 roku, a archikatedra świętych Piotra i Pawła jest najstarszą katedrą w Polsce.",
         sections=[
             ("O miejscu", [
-                "Pierwszą katedrę wzniesiono w latach 80. X wieku. Obecna bryła jest gotycka, z XIV i XV wieku. Po zniszczeniach II wojny światowej świątynię częściowo odbudowano i przywrócono jej gotycki charakter.",
-                "W katedrze pochowano pierwszych władców Polski, w tym Bolesława Chrobrego, Mieszka II i Kazimierza Odnowiciela.",
+                "Pierwszy kościół katedralny zbudowano tu w 968 roku. Obecna bryła jest gotycka, z XIV i XV wieku. Po zniszczeniach II wojny światowej świątynię częściowo odbudowano i przywrócono jej gotycki charakter.",
+                "W podziemiach katedry zachowały się relikty grobowców, najprawdopodobniej Mieszka I i Bolesława Chrobrego.",
             ]),
             ("Co zobaczyć", [
-                "Złota Kaplica (Kaplica Królów Polskich) z lat 1836–1837: ośmioboczne mauzoleum w stylu bizantyjskim, poświęcone Mieszkowi I i Bolesławowi Chrobremu. Stoi dokładnie w osi kościoła.",
-                "Podziemia katedry: relikty dawnych budowli, groby władców z dynastii Piastów i misa chrzcielna z X wieku.",
+                "Złota Kaplica (Kaplica Królewska) w stylu bizantyjskim, urządzona w latach 1836–1837 jako Mauzoleum Królewskie pierwszych władców Polski. Stoi w niej spiżowy pomnik pierwszych władców, wykonany przez Chrystiana Raucha i ustawiony w 1841 roku.",
+                "Podziemia katedry: fragmenty katedry preromańskiej i romańskiej, relikty grobowców, relikty misy chrzcielnej z X wieku, a w drugiej krypcie wystawa lapidarium z kamieni odkrytych przy odbudowie katedry po II wojnie światowej.",
                 "Wieża widokowa, czynna sezonowo (w 2026 roku od 1 czerwca).",
             ]),
             ("Warto wiedzieć", [
-                "Katedra jest czynnym kościołem. W czasie mszy, nabożeństw i koncertów nie można jej zwiedzać, obowiązuje też stosowny strój i cisza.",
+                "Katedra jest czynnym kościołem. W czasie mszy, nabożeństw i koncertów nie można jej zwiedzać, obowiązuje też stosowny strój i cisza. Przewodnicy nie mogą używać głośników ani wzmacniaczy.",
                 "Po drugiej stronie Cybiny, połączona kładką, stoi Brama Poznania. Oferuje ona bilet łączony na zwiedzanie Ostrowa Tumskiego.",
             ]),
         ],
         address="ul. Ostrów Tumski 17, 61-109 Poznań",
-        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–koniec lutego)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Wieża widokowa", "od 1.06.2026; w sezonie 1.03–15.11 jak krypty: dni powszednie 9:00–16:00, niedziele 14:00–18:00"), ("Krypty i wieża po 15.11", "strona archidiecezji podaje je tylko na sezon 1.03–15.11, zimą godzin zwiedzania nie ma")],
-        tickets=[("Wejście do katedry", "bezpłatnie"), ("Podziemia", "10 zł, ulgowy 8 zł, rodzinny 25 zł"), ("Wieża widokowa", "14 zł, ulgowy 12 zł, rodzinny 40 zł")],
+        hours=[("Zwiedzanie (1.03–15.11)", "dni powszednie 9:00–16:00"), ("Zwiedzanie (16.11–koniec lutego)", "dni powszednie 9:00–16:00"), ("Podziemia (krypty)", "1.03–15.11: dni powszednie 9:00–16:00, niedziele 14:00–18:00 (jeśli nie ma dodatkowego nabożeństwa)"), ("Wieża widokowa", "od 1.06.2026; w sezonie 1.03–15.11 jak krypty: dni powszednie 9:00–16:00, niedziele 14:00–18:00 (jeśli nie ma dodatkowego nabożeństwa)"), ("Krypty i wieża po 15.11", "strona archidiecezji podaje je tylko na sezon 1.03–15.11, zimą godzin zwiedzania nie ma")],
+        tickets=[("Zwiedzanie katedry i podziemi", "bilet kupuje się na miejscu w punkcie obsługi turystycznej w katedrze"), ("Podziemia", "10 zł, ulgowy 8 zł, rodzinny 25 zł"), ("Wieża widokowa", "14 zł, ulgowy 12 zł, rodzinny 40 zł")],
         phone="+48 61 852 96 42", www=("katedra.archpoznan.pl", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
         credit="ostrow-tumski",
         sources=[("Katedra Poznańska: Turyści w katedrze", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
+                 ("Katedra Poznańska: historia katedry", "https://www.katedra.archpoznan.pl/historia-katedry-poznanskiej/"),
+                 ("Katedra Poznańska: kaplice katedry", "https://www.katedra.archpoznan.pl/kaplice-katedry-poznanskiej/"),
                  ("Wikipedia: Archikatedra w Poznaniu", "https://pl.wikipedia.org/wiki/Bazylika_archikatedralna_Świętych_Apostołów_Piotra_i_Pawła_w_Poznaniu")],
         see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe")],
     ),
@@ -1106,8 +1108,11 @@ for _a in ATTRACTIONS:
 
 # Sezonowość sprawdzona 10.10.2026 w komunikatach MPK (koniec sezonu Maltanki i linii turystycznych), na maltaski.pl i na stronie katedry.
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne", "ostrow-tumski"):
+    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Ostrów Tumski: pełne porównanie karty ze stroną katedry (turyści, historia, kaplice) 26.10.2026.
+    if _a["slug"] == "ostrow-tumski":
+        _a["checked"] = "26.10.2026"
     if _a["slug"] == "malta-ski":
         _a["checked"] = "19.10.2026"   # sezony zimowy 17.10–31.03 i letni 1.04–31.10 wg maltaski.pl
 

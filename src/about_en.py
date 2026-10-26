@@ -12,7 +12,7 @@ HISTORY = [
     ("9th century", "A stronghold is built on Ostrów Tumski, between the Warta and the Cybina."),
     ("10th century", "The stronghold is one of the main seats of Duke Mieszko I."),
     ("968", "The first bishopric on Polish lands is founded in Poznań."),
-    ("11th century", "The cathedral holds the tombs of Poland's first rulers, including Bolesław the Brave. In 1038 the stronghold is destroyed by the invasion of the Czech duke Bretislav I."),
+    ("11th century", "The cathedral's crypts hold the remains of tombs, most probably those of Mieszko I and Bolesław the Brave. In 1038 the stronghold is destroyed by the invasion of the Czech duke Bretislav I."),
     ("1253", "Przemysł I grants Poznań a municipal charter. The Old Market Square is laid out on the left bank of the Warta."),
     ("16th century", "The city's golden age. In 1519 Bishop Jan Lubrański founds the Lubrański Academy, in 1550–1560 Giovanni Battista di Quadro gives the town hall its Renaissance look, and in the 1570s the Jesuits open a college, a secondary school with academic courses."),
     ("1793", "In the Second Partition of Poland, Poznań is annexed by Prussia."),

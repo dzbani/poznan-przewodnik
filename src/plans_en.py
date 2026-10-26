@@ -110,7 +110,7 @@ PLANS_EN = {
         stops=[
             ("before 12:00", "The square, the little merchants' houses, the fountains and the Poznań Goats."),
             ("late morning", "You can visit the interior of the church without a ticket. On Saturdays at 12:15 organ concerts are held."),
-            ("afternoon", "Entry to the cathedral is free."),
+            ("afternoon", "You can visit the cathedral on weekdays 9:00–16:00. The crypts and tower are paid, and for the cathedral itself ask about tickets on site."),
             ("all day", "A marked trail links the most important monuments."),
             ("afternoon", "A park with monuments and war cemeteries."),
             ("alternatively", "Poznań's oldest zoo, free admission."),
