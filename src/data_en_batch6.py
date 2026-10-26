@@ -162,7 +162,7 @@ EN_BATCH6 = {
     ),
     "parowozownia-wolsztyn": dict(
         name="Wolsztyn Steam Locomotive Depot",
-        img_alt="Steam locomotive Ty1-76 at the Wolsztyn depot",
+        img_alt="A row of steam locomotives in front of the depot doors in Wolsztyn",
         short="A working locomotive depot from 1907, from which steam locomotives leave with passenger trains. Visits daily 7:00–16:00.",
         badge="Daily",
         status=None,
