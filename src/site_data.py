@@ -208,24 +208,31 @@ ATTRACTIONS = [
         sections=[
             ("O miejscu", [
                 "Cesarz osobiście wpływał na szczegóły projektu. Najokazalszym wnętrzem była Sala Tronowa, wzorowana na bazylikach bizantyjskich, z posągami ośmiu cesarzy niemieckich.",
-                "W 1939 roku Franz Böhmer przebudował wnętrza na potrzeby Adolfa Hitlera i namiestnika Arthura Greisera. Gabinet Hitlera wzorowano na jego biurze w Berlinie, choć Hitler prawdopodobnie nigdy tu nie był.",
-                "Dziś w zamku działa Centrum Kultury Zamek: kino, galerie, sceny koncertowe i teatralne.",
+                "Po I wojnie światowej dawne apartamenty cesarskie na pierwszym piętrze zajął Prezydent Rzeczypospolitej, a znaczną część gmachu Uniwersytet Poznański.",
+                "W 1939 roku Franz Böhmer zaprojektował przebudowę rezydencji na siedzibę Adolfa Hitlera i namiestnika Arthura Greisera. Prace przerwano w 1943 roku. CK Zamek pisze, że naziści całkowicie przebudowali gmach, a według Wikipedii ograniczono się do usunięcia większości symboli nazistowskich i rozebrania uszkodzonej górnej kondygacji wieży zegarowej. Nie ma dowodów, że Hitler kiedykolwiek był w Poznaniu.",
+                "Od 1948 roku zamek był siedzibą władz miejskich, od początku lat 60. Pałacem Kultury, a od połowy lat 90. mieści Centrum Kultury Zamek: kino, galerie, sceny koncertowe i teatralne.",
             ]),
             ("Co zobaczyć", [
                 "Gabinet Hitlera, urządzony w 1939 roku w miejscu dawnej kaplicy cesarskiej w wieży, z podgrzewanym elektrycznie balkonem. Na Dziedzińcu Różanym stoi Fontanna Lwów wzorowana na fontannie z Patio de los Leones w Alhambrze w Grenadzie.",
-                "Według serwisu PIK Poznań audioprzewodnik ma trasy po polsku, angielsku i ukraińsku, trasę dla dzieci (7–14 lat), trasę bez schodów oraz trasę z tłumaczem polskiego języka migowego (w aplikacji). To starsza informacja, więc aktualną ofertę tras potwierdź w Informacji CK Zamek.",
+                "Audioprzewodnik (urządzenie albo aplikacja w telefonie z trzydniowym dostępem) ma trasy: podstawową (po polsku, angielsku i ukraińsku), dla dzieci (7–14 lat), bez barier (po polsku, windą zamiast schodów) oraz z lektorem polskiego języka migowego (tylko w aplikacji). Urządzenia wydaje Informacja CK Zamek do 18:00 (zwrot do 19:00), a zamiast urządzenia można użyć kodu dostępu w aplikacji.",
             ]),
             ("Warto wiedzieć", [
-                "11 listopada przed zamkiem odbywa się jarmark w czasie Imienin Ulicy Święty Marcin.",
+                "Od 5 września do 6 grudnia 2026 trwa wystawa „Świat jak zielnik. Natura w sztuce od XVII do XXI wieku”. W tym czasie CK Zamek poleca bilet łączony na wystawę i historyczną część zamku: normalny 40 zł z audioprzewodnikiem lub 35 zł z mapką, ulgowy 35 zł lub 30 zł.",
+                "Cena ulgowa obowiązuje także posiadaczy karty OK Poznań. Bilety kupisz w kasie, w biletomacie w Holu Wielkim albo online na bilety24.pl.",
+                "Strona zwiedzania i kontakt podają zamknięcie o 19:00 (sprzedaż biletów do 18:00), a niektóre inne podstrony CK Zamek 20:00, więc godzinę zamknięcia potwierdź w Informacji.",
+                "11 listopada 2026 roku w godzinach 11:00–21:00 przed zamkiem odbywa się Kiermasz Świętomarciński w ramach Imienin Ulicy Święty Marcin. Wydarzenie ma charakter imprezy masowej.",
             ]),
         ],
         address="ul. Święty Marcin 80/82, 61-809 Poznań",
-        hours=[("Zwiedzanie", "codziennie 12:00–19:00"), ("Sprzedaż biletów", "do 18:00")],
-        tickets=[("Zwiedzanie zamku", "10 zł, ulgowy 7 zł"), ("Audioprzewodnik", "20 zł, ulgowy 15 zł")],
-        phone=None, www=("ckzamek.pl", "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/"),
+        hours=[("Zwiedzanie", "codziennie 12:00–19:00"), ("Sprzedaż biletów", "do 18:00"), ("Audioprzewodniki", "wydawane do 18:00, zwrot do 19:00")],
+        tickets=[("Zwiedzanie zamku", "10 zł, ulgowy 7 zł"), ("Audioprzewodnik", "20 zł, ulgowy 15 zł"), ("Bilet łączony z wystawą (5.09–6.12.2026)", "40 zł z audioprzewodnikiem, 35 zł z mapką; ulgowy 35 zł i 30 zł")],
+        phone="+48 61 64 65 272", www=("ckzamek.pl", "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/"),
         credit="zamek-cesarski",
         sources=[("CK Zamek: zwiedzanie i audioprzewodniki", "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/"),
-                 ("PIK Poznań: zwiedzanie Zamku (trasy audioprzewodnika)", "https://pik.poznan.pl/zwiedzanie-zamku-w-poznaniu/"),
+                 ("CK Zamek: audioprzewodniki", "https://ckzamek.pl/podstrony/7171-audioprzewodniki/"),
+                 ("CK Zamek: historia i zwiedzanie", "https://ckzamek.pl/podstrony/63-historia-i-zwiedzanie/"),
+                 ("CK Zamek: kontakt", "https://ckzamek.pl/podstrony/16-kontakt/"),
+                 ("CK Zamek: Imieniny Ulicy Święty Marcin 2026", "https://ckzamek.pl/podstrony/12-przestrzen-miasta/"),
                  ("CK Zamek: cennik (aktualizacja 30.03.2026)", "https://ckzamek.bilety24.pl/wp-content/uploads/2026/04/CENNIK_CK_ZAMEK_aktualizacja_30.03.2026.pdf"),
                  ("Wikipedia: Zamek Cesarski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Cesarski_w_Poznaniu")],
     ),
@@ -1119,6 +1126,9 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Zamek Cesarski: porównanie karty ze stronami CK Zamek (zwiedzanie, historia, audioprzewodniki, kontakt, Imieniny Ulicy) 26.10.2026.
+    if _a["slug"] == "zamek-cesarski":
+        _a["checked"] = "26.10.2026"
     # Zamek Królewski i Muzeum Sztuk Użytkowych: pełne porównanie ze stronami MNP (wizyta, muzeum, zamek) 26.10.2026.
     if _a["slug"] == "zamek-krolewski":
         _a["checked"] = "26.10.2026"
