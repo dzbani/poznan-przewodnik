@@ -190,7 +190,7 @@ EN_BATCH6 = {
     ),
     "puszcza-zielonka": dict(
         name="Zielonka Forest Landscape Park",
-        img_alt="A forest path and cycle route in the Zielonka Forest",
+        img_alt="Autumn woodland in the Zielonka Forest, with a path covered in fallen leaves",
         short="A large forest complex a few kilometres north-east of Poznań: woods, lakes, nature reserves and a trail of 12 wooden churches.",
         badge="Free",
         status=None,

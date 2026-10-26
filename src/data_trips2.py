@@ -335,7 +335,7 @@ TRIPS2 = [
     ),
     dict(
         slug="puszcza-zielonka", cat="wycieczki", name="Park Krajobrazowy Puszcza Zielonka",
-        img="puszcza-zielonka", img_alt="Leśna ścieżka i droga rowerowa w Puszczy Zielonka",
+        img="puszcza-zielonka", img_alt="Jesienny las w Puszczy Zielonka, ścieżka pokryta liśćmi",
         short="Duży kompleks leśny kilka kilometrów na północny wschód od Poznania: lasy, jeziora, rezerwaty i szlak 12 drewnianych kościołów.",
         badge="Bezpłatnie",
         status=None,
