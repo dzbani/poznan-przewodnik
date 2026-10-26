@@ -88,7 +88,7 @@ PLANS = [
     ("zima", "Zimą",
      "Od listopada do lutego, gdy dzień jest krótki",
      "Trasa ułożona pod krótki dzień: zwiedzanie we wnętrzach i spacer po rynku w porze jarmarku.",
-     [("zamek-krolewski", "rano", "Muzeum Sztuk Użytkowych i wieża widokowa. Do tarasu zadaszonego można wjechać windą, a przy złej pogodzie taras otwarty jest zamykany."),
+     [("zamek-krolewski", "rano", "Muzeum Sztuk Użytkowych i wieża widokowa. Na tarasy wchodzi się wyłącznie schodami, a przy złej pogodzie taras otwarty jest zamykany."),
       ("stary-rynek", "przed 12:00", "Koziołki trykają się codziennie o 12:00. W okresie Betlejem Poznańskiego (od 21.11.2026 do 6.01.2027) na płycie rynku stoją stoiska jarmarczne."),
       ("rogalowe-muzeum", "wczesne popołudnie", "Pokaz o rogalu świętomarcińskim, ciepły i pod dachem."),
       ("ostrow-tumski", "popołudnie", "Archikatedrę zwiedzisz w dni powszednie do 16:00, więc zacznij od niej przed zmrokiem. Godzin zwiedzania krypt i wieży po 15 listopada nie ma w naszych źródłach, więc zapytaj na miejscu."),

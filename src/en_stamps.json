@@ -3,12 +3,12 @@
  "_calendar": "4cb5cb4589b1",
  "_changes": "3d72322082e1",
  "_method": "ae8f959b11ba",
- "_museums": "2231188a4838",
- "_plans": "266f262b92e1",
- "_practical": "40036824120c",
+ "_museums": "736a2ac37a31",
+ "_plans": "1af01304219c",
+ "_practical": "5af2b59e05a8",
  "_privacy": "d19ea68d84af",
  "_theatres": "fa11fea92887",
- "_viewpoints": "4cc47f52f78d",
+ "_viewpoints": "f30d04dcc940",
  "akademia-lubranskiego": "e5208fe608b5",
  "arboretum-kornik": "8a8edeee5f11",
  "bazar": "b5fa0b2a7e74",
@@ -98,7 +98,7 @@
  "muzeum-prl": "805ae93dcb14",
  "muzeum-pyry": "b060095b21af",
  "muzeum-sienkiewicza": "8e9e12633a98",
- "muzeum-sztuk-uzytkowych": "99eb11ad07e0",
+ "muzeum-sztuk-uzytkowych": "af1f3dc0b7c8",
  "muzeum-ump": "5e8b6e13ad6f",
  "muzeum-uzbrojenia": "d4de7269381f",
  "muzeum-wojskowe": "028579eaed96",
@@ -179,5 +179,5 @@
  "zamek-cesarski": "b9e587cd4879",
  "zamek-goluchow": "ebf10490aa17",
  "zamek-kornik": "bfdd82ac3276",
- "zamek-krolewski": "44a4bdd4347b"
+ "zamek-krolewski": "ffbb7cc71c10"
 }

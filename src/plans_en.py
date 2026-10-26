@@ -94,7 +94,7 @@ PLANS_EN = {
         who="From November to February, when the days are short",
         intro="A route planned for a short day: sightseeing indoors and a walk around the square at fair time.",
         stops=[
-            ("morning", "The Museum of Decorative Arts and the viewing tower. You can take a lift to the covered terrace, and in bad weather the open terrace is closed."),
+            ("morning", "The Museum of Decorative Arts and the viewing tower. The terraces are reached only by stairs, and in bad weather the open terrace is closed."),
             ("before 12:00", "The Poznań Goats butt heads every day at 12:00. During the Poznań Bethlehem Christmas Market (from 21 November 2026 to 6 January 2027) fair stalls stand on the square."),
             ("early afternoon", "A show about the St Martin's croissant, warm and indoors."),
             ("afternoon", "You can visit the archcathedral on weekdays until 16:00, so start there before dark. Our sources do not give visiting hours for the crypts and tower after 15 November, so ask on site."),

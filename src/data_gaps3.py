@@ -141,15 +141,16 @@ GAPS3 = [
         lead="Muzeum Sztuk Użytkowych, oddział Muzeum Narodowego w Poznaniu, mieści się w Zamku Królewskim na Wzgórzu Przemysła. Muzeum pokazuje około 2000 przedmiotów od średniowiecza do współczesności i według własnego opisu jest jedynym takim miejscem w Polsce.",
         sections=[
             ("Co zobaczyć", [
-                "Stała ekspozycja zajmuje prawie 1500 m² w połączonych budynkach Raczyńskiego i Zamku Przemysła: 18 przestrzeni na czterech kondygnacjach.",
-                "Narracja jest chronologiczno-problemowa. Każda epoka ma wątki związane z ideami, trendami i osiągnięciami artystycznymi swoich czasów. W zbiorach są m.in. meble, ceramika, szkło i biżuteria.",
+                "Stała ekspozycja zajmuje prawie 1500 m² w połączonych budynkach Raczyńskiego i Zamku Przemysła.",
+                "Dominuje europejska sztuka użytkowa, wśród niej wyroby polskie. Są też obiekty z innych kontynentów, pokazane z europejskiej perspektywy. W zbiorach są m.in. meble, ceramika, szkło i metale, broń, biżuteria, tkaniny, stroje i design, a w muzeum można też posłuchać muzyki i obejrzeć filmy.",
                 "Część wystawy dotyczy króla Przemysła II i znaku Orła Białego, a także dziejów zamku poznańskiego od XIII wieku do 1945 roku oraz powojennych koncepcji jego odbudowy.",
                 "Po obejrzeniu wystawy można wejść na 43-metrową wieżę zamkową z tarasem widokowym.",
             ]),
             ("Warto wiedzieć", [
-                "Muzeum przygotowało trzy ścieżki zwiedzania dla osób z niepełnosprawnością wzroku, słuchu i intelektualną. Część miejsc jest dostępna z pomocą personelu lub osoby towarzyszącej, a w niektórych są schody.",
-                "Najdłużej, do 20:00, muzeum jest czynne w piątki. Godziny mogą się zmienić w dni świąteczne, przy dodatkowych dniach wolnych lub przerwach technicznych.",
-                "Dzieci i młodzież w wieku 8–26 lat płacą 1 zł, a we wtorki wstęp jest bezpłatny dla wszystkich.",
+                "Winda w budynku dowozi na wszystkie ekspozycje, ale na tarasy widokowe wchodzi się tylko schodami. Osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po przybyciu trzeba zadzwonić pod 61 85 68 073. Muzeum ma też „Przedprzewodnik” dla osób ze szczególnymi potrzebami.",
+                "Najdłużej, do 20:00, muzeum jest czynne w piątki. Kasa zamyka się 30 minut przed zamknięciem muzeum. Godziny mogą się zmienić w dni świąteczne, przy dodatkowych dniach wolnych lub przerwach technicznych.",
+                "Muzeum jest nieczynne 1 stycznia, w Wielki Piątek, Wielką Sobotę, Niedzielę i Poniedziałek Wielkanocny, w Boże Ciało, 1 listopada oraz 24, 25, 26 i 31 grudnia. W dni 6 stycznia, 1 maja, 3 maja, 15 sierpnia i 11 listopada jest czynne jak w niedzielę. Najbliższe ciche godziny (15:00–17:00) przypadają 6 grudnia 2026 roku.",
+                "Dzieci i młodzież w wieku 8–26 lat płacą 1 zł, a we wtorki wstęp jest bezpłatny dla wszystkich. Strona muzeum podaje też zasady dla posiadaczy Karty Dużej Rodziny i Poznańskiej Karty Turystycznej.",
             ]),
         ],
         address="Góra Przemysła 1, 61-768 Poznań",
@@ -164,7 +165,7 @@ GAPS3 = [
         ],
         see_also=[("Zamek Królewski i wieża widokowa", "atrakcje/zamek-krolewski"),
                   ("Punkty widokowe w Poznaniu", "punkty-widokowe")],
-        checked="09.10.2026",
+        checked="26.10.2026",
     ),
 ]
 
@@ -174,7 +175,7 @@ VIEWPOINTS = [
      "Taras na 18. piętrze czerwonego wieżowca Uniwersytetu Ekonomicznego. Panorama na cztery strony świata, a oficjalna lista widocznych miejsc liczy ponad 30 pozycji. Bilety kupisz w biletomatach na miejscu, taras jest czynny codziennie.",
      "płatny"),
     ("zamek-krolewski",
-     "Wieża Zamku Królewskiego ma 43 metry i dwa tarasy: zadaszony na wysokości 30 metrów i otwarty na samym szczycie. Na górę prowadzi blisko 200 stopni, a do tarasu zadaszonego można wjechać windą. Wieżę zwiedza się po obejrzeniu wystawy Muzeum Sztuk Użytkowych.",
+     "Wieża Zamku Królewskiego ma 43 metry i dwa tarasy: zadaszony na wysokości 30 metrów i otwarty na samym szczycie. Na górę prowadzi blisko 200 stopni, a według muzeum na tarasy widokowe wchodzi się wyłącznie schodami. Wieżę zwiedza się po obejrzeniu wystawy Muzeum Sztuk Użytkowych.",
      "płatny"),
     ("ostrow-tumski",
      "Wieża archikatedry na Ostrowie Tumskim. Czynna sezonowo, w 2026 roku od 1 czerwca. W sezonie (1.03–15.11) obowiązują te same godziny co w kryptach.",
