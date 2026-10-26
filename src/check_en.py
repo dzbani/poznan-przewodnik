@@ -117,8 +117,9 @@ def load():
 
 def numbers(rows, kind):
     text = " ".join(f"{k} {v}" for k, v in rows)
-    price = r"(\d+)(?:–(\d+))?\s*zł" if kind == "pl" else r"PLN\s*(\d+)(?:–(\d+))?"
-    prices = [n for pair in re.findall(price, text) for n in pair if n]  # zakres „2–5 zł” = dwie kwoty
+    num = r"\d+(?:[.,]\d+)?"  # kwoty ułamkowe: PL „1,5”, EN „1.50” (porównywane jako liczby)
+    price = rf"({num})(?:–({num}))?\s*zł" if kind == "pl" else rf"PLN\s*({num})(?:–({num}))?"
+    prices = [f"{float(n.replace(',', '.')):g}" for pair in re.findall(price, text) for n in pair if n]  # zakres „2–5 zł” = dwie kwoty
     return sorted(re.findall(r"\d{1,2}:\d{2}", text) + prices)
 
 
