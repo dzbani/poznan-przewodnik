@@ -156,7 +156,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="zamek-krolewski", cat="zabytki", name="Zamek Królewski i Muzeum Sztuk Użytkowych",
-        img="zamek-krolewski", img_alt="Wieża Zamku Królewskiego na Wzgórzu Przemysła",
+        img="zamek-krolewski", img_alt="Wieża i fasada Zamku Królewskiego na Górze Przemysła w jesiennym świetle",
         short="Zamek Przemysła II z Muzeum Sztuk Użytkowych i 43-metrową wieżą widokową. We wtorki wstęp wolny.",
         badge="Wt wstęp wolny",
         status=None,

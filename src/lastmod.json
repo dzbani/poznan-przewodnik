@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-10-26",
-"hash": "37c2c37d6b281a34f32c0d21bf1d0168"
+"hash": "8ef90a066dadfc67abf4239ac18274d4"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-23",
@@ -25,7 +25,7 @@
 },
 "atrakcje/brama-poznania.html": {
 "date": "2026-10-26",
-"hash": "cb42114f54f18e7ac586d45c4d2d762f"
+"hash": "e9f1c120b341a08bb6bc69e245646f24"
 },
 "atrakcje/bulwary-warta.html": {
 "date": "2026-10-23",
@@ -405,7 +405,7 @@
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-10-26",
-"hash": "b12e4cf3b7f1c994d2250ee260c64938"
+"hash": "bfd2eca349225d096eef5ef1856453f0"
 },
 "atrakcje/palac-dzialynskich.html": {
 "date": "2026-10-26",
@@ -613,7 +613,7 @@
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-10-26",
-"hash": "e2062c4a2ee5a7142a1baded413f0798"
+"hash": "49b61f1a1d0e855526ad1bc3909d069f"
 },
 "atrakcje/studzienka-bamberki.html": {
 "date": "2026-10-23",
@@ -685,7 +685,7 @@
 },
 "atrakcje/zamek-krolewski.html": {
 "date": "2026-10-26",
-"hash": "0045e9647d41d97cbd1b22d63a697519"
+"hash": "061485da84088fc1caf9d3f48cdc15d0"
 },
 "en/about.html": {
 "date": "2026-10-26",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-10-26",
-"hash": "74bacf8cde9e98077249388ca06bf555"
+"hash": "a4f66fbbe2347cc85411cf7e750b6f4f"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-24",
@@ -717,7 +717,7 @@
 },
 "en/attractions/brama-poznania.html": {
 "date": "2026-10-26",
-"hash": "5c1fa9532f82de4fc25512cf998cec1a"
+"hash": "9aed397a6f70141a3279675128058835"
 },
 "en/attractions/bulwary-warta.html": {
 "date": "2026-10-24",
@@ -1097,7 +1097,7 @@
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-10-26",
-"hash": "18d9fef4bc246bc0615f70c1ccd9b76d"
+"hash": "e1951366fee92adbb7ca623d48417209"
 },
 "en/attractions/palac-dzialynskich.html": {
 "date": "2026-10-26",
@@ -1305,7 +1305,7 @@
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-10-26",
-"hash": "91554ed56e261d27f25d6a0885ed05d7"
+"hash": "39c15885cb904a1b0c8d07c11def2bbe"
 },
 "en/attractions/studzienka-bamberki.html": {
 "date": "2026-10-24",
@@ -1377,7 +1377,7 @@
 },
 "en/attractions/zamek-krolewski.html": {
 "date": "2026-10-26",
-"hash": "0a81b0a2e837a185a91f024857eeaed0"
+"hash": "e6e74286efcb963936e768e70f98774a"
 },
 "en/calendar.html": {
 "date": "2026-10-24",
@@ -1393,7 +1393,7 @@
 },
 "en/index.html": {
 "date": "2026-10-26",
-"hash": "5e7edac8392655228662f03804d6f8bd"
+"hash": "b24a44c427d977b4251116dbab35cd4e"
 },
 "en/map.html": {
 "date": "2026-10-26",
@@ -1405,11 +1405,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-10-26",
-"hash": "b6f07d02bb3f8d0cdeff062222291ef2"
+"hash": "679e6c2be431ce47208f4f5f5e0370ec"
 },
 "en/plans.html": {
 "date": "2026-10-26",
-"hash": "eed2d0eb0515c385ec874581f0c575d2"
+"hash": "7d489e41648da70fed1a5aa0ce20be63"
 },
 "en/practical.html": {
 "date": "2026-10-26",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-10-26",
-"hash": "670b14aca2407fb5e1aa7ba2f7afc29e"
+"hash": "d7b24dc5e0ffb8e846d6f1bbaced7400"
 },
 "informacje.html": {
 "date": "2026-10-26",
@@ -1457,7 +1457,7 @@
 },
 "plany.html": {
 "date": "2026-10-26",
-"hash": "ef8c0e1f865fd8ef615887edb86145d0"
+"hash": "0490cc3293c7682d4ddbf14a11fad9ac"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-10-26",
-"hash": "1d07bce71b136565cadba3e19c7e21e4"
+"hash": "6959a453dae3eb9ee5e63cc385d452d3"
 },
 "zmiany.html": {
 "date": "2026-10-24",

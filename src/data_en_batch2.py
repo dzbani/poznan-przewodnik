@@ -57,7 +57,7 @@ EN_BATCH2 = {
     ),
     "zamek-krolewski": dict(
         name="Royal Castle and Museum of Decorative Arts",
-        img_alt="The tower of the Royal Castle on Przemysł Hill",
+        img_alt="The tower and façade of the Royal Castle on Przemysł Hill in autumn light",
         short="The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower. Free admission on Tuesdays.",
         badge="Tue free",
         status=None,
