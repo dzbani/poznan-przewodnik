@@ -123,29 +123,35 @@ ATTRACTIONS = [
     dict(
         slug="fara", cat="koscioly", name="Fara Poznańska",
         img="fara", img_alt="Barokowa fasada Fary Poznańskiej",
-        short="Barokowa bazylika z organami Ladegasta. Koncerty w każdą sobotę o 12:15.",
+        short="Barokowy kościół farny z organami Ladegasta. Koncerty w każdą sobotę o 12:15.",
         badge="Wstęp wolny",
         status=None,
-        lead="Fara, czyli Bazylika Matki Bożej Nieustającej Pomocy i św. Marii Magdaleny, to jeden z najokazalszych kościołów barokowych w Polsce. Budowa zaczęła się w 1649 roku i trwała ponad 50 lat.",
+        lead="Fara Poznańska, czyli Kolegiata Farna pw. Matki Bożej Nieustającej Pomocy, św. Marii Magdaleny i św. Stanisława Biskupa, to barokowa świątynia z wysoką fasadą projektu Bartłomieja Nataniela Wąsowskiego. Kamień węgielny wmurowano w 1651 roku, a kościół konsekrowano w 1705 roku.",
         sections=[
             ("Co zobaczyć", [
                 "Organy zbudowane w 1876 roku przez Friedricha Ladegasta, słynnego organmistrza z Weissenfels. Mają 2579 piszczałek, a największe mierzą 6 metrów.",
                 "Po koncercie, około 12:45, można dołączyć do zwiedzania z przewodnikiem. Są trzy trasy: wnętrze kościoła (30–40 minut), miejsca ukryte (zakrystia i barokowy kapitularz) oraz podziemia.",
             ]),
             ("Koncerty organowe", [
-                "W każdą sobotę o 12:15 od ponad dwudziestu lat odbywa się koncert na organach Ladegasta.",
-                "Za 5 zł od osoby można też wejść z organistą na chór i obejrzeć instrument z bliska.",
+                "W każdą sobotę o 12:15 od około dwudziestu lat odbywa się koncert na organach Ladegasta.",
+                "Za 5 zł od osoby można też wejść z organistą na chór i obejrzeć instrument z bliska. Parafia podkreśla, że to jedyna okazja w Poznaniu, by poznać organy od środka.",
             ]),
             ("Warto wiedzieć", [
                 "Kościół jest otwarty codziennie, ale parafia prosi, by nie zwiedzać go w czasie mszy.",
+                "Opłata za zwiedzanie z przewodnikiem jest cegiełką na rzecz Fary. Dla grup mniejszych niż 10 osób obowiązuje opłata minimalna: 20 zł za jedną trasę, 35 zł za dwie, 50 zł za trzy.",
+                "Parafia podaje też mszę w soboty o 12:45 (poza lipcem i sierpniem), więc godzinę zbiórki na zwiedzanie warto potwierdzić telefonicznie: (61) 853 03 97.",
             ]),
         ],
         address="ul. Gołębia 1, 61-834 Poznań",
         hours=[("Kościół", "codziennie 6:00–19:30"), ("Koncert organowy", "soboty 12:15"), ("Zwiedzanie z przewodnikiem", "soboty ok. 12:45")],
-        tickets=[("Wejście do kościoła", "bezpłatnie"), ("Trasy z przewodnikiem", "2–5 zł od osoby"), ("Wizyta u organisty", "5 zł od osoby")],
+        tickets=[("Wejście do kościoła", "bezpłatnie"), ("Trasy z przewodnikiem", "2–5 zł od osoby, ulgowy 1,5–4 zł"), ("Wizyta u organisty", "5 zł od osoby")],
         phone="+48 61 852 69 50", www=("fara.archpoznan.pl", "https://fara.archpoznan.pl/pl/"),
         credit="fara",
         sources=[("Fara Poznańska: zwiedzanie", "https://fara.archpoznan.pl/pl/zwiedzanie?view=article&id=24%3Agodziny-otwarcia&catid=2"),
+                 ("Fara Poznańska: historia kościoła", "https://fara.archpoznan.pl/pl/fara"),
+                 ("Fara Poznańska: architektura", "https://fara.archpoznan.pl/pl/architektura"),
+                 ("Fara Poznańska: organy Ladegasta", "https://fara.archpoznan.pl/pl/wnetrze-kosciola/47-organy-ladegasta"),
+                 ("Fara Poznańska: kontakt", "https://fara.archpoznan.pl/pl/kontakt"),
                  ("Visit Poznań: Fara Poznańska", "https://visitpoznan.pl/fara-poznanska")],
     ),
     dict(
@@ -1110,6 +1116,9 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Fara: pełne porównanie karty ze stroną parafii (zwiedzanie, historia, architektura, organy, kontakt) 26.10.2026.
+    if _a["slug"] == "fara":
+        _a["checked"] = "26.10.2026"
     # Ostrów Tumski: pełne porównanie karty ze stroną katedry (turyści, historia, kaplice) 26.10.2026.
     if _a["slug"] == "ostrow-tumski":
         _a["checked"] = "26.10.2026"

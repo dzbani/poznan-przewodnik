@@ -33,25 +33,27 @@ EN_BATCH2 = {
     "fara": dict(
         name="Poznań Parish Church (Fara)",
         img_alt="The Baroque façade of the Poznań Parish Church",
-        short="A Baroque basilica with a Ladegast organ. Concerts every Saturday at 12:15.",
+        short="A Baroque parish church with a Ladegast organ. Concerts every Saturday at 12:15.",
         badge="Free entry",
         status=None,
-        lead="The Fara, officially the Basilica of Our Lady of Perpetual Help and St Mary Magdalene, is one of the most magnificent Baroque churches in Poland. Construction began in 1649 and took more than 50 years.",
+        lead="The Poznań Fara, the Collegiate Parish Church of Our Lady of Perpetual Help, St Mary Magdalene and St Stanislaus the Bishop, is a Baroque church with a tall façade designed by Bartłomiej Nataniel Wąsowski. The foundation stone was laid in 1651 and the church was consecrated in 1705.",
         sections=[
             ("What to see", [
                 "The organ, built in 1876 by Friedrich Ladegast, the famous organ builder from Weissenfels. It has 2,579 pipes, the largest of them 6 metres long.",
                 "After the concert, at about 12:45, you can join a guided visit. There are three routes: the interior of the church (30–40 minutes), hidden places (the sacristy and the Baroque chapter house) and the crypts.",
             ]),
             ("Organ concerts", [
-                "For more than twenty years a concert has been held on the Ladegast organ every Saturday at 12:15.",
-                "For PLN 5 per person you can also go up to the choir loft with the organist and see the instrument up close.",
+                "For about twenty years a concert has been held on the Ladegast organ every Saturday at 12:15.",
+                "For PLN 5 per person you can also go up to the choir loft with the organist and see the instrument up close. The parish stresses that this is the only chance in Poznań to get to know an organ from the inside.",
             ]),
             ("Good to know", [
                 "The church is open every day, but the parish asks visitors not to tour it during Mass.",
+                "The fee for a guided visit is a donation to the Fara. For groups smaller than 10 people a minimum fee applies: PLN 20 for one route, PLN 35 for two, PLN 50 for three.",
+                "The parish also lists a Mass on Saturdays at 12:45 (except in July and August), so it is worth confirming the meeting time for the visit by phone: (61) 853 03 97.",
             ]),
         ],
         hours=[("Church", "daily 6:00–19:30"), ("Organ concert", "Saturdays 12:15"), ("Guided visit", "Saturdays at about 12:45")],
-        tickets=[("Church entry", "free"), ("Guided routes", "PLN 2–5 per person"), ("Visit to the organist", "PLN 5 per person")],
+        tickets=[("Church entry", "free"), ("Guided routes", "PLN 2–5 per person, reduced PLN 1.50–4"), ("Visit to the organist", "PLN 5 per person")],
     ),
     "zamek-krolewski": dict(
         name="Royal Castle",
