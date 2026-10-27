@@ -214,15 +214,23 @@ EN_BATCH7 = {
         short="A tour of the Euro 2012 stadium: the dressing room, the tunnel, the dugout and the club museum.",
         badge="Mon–Sat",
         status=None,
-        lead="The City Stadium on ul. Bułgarska is the home of Lech Poznań. The rebuilt venue opened on 20 September 2010, and in 2012 it hosted three group-stage matches of Euro 2012. It holds more than 42,000 spectators.",
+        lead="The City Stadium on ul. Bułgarska is the home of Lech Poznań. The rebuilt venue opened on 20 September 2010, and in 2012 it hosted three group-stage matches of Euro 2012. According to Wikipedia it holds 43,269 spectators (after an enlargement in 2012).",
         sections=[
             ("The tour", [
-                "A guided tour lasts about an hour. It includes the visitors' dressing room, the tunnel through which the players walk out onto the pitch, the dugouts and the multimedia Lech Poznań Museum.",
-                "Tour times may change because of matches and events at the stadium. It is worth checking them before your visit.",
+                "The stadium can be visited only with a guide; independent entry is not possible. The tour lasts about an hour, for groups of up to 35 people, in Polish or English. It includes the visitors' dressing room (the route does not lead to the home dressing room), the tunnel through which the players walk out onto the pitch, the dugouts and the multimedia Lech Poznań Museum.",
+                "The times in the table are a pattern. The timetable for the whole week appears on the ticket website at the weekend before, because it depends on events at the stadium, so some days have no tours: in the week of 19–25 October 2026 there were none on Wednesday, Thursday and Sunday, and on Monday and Friday they ran at 14:00 and 16:00. Check the current calendar before your visit in the “Calendar of Tours with the Museum” on bilety.lechpoznan.pl.",
+            ]),
+            ("How to get in", [
+                "The tour starts from the Stacja Kolejorz shop (Mon–Fri 10:00–19:00, Saturday 10:00–15:00). You can buy a ticket online (no need to print it; just give the guide the number) or from the guide on the spot, but there are no reservations and tickets may run out. A ticket for a given day can be used on another date after a message to wycieczki@lechpoznan.pl.",
+                "Car park A1 for visitors is on ul. Ptasia, opposite the Mercedes showroom, next to the white tent.",
+                "The stadium is adapted for wheelchair users. You can enter with a pram, but the website advises leaving it in the car or at the Stacja Kolejorz shop.",
             ]),
             ("Good to know", [
-                "The reduced ticket applies to people up to 18, students up to 26, seniors over 65 and people with disabilities. Children up to 4 enter free.",
-                "Families get a discount: 10% for 2 adults and 1 child, 15% for 2 adults and 2 children, 20% for 2 adults and 3 or more children.",
+                "The reduced ticket applies to children and young people up to the age of 18, people in education up to the age of 26, seniors over 65 and people with disabilities (their carers enter free). Children up to the age of 4 enter free.",
+                "Families get a discount on the final price, calculated in the transaction summary: 10% for 2 standard tickets and 1 reduced, 15% for 2 standard and 2 reduced, 20% for 2 standard and 3 or more reduced.",
+                "Season-ticket holders in the Lechici programme get the tour ticket 50% cheaper (once a season, from their own account). On presenting the ticket, a 20% discount applies on the same day in the MasterLech restaurant.",
+                "The helpline for individual tours (tel. 660 423 851) is open Monday to Friday 11:00–16:00, excluding holidays, days off and match days. Groups and other questions: wycieczki@lechpoznan.pl.",
+                "There are also other tours: for organised groups (Monday–Friday, from PLN 20 per person plus PLN 90 per group for the guide), a pre-match tour (it starts 2.5 hours before a league match, and the price depends on the match and includes a match ticket and parking) and an exclusive tour with lunch at MasterLech (voucher PLN 200, reduced PLN 150, date agreed 10–14 days ahead, not at weekends, on match days or on holidays).",
             ]),
         ],
         hours=[("May–Sep, Mon–Fri", "12:00, 14:00, 16:00, 17:30"), ("Oct–Apr, Mon–Fri", "12:00, 14:00, 16:00"),

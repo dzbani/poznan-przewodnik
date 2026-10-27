@@ -916,15 +916,23 @@ MORE = [
         short="Zwiedzanie stadionu Euro 2012: szatnia, tunel, ławka rezerwowych i muzeum klubu.",
         badge="Pn–sb",
         status=None,
-        lead="Stadion Miejski przy ulicy Bułgarskiej to dom Lecha Poznań. Przebudowany obiekt otwarto 20 września 2010 roku, a w 2012 roku rozegrano tu trzy mecze fazy grupowej Euro 2012. Mieści ponad 42 tysiące widzów.",
+        lead="Stadion Miejski przy ulicy Bułgarskiej to dom Lecha Poznań. Przebudowany obiekt otwarto 20 września 2010 roku, a w 2012 roku rozegrano tu trzy mecze fazy grupowej Euro 2012. Według Wikipedii mieści 43 269 widzów (po powiększeniu w 2012 roku).",
         sections=[
             ("Zwiedzanie", [
-                "Zwiedzanie z przewodnikiem trwa około godziny. Obejmuje szatnię gości, tunel, którym piłkarze wychodzą na boisko, ławki rezerwowych i multimedialne Muzeum Lecha Poznań.",
-                "Godziny zwiedzania mogą się zmieniać z powodu meczów i imprez na stadionie. Warto sprawdzić je przed wizytą.",
+                "Stadion zwiedza się wyłącznie z przewodnikiem, samodzielne wejście nie jest możliwe. Wycieczka trwa około godziny, w grupie do 35 osób, po polsku lub angielsku. Obejmuje szatnię gości (trasa nie prowadzi do szatni gospodarzy), tunel, którym piłkarze wychodzą na boisko, ławki rezerwowych i multimedialne Muzeum Lecha Poznań.",
+                "Godziny w tabeli to wzorzec. Terminarz na cały tydzień pojawia się na stronie biletowej w weekend poprzedzający, bo zależy od wydarzeń na stadionie, więc część dni bywa bez wycieczek: w tygodniu 19–25.10.2026 nie było ich w środę, czwartek i niedzielę, a w poniedziałek i piątek odbyły się o 14:00 i 16:00. Aktualny kalendarz sprawdź przed wizytą w „Kalendarzu Wycieczek z Muzeum” na stronie bilety.lechpoznan.pl.",
+            ]),
+            ("Jak wejść", [
+                "Wycieczka startuje spod sklepu Stacja Kolejorz (pon.–pt. 10:00–19:00, sobota 10:00–15:00). Bilet kupisz online (nie trzeba go drukować, wystarczy podać przewodnikowi numer) albo u przewodnika na miejscu, ale bez rezerwacji i bilety mogą się skończyć. Bilet na konkretny dzień można wykorzystać w innym terminie po wiadomości na wycieczki@lechpoznan.pl.",
+                "Parking A1 dla zwiedzających jest przy ulicy Ptasiej, naprzeciwko salonu Mercedesa, koło białego namiotu.",
+                "Stadion jest przystosowany dla osób na wózkach inwalidzkich. Z wózkiem dziecięcym można wejść, ale strona radzi zostawić go w samochodzie lub w Stacji Kolejorz.",
             ]),
             ("Warto wiedzieć", [
-                "Ulgowy bilet przysługuje osobom do 18 lat, studentom do 26 lat, seniorom powyżej 65 lat i osobom z niepełnosprawnościami. Dzieci do 4 lat wchodzą bezpłatnie.",
-                "Rodziny dostają zniżkę: 10% dla 2 dorosłych i 1 dziecka, 15% dla 2 dorosłych i 2 dzieci, 20% dla 2 dorosłych i 3 lub więcej dzieci.",
+                "Ulgowy bilet przysługuje dzieciom i młodzieży do ukończenia 18 lat, osobom uczącym się do ukończenia 26 lat, seniorom powyżej 65 lat i osobom z niepełnosprawnościami (ich opiekunowie wchodzą bezpłatnie). Dzieci do ukończenia 4. roku życia wchodzą bezpłatnie.",
+                "Rodziny dostają zniżkę od ceny końcowej, naliczaną w podsumowaniu transakcji: 10% za 2 bilety normalne i 1 ulgowy, 15% za 2 normalne i 2 ulgowe, 20% za 2 normalne i 3 lub więcej ulgowych.",
+                "Posiadacze karnetu z programu Lechici mają bilet na zwiedzanie 50% taniej (raz w sezonie, ze swojego konta). Po okazaniu biletu obowiązuje w tym samym dniu 20% rabatu w restauracji MasterLech.",
+                "Infolinia w sprawie wycieczek indywidualnych (tel. 660 423 851) jest czynna od poniedziałku do piątku 11:00–16:00, z wyłączeniem świąt, dni wolnych i dni meczowych. Grupy i inne pytania: wycieczki@lechpoznan.pl.",
+                "Są też inne wycieczki: dla grup zorganizowanych (poniedziałek–piątek, od 20 zł od osoby plus 90 zł od grupy za przewodnika), przedmeczowa (zaczyna się 2,5 godziny przed meczem Ekstraklasy, a cena zależy od meczu i obejmuje bilet na mecz oraz parking) i ekskluzywna z obiadem w MasterLech (voucher 200 zł, ulgowy 150 zł, termin ustalany 10–14 dni wcześniej, bez weekendów, dni meczowych i świąt).",
             ]),
         ],
         address="ul. Bułgarska 17, 60-320 Poznań",
@@ -1133,6 +1141,9 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Enea Stadion i Muzeum Lecha: porównanie karty ze stroną zwiedzania (bilety.lechpoznan.pl) i Wikipedią 27.10.2026.
+    if _a["slug"] == "stadion":
+        _a["checked"] = "27.10.2026"
     # Stary Browar: porównanie karty ze stroną centrum (o centrum, kontakt, Pop Culture Gallery) 27.10.2026.
     if _a["slug"] == "stary-browar":
         _a["checked"] = "27.10.2026"
