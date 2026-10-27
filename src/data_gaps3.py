@@ -18,20 +18,25 @@ GAPS3 = [
         lead="Taras widokowy na 18. piętrze Collegium Altum Uniwersytetu Ekonomicznego pokazuje Poznań na cztery strony świata. Po wielu latach przerwy ponownie otwarto go dla zwiedzających 16 czerwca 2025 roku.",
         sections=[
             ("O miejscu", [
-                "Collegium Altum to czerwony wieżowiec z elewacją z czerwonych płyt metalowych i stalową konstrukcją. Jest wyraźnym elementem panoramy miasta.",
-                "Taras mieści się na 18. piętrze, obok holu windowego. Przez wiele lat był zamknięty dla zwiedzających. Uroczyste otwarcie odbyło się 11 czerwca 2025 roku, a dla zwiedzających taras otwarto 16 czerwca.",
+                "Collegium Altum to czerwony wieżowiec z elewacją z czerwonych płyt metalowych i stalową konstrukcją. Jest wyraźnym elementem panoramy miasta. Budowę rozpoczęto w 1976 roku.",
+                "Taras mieści się na 18. piętrze, obok holu windowego. Działał do 2004 roku, potem na tym piętrze urządzono laboratoria komputerowe i przez wiele lat był zamknięty dla zwiedzających. Pomysłodawcą jego ponownego uruchomienia był ówczesny prezes SARP Piotr Kostka. Uroczyste otwarcie odbyło się 11 czerwca 2025 roku, a dla zwiedzających taras otwarto 16 czerwca.",
+            ]),
+            ("Na miejscu", [
+                "W cenie biletu można korzystać z lornetek. Na tarasie jest kawiarnia SkyCoffee (kawa, herbata, zimne napoje, rogaliki i tarty), a w środy, czwartki, piątki i soboty wieczorem działa tam także SkyPong, czyli gra w ping ponga z menu barowym.",
+                "Dzieci mają podesty do oglądania panoramy oraz rebusy i zagadki. Na wszystkich czeka strefa wypoczynku z kanapami, ramka do zdjęć na tle panoramy, karty z opisami widocznych obiektów i kody QR na szybach. Ekran Fly Radar pokazuje samoloty w czasie rzeczywistym, także te, które podchodzą do lądowania na Ławicy.",
             ]),
             ("Co zobaczyć", [
                 "Z góry widać m.in. Stary Rynek, Ostrów Tumski z katedrą, Zamek Królewski i Zamek Cesarski, Plac Wolności, Okrąglak, Stary Browar, Teatr Wielki, Dworzec Poznań Główny, Międzynarodowe Targi Poznańskie, Stadion Miejski, Cytadelę i Jezioro Maltańskie.",
                 "Oficjalna lista na stronie tarasu obejmuje ponad 30 miejsc, także Wartę, Ratusz i Port Lotniczy Ławica.",
             ]),
             ("Warto wiedzieć", [
-                "Indywidualnie taras jest czynny codziennie od 9:00 do 19:00. Strona tarasu informuje o zmianie godzin od 1 września 2026 roku. Zakładka FAQ na tej samej stronie podaje starsze godziny (pn–pt 12:00–20:00, sb–nd 9:00–20:00), więc przed wizytą warto zadzwonić.",
-                "Bilety dla osób indywidualnych kupuje się w biletomatach w holu windowym na 18. piętrze (można płacić kartą i zbliżeniowo), rezerwacja nie jest potrzebna. Bilet uprawnia do jednego, nieprzerwanego wejścia i trzeba go zachować do wyjścia.",
-                "W dni powszednie w godzinach 9:00–12:00 wszyscy płacą cenę ulgową. Ulgowy przysługuje też m.in. dzieciom powyżej 3. roku życia i młodzieży z legitymacją, osobom z niepełnosprawnościami (z jednym opiekunem), emerytom i rencistom oraz posiadaczom Karty Dużej Rodziny. We wtorki studenci płacą 10 zł, a studenci UEP wchodzą bezpłatnie.",
-                "Grupy zorganizowane (co najmniej 10 osób) rezerwują wizytę online z minimum 3-dniowym wyprzedzeniem. Zwiedzanie grupowe trwa 45 minut i odbywa się w dni powszednie 9:00–12:00. Oprowadzanie z przewodnikiem jest tylko dla grup.",
-                "Budynek ma podjazd i windę, a cały taras jest dostępny dla osób na wózkach. Psów nie wolno wprowadzać, poza oznaczonymi psami asystującymi. Robienie zdjęć jest dozwolone.",
-                "Parking: ul. Towarowa 55.",
+                "Indywidualnie taras jest czynny codziennie od 9:00 do 19:00, tak podają strony „Informacje podstawowe” i „Cennik”. Zakładka FAQ na tej samej stronie jest nieaktualna i podaje starsze godziny (pn–pt 12:00–20:00, sb–nd 9:00–20:00), więc przed wizytą warto zadzwonić.",
+                "Bilety dla osób indywidualnych kupuje się w biletomatach w holu windowym na 18. piętrze (można płacić kartą i zbliżeniowo), rezerwacja nie jest potrzebna. Bilet uprawnia do jednego, nieprzerwanego wejścia. Trzeba go zachować do wyjścia i przyłożyć do czytnika.",
+                "W dni powszednie w godzinach 9:00–12:00 wszyscy płacą cenę ulgową. Ulgowy przysługuje też m.in. dzieciom powyżej 3. roku życia i młodzieży z legitymacją, osobom z niepełnosprawnościami (z jednym opiekunem), emerytom i rencistom oraz posiadaczom Karty Dużej Rodziny. We wtorki studenci innych uczelni płacą 10 zł, a studenci UEP wchodzą bezpłatnie. Według FAQ na stronie tarasu bezpłatnie wchodzą też posiadacze Poznań City Card, ale warto to potwierdzić telefonicznie.",
+                "Grupy zorganizowane (co najmniej 10 osób) rezerwują wizytę online z minimum 3-dniowym wyprzedzeniem. Na każde 10 osób opiekun grupy wchodzi bezpłatnie. Zwiedzanie grupowe trwa 45 minut i odbywa się w dni powszednie 9:00–12:00. Oprowadzanie z przewodnikiem jest tylko dla grup.",
+                "Budynek ma podjazd i windę, a cały taras jest dostępny dla osób na wózkach. Na tarasie jest domofon do kontaktu z personelem, a w toalecie system alarmowy do wezwania pomocy. Strona nie podaje, czy toaleta jest przystosowana dla wózków.",
+                "Psów nie wolno wprowadzać, poza oznaczonymi psami asystującymi. Dzieci muszą mieć opiekę dorosłych. Robienie zdjęć jest dozwolone, a sesje komercyjne wymagają wcześniejszego kontaktu z obsługą tarasu (taras@ue.poznan.pl).",
+                "Parking UEP: ul. Towarowa 55, miejsc jest mało, a w okolicy działa też płatna strefa parkowania. Od września do czerwca parking jest czynny w dni powszednie 16:00–24:00, w weekendy 6:00–24:00, a w lipcu i sierpniu codziennie 6:00–24:00.",
             ]),
         ],
         address="ul. Powstańców Wielkopolskich 16, 61-895 Poznań",
@@ -51,7 +56,7 @@ GAPS3 = [
         see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe"),
                   ("Zamek Królewski i wieża widokowa", "atrakcje/zamek-krolewski"),
                   ("Okrąglak, widoczny z tarasu", "atrakcje/okraglak")],
-        checked="10.10.2026",
+        checked="27.10.2026",
     ),
     dict(
         slug="muzeum-uzbrojenia", cat="muzea", name="Muzeum Uzbrojenia",

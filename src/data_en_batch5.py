@@ -12,20 +12,25 @@ EN_BATCH5 = {
         lead="The viewing terrace on the 18th floor of the Collegium Altum of the University of Economics shows Poznań in all four directions. After many years it was reopened to visitors on 16 June 2025.",
         sections=[
             ("About the place", [
-                "The Collegium Altum is a red tower block with a façade of red metal panels and a steel structure. It is a distinctive element of the city's skyline.",
-                "The terrace is on the 18th floor, next to the lift hall. For many years it was closed to visitors. The official opening took place on 11 June 2025, and the terrace opened to visitors on 16 June.",
+                "The Collegium Altum is a red tower block with a façade of red metal panels and a steel structure. It is a distinctive element of the city's skyline. Construction began in 1976.",
+                "The terrace is on the 18th floor, next to the lift hall. It operated until 2004, after which the floor was turned into computer laboratories and the terrace was closed to visitors for many years. The idea of reopening it came from the then president of SARP (the Association of Polish Architects), Piotr Kostka. The official opening took place on 11 June 2025, and the terrace opened to visitors on 16 June.",
+            ]),
+            ("On site", [
+                "Binoculars are included in the price of the ticket. On the terrace there is the SkyCoffee café (coffee, tea, cold drinks, croissants and tarts), and on Wednesday, Thursday, Friday and Saturday evenings it also hosts SkyPong, which is ping pong with a bar menu.",
+                "Children get platforms for looking at the panorama, plus rebuses and puzzles. For everyone there is a relaxation zone with sofas, a photo frame against the panorama, cards describing the places you can see and QR codes on the windows. The Fly Radar screen shows aircraft in real time, including those on approach to land at Ławica.",
             ]),
             ("What to see", [
                 "From above you can see, among other things, the Old Market Square, Ostrów Tumski with the cathedral, the Royal Castle and the Imperial Castle, Plac Wolności, the Okrąglak, Stary Browar, the Grand Theatre, Poznań Główny station, the Poznań International Fair, the City Stadium, the Citadel and Lake Malta.",
                 "The official list on the terrace's website covers more than 30 places, including the Warta, the Town Hall and Ławica Airport.",
             ]),
             ("Good to know", [
-                "Individual visitors can use the terrace every day from 9:00 to 19:00. The terrace's website announces a change of hours from 1 September 2026. The FAQ tab on the same site gives older hours (Mon–Fri 12:00–20:00, Sat–Sun 9:00–20:00), so it is worth phoning before your visit.",
-                "Individual tickets are bought from ticket machines in the lift hall on the 18th floor (you can pay by card and contactless), and no reservation is needed. A ticket entitles you to one uninterrupted entry and must be kept until you leave.",
-                "On weekdays between 9:00 and 12:00 everyone pays the reduced price. The reduced price also applies to, among others, children over 3 and young people with an ID card, people with disabilities (with one carer), pensioners and holders of the Large Family Card. On Tuesdays students pay PLN 10, and UEP students enter free of charge.",
-                "Organised groups (at least 10 people) book a visit online at least 3 days in advance. A group visit lasts 45 minutes and takes place on weekdays 9:00–12:00. Guided tours are for groups only.",
-                "The building has a ramp and a lift, and the whole terrace is accessible to wheelchair users. Dogs are not allowed, except marked assistance dogs. Taking photographs is permitted.",
-                "Parking: ul. Towarowa 55.",
+                "Individual visitors can use the terrace every day from 9:00 to 19:00, according to the “Basic information” and “Price list” pages. The FAQ tab on the same site is out of date and gives older hours (Mon–Fri 12:00–20:00, Sat–Sun 9:00–20:00), so it is worth phoning before your visit.",
+                "Individual tickets are bought from ticket machines in the lift hall on the 18th floor (you can pay by card and contactless), and no reservation is needed. A ticket entitles you to one uninterrupted entry. Keep it until you leave and tap it on the reader.",
+                "On weekdays between 9:00 and 12:00 everyone pays the reduced price. The reduced price also applies to, among others, children over 3 and young people with an ID card, people with disabilities (with one carer), pensioners and holders of the Large Family Card. On Tuesdays students of other universities pay PLN 10, and UEP students enter free of charge. According to the FAQ on the terrace's website, Poznań City Card holders also enter free of charge, but it is worth confirming this by phone.",
+                "Organised groups (at least 10 people) book a visit online at least 3 days in advance. For every 10 people the group leader enters free of charge. A group visit lasts 45 minutes and takes place on weekdays 9:00–12:00. Guided tours are for groups only.",
+                "The building has a ramp and a lift, and the whole terrace is accessible to wheelchair users. There is an intercom on the terrace for contacting staff, and an alarm system in the toilet for calling for help. The website does not say whether the toilet is adapted for wheelchair users.",
+                "Dogs are not allowed, except marked assistance dogs. Children must be supervised by adults. Taking photographs is permitted, and commercial shoots require contacting the terrace staff beforehand (taras@ue.poznan.pl).",
+                "UEP car park: ul. Towarowa 55. There are few spaces, and there is also a paid parking zone in the area. From September to June the car park is open on weekdays 16:00–24:00 and at weekends 6:00–24:00, and in July and August every day 6:00–24:00.",
             ]),
         ],
         hours=[("Daily", "9:00–19:00"), ("Groups (Mon–Fri)", "9:00–12:00, after online booking")],
