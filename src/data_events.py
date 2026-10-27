@@ -7,7 +7,8 @@ Sprawdzono 30.09.2026, uzupełniono 01.10.2026 (jedenaście wydarzeń), terminy 
 miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół ceny” (miasto zrezygnowało).
 """
 
-CAL_CHECKED = "16.10.2026"
+# 27.10.2026: terminy porównane z oficjalnymi stronami organizatorów (listopad–grudzień 2026 i edycje 2027), bez zmian w danych.
+CAL_CHECKED = "27.10.2026"
 
 CALENDAR = [
     dict(
