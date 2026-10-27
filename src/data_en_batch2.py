@@ -133,11 +133,11 @@ EN_BATCH2 = {
             ("History", [
                 "Ambrosius Hugger, a brewer from the Black Forest, opened the first brewery in Poznań in 1844 on Wroniecka Street. His sons Julius and Alfons bought the plot at the corner of Półwiejska Street in 1876 and built the Hugger Breweries here. In 1918 the plant brewed almost 72,000 hectolitres of beer a year.",
                 "During the fighting for Poznań in 1945 the brewery was badly damaged. After the war it was nationalised, and in 1980 it was closed. The buildings decayed, and until 1997 only a small soft-drinks plant operated in them.",
-                "In 1998 the site was bought by the company of Grażyna Kulczyk. Before building started, performances were staged in the ruins, including Verdi's “Macbeth”, broadcast live on TVP2. The first part of the centre, the Atrium, opened on 5 November 2003, the Art Courtyard on 29 April 2004, and the second wing, the Passage, on 11 March 2007. Since 2015 the centre has had a different owner, but the works of art from Grażyna Kulczyk's collection have stayed in their places.",
+                "In 1998 the site was bought by the company of Grażyna Kulczyk. Before building started, performances were staged in the ruins, including Verdi's “Macbeth”, broadcast live on TVP2. The first part of the centre, the Atrium, opened on 5 November 2003, the Art Courtyard on 29 April 2004, and the second wing, the Passage, on 11 March 2007. Since 2015 the centre has been owned by the Deutsche Asset & Wealth Management fund (now Deutsche Asset Management), and the sculptures and installations described below can still be seen here.",
             ]),
             ("Architecture", [
                 "The oldest buildings, the Brewhouse, the Malthouse and the Drying House with its distinctive chimney, were built around 1890. They are in the arcaded style (Rundbogenstil), typical of factories of the time: red facing brick, round-arched windows and brick decoration.",
-                "The conversion was designed by the Poznań studio ADS (architects Piotr Barełkowski and Przemysław Borkowicz). Old walls were combined with modern steel and glass structures. The interior of the passages was designed by the stage designer Ryszard Kaja, the author of famous posters.",
+                "The conversion was designed by the Poznań studio ADS (architects Piotr Barełkowski and Przemysław Borkowicz). Old walls were combined with modern steel and glass structures. According to the centre, the founder of Studio ADS has won the Jan Baptysta Quadro award four times. The interior of the passages was designed by the stage designer Ryszard Kaja, the author of famous posters (according to Wikipedia).",
                 "Stary Browar was among 20 buildings chosen for the exhibition “Poland. Icons of Architecture”, which presented the most important Polish architecture since 1989. It also received two Jan Baptysta Quadro awards for the best building of the year in Poznań, for 2003 and 2007. The International Council of Shopping Centers (ICSC) named it the best shopping centre in the world in 2005, and in 2008 it won again in the category of extensions.",
                 "After dark, look at the western façade of the Passage. It is the joint work of Studio ADS and the artist Adam Garnek: horizontal bands divide the glass block, and a light installation inside turns it into a shimmering, translucent ornament.",
             ]),
@@ -154,12 +154,18 @@ EN_BATCH2 = {
             ("Exhibitions and tours", [
                 "The Pop Culture Gallery, run by Stary Browar, is in the Courtyard. It shows exhibitions that combine fashion, art, design and technology. Past shows have included Andy Warhol, Björk, David LaChapelle, Gianni Versace and Ryszard Kaja. Check the current exhibition on the centre's website.",
                 "Stary Browar organises guided tours of its architecture, history and art collection. The date must be agreed with the information point at least two weeks in advance (informacja@starybrowar.com, tel. 61 859 60 50).",
-                "The Blow Up Hall hotel is part of the complex (entrance from ul. Kościuszki 42). In the hotel, the arte restaurant and the passage there are sculptures, installations and applied art from the owners' collection, created in cooperation with Polish artists. The arte restaurant is open daily 12:00–22:00 and b.bar 16:00–24:00 (table reservations: tel. 61 629 94 02).",
+                "The Blow Up Hall hotel is part of the complex (entrance from ul. Kościuszki 42). In the hotel, the arte restaurant and the passage there are sculptures, installations and applied art from the owners' collection, created in cooperation with Polish artists. According to the hotel's website the arte restaurant is open daily 12:00–22:00 and b.bar 16:00–24:00 (table reservations: tel. 61 629 94 02).",
                 "Next to the centre is a historic park, a good place to rest after sightseeing.",
+            ]),
+            ("Good to know", [
+                "The centre has nearly 200 shops, several dozen restaurants and cafés, 8 cinema screens and a music club. In 2026 the Food Hall received a Special Mention in the Architizer A+ Awards.",
+                "The car park has 1,000 spaces in both wings (Atrium: levels +3, +4 and +5; Passage: levels −1, −2 and −3), with the entrance from ul. Kościuszki. It is paid, but receipts totalling at least PLN 90 give 4 hours of free parking (validation at the Information Points, on the day of purchase only).",
+                "Information Point in the Passage: tel. 61 667 14 00, Monday–Saturday 10:00–21:00, Sunday 10:00–20:00. The “About the centre” page gives 61 677 14 00 for the Passage, but the “Contact” page and the Pop Culture Gallery page give 61 667 14 00.",
             ]),
         ],
         hours=[("Monday–Saturday", "9:00–21:00"), ("Shopping Sundays", "10:00–20:00"), ("Other Sundays", "only selected venues open"),
-               ("Pop Culture Gallery", "12:00–20:00")],
+               ("Pop Culture Gallery", "12:00–20:00"), ("Food Hall", "Monday–Saturday 12:00–22:00, shopping Sundays 12:00–20:00"),
+               ("Carrefour Market", "Monday–Saturday 8:00–22:00, shopping Sundays 9:30–20:30")],
         tickets=[("Entry and viewing the art", "free"), ("Exhibitions in the Pop Culture Gallery", "depends on the exhibition")],
     ),
     "srodka": dict(

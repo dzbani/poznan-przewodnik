@@ -598,11 +598,11 @@ ATTRACTIONS = [
             ("Historia", [
                 "Ambrosius Hugger, piwowar ze Schwarzwaldu, otworzył pierwszy browar w Poznaniu w 1844 roku przy ulicy Wronieckiej. Jego synowie Julius i Alfons w 1876 roku kupili posesję na rogu Półwiejskiej i zbudowali tu Browary Huggerów. W 1918 roku zakład warzył prawie 72 tysiące hektolitrów piwa rocznie.",
                 "W czasie walk o Poznań w 1945 roku browar został mocno zniszczony. Po wojnie go upaństwowiono, a w 1980 roku zamknięto. Budynki niszczały, a do 1997 roku działała w nich tylko mała wytwórnia wód gazowanych.",
-                "W 1998 roku teren kupiła spółka Grażyny Kulczyk. Zanim ruszyła budowa, w ruinach wystawiano spektakle, w tym „Makbeta” Verdiego transmitowanego na żywo w TVP2. Pierwszą część centrum, Atrium, otwarto 5 listopada 2003 roku, Dziedziniec Sztuki 29 kwietnia 2004 roku, a drugie skrzydło, Pasaż, 11 marca 2007 roku. Od 2015 roku centrum ma innego właściciela, ale dzieła sztuki z kolekcji Grażyny Kulczyk zostały na swoich miejscach.",
+                "W 1998 roku teren kupiła spółka Grażyny Kulczyk. Zanim ruszyła budowa, w ruinach wystawiano spektakle, w tym „Makbeta” Verdiego transmitowanego na żywo w TVP2. Pierwszą część centrum, Atrium, otwarto 5 listopada 2003 roku, Dziedziniec Sztuki 29 kwietnia 2004 roku, a drugie skrzydło, Pasaż, 11 marca 2007 roku. Od 2015 roku właścicielem centrum jest fundusz Deutsche Asset & Wealth Management (dziś Deutsche Asset Management), a opisane niżej rzeźby i instalacje nadal można tu oglądać.",
             ]),
             ("Architektura", [
                 "Najstarsze budynki, czyli Warzelnia, Słodownia i Suszarnia z charakterystycznym kominem, powstały około 1890 roku. Zbudowano je w stylu arkadowym (Rundbogenstil), typowym dla ówczesnych fabryk: z czerwonej cegły licówki, z półkoliście zamkniętymi oknami i ceglanymi ozdobami.",
-                "Przebudowę zaprojektowało poznańskie Studio ADS (architekci Piotr Barełkowski i Przemysław Borkowicz). Stare mury połączono z nowoczesnymi konstrukcjami ze stali i szkła. Wystrój pasaży zaprojektował scenograf Ryszard Kaja, autor słynnych plakatów.",
+                "Przebudowę zaprojektowało poznańskie Studio ADS (architekci Piotr Barełkowski i Przemysław Borkowicz). Stare mury połączono z nowoczesnymi konstrukcjami ze stali i szkła. Według centrum założyciel Studia ADS jest czterokrotnym laureatem nagrody im. Jana Baptysty Quadro. Wystrój pasaży zaprojektował scenograf Ryszard Kaja, autor słynnych plakatów (według Wikipedii).",
                 "Stary Browar znalazł się wśród 20 budynków wybranych na wystawę „Polska. Ikony architektury”, pokazującą najważniejszą polską architekturę po 1989 roku. Dostał też dwie nagrody im. Jana Baptysty Quadro dla najlepszego budynku roku w Poznaniu: za 2003 i za 2007 rok. Międzynarodowa Rada Centrów Handlowych (ICSC) uznała go za najlepsze centrum handlowe na świecie w 2005 roku, a w 2008 roku ponownie w kategorii rozbudów.",
                 "Po zmroku warto obejrzeć zachodnią fasadę Pasażu. To wspólne dzieło Studia ADS i artysty Adama Garnka: szklaną bryłę dzielą poziome pasy, a instalacja świetlna w środku zamienia ją w migoczącą, półprzezroczystą ozdobę.",
             ]),
@@ -619,16 +619,23 @@ ATTRACTIONS = [
             ("Wystawy i zwiedzanie", [
                 "Na Dziedzińcu działa Pop Culture Gallery, prowadzona przez Stary Browar. Pokazuje wystawy łączące modę, sztukę, design i technologię. Były tu już m.in. wystawy Andy'ego Warhola, Björk, Davida LaChapelle'a, Gianniego Versace i Ryszarda Kai. Aktualną wystawę sprawdzisz na stronie centrum.",
                 "Stary Browar organizuje zwiedzanie z przewodnikiem po architekturze, historii i kolekcji dzieł sztuki. Termin trzeba uzgodnić z punktem informacyjnym co najmniej dwa tygodnie wcześniej (informacja@starybrowar.com, tel. 61 859 60 50).",
-                "W kompleksie działa hotel Blow Up Hall (wejście od ul. Kościuszki 42). W hotelu, restauracji arte i pasażu są rzeźby, instalacje i sztuka użytkowa z kolekcji właścicieli, tworzona we współpracy z polskimi artystami. Restauracja arte jest czynna codziennie 12:00–22:00, a b.bar 16:00–24:00 (rezerwacja stolika: tel. 61 629 94 02).",
+                "W kompleksie działa hotel Blow Up Hall (wejście od ul. Kościuszki 42). W hotelu, restauracji arte i pasażu są rzeźby, instalacje i sztuka użytkowa z kolekcji właścicieli, tworzona we współpracy z polskimi artystami. Według strony hotelu restauracja arte jest czynna codziennie 12:00–22:00, a b.bar 16:00–24:00 (rezerwacja stolika: tel. 61 629 94 02).",
                 "Przy centrum jest zabytkowy park, dobre miejsce na odpoczynek po zwiedzaniu.",
+            ]),
+            ("Warto wiedzieć", [
+                "W centrum jest blisko 200 sklepów, kilkadziesiąt restauracji i kawiarni, 8 sal kinowych i klub muzyczny. W 2026 roku Food Hall dostał wyróżnienie Special Mention w konkursie Architizer A+ Awards.",
+                "Parking ma 1000 miejsc w obu skrzydłach (Atrium: poziomy +3, +4 i +5, Pasaż: poziomy −1, −2 i −3), a wjazd jest od ulicy Kościuszki. Jest płatny, ale paragony za co najmniej 90 zł dają 4 godziny parkowania bezpłatnie (walidacja w Punktach Informacyjnych, tylko w dniu zakupów).",
+                "Punkt Informacyjny w Pasażu: tel. 61 667 14 00, poniedziałek–sobota 10:00–21:00, niedziela 10:00–20:00. Strona „O centrum” podaje przy Pasażu numer 61 677 14 00, ale „Kontakt” i strona Pop Culture Gallery 61 667 14 00.",
             ]),
         ],
         address="ul. Półwiejska 42, 61-888 Poznań",
-        hours=[("Poniedziałek–sobota", "9:00–21:00"), ("Niedziele handlowe", "10:00–20:00"), ("Pozostałe niedziele", "czynne tylko wybrane lokale"), ("Pop Culture Gallery", "12:00–20:00")],
+        hours=[("Poniedziałek–sobota", "9:00–21:00"), ("Niedziele handlowe", "10:00–20:00"), ("Pozostałe niedziele", "czynne tylko wybrane lokale"), ("Pop Culture Gallery", "12:00–20:00"), ("Food Hall", "poniedziałek–sobota 12:00–22:00, niedziele handlowe 12:00–20:00"), ("Carrefour Market", "poniedziałek–sobota 8:00–22:00, niedziele handlowe 9:30–20:30")],
         tickets=[("Wstęp i oglądanie dzieł sztuki", "bezpłatnie"), ("Wystawy w Pop Culture Gallery", "zależnie od wystawy")],
         phone="+48 61 859 60 50", www=("starybrowar5050.com", "https://starybrowar5050.com/o-centrum/"),
         credit="stary-browar",
         sources=[("Stary Browar: o centrum, historia i dzieła sztuki", "https://starybrowar5050.com/o-centrum/"),
+                 ("Stary Browar: kontakt, godziny otwarcia i parking", "https://starybrowar5050.com/kontakt/"),
+                 ("Wiadomości Handlowe: Stary Browar zmienia właściciela (30.11.2015)", "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/handel-hurtowy-i-grupy-zakupowe/stary-browar-zmienia-wlasciciela-2431468"),
                  ("Stary Browar: Pop Culture Gallery", "https://starybrowar5050.com/sklepy/pop-culture-gallery-stary-browar/"),
                  ("Wikipedia: Stary Browar (Poznań)", "https://pl.wikipedia.org/wiki/Stary_Browar_(Pozna%C5%84)"),
                  ("Wikipedia: Browar Huggerów", "https://pl.wikipedia.org/wiki/Browar_Hugger%C3%B3w"),
@@ -1126,6 +1133,9 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
         _a["checked"] = "10.10.2026"
+    # Stary Browar: porównanie karty ze stroną centrum (o centrum, kontakt, Pop Culture Gallery) 27.10.2026.
+    if _a["slug"] == "stary-browar":
+        _a["checked"] = "27.10.2026"
     # Zamek Cesarski: porównanie karty ze stronami CK Zamek (zwiedzanie, historia, audioprzewodniki, kontakt, Imieniny Ulicy) 26.10.2026.
     if _a["slug"] == "zamek-cesarski":
         _a["checked"] = "26.10.2026"
