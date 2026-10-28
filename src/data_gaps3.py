@@ -11,7 +11,7 @@ TARAS = "https://taras.ue.poznan.pl/"
 GAPS3 = [
     dict(
         slug="taras-widokowy-collegium-altum", cat="wspolczesny", name="Taras widokowy Collegium Altum (UEP)",
-        img="taras-widokowy-collegium-altum", img_alt="Czerwony wieżowiec Collegium Altum nad dachami Poznania",
+        img="taras-widokowy-collegium-altum", img_alt="Czerwony wieżowiec Collegium Altum Uniwersytetu Ekonomicznego wśród jesiennych drzew", img_pos="0% center",
         short="Panorama Poznania na cztery strony świata z 18. piętra czerwonego wieżowca Uniwersytetu Ekonomicznego.",
         badge="Codziennie 9–19",
         status=None,

@@ -5,7 +5,7 @@ Etykiety see_also bez dopisku „(in Polish)”: build_en dodaje go sam, gdy cel
 EN_BATCH5 = {
     "taras-widokowy-collegium-altum": dict(
         name="Collegium Altum Viewing Terrace (UEP)",
-        img_alt="The red Collegium Altum tower block above the roofs of Poznań",
+        img_alt="The red Collegium Altum tower block of the University of Economics among autumn trees",
         short="A panorama of Poznań in all four directions from the 18th floor of the red tower block of the University of Economics.",
         badge="Daily 9–19",
         status=None,
