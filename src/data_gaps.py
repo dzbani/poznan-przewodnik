@@ -27,14 +27,13 @@ GAPS = [
                 "Fort leży w granicach Nowego Zoo, więc oprócz biletu na fort potrzebny jest bilet do Zoo. Przewodnicy czekają przy bramie od ulicy Krańcowej 81. Zwiedzanie bez biletu do Zoo jest możliwe po wcześniejszym umówieniu się z organizatorem.",
                 "Trasa trwa około godziny. Na zwiedzanie nie obowiązują zapisy. Fort przygotowało do zwiedzania Poznańskie Towarzystwo Przyjaciół Fortyfikacji.",
                 "Bilety na fort sprzedaje się przy wejściu do fortu, 200 m od kas Zoo, w dni zwiedzania od 10:30.",
-                "Dwa źródła różnią się co do terminów i godzin wejść: portal visitpoznan.pl (aktualizacja 5.08.2026) podaje niedziele i święta, wejścia o 13:00 i 15:00, a portal miasta soboty, niedziele i święta, wejścia o 11:00, 12:30, 14:00, 15:30 i 17:00. Pewne jest tylko, że fort zwiedza się z przewodnikiem w niedziele i święta od maja do września. Przed wizytą najlepiej zadzwonić.",
+                "Portal miasta podaje zwiedzanie od maja do września w soboty, niedziele i święta, z wejściami o 11:00, 12:30, 14:00, 15:30 i 17:00. Grupy zorganizowane mogą umówić się także na inne godziny i w dni powszednie. Terminy na kolejny sezon warto sprawdzić telefonicznie przed wizytą.",
             ]),
         ],
         address="ul. Krańcowa 81, 61-070 Poznań (teren Nowego Zoo)",
         hours=[
             ("Sezon", "maj–wrzesień (sezon 2026 zakończył się we wrześniu, poza sezonem źródła nie podają regularnych wejść)"),
-            ("Niedziele i święta", "zwiedzanie z przewodnikiem; godziny wejść źródła podają różnie, patrz „Warto wiedzieć”"),
-            ("Soboty", "tylko wg poznan.pl, sprawdź telefonicznie"),
+            ("Soboty, niedziele i święta", "zwiedzanie z przewodnikiem, wejścia wg poznan.pl o 11:00, 12:30, 14:00, 15:30 i 17:00; sprawdź telefonicznie"),
         ],
         tickets=[
             ("Fort, normalny", "8 zł"),
@@ -43,13 +42,12 @@ GAPS = [
             ("Bilet do Zoo", "wymagany osobno"),
         ],
         phone="+48 501 302 909",
-        www=("visitpoznan.pl", "https://visitpoznan.pl/dni-twierdzy-poznan-fort-iii"),
+        www=("poznan.pl", P + "fortyfikacje,poi,2575/fort-iii,51119.html"),
         credit="fort-iii",
         sources=[
             ("poznan.pl: Fort III", P + "fortyfikacje,poi,2575/fort-iii,51119.html"),
-            ("visitpoznan.pl: Fort III (praktyczne informacje)", "https://visitpoznan.pl/dni-twierdzy-poznan-fort-iii"),
         ],
-        checked="06.10.2026",
+        checked="28.10.2026",
     ),
     dict(
         slug="plac-wolnosci", cat="zabytki", name="Plac Wolności",
