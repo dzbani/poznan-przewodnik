@@ -1177,6 +1177,9 @@ for _a in ATTRACTIONS:
     # Makiety Dawnego Poznania: strona muzeum (pokazy, cennik) 24.10.2026; zima trwa do 30.04, nie do 31.03.
     if _a["slug"] == "makiety-dawnego-poznania":
         _a["checked"] = "24.10.2026"
+    # Fort III: terminy wg poznan.pl, martwe źródło visitpoznan.pl usunięte 28.10.2026.
+    if _a["slug"] == "fort-iii":
+        _a["checked"] = "28.10.2026"
     # Pałac w Rogalinie: pełne porównanie karty ze stronami MNP (pałac, wizyta, galeria, powozownia, gabinet, park) i cennikiem PDF 2026, 29.10.2026.
     if _a["slug"] == "rogalin":
         _a["checked"] = "29.10.2026"

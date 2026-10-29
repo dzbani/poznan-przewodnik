@@ -47,7 +47,7 @@ GAPS = [
         sources=[
             ("poznan.pl: Fort III", P + "fortyfikacje,poi,2575/fort-iii,51119.html"),
         ],
-        checked="28.10.2026",
+        checked="06.10.2026",
     ),
     dict(
         slug="plac-wolnosci", cat="zabytki", name="Plac Wolności",
