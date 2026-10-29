@@ -87,7 +87,7 @@ EN_BATCH3 = {
     ),
     "rogalin": dict(
         name="Rogalin Palace",
-        img_alt="The Baroque Raczyński Palace in Rogalin",
+        img_alt="The yellow Baroque Raczyński Palace in Rogalin seen from the lawn between the trees",
         short="A Baroque palace of the Raczyński family with a gallery of paintings by Matejko and Malczewski and a park with famous old oaks.",
         badge="Tue–Sun",
         status=None,

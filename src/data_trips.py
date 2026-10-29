@@ -95,7 +95,7 @@ TRIPS = [
     ),
     dict(
         slug="rogalin", cat="wycieczki", name="Pałac w Rogalinie",
-        img="rogalin", img_alt="Barokowy pałac Raczyńskich w Rogalinie",
+        img="rogalin", img_alt="Żółty barokowy pałac Raczyńskich w Rogalinie widziany od strony trawnika, między drzewami",
         short="Barokowy pałac Raczyńskich z galerią obrazów Matejki i Malczewskiego oraz parkiem ze słynnymi starymi dębami.",
         badge="Wt–nd",
         status=None,

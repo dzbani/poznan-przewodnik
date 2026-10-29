@@ -1,15 +1,15 @@
 {
 "atrakcje.html": {
-"date": "2026-10-28",
-"hash": "d713a57f092e226104ec5462daaca3d3"
+"date": "2026-10-29",
+"hash": "5c0a185b872648edb958d29055fe1b12"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-23",
 "hash": "e41e6af35c92410034d812a0bb1edd92"
 },
 "atrakcje/arboretum-kornik.html": {
-"date": "2026-10-23",
-"hash": "2f63dd311c5900238e0663caef0cb969"
+"date": "2026-10-29",
+"hash": "d7c768375f1c1df2eb55c25892026837"
 },
 "atrakcje/bazar.html": {
 "date": "2026-10-26",
@@ -20,8 +20,8 @@
 "hash": "116c45b4ab861214370f10dcedde4a21"
 },
 "atrakcje/biskupin.html": {
-"date": "2026-10-24",
-"hash": "51df8195c32c71b28a3599f8f82e73f4"
+"date": "2026-10-29",
+"hash": "ce05be20faf7ee7303290d716cf92356"
 },
 "atrakcje/brama-poznania.html": {
 "date": "2026-10-26",
@@ -48,8 +48,8 @@
 "hash": "87d4c0d6bdf8390452dc5b167b3b46ed"
 },
 "atrakcje/czmoniec-bobrowy-szlak.html": {
-"date": "2026-10-23",
-"hash": "deeaea1fbffb0d0248f8beec40408396"
+"date": "2026-10-29",
+"hash": "3d010d0cb733dca13c6e5eb7868f7889"
 },
 "atrakcje/domki-budnicze.html": {
 "date": "2026-10-26",
@@ -60,8 +60,8 @@
 "hash": "e2f64fa805944f12b0a404c9fccf1206"
 },
 "atrakcje/fiedler.html": {
-"date": "2026-10-23",
-"hash": "d4453efe75d2d133ab1103a8c270e113"
+"date": "2026-10-29",
+"hash": "69e114c7092cd5ad25a24cbe2e54baa1"
 },
 "atrakcje/fontanna-apolla.html": {
 "date": "2026-10-23",
@@ -124,8 +124,8 @@
 "hash": "ed37c7722df758de390abd5c7a19b0b7"
 },
 "atrakcje/grod-pobiedziska.html": {
-"date": "2026-10-24",
-"hash": "6cff3e68df3c399aa160fdc8b62fb220"
+"date": "2026-10-29",
+"hash": "68a23eb066e0f94529a43a18764edb58"
 },
 "atrakcje/izba-prl-w7.html": {
 "date": "2026-10-23",
@@ -148,8 +148,8 @@
 "hash": "edc0ea28ae3a256bc1c9d5675d0a440d"
 },
 "atrakcje/katedra-gniezno.html": {
-"date": "2026-10-24",
-"hash": "edff973b37b20579f9835086460f1438"
+"date": "2026-10-29",
+"hash": "71b75407901add2ba0f915d315570366"
 },
 "atrakcje/kolegium-jezuickie.html": {
 "date": "2026-10-26",
@@ -272,8 +272,8 @@
 "hash": "7fa7a0bc1accb7973aca02dbf1f9cf5b"
 },
 "atrakcje/mppp-gniezno.html": {
-"date": "2026-10-23",
-"hash": "ec7f727eba8692dbd29358719307c981"
+"date": "2026-10-29",
+"hash": "3c77127b5764037fbad84748d82b80a5"
 },
 "atrakcje/mury-miejskie.html": {
 "date": "2026-10-26",
@@ -336,8 +336,8 @@
 "hash": "567b7105c7aaf203f82ffa40455a119b"
 },
 "atrakcje/muzeum-lesnictwa-goluchow.html": {
-"date": "2026-10-23",
-"hash": "8aedd6869bfc55d84a896e619568baee"
+"date": "2026-10-29",
+"hash": "2e8c2ad6377bf6a52b813f874c8549d1"
 },
 "atrakcje/muzeum-narodowe.html": {
 "date": "2026-10-23",
@@ -400,8 +400,8 @@
 "hash": "7940f41133da8cec56393cdb128a2fa1"
 },
 "atrakcje/ostrow-lednicki.html": {
-"date": "2026-10-24",
-"hash": "53f9e287bd3215cb26f62324fd0d1460"
+"date": "2026-10-29",
+"hash": "311b441754add57bef0c3755787dce62"
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-10-26",
@@ -412,8 +412,8 @@
 "hash": "fdd7c829357ef3feff0938f6f56ad3a1"
 },
 "atrakcje/palac-smielow.html": {
-"date": "2026-10-23",
-"hash": "7e309a9084c02dc42530eb8fd39fd8b7"
+"date": "2026-10-29",
+"hash": "60219fda3875fb7c688bce0cf65e72f6"
 },
 "atrakcje/palmiarnia.html": {
 "date": "2026-10-23",
@@ -468,8 +468,8 @@
 "hash": "3ab6731da278b39903df274e4ca7f96e"
 },
 "atrakcje/parowozownia-wolsztyn.html": {
-"date": "2026-10-26",
-"hash": "8c7683b01b5bc68f7ba8510f95bf1923"
+"date": "2026-10-29",
+"hash": "1fd9cd158e942a5780e68094e8a98087"
 },
 "atrakcje/plac-wolnosci.html": {
 "date": "2026-10-26",
@@ -560,12 +560,12 @@
 "hash": "bdd35f1a843df8545b8b8dad43f789c2"
 },
 "atrakcje/puszcza-zielonka.html": {
-"date": "2026-10-26",
-"hash": "b8e214fb94badcaa6237c3bb8d40e775"
+"date": "2026-10-29",
+"hash": "46b0f90032f800e94da7bc5ba577d550"
 },
 "atrakcje/rogalin.html": {
-"date": "2026-10-23",
-"hash": "a637ead825d3eae56b55751994c27114"
+"date": "2026-10-29",
+"hash": "164fe0805af7971137b450f17b9e31d2"
 },
 "atrakcje/rogalowe-muzeum.html": {
 "date": "2026-10-23",
@@ -588,8 +588,8 @@
 "hash": "0b03aea00585d0de3cdc57d0ea6461b4"
 },
 "atrakcje/skansen-miniatur-pobiedziska.html": {
-"date": "2026-10-24",
-"hash": "953d97f6a342bc30a2e302c7b7e1a097"
+"date": "2026-10-29",
+"hash": "6b7641972e6b470ebfeac9211fb6b304"
 },
 "atrakcje/srodka.html": {
 "date": "2026-10-23",
@@ -628,8 +628,8 @@
 "hash": "0e4505d70f885f07a8dcde0ab91f4cfc"
 },
 "atrakcje/szreniawa.html": {
-"date": "2026-10-24",
-"hash": "64845cb48c131d1c395168a558078912"
+"date": "2026-10-29",
+"hash": "6011f441c97a6d09d45598d4b53393ad"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -656,32 +656,32 @@
 "hash": "b1eabff8228db7ba2fab1ac66f7a5bce"
 },
 "atrakcje/wpe-dziekanowice.html": {
-"date": "2026-10-24",
-"hash": "0f55aaf1cdf1ae57659e29acf72d017b"
+"date": "2026-10-29",
+"hash": "c6ed9916c4b71f4e8fcfb84e55f5c262"
 },
 "atrakcje/wpn.html": {
-"date": "2026-10-23",
-"hash": "eeca1c75fbc6ef58edef66ad5e21faeb"
+"date": "2026-10-29",
+"hash": "fba4ec02ae9852d796138465993ce82b"
 },
 "atrakcje/wzgorze-sw-wojciecha.html": {
 "date": "2026-10-26",
 "hash": "114bf7a6bc7ecf9acb33e12482539257"
 },
 "atrakcje/zagroda-zwierzat-goluchow.html": {
-"date": "2026-10-23",
-"hash": "c3c93aa1a3308ea9528d66c3b4241513"
+"date": "2026-10-29",
+"hash": "149062a4ca8a2615aa2b80b1ab1efabf"
 },
 "atrakcje/zamek-cesarski.html": {
 "date": "2026-10-26",
 "hash": "05a7e793d1c3735a0a6d20ef645665c6"
 },
 "atrakcje/zamek-goluchow.html": {
-"date": "2026-10-23",
-"hash": "39b3237444029df0f63d112f8eede186"
+"date": "2026-10-29",
+"hash": "b12ebe6a11c7ce6831d0d04181fe1634"
 },
 "atrakcje/zamek-kornik.html": {
-"date": "2026-10-24",
-"hash": "09de31c8f410b2d38a442bdcc87665b8"
+"date": "2026-10-29",
+"hash": "3c372cdc6cd3089d000985082d19ac61"
 },
 "atrakcje/zamek-krolewski.html": {
 "date": "2026-10-26",
@@ -692,16 +692,16 @@
 "hash": "046b4643aa0044029e9206158f61600e"
 },
 "en/attractions.html": {
-"date": "2026-10-28",
-"hash": "e1feb11b076aa701eb15ffd41c0826c6"
+"date": "2026-10-29",
+"hash": "0bade29e77e3a9bcd867316cb6584ac4"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-24",
 "hash": "00de44c7da78d6eb5f802e922f721332"
 },
 "en/attractions/arboretum-kornik.html": {
-"date": "2026-10-24",
-"hash": "ab06a8a3b088c78cbf5f4e6323b0aafe"
+"date": "2026-10-29",
+"hash": "d75b5315ff906c56700d9e85805e3512"
 },
 "en/attractions/bazar.html": {
 "date": "2026-10-26",
@@ -712,8 +712,8 @@
 "hash": "7a3d52b4370f9b7352b75f55e979b08e"
 },
 "en/attractions/biskupin.html": {
-"date": "2026-10-24",
-"hash": "d3ce81e899362a83a6cac4001597a127"
+"date": "2026-10-29",
+"hash": "824d5ce3b8dc5141100700083b49ca86"
 },
 "en/attractions/brama-poznania.html": {
 "date": "2026-10-26",
@@ -740,8 +740,8 @@
 "hash": "bf8a2e571e8ecf8dc9e3f60debdfdfe6"
 },
 "en/attractions/czmoniec-bobrowy-szlak.html": {
-"date": "2026-10-24",
-"hash": "4cc58eb971befe81b042d7575c940250"
+"date": "2026-10-29",
+"hash": "3a13fd43c8a86491e47079f46f97601d"
 },
 "en/attractions/domki-budnicze.html": {
 "date": "2026-10-26",
@@ -752,8 +752,8 @@
 "hash": "32ff0097ef7d44b0b03654644d5389a8"
 },
 "en/attractions/fiedler.html": {
-"date": "2026-10-24",
-"hash": "1d6dad9f38fe207cd924f275ea81401f"
+"date": "2026-10-29",
+"hash": "2aa8cfbeb57151700d4fe49dbdef00e3"
 },
 "en/attractions/fontanna-apolla.html": {
 "date": "2026-10-24",
@@ -816,8 +816,8 @@
 "hash": "58d87d3fc8824ea7ae9bccd473c60a76"
 },
 "en/attractions/grod-pobiedziska.html": {
-"date": "2026-10-24",
-"hash": "935f89750f44cc2b3442dc39e7db23fa"
+"date": "2026-10-29",
+"hash": "ec1342fbe83ddb92440ab470939d51f9"
 },
 "en/attractions/izba-prl-w7.html": {
 "date": "2026-10-24",
@@ -840,8 +840,8 @@
 "hash": "7a9b71a015d6c1138b82131411315fb2"
 },
 "en/attractions/katedra-gniezno.html": {
-"date": "2026-10-24",
-"hash": "7afe024ba3fb1a33cee5ca206555a399"
+"date": "2026-10-29",
+"hash": "ad7d64b25016c32d79e37502f4d29877"
 },
 "en/attractions/kolegium-jezuickie.html": {
 "date": "2026-10-26",
@@ -964,8 +964,8 @@
 "hash": "fbbcc1e888516feed295a146f78bf832"
 },
 "en/attractions/mppp-gniezno.html": {
-"date": "2026-10-24",
-"hash": "d8a64f67a14b09084963e429106c8ace"
+"date": "2026-10-29",
+"hash": "35997e32864431a57e83a55d0468bedc"
 },
 "en/attractions/mury-miejskie.html": {
 "date": "2026-10-26",
@@ -1028,8 +1028,8 @@
 "hash": "d50439518c6e3a5865c11115f22bc06a"
 },
 "en/attractions/muzeum-lesnictwa-goluchow.html": {
-"date": "2026-10-24",
-"hash": "4f6c6fc1452315704f4eb9c82db2d0ba"
+"date": "2026-10-29",
+"hash": "e9a0fcb27ec8471a98277cf0b093460c"
 },
 "en/attractions/muzeum-narodowe.html": {
 "date": "2026-10-24",
@@ -1092,8 +1092,8 @@
 "hash": "5249c4e63275d52374240fad16a3f23d"
 },
 "en/attractions/ostrow-lednicki.html": {
-"date": "2026-10-24",
-"hash": "9e538aaab4ef410f228a5da07fd2821c"
+"date": "2026-10-29",
+"hash": "38c99d242bca0594827f68081bdba6e0"
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-10-26",
@@ -1104,8 +1104,8 @@
 "hash": "db038d0b221c8b51aad12f0fe28306c0"
 },
 "en/attractions/palac-smielow.html": {
-"date": "2026-10-24",
-"hash": "3406b196e5f72c4349cf69e9e89d2127"
+"date": "2026-10-29",
+"hash": "aaf743c9cb7ce3eb524692bd7dcd56de"
 },
 "en/attractions/palmiarnia.html": {
 "date": "2026-10-24",
@@ -1160,8 +1160,8 @@
 "hash": "0ea3842272aec022336e6127969d3ded"
 },
 "en/attractions/parowozownia-wolsztyn.html": {
-"date": "2026-10-26",
-"hash": "0953148fd1ddbca4f2ebd3c0ed16e303"
+"date": "2026-10-29",
+"hash": "d4ec263cc9952c7c3dbf86ae453191c3"
 },
 "en/attractions/plac-wolnosci.html": {
 "date": "2026-10-26",
@@ -1252,12 +1252,12 @@
 "hash": "356e2cb4396179a4bdc9900071664dca"
 },
 "en/attractions/puszcza-zielonka.html": {
-"date": "2026-10-26",
-"hash": "296e10f5750d6ac1244857d175d0dac4"
+"date": "2026-10-29",
+"hash": "eae891fd0a582fb7fa9483e80bcb43ea"
 },
 "en/attractions/rogalin.html": {
-"date": "2026-10-24",
-"hash": "769157dcd1e6266ac91eff48af4c4162"
+"date": "2026-10-29",
+"hash": "96f59a8e5be6055e079a008131f11a89"
 },
 "en/attractions/rogalowe-muzeum.html": {
 "date": "2026-10-24",
@@ -1280,8 +1280,8 @@
 "hash": "8af9bcf40a99ed9ca70bb470283de8bc"
 },
 "en/attractions/skansen-miniatur-pobiedziska.html": {
-"date": "2026-10-24",
-"hash": "04362877184d5210166c358e56ff8f0d"
+"date": "2026-10-29",
+"hash": "20bb2109e1555f8e65bdf852772d0a2a"
 },
 "en/attractions/srodka.html": {
 "date": "2026-10-24",
@@ -1320,8 +1320,8 @@
 "hash": "d423e20ea45789a42f47f33eeb2401e0"
 },
 "en/attractions/szreniawa.html": {
-"date": "2026-10-24",
-"hash": "98a87151dcb098cbe7e4c951c0fc7cc8"
+"date": "2026-10-29",
+"hash": "5e108bd027c403bce8c846984927eae1"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -1348,32 +1348,32 @@
 "hash": "cff22f2b53073549c51a4d24977e0ce5"
 },
 "en/attractions/wpe-dziekanowice.html": {
-"date": "2026-10-24",
-"hash": "9c91ea435a17936b571a646578e8cc1f"
+"date": "2026-10-29",
+"hash": "484ae5d8a53a31c2deaa8f7743ee2345"
 },
 "en/attractions/wpn.html": {
-"date": "2026-10-24",
-"hash": "02f08da5d4649ed0cee0f740005a2842"
+"date": "2026-10-29",
+"hash": "ecca59ac5933405f77b39f2351d3c1a8"
 },
 "en/attractions/wzgorze-sw-wojciecha.html": {
 "date": "2026-10-26",
 "hash": "7847e3ffaa4039c0d89aba33fe4fd4ff"
 },
 "en/attractions/zagroda-zwierzat-goluchow.html": {
-"date": "2026-10-24",
-"hash": "24d2ca2ae34c4d965912e65b65ae45ad"
+"date": "2026-10-29",
+"hash": "091cff1fd74426b5dde93089b2c575d7"
 },
 "en/attractions/zamek-cesarski.html": {
 "date": "2026-10-26",
 "hash": "8b197d3dfa39b54c83179e357bc82325"
 },
 "en/attractions/zamek-goluchow.html": {
-"date": "2026-10-24",
-"hash": "d97d6db2b6ba245f6f9b3fe2e57ef374"
+"date": "2026-10-29",
+"hash": "75035958018b465e81dbb40262800ada"
 },
 "en/attractions/zamek-kornik.html": {
-"date": "2026-10-24",
-"hash": "3547e3f2a9e443f973607e6303e79cf2"
+"date": "2026-10-29",
+"hash": "eb6684d3e0a6ccb6682b1f1a7cded560"
 },
 "en/attractions/zamek-krolewski.html": {
 "date": "2026-10-26",
@@ -1404,8 +1404,8 @@
 "hash": "6fbbcccfa91bea94a28cecac050b3679"
 },
 "en/photo-credits.html": {
-"date": "2026-10-28",
-"hash": "3b2854c45fe1d419d349594dc300a443"
+"date": "2026-10-29",
+"hash": "da11cb5e6b020c1ce5c3c4a39a7e827d"
 },
 "en/plans.html": {
 "date": "2026-10-26",
@@ -1472,8 +1472,8 @@
 "hash": "14bdadb733222627d432bc3e70a1463b"
 },
 "zdjecia.html": {
-"date": "2026-10-28",
-"hash": "fcb33e2e3475c5bce43cea83c0bc4fc8"
+"date": "2026-10-29",
+"hash": "8b0ae88d392a2ed42f437c520c92707a"
 },
 "zmiany.html": {
 "date": "2026-10-24",
