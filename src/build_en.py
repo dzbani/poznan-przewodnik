@@ -174,7 +174,7 @@ def card_en(a, prefix, num=None):
     chips_html = f'<p class="chips">{chips}</p>' if chips else ""
     return f"""<li class="card" data-cat="{a['cat']}" data-tags="{' '.join(tg)}" data-words="{escape(words)}">
   <a href="{prefix}en/attractions/{a['slug']}.html">
-    <div class="card-media">{media_html(a, prefix, lazy=True)}
+    <div class="card-media">{media_html(a, prefix, lazy=True, no_photo="No photo")}
       <span class="{badge_cls}">{escape(a['badge'])}</span>{num_html}</div>
     <div class="card-body">
       <p class="eyebrow">{escape(cat)}</p>
@@ -303,7 +303,7 @@ def build_attraction_en(slug, idx, slugs):
 
 <header class="wrap a-hero">
   <figure class="a-hero-img">
-    {media_html(a, p, sizes="(max-width: 760px) 92vw, 640px", priority=True)}
+    {media_html(a, p, sizes="(max-width: 760px) 92vw, 640px", priority=True, no_photo="No photo")}
     {credit_badge_en(a['credit'], p) if a.get("img") else ""}
   </figure>
   <div class="a-hero-text">
@@ -386,7 +386,7 @@ def plan_stop_en(slug, when, hint):
     hours = "; ".join(f"{k}: {v}" for k, v in a["hours"][:2])
     link = f"attractions/{slug}.html"
     return f"""<li class="stop">
-  <a class="stop-img" href="{link}" tabindex="-1" aria-hidden="true">{media_html(a, "../", lazy=True)}</a>
+  <a class="stop-img" href="{link}" tabindex="-1" aria-hidden="true">{media_html(a, "../", lazy=True, no_photo="No photo")}</a>
   <div>
     <p class="stop-when">{escape(when)}</p>
     <h3><a href="{link}">{escape(a['name'])}</a></h3>
@@ -846,8 +846,8 @@ def build_photo_credits_en():
 <header class="wrap page-head">
   <p class="kicker">Sources</p>
   <h1>Photo credits</h1>
-  <p class="lead">All photographs come from Wikimedia Commons and are used under Creative Commons licences or are in the public domain. Click the file title to see the original, or the licence name to read its terms.</p>
-  <p class="muted">For this guide the photographs were downsized and compressed, and on the pages they may be shown in a cropped frame. Any other changes are described in the “Changes” column. Modified versions are shared under the same licences as the originals.</p>
+  <p class="lead">Most photographs come from Wikimedia Commons and are used under Creative Commons licences or are in the public domain. The rest are published with the permission of their authors or museums, as the “Licence” column shows. Click the file title to see the original, or the licence name to read its terms.</p>
+  <p class="muted">For this guide the photographs were downsized and compressed, and on the pages they may be shown in a cropped frame. Any other changes are described in the “Changes” column. Modified versions of photographs under open licences are shared under the same licences as the originals.</p>
 </header>
 <div class="wrap"><div class="table-wrap"><table class="grid credits">
   <thead><tr><th scope="col"><span class="sr">Thumbnail</span></th><th scope="col">File</th><th scope="col">Author</th><th scope="col">Licence</th><th scope="col">Changes</th></tr></thead>

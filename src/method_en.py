@@ -12,7 +12,7 @@ def body(n_attractions, first_date, last_date, practical_date, links_date):
   <h1>How we verify information</h1>
   <p class="lead">In a guide it matters more that information is true than that there is a lot of it. Below we describe where we get our data, what we do when sources disagree, and what we do not promise.</p>
   <nav class="toc" aria-label="Contents">
-    <a href="#sources">Where we get our data</a><a href="#conflicts">When sources disagree</a><a href="#dates">Check dates</a>
+    <a href="#sources">Where we get our data</a><a href="#conflicts">When sources disagree</a><a href="#dates">Verification dates</a>
     <a href="#not-do">What we do not do</a><a href="#photos">Photographs</a><a href="#errors">Found a mistake?</a>
   </nav>
 </header>
@@ -40,7 +40,7 @@ def body(n_attractions, first_date, last_date, practical_date, links_date):
 </section>
 
 <section id="dates">
-  <h2>Check dates</h2>
+  <h2>Verification dates</h2>
   <p>Under every attraction you can see a “Checked” date. It is the day on which we last compared the data with the sources. At present all attractions were checked between {first_date} and {last_date}, and the “Practical information” section on {practical_date}.</p>
   <p>Hours and prices change, and the date is not a guarantee that things are the same today. Before your visit, confirm them on the venue's website. We do not promise to refresh the data at a fixed rhythm, but changes we learn about we check and enter.</p>
   <p>We check the links to sources automatically (last check: {links_date}), and when a source ceases to exist we remove it together with information that rested only on it.</p>

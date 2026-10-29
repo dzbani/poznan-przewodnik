@@ -44,7 +44,7 @@ def body(en_date):
   <p>On the Map page there is a <strong>“Where am I”</strong> button. If you click it, your browser will ask for permission to access your GPS location. This is entirely optional.</p>
   <ul>
     <li><strong>If you do not click the button:</strong> no location is collected. You can browse the map normally by clicking names and filtering attractions.</li>
-    <li><strong>If you give permission:</strong> you allow the browser to use GPS (or an approximate position from WiFi or the mobile network). Your location <strong>stays only in your browser</strong> and is never sent to us. We use it only to:
+    <li><strong>If you give permission:</strong> you allow the browser to use GPS (or an approximate position from Wi-Fi or the mobile network). Your location <strong>stays only in your browser</strong> and is never sent to us. We use it only to:
       <ul>
         <li>show your marker on the map,</li>
         <li>sort the list of attractions from the nearest, with distances in kilometres.</li>

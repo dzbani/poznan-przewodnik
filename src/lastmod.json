@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-10-29",
-"hash": "0bade29e77e3a9bcd867316cb6584ac4"
+"hash": "9c38b72d61ba08ac6d03499c7eac2c71"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-24",
@@ -720,8 +720,8 @@
 "hash": "9aed397a6f70141a3279675128058835"
 },
 "en/attractions/bulwary-warta.html": {
-"date": "2026-10-24",
-"hash": "74fa8943df4774a18c82dce5ff9bf577"
+"date": "2026-10-29",
+"hash": "aa3d0d82baf5001c521feaf7300913a3"
 },
 "en/attractions/centrum-szyfrow-enigma.html": {
 "date": "2026-10-24",
@@ -741,7 +741,7 @@
 },
 "en/attractions/czmoniec-bobrowy-szlak.html": {
 "date": "2026-10-29",
-"hash": "3a13fd43c8a86491e47079f46f97601d"
+"hash": "e4717fadcbabc103684b553c438df7ea"
 },
 "en/attractions/domki-budnicze.html": {
 "date": "2026-10-26",
@@ -808,8 +808,8 @@
 "hash": "c416be210aa4f3021a85afdae7d2f4d8"
 },
 "en/attractions/gaspar.html": {
-"date": "2026-10-24",
-"hash": "e5804d09d943b773cbab8235a64e9041"
+"date": "2026-10-29",
+"hash": "4121ef6496e39f45564bfccc8a028c85"
 },
 "en/attractions/genius-loci.html": {
 "date": "2026-10-26",
@@ -841,7 +841,7 @@
 },
 "en/attractions/katedra-gniezno.html": {
 "date": "2026-10-29",
-"hash": "ad7d64b25016c32d79e37502f4d29877"
+"hash": "66c6f8bd80172bbd96ea82cac636e89c"
 },
 "en/attractions/kolegium-jezuickie.html": {
 "date": "2026-10-26",
@@ -924,8 +924,8 @@
 "hash": "ed8b8b6c6e6df018f912ef56eda183b3"
 },
 "en/attractions/lasek-katynski.html": {
-"date": "2026-10-24",
-"hash": "53e9ecc37dce6d957e60e85782c7ec49"
+"date": "2026-10-29",
+"hash": "07c748a10a32f7f0bafecc00f5d7cc4f"
 },
 "en/attractions/lasek-marcelinski.html": {
 "date": "2026-10-24",
@@ -968,8 +968,8 @@
 "hash": "35997e32864431a57e83a55d0468bedc"
 },
 "en/attractions/mury-miejskie.html": {
-"date": "2026-10-26",
-"hash": "3a3bbe6aaeac1996ac00ef9f016496ff"
+"date": "2026-10-29",
+"hash": "74560174f731e5c24b880b0a673ba4f6"
 },
 "en/attractions/muzeum-archeologiczne.html": {
 "date": "2026-10-24",
@@ -1024,8 +1024,8 @@
 "hash": "8f95509d140d073d58806bd97f7e82e1"
 },
 "en/attractions/muzeum-kultury-cyfrowej.html": {
-"date": "2026-10-24",
-"hash": "d50439518c6e3a5865c11115f22bc06a"
+"date": "2026-10-29",
+"hash": "5fc7b36a660d645b34c4688df4b8ddd5"
 },
 "en/attractions/muzeum-lesnictwa-goluchow.html": {
 "date": "2026-10-29",
@@ -1116,8 +1116,8 @@
 "hash": "c320c6fb14aed9a8349d3bb55e67e0ef"
 },
 "en/attractions/park-kasprowicza.html": {
-"date": "2026-10-24",
-"hash": "e476973a8c889f7b4b2af931ab9f7e73"
+"date": "2026-10-29",
+"hash": "3c2cad812674f9a452508754d96d0f60"
 },
 "en/attractions/park-marcinkowskiego.html": {
 "date": "2026-10-24",
@@ -1140,8 +1140,8 @@
 "hash": "1894a7d8b5e361b9f408823c88f6b796"
 },
 "en/attractions/park-solacki.html": {
-"date": "2026-10-24",
-"hash": "8f59028c105193bdda8ad9827fc48c76"
+"date": "2026-10-29",
+"hash": "8e7f83ca41f5f7454a3fbd0dbef4dca5"
 },
 "en/attractions/park-szelagowski.html": {
 "date": "2026-10-24",
@@ -1344,8 +1344,8 @@
 "hash": "e7db90f1d974dc57232677d6b9738bdd"
 },
 "en/attractions/wiedzma-z-chwaliszewa.html": {
-"date": "2026-10-24",
-"hash": "cff22f2b53073549c51a4d24977e0ce5"
+"date": "2026-10-29",
+"hash": "1563aa2f6eb9ecfc9fbed78ec31a6e45"
 },
 "en/attractions/wpe-dziekanowice.html": {
 "date": "2026-10-29",
@@ -1364,8 +1364,8 @@
 "hash": "091cff1fd74426b5dde93089b2c575d7"
 },
 "en/attractions/zamek-cesarski.html": {
-"date": "2026-10-26",
-"hash": "8b197d3dfa39b54c83179e357bc82325"
+"date": "2026-10-29",
+"hash": "b6d0ac484994fb0c009d1b486a9ca5a4"
 },
 "en/attractions/zamek-goluchow.html": {
 "date": "2026-10-29",
@@ -1380,8 +1380,8 @@
 "hash": "e6e74286efcb963936e768e70f98774a"
 },
 "en/calendar.html": {
-"date": "2026-10-27",
-"hash": "d637d57d26680935f9840e7b0e7f9310"
+"date": "2026-10-29",
+"hash": "20be02cb981f278f26d6da8ab35922c3"
 },
 "en/changes.html": {
 "date": "2026-10-24",
@@ -1389,11 +1389,11 @@
 },
 "en/how-we-verify.html": {
 "date": "2026-10-29",
-"hash": "fa2907abd77dabdf5ba5d6822de7e9c0"
+"hash": "071dc5ed0d45026d61471e6457a1119f"
 },
 "en/index.html": {
-"date": "2026-10-26",
-"hash": "b24a44c427d977b4251116dbab35cd4e"
+"date": "2026-10-29",
+"hash": "5576a05e448e7d0d115bc4b8f1cef734"
 },
 "en/map.html": {
 "date": "2026-10-26",
@@ -1405,7 +1405,7 @@
 },
 "en/photo-credits.html": {
 "date": "2026-10-29",
-"hash": "da11cb5e6b020c1ce5c3c4a39a7e827d"
+"hash": "b21997bdb34af5025337edfac55e241b"
 },
 "en/plans.html": {
 "date": "2026-10-26",
@@ -1416,8 +1416,8 @@
 "hash": "fd5c289c4cc7e81df12eed39a789d5fb"
 },
 "en/privacy.html": {
-"date": "2026-10-24",
-"hash": "8848f3926278723191866f04e7f738f1"
+"date": "2026-10-29",
+"hash": "1a3fd3f91ad6f66815bb8512bc51fa57"
 },
 "en/theatres.html": {
 "date": "2026-10-24",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-10-29",
-"hash": "8b0ae88d392a2ed42f437c520c92707a"
+"hash": "b4046e1ed44d19accec0c1333995e120"
 },
 "zmiany.html": {
 "date": "2026-10-24",

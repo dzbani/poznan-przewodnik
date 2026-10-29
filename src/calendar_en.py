@@ -184,7 +184,7 @@ CAL_EN = {
         place="Palace Cinema at the Zamek Culture Centre, Helios cinema in Posnania, and Scena Wspólna",
         when="Every year at the end of November, for eight days",
         note="The date of the 44th edition was given by the organiser.",
-        desc=["A festival of films for children and young people: animations, features and documentaries from around the world. It continues a review begun in 1963. Screenings are ticketed."],
+        desc=["A festival of films for children and young people: animations, features and documentaries from around the world. It continues a showcase begun in 1963. Screenings are ticketed."],
     ),
     "czerwiec-1956": dict(
         name="Anniversary of the Poznań June 1956",

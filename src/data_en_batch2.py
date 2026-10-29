@@ -103,7 +103,7 @@ EN_BATCH2 = {
         sections=[
             ("About the place", [
                 "The emperor personally influenced details of the design. The most splendid interior was the Throne Room, modelled on Byzantine basilicas, with statues of eight German emperors.",
-                "After the First World War the former imperial apartments on the first floor were taken by the President of the Republic of Poland, and a large part of the building by the Poznań University.",
+                "After the First World War the former imperial apartments on the first floor were taken by the President of the Republic of Poland, and a large part of the building by Poznań University.",
                 "In 1939 Franz Böhmer designed the conversion of the residence into a seat for Adolf Hitler and the governor Arthur Greiser. The work was halted in 1943. CK Zamek writes that the Nazis completely rebuilt the building, while according to Wikipedia they limited themselves to removing most of the Nazi symbols and demolishing the damaged top storey of the clock tower. There is no evidence that Hitler ever visited Poznań.",
                 "From 1948 the castle was the seat of the city authorities, from the early 1960s the Palace of Culture, and since the mid-1990s it has housed the Zamek Culture Centre: a cinema, galleries, and concert and theatre stages.",
             ]),

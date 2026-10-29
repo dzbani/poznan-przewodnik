@@ -15,7 +15,7 @@ EN_BATCH11 = {
         sections=[
             ("About the route", [
                 "Construction of the Wartostrada began in 2011, and the route was extended in 2015–2020 and 2020–2022. The paths are intended for pedestrians and cyclists of every level.",
-                "The route links, among others, the Queen Jadwiga Bridge, the St Roch Bridge and the Bolesław the Brave Bridge. It passes the Gate of Poznań and runs through the parks Szeląg Park and Park nad Wartą.",
+                "The route links, among others, the Queen Jadwiga Bridge, the St Roch Bridge and the Bolesław the Brave Bridge. It passes the Gate of Poznań and runs through Szeląg Park and Park nad Wartą.",
                 "Along the route are viewpoints, bicycle repair stations and Bike&Ride car parks.",
             ]),
             ("City beaches", [
@@ -38,7 +38,7 @@ EN_BATCH11 = {
         lead="Sołacki Park was laid out in 1908–1911 to a design by Hermann Kube, then director of the Poznań Municipal Gardens. It covers almost 15 hectares and was created on the marshy land of the Bogdanka valley.",
         sections=[
             ("About the park", [
-                "It is a park in the English style. About 3,000 trees and 12,000 shrubs grow here, alongside native species also exotic ones, among them the Canadian hemlock, the bald cypress and the Douglas fir.",
+                "It is a park in the English style. About 3,000 trees and 12,000 shrubs grow here, including exotic species as well as native ones, among them the Canadian hemlock, the bald cypress and the Douglas fir.",
                 "The dammed Bogdanka forms the Sołacz Ponds with irregular shores.",
                 "Since 1983 the park has been entered in the register of monuments together with the villa district of Sołacz.",
             ]),

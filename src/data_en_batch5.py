@@ -69,7 +69,7 @@ EN_BATCH5 = {
         short="A wooden viewing tower above the meadows and oxbow lakes of the Warta, and a short nature trail. No tickets, in Kórnik municipality.",
         badge="Free",
         status=None,
-        lead="In Czmoniec, in Kórnik municipality, on the edge of wide meadows in the Warta valley, stands a wooden viewing tower. It stands on the Beaver Trail (Bobrowy Szlak), a nature trail through the oxbow lakes of the Warta.",
+        lead="In Czmoniec, in Kórnik municipality, on the edge of wide meadows in the Warta valley, stands a wooden viewing tower. It is part of the Beaver Trail (Bobrowy Szlak), a nature trail through the oxbow lakes of the Warta.",
         sections=[
             ("What to see", [
                 "A wooden viewing tower about 14 m high, opened in 2010. It was built on the initiative of the village head of Czmoniec, and the platform at the top holds up to 20 people at a time. From it you see meadows, oxbow lakes of the Warta and clumps of trees. Other sources give the height of the tower as 14–15 m.",

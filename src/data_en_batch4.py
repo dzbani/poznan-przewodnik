@@ -126,7 +126,7 @@ EN_BATCH4 = {
         lead="Defensive walls surrounded Poznań from the 13th to the 15th century. They were about 1,725 metres long and 7 metres high, and the inner towers reached 11 metres.",
         sections=[
             ("History", [
-                "Timber-and-earth fortifications were begun soon after the city was chartered in 1253, and were later replaced by a wall with 32 oriel towers.",
+                "Timber-and-earth fortifications were begun soon after the city was chartered in 1253, and were later replaced by a wall with 32 projecting turrets (bartizans).",
                 "After 1431 a second, outer wall was added with semicircular towers adapted for firearms. In the 17th century, with the development of artillery, the walls lost their defensive significance.",
             ]),
             ("What to see", [

@@ -69,7 +69,7 @@ EN_BATCH6 = {
         short="The tomb of St Adalbert, the site of five royal coronations and the Romanesque Gniezno Doors of the 12th century.",
         badge="Mon–Sat",
         status=None,
-        lead="The Gothic cathedral on Lech Hill in Gniezno, the first capital of Poland, has been the main church of the Gniezno metropolis since the year 1000. It is the burial place of St Adalbert, patron of Poland, and the site of five royal coronations, and the seat of the Primates of Poland. Since 1994 it has been a Historic Monument of Poland.",
+        lead="The Gothic cathedral on Lech Hill in Gniezno, the first capital of Poland, has been the main church of the Gniezno metropolis since the year 1000. It is the burial place of St Adalbert, patron of Poland, the site of five royal coronations and the seat of the Primates of Poland. Since 1994 it has been a Historic Monument of Poland.",
         sections=[
             ("History", [
                 "The first church on the hill was built under Mieszko I, before 992. Its remains survive in the cathedral's crypts.",

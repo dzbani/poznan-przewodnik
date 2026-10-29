@@ -156,10 +156,11 @@ def srcset_attr(name, prefix, widths=(640, 1200)):
     return ", ".join(f"{prefix}{f}?v={img_v(name)} {w}w" for w, f in resp_set(name, widths))
 
 
-def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px", priority=False):
+def media_html(a, prefix, lazy=False, sizes="(max-width: 600px) 92vw, (max-width: 1100px) 45vw, 380px", priority=False,
+               no_photo="Brak zdjęcia"):
     """Zdjęcie atrakcji albo plansza z nazwą, gdy na Commons nie ma zdjęcia z podanym autorem."""
     if not a.get("img"):
-        return f'<div class="no-photo" role="img" aria-label="Brak zdjęcia: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
+        return f'<div class="no-photo" role="img" aria-label="{no_photo}: {escape(a["name"])}"><span>{escape(a["name"])}</span></div>'
     extra = ' loading="lazy" decoding="async"' if lazy else (' fetchpriority="high"' if priority else "")
     pos = f' style="object-position: {a["img_pos"]}"' if a.get("img_pos") else ""
     wide = img_wide(a["img"])
@@ -1120,8 +1121,8 @@ def build_credits():
 <header class="wrap page-head">
   <p class="kicker">Źródła</p>
   <h1>Autorzy zdjęć</h1>
-  <p class="lead">Wszystkie zdjęcia pochodzą z Wikimedia Commons i są używane zgodnie z licencjami Creative Commons albo pochodzą z domeny publicznej. Kliknij tytuł pliku, żeby zobaczyć oryginał, albo nazwę licencji, żeby przeczytać jej treść.</p>
-  <p class="muted">Na potrzeby przewodnika zdjęcia zostały pomniejszone i skompresowane, a na stronach mogą być wyświetlane w przyciętym kadrze. Inne zmiany opisuje kolumna „Zmiany”. Zmienione wersje udostępniamy na tych samych licencjach co oryginały.</p>
+  <p class="lead">Większość zdjęć pochodzi z Wikimedia Commons i jest używana zgodnie z licencjami Creative Commons albo pochodzi z domeny publicznej. Pozostałe opublikowano za zgodą autorów lub muzeów, co opisuje kolumna „Licencja”. Kliknij tytuł pliku, żeby zobaczyć oryginał, albo nazwę licencji, żeby przeczytać jej treść.</p>
+  <p class="muted">Na potrzeby przewodnika zdjęcia zostały pomniejszone i skompresowane, a na stronach mogą być wyświetlane w przyciętym kadrze. Inne zmiany opisuje kolumna „Zmiany”. Zmienione wersje zdjęć na licencjach otwartych udostępniamy na tych samych licencjach co oryginały.</p>
 </header>
 <div class="wrap"><div class="table-wrap"><table class="grid credits">
   <thead><tr><th scope="col"><span class="sr">Miniatura</span></th><th scope="col">Plik</th><th scope="col">Autor</th><th scope="col">Licencja</th><th scope="col">Zmiany</th></tr></thead>
