@@ -52,7 +52,7 @@ EN = {
     ),
     "ostrow-tumski": dict(
         name="Ostrów Tumski and the Archcathedral",
-        img_alt="The Archcathedral on Ostrów Tumski",
+        img_alt="The twin-towered façade of the Archcathedral on Ostrów Tumski seen from above, among greenery and townhouses",
         short="The oldest cathedral in Poland. The remains of the first rulers' tombs and the Golden Chapel.",
         badge="Crypts and tower paid",
         status=None,

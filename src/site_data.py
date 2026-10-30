@@ -54,7 +54,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="ostrow-tumski", cat="zabytki", name="Ostrów Tumski i Archikatedra",
-        img="ostrow-tumski", img_alt="Archikatedra na Ostrowie Tumskim",
+        img="ostrow-tumski", img_alt="Dwuwieżowa fasada archikatedry na Ostrowie Tumskim widziana z lotu ptaka, wśród zieleni i kamienic",
         short="Najstarsza katedra w Polsce. Relikty grobów pierwszych władców i Złota Kaplica.",
         badge="Krypty i wieża płatne",
         status=None,
