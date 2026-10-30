@@ -481,7 +481,7 @@ ATTRACTIONS = [
         ],
         address="ul. Krańcowa 81, 61-070 Poznań",
         hours=[("Marzec i październik", "9:00–17:00"), ("Kwiecień–wrzesień", "9:00–19:00"), ("Listopad–luty", "9:00–16:00")],
-        tickets=[("III–X, pn–pt", "45 zł, ulgowy 30 zł, rodzinny 80 zł"), ("III–X, sb–nd i święta", "55 zł, ulgowy 35 zł, rodzinny 115 zł"), ("XI–II", "20 zł, rodzinny 35 zł"), ("Dzieci do 3 lat", "bezpłatnie")],
+        tickets=[("III–X, pn–pt", "45 zł, ulgowy 30 zł, rodzinny 80 zł"), ("III–X, sb–nd i święta", "55 zł, ulgowy 35 zł, rodzinny 115 zł"), ("1 i 3 maja, Boże Ciało, 15 sierpnia", "60 zł, ulgowy 40 zł, rodzinny 130 zł"), ("XI–II", "20 zł, rodzinny 35 zł"), ("Dzieci do 3 lat", "bezpłatnie")],
         phone="+48 61 646 33 44", www=("zoo.poznan.pl", "https://zoo.poznan.pl/informacje-nowe-zoo/"),
         credit="zoo",
         sources=[("Zoo Poznań: ceny biletów", "https://zoo.poznan.pl/ceny-biletow-wstepu-do-ogrodu-zoologicznego/"),
@@ -1168,6 +1168,13 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno", "zamek-kornik"):
         _a["checked"] = "24.10.2026"
+
+# Przegląd sezonowy 30.10.2026: godziny i ceny porównane ze stronami oficjalnymi (zoo, ogród botaniczny, WMN, Fort VII,
+# katedra, Czekolady, Gołuchów, WPN, Palmiarnia). Bez Muzeum Archeologicznego i Cytadeli (część danych strona nie podaje).
+for _a in ATTRACTIONS:
+    if _a["slug"] in ("nowe-zoo", "stare-zoo", "ogrod-botaniczny", "muzeum-powstania", "muzeum-uzbrojenia", "fort-vii",
+                      "podziemia-katedry", "muzeum-czekolady", "zamek-goluchow", "wpn", "palmiarnia"):
+        _a["checked"] = "30.10.2026"
 
 # Szreniawa 30.10.2026: pełne porównanie karty ze stronami muzeum (godziny, bilety, kontakt, wystawy stałe).
 for _a in ATTRACTIONS:

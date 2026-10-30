@@ -211,7 +211,7 @@ EN_BATCH2 = {
         ],
         hours=[("March and October", "9:00–17:00"), ("April–September", "9:00–19:00"), ("November–February", "9:00–16:00")],
         tickets=[("Mar–Oct, Mon–Fri", "PLN 45, reduced PLN 30, family PLN 80"),
-                 ("Mar–Oct, Sat–Sun and public holidays", "PLN 55, reduced PLN 35, family PLN 115"),
+                 ("Mar–Oct, Sat–Sun and public holidays", "PLN 55, reduced PLN 35, family PLN 115"), ("1 and 3 May, Corpus Christi, 15 August", "PLN 60, reduced PLN 40, family PLN 130"),
                  ("Nov–Feb", "PLN 20, family PLN 35"), ("Children under 3", "free")],
     ),
     "cytadela": dict(
