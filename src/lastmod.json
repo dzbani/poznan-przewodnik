@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-10-30",
-"hash": "efe9afd04b407d6dcfdd41005c3f5167"
+"hash": "caae6b9e1f2031e02f0cb6a1a14623d1"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-23",
@@ -628,8 +628,8 @@
 "hash": "0e4505d70f885f07a8dcde0ab91f4cfc"
 },
 "atrakcje/szreniawa.html": {
-"date": "2026-10-29",
-"hash": "6011f441c97a6d09d45598d4b53393ad"
+"date": "2026-10-30",
+"hash": "e639c30e9b17d24e4f9985dca85593d1"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-10-30",
-"hash": "041b2b7d9d48963526eb58346569cfb5"
+"hash": "d46bcbbdaefe037bbff2fe548628728e"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-24",
@@ -1320,8 +1320,8 @@
 "hash": "d423e20ea45789a42f47f33eeb2401e0"
 },
 "en/attractions/szreniawa.html": {
-"date": "2026-10-29",
-"hash": "5e108bd027c403bce8c846984927eae1"
+"date": "2026-10-30",
+"hash": "2ea56c3ab4cf4760b5a1ceec2680b0c9"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -1396,8 +1396,8 @@
 "hash": "fc132c6c4cf35800e0b2cd2df1926e75"
 },
 "en/map.html": {
-"date": "2026-10-26",
-"hash": "0b9ec1777309cc1548f0cda42253c7a3"
+"date": "2026-10-30",
+"hash": "edf0b4af1cb09b5ac6294de2ee25eeaa"
 },
 "en/museums.html": {
 "date": "2026-10-26",
@@ -1405,7 +1405,7 @@
 },
 "en/photo-credits.html": {
 "date": "2026-10-30",
-"hash": "206ae6a8b1a4c773b6e4c6e2539033cc"
+"hash": "657e33b6960c9fbfc7bc9ade2173db28"
 },
 "en/plans.html": {
 "date": "2026-10-30",
@@ -1444,8 +1444,8 @@
 "hash": "893855cb9920ba895fbc650502bbf681"
 },
 "mapa.html": {
-"date": "2026-10-26",
-"hash": "28b749939e2f696c7d4a12837c465ef3"
+"date": "2026-10-30",
+"hash": "55515e043e4b32e48899ff9745fdafe2"
 },
 "muzea.html": {
 "date": "2026-10-26",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-10-30",
-"hash": "207328f06c69a770350c9de42badef0c"
+"hash": "a98036f45e2b07ff42cdc1241c08a5f3"
 },
 "zmiany.html": {
 "date": "2026-10-24",
