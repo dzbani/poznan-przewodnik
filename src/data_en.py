@@ -98,6 +98,7 @@ EN = {
             ("How to visit", [
                 "Tickets are for a specific time slot. Groups of up to 15 people enter every 15 minutes. The last entry is one hour before closing.",
                 "Allow about 2 hours for your visit.",
+                "The museum is also closed on 1 November, 24–26 December, 31 December and 1 January. On the first Thursday of each month, 16:00–18:00 are quiet hours.",
                 "An audio guide is included in the ticket price, in five languages. Versions are also available with Polish Sign Language interpretation, with audio description, and in Easy Read text.",
             ]),
         ],

@@ -103,7 +103,7 @@ ATTRACTIONS = [
             ]),
             ("Warto wiedzieć", [
                 "W budynku działa punkt informacji turystycznej.",
-                "Z Poznańską Kartą Turystyczną bilet kosztuje 21 zł (ulgowy 17 zł).",
+                "Z Poznańską Kartą Turystyczną bilet kosztuje 21 zł (ulgowy 17 zł). Ostatnie wejście na ekspozycję jest godzinę przed zamknięciem. Strona obiektu podaje w sobotę i niedzielę zamknięcie raz o 19:00, raz o 18:00, więc godzinę warto potwierdzić.",
             ]),
         ],
         address="ul. Gdańska 2, 61-123 Poznań",
@@ -718,7 +718,8 @@ MORE = [
         ],
         address="ul. Ks. I. Posadzego 3, 61-108 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–czwartek", "10:00–16:00"), ("Piątek–sobota", "10:00–18:00"), ("Niedziela", "10:00–15:00")],
-        tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Rodzinny (2 dorosłych + 4 dzieci)", "40 zł"), ("Niedziela", "wstęp wolny na ekspozycje")],
+        tickets=[("Normalny", "20 zł"), ("Ulgowy", "15 zł"), ("Rodzinny (2 dorosłych + 4 dzieci)", "50 zł"), ("Niedziela", "wstęp wolny na ekspozycje"),
+                 ("Wspólny z Pałacem Górków (Muzeum Archeologiczne)", "30 zł, ulgowy 25 zł, rodzinny 80 zł")],
         phone="+48 61 852 21 67", www=("rezerwat.muzarp.poznan.pl", "https://rezerwat.muzarp.poznan.pl/"),
         credit="genius-loci",
         sources=[("Genius Loci: bilety", "https://rezerwat.muzarp.poznan.pl/pl/bilety"),
@@ -1174,6 +1175,18 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("nowe-zoo", "stare-zoo", "ogrod-botaniczny", "muzeum-powstania", "muzeum-uzbrojenia", "fort-vii",
                       "podziemia-katedry", "muzeum-czekolady", "zamek-goluchow", "wpn", "palmiarnia"):
+        _a["checked"] = "30.10.2026"
+
+# Przegląd treści 30.10.2026: porównane ze stronami oficjalnymi (godziny, ceny, kontakt, komunikaty).
+_CHECKED_20261030 = {
+    "brama-poznania", "centrum-szyfrow-enigma", "genius-loci", "fort-iva", "fort-va", "teatr-wielki", "cmentarz-zasluzonych-wielkopolan",
+    "muzeum-czerwca-1956", "muzeum-sienkiewicza", "mieszkanie-illakowiczowny", "muzeum-pyry", "fotoplastykon", "muzeum-broni-pancernej",
+    "muzeum-farmacji", "muzeum-historii-ubioru", "muzeum-prl", "muzeum-bizuterii-moja", "niewidzialna-ulica", "muzeum-armii-poznan",
+    "rogalowe-muzeum", "kolejka-maltanka", "termy-maltanskie", "park-wilsona", "fontanna-park-wilsona", "park-rataje", "mppp-gniezno",
+    "palac-smielow", "muzeum-lesnictwa-goluchow", "skansen-miniatur-pobiedziska", "muzeum-archeologiczne", "muzeum-armii-poznan",
+}
+for _a in ATTRACTIONS:
+    if _a["slug"] in _CHECKED_20261030:
         _a["checked"] = "30.10.2026"
 
 # Szreniawa 30.10.2026: pełne porównanie karty ze stronami muzeum (godziny, bilety, kontakt, wystawy stałe).

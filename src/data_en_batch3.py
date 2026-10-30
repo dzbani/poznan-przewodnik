@@ -196,11 +196,12 @@ EN_BATCH3 = {
             ("Good to know", [
                 "Allow at least 2 hours for your visit.",
                 "On Thursdays admission to the permanent exhibition is free. The free ticket is collected at the ticket office.",
-                "The ticket office is open until 17:00, which is also the time of the last entry. Tickets can also be bought through the Bilety24 service.",
+                "The ticket office is open 10:30–14:00 and 14:15–17:30, and the last entry is at 16:30. Tickets can also be bought through the Bilety24 service.",
+                "The museum is closed on Saturday 31 October and Sunday 1 November 2026.",
             ]),
         ],
         hours=[("Monday–Tuesday", "closed"), ("Wednesday–Sunday", "10:30–17:30"),
-               ("Ticket office", "10:00–17:00, last entry at 17:00")],
+               ("Ticket office", "10:30–14:00 and 14:15–17:30, last entry at 16:30")],
         tickets=[("Standard", "PLN 30"), ("Reduced", "PLN 20"), ("Thursday", "free admission (free ticket from the ticket office)")],
     ),
     "fotoplastykon": dict(

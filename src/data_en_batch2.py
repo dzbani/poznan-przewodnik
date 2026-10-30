@@ -20,7 +20,7 @@ EN_BATCH2 = {
             ]),
             ("Good to know", [
                 "A tourist information point operates in the building.",
-                "With the Poznań Tourist Card a ticket costs PLN 21 (reduced PLN 17).",
+                "With the Poznań Tourist Card a ticket costs PLN 21 (reduced PLN 17). The last entry to the exhibition is one hour before closing. The venue's website gives the Saturday and Sunday closing time once as 19:00 and once as 18:00, so it is worth confirming.",
             ]),
         ],
         hours=[("Monday", "closed"), ("Tuesday–Friday", "9:00–18:00"), ("Saturday–Sunday", "10:00–19:00")],

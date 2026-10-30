@@ -22,8 +22,9 @@ EN_BATCH7 = {
             ]),
         ],
         hours=[("Monday", "closed"), ("Tuesday–Thursday", "10:00–16:00"), ("Friday–Saturday", "10:00–18:00"), ("Sunday", "10:00–15:00")],
-        tickets=[("Standard", "PLN 15"), ("Reduced", "PLN 10"), ("Family (2 adults + 4 children)", "PLN 40"),
-                 ("Sunday", "free admission to the exhibitions")],
+        tickets=[("Standard", "PLN 20"), ("Reduced", "PLN 15"), ("Family (2 adults + 4 children)", "PLN 50"),
+                 ("Sunday", "free admission to the exhibitions"),
+                 ("Joint with the Górka Palace (Archaeological Museum)", "PLN 30, reduced PLN 25, family PLN 80")],
     ),
     "podziemia-katedry": dict(
         name="Poznań Cathedral Crypts",

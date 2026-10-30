@@ -335,11 +335,12 @@ EN_BATCH8 = {
             ("Good to know", [
                 "The exhibition is for people aged 7 and over. It lasts about 30–45 minutes.",
                 "Organised groups are received from Monday to Friday from the morning, after booking by email. A guide who speaks English is available on request.",
-                "Prices differ depending on the day of the week. The current price list is on the exhibition's website.",
+                "Prices differ depending on the day of the week (price list from September 2025). The current price list is on the exhibition's website.",
             ]),
         ],
         hours=[("Monday", "closed to individual visitors"), ("Tuesday–Saturday", "12:00–18:00"), ("Sunday", "12:00–17:00")],
-        tickets=[("Ticket prices", "at niewidzialnaulica.pl")],
+        tickets=[("Standard", "PLN 50 (Tue–Thu), PLN 55 (Fri–Sun)"), ("Reduced, students", "PLN 45 (Tue–Thu), PLN 50 (Fri–Sun)"),
+                 ("Family 2+1 / 2+2", "PLN 140 / PLN 170"), ("Group of 20 or more", "PLN 35 per person, PLN 55 with a workshop")],
     ),
     "muzeum-kultur-swiata": dict(
         name="Museum of World Cultures",
