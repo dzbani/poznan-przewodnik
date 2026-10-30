@@ -629,7 +629,7 @@
 },
 "atrakcje/szreniawa.html": {
 "date": "2026-10-30",
-"hash": "e639c30e9b17d24e4f9985dca85593d1"
+"hash": "ee82c62112f0ffc66b104a07a0ba024c"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -1321,7 +1321,7 @@
 },
 "en/attractions/szreniawa.html": {
 "date": "2026-10-30",
-"hash": "2ea56c3ab4cf4760b5a1ceec2680b0c9"
+"hash": "72c504d5954292c40856251fc7b8babc"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
 "date": "2026-10-28",
@@ -1384,12 +1384,12 @@
 "hash": "20be02cb981f278f26d6da8ab35922c3"
 },
 "en/changes.html": {
-"date": "2026-10-24",
-"hash": "259e16077824442f0d14c7fccf457d40"
+"date": "2026-10-30",
+"hash": "d7ced1cd8d13ed17ec752723860ab28c"
 },
 "en/how-we-verify.html": {
-"date": "2026-10-29",
-"hash": "071dc5ed0d45026d61471e6457a1119f"
+"date": "2026-10-30",
+"hash": "2fe314e90e7c2fea243c701c65a5b5ad"
 },
 "en/index.html": {
 "date": "2026-10-30",
@@ -1436,8 +1436,8 @@
 "hash": "c7f88f52c0fa1b15842efbcc6a0579a2"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-10-29",
-"hash": "477f35a27ca20813a3e10c57a937ebe5"
+"date": "2026-10-30",
+"hash": "015734ec0f6a4fee13f91b44c9248153"
 },
 "kalendarz.html": {
 "date": "2026-10-27",
@@ -1476,7 +1476,7 @@
 "hash": "a98036f45e2b07ff42cdc1241c08a5f3"
 },
 "zmiany.html": {
-"date": "2026-10-24",
-"hash": "3dd28b45a5f65db5ad71c4704df3102b"
+"date": "2026-10-30",
+"hash": "894d59324e33f09fd5f239a192640a61"
 }
 }

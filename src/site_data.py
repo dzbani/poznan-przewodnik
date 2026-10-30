@@ -1166,8 +1166,13 @@ for _a in ATTRACTIONS:
 # wzgorzelecha.pl, bkpan.poznan.pl, muzeum-szreniawa.pl). Poprawione: zamek w Kórniku (godziny sezonu niskiego,
 # koniec sezonu 14.12) i Szreniawa (zmiana na godziny zimowe 24.10).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno", "zamek-kornik", "szreniawa"):
+    if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno", "zamek-kornik"):
         _a["checked"] = "24.10.2026"
+
+# Szreniawa 30.10.2026: pełne porównanie karty ze stronami muzeum (godziny, bilety, kontakt, wystawy stałe).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "szreniawa":
+        _a["checked"] = "30.10.2026"
     # Ostrów Lednicki i WPE: tabela godzin 2026 (obrazek na lednicamuzeum.pl) i cennik porównane 24.10.2026, bez zmian w danych.
     if _a["slug"] in ("ostrow-lednicki", "wpe-dziekanowice", "parowozownia-wolsztyn"):
         _a["checked"] = "24.10.2026"   # Wolsztyn: cennik (ważny od 1.01.2025), godziny zimowe 7:00–16:00 i telefon wg parowozowniawolsztyn.pl
