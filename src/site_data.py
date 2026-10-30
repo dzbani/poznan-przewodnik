@@ -279,12 +279,12 @@ ATTRACTIONS = [
         img="muzeum-narodowe", img_alt="Fasada gmachu Muzeum Narodowego w Poznaniu z szczytem, napisem i mozaikami nad oknami",
         short="Jedyny obraz Moneta w polskich zbiorach i duży zbiór obrazów Malczewskiego.",
         badge="Wt wstęp wolny",
-        status=None,
+        status=("warning", "Według strony muzeum Galeria Sztuki Średniowiecznej, Galeria Sztuki Polskiej XVI–XVIII w. i Galeria Sztuki Europejskiej w historycznym gmachu są obecnie nieczynne."),
         lead="Galeria Malarstwa i Rzeźby to główna siedziba Muzeum Narodowego w Poznaniu, jednego z najstarszych muzeów w Polsce, założonego w 1857 roku.",
         sections=[
             ("Co zobaczyć", [
                 "Plaża w Pourville Claude'a Moneta, jedyny obraz tego impresjonisty w polskich zbiorach.",
-                "Stary gmach: sztuka starożytna (w tym portrety rzymskich cesarzy), sztuka średniowieczna, sztuka polska XVI–XVIII wieku i malarstwo obce, m.in. hiszpańskie i włoskie.",
+                "Stary gmach: sztuka starożytna, w tym portrety rzymskich cesarzy. Galerie sztuki średniowiecznej, polskiej XVI–XVIII wieku i europejskiej (m.in. malarstwo hiszpańskie i włoskie) są obecnie nieczynne.",
                 "Nowy gmach: sztuka polska od oświecenia do dziś, w tym duży zbiór obrazów Jacka Malczewskiego.",
             ]),
             ("Warto wiedzieć", [
@@ -774,7 +774,7 @@ MORE = [
         address="Stary Rynek 45, 61-772 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny"), ("Z Poznańską Kartą Turystyczną", "bezpłatnie")], checked="01.10.2026",
-        phone=None, www=("mnp.art.pl", "https://mnp.art.pl/"),
+        phone="+48 61 852 08 57", www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="muzeum-instrumentow",
         sources=[("kultura.poznan.pl: Muzeum Instrumentów Muzycznych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202/muzeum-instrumentow-muzycznych-oddzial-muzeum-narodowego,15707.html"),
                  ("Visit Poznań: Muzeum Instrumentów Muzycznych", "https://visitpoznan.pl/muzeum-instrumentow-muzycznych")],
@@ -1184,6 +1184,7 @@ _CHECKED_20261030 = {
     "muzeum-farmacji", "muzeum-historii-ubioru", "muzeum-prl", "muzeum-bizuterii-moja", "niewidzialna-ulica", "muzeum-armii-poznan",
     "rogalowe-muzeum", "kolejka-maltanka", "termy-maltanskie", "park-wilsona", "fontanna-park-wilsona", "park-rataje", "mppp-gniezno",
     "palac-smielow", "muzeum-lesnictwa-goluchow", "skansen-miniatur-pobiedziska", "muzeum-archeologiczne", "muzeum-armii-poznan",
+    "muzeum-narodowe", "muzeum-instrumentow", "muzeum-kultur-swiata", "muzeum-wojskowe", "fiedler", "akademia-lubranskiego", "muzeum-iluzji",
 }
 for _a in ATTRACTIONS:
     if _a["slug"] in _CHECKED_20261030:

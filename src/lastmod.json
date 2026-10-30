@@ -4,8 +4,8 @@
 "hash": "caae6b9e1f2031e02f0cb6a1a14623d1"
 },
 "atrakcje/akademia-lubranskiego.html": {
-"date": "2026-10-23",
-"hash": "e41e6af35c92410034d812a0bb1edd92"
+"date": "2026-10-30",
+"hash": "8add8d5bde2e0ad8a6f972a6a750a9fd"
 },
 "atrakcje/arboretum-kornik.html": {
 "date": "2026-10-29",
@@ -60,8 +60,8 @@
 "hash": "e2f64fa805944f12b0a404c9fccf1206"
 },
 "atrakcje/fiedler.html": {
-"date": "2026-10-29",
-"hash": "69e114c7092cd5ad25a24cbe2e54baa1"
+"date": "2026-10-30",
+"hash": "fd72f5eaf3cdb265c4d53f5825de28b3"
 },
 "atrakcje/fontanna-apolla.html": {
 "date": "2026-10-23",
@@ -316,20 +316,20 @@
 "hash": "0af48397211d45cb972a91e10054adae"
 },
 "atrakcje/muzeum-iluzji.html": {
-"date": "2026-10-23",
-"hash": "4fad2b3ee4df2d3bb1d89112af064c2c"
+"date": "2026-10-30",
+"hash": "085e8c5cee240e0c81c30556e7974009"
 },
 "atrakcje/muzeum-instrumentow.html": {
-"date": "2026-10-23",
-"hash": "d620a18407d7774182c1c722cba5ec62"
+"date": "2026-10-30",
+"hash": "8386265a5c54726e3471cc2938acd8d3"
 },
 "atrakcje/muzeum-komunikacji-mpk.html": {
 "date": "2026-10-23",
 "hash": "d4983a976045fe0ca94e577ba82f9815"
 },
 "atrakcje/muzeum-kultur-swiata.html": {
-"date": "2026-10-23",
-"hash": "0942054f54dcd38bdd979c03b2d8f578"
+"date": "2026-10-30",
+"hash": "367682e96c6db42f7482b99ba967fc93"
 },
 "atrakcje/muzeum-kultury-cyfrowej.html": {
 "date": "2026-10-23",
@@ -340,8 +340,8 @@
 "hash": "b743f87cb1048a31459bae755de7e734"
 },
 "atrakcje/muzeum-narodowe.html": {
-"date": "2026-10-23",
-"hash": "698896fb673b42990bdbf6fc8588eca7"
+"date": "2026-10-30",
+"hash": "f9b7cdb2730953e992d3e6e1687f4298"
 },
 "atrakcje/muzeum-powstania.html": {
 "date": "2026-10-30",
@@ -372,8 +372,8 @@
 "hash": "4c676b8855f7b528d1394a1a60ba7324"
 },
 "atrakcje/muzeum-wojskowe.html": {
-"date": "2026-10-23",
-"hash": "278bd7af74e5063ca27f5b95aefd8b2c"
+"date": "2026-10-30",
+"hash": "c72741ae9881018cb65743fe9981537f"
 },
 "atrakcje/muzeum-ziemi.html": {
 "date": "2026-10-23",
@@ -696,8 +696,8 @@
 "hash": "d46bcbbdaefe037bbff2fe548628728e"
 },
 "en/attractions/akademia-lubranskiego.html": {
-"date": "2026-10-24",
-"hash": "00de44c7da78d6eb5f802e922f721332"
+"date": "2026-10-30",
+"hash": "d0ca870362b7f37fb25f6dc6ed0b5a7e"
 },
 "en/attractions/arboretum-kornik.html": {
 "date": "2026-10-29",
@@ -752,8 +752,8 @@
 "hash": "32ff0097ef7d44b0b03654644d5389a8"
 },
 "en/attractions/fiedler.html": {
-"date": "2026-10-29",
-"hash": "2aa8cfbeb57151700d4fe49dbdef00e3"
+"date": "2026-10-30",
+"hash": "fb65bc401b860c29731c424f45115f40"
 },
 "en/attractions/fontanna-apolla.html": {
 "date": "2026-10-24",
@@ -1008,20 +1008,20 @@
 "hash": "1350540ac89802de43fff63cff990cbb"
 },
 "en/attractions/muzeum-iluzji.html": {
-"date": "2026-10-24",
-"hash": "ee8915905d55ffbed4eff7cdc2ab526f"
+"date": "2026-10-30",
+"hash": "0ac6d83217fc370e6a000ac55ca3bfd5"
 },
 "en/attractions/muzeum-instrumentow.html": {
-"date": "2026-10-24",
-"hash": "044c85fd73660f7450eb7ef454af7152"
+"date": "2026-10-30",
+"hash": "e81dc70f8715218e9a2b450d1d924965"
 },
 "en/attractions/muzeum-komunikacji-mpk.html": {
 "date": "2026-10-24",
 "hash": "2f3875d72545c4a342e92cc23375c7dd"
 },
 "en/attractions/muzeum-kultur-swiata.html": {
-"date": "2026-10-24",
-"hash": "8f95509d140d073d58806bd97f7e82e1"
+"date": "2026-10-30",
+"hash": "250a83993ec06cdb41a53b551c569cac"
 },
 "en/attractions/muzeum-kultury-cyfrowej.html": {
 "date": "2026-10-29",
@@ -1032,8 +1032,8 @@
 "hash": "07ded1fc9777348e17debdffae20dbff"
 },
 "en/attractions/muzeum-narodowe.html": {
-"date": "2026-10-24",
-"hash": "40d5686843c12595a29f176868a26b34"
+"date": "2026-10-30",
+"hash": "c738cdadf6e0512f22fd3c0b2f7386ff"
 },
 "en/attractions/muzeum-powstania.html": {
 "date": "2026-10-30",
@@ -1064,8 +1064,8 @@
 "hash": "26874030ba64ed357816fa5a3950d20b"
 },
 "en/attractions/muzeum-wojskowe.html": {
-"date": "2026-10-24",
-"hash": "733d15829f31e20983dd68dcb09fd38a"
+"date": "2026-10-30",
+"hash": "beedc586a2ad10311a1c9ad5a389f181"
 },
 "en/attractions/muzeum-ziemi.html": {
 "date": "2026-10-24",
@@ -1393,7 +1393,7 @@
 },
 "en/index.html": {
 "date": "2026-10-30",
-"hash": "fc132c6c4cf35800e0b2cd2df1926e75"
+"hash": "a26878e0af9f3313719c2c19dfc558d2"
 },
 "en/map.html": {
 "date": "2026-10-30",
@@ -1401,7 +1401,7 @@
 },
 "en/museums.html": {
 "date": "2026-10-30",
-"hash": "8c60b479425c3c2a3d500267e4a49cbc"
+"hash": "0b7fbb03d1c1d6e77b5f7c12a435d3dd"
 },
 "en/photo-credits.html": {
 "date": "2026-10-30",
@@ -1429,11 +1429,11 @@
 },
 "index.html": {
 "date": "2026-10-30",
-"hash": "67faef8e380beea0fc76ba17fd2d4d05"
+"hash": "5fd25fc2de7930f29eb2c12b2fa24dca"
 },
 "informacje.html": {
-"date": "2026-10-26",
-"hash": "c7f88f52c0fa1b15842efbcc6a0579a2"
+"date": "2026-10-30",
+"hash": "de85cb346d0d3c1ed4130bb5c9b5fdd9"
 },
 "jak-weryfikujemy.html": {
 "date": "2026-10-30",
@@ -1449,7 +1449,7 @@
 },
 "muzea.html": {
 "date": "2026-10-30",
-"hash": "fb8128c5b8d517a57fc44e76a6ad9c9a"
+"hash": "cdb7ba58c9e4ebc0ae329b9ab6252385"
 },
 "o-poznaniu.html": {
 "date": "2026-10-26",

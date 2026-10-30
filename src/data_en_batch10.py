@@ -201,11 +201,12 @@ EN_BATCH10 = {
                 "Galleries of portraits, Polish and European painting, textiles and goldsmiths' work.",
             ]),
             ("Good to know", [
-                "The museum is part of the ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy), which costs PLN 49.",
+                "The museum is part of the ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy), which costs PLN 49. An audio guide can be borrowed free of charge with every ticket.",
             ]),
         ],
-        hours=[("Tuesday–Friday", "11:00–17:00"), ("Saturday", "11:00–16:00"), ("Sunday", "11:00–15:00")],
-        tickets=[("Ticket prices", "at akademialubranskiego.pl"), ("Ticket for 3 places on the island", "PLN 49")],
+        hours=[("Tuesday–Friday", "11:00–17:00"), ("Saturday", "11:00–16:00"), ("Sunday–Monday", "closed")],
+        tickets=[("Standard", "PLN 40"), ("Reduced", "PLN 30"), ("Family", "PLN 80"), ("Special", "PLN 15"), ("Guide", "PLN 100"),
+                 ("Ticket for 3 places on the island", "PLN 49")],
     ),
     "muzeum-farmacji": dict(
         name="Museum of Pharmacy",

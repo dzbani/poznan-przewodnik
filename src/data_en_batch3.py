@@ -8,12 +8,12 @@ EN_BATCH3 = {
         img_alt="The façade of the National Museum building in Poznań, with its pediment, inscription and mosaics above the windows",
         short="The only Monet painting in Polish collections and a large collection of works by Malczewski.",
         badge="Tue free",
-        status=None,
+        status="According to the museum's website, the Gallery of Medieval Art, the Gallery of Polish Art of the 16th–18th Centuries and the Gallery of European Art in the historic building are currently closed.",
         lead="The Gallery of Painting and Sculpture is the main seat of the National Museum in Poznań, one of the oldest museums in Poland, founded in 1857.",
         sections=[
             ("What to see", [
                 "“The Beach at Pourville” by Claude Monet, the only painting by this Impressionist in Polish collections.",
-                "The old building: ancient art (including portraits of Roman emperors), medieval art, Polish art of the 16th–18th centuries and foreign painting, including Spanish and Italian.",
+                "The old building: ancient art, including portraits of Roman emperors. The galleries of medieval art, Polish art of the 16th–18th centuries and European art (including Spanish and Italian painting) are currently closed.",
                 "The new building: Polish art from the Enlightenment to the present day, including a large collection of paintings by Jacek Malczewski.",
             ]),
             ("Good to know", [

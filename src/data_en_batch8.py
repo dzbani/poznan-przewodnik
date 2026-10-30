@@ -313,12 +313,13 @@ EN_BATCH8 = {
                 "An upside-down room, a Pixel Table and stations where you can “levitate”.",
             ]),
             ("Good to know", [
-                "The last entry is at 17:30.",
-                "Current ticket prices are given by the museum on its website and on social media.",
+                "Visits are guided, at fixed times, in groups of a dozen or so people. The times are given when you buy a ticket or by phone, and a guide in English must be arranged in advance.",
+                "The museum does not accept the Large Family Card. A visit takes about 60–90 minutes.",
             ]),
         ],
-        hours=[("Monday", "closed"), ("Tuesday–Sunday", "10:00–19:00")],
-        tickets=[("Ticket prices", "at muzeumins.pl")],
+        hours=[("Monday", "closed"), ("Tuesday–Saturday", "visits at fixed times, given when you buy a ticket"), ("Sunday", "visit with an illusion show, times given when you buy a ticket")],
+        tickets=[("Standard / reduced (Tue–Sat)", "PLN 55 / PLN 45"), ("Family 2+1 / 2+2 / 2+3 (Tue–Sat)", "PLN 135 / PLN 164 / PLN 205"),
+                 ("Sunday, with an illusion show: standard / reduced", "PLN 70 / PLN 60"), ("Group of 12–25", "PLN 35 per person")],
     ),
     "niewidzialna-ulica": dict(
         name="Invisible Street (Niewidzialna Ulica)",
