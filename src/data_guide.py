@@ -156,7 +156,7 @@ LEGENDS = [
     ("O ratuszowym hejnale",
      "Przemek, syn strażnika z ratuszowej wieży, uratował rannego kruka. Ptak okazał się królem kruków i dał mu srebrną trąbkę na czas zagrożenia. Gdy wróg otoczył miasto, Przemek zatrąbił na cztery strony świata. Nadleciały tysiące ptaków i przegoniły najeźdźców. Na pamiątkę postanowiono, że trębacz miejski będzie codziennie grał z wieży hejnał na cztery strony świata."),
     ("O fontannie Prozerpiny",
-     "W XVII wieku bogata wdowa Petronela poślubiła młodego czeladnika kamieniarskiego. Gdy ten zakochał się w innej, oskarżyła go o próbę otrucia. Sąd ukarał go tylko grzywną i nakazał postawić własnym kosztem fontannę przed ratuszem. Tak powstała fontanna z porwaniem Prozerpiny przez Plutona."),
+     "W XVII wieku bogata wdowa Petronela poślubiła młodego czeladnika kamieniarskiego. Gdy ten zakochał się w innej, oskarżyła go o próbę otrucia. Sąd ukarał go tylko grzywną i nakazał postawić własnym kosztem fontannę przed ratuszem. Tak powstała fontanna z porwaniem Prozerpiny przez Plutona. Według źródeł historycznych sama fontanna została ukończona w 1766 roku."),
     ("O mieczu św. Piotra",
      "Rzymski miecz z Muzeum Archidiecezjalnego ma być tym, którym św. Piotr odciął ucho słudze arcykapłana w Ogrodzie Oliwnym. Według Jana Długosza papież podarował go pierwszemu biskupowi poznańskiemu Jordanowi."),
     ("O rogalach świętomarcińskich",
