@@ -114,7 +114,7 @@ EN = {
         lead="The Croissant Museum (Rogalowe Muzeum Poznania) is an interactive show near the Old Market Square. Visitors learn the history of the rogal świętomarciński (St Martin's croissant) and see how it is made following the traditional recipe.",
         sections=[
             ("About the croissant", [
-                "Since 2008 the name “rogal świętomarciński” has been a Protected Geographical Indication of the European Union (Commission Regulation (EC) No 1070/2008 of 30 October 2008). Only a bakery in the Greater Poland region that holds a certificate from the Chapter of the Poznań Traditional St Martin's Croissant may use the name.",
+                "Since 2008 the name “rogal świętomarciński” has been a Protected Geographical Indication of the European Union (Commission Regulation (EC) No 1070/2008 of 30 October 2008). Only a bakery or confectioner from Poznań and most of the Greater Poland Voivodeship (except the Złotów, Międzychód, Kępno, Ostrzeszów and Turek poviats) that meets the requirements of the product specification and has registered with the St Martin's Croissant Producer Group may use the name.",
                 "Poznań residents eat these croissants above all on 11 November, the St Martin Street Name Day.",
             ]),
             ("The shows", [

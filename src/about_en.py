@@ -73,7 +73,7 @@ LABELS = dict(
     h_history="History in brief", h_legends="Legends", h_dialect="Do you speak Poznań?",
     dialect_intro="Poznań people still use words from the local dialect. These are the ones you will hear most often:",
     h_food="What to eat in Poznań", h_climate="Climate",
-    food_p1="Only bakeries from the Greater Poland region that hold a certificate from the Chapter of the Poznań Traditional St Martin's Croissant may use the name “rogal świętomarciński”. You can learn the history of the croissant at the {rogal}, and of the potato at the {pyry}.",
+    food_p1="Only bakeries and confectioners from Poznań and most of the Greater Poland Voivodeship (except the Złotów, Międzychód, Kępno, Ostrzeszów and Turek poviats) that meet the requirements of the product specification and have registered with the St Martin's Croissant Producer Group may use the name “rogal świętomarciński”. You can learn the history of the croissant at the {rogal}, and of the potato at the {pyry}.",
     food_p2="The restaurant Muga has held a Michelin star for the fourth year in a row. The Michelin Guide 2026 lists 25 venues from Poznań and the surrounding area.",
     climate_p="Summers are warm but there can be downpours. In winter the temperature often drops below zero. Late spring and early autumn are the most pleasant seasons for sightseeing.",
     climate_src="Averages for 1991–2020, Poznań-Ławica station. Calculations based on {imgw_data}. Forecast: {imgw}.",

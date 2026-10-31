@@ -308,7 +308,7 @@ ATTRACTIONS = [
         lead="Rogalowe Muzeum to interaktywny pokaz przy Starym Rynku. Pokaz ma interaktywny charakter: uczestnicy poznają historię rogala świętomarcińskiego i to, jak powstaje według tradycyjnej receptury.",
         sections=[
             ("O rogalu", [
-                "Nazwa „rogal świętomarciński” jest od 2008 roku unijnym Chronionym Oznaczeniem Geograficznym (rozporządzenie Komisji (WE) nr 1070/2008 z 30 października 2008 roku). Nazwy może używać tylko cukiernia z Wielkopolski, która ma certyfikat Kapituły Poznańskiego Tradycyjnego Rogala Świętomarcińskiego.",
+                "Nazwa „rogal świętomarciński” jest od 2008 roku unijnym Chronionym Oznaczeniem Geograficznym (rozporządzenie Komisji (WE) nr 1070/2008 z 30 października 2008 roku). Nazwy może używać tylko cukiernia lub piekarnia z Poznania i większości województwa wielkopolskiego (poza powiatami złotowskim, międzychodzkim, kępińskim, ostrzeszowskim i tureckim), która spełnia wymagania specyfikacji i zgłosiła się do Grupy Producentów Rogala Świętomarcińskiego.",
                 "Poznaniacy jedzą rogale przede wszystkim 11 listopada, w dniu Imienin Ulicy Święty Marcin.",
             ]),
             ("Pokazy", [

@@ -568,8 +568,8 @@
 "hash": "1b73c15477ab7facd74651557730db03"
 },
 "atrakcje/rogalowe-muzeum.html": {
-"date": "2026-10-30",
-"hash": "1e14c6e9d1bd5d9e019a5a2b17d29e53"
+"date": "2026-10-31",
+"hash": "d990b10caa60bc71366ea32047edc9d0"
 },
 "atrakcje/rusalka.html": {
 "date": "2026-10-23",
@@ -689,7 +689,7 @@
 },
 "en/about.html": {
 "date": "2026-10-31",
-"hash": "cafa413bfc26b761920cbfbb7cd44935"
+"hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
 "date": "2026-10-30",
@@ -1260,8 +1260,8 @@
 "hash": "8e8ddeb9c3837bcce2203333e047270a"
 },
 "en/attractions/rogalowe-muzeum.html": {
-"date": "2026-10-30",
-"hash": "0982a448f65974a98be974b0742a957a"
+"date": "2026-10-31",
+"hash": "aa0a6e83a290085dee3143baac566ccc"
 },
 "en/attractions/rusalka.html": {
 "date": "2026-10-24",
@@ -1412,8 +1412,8 @@
 "hash": "b873f7286e125a3cb997963232535af4"
 },
 "en/practical.html": {
-"date": "2026-10-26",
-"hash": "fd5c289c4cc7e81df12eed39a789d5fb"
+"date": "2026-10-31",
+"hash": "6565d0cc917c02ab21be41e6c3f4a312"
 },
 "en/privacy.html": {
 "date": "2026-10-29",
@@ -1432,8 +1432,8 @@
 "hash": "04f2ea387dfd2cd60f7f29921c5bf4ae"
 },
 "informacje.html": {
-"date": "2026-10-30",
-"hash": "de85cb346d0d3c1ed4130bb5c9b5fdd9"
+"date": "2026-10-31",
+"hash": "98ec5d9b19d11f950f18f5a214694fc7"
 },
 "jak-weryfikujemy.html": {
 "date": "2026-10-31",
@@ -1453,7 +1453,7 @@
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
-"hash": "b5b0c7fb7ffbdac356d57172823013aa"
+"hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
 "date": "2026-10-30",
