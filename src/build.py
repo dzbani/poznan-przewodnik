@@ -637,7 +637,7 @@ def build_info():
     it_points = [
         ("Stary Rynek", "Stary Rynek 59/60", "pn–sb 9:30–18:00, nd 9:00–17:00", "+48 61 852 61 56"),
         ("Plac Kolegiacki", "pl. Kolegiacki 17", "sezonowo 1.05–30.09: pn–sb 10:00–18:00, nd 9:00–17:00", "+48 883 400 034"),
-        ("Lotnisko Ławica", "ul. Bukowska 285", "codziennie (źródła podają różne godziny: 7:00–19:00 albo 8:00–20:00)", "info@airport-poznan.com.pl"),
+        ("Lotnisko Ławica", "ul. Bukowska 285", "codziennie 7:00–19:00", "info@airport-poznan.com.pl"),
         ("Brama Poznania", "ul. Gdańska 2", "wt–pt 9:00–18:00, sb–nd 10:00–19:00", "+48 61 647 76 34"),
     ]
     it_rows = "".join(f"<tr><th scope=\"row\">{escape(n)}</th><td>{escape(ad)}</td><td>{escape(h)}</td><td class=\"sel\">{escape(c)}</td></tr>" for n, ad, h, c in it_points)
@@ -687,7 +687,7 @@ def build_info():
 <section id="przyjazd">
   <h2>Przyjazd</h2>
   <h3>Lotnisko Poznań-Ławica</h3>
-  <p>Lotnisko leży przy ul. Bukowskiej 285. Między terminalem a dworcem Poznań Główny kursują autobusy linii <strong>148</strong> i <strong>159</strong>. Od 18 kwietnia 2026 roku jeżdżą na zmianę, więc z przystanków Poznań Główny, Rondo Kaponiera i Bałtyk oraz spod terminalu odjeżdżają co 7–8 minut w godzinach szczytu, a poza szczytem i w weekendy co 10 minut. Linia <strong>177</strong> kursuje co 30 minut w szczycie i co 40 minut poza nim.</p>
+  <p>Lotnisko leży przy ul. Bukowskiej 285. Między terminalem a dworcem Poznań Główny kursują autobusy linii <strong>148</strong> i <strong>159</strong>. Od 18 kwietnia 2026 roku kursują ze wspólną częstotliwością, więc z przystanków Poznań Główny, Rondo Kaponiera i Bałtyk oraz spod terminalu odjeżdżają łącznie co 7–8 minut w godzinach szczytu, a poza szczytem i w weekendy co 10 minut. Linia <strong>177</strong> kursuje co 30 minut w szczycie i co 40 minut poza nim.</p>
   <p>Bilet kupisz kartą płatniczą przy terminalu w autobusie. Na lotnisku działa punkt informacji turystycznej.</p>
   <p class="muted">Źródło: <a href="https://www.ztm.poznan.pl/aktualnosci/komunikaty/linie-nr-148-159-oraz-177-zmiany-w-komunikacji-na-trasie-poznan-glowny-port-lotniczy-lawica-od-18-kwietnia/" target="_blank" rel="noopener">ZTM Poznań: linie 148, 159 i 177 od 18 kwietnia 2026</a></p>
   <h3>Dworzec Poznań Główny</h3>

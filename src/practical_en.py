@@ -25,7 +25,7 @@ def body(checked):
 <section id="arrival">
   <h2>Arriving</h2>
   <h3>Poznań-Ławica Airport</h3>
-  <p>The airport is at ul. Bukowska 285. Buses <strong>148</strong> and <strong>159</strong> run between the terminal and the Poznań Główny railway station. Since 18 April 2026 they run alternately, so from the stops Poznań Główny, Rondo Kaponiera and Bałtyk and from the terminal they leave every 7–8 minutes at peak times, and every 10 minutes off-peak and at weekends. Line 177 runs every 30 minutes at peak times and every 40 minutes otherwise.</p>
+  <p>The airport is at ul. Bukowska 285. Buses <strong>148</strong> and <strong>159</strong> run between the terminal and the Poznań Główny railway station. Since 18 April 2026 they run with a shared frequency, so from the stops Poznań Główny, Rondo Kaponiera and Bałtyk and from the terminal they leave every 7–8 minutes in total at peak times, and every 10 minutes off-peak and at weekends. Line 177 runs every 30 minutes at peak times and every 40 minutes otherwise.</p>
   <p>You can buy a ticket with a payment card at the terminal on the bus. There is a tourist information point at the airport.</p>
   <p class="muted">Source (in Polish): {ext("https://www.ztm.poznan.pl/aktualnosci/komunikaty/linie-nr-148-159-oraz-177-zmiany-w-komunikacji-na-trasie-poznan-glowny-port-lotniczy-lawica-od-18-kwietnia/", "ZTM Poznań: lines 148, 159 and 177 from 18 April 2026")}</p>
   <h3>Poznań Główny railway station</h3>
@@ -87,7 +87,7 @@ def body(checked):
     <tbody>
       <tr><th scope="row">Old Market Square</th><td>Stary Rynek 59/60</td><td>Mon–Sat 9:30–18:00, Sun 9:00–17:00</td><td class="sel">+48 61 852 61 56</td></tr>
       <tr><th scope="row">Kolegiacki Square</th><td>pl. Kolegiacki 17</td><td>seasonal, 1 May–30 Sep: Mon–Sat 10:00–18:00, Sun 9:00–17:00</td><td class="sel">+48 883 400 034</td></tr>
-      <tr><th scope="row">Ławica Airport</th><td>ul. Bukowska 285</td><td>daily (sources give different hours: 7:00–19:00 or 8:00–20:00)</td><td class="sel">info@airport-poznan.com.pl</td></tr>
+      <tr><th scope="row">Ławica Airport</th><td>ul. Bukowska 285</td><td>daily 7:00–19:00</td><td class="sel">info@airport-poznan.com.pl</td></tr>
       <tr><th scope="row">Gate of Poznań</th><td>ul. Gdańska 2</td><td>Tue–Fri 9:00–18:00, Sat–Sun 10:00–19:00</td><td class="sel">+48 61 647 76 34</td></tr>
     </tbody>
   </table></div>
