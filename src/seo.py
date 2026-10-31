@@ -45,9 +45,18 @@ def _always_open(a):
     return all(any(w in v for w in words) for _, v in a["hours"][:1])
 
 
+# Tytuły ręczne dla stron z największym ruchem z wyszukiwarki (Search Console 31.10.2026): krótsze, bez końcówki marki.
+TITLE_OVERRIDE = {
+    "zamek-kornik": "Zamek w Kórniku – godziny otwarcia i bilety",
+    "lodowisko-malta": "Lodowisko Malta – godziny, bilety, dojazd",
+}
+
+
 def title(a):
     """Tytuł pod zapytanie „<miejsce> godziny otwarcia / bilety / dojazd”. Nazwa na początku,
     bo Google ucina końcówkę dłuższych tytułów."""
+    if a["slug"] in TITLE_OVERRIDE:
+        return TITLE_OVERRIDE[a["slug"]]
     if a["cat"] == "wycieczki":
         tail = "godziny otwarcia, bilety, dojazd z Poznania"
     elif a["cat"] == "pomniki":

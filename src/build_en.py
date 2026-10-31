@@ -187,7 +187,12 @@ def card_en(a, prefix, num=None):
 </li>"""
 
 
+TITLE_OVERRIDE_EN = {"muzeum-czekolady": "Chocolate Museum Poznań – hours, tickets, workshop"}
+
+
 def seo_title(pl, name):
+    if pl["slug"] in TITLE_OVERRIDE_EN:
+        return TITLE_OVERRIDE_EN[pl["slug"]]
     if pl["cat"] == "wycieczki":
         tail = "opening hours, tickets, how to get there from Poznań"
     elif pl["cat"] == "pomniki":
@@ -489,7 +494,7 @@ def build_calendar_en():
   <p class="muted small">Dates checked {en_date(CAL_CHECKED)} on the organisers' websites. Please confirm them with the organiser before you travel. The city's current cultural programme: <a href="https://kultura.poznan.pl/" target="_blank" rel="noopener">kultura.poznan.pl</a> (in Polish). Permanent venues: <a href="theatres.html">theatres and concerts</a>.</p>
 </div>
 """
-    return page_en("Events in Poznań: festivals, fairs and holidays by month | Odkrywaj Poznań", body, prefix="../",
+    return page_en("Events in Poznań: festivals, fairs and holidays by month", body, prefix="../",
                    alt="kalendarz.html", active="calendar",
                    desc="Annual events in Poznań: Malta Festival, Ethno Port, Museums' Night, the St Martin Street Name Day, Christmas fairs, the marathon and more. Dates and venues.")
 

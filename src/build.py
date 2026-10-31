@@ -1183,7 +1183,8 @@ def build_map():
 <p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Przyciski w opisie punktu otwierają Google Maps z położeniem atrakcji albo trasą komunikacją.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
-    return page("Mapa atrakcji – Odkrywaj Poznań", body, desc="Wszystkie atrakcje Poznania z przewodnika na jednej mapie, z filtrami.",
+    return page("Mapa atrakcji – Odkrywaj Poznań", body,
+                desc=f"Mapa {len(ATTRACTIONS)} atrakcji Poznania i okolic: muzea, parki, zabytki, kościoły, punkty widokowe i wycieczki. Filtruj według kategorii.",
                 active="mapa", head=f'<link rel="stylesheet" href="assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
                 scripts=f'<script src="assets/leaflet.js?v={asset_v("leaflet.js")}"></script>\n'
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')
@@ -1339,7 +1340,7 @@ def build_museums():
 </section>
 </div>
 """
-    return page("Muzea w Poznaniu: godziny otwarcia, ceny biletów i dni bezpłatne – Odkrywaj Poznań", body,
+    return page("Muzea w Poznaniu – godziny, ceny biletów, dni bezpłatne", body,
                 desc=f"Zestawienie {len(mus)} muzeów w Poznaniu: godziny otwarcia, ceny biletów normalnych i ulgowych, dni wstępu wolnego i muzea otwarte w poniedziałek.",
                 active="atrakcje")
 

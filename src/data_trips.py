@@ -12,6 +12,7 @@ TRIPS = [
         img="zamek-kornik", img_alt="Neogotycki zamek w Kórniku odbijający się w wodzie fosy",
         short="Neogotycki zamek Działyńskich z legendą o Białej Damie i jedną z najstarszych bibliotek w Polsce.",
         badge="Wt–nd",
+        desc="Neogotycki zamek z legendą o Białej Damie. Sezon wt–nd, poniedziałki nieczynne. Bilety: normalny 40 zł, ulgowy 20 zł. Adres: ul. Zamkowa 5, Kórnik.",
         status=("warning", "Według strony zamku sezon turystyczny 2026 kończy się 14 grudnia. Strona nie podaje godzin na grudzień ani na zimową przerwę, więc przed wizytą w grudniu lub od stycznia do połowy lutego sprawdź je u zamku."),
         lead="Zamek w Kórniku stoi na dawnej wyspie, otoczony wodą. Ma średniowieczne początki, ale wygląd baśniowej, neogotyckiej rezydencji nadał mu w XIX wieku Tytus Działyński. Dziś mieści Bibliotekę Kórnicką Polskiej Akademii Nauk i muzeum z historycznymi wnętrzami.",
         sections=[

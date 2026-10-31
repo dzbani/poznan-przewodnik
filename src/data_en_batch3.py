@@ -132,6 +132,7 @@ EN_BATCH3 = {
         img_alt="The Neo-Gothic castle in Kórnik reflected in the moat",
         short="The Neo-Gothic castle of the Działyński family, with the legend of the White Lady and one of the oldest libraries in Poland.",
         badge="Tue–Sun",
+        desc="Neo-Gothic castle with the legend of the White Lady. Season Tue–Sun, closed Mondays. Tickets: standard PLN 40, reduced PLN 20. Address: ul. Zamkowa 5, Kórnik.",
         status="According to the castle's website the 2026 tourist season ends on 14 December. The website gives no hours for December or the winter break, so check them with the castle before visiting in December or from January to mid-February.",
         lead="Kórnik Castle stands on a former island, surrounded by water. It has medieval origins, but its look as a fairy-tale Neo-Gothic residence was given to it in the 19th century by Tytus Działyński. Today it houses the Kórnik Library of the Polish Academy of Sciences and a museum with historic interiors.",
         sections=[
