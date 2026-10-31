@@ -122,7 +122,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="fara", cat="koscioly", name="Fara Poznańska",
-        img="fara", img_alt="Barokowa fasada Fary Poznańskiej",
+        img="fara", og_pos="center top", img_alt="Barokowa fasada Fary Poznańskiej widoczna z wąskiej, brukowanej ulicy",
         short="Barokowy kościół farny z organami Ladegasta. Koncerty w każdą sobotę o 12:15.",
         badge="Wstęp wolny",
         status=None,

@@ -32,7 +32,7 @@ EN_BATCH2 = {
     ),
     "fara": dict(
         name="Poznań Parish Church (Fara)",
-        img_alt="The Baroque façade of the Poznań Parish Church",
+        img_alt="The Baroque façade of the Poznań Parish Church seen from a narrow cobbled street",
         short="A Baroque parish church with a Ladegast organ. Concerts every Saturday at 12:15.",
         badge="Free entry",
         status=None,
