@@ -11,7 +11,7 @@ GAPS4 = [
         img="lodowisko-malta", img_alt="Łyżwiarze na lodzie w namiocie Lodowiska Malta (zdjęcie z 2016 roku)",
         short="Sezonowe lodowisko w namiocie przy Torze Regatowym Malta. Sezon 2026/27 ruszył 10 października.",
         badge="Sezonowo, płatne",
-        status=("warning", "1 listopada 2026 lodowiska POSiR są nieczynne (komunikat POSiR z 28.10.2026)."),
+        status=None,
         lead="Lodowisko Malta to sezonowe lodowisko Poznańskich Ośrodków Sportu i Rekreacji w namiocie przy starcie Toru Regatowego Malta. Nowy sezon łyżwiarski ruszył tu w sobotę 10 października 2026 roku.",
         sections=[
             ("Co tu jest", [

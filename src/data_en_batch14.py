@@ -8,7 +8,7 @@ EN_BATCH14 = {
         img_alt="Skaters on the ice inside the tent of the Malta Ice Rink (photo from 2016)",
         short="A seasonal ice rink in a tent by the Malta Regatta Course. The 2026/27 season opened on 10 October.",
         badge="Seasonal, paid",
-        status="On 1 November 2026 the POSiR ice rinks are closed (POSiR announcement of 28 October 2026).",
+        status=None,
         lead="The Malta Ice Rink is a seasonal rink run by Poznańskie Ośrodki Sportu i Rekreacji (POSiR, the city's sport and recreation centres) in a tent at the start of the Malta Regatta Course. The new skating season began here on Saturday 10 October 2026.",
         sections=[
             ("What is here", [
