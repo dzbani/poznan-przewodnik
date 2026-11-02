@@ -1188,7 +1188,7 @@ _CHECKED_20261030 = {
     "brama-poznania", "centrum-szyfrow-enigma", "genius-loci", "fort-iva", "fort-va", "teatr-wielki", "cmentarz-zasluzonych-wielkopolan",
     "muzeum-czerwca-1956", "muzeum-sienkiewicza", "mieszkanie-illakowiczowny", "muzeum-pyry", "fotoplastykon", "muzeum-broni-pancernej",
     "muzeum-farmacji", "muzeum-historii-ubioru", "muzeum-prl", "muzeum-bizuterii-moja", "niewidzialna-ulica", "muzeum-armii-poznan",
-    "rogalowe-muzeum", "kolejka-maltanka", "termy-maltanskie", "park-wilsona", "fontanna-park-wilsona", "park-rataje", "mppp-gniezno",
+    "rogalowe-muzeum", "termy-maltanskie", "park-wilsona", "fontanna-park-wilsona", "park-rataje", "mppp-gniezno",
     "palac-smielow", "muzeum-lesnictwa-goluchow", "skansen-miniatur-pobiedziska", "muzeum-archeologiczne", "muzeum-armii-poznan",
     "muzeum-narodowe", "muzeum-instrumentow", "muzeum-kultur-swiata", "muzeum-wojskowe", "fiedler", "akademia-lubranskiego", "muzeum-iluzji",
 }
