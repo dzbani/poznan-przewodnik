@@ -275,13 +275,15 @@ EN_BATCH2 = {
         sections=[
             ("Good to know", [
                 "The 2026 season ran from 12 April to 27 September, and from 24 April the railway ran every day.",
-                "Since the 2026 season you can buy a return ticket. Tickets are sold at both terminal stations.",
-                "On the way the railway passes close to the Malta Thermal Baths.",
+                "Since 1 May 2026 you can buy a return ticket. Tickets are sold at both terminal stations.",
+                "The route is just under 4 km long. The stations are Maltanka, Ptyś (near the Malta Thermal Baths), Balbinka (where the two trains pass) and Zwierzyniec.",
             ]),
         ],
         hours=[("In season, working days", "every hour, 9:30–18:30"), ("In season, weekends and public holidays", "every 30 minutes, 10:00–19:00"),
                ("Off season (from 28 Sep 2026)", "the railway does not run")],
         tickets=[("One way", "PLN 18, reduced (up to 16 years) PLN 12, family PLN 48"),
-                 ("Return", "PLN 24, reduced PLN 16, family PLN 64")],
+                 ("Return", "PLN 24, reduced PLN 16, family PLN 64"),
+                 ("Family ticket", "up to 5 people, including no more than 2 over 16"),
+                 ("Group ticket", "PLN 10 one way, PLN 13 return (organised group of children and young people up to 16, at least 10 people)")],
     ),
 }

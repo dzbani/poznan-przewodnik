@@ -523,16 +523,19 @@ ATTRACTIONS = [
         sections=[
             ("Warto wiedzieć", [
                 "Sezon 2026 trwał od 12 kwietnia do 27 września, a od 24 kwietnia kolejka kursowała codziennie.",
-                "Od sezonu 2026 można kupić bilet tam i z powrotem. Bilety sprzedają obie stacje końcowe.",
-                "Po drodze kolejka dojeżdża w pobliże Term Maltańskich.",
+                "Od 1 maja 2026 można kupić bilet tam i z powrotem. Bilety sprzedają obie stacje końcowe.",
+                "Trasa ma niespełna 4 km. Stacje to Maltanka, Ptyś (w okolicy Term Maltańskich), Balbinka (mijanka dwóch pociągów) i Zwierzyniec.",
             ]),
         ],
         address="Kolejka Parkowa Maltanka, ul. Jana Pawła II 1, 61-131 Poznań",
         hours=[("W sezonie, dni robocze", "co godzinę, 9:30–18:30"), ("W sezonie, weekendy i święta", "co 30 minut, 10:00–19:00"), ("Poza sezonem (od 28.09.2026)", "kolejka nie kursuje")],
-        tickets=[("W jedną stronę", "18 zł, ulgowy (do 16 lat) 12 zł, rodzinny 48 zł"), ("Tam i z powrotem", "24 zł, ulgowy 16 zł, rodzinny 64 zł")],
-        phone=None, www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/maltanka/"),
+        tickets=[("W jedną stronę", "18 zł, ulgowy (do 16 lat) 12 zł, rodzinny 48 zł"), ("Tam i z powrotem", "24 zł, ulgowy 16 zł, rodzinny 64 zł"),
+                 ("Bilet rodzinny", "do 5 osób, w tym najwyżej 2 powyżej 16 lat"),
+                 ("Bilet wycieczkowy", "10 zł w jedną stronę, 13 zł tam i z powrotem (zorganizowana grupa dzieci i młodzieży do 16 lat, minimum 10 osób)")],
+        phone="+48 618 396 690", www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/maltanka/"),
         credit="kolejka-maltanka",
-        sources=[("MPK Poznań: bilety na Maltankę 2026", "https://www.mpk.poznan.pl/nowy-rodzaj-biletow-na-maltanke-w-sezonie-2026/"),
+        sources=[("MPK Poznań: Kolejka Parkowa Maltanka", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/maltanka/"),
+                 ("MPK Poznań: bilety na Maltankę 2026", "https://www.mpk.poznan.pl/nowy-rodzaj-biletow-na-maltanke-w-sezonie-2026/"),
                  ("MPK Poznań: start sezonu 2026", "https://www.mpk.poznan.pl/kolejka-parkowa-maltanka-rozpoczyna-sezon-pierwszy-kurs-w-niedziele-12-kwietnia-2026/")],
     ),
     dict(
@@ -1140,8 +1143,11 @@ for _a in ATTRACTIONS:
 
 # Sezonowość sprawdzona 10.10.2026 w komunikatach MPK (koniec sezonu Maltanki i linii turystycznych), na maltaski.pl i na stronie katedry.
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("kolejka-maltanka", "linie-turystyczne"):
+    if _a["slug"] == "linie-turystyczne":
         _a["checked"] = "10.10.2026"
+    # Maltanka: porównanie karty ze stroną MPK i komunikatami (start sezonu, bilety od 1.05, koniec sezonu 27.09) 2.11.2026.
+    if _a["slug"] == "kolejka-maltanka":
+        _a["checked"] = "02.11.2026"
     # Enea Stadion i Muzeum Lecha: porównanie karty ze stroną zwiedzania (bilety.lechpoznan.pl) i Wikipedią 27.10.2026.
     if _a["slug"] == "stadion":
         _a["checked"] = "27.10.2026"
