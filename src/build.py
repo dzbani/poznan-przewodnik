@@ -400,7 +400,7 @@ def build_index():
     events = "".join(ev_items)
     closed = [a for a in ATTRACTIONS if a["status"]]
     closed_html = "".join(
-        f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>: {escape(a["status"][1].split(". ")[0])}.</li>'
+        f'<li><a href="atrakcje/{a["slug"]}.html">{escape(a["name"])}</a>: {escape(re.split(r"\.\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])", a["status"][1])[0].rstrip("."))}.</li>'
         for a in closed)
     plans = "".join(f'<li><a href="plany.html#{pid}"><h3>{escape(t)}</h3><p>{escape(who)}</p></a></li>'
                     for pid, t, who, *_ in PLANS)
