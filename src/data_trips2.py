@@ -90,7 +90,7 @@ TRIPS2 = [
         img="wpe-dziekanowice", img_alt="Strzechą kryta chata i stodoła w skansenie w Dziekanowicach",
         short="Skansen dawnej wielkopolskiej wsi nad jeziorem Lednica: chaty, kościół, młyn i wiatraki. Czynny od kwietnia do października.",
         badge="Kwiecień–październik",
-        status=("warning", "Park jest czynny od 12 kwietnia do 31 października. Od 2 listopada do 11 kwietnia jest zamknięty (wszystkie oddziały muzeum są nieczynne od 21 grudnia do 2 marca)."),
+        status=("warning", "Od 2 listopada do 11 kwietnia park jest zamknięty (wszystkie oddziały muzeum są nieczynne od 21 grudnia do 2 marca). Sezon 2026 trwał od 12 kwietnia do 31 października."),
         lead="Wielkopolski Park Etnograficzny w Dziekanowicach to skansen, który pokazuje tradycyjną wieś wielkopolską z przełomu XIX i XX wieku. Należy do Muzeum Pierwszych Piastów na Lednicy i leży nad jeziorem Lednica, niedaleko Ostrowa Lednickiego.",
         sections=[
             ("O skansenie", [
@@ -106,9 +106,10 @@ TRIPS2 = [
                 "Bilety sprzedaje się do 45 minut przed zamknięciem ekspozycji, a bilety z audioprzewodnikiem do godziny przed zamknięciem. Przerwy w kasie: wt–pt 12:40–13:00, w weekendy i święta 13:40–14:00.",
                 "Parking jest bezpłatny. Przewodnika i lekcje muzealne rezerwuje się mailowo (wpe@lednica.pl).",
                 "Ostrów Lednicki jest w tym samym muzeum, ma podobne godziny, ale własne bilety.",
+                "Siedziba muzeum w Dziekanowicach 32, z nową wystawą stałą, jest otwarta od 28.08.2026, do 20.12 w godz. 9–17 (we wtorki–niedziele według tabeli godzin). Bilet kosztuje 30 zł, ulgowy 20 zł.",
             ]),
         ],
-        address="Dziekanowice 32, 62-261 Lednogóra",
+        address="Dziekanowice 23b, 62-261 Lednogóra",
         hours=[
             ("Wt–pt, 12.04–31.10", "9:00–17:00"),
             ("Sb–nd i święta, 12.04–30.04 i 1.09–31.10", "10:00–17:00"),

@@ -9,7 +9,7 @@ EN_BATCH6 = {
         img_alt="The ferry crossing to Ostrów Lednicki island",
         short="An island with the ruins of Mieszko I's palace, the probable site of Poland's baptism. You reach the island by ferry.",
         badge="Tue–Sun",
-        status="The island is open to visitors from 12 April to 31 October 2026. From November to the beginning of April it is closed.",
+        status="From 2 November to 11 April the island is closed. The 2026 season ran from 12 April to 31 October.",
         lead="Ostrów Lednicki is the largest of five islands on Lake Lednica, between Poznań and Gniezno. Under Mieszko I and Bolesław the Brave it was the site of one of the state's main strongholds. The ruins of a stone palace with a chapel and baptismal pools survive, which is why the island is considered the probable site of Poland's baptism in 966.",
         sections=[
             ("History", [
@@ -25,6 +25,7 @@ EN_BATCH6 = {
                 "You reach the island by ferry, which runs every half hour during opening hours. The last ferry to the island leaves 40 minutes before closing.",
                 "Tickets are sold until 45 minutes before closing, and tickets with an audio guide until an hour before closing. The ticket office closes for a break Tue–Fri 12:30–12:50, and at weekends and on public holidays 13:30–13:50.",
                 "On Wednesdays admission is free. Parking is free.",
+                "The museum's main building at Dziekanowice 32, with a new permanent exhibition, has been open since 28 August 2026 and until 20 December it is open 9:00–17:00 (Tuesday to Sunday according to the opening-hours table). A ticket costs PLN 30, reduced PLN 20.",
             ]),
         ],
         address="Dziekanowice 34, 62-261 Lednogóra",

@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-03",
-"hash": "22a1f02b31c92f7f18530fe0607c4c0a"
+"hash": "314ac2bf1440e3cfd4e13bfe5647ab8f"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -401,7 +401,7 @@
 },
 "atrakcje/ostrow-lednicki.html": {
 "date": "2026-11-03",
-"hash": "7b7121a7d3cef5740ff228b93cdce349"
+"hash": "6da39291626e8aeb98a22cfe8b1c968d"
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-11-01",
@@ -657,7 +657,7 @@
 },
 "atrakcje/wpe-dziekanowice.html": {
 "date": "2026-11-03",
-"hash": "d82fe6a2556cc8412371e87aba33f1ec"
+"hash": "11808a70188d549bf0b2742a3c295f89"
 },
 "atrakcje/wpn.html": {
 "date": "2026-11-03",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-03",
-"hash": "b4205db1a64749e6de2964f179a9afd8"
+"hash": "6c14cad786a7f338050cedcd3790c8ff"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1093,7 +1093,7 @@
 },
 "en/attractions/ostrow-lednicki.html": {
 "date": "2026-11-03",
-"hash": "c69938a5bca506d65f0f1306c222b1ee"
+"hash": "302b80251c9f5731c06d1ce2592c19ad"
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-11-01",
@@ -1349,7 +1349,7 @@
 },
 "en/attractions/wpe-dziekanowice.html": {
 "date": "2026-11-03",
-"hash": "eb457c3e3616e49d9faaa99a2cf8209d"
+"hash": "40cd499e4cf04bd3c5c597ffbc21ccb1"
 },
 "en/attractions/wpn.html": {
 "date": "2026-11-03",
@@ -1385,7 +1385,7 @@
 },
 "en/changes.html": {
 "date": "2026-11-03",
-"hash": "a49e99cb0e99a219b1a3f2a33589ff98"
+"hash": "c769d6ba2a4b5d6c99359adf520142d6"
 },
 "en/how-we-verify.html": {
 "date": "2026-11-03",
@@ -1393,11 +1393,11 @@
 },
 "en/index.html": {
 "date": "2026-11-03",
-"hash": "2497aff2514a8c281bfed445832e1bfd"
+"hash": "e8cbbf51cdf795a6cbb9f3423e0c4014"
 },
 "en/map.html": {
 "date": "2026-11-03",
-"hash": "cb62d8ccf723699e05917f1cd6f3858d"
+"hash": "5e149b8ce148f41d90534b25bf2093f4"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-11-03",
-"hash": "99371e6d276747ec53e5888c9f8d497d"
+"hash": "ca9fc1a59427276fe725c47ccca09b72"
 },
 "informacje.html": {
 "date": "2026-10-31",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-03",
-"hash": "fae83d9938a579a316c7e4a6e0f20f76"
+"hash": "b5610e28df4f7d688f7b338784b0f5d4"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1477,6 +1477,6 @@
 },
 "zmiany.html": {
 "date": "2026-11-03",
-"hash": "46ac01a7e27f53ae8d9eee1ad69b2bbb"
+"hash": "579da24392bda4b22ac68cc1e5290339"
 }
 }

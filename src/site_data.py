@@ -1176,7 +1176,7 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno"):
         _a["checked"] = "24.10.2026"
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
-    if _a["slug"] in ("zamek-kornik", "gaspar"):   # Gaspar: karta porównana z Turturi, Visit Poznań i kultura.poznan.pl 3.11.2026.
+    if _a["slug"] in ("zamek-kornik", "gaspar", "ostrow-lednicki", "wpe-dziekanowice"):   # Lednica 3.11.2026: godziny (grafiki), ceny i kontakt wg lednicamuzeum.pl. Gaspar: karta porównana z Turturi, Visit Poznań i kultura.poznan.pl 3.11.2026.
         _a["checked"] = "03.11.2026"
 
 # Przegląd sezonowy 30.10.2026: godziny i ceny porównane ze stronami oficjalnymi (zoo, ogród botaniczny, WMN, Fort VII,
@@ -1204,7 +1204,7 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "szreniawa":
         _a["checked"] = "30.10.2026"
     # Ostrów Lednicki i WPE: tabela godzin 2026 (obrazek na lednicamuzeum.pl) i cennik porównane 24.10.2026, bez zmian w danych.
-    if _a["slug"] in ("ostrow-lednicki", "wpe-dziekanowice", "parowozownia-wolsztyn"):
+    if _a["slug"] == "parowozownia-wolsztyn":
         _a["checked"] = "24.10.2026"   # Wolsztyn: cennik (ważny od 1.01.2025), godziny zimowe 7:00–16:00 i telefon wg parowozowniawolsztyn.pl
     # Wolsztyn: pełne porównanie karty ze stroną parowozowni 26.10.2026 (godziny, ceny, rozkład, historia, zbiory).
     if _a["slug"] == "parowozownia-wolsztyn":

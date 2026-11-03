@@ -229,7 +229,7 @@ TRIPS = [
         img="ostrow-lednicki", img_alt="Prom płynący na wyspę Ostrów Lednicki",
         short="Wyspa z ruinami pałacu Mieszka I, prawdopodobne miejsce chrztu Polski. Na wyspę płynie się promem.",
         badge="Wt–nd",
-        status=("warning", "Wyspa jest otwarta dla zwiedzających od 12 kwietnia do 31 października 2026. Od listopada do początku kwietnia jest zamknięta."),
+        status=("warning", "Od 2 listopada do 11 kwietnia wyspa jest zamknięta. Sezon 2026 trwał od 12 kwietnia do 31 października."),
         lead="Ostrów Lednicki to największa z pięciu wysp na jeziorze Lednica, między Poznaniem a Gnieznem. Za Mieszka I i Bolesława Chrobrego był tu jeden z głównych grodów państwa. Zachowały się ruiny kamiennego pałacu z kaplicą i basenami do chrztu, dlatego wyspę uważa się za prawdopodobne miejsce chrztu Polski w 966 roku.",
         sections=[
             ("Historia", [
@@ -245,6 +245,7 @@ TRIPS = [
                 "Na wyspę płynie się promem, który kursuje co pół godziny w godzinach otwarcia. Ostatni prom na wyspę odpływa 40 minut przed zamknięciem.",
                 "Bilety sprzedawane są do 45 minut przed zamknięciem, a bilety z audioprzewodnikiem do godziny przed zamknięciem. Przerwy w kasie: wt–pt 12:30–12:50, w weekendy i święta 13:30–13:50.",
                 "W środy wstęp jest bezpłatny. Parking jest bezpłatny.",
+                "Siedziba muzeum w Dziekanowicach 32, z nową wystawą stałą, jest otwarta od 28.08.2026, do 20.12 w godz. 9–17 (we wtorki–niedziele według tabeli godzin). Bilet kosztuje 30 zł, ulgowy 20 zł.",
             ]),
         ],
         address="Dziekanowice 34, 62-261 Lednogóra",

@@ -125,7 +125,7 @@ EN_BATCH8 = {
         img_alt="A thatched cottage and barn in the open-air museum in Dziekanowice",
         short="An open-air museum of an old Greater Poland village on Lake Lednica: cottages, a church, a mill and windmills. Open April to October.",
         badge="April–October",
-        status="The park is open from 12 April to 31 October. From 2 November to 11 April it is closed (all branches of the museum are closed from 21 December to 2 March).",
+        status="From 2 November to 11 April the park is closed (all branches of the museum are closed from 21 December to 2 March). The 2026 season ran from 12 April to 31 October.",
         lead="The Greater Poland Ethnographic Park in Dziekanowice is an open-air museum that shows a traditional Greater Poland village of the turn of the 19th and 20th centuries. It belongs to the Museum of the First Piasts at Lednica and lies on Lake Lednica, not far from Ostrów Lednicki.",
         sections=[
             ("About the open-air museum", [
@@ -141,6 +141,7 @@ EN_BATCH8 = {
                 "Tickets are sold until 45 minutes before the exhibition closes, and tickets with an audio guide until an hour before closing. The ticket office closes for a break Tue–Fri 12:40–13:00, and at weekends and on public holidays 13:40–14:00.",
                 "Parking is free. Guides and museum lessons are booked by email (wpe@lednica.pl).",
                 "Ostrów Lednicki belongs to the same museum and has similar hours, but its own tickets.",
+                "The museum's main building at Dziekanowice 32, with a new permanent exhibition, has been open since 28 August 2026 and until 20 December it is open 9:00–17:00 (Tuesday to Sunday according to the opening-hours table). A ticket costs PLN 30, reduced PLN 20.",
             ]),
         ],
         hours=[("Tue–Fri, 12 Apr–31 Oct", "9:00–17:00"), ("Sat–Sun and public holidays, 12–30 Apr and 1 Sep–31 Oct", "10:00–17:00"),
