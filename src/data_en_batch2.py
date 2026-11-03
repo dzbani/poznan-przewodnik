@@ -267,7 +267,7 @@ EN_BATCH2 = {
     ),
     "kolejka-maltanka": dict(
         name="Maltanka Park Railway",
-        img_alt="The Maltanka park railway at a passing loop",
+        img_alt="A steam locomotive of the Maltanka park railway at Maltanka station, with the towers of Poznań Archcathedral in the background",
         short="A narrow-gauge railway along Lake Malta to the New Zoo. Runs seasonally.",
         badge="Seasonal",
         status="The 2026 season ended on 27 September, so the railway is not running now. It starts again in spring (in 2026 the first run was on 12 April). The 2027 season dates will be announced by MPK Poznań.",

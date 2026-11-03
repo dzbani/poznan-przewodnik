@@ -515,7 +515,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="kolejka-maltanka", cat="rodzina", name="Kolejka Parkowa Maltanka",
-        img="kolejka-maltanka", img_alt="Kolejka Parkowa Maltanka na mijance",
+        img="kolejka-maltanka", img_alt="Parowóz Kolejki Parkowej Maltanka przy stacji Maltanka, w tle wieże Archikatedry Poznańskiej",
         short="Wąskotorowa kolejka wzdłuż Malty do Nowego Zoo. Kursuje sezonowo.",
         badge="Sezonowo",
         status=("closed", "Sezon 2026 zakończył się 27 września, więc kolejka teraz nie kursuje. Rusza ponownie wiosną (w 2026 roku pierwszy kurs odbył się 12 kwietnia). Terminy sezonu 2027 poda MPK Poznań."),
