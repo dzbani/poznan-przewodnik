@@ -95,7 +95,7 @@ EN_BATCH2 = {
     ),
     "zamek-cesarski": dict(
         name="Imperial Castle",
-        img_alt="The tower of the Imperial Castle in Poznań",
+        img_alt="The Imperial Castle in Poznań seen from above, with the clock tower",
         short="Wilhelm II's Neo-Romanesque residence from 1905–1910. Today the Zamek Culture Centre.",
         badge="Daily",
         status=None,

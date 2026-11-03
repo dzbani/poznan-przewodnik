@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-01",
-"hash": "93a6f0437c7a762d5e108d49e6ddcbd7"
+"date": "2026-11-03",
+"hash": "391c12bb9be0791e798a7f45839025f7"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -672,8 +672,8 @@
 "hash": "149062a4ca8a2615aa2b80b1ab1efabf"
 },
 "atrakcje/zamek-cesarski.html": {
-"date": "2026-11-01",
-"hash": "b964dad10b7e335074decb1624dd2d21"
+"date": "2026-11-03",
+"hash": "f43f3d9aa0bc533967bc87a483b6428d"
 },
 "atrakcje/zamek-goluchow.html": {
 "date": "2026-10-30",
@@ -692,8 +692,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-01",
-"hash": "c490761f08b2b5597910ad48871f160e"
+"date": "2026-11-03",
+"hash": "7aff7cce802e3e34f0f91116e9b807df"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1364,8 +1364,8 @@
 "hash": "091cff1fd74426b5dde93089b2c575d7"
 },
 "en/attractions/zamek-cesarski.html": {
-"date": "2026-11-01",
-"hash": "3c045b812303e1314e2cc897e39fa916"
+"date": "2026-11-03",
+"hash": "3a6e4e4af858fdaf2783cfc8c414a945"
 },
 "en/attractions/zamek-goluchow.html": {
 "date": "2026-10-30",
@@ -1393,7 +1393,7 @@
 },
 "en/index.html": {
 "date": "2026-11-03",
-"hash": "3c7ef24107c883305b8cd0f337fd3b97"
+"hash": "c1ace1c8285e786b14cbe5e15192d63c"
 },
 "en/map.html": {
 "date": "2026-10-30",
@@ -1404,12 +1404,12 @@
 "hash": "0b7fbb03d1c1d6e77b5f7c12a435d3dd"
 },
 "en/photo-credits.html": {
-"date": "2026-11-01",
-"hash": "b69366fe83108f230d2efbabb42c40c3"
+"date": "2026-11-03",
+"hash": "0d8cf3af2072015574482f58ac69184a"
 },
 "en/plans.html": {
-"date": "2026-11-01",
-"hash": "3d54e53ee5625ab27709471538455a7f"
+"date": "2026-11-03",
+"hash": "03bc2969bfad676f1f8c5590080a9796"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1420,8 +1420,8 @@
 "hash": "1a3fd3f91ad6f66815bb8512bc51fa57"
 },
 "en/theatres.html": {
-"date": "2026-10-24",
-"hash": "0473d1f717899ee90b30ac7468ea1bc2"
+"date": "2026-11-03",
+"hash": "635cd386cd20b4c85092d07505f061ef"
 },
 "en/viewpoints.html": {
 "date": "2026-10-27",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-11-03",
-"hash": "89afa9fe342017ff05b157df124ca3db"
+"hash": "058645e07e845ee24d7dad6694d6ed95"
 },
 "informacje.html": {
 "date": "2026-10-31",
@@ -1456,8 +1456,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-01",
-"hash": "791a5ad48b8154ae4b5070989d92641b"
+"date": "2026-11-03",
+"hash": "a8538d3a413e01b70f72ac7a1defc933"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1468,12 +1468,12 @@
 "hash": "39d511275aa062d50daa8eec1df4394d"
 },
 "teatry.html": {
-"date": "2026-10-23",
-"hash": "14bdadb733222627d432bc3e70a1463b"
+"date": "2026-11-03",
+"hash": "9b4a907d9ece6fde12ba338fbbb524ee"
 },
 "zdjecia.html": {
-"date": "2026-11-01",
-"hash": "0269e3cf2b75f97b0f7874cadb409ee7"
+"date": "2026-11-03",
+"hash": "2c46866c787cff36ca40fea2e9628a51"
 },
 "zmiany.html": {
 "date": "2026-10-30",

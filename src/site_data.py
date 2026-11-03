@@ -200,7 +200,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="zamek-cesarski", cat="zabytki", name="Zamek Cesarski",
-        img="zamek-cesarski", img_alt="Wieża Zamku Cesarskiego w Poznaniu",
+        img="zamek-cesarski", img_alt="Zamek Cesarski w Poznaniu widziany z góry, z wieżą zegarową",
         short="Neoromańska rezydencja Wilhelma II z lat 1905–1910. Dziś Centrum Kultury Zamek.",
         badge="Codziennie",
         status=None,
