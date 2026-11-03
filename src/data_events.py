@@ -107,6 +107,17 @@ CALENDAR = [
         sources=[("Poznań Game Arena: jubileuszowa edycja już w październiku", "https://gamearena.pl/pl/aktualnosci/jubileuszowa-edycja-juz-w-pazdzierniku/")],
     ),
     dict(
+        id="bieg-niepodleglosci", month=11, name="Bieg Niepodległości RUNPOLAND", place="ul. Grunwaldzka (start i meta w centrum miasta)",
+        when="Co roku 11 listopada",
+        dates=("2026-11-11", "2026-11-11"), note="Start o 11:11. Termin edycji 2026 podał organizator.",
+        desc=["Bieg uliczny na 10 km, jedna pętla z atestem PZLA, organizowany w Narodowe Święto Niepodległości. Start o 11:11 na ul. Grunwaldzkiej, tuż przed ul. Śniadeckich, meta także na ul. Grunwaldzkiej.",
+              "W dniu biegu ulice na trasie są czasowo zamknięte, zwykle w godzinach przedpołudniowych. Organizator nie podaje dokładnych godzin ani listy ulic."],
+        link=("biegniepodleglosci.pl", "https://biegniepodleglosci.pl/"),
+        sources=[("Bieg Niepodległości RUNPOLAND (organizator)", "https://biegniepodleglosci.pl/"),
+                 ("Bieg Niepodległości RUNPOLAND: najważniejsze informacje", "https://biegniepodleglosci.pl/dla-biegaczy/najwazniejsze-informacje/"),
+                 ("Bieg Niepodległości RUNPOLAND: trasa", "https://biegniepodleglosci.pl/dla-biegaczy/trasa/")],
+    ),
+    dict(
         id="imieniny-sw-marcin", month=11, name="Imieniny Ulicy Święty Marcin", place="ul. Święty Marcin, przy Centrum Kultury Zamek",
         when="Co roku 11 listopada",
         dates=("2026-11-11", "2026-11-11"), note="Zawsze 11 listopada, w Narodowe Święto Niepodległości.",

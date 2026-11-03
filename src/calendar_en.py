@@ -84,6 +84,14 @@ CAL_EN = {
         note="In 2026 the 20th, jubilee edition.",
         desc=["A fair of computer games and multimedia entertainment, according to the organiser the largest in Central and Eastern Europe. Admission is ticketed."],
     ),
+    "bieg-niepodleglosci": dict(
+        name="Independence Run RUNPOLAND (Bieg Niepodległości)",
+        place="ul. Grunwaldzka (start and finish in the city centre)",
+        when="Every year on 11 November",
+        note="Start at 11:11. The date of the 2026 edition was given by the organiser.",
+        desc=["A 10 km street run, a single loop on a PZLA-certified course, held on the Polish National Independence Day. The start is at 11:11 on ul. Grunwaldzka, just before ul. Śniadeckich, and the finish is also on ul. Grunwaldzka.",
+              "On the day of the run the streets along the course are temporarily closed, usually in the hours before noon. The organiser does not give exact times or a list of streets."],
+    ),
     "imieniny-sw-marcin": dict(
         name="St Martin Street Name Day (Imieniny Ulicy Święty Marcin)",
         place="ul. Święty Marcin, by the Zamek Culture Centre",
