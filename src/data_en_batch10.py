@@ -273,7 +273,7 @@ EN_BATCH10 = {
     ),
     "gaspar": dict(
         name="GASPAR Museum of Old Tools and Machines",
-        img_alt="",
+        img_alt="The courtyard of the GASPAR museum with brick and half-timbered buildings and a well",
         short="A private technology museum with mementoes of Hipolit Cegielski and a narrow-gauge railway.",
         badge="Weekends",
         status=None,

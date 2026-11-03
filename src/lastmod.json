@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-03",
-"hash": "7645740309a70befae6054ff567786d8"
+"hash": "22a1f02b31c92f7f18530fe0607c4c0a"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -117,7 +117,7 @@
 },
 "atrakcje/gaspar.html": {
 "date": "2026-11-03",
-"hash": "32052a28e4b5c89ed0ddc6e1645a1f54"
+"hash": "c22fb246b54332231c4ca62b0e58c6c2"
 },
 "atrakcje/genius-loci.html": {
 "date": "2026-11-01",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-03",
-"hash": "5086b77072944f9feb47562a16456748"
+"hash": "b4205db1a64749e6de2964f179a9afd8"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -809,7 +809,7 @@
 },
 "en/attractions/gaspar.html": {
 "date": "2026-11-03",
-"hash": "40a6061ef5ef1684db0a8f798eabd511"
+"hash": "9965ddfc47b087383c3b0e65137a32ef"
 },
 "en/attractions/genius-loci.html": {
 "date": "2026-11-01",
@@ -1396,8 +1396,8 @@
 "hash": "2497aff2514a8c281bfed445832e1bfd"
 },
 "en/map.html": {
-"date": "2026-10-30",
-"hash": "edf0b4af1cb09b5ac6294de2ee25eeaa"
+"date": "2026-11-03",
+"hash": "cb62d8ccf723699e05917f1cd6f3858d"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1405,7 +1405,7 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-03",
-"hash": "ecc2fe25b3f0e5685a0936be754c8f45"
+"hash": "26828b865c52dea2e7d65352c554f7fa"
 },
 "en/plans.html": {
 "date": "2026-11-03",
@@ -1444,8 +1444,8 @@
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-10-31",
-"hash": "bae5ce8cca46848aa4a70e8cee7c9a0c"
+"date": "2026-11-03",
+"hash": "fae83d9938a579a316c7e4a6e0f20f76"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-03",
-"hash": "0e2de18cbd8fcfa6ae2f35cc7a53af60"
+"hash": "e1d1bb7aa5e126e4bff66ab073b54bcd"
 },
 "zmiany.html": {
 "date": "2026-11-03",

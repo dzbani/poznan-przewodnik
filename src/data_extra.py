@@ -450,7 +450,7 @@ EXTRA = [
     ),
     dict(
         slug="gaspar", cat="muzea", name="GASPAR Muzeum Starych Narzędzi i Maszyn",
-        img=None, img_alt="",
+        img="gaspar", img_alt="Dziedziniec muzeum GASPAR z budynkami z cegły i muru pruskiego oraz studnią",
         short="Prywatne muzeum techniki z pamiątkami po Hipolicie Cegielskim i kolejką wąskotorową.",
         badge="Weekendy",
         status=None,
@@ -473,7 +473,7 @@ EXTRA = [
         tickets=[("Normalny", "30 zł"), ("Ulgowy (do 18 lat)", "25 zł"), ("Rodzinny (1–2 dorosłych + 1–3 dzieci powyżej 5 lat)", "75 zł"),
                  ("Grupa (powyżej 10 osób)", "25 zł od osoby"), ("Dzieci do 5 lat", "bezpłatnie")],
         phone="+48 605 744 135", www=("turturi.com (profil muzeum)", "https://www.turturi.com/obiekt,32602,gaspar-muzeum-starych-narzedzi-i-maszyn-im--gaspara-hipolita-cegielskiego---arkadiusz-i-piotr-baraniok,wielkopolskie,poznan.html"),
-        credit=None,
+        credit="gaspar",
         sources=[("kultura.poznan.pl: GASPAR", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/gaspar-muzeum-starych-narzedzi-i-maszyn,83432.html"),
                  ("Turturi: profil muzeum GASPAR (tu kieruje gaspar.org.pl)", "https://www.turturi.com/obiekt,32602,gaspar-muzeum-starych-narzedzi-i-maszyn-im--gaspara-hipolita-cegielskiego---arkadiusz-i-piotr-baraniok,wielkopolskie,poznan.html"),
                  ("Visit Poznań: GASPAR Muzeum Starych Narzędzi i Maszyn", "https://visitpoznan.pl/gaspar-muzeum-starych-narzedzi-i-maszyn")],
