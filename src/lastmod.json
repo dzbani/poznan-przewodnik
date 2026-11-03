@@ -681,7 +681,7 @@
 },
 "atrakcje/zamek-kornik.html": {
 "date": "2026-11-03",
-"hash": "12caba6d35fb625cc3a1099e1d27ade5"
+"hash": "21ff42b4c9e2762bf64739184b151beb"
 },
 "atrakcje/zamek-krolewski.html": {
 "date": "2026-11-01",
@@ -1373,7 +1373,7 @@
 },
 "en/attractions/zamek-kornik.html": {
 "date": "2026-11-03",
-"hash": "54f10948b32973e76e1b0b44854f8065"
+"hash": "09abb72081a3a7b199f402e84f52c11b"
 },
 "en/attractions/zamek-krolewski.html": {
 "date": "2026-11-01",
@@ -1384,12 +1384,12 @@
 "hash": "ac01fb69c1f0b4cc8f867e4eb6e2f00c"
 },
 "en/changes.html": {
-"date": "2026-10-30",
-"hash": "4be4d0ea458e4985bf141d61a61119e7"
+"date": "2026-11-03",
+"hash": "a49e99cb0e99a219b1a3f2a33589ff98"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-02",
-"hash": "466b53c29b4639fc01abb012299bf7b7"
+"date": "2026-11-03",
+"hash": "2413451d2f65859add28e3521221e230"
 },
 "en/index.html": {
 "date": "2026-11-03",
@@ -1436,8 +1436,8 @@
 "hash": "938db341d0afe30d82862ea94589c64e"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-02",
-"hash": "a5fcf52e19134feb1fa8196a7c799ad2"
+"date": "2026-11-03",
+"hash": "a257562870881c2ffbdfec3c42ac97fb"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
@@ -1476,7 +1476,7 @@
 "hash": "0e2de18cbd8fcfa6ae2f35cc7a53af60"
 },
 "zmiany.html": {
-"date": "2026-10-30",
-"hash": "8d6cbcc577fc5ffe1b66a3bd05e1ef58"
+"date": "2026-11-03",
+"hash": "46ac01a7e27f53ae8d9eee1ad69b2bbb"
 }
 }

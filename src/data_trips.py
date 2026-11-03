@@ -28,7 +28,7 @@ TRIPS = [
             ]),
             ("Warto wiedzieć", [
                 "Po zamku można chodzić z bezpłatną aplikacją „Zamek w Kórniku” (trzeba mieć własne słuchawki) albo z audioprzewodnikiem wypożyczonym w kasie za 15 zł. W kasie jest też bezpłatna gra terenowa dla dzieci, w której przewodnikiem jest sam Tytus Działyński.",
-                "Do zamku nie można wjechać wózkiem dziecięcym, a na miejscu nie ma gdzie go zostawić. Jest winda dla osób z niepełnosprawnością.",
+                "Do zamku nie można wjechać wózkiem dziecięcym, a na miejscu nie ma gdzie go zostawić. Jest winda dla osób z niepełnosprawnością, o potrzebie skorzystania z niej trzeba poinformować obsługę.",
                 "Zdjęcia do celów prywatnych można robić bezpłatnie, bez lampy błyskowej i statywu.",
             ]),
         ],
@@ -36,11 +36,11 @@ TRIPS = [
         hours=[("Wt–nd, 14.02–30.04 i 1.10–30.11", "10:00–15:15, ostatnie wejście 14:30"),
                ("Wt–nd, 1.05–30.09", "10:00–17:00, ostatnie wejście 16:15"),
                ("Czwartki w maju i czerwcu", "10:00–20:00, ostatnie wejście 19:00"),
-               ("Poniedziałek", "nieczynne"), ("1.11", "nieczynne"), ("11.11", "10:00–15:00, ostatnie wejście 14:15"),
+               ("Poniedziałek", "nieczynne"), ("11.11", "10:00–15:00, ostatnie wejście 14:15"),
                ("Od 1.12", "sezon 2026 kończy się 14.12; godzin na grudzień i zimę strona zamku nie podaje")],
         tickets=[("Normalny", "40 zł"), ("Ulgowy (m.in. dzieci, młodzież, emeryci)", "20 zł"),
-                 ("Audioprzewodnik", "15 zł"), ("Przewodnik po polsku (grupa)", "150 zł")],
-        phone=None, www=("bkpan.poznan.pl", "https://www.bkpan.poznan.pl/zamek-w-korniku/"),
+                 ("Audioprzewodnik", "15 zł"), ("Przewodnik po polsku (grupa)", "150 zł"), ("Przewodnik po angielsku lub niemiecku (grupa)", "200 zł")],
+        phone="+48 61 817 00 81", www=("bkpan.poznan.pl", "https://www.bkpan.poznan.pl/zamek-w-korniku/"),
         credit="zamek-kornik",
         trip=dict(lat=52.243889, lon=17.090556, getting=[
             ("Autobus", "Autobusy linii 501 i 560 oraz przewoźników podmiejskich, przystanek Kórnik/Pl. Niepodległości, 5 minut pieszo. Zamek poleca też autobusy z Dworca Autobusowego przy dworcu Poznań Główny i z przystanku Rondo Rataje."),
