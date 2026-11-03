@@ -287,7 +287,8 @@ EN_BATCH10 = {
             ("Good to know", [
                 "The museum is open on Saturdays and Sundays from 12:00 to 17:00, and on other days by prior appointment.",
                 "It is visited with a guide, who is included in the ticket price (in Polish and English). The museum also runs themed workshops.",
-                "The museum has no separate website: the address gaspar.org.pl leads to its profile on the Turturi service, where dates and prices are listed. According to that profile the museum is closed on 1 and 11 November and 24–26 December in 2026.",
+                "The museum has no separate website: the address gaspar.org.pl leads to its profile on the Turturi service, where dates and prices are listed. According to that profile the museum is closed on 11 November and 24–26 December in 2026.",
+                "A visit takes about an hour, and an organised group can have at most about 15 people. Contact by e-mail: muzeum@gaspar.org.pl.",
             ]),
         ],
         hours=[("Saturday and Sunday", "12:00–17:00"), ("Other days", "by appointment")],

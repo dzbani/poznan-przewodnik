@@ -464,7 +464,8 @@ EXTRA = [
             ("Warto wiedzieć", [
                 "Muzeum jest otwarte w soboty i niedziele od 12:00 do 17:00, a w inne dni po wcześniejszym umówieniu wizyty.",
                 "Zwiedza się je z przewodnikiem, który jest w cenie biletu (po polsku i po angielsku). Muzeum prowadzi też warsztaty tematyczne.",
-                "Muzeum nie ma osobnej strony: adres gaspar.org.pl prowadzi do jego profilu w serwisie Turturi, gdzie są terminy i ceny. Według tego profilu w 2026 roku muzeum jest zamknięte 1 i 11 listopada oraz 24–26 grudnia.",
+                "Muzeum nie ma osobnej strony: adres gaspar.org.pl prowadzi do jego profilu w serwisie Turturi, gdzie są terminy i ceny. Według tego profilu w 2026 roku muzeum jest zamknięte 11 listopada oraz 24–26 grudnia.",
+                "Zwiedzanie trwa ok. godziny, a zorganizowana grupa może liczyć najwyżej ok. 15 osób. Kontakt e-mailem: muzeum@gaspar.org.pl.",
             ]),
         ],
         address="ul. Oliwkowa 12, 61-306 Poznań",

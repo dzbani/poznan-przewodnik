@@ -1176,7 +1176,7 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno"):
         _a["checked"] = "24.10.2026"
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
-    if _a["slug"] == "zamek-kornik":
+    if _a["slug"] in ("zamek-kornik", "gaspar"):   # Gaspar: karta porównana z Turturi, Visit Poznań i kultura.poznan.pl 3.11.2026.
         _a["checked"] = "03.11.2026"
 
 # Przegląd sezonowy 30.10.2026: godziny i ceny porównane ze stronami oficjalnymi (zoo, ogród botaniczny, WMN, Fort VII,
