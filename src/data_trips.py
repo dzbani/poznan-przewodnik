@@ -9,7 +9,7 @@ Pułapki wyszukiwarki: Rogalin 45/30 zł karnet i bezpłatny WTOREK (nie 15/10 z
 TRIPS = [
     dict(
         slug="zamek-kornik", cat="wycieczki", name="Zamek w Kórniku",
-        img="zamek-kornik", img_alt="Neogotycki zamek w Kórniku odbijający się w wodzie fosy",
+        img="zamek-kornik", og_pos="center top", img_alt="Neogotycki zamek w Kórniku odbijający się w wodzie fosy",
         short="Neogotycki zamek Działyńskich z legendą o Białej Damie i jedną z najstarszych bibliotek w Polsce.",
         badge="Wt–nd",
         desc="Neogotycki zamek z legendą o Białej Damie. Sezon wt–nd, poniedziałki nieczynne. Bilety: normalny 40 zł, ulgowy 20 zł. Adres: ul. Zamkowa 5, Kórnik.",
