@@ -1176,6 +1176,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno"):
         _a["checked"] = "24.10.2026"
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
+    if _a["slug"] == "giecz":   # nowa karta, dane z lednicamuzeum.pl (grafika godzin, cennik, historia) 4.11.2026
+        _a["checked"] = "04.11.2026"
     if _a["slug"] in ("zamek-kornik", "gaspar", "ostrow-lednicki", "wpe-dziekanowice"):   # Lednica 3.11.2026: godziny (grafiki), ceny i kontakt wg lednicamuzeum.pl. Gaspar: karta porównana z Turturi, Visit Poznań i kultura.poznan.pl 3.11.2026.
         _a["checked"] = "03.11.2026"
 

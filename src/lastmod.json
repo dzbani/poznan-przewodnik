@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-04",
-"hash": "24d937f55e18219e8eaf4903cb363849"
+"hash": "36ca92fb8385c1a6d3951e761df264ae"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -122,6 +122,10 @@
 "atrakcje/genius-loci.html": {
 "date": "2026-11-01",
 "hash": "026170c2f856993b626c6b2e671e2a05"
+},
+"atrakcje/giecz.html": {
+"date": "2026-11-04",
+"hash": "f8667f663e7453010b35854cfc219658"
 },
 "atrakcje/grod-pobiedziska.html": {
 "date": "2026-11-03",
@@ -468,8 +472,8 @@
 "hash": "2b786d328d89b2e5c857c7d9ab98ea02"
 },
 "atrakcje/parowozownia-wolsztyn.html": {
-"date": "2026-11-03",
-"hash": "042bdaf38a345e9e2c6f7b98d26a3a9d"
+"date": "2026-11-04",
+"hash": "75031c1e5357ea3df10aae9c08caf6a7"
 },
 "atrakcje/plac-wolnosci.html": {
 "date": "2026-11-01",
@@ -668,8 +672,8 @@
 "hash": "b05abde680a8aeb8d852a69fbcc08a28"
 },
 "atrakcje/zagroda-zwierzat-goluchow.html": {
-"date": "2026-11-03",
-"hash": "de7632b7399be4a148a0fbd8e2b13e26"
+"date": "2026-11-04",
+"hash": "9f4cccb112c6adc8b25b4bb9aebd84ab"
 },
 "atrakcje/zamek-cesarski.html": {
 "date": "2026-11-03",
@@ -693,7 +697,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-04",
-"hash": "e22b356aefc5a6dccb745940a8abeaf3"
+"hash": "f26384239cf29da90214e0782d693e16"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -814,6 +818,10 @@
 "en/attractions/genius-loci.html": {
 "date": "2026-11-01",
 "hash": "2825d369b280f4c40022ba8cb2043b2c"
+},
+"en/attractions/giecz.html": {
+"date": "2026-11-04",
+"hash": "3412a3b5c2538aff872d3502d05a2786"
 },
 "en/attractions/grod-pobiedziska.html": {
 "date": "2026-11-03",
@@ -1160,8 +1168,8 @@
 "hash": "0bbe29e43d6a2ae0393cb35ee045acdc"
 },
 "en/attractions/parowozownia-wolsztyn.html": {
-"date": "2026-11-03",
-"hash": "5326bb580adbe2590030902a8a7f99bd"
+"date": "2026-11-04",
+"hash": "e1561f8746c50ceaf34acc12f100939e"
 },
 "en/attractions/plac-wolnosci.html": {
 "date": "2026-11-01",
@@ -1360,8 +1368,8 @@
 "hash": "6627d98e900448f8944050427c936d51"
 },
 "en/attractions/zagroda-zwierzat-goluchow.html": {
-"date": "2026-11-03",
-"hash": "45f1bff87b35e5d00a1e9d7369976b80"
+"date": "2026-11-04",
+"hash": "18910063efc79f1a3db2ab1e4d410c5c"
 },
 "en/attractions/zamek-cesarski.html": {
 "date": "2026-11-03",
@@ -1384,20 +1392,20 @@
 "hash": "ac01fb69c1f0b4cc8f867e4eb6e2f00c"
 },
 "en/changes.html": {
-"date": "2026-11-03",
-"hash": "c769d6ba2a4b5d6c99359adf520142d6"
+"date": "2026-11-04",
+"hash": "b8da05f8dae3f7f46cb06d590f3746f0"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-03",
-"hash": "2413451d2f65859add28e3521221e230"
+"date": "2026-11-04",
+"hash": "3b17fe61dd09688ee0bbf6fd29d04335"
 },
 "en/index.html": {
-"date": "2026-11-03",
-"hash": "e8cbbf51cdf795a6cbb9f3423e0c4014"
+"date": "2026-11-04",
+"hash": "fcffed3a25b25dabb1774b446f6d6e15"
 },
 "en/map.html": {
-"date": "2026-11-03",
-"hash": "5e149b8ce148f41d90534b25bf2093f4"
+"date": "2026-11-04",
+"hash": "60878d27710d0138af5f21e5ebf975b8"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1405,7 +1413,7 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-04",
-"hash": "3f050486d07d97d71accda57106ee85c"
+"hash": "0d35481c712b7c5cb3228bf8dd90c9d1"
 },
 "en/plans.html": {
 "date": "2026-11-03",
@@ -1428,24 +1436,24 @@
 "hash": "137b775f1979336564176bb86cf79366"
 },
 "index.html": {
-"date": "2026-11-03",
-"hash": "ca9fc1a59427276fe725c47ccca09b72"
+"date": "2026-11-04",
+"hash": "4c3bc65dacb7e4b0df87345b27d2764d"
 },
 "informacje.html": {
-"date": "2026-10-31",
-"hash": "938db341d0afe30d82862ea94589c64e"
+"date": "2026-11-04",
+"hash": "00b2a1872577b9beb28386536d826e7f"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-03",
-"hash": "a257562870881c2ffbdfec3c42ac97fb"
+"date": "2026-11-04",
+"hash": "746720b29179ec853f790ef711f77eea"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-03",
-"hash": "b5610e28df4f7d688f7b338784b0f5d4"
+"date": "2026-11-04",
+"hash": "ab7dfd34a30be568f0616ad78c64bbb9"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1473,10 +1481,10 @@
 },
 "zdjecia.html": {
 "date": "2026-11-04",
-"hash": "e0dc75129f0711ab6805ef2b6bc4c37c"
+"hash": "09fd017acd787ab166f5e3b3d71c3143"
 },
 "zmiany.html": {
-"date": "2026-11-03",
-"hash": "579da24392bda4b22ac68cc1e5290339"
+"date": "2026-11-04",
+"hash": "76341b952b23b75134cdc85a9724ee19"
 }
 }

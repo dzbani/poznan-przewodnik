@@ -8,7 +8,7 @@ Każdy wpis ma źródło; fakty muszą zgadzać się z tym, co jest na karcie at
 
 # slug karty -> sekcja
 CLOSED = ["palmiarnia", "stary-rynek", "muzeum-komunikacji-mpk", "muzeum-kultury-cyfrowej"]
-SEASONAL = ["zamek-kornik", "ostrow-lednicki", "wpe-dziekanowice", "szreniawa", "grod-pobiedziska", "linie-turystyczne"]
+SEASONAL = ["zamek-kornik", "ostrow-lednicki", "wpe-dziekanowice", "giecz", "szreniawa", "grod-pobiedziska", "linie-turystyczne"]
 
 # Zmiany cen, nazw, zasad i terminy. when = tekst widoczny, sort = ISO do sortowania (najnowsze na górze).
 RULES = [
