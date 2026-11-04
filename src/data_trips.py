@@ -226,7 +226,7 @@ TRIPS = [
     ),
     dict(
         slug="ostrow-lednicki", cat="wycieczki", name="Ostrów Lednicki",
-        img="ostrow-lednicki", img_alt="Prom płynący na wyspę Ostrów Lednicki",
+        img="ostrow-lednicki", img_alt="Kamienne ruiny wczesnopiastowskiej rezydencji na Ostrowie Lednickim pod drewnianym zadaszeniem, z flagami i krzyżem",
         short="Wyspa z ruinami pałacu Mieszka I, prawdopodobne miejsce chrztu Polski. Na wyspę płynie się promem.",
         badge="Wt–nd",
         status=("warning", "Od 2 listopada do 11 kwietnia wyspa jest zamknięta. Sezon 2026 trwał od 12 kwietnia do 31 października."),

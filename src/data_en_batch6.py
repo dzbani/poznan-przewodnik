@@ -6,7 +6,7 @@ CHURCH_NOTE = "This is a working church. It cannot be visited during Mass and se
 EN_BATCH6 = {
     "ostrow-lednicki": dict(
         name="Ostrów Lednicki",
-        img_alt="The ferry crossing to Ostrów Lednicki island",
+        img_alt="The stone ruins of the early Piast residence on Ostrów Lednicki under a wooden roof, with flags and a cross",
         short="An island with the ruins of Mieszko I's palace, the probable site of Poland's baptism. You reach the island by ferry.",
         badge="Tue–Sun",
         status="From 2 November to 11 April the island is closed. The 2026 season ran from 12 April to 31 October.",
