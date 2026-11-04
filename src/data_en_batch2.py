@@ -124,7 +124,7 @@ EN_BATCH2 = {
     ),
     "stary-browar": dict(
         name="Stary Browar (Old Brewery)",
-        img_alt="The brick buildings of Stary Browar",
+        img_alt="The brick building of Stary Browar seen from ul. Półwiejska and ul. Kościuszki",
         short="A 19th-century Hugger brewery turned into a centre of shopping and art, with sculptures by Mitoraj and award-winning architecture.",
         badge="Free",
         status=None,

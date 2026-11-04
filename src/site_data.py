@@ -592,7 +592,7 @@ ATTRACTIONS = [
     # ─── WSPÓŁCZESNY ───
     dict(
         slug="stary-browar", cat="wspolczesny", name="Stary Browar",
-        img="stary-browar", img_alt="Ceglane budynki Starego Browaru",
+        img="stary-browar", img_alt="Ceglany gmach Starego Browaru od strony ulic Półwiejskiej i Kościuszki", og_pos="center top",
         short="XIX-wieczny browar Huggerów przebudowany na centrum handlu i sztuki, z rzeźbami Mitoraja i nagradzaną architekturą.",
         badge="Bezpłatnie",
         status=None,
