@@ -170,7 +170,7 @@ EN_BATCH7 = {
     ),
     "wzgorze-sw-wojciecha": dict(
         name="St Adalbert Hill",
-        img_alt="St Adalbert's Church in Poznań",
+        img_alt="St Adalbert's Church in Poznań with its wooden bell tower",
         short="The Crypt of Distinguished Greater Poland People: the tomb of Józef Wybicki and the heart of Gen. Dąbrowski.",
         badge="By appointment",
         status=None,

@@ -732,7 +732,7 @@ MORE = [
     ),
     dict(
         slug="wzgorze-sw-wojciecha", cat="zabytki", name="Wzgórze św. Wojciecha",
-        img="wzgorze-sw-wojciecha", img_alt="Kościół św. Wojciecha w Poznaniu",
+        img="wzgorze-sw-wojciecha", img_alt="Kościół św. Wojciecha w Poznaniu z drewnianą dzwonnicą", og_pos="center top",
         short="Krypta Zasłużonych Wielkopolan: grób Józefa Wybickiego i serce gen. Dąbrowskiego.",
         badge="Po umówieniu",
         status=None,
