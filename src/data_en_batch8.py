@@ -122,7 +122,7 @@ EN_BATCH8 = {
     ),
     "wpe-dziekanowice": dict(
         name="Greater Poland Ethnographic Park in Dziekanowice",
-        img_alt="A thatched cottage and barn in the open-air museum in Dziekanowice",
+        img_alt="Two wooden windmills on a hill in the open-air museum in Dziekanowice, seen over tall grass",
         short="An open-air museum of an old Greater Poland village on Lake Lednica: cottages, a church, a mill and windmills. Open April to October.",
         badge="April–October",
         status="From 2 November to 11 April the park is closed (all branches of the museum are closed from 21 December to 2 March). The 2026 season ran from 12 April to 31 October.",

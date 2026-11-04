@@ -87,7 +87,7 @@ TRIPS2 = [
     ),
     dict(
         slug="wpe-dziekanowice", cat="wycieczki", name="Wielkopolski Park Etnograficzny w Dziekanowicach",
-        img="wpe-dziekanowice", img_alt="Strzechą kryta chata i stodoła w skansenie w Dziekanowicach",
+        img="wpe-dziekanowice", img_alt="Dwa drewniane wiatraki na wzgórzu w skansenie w Dziekanowicach, widziane zza wysokiej trawy",
         short="Skansen dawnej wielkopolskiej wsi nad jeziorem Lednica: chaty, kościół, młyn i wiatraki. Czynny od kwietnia do października.",
         badge="Kwiecień–październik",
         status=("warning", "Od 2 listopada do 11 kwietnia park jest zamknięty (wszystkie oddziały muzeum są nieczynne od 21 grudnia do 2 marca). Sezon 2026 trwał od 12 kwietnia do 31 października."),
