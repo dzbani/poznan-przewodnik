@@ -180,7 +180,13 @@ EN_BATCH7 = {
                 "Józef Wybicki, author of the words of “Dąbrowski's Mazurka”, and Antoni Kosiński, co-creator of Dąbrowski's Legions.",
                 "Heliodor Święcicki, founder and first rector of the University of Poznań.",
                 "The composers Feliks Nowowiejski, author of the melody of the “Rota”, and Tadeusz Szeligowski.",
-                "The crypt also holds the heart of Gen. Jan Henryk Dąbrowski and the remains of Gen. Ignacy Prądzyński. In the south aisle of the church lies Karol Marcinkowski, a physician and social activist.",
+                "Also buried in the crypt are, among others, Col. Andrzej Niegolewski, a participant in the charge at Somosierra, and the explorer Paweł Edmund Strzelecki.",
+                "The crypt also holds two urns: one with the heart of Gen. Jan Henryk Dąbrowski and one with soil from the burial place of Gen. Ignacy Prądzyński. In the south aisle of the church lies Karol Marcinkowski, a physician and social activist.",
+            ]),
+            ("The church and the bell tower", [
+                "St Adalbert's Church was first mentioned in 1244, and documents indirectly suggest that it had been built as early as 1222. The present Gothic church dates from the 15th century, the side aisles were added in the first half of the 16th century, and the late Renaissance gables a hundred years later.",
+                "The interior is decorated with a polychrome by Antoni Procajłowicz from the early 20th century. In 1945 the church was badly damaged during the fighting for the Citadel and was rebuilt in 1946–1949.",
+                "In front of the church stands a wooden bell tower covered with shingles, dating from the turn of the 16th and 17th centuries. It is the oldest wooden monument in the city.",
             ]),
             ("Good to know", [
                 "In 1997 a new part of the crypt was opened by the south aisle of the church.",

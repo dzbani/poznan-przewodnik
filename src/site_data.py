@@ -742,7 +742,13 @@ MORE = [
                 "Józef Wybicki, autor słów „Mazurka Dąbrowskiego”, oraz Antoni Kosiński, współtwórca Legionów Dąbrowskiego.",
                 "Heliodor Święcicki, założyciel i pierwszy rektor Uniwersytetu Poznańskiego.",
                 "Kompozytorzy Feliks Nowowiejski, twórca melodii „Roty”, i Tadeusz Szeligowski.",
-                "W krypcie złożono też serce gen. Jana Henryka Dąbrowskiego i szczątki gen. Ignacego Prądzyńskiego. W nawie południowej kościoła spoczywa Karol Marcinkowski, lekarz i społecznik.",
+                "W krypcie spoczywają też m.in. płk Andrzej Niegolewski, uczestnik szarży pod Somosierrą, i podróżnik Paweł Edmund Strzelecki.",
+                "W krypcie stoją ponadto dwie urny: z sercem gen. Jana Henryka Dąbrowskiego i z ziemią z miejsca pochówku gen. Ignacego Prądzyńskiego. W nawie południowej kościoła spoczywa Karol Marcinkowski, lekarz i społecznik.",
+            ]),
+            ("Kościół i dzwonnica", [
+                "Kościół św. Wojciecha po raz pierwszy wymieniono w 1244 roku, a z dokumentów wynika pośrednio, że wzniesiono go już w 1222. Obecna gotycka świątynia pochodzi z XV wieku, nawy boczne dobudowano w pierwszej połowie XVI wieku, a późnorenesansowe szczyty sto lat później.",
+                "Wnętrze zdobi polichromia Antoniego Procajłowicza z początku XX wieku. W 1945 roku kościół poważnie ucierpiał podczas walk o Cytadelę i został odbudowany w latach 1946–1949.",
+                "Przed kościołem stoi drewniana dzwonnica kryta gontem, z przełomu XVI i XVII wieku. To najstarszy drewniany zabytek w mieście.",
             ]),
             ("Warto wiedzieć", [
                 "W 1997 roku otwarto nową część krypty przy nawie południowej kościoła.",
@@ -754,7 +760,8 @@ MORE = [
         tickets=[("Zwiedzanie", "po uzgodnieniu z parafią")],
         phone="+48 793 842 860", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html"),
         credit="wzgorze-sw-wojciecha",
-        sources=[("kultura.poznan.pl: Krypta Zasłużonych Wielkopolan", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html")],
+        sources=[("kultura.poznan.pl: Krypta Zasłużonych Wielkopolan", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html"),
+                 ("Wikipedia: Kościół św. Wojciecha w Poznaniu", "https://pl.wikipedia.org/wiki/Kościół_św._Wojciecha_w_Poznaniu")],
     ),
     dict(
         slug="muzeum-instrumentow", cat="muzea", name="Muzeum Instrumentów Muzycznych",
@@ -1176,6 +1183,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno"):
         _a["checked"] = "24.10.2026"
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
+    if _a["slug"] == "wzgorze-sw-wojciecha":   # karta porównana z Wikipedią i kultura.poznan.pl 4.11.2026 (poprawiona urna Prądzyńskiego, dodana sekcja o kościele)
+        _a["checked"] = "04.11.2026"
     if _a["slug"] == "giecz":   # nowa karta, dane z lednicamuzeum.pl (grafika godzin, cennik, historia) 4.11.2026
         _a["checked"] = "04.11.2026"
     if _a["slug"] in ("zamek-kornik", "gaspar", "ostrow-lednicki", "wpe-dziekanowice"):   # Lednica 3.11.2026: godziny (grafiki), ceny i kontakt wg lednicamuzeum.pl. Gaspar: karta porównana z Turturi, Visit Poznań i kultura.poznan.pl 3.11.2026.
