@@ -649,7 +649,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="srodka", cat="wspolczesny", name="Śródka i mural 3D",
-        img="srodka", img_alt="Trójwymiarowy mural na Śródce",
+        img="srodka", img_alt="Trójwymiarowy mural na Śródce: kamienice z trębaczem na dachu i kotem w tle", og_pos="center 15%",
         short="Trójwymiarowy mural z trębaczem na dachu, tuż obok Bramy Poznania.",
         badge="Bezpłatnie",
         status=None,

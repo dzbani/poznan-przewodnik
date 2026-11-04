@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-04",
-"hash": "36ca92fb8385c1a6d3951e761df264ae"
+"hash": "7da31c94eadc9b2fa15fbc29f649c933"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -148,8 +148,8 @@
 "hash": "49f9dd241bd2d00361df544b9e4908db"
 },
 "atrakcje/jezyce.html": {
-"date": "2026-10-23",
-"hash": "edc0ea28ae3a256bc1c9d5675d0a440d"
+"date": "2026-11-04",
+"hash": "4436a6e71c6f4ac50a833219e51afec0"
 },
 "atrakcje/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -400,8 +400,8 @@
 "hash": "7526a3dfc596c0ae91d79db5a9ccd616"
 },
 "atrakcje/okraglak.html": {
-"date": "2026-10-23",
-"hash": "7940f41133da8cec56393cdb128a2fa1"
+"date": "2026-11-04",
+"hash": "e9c48470ac1f886c5c17fa228841fe21"
 },
 "atrakcje/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -596,12 +596,12 @@
 "hash": "b85c47ac3f7c3d09a968011d45975ed7"
 },
 "atrakcje/srodka.html": {
-"date": "2026-10-23",
-"hash": "8b4dcce17fe7ce06d6059b229154a727"
+"date": "2026-11-04",
+"hash": "dc8fa9a3d849dea364324f196080dac7"
 },
 "atrakcje/stadion.html": {
-"date": "2026-10-27",
-"hash": "fb36961ca8cc2048c1d071442d4187bd"
+"date": "2026-11-04",
+"hash": "e0e20dd0a570dad975bf5358eb86f586"
 },
 "atrakcje/stare-koryto-warty.html": {
 "date": "2026-10-23",
@@ -612,8 +612,8 @@
 "hash": "8559b9ce14de5a4827e7dc938dd9cbc1"
 },
 "atrakcje/stary-browar.html": {
-"date": "2026-10-27",
-"hash": "e9b116c7a6ed359fdddb9834423b8352"
+"date": "2026-11-04",
+"hash": "babba6f1c15f3786d0f230896c3d630c"
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-11-01",
@@ -636,8 +636,8 @@
 "hash": "cfb180ec47e2025797d422ad41555c3a"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
-"date": "2026-10-28",
-"hash": "75712df319fd03b57ecd2b79f134f16f"
+"date": "2026-11-04",
+"hash": "df70e9ede69d410c485a143f48eccdef"
 },
 "atrakcje/teatr-wielki.html": {
 "date": "2026-11-01",
@@ -697,7 +697,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-04",
-"hash": "f26384239cf29da90214e0782d693e16"
+"hash": "eea7b865f8b54b9af2206485ac7a1220"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -844,8 +844,8 @@
 "hash": "f14131dc15837839d51145af94ed4eae"
 },
 "en/attractions/jezyce.html": {
-"date": "2026-10-24",
-"hash": "7a9b71a015d6c1138b82131411315fb2"
+"date": "2026-11-04",
+"hash": "26e5ed6ea49cbdbd58ab41e8f057dd78"
 },
 "en/attractions/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -1096,8 +1096,8 @@
 "hash": "d99f8879b643cdbd706337301bf0b299"
 },
 "en/attractions/okraglak.html": {
-"date": "2026-10-24",
-"hash": "5249c4e63275d52374240fad16a3f23d"
+"date": "2026-11-04",
+"hash": "f23fe870fbb991af69d5f6565978c3a4"
 },
 "en/attractions/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -1292,12 +1292,12 @@
 "hash": "1c2b5ae9b7197cb3e31317fb6c8e3edc"
 },
 "en/attractions/srodka.html": {
-"date": "2026-10-24",
-"hash": "26cb97cee810e1bc2e4c09bac2c6ddb9"
+"date": "2026-11-04",
+"hash": "9077715c41cd471dbfc57886087a4771"
 },
 "en/attractions/stadion.html": {
-"date": "2026-10-27",
-"hash": "4a80d7c4755d440048e7da73cb4e08a4"
+"date": "2026-11-04",
+"hash": "764b72b49b81565b1dcec7b645524c68"
 },
 "en/attractions/stare-koryto-warty.html": {
 "date": "2026-10-24",
@@ -1308,8 +1308,8 @@
 "hash": "76d714bbd9460db92b8e16df33e47672"
 },
 "en/attractions/stary-browar.html": {
-"date": "2026-10-27",
-"hash": "fd056c6bbad8f40ba069e5f17e70ffb4"
+"date": "2026-11-04",
+"hash": "3192a7dbb03f0374b47bba538e05f65b"
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-11-01",
@@ -1332,8 +1332,8 @@
 "hash": "20892a070a942a949baa7bd06c12368d"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
-"date": "2026-10-28",
-"hash": "9b97b2c36a13e0de5603690918a1d5d3"
+"date": "2026-11-04",
+"hash": "398c83105884e12a267e3a9b3b2ff0ec"
 },
 "en/attractions/teatr-wielki.html": {
 "date": "2026-11-01",
@@ -1401,7 +1401,7 @@
 },
 "en/index.html": {
 "date": "2026-11-04",
-"hash": "fcffed3a25b25dabb1774b446f6d6e15"
+"hash": "b870c0922f9c8170fd6eb6b9fd4f8cfe"
 },
 "en/map.html": {
 "date": "2026-11-04",
@@ -1413,11 +1413,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-04",
-"hash": "0d35481c712b7c5cb3228bf8dd90c9d1"
+"hash": "877704be4b4d5da42d53358a7acf97d6"
 },
 "en/plans.html": {
-"date": "2026-11-03",
-"hash": "c9a2c912d74e7de389846d3c91019ef1"
+"date": "2026-11-04",
+"hash": "ebb2af24286d89fba557c5ddf8a2b43a"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1437,7 +1437,7 @@
 },
 "index.html": {
 "date": "2026-11-04",
-"hash": "4c3bc65dacb7e4b0df87345b27d2764d"
+"hash": "085fac65e943076859e00fe1329287fc"
 },
 "informacje.html": {
 "date": "2026-11-04",
@@ -1464,8 +1464,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-03",
-"hash": "d990c58db189b8fe634e57840479217b"
+"date": "2026-11-04",
+"hash": "ab534f4132d89cdbc54f28452aeb0bf6"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1481,7 +1481,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-04",
-"hash": "09fd017acd787ab166f5e3b3d71c3143"
+"hash": "752e0bafdb482ee047e0494ddabaf51f"
 },
 "zmiany.html": {
 "date": "2026-11-04",

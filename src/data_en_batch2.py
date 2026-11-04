@@ -170,7 +170,7 @@ EN_BATCH2 = {
     ),
     "srodka": dict(
         name="Śródka and the 3D Mural",
-        img_alt="A three-dimensional mural in Śródka",
+        img_alt="A three-dimensional mural in Śródka: townhouses with a trumpeter on the roof and a cat in the background",
         short="A three-dimensional mural with a trumpeter on the roof, right next to the Gate of Poznań.",
         badge="Free",
         status=None,
