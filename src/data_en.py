@@ -131,7 +131,7 @@ EN = {
     ),
     "jezioro-maltanskie": dict(
         name="Lake Malta",
-        img_alt="A sculpture by Lake Malta",
+        img_alt="Lake Malta from the air: the regatta course with buoys and the shore with a footbridge",
         short="An artificial lake with a regatta course. Walks, cycling and things to do all year round.",
         badge="Free",
         status=None,

@@ -382,7 +382,7 @@ ATTRACTIONS = [
     # ─── PRZYRODA ───
     dict(
         slug="jezioro-maltanskie", cat="przyroda", name="Jezioro Maltańskie",
-        img="jezioro-malta", img_alt="Rzeźba nad Jeziorem Maltańskim",
+        img="jezioro-malta", img_alt="Jezioro Maltańskie z lotu ptaka: tor regatowy z bojami i brzeg z kładką",
         short="Sztuczne jezioro z torem regatowym. Spacery, rowery i atrakcje przez cały rok.",
         badge="Bezpłatnie",
         status=None,
