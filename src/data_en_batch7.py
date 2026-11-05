@@ -105,7 +105,7 @@ EN_BATCH7 = {
     ),
     "kolegium-jezuickie": dict(
         name="Former Jesuit College",
-        img_alt="The Baroque building of the former Jesuit College",
+        img_alt="The courtyard of the former Jesuit College with Baroque façades and a blue elephant sculpture",
         short="A Baroque building where Napoleon stayed. Today the seat of the Poznań City Hall.",
         badge="Free",
         status=None,

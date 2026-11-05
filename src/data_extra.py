@@ -196,7 +196,7 @@ EXTRA = [
     ),
     dict(
         slug="kolegium-jezuickie", cat="zabytki", name="Dawne Kolegium Jezuickie",
-        img="kolegium-jezuickie", img_alt="Barokowy gmach dawnego Kolegium Jezuickiego",
+        img="kolegium-jezuickie", img_alt="Dziedziniec dawnego Kolegium Jezuickiego z barokowymi elewacjami i niebieską rzeźbą słonia",
         short="Barokowy gmach, w którym mieszkał Napoleon. Dziś siedziba Urzędu Miasta Poznania.",
         badge="Bezpłatnie",
         status=None,
