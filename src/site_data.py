@@ -1183,6 +1183,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("biskupin", "grod-pobiedziska", "katedra-gniezno"):
         _a["checked"] = "24.10.2026"
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
+    if _a["slug"] == "kolegium-jezuickie":   # karta porównana z poznan.pl, Wikipedią, kierunkowo.pl i Visit Poznań 5.11.2026
+        _a["checked"] = "05.11.2026"
     if _a["slug"] == "biblioteka-raczynskich":   # karta porównana z bracz.edu.pl (historia, zbiory, kontakt, filie) i Wikipedią 5.11.2026
         _a["checked"] = "05.11.2026"
     if _a["slug"] == "wzgorze-sw-wojciecha":   # karta porównana z Wikipedią i kultura.poznan.pl 4.11.2026 (poprawiona urna Prądzyńskiego, dodana sekcja o kościele)
