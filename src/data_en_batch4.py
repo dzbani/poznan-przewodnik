@@ -22,20 +22,26 @@ EN_BATCH4 = {
     "biblioteka-raczynskich": dict(
         name="Raczyński Library",
         img_alt="The Raczyński Library building on Freedom Square",
-        short="A neoclassical building from 1829 with a façade modelled on the Louvre, on Freedom Square.",
+        short="A neoclassical building of 1822–1828 with a façade modelled on the Louvre, on Freedom Square.",
         badge="Free",
         status=None,
-        lead="The library was founded by Count Edward Raczyński. It opened on 5 May 1829 as the first public library in the Polish lands under Prussian rule.",
+        lead="The library was founded by Count Edward Raczyński. It opened on 5 May 1829 as the first public library in the Polish lands under Prussian rule. It is the oldest surviving public library in Poland.",
         sections=[
             ("The building", [
                 "The neoclassical building on Plac Wolności (Freedom Square) was built in 1822–1828. Its façade echoes the Louvre in Paris and has twelve pairs of cast-iron Corinthian columns.",
-                "On 1 July 2013 a new wing of the library, designed by the JEMS Architekci studio, was opened.",
+                "On 29 June 2013 a new library building on the Aleje Marcinkowskiego side, designed by the JEMS Architekci studio, was opened.",
+            ]),
+            ("History", [
+                "In the statute the founder wrote that the reading room may be used by anyone “regardless of persons”.",
+                "On 5 February 1945, during the fighting for Poznań, the Germans blew up the building and about 90% of the book collection burned. About 17,000 of the most valuable items survived, having been moved earlier to Obrzycko.",
+                "The reconstruction, to a design by Janina Czarnecka, began in 1953, and three years later the building was put back into use. In April 2022 the historic building was reopened to readers after modernisation. The Art Branch is on the first floor.",
             ]),
             ("Good to know", [
                 "The library has about 1.8 million items and 35 branches in Poznań. It also runs literary museums, including the Henryk Sienkiewicz Literary Museum on the Old Market Square.",
+                "The Hygieia fountain stands in front of the library.",
             ]),
         ],
-        hours=[("Building from the square side", "visible around the clock")],
+        hours=[("Entrance from Plac Wolności", "Mon–Fri 9:00–20:00, Sat 10:00–17:00 (closed on Saturdays in July and August)"), ("Building from the square side", "visible around the clock")],
         tickets=[("Viewing the building", "free")],
     ),
     "jezyce": dict(

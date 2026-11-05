@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-04",
-"hash": "3c5dca11dd076714a67ae5b492509a84"
+"date": "2026-11-05",
+"hash": "b51454417fb8e025d300ea20edc8d25b"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -16,8 +16,8 @@
 "hash": "32661df18b4bd4bae748c52496e1c2ba"
 },
 "atrakcje/biblioteka-raczynskich.html": {
-"date": "2026-11-01",
-"hash": "f3de2369fc16c3542bc07be0da74e188"
+"date": "2026-11-05",
+"hash": "8aa56b2744d8d2b114906c154a20de73"
 },
 "atrakcje/biskupin.html": {
 "date": "2026-11-03",
@@ -696,8 +696,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-04",
-"hash": "027e008c36875ed0278bf2e4efbc2f5c"
+"date": "2026-11-05",
+"hash": "2bbe5dca1e8e6d7e36667c0a9e49f7f1"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -712,8 +712,8 @@
 "hash": "4828b1a97b5489fe80b5e0580051b682"
 },
 "en/attractions/biblioteka-raczynskich.html": {
-"date": "2026-11-01",
-"hash": "f8afeaa65f19ecea25a2710df270084c"
+"date": "2026-11-05",
+"hash": "c520434b61f182242dc1ed5b2af2ecf2"
 },
 "en/attractions/biskupin.html": {
 "date": "2026-11-03",
@@ -1396,16 +1396,16 @@
 "hash": "b8da05f8dae3f7f46cb06d590f3746f0"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-04",
-"hash": "3b17fe61dd09688ee0bbf6fd29d04335"
+"date": "2026-11-05",
+"hash": "2e923f4fd67e00ee1bafcb7b05a35bc0"
 },
 "en/index.html": {
 "date": "2026-11-04",
 "hash": "dcbba4ce35c1501165be6cd4fb4bade9"
 },
 "en/map.html": {
-"date": "2026-11-04",
-"hash": "60878d27710d0138af5f21e5ebf975b8"
+"date": "2026-11-05",
+"hash": "3e7a291475f49d721af8b345e267386c"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1416,8 +1416,8 @@
 "hash": "0b163a4e89c0ad7d57daefae293c7833"
 },
 "en/plans.html": {
-"date": "2026-11-04",
-"hash": "18a41ee722488dd2b6eb3fd7383d24e3"
+"date": "2026-11-05",
+"hash": "65a787ec2f7adb790105fbc03f580185"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1444,16 +1444,16 @@
 "hash": "00b2a1872577b9beb28386536d826e7f"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-04",
-"hash": "746720b29179ec853f790ef711f77eea"
+"date": "2026-11-05",
+"hash": "bf50d79174c58293a0890f5d63db6351"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-04",
-"hash": "ab7dfd34a30be568f0616ad78c64bbb9"
+"date": "2026-11-05",
+"hash": "5489c1335250888fae6cc66e98b7d9b4"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1464,8 +1464,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-04",
-"hash": "90a025e5c4e35edc7d89e97aa714754b"
+"date": "2026-11-05",
+"hash": "d01647ef77a11c0e005565367cbb1234"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
