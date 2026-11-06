@@ -25,7 +25,7 @@ CAT = {k: (name, desc) for k, name, desc in CATEGORIES}
 BY_SLUG = {a["slug"]: a for a in ATTRACTIONS}
 
 # Scalone karty: stary adres -> nowy (patrz strony-odsyłacze na końcu main()).
-REDIRECTS = {"muzeum-sztuk-uzytkowych": "zamek-krolewski", "twierdza-poznan": "cytadela"}
+REDIRECTS = {"muzeum-sztuk-uzytkowych": "zamek-krolewski"}
 CAT_WORDS = {4: "czterech", 5: "pięciu", 6: "sześciu", 7: "siedmiu", 8: "ośmiu"}
 
 # Czcionki są na własnym serwerze (/fonts, @font-face na początku style.css); bez Google Fonts.
