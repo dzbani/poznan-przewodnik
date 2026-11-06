@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-05",
-"hash": "292325cb2033de50e988da14d5edb82f"
+"date": "2026-11-06",
+"hash": "709ac0ed61dcd7afd11f0c609d4567ce"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -12,8 +12,8 @@
 "hash": "0e6fe1bca8f8ee01516c19c7a2996fd8"
 },
 "atrakcje/bazar.html": {
-"date": "2026-11-01",
-"hash": "32661df18b4bd4bae748c52496e1c2ba"
+"date": "2026-11-06",
+"hash": "e1121053b41db988209fe96d235fa7fd"
 },
 "atrakcje/biblioteka-raczynskich.html": {
 "date": "2026-11-05",
@@ -696,8 +696,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-05",
-"hash": "6d2987f7c9e23f2566fca437c38b27e4"
+"date": "2026-11-06",
+"hash": "25cff4241b1d4a5ed0a965921eb839b2"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -708,8 +708,8 @@
 "hash": "8ccd11394fb300a75dde27a40e733e26"
 },
 "en/attractions/bazar.html": {
-"date": "2026-11-01",
-"hash": "4828b1a97b5489fe80b5e0580051b682"
+"date": "2026-11-06",
+"hash": "e82e7c8bafcc544da46ac5d6b9be956c"
 },
 "en/attractions/biblioteka-raczynskich.html": {
 "date": "2026-11-05",
@@ -1412,12 +1412,12 @@
 "hash": "4f5e3ff7bd5bc63741ab0842d4c272d4"
 },
 "en/photo-credits.html": {
-"date": "2026-11-05",
-"hash": "2fbfa5a404ab1ff2cc38f94bd2cf393e"
+"date": "2026-11-06",
+"hash": "0ada3cb8feb174e72b7fbf7c05b56b29"
 },
 "en/plans.html": {
-"date": "2026-11-05",
-"hash": "65a787ec2f7adb790105fbc03f580185"
+"date": "2026-11-06",
+"hash": "d05e1611c9cf40a2d7132cb05f292ca0"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1464,8 +1464,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-05",
-"hash": "d01647ef77a11c0e005565367cbb1234"
+"date": "2026-11-06",
+"hash": "24824bafd6ea8355baa2b180cd1f906c"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1480,8 +1480,8 @@
 "hash": "9b4a907d9ece6fde12ba338fbbb524ee"
 },
 "zdjecia.html": {
-"date": "2026-11-05",
-"hash": "311c19f2fe0df0abf49850a33ce2991b"
+"date": "2026-11-06",
+"hash": "f6255b940c331d39d87967040143e612"
 },
 "zmiany.html": {
 "date": "2026-11-04",

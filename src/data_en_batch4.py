@@ -4,7 +4,7 @@
 EN_BATCH4 = {
     "bazar": dict(
         name="Hotel Bazar",
-        img_alt="The Hotel Bazar building in Poznań",
+        img_alt="The corner of the Hotel Bazar building with an ornate façade and the BAZAR lettering",
         short="A building from 1838, founded by Karol Marcinkowski among others as a centre of Polish life.",
         badge="Free",
         status=None,

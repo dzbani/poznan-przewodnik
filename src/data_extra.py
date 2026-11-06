@@ -774,7 +774,7 @@ EXTRA = [
     ),
     dict(
         slug="bazar", cat="zabytki", name="Hotel Bazar",
-        img="bazar", img_alt="Gmach Hotelu Bazar w Poznaniu",
+        img="bazar", img_alt="Narożnik gmachu Hotelu Bazar z bogato zdobioną elewacją i napisem BAZAR", og_pos="center top",
         short="Gmach z 1838 roku, założony m.in. przez Karola Marcinkowskiego jako ośrodek polskiego życia.",
         badge="Bezpłatnie",
         status=None,
