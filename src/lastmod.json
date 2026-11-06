@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-06",
-"hash": "709ac0ed61dcd7afd11f0c609d4567ce"
+"hash": "381062fd95aadda5d090ddfd30f6d98f"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -13,7 +13,7 @@
 },
 "atrakcje/bazar.html": {
 "date": "2026-11-06",
-"hash": "e1121053b41db988209fe96d235fa7fd"
+"hash": "e790f6d6acca8a12d23ec698d2a75d44"
 },
 "atrakcje/biblioteka-raczynskich.html": {
 "date": "2026-11-05",
@@ -697,7 +697,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-06",
-"hash": "25cff4241b1d4a5ed0a965921eb839b2"
+"hash": "c259bb159d4d80568d27c1bb4da76e75"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -709,7 +709,7 @@
 },
 "en/attractions/bazar.html": {
 "date": "2026-11-06",
-"hash": "e82e7c8bafcc544da46ac5d6b9be956c"
+"hash": "76f965d2aedc8aa94525eb23eac8a64c"
 },
 "en/attractions/biblioteka-raczynskich.html": {
 "date": "2026-11-05",
@@ -1396,16 +1396,16 @@
 "hash": "b8da05f8dae3f7f46cb06d590f3746f0"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-05",
-"hash": "2e923f4fd67e00ee1bafcb7b05a35bc0"
+"date": "2026-11-06",
+"hash": "b7854d782b5891e1bc0b155144a3baa5"
 },
 "en/index.html": {
 "date": "2026-11-04",
 "hash": "dcbba4ce35c1501165be6cd4fb4bade9"
 },
 "en/map.html": {
-"date": "2026-11-05",
-"hash": "3e7a291475f49d721af8b345e267386c"
+"date": "2026-11-06",
+"hash": "892f920a81e647f030dd50407721bab7"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1417,7 +1417,7 @@
 },
 "en/plans.html": {
 "date": "2026-11-06",
-"hash": "d05e1611c9cf40a2d7132cb05f292ca0"
+"hash": "8c0e581cf2bef01fffd3f3de5f5d2f78"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1444,16 +1444,16 @@
 "hash": "00b2a1872577b9beb28386536d826e7f"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-05",
-"hash": "bf50d79174c58293a0890f5d63db6351"
+"date": "2026-11-06",
+"hash": "f18d350fe5614793cfc453c7e2cbaf8c"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-05",
-"hash": "5489c1335250888fae6cc66e98b7d9b4"
+"date": "2026-11-06",
+"hash": "df48dead604c06965b38d542d644845c"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1465,7 +1465,7 @@
 },
 "plany.html": {
 "date": "2026-11-06",
-"hash": "24824bafd6ea8355baa2b180cd1f906c"
+"hash": "c541fc1e90fdcb0ffe4a880a95fb3398"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",

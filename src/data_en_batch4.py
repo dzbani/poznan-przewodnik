@@ -5,15 +5,21 @@ EN_BATCH4 = {
     "bazar": dict(
         name="Hotel Bazar",
         img_alt="The corner of the Hotel Bazar building with an ornate façade and the BAZAR lettering",
-        short="A building from 1838, founded by Karol Marcinkowski among others as a centre of Polish life.",
+        short="A building of 1838–1842, raised on the initiative of Karol Marcinkowski as a centre of Polish life.",
         badge="Free",
         status=None,
-        lead="The Bazar grew out of a joint-stock company founded on 24 June 1838. Its committee included the physician and social activist Karol Marcinkowski. The building stands at the junction of Aleje Marcinkowskiego and ul. Paderewskiego, on the edge of the Old Town.",
+        lead="The Bazar was the initiative of Karol Marcinkowski, a physician and social activist who helped to found a joint-stock company. The company was formed on 24 June 1838, and the building was raised between 1838 and 1842. It stands at the junction of Aleje Marcinkowskiego and ul. Paderewskiego, on the edge of the Old Town.",
         sections=[
             ("History", [
-                "Shareholders gave up profits in favour of social goals, and the shops in the Bazar were rented only to Poles.",
-                "A luxury hotel with a famous restaurant operated here, as did many Polish organisations, newspaper offices (including the “Dziennik Poznański”) and cultural institutions.",
-                "The hotel burned down in 1945 and was rebuilt by 1950. From 1950 to 1990 it was managed by Orbis, and in 1990 the building was recovered by the pre-war company Bazar Poznański.",
+                "Shareholders gave up all or part of their profits in favour of social goals, and the shops in the Bazar were rented only to Poles.",
+                "The building was designed by Ernst Steudener, and the works were directed by the Poznań builder Antoni Krzyżanowski. The foundation stone was laid on 21 November 1839, and the work was completed in 1842.",
+                "A hotel operated here, a luxurious one in the interwar years, famous for a restaurant with a huge choice of wines, as did many Polish organisations, newspaper offices (including the “Dziennik Poznański”, the “Kurier Poznański” and the “Orędownik”) and cultural institutions. Performers here included Ferenc Liszt, Henryk Wieniawski and Apolinary Kątski, and in the 1930s Jan Kiepura sang from the balcony to crowds gathered in front of the hotel.",
+                "In 1848, during the Spring of Nations, the National Committee had its seat here. In December 1918 Ignacy Jan Paderewski stayed at the hotel. His speech from the window on 26 December set off the events leading to the Greater Poland Uprising, and the shooting at the hotel on 27 December became the pretext for the outbreak of fighting.",
+                "The hotel burned down in 1945. It was rebuilt in a simplified form in 1949, to host the guests of an international trade fair. In 1950 it was taken over by Orbis, and the hotel operated until 1988. In 1990 the building was returned to its former owners, the company Bazar Poznański, which began a renovation meant to restore its original appearance.",
+            ]),
+            ("Extension and architecture", [
+                "In 1898–1899 a second wing was added, facing Aleje Marcinkowskiego, to a design by Roger Sławski. The whole building was then the largest secular building in the city, until the Imperial Castle was built.",
+                "The façade on ul. Paderewskiego is late Neoclassical: a portico raised to roof level and topped with a triangular tympanum, with two square towers at the sides. The wing on Aleje Marcinkowskiego has a Neo-Baroque façade.",
             ]),
         ],
         hours=[("Façade", "visible around the clock")],
