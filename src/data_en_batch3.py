@@ -316,31 +316,6 @@ EN_BATCH3 = {
         hours=[("Opening hours", "confirm by phone before your visit")],
         tickets=[("Standard", "PLN 15"), ("Reduced", "PLN 10"), ("Sunday", "free admission")],
     ),
-    "twierdza-poznan": dict(
-        name="Poznań Fortress",
-        img_alt="The Railway Caponier, a fragment of the former Poznań Fortress",
-        short="Prussian fortifications of the 19th century: the Citadel, a ring of 18 forts and relics in the city centre.",
-        badge="Free",
-        status=None,
-        lead="In the 19th century the Prussians turned Poznań into a fortress. First, in 1828–1869, a polygonal fortress was built, and from the 1870s a ring of forts was built around the city.",
-        sections=[
-            ("The polygonal fortress", [
-                "It consisted of a large fort on Winiary Hill (today's Citadel), fortifications on the right bank of the Warta (including Ostrów Tumski, Śródka and Malta) and a core on the left bank. Ul. Kościuszki and ul. Kazimierza Wielkiego now run along the former fortifications.",
-                "In 1902 it was decided to dismantle the core on the left bank. Demolition continued after Poland regained independence and after the Second World War, so only fragments remain of this part of the fortress.",
-            ]),
-            ("The ring of forts", [
-                "In the second half of the 19th century the fortress was modernised. Nine main forts and nine intermediate forts were planned. The main forts were built in 1873–1884 to a standard Prussian design by Gen. von Biehler: pentagonal, with a moat and an artillery rampart.",
-            ]),
-            ("Where to see the relics", [
-                "The Citadel, with the remains of Fort Winiary, and Fort VII with the Museum of the Martyrdom of Greater Poland People.",
-                "Fort III on the grounds of the New Zoo, and Fort IVa and Fort Va, open on selected days.",
-                "Fragments of the Railway Caponier under Rondo Kaponiera, a fragment of the arsenal on ul. Garbary and the western abutment of the Cathedral Lock near the Gate of Poznań.",
-            ]),
-        ],
-        address="Poznań (many locations) 61-001",
-        hours=[("Relics in the city", "viewable from outside"), ("Forts", "hours on the pages of the individual forts")],
-        tickets=[("Viewing the relics", "free")],
-    ),
     "fort-vii": dict(
         name="Fort VII – Museum of the Martyrdom of Greater Poland People",
         img_alt="The brick entrance gate of Fort VII with its historic inscription and a cross on the earth rampart above it",

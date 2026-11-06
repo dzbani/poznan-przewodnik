@@ -7,34 +7,6 @@ P = "https://www.poznan.pl/mim/wortals/turystyka/"
 
 FINAL = [
     dict(
-        slug="twierdza-poznan", cat="zabytki", name="Twierdza Poznań",
-        img="twierdza-poznan", img_alt="Kaponiera Kolejowa, fragment dawnej Twierdzy Poznań",
-        short="Pruskie fortyfikacje z XIX wieku: Cytadela, pierścień 18 fortów i relikty w centrum miasta.",
-        badge="Bezpłatnie",
-        status=None,
-        lead="W XIX wieku Prusacy zamienili Poznań w twierdzę. Najpierw, w latach 1828–1869, powstała twierdza poligonalna, a od lat 70. XIX wieku wokół miasta zbudowano pierścień fortów.",
-        sections=[
-            ("Twierdza poligonalna", [
-                "Składała się z dużego fortu na Wzgórzu Winiarskim (dzisiejsza Cytadela), umocnień na prawym brzegu Warty (m.in. Ostrów Tumski, Śródka i Malta) oraz rdzenia na lewym brzegu. Wzdłuż dawnych umocnień biegną dziś ulice Kościuszki i Kazimierza Wielkiego.",
-                "W 1902 roku zdecydowano o likwidacji rdzenia na lewym brzegu. Rozbiórki trwały też po odzyskaniu niepodległości i po II wojnie światowej, więc z tej części twierdzy zostały tylko fragmenty.",
-            ]),
-            ("Twierdza fortowa", [
-                "W drugiej połowie XIX wieku twierdzę zmodernizowano. Zaplanowano dziewięć fortów głównych i dziewięć pośrednich. Forty główne zbudowano w latach 1873–1884 według standardowego pruskiego projektu gen. von Biehlera: na planie pięciokąta, z fosą i wałem artyleryjskim.",
-            ]),
-            ("Gdzie zobaczyć relikty", [
-                "Cytadela z pozostałościami Fortu Winiary oraz Fort VII z Muzeum Martyrologii Wielkopolan.",
-                "Fort III na terenie Nowego Zoo oraz Fort IVa i Fort Va, udostępniane w wybrane dni.",
-                "Fragmenty Kaponiery Kolejowej pod Rondem Kaponiera, fragment arsenału przy ulicy Garbary i zachodni przyczółek Śluzy Katedralnej przy Bramie Poznania.",
-            ]),
-        ],
-        address="Poznań (wiele lokalizacji) 61-001",
-        hours=[("Relikty w mieście", "dostępne z zewnątrz"), ("Forty", "godziny na stronach poszczególnych fortów")],
-        tickets=[("Oglądanie reliktów", "bezpłatnie")],
-        phone=None, www=("poznan.pl", P + "fortyfikacje,poi,2575/dawna-twierdza-poznan,45909.html"),
-        credit="twierdza-poznan",
-        sources=[("poznan.pl: Dawna twierdza Poznań", P + "fortyfikacje,poi,2575/dawna-twierdza-poznan,45909.html")],
-    ),
-    dict(
         slug="fort-iva", cat="zabytki", name="Fort IVa",
         img="fort-iva", img_alt="Fort IVa w Poznaniu",
         short="Pruski fort z 1881 roku, dziś zimowisko nietoperzy. Zwiedzanie w pierwsze niedziele miesiąca.",
