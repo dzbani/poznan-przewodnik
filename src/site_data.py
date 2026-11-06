@@ -238,7 +238,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="cytadela", cat="zabytki", name="Cytadela",
-        img="cytadela", img_alt="Pomnik Bohaterów w Parku Cytadela",
+        img="cytadela", img_alt="Pomnik Bohaterów u szczytu schodów w Parku Cytadela, wśród jesiennych drzew", og_pos="center top",
         short="Park na miejscu pruskiego fortu. Cmentarze wojenne, Nierozpoznani i dwa muzea.",
         badge="Park bezpłatnie",
         status=None,

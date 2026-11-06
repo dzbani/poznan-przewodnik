@@ -216,7 +216,7 @@ EN_BATCH2 = {
     ),
     "cytadela": dict(
         name="Cytadela (Citadel Park)",
-        img_alt="The Heroes' Monument in Cytadela Park",
+        img_alt="The Heroes' Monument at the top of the steps in Cytadela Park, among autumn trees",
         short="A park on the site of a Prussian fort. War cemeteries, the Unrecognised and two museums.",
         badge="Park free",
         status=None,
