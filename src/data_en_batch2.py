@@ -220,18 +220,21 @@ EN_BATCH2 = {
         short="A park on the site of a Prussian fort. War cemeteries, the Unrecognised and two museums.",
         badge="Park free",
         status=None,
-        lead="Cytadela Park covers about 100 hectares on the site of Fort Winiary, the central fort of the former Poznań Fortress. Since 2008 it has been a Historic Monument of Poland.",
+        lead="Cytadela Park, the largest park in Poznań, covers about 100 hectares on the site of Fort Winiary, the central fort of the former Poznań Fortress. Since 2008 it has been part of a Historic Monument of Poland, the historic urban complex of Poznań.",
         sections=[
             ("About the place", [
-                "Construction of the fort began on 23 June 1828 to a design by Johann Leopold Ludwig Brese. The work lasted about 14 years.",
+                "Construction of the fort began on 23 June 1828 to a design by Johann Leopold Ludwig Brese. The work lasted about 14 years, until 1842. It was the largest artillery fort in Europe.",
                 "In February 1945 the Citadel was the last point of German resistance in Poznań and fell on 23 February. On 21 July 1946 the last public execution in Poland was held here: Arthur Greiser, the Nazi governor of the Warthegau, was hanged.",
-                "In 1963–1970 the fort was demolished and a park was laid out. The recovered brick was used in the rebuilding of Warsaw and Poznań.",
+                "In 1963–1970 the fort was demolished and the Park-Monument of Brotherhood in Arms and Polish-Soviet Friendship was laid out; in 1992 it was renamed Cytadela Park. The recovered brick was used in the rebuilding of Warsaw and Poznań.",
             ]),
             ("What to see", [
+                "The Heroes' Monument: a 23-metre monument at the top of monumental steps on the Aleja Niepodległości side, unveiled on 23 February 1946. The red star was removed from its top in 1989.",
                 "The Unrecognised: an installation by Magdalena Abakanowicz of 112 cast-iron figures, made for the 750th anniversary of Poznań.",
-                "Cemeteries: the Polish Heroes' Cemetery, the parish cemetery of St Adalbert, the garrison cemetery, the Soviet soldiers' cemetery and the Commonwealth War Graves cemetery, where 48 participants of the Great Escape are buried.",
+                "Cemeteries: the Polish Heroes' Cemetery, the parish cemetery of St Adalbert, the garrison cemetery, the Soviet soldiers' cemetery and the Commonwealth War Graves cemetery, where 48 participants of the Great Escape are buried. Also preserved are the relics of the former “Old Garrison” cemetery and of the German Honour Cemetery, and an Orthodox section.",
+                "Fortress structures: Ravelin I, Redoubt I, the North (Polna) Gate, Bastion II and the viaducts of the Small and Great Lock.",
                 "The Rosarium, a rose garden on terraces with a small pond in the middle.",
-                "The Bell of Peace and Friendship Between Nations.",
+                "The Bell of Peace and Friendship Between Nations, and an amphitheatre.",
+                "Two natural monuments: the Oak of Gen. Vasily Chuikov and the Oak of the Poznań Cytadelowcy (Dąb Cytadelowców Poznańskich). Cytadela is also the most important bat hibernation site in Poznań (12 species).",
                 "The Armament Museum and the “Poznań” Army Museum, branches of the Greater Poland Independence Museum.",
             ]),
             ("Poznań Fortress", [

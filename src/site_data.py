@@ -242,18 +242,21 @@ ATTRACTIONS = [
         short="Park na miejscu pruskiego fortu. Cmentarze wojenne, Nierozpoznani i dwa muzea.",
         badge="Park bezpłatnie",
         status=None,
-        lead="Park Cytadela zajmuje około 100 hektarów w miejscu Fortu Winiary, centralnego fortu dawnej Twierdzy Poznań. Od 2008 roku jest pomnikiem historii.",
+        lead="Park Cytadela, największy park Poznania, zajmuje około 100 hektarów w miejscu Fortu Winiary, centralnego fortu dawnej Twierdzy Poznań. Od 2008 roku jest częścią pomnika historii, czyli historycznego zespołu miasta Poznania.",
         sections=[
             ("O miejscu", [
-                "Fort zaczęto budować 23 czerwca 1828 roku według projektu Johanna Leopolda Ludwiga Brese. Prace trwały około 14 lat.",
+                "Fort zaczęto budować 23 czerwca 1828 roku według projektu Johanna Leopolda Ludwiga Brese. Prace trwały około 14 lat, do 1842 roku. Był to największy fort artyleryjski w Europie.",
                 "W lutym 1945 roku Cytadela była ostatnim punktem oporu wojsk niemieckich w Poznaniu i padła 23 lutego. 21 lipca 1946 roku odbyła się tu ostatnia publiczna egzekucja w Polsce: powieszono Arthura Greisera, nazistowskiego namiestnika Kraju Warty.",
-                "W latach 1963–1970 fort rozebrano i urządzono park. Odzyskaną cegłę wykorzystano przy odbudowie Warszawy i Poznania.",
+                "W latach 1963–1970 fort rozebrano i urządzono Park-Pomnik Braterstwa Broni i Przyjaźni Polsko-Radzieckiej, który w 1992 roku przemianowano na Park Cytadela. Odzyskaną cegłę wykorzystano przy odbudowie Warszawy i Poznania.",
             ]),
             ("Co zobaczyć", [
+                "Pomnik Bohaterów: 23-metrowy pomnik na szczycie monumentalnych schodów od strony alei Niepodległości, odsłonięty 23 lutego 1946 roku. Czerwoną gwiazdę ze szczytu usunięto w 1989 roku.",
                 "Nierozpoznani: instalacja Magdaleny Abakanowicz ze 112 żeliwnych postaci, powstała na 750-lecie Poznania.",
-                "Cmentarze: Cmentarz Bohaterów Polskich, parafialny cmentarz św. Wojciecha, cmentarz garnizonowy, cmentarz żołnierzy radzieckich oraz Cmentarz Wojenny Wspólnoty Brytyjskiej, gdzie leży 48 uczestników Wielkiej Ucieczki.",
+                "Cmentarze: Cmentarz Bohaterów Polskich, parafialny cmentarz św. Wojciecha, cmentarz garnizonowy, cmentarz żołnierzy radzieckich oraz Cmentarz Wojenny Wspólnoty Brytyjskiej, gdzie leży 48 uczestników Wielkiej Ucieczki. Zachowały się też relikty dawnego cmentarza starogarnizonowego i niemieckiego Cmentarza Honorowego oraz kwatera prawosławna.",
+                "Obiekty forteczne: Rawelin I, Reduta I, Brama Północna (Polna), Bastion II i estakady Małej i Wielkiej Śluzy.",
                 "Rosarium, czyli ogród różany na tarasach, z niewielkim stawem pośrodku.",
-                "Dzwon Pokoju i Przyjaźni Między Narodami.",
+                "Dzwon Pokoju i Przyjaźni Między Narodami oraz amfiteatr.",
+                "Dwa pomniki przyrody: Dąb im. gen. Wasilija Czujkowa i Dąb Cytadelowców Poznańskich. Cytadela jest też najważniejszym zimowiskiem nietoperzy w Poznaniu (12 gatunków).",
                 "Muzeum Uzbrojenia i Muzeum Armii „Poznań”, oddziały Wielkopolskiego Muzeum Niepodległości.",
             ]),
             ("Twierdza Poznań", [
