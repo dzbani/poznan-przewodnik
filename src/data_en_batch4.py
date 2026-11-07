@@ -131,7 +131,7 @@ EN_BATCH4 = {
     ),
     "mury-miejskie": dict(
         name="Medieval City Walls",
-        img_alt="A fragment of the city walls on ul. Wroniecka",
+        img_alt="A fragment of the brick city walls with arched recesses, surrounded by greenery",
         short="Remains of walls from the 13th–15th centuries, Catherine's Tower and a tourist path by the Wronki Gate.",
         badge="Free",
         status=None,

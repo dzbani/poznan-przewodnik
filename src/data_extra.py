@@ -253,7 +253,7 @@ EXTRA = [
     ),
     dict(
         slug="mury-miejskie", cat="zabytki", name="Średniowieczne mury miejskie",
-        img="mury-miejskie", img_alt="Fragment murów miejskich przy ulicy Wronieckiej",
+        img="mury-miejskie", img_alt="Fragment ceglanych murów miejskich z łukowymi wnękami, otoczony zielenią",
         short="Relikty murów z XIII–XV wieku, Baszta Katarzynek i ścieżka turystyczna przy Bramie Wronieckiej.",
         badge="Bezpłatnie",
         status=None,
