@@ -1198,6 +1198,8 @@ for _a in ATTRACTIONS:
     # Zamek w Kórniku: karta porównana ze stroną bkpan.poznan.pl 3.11.2026.
     if _a["slug"] == "kolegium-jezuickie":   # karta porównana z poznan.pl, Wikipedią, kierunkowo.pl i Visit Poznań 5.11.2026
         _a["checked"] = "05.11.2026"
+    if _a["slug"] == "mury-miejskie":   # karta porównana z Wikipedią i Medieval Heritage 7.11.2026 (baszta armatnia zamiast bastionu, daty rozbiórki, ścieżka 2008)
+        _a["checked"] = "07.11.2026"
     if _a["slug"] == "bazar":   # karta porównana z Wikipedią i poznan.pl 6.11.2026 (daty budowy, Orbis, rozbudowa Sławskiego, Paderewski, link i adres)
         _a["checked"] = "06.11.2026"
     if _a["slug"] == "biblioteka-raczynskich":   # karta porównana z bracz.edu.pl (historia, zbiory, kontakt, filie) i Wikipedią 5.11.2026

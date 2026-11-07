@@ -257,17 +257,19 @@ EXTRA = [
         short="Relikty murów z XIII–XV wieku, Baszta Katarzynek i ścieżka turystyczna przy Bramie Wronieckiej.",
         badge="Bezpłatnie",
         status=None,
-        lead="Mury obronne otaczały Poznań od XIII do XV wieku. Miały około 1725 metrów długości i 7 metrów wysokości, a wewnętrzne baszty sięgały 11 metrów.",
+        lead="Mury obronne otaczały Poznań od około 1280 roku. Miały około 1725 metrów długości i około 7 metrów wysokości, a baszty muru wewnętrznego sięgały 11 metrów. Rozbierano je od końca XVIII wieku, a do dziś przetrwały tylko fragmenty.",
         sections=[
             ("Historia", [
-                "Drewniano-ziemne umocnienia zaczęto budować wkrótce po lokacji miasta w 1253 roku, a potem zastąpiono je murem z 32 wykuszami.",
+                "Drewniano-ziemne umocnienia zaczęto budować wkrótce po lokacji miasta w 1253 roku, a potem zastąpiono je ceglanym murem na kamiennej podstawie, z 32 wykuszami. Pierwsza wzmianka o murach pochodzi z 1297 roku.",
+                "W 1331 roku mury odparły szturm Jana Luksemburskiego.",
                 "Po 1431 roku dobudowano drugi, zewnętrzny mur z półkolistymi basztami przystosowanymi do broni palnej. W XVII wieku, wraz z rozwojem artylerii, mury straciły znaczenie obronne.",
+                "Budowa kościoła jezuickiego, który stanął częściowo w dawnej fosie, wymagała rozebrania fragmentu południowego odcinka murów. W latach 1701–1712 wzniesiono nowy mur bardziej na południe, z charakterystycznymi kluczowymi otworami strzelniczymi. Po zajęciu miasta przez Prusaków w 1793 roku nakazano rozbiórkę murów.",
             ]),
             ("Co zobaczyć", [
-                "Basztę Katarzynek, jedyną zachowaną do dziś basztę dawnych murów.",
-                "Relikty bastionu artyleryjskiego przy ulicy 23 Lutego.",
-                "Fragmenty muru zewnętrznego z Furtą Zamkową przy Zamku Królewskim oraz zachodnie odcinki przy ulicy Ludgardy.",
-                "Ścieżkę turystyczną między bastionem a reliktami Bramy Wronieckiej.",
+                "Basztę Katarzynek i zrekonstruowany odcinek muru z basztą „Strażacką”.",
+                "Pozostałości baszty armatniej z zewnętrznego muru w podwórzu kamienicy przy ulicy 23 Lutego.",
+                "Fragmenty muru zewnętrznego z Furtą Zamkową przy Zamku Królewskim, zachodnie odcinki przy ulicy Ludgardy oraz południowy fragment muru zewnętrznego w pobliżu dawnej Bramy Wrocławskiej.",
+                "Ścieżkę turystyczną, otwartą w 2008 roku, między basztą armatnią a reliktami Bramy Wronieckiej.",
             ]),
             ("Warto wiedzieć", [
                 "Od sierpnia 2013 roku przebieg dawnych murów wyznacza 17 tablic wmurowanych w chodniki Starego Miasta.",
@@ -279,7 +281,8 @@ EXTRA = [
         phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/fortyfikacje,poi,2575/"),
         credit="mury-miejskie",
         sources=[("Wikipedia: Mury miejskie w Poznaniu", "https://pl.wikipedia.org/wiki/Mury_miejskie_w_Poznaniu"),
-                 ("poznan.pl: fortyfikacje", "https://www.poznan.pl/mim/wortals/turystyka/fortyfikacje,poi,2575/")],
+                 ("poznan.pl: fortyfikacje", "https://www.poznan.pl/mim/wortals/turystyka/fortyfikacje,poi,2575/"),
+                 ("Medieval Heritage: Poznań – miejskie mury obronne", "https://medievalheritage.eu/pl/strona-glowna/zabytki/polska/poznan-miejskie-mury-obronne/")],
     ),
 
     # ─── Partia 2 ───

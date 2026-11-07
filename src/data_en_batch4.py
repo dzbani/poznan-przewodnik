@@ -135,17 +135,19 @@ EN_BATCH4 = {
         short="Remains of walls from the 13th–15th centuries, Catherine's Tower and a tourist path by the Wronki Gate.",
         badge="Free",
         status=None,
-        lead="Defensive walls surrounded Poznań from the 13th to the 15th century. They were about 1,725 metres long and 7 metres high, and the inner towers reached 11 metres.",
+        lead="Defensive walls surrounded Poznań from around 1280. They were about 1,725 metres long and about 7 metres high, and the towers of the inner wall reached 11 metres. They were pulled down from the end of the 18th century, and only fragments survive today.",
         sections=[
             ("History", [
-                "Timber-and-earth fortifications were begun soon after the city was chartered in 1253, and were later replaced by a wall with 32 projecting turrets (bartizans).",
+                "Timber-and-earth fortifications were begun soon after the city was chartered in 1253, and were later replaced by a brick wall on a stone base, with 32 projecting turrets (bartizans). The first mention of the walls dates from 1297.",
+                "In 1331 the walls repelled an assault by John of Luxembourg.",
                 "After 1431 a second, outer wall was added with semicircular towers adapted for firearms. In the 17th century, with the development of artillery, the walls lost their defensive significance.",
+                "The Jesuit church, which stood partly in the former moat, required part of the southern section of the walls to be pulled down. In 1701–1712 a new wall was built further south, with characteristic keyhole-shaped loopholes. After the Prussians took the city in 1793, the demolition of the walls was ordered.",
             ]),
             ("What to see", [
-                "Catherine's Tower (Baszta Katarzynek), the only tower of the former walls to survive to this day.",
-                "The remains of an artillery bastion on ul. 23 Lutego.",
-                "Fragments of the outer wall with the Castle Postern (Furta Zamkowa) by the Royal Castle, and western sections on ul. Ludgardy.",
-                "A tourist path between the bastion and the remains of the Wronki Gate.",
+                "Catherine's Tower (Baszta Katarzynek) and a reconstructed section of the wall with the “Strażacka” (Firemen's) tower.",
+                "The remains of a cannon tower of the outer wall in the courtyard of a tenement house on ul. 23 Lutego.",
+                "Fragments of the outer wall with the Castle Postern (Furta Zamkowa) by the Royal Castle, western sections on ul. Ludgardy and a southern fragment of the outer wall near the former Wrocław Gate.",
+                "A tourist path, opened in 2008, between the cannon tower and the remains of the Wronki Gate.",
             ]),
             ("Good to know", [
                 "Since August 2013 the course of the former walls has been marked by 17 plaques set into the pavements of the Old Town.",
