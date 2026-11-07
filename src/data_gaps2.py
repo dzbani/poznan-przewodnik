@@ -142,7 +142,7 @@ GAPS2 = [
         sources=[
             ("poznan.pl: Lasek Katyński", P + "parki,poi,3338/lasek-katynski,86720.html"),
             ("poznan.pl: W sąsiedztwie Fortu VII zasadzono dęby pamięci", "https://www.poznan.pl/mim/info/news/w-sasiedztwie-fortu-vii-zasadzono-deby-pamieci,141103.html"),
-            ("poznan.pl: 116 dębów pamięci", "https://www.poznan.pl/mim/brm/news,1202/inicjatywy-radnych,c,13/116-debow-pamieci,153082.html"),
+            ("poznan.pl: 116 dębów pamięci", "https://www.poznan.pl/mim/rm/news,1202/inicjatywy-radnych,c,13/116-debow-pamieci,153082.html"),
             ("TenPoznan.pl: granitowe tablice w Lasku Katyńskim (22.09.2026)", "https://tenpoznan.pl/imiona-i-nazwiska-ofiar-zbrodni-katynskiej-wyryto-na-granitowych-tablicach/"),
         ],
         checked="06.10.2026",

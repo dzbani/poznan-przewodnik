@@ -140,8 +140,8 @@
 "hash": "091d5d1bb4027c4621c16712a2760268"
 },
 "atrakcje/jezioro-maltanskie.html": {
-"date": "2026-11-04",
-"hash": "fd46a4daa00daa6a03b6bee287e07804"
+"date": "2026-11-07",
+"hash": "2a1051862aaaea96fd922f2f476a4f81"
 },
 "atrakcje/jezioro-strzeszynskie.html": {
 "date": "2026-11-04",
@@ -236,8 +236,8 @@
 "hash": "afa624d64c3fe0443fb9fc547c9651ce"
 },
 "atrakcje/lasek-katynski.html": {
-"date": "2026-10-23",
-"hash": "1244ffe20205c4431ac8da5d839db14f"
+"date": "2026-11-07",
+"hash": "107c9b88f508807b679976fbb97a4cc9"
 },
 "atrakcje/lasek-marcelinski.html": {
 "date": "2026-11-04",
@@ -268,8 +268,8 @@
 "hash": "7f872917f5229b9c0b3d36a146247243"
 },
 "atrakcje/morasko.html": {
-"date": "2026-11-04",
-"hash": "73572a11537c9f2406459f26510fdd14"
+"date": "2026-11-07",
+"hash": "d8e2f23cb1054ef9201a7c34dc104402"
 },
 "atrakcje/most-biskupa-jordana.html": {
 "date": "2026-11-01",
@@ -324,16 +324,16 @@
 "hash": "085e8c5cee240e0c81c30556e7974009"
 },
 "atrakcje/muzeum-instrumentow.html": {
-"date": "2026-10-30",
-"hash": "8386265a5c54726e3471cc2938acd8d3"
+"date": "2026-11-07",
+"hash": "4e0c39f2f1a64826d2a991584fd15914"
 },
 "atrakcje/muzeum-komunikacji-mpk.html": {
 "date": "2026-10-23",
 "hash": "d4983a976045fe0ca94e577ba82f9815"
 },
 "atrakcje/muzeum-kultur-swiata.html": {
-"date": "2026-10-30",
-"hash": "367682e96c6db42f7482b99ba967fc93"
+"date": "2026-11-07",
+"hash": "5a23ea519589588cf34d81f2cd19cd3b"
 },
 "atrakcje/muzeum-kultury-cyfrowej.html": {
 "date": "2026-10-23",
@@ -376,8 +376,8 @@
 "hash": "4c676b8855f7b528d1394a1a60ba7324"
 },
 "atrakcje/muzeum-wojskowe.html": {
-"date": "2026-10-30",
-"hash": "c72741ae9881018cb65743fe9981537f"
+"date": "2026-11-07",
+"hash": "543368620660dea3cdcdc662c882b49c"
 },
 "atrakcje/muzeum-ziemi.html": {
 "date": "2026-10-23",
@@ -596,8 +596,8 @@
 "hash": "b85c47ac3f7c3d09a968011d45975ed7"
 },
 "atrakcje/srodka.html": {
-"date": "2026-11-04",
-"hash": "1b5a05b45fa6b52f25a55368725f7cb9"
+"date": "2026-11-07",
+"hash": "6eed0572b8a52e8293cce4aab72bba38"
 },
 "atrakcje/stadion.html": {
 "date": "2026-11-04",
@@ -616,8 +616,8 @@
 "hash": "792d99e870d025f111a6d9032e7e4905"
 },
 "atrakcje/stary-rynek.html": {
-"date": "2026-11-01",
-"hash": "79289751bd2f9cae98a20c67e5fb993e"
+"date": "2026-11-07",
+"hash": "a07bb99ee930b6aa69a550c49eaecf40"
 },
 "atrakcje/studzienka-bamberki.html": {
 "date": "2026-10-23",
@@ -650,10 +650,6 @@
 "atrakcje/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-01",
 "hash": "62aa609180ae5091d27255a93a82d309"
-},
-"atrakcje/twierdza-poznan.html": {
-"date": "2026-11-01",
-"hash": "2ee5616fd5c7bf6f63b818764ee5757d"
 },
 "atrakcje/wiedzma-z-chwaliszewa.html": {
 "date": "2026-10-23",
@@ -836,8 +832,8 @@
 "hash": "1db99e96bbc341f5ada6329e45c4669c"
 },
 "en/attractions/jezioro-maltanskie.html": {
-"date": "2026-11-04",
-"hash": "7eacada543888806ac5c4dc010d1f2cd"
+"date": "2026-11-07",
+"hash": "276854c95229b4396421729931628e7f"
 },
 "en/attractions/jezioro-strzeszynskie.html": {
 "date": "2026-11-04",
@@ -932,8 +928,8 @@
 "hash": "658ed4e6d970d3f0b3cc42fb12004bb3"
 },
 "en/attractions/lasek-katynski.html": {
-"date": "2026-10-29",
-"hash": "07c748a10a32f7f0bafecc00f5d7cc4f"
+"date": "2026-11-07",
+"hash": "079cb45df61fef2954e1a528c7a34b88"
 },
 "en/attractions/lasek-marcelinski.html": {
 "date": "2026-11-04",
@@ -964,8 +960,8 @@
 "hash": "0cde71ef985cc4a8f5c7bddf54c1801c"
 },
 "en/attractions/morasko.html": {
-"date": "2026-11-04",
-"hash": "e9983bb6608f43569469a958037ce7ac"
+"date": "2026-11-07",
+"hash": "43c93985e24a7bd354bf38e9f6f1469f"
 },
 "en/attractions/most-biskupa-jordana.html": {
 "date": "2026-11-01",
@@ -1020,16 +1016,16 @@
 "hash": "0ac6d83217fc370e6a000ac55ca3bfd5"
 },
 "en/attractions/muzeum-instrumentow.html": {
-"date": "2026-10-30",
-"hash": "e81dc70f8715218e9a2b450d1d924965"
+"date": "2026-11-07",
+"hash": "c45708037b8486baa1d3f959e5be0021"
 },
 "en/attractions/muzeum-komunikacji-mpk.html": {
 "date": "2026-10-24",
 "hash": "2f3875d72545c4a342e92cc23375c7dd"
 },
 "en/attractions/muzeum-kultur-swiata.html": {
-"date": "2026-10-30",
-"hash": "250a83993ec06cdb41a53b551c569cac"
+"date": "2026-11-07",
+"hash": "a68dbb518725e1d6b8bcf40e561a7e91"
 },
 "en/attractions/muzeum-kultury-cyfrowej.html": {
 "date": "2026-10-29",
@@ -1072,8 +1068,8 @@
 "hash": "26874030ba64ed357816fa5a3950d20b"
 },
 "en/attractions/muzeum-wojskowe.html": {
-"date": "2026-10-30",
-"hash": "beedc586a2ad10311a1c9ad5a389f181"
+"date": "2026-11-07",
+"hash": "713ca7e9eaa1fe709d5e688c14f67e5e"
 },
 "en/attractions/muzeum-ziemi.html": {
 "date": "2026-10-24",
@@ -1292,8 +1288,8 @@
 "hash": "1c2b5ae9b7197cb3e31317fb6c8e3edc"
 },
 "en/attractions/srodka.html": {
-"date": "2026-11-04",
-"hash": "756c81e30544aff6aadc430e78cf6755"
+"date": "2026-11-07",
+"hash": "ac6f22be4feae4757925ee210eedda38"
 },
 "en/attractions/stadion.html": {
 "date": "2026-11-04",
@@ -1312,8 +1308,8 @@
 "hash": "847eded219f46c9a7eb31aa5c4c3c3ce"
 },
 "en/attractions/stary-rynek.html": {
-"date": "2026-11-01",
-"hash": "6512f5067e8f98cd25d541bda86eb47c"
+"date": "2026-11-07",
+"hash": "e7d3aa035e0601a342f76863d4c31490"
 },
 "en/attractions/studzienka-bamberki.html": {
 "date": "2026-10-24",
@@ -1346,10 +1342,6 @@
 "en/attractions/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-01",
 "hash": "1c970838db14cbecd1d9894abc5a02e9"
-},
-"en/attractions/twierdza-poznan.html": {
-"date": "2026-11-01",
-"hash": "6711e6392b8eb7e75bc6f6691ff74a97"
 },
 "en/attractions/wiedzma-z-chwaliszewa.html": {
 "date": "2026-10-29",

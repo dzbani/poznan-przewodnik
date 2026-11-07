@@ -335,7 +335,7 @@ EN_BATCH7 = {
                 "In the reserve stands Morasko Hill, the highest elevation in Poznań, and the small lake Zimna Woda.",
             ]),
             ("Good to know", [
-                "A tourist trail and an educational path with boards, prepared by the Astronomical Observatory of AMU and the Salamandra Society, lead through the reserve.",
+                "A tourist trail and an educational path with boards lead through the reserve. The path was designed by the Salamandra Society, and in 2015–2017 the boards were renewed in cooperation with the Institute of Geology and the Institute of the Astronomical Observatory of AMU.",
                 "In the reserve you may walk only along marked trails. You must not pick plants or search for meteorites.",
                 "Bring comfortable shoes: this is a walk along forest paths, with no park infrastructure.",
             ]),

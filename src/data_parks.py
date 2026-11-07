@@ -265,7 +265,7 @@ PARKS = [
                 "W rezerwacie wznosi się Góra Moraska, najwyższe wzniesienie Poznania, oraz jeziorko Zimna Woda.",
             ]),
             ("Warto wiedzieć", [
-                "Przez rezerwat prowadzą szlak turystyczny i ścieżka dydaktyczna z tablicami, przygotowane przez Obserwatorium Astronomiczne UAM i Towarzystwo „Salamandra”.",
+                "Przez rezerwat prowadzą szlak turystyczny i ścieżka dydaktyczna z tablicami. Ścieżkę zaprojektowało Towarzystwo „Salamandra”, a tablice w latach 2015–2017 odnowiono we współpracy z Instytutem Geologii i Instytutem Obserwatorium Astronomicznego UAM.",
                 "W rezerwacie wolno chodzić tylko po wyznaczonych szlakach. Nie wolno zbierać roślin ani szukać meteorytów.",
                 "Zabierz wygodne buty: to spacer leśnymi ścieżkami, bez infrastruktury parkowej.",
             ]),
@@ -273,10 +273,9 @@ PARKS = [
         address="Morasko, północna granica Poznania 61-680",
         hours=[("Rezerwat", "dostępny, tylko wyznaczonymi szlakami")],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone=None, www=("UAM – ścieżka dydaktyczna", "https://www.astro.amu.edu.pl/en/outreach/mor-cra/"),
+        phone=None, www=("salamandra.org.pl", "https://www.salamandra.org.pl/rezerwat/"),
         credit="morasko",
         sources=[
-            ("Instytut Obserwatorium Astronomiczne UAM: ścieżka w rezerwacie", "https://www.astro.amu.edu.pl/en/outreach/mor-cra/"),
             ("PTOP „Salamandra”: Rezerwat Meteoryt Morasko", "https://www.salamandra.org.pl/rezerwat/"),
             ("Wikipedia: Rezerwat przyrody Meteoryt Morasko", "https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Meteoryt_Morasko"),
         ],

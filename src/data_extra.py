@@ -81,7 +81,7 @@ EXTRA = [
         address="Stary Rynek 9, 61-768 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–środa", "10:00–16:00"), ("Czwartek", "10:00–18:00"), ("Piątek", "10:00–20:00"), ("Sobota–niedziela", "10:00–17:00")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny"), ("Z Poznańską Kartą Turystyczną", "bezpłatnie")], checked="01.10.2026",
-        phone="+48 61 852 67 39", www=("mnp.art.pl", "https://mnp.art.pl/"),
+        phone="+48 61 852 67 39", www=("mnp.art.pl", "https://mnp.art.pl/wielkopolskie-muzeum-wojskowe"),
         credit="muzeum-wojskowe",
         sources=[("poznan.pl: Wielkopolskie Muzeum Wojskowe", "https://www.poznan.pl/mim/main/muzea-w-poznaniu,poi,202,12/wielkopolskie-muzeum-wojskowe-oddzial-muzeum-narodowego,15709.html"),
                  ("Visit Poznań: Wielkopolskie Muzeum Wojskowe", "https://visitpoznan.pl/wielkopolskie-muzeum-wojskowe")],
