@@ -8,7 +8,7 @@ P = "https://www.poznan.pl/mim/wortals/turystyka/"
 FINAL = [
     dict(
         slug="fort-iva", cat="zabytki", name="Fort IVa",
-        img="fort-iva", img_alt="Fort IVa w Poznaniu",
+        img="fort-iva", img_alt="Ceglana brama wjazdowa Fortu IVa z napisem „Fort 4a”, otoczona drzewami i krzewami",
         short="Pruski fort z 1881 roku, dziś zimowisko nietoperzy. Zwiedzanie w pierwsze niedziele miesiąca.",
         badge="1. niedziela miesiąca",
         status=None,

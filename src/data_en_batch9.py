@@ -242,7 +242,7 @@ EN_BATCH9 = {
     ),
     "fort-iva": dict(
         name="Fort IVa",
-        img_alt="Fort IVa in Poznań",
+        img_alt="The brick entrance gate of Fort IVa with the “Fort 4a” sign, surrounded by trees and bushes",
         short="A Prussian fort of 1881, today a winter roost for bats. Open on the first Sunday of the month.",
         badge="1st Sunday of the month",
         status=None,
