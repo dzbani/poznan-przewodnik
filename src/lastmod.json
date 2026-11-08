@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-08",
-"hash": "23f76b23348516a851ed2b8c98737b22"
+"hash": "9f68f6222a69c9df100218a7c214978e"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -101,7 +101,7 @@
 },
 "atrakcje/fort-iva.html": {
 "date": "2026-11-08",
-"hash": "51699acca41a832cbe196e911906a907"
+"hash": "21ebf7ccc69be0480cbc461ee7876e63"
 },
 "atrakcje/fort-va.html": {
 "date": "2026-11-01",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-08",
-"hash": "2f982945337173ab78ba3808dc14b1de"
+"hash": "47b376d4d411909605cad27e9ee9bb99"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -793,7 +793,7 @@
 },
 "en/attractions/fort-iva.html": {
 "date": "2026-11-08",
-"hash": "52c7a84c71822d0dd0f463d508bd1e4b"
+"hash": "dd46d65706b1a1045200894d2cb0e875"
 },
 "en/attractions/fort-va.html": {
 "date": "2026-11-01",
@@ -1388,16 +1388,16 @@
 "hash": "b8da05f8dae3f7f46cb06d590f3746f0"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-07",
-"hash": "dc7ad0ed82305eeadbe7d180da44cd23"
+"date": "2026-11-08",
+"hash": "6bb0c1d2ed4e88e03cbddde7df0c1071"
 },
 "en/index.html": {
 "date": "2026-11-06",
 "hash": "174fc3dbd4e9aa1b9a26fb2562c2a45e"
 },
 "en/map.html": {
-"date": "2026-11-06",
-"hash": "516d50bb69f743ee49140c55f55094db"
+"date": "2026-11-08",
+"hash": "9ebd5fcbcc2765d9128a38c451b98f52"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1436,16 +1436,16 @@
 "hash": "55efba16a644104c022d76f79a6c60c0"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-07",
-"hash": "ca62ca4802b2d1c4c4fb9edb304faf7b"
+"date": "2026-11-08",
+"hash": "f1f9bf0045dbb1672c686f801a54b301"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-06",
-"hash": "ca624940c833f74bb27845558767e7ec"
+"date": "2026-11-08",
+"hash": "0dae61e7923a49fcc1008b165431b626"
 },
 "muzea.html": {
 "date": "2026-11-03",

@@ -1251,3 +1251,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "rogalin":
         _a["checked"] = "29.10.2026"
 
+# Fort IVa: karta porównana z poznan.pl i Wikipedią 8.11.2026 (lata budowy, ul. Lechicka, bitwa 13/14.02.1945, Natura 2000).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "fort-iva":
+        _a["checked"] = "08.11.2026"
+
