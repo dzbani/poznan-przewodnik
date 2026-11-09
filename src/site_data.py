@@ -559,7 +559,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="termy-maltanskie", cat="rodzina", name="Termy Maltańskie",
-        img="termy-maltanskie", img_alt="Aquapark w Termach Maltańskich",
+        img="termy-maltanskie", img_alt="Zewnętrzny basen ze zjeżdżalniami i hala Term Maltańskich, widok z góry, nad Wartą",
         short="Aquapark, baseny sportowe i strefa saun nad Maltą, czynne do 23:00.",
         badge="Codziennie",
         status=None,

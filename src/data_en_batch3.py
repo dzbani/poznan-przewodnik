@@ -68,7 +68,7 @@ EN_BATCH3 = {
     ),
     "termy-maltanskie": dict(
         name="Malta Thermal Baths",
-        img_alt="The water park at the Malta Thermal Baths",
+        img_alt="The outdoor pool with water slides and the Malta Thermal Baths hall, seen from above, by the Warta",
         short="A water park, sports pools and a sauna zone on Lake Malta, open until 23:00.",
         badge="Daily",
         status=None,

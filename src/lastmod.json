@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-09",
-"hash": "e030cb8f4ef22212591e0813e96a7e91"
+"hash": "da2aa4f5e036cb7a7a2810c9e9072381"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -160,8 +160,8 @@
 "hash": "bae5cab4452186d63b80395c47950e5b"
 },
 "atrakcje/kolejka-maltanka.html": {
-"date": "2026-11-03",
-"hash": "e2a3f96ecd2b1e3ef62ddbd06ad7087f"
+"date": "2026-11-09",
+"hash": "40cf3293eb763077898309a42ebd9d0a"
 },
 "atrakcje/kosciol-bernardynow.html": {
 "date": "2026-11-01",
@@ -388,8 +388,8 @@
 "hash": "4b5fbb82f68d5ca3b05fdab9feff6ab0"
 },
 "atrakcje/nowe-zoo.html": {
-"date": "2026-11-03",
-"hash": "29320a14430ef010fdfee4ba23a562d2"
+"date": "2026-11-09",
+"hash": "b8f706c325f38dbb735131d1c761ff63"
 },
 "atrakcje/ogrod-botaniczny.html": {
 "date": "2026-11-09",
@@ -608,8 +608,8 @@
 "hash": "b551d6fe2878459e9a8a18bb731e9542"
 },
 "atrakcje/stare-zoo.html": {
-"date": "2026-11-03",
-"hash": "8559b9ce14de5a4827e7dc938dd9cbc1"
+"date": "2026-11-09",
+"hash": "29fa174531e5011e00e29faf9e406763"
 },
 "atrakcje/stary-browar.html": {
 "date": "2026-11-04",
@@ -644,8 +644,8 @@
 "hash": "c4a2fe2216cbd0a884c685b598cd42da"
 },
 "atrakcje/termy-maltanskie.html": {
-"date": "2026-11-03",
-"hash": "f84f061512a29290aa0afbb0a251756b"
+"date": "2026-11-09",
+"hash": "d191e1abc54d9fedf465562e85fd2455"
 },
 "atrakcje/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-01",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-09",
-"hash": "41c244f2770c2767d4d82458b6bfb468"
+"hash": "0c0439c8ea16b0dcb9c69247dfbbfc4f"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -852,8 +852,8 @@
 "hash": "dfce1d10ae10e9503195c1976f105c12"
 },
 "en/attractions/kolejka-maltanka.html": {
-"date": "2026-11-03",
-"hash": "c44c8fc220a1bcdb82d9c754a75a322d"
+"date": "2026-11-09",
+"hash": "558f8ed19babae29f8a0ad3c27347fba"
 },
 "en/attractions/kosciol-bernardynow.html": {
 "date": "2026-11-01",
@@ -1080,8 +1080,8 @@
 "hash": "46bf2ea0db59ca2b3e0f17737d06d157"
 },
 "en/attractions/nowe-zoo.html": {
-"date": "2026-11-03",
-"hash": "71fa4d8eeb98eaeb7969be08d51b53a5"
+"date": "2026-11-09",
+"hash": "86d3bcb37980f3fc2644feaaec2bfa82"
 },
 "en/attractions/ogrod-botaniczny.html": {
 "date": "2026-11-09",
@@ -1300,8 +1300,8 @@
 "hash": "19a1f2efb059ffe9b91b60dec6b98161"
 },
 "en/attractions/stare-zoo.html": {
-"date": "2026-11-03",
-"hash": "76d714bbd9460db92b8e16df33e47672"
+"date": "2026-11-09",
+"hash": "77dad555f406c31e96debea661c525ee"
 },
 "en/attractions/stary-browar.html": {
 "date": "2026-11-04",
@@ -1336,8 +1336,8 @@
 "hash": "8c595e427bfcbe7d926f5e49a52ea5f5"
 },
 "en/attractions/termy-maltanskie.html": {
-"date": "2026-11-03",
-"hash": "865816695ba2dfb5822fa3e119d6bed7"
+"date": "2026-11-09",
+"hash": "30d71219ca647883e957fd106f6cbd74"
 },
 "en/attractions/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-01",
@@ -1405,11 +1405,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-09",
-"hash": "3d61a7d879595a45c7ce2d74544b0667"
+"hash": "39e3a75f739a759b137583a43ff00410"
 },
 "en/plans.html": {
 "date": "2026-11-09",
-"hash": "a4ba43d9a1d899961ca5b3ee277d0600"
+"hash": "2af780e9e4d2bf429b317c124f751543"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1457,7 +1457,7 @@
 },
 "plany.html": {
 "date": "2026-11-09",
-"hash": "4f6652da1b9efd8156c9e1217b3adeaf"
+"hash": "1d1054bf61fa4f7a87dbee65f01bc78f"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-09",
-"hash": "b505c8b46569a4d6755c52264f8a1978"
+"hash": "d8527ad0952439141d81f1581cc65d16"
 },
 "zmiany.html": {
 "date": "2026-11-04",
