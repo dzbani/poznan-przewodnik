@@ -404,7 +404,8 @@ TRIPS2 = [
         sections=[
             ("Przyroda", [
                 "Park chroni jeden z największych kompleksów leśnych środkowej Wielkopolski, w większości pokryty lasem. Na jego terenie jest pięć rezerwatów przyrody: Jezioro Czarne, Jezioro Pławno, Klasztorne Modrzewie koło Dąbrówki Kościelnej, Las mieszany w Nadleśnictwie Łopuchówko oraz Żywiec dziewięciolistny.",
-                "W parku leży siedem jezior (m.in. Czarne, Pławno i Bolechowskie) oraz płyną Warta, Trojanka i Struga Wierzenicka. Żyją tu jelenie, dziki, bobry, żurawie i ptaki drapieżne.",
+                "Na terenie parku leżą liczne jeziora. Do najbardziej znanych należą Czarne, Pławno i Bolechowskie, a Wikipedia wymienia też Kościołek, Leśne, Kamińskie i Miejskie. Ich liczba zależy od tego, jaką definicję zbiornika wodnego przyjąć. Płyną tu Warta, Trojanka i Struga Wierzenicka. Żyją tu jelenie, dziki, bobry, żurawie i ptaki drapieżne.",
+                "Na terenie parku działa Leśny Zakład Doświadczalny, placówka badawcza Uniwersytetu Przyrodniczego w Poznaniu.",
             ]),
             ("Co zobaczyć", [
                 "Dziewiczą Górę (143 m n.p.m.), najwyższe wzniesienie w okolicach Poznania, z dostrzegalnią pożarową, z której widać puszczę i miasto.",

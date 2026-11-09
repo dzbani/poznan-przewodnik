@@ -199,7 +199,8 @@ EN_BATCH6 = {
         sections=[
             ("Nature", [
                 "The park protects one of the largest forest complexes of central Greater Poland, mostly covered with forest. There are five nature reserves on its territory: Lake Czarne, Lake Pławno, Klasztorne Modrzewie near Dąbrówka Kościelna, the Mixed Forest in the Łopuchówko Forest District, and Żywiec dziewięciolistny (the nine-leaved toothwort).",
-                "Seven lakes lie in the park (among them Czarne, Pławno and Bolechowskie), and the Warta, the Trojanka and the Struga Wierzenicka flow through it. Deer, wild boar, beavers, cranes and birds of prey live here.",
+                "Numerous lakes lie in the park. The best known are Czarne, Pławno and Bolechowskie, and Wikipedia also lists Kościołek, Leśne, Kamińskie and Miejskie. Their number depends on how a body of water is defined. The Warta, the Trojanka and the Struga Wierzenicka flow through it. Deer, wild boar, beavers, cranes and birds of prey live here.",
+                "The park is home to the Forest Experimental Station (Leśny Zakład Doświadczalny), a research facility of the Poznań University of Life Sciences.",
             ]),
             ("What to see", [
                 "Dziewicza Góra (143 m above sea level), the highest elevation near Poznań, with a fire lookout from which you can see the forest and the city.",
