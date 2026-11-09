@@ -1301,3 +1301,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "termy-maltanskie":
         _a["checked"] = "09.11.2026"
 
+# Puszcza Zielonka: opis jezior i LZD poprawiony wg uwag ZPKWW (mail z 9.11.2026), jeziora porównane z Wikipedią.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "puszcza-zielonka":
+        _a["checked"] = "09.11.2026"
+
