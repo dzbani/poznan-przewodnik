@@ -210,19 +210,20 @@ EN_BATCH8 = {
     "muzeum-lesnictwa-goluchow": dict(
         name="Forestry Museum in Gołuchów",
         img_alt="The Oficyna, a former distillery rebuilt by the Działyński family, which houses the Forestry Museum in Gołuchów",
-        short="Four historic buildings of the former farm with exhibitions on the forest, forestry and its technology. Tue–Sun 10:00–16:00.",
+        short="Four historic manor buildings with exhibitions on the forest, forestry and its technology. Tue–Sun 10:00–16:00.",
         badge="Tue–Sun",
         status=None,
-        lead="The Forestry Museum operates in the Forest Culture Centre in Gołuchów, in 19th-century buildings of the former castle farm of the Działyński family. It opened in October 1986 and since 1987 has been an independent unit of the State Forests. Next door are the castle, the park-arboretum and the Animal Show Enclosure.",
+        lead="The Forestry Museum operates in the Forest Culture Centre in Gołuchów, in 19th-century manor buildings of the Działyński family's castle and park complex. It opened in October 1986 and since 1987 has been an independent unit of the State Forests. Next door are the castle, the park-arboretum and the Animal Show Enclosure.",
         sections=[
             ("Exhibitions", [
-                "The Outbuilding (Oficyna): the exhibitions “The Culture-Forming Role of the Forest” (paintings, prints, sculptures, ceramics and glass inspired by the forest) and “The History of Forestry in Poland”, from the time of the partitions to communist Poland, with models of old charcoal kilns, tar works and forest beehives, among other things. The building was created by converting a distillery.",
+                "The Outbuilding (Oficyna): the exhibitions “The Culture-Forming Role of the Forest” (paintings, prints, sculptures, ceramics and glass inspired by the forest) and “The History of Forestry in Poland”, from the time of the partitions to communist Poland, with models of old charcoal kilns, tar works and forest beehives, among other things. The building arose from a distillery of 1852–1853 and owes its look to Izabella and Jan Działyński: later stages of extension (1872–1874 and 1890–1895) gave it the form that some call a palace. The museum was opened here on 4 October 1986.",
                 "The Coach House of 1854: “Meeting the Forest”, on the geography, ecology and botany of the forest. It shows, among other things, 256 species of forest plants, fungi and animals from the Polish Red Data Book, and the 19th-century “tree books” of Prof. Carl von Hinterlang. There is also a multimedia model of the centre.",
-                "The Sheepfold of 1849 (1,039 m²): “Forest Technology”, with machines for producing charcoal, tar, pitch, potash, turpentine and soot, and old measuring instruments. A glazed passage links it with the Coach House.",
-                "The Dybul, a former cowshed: “Forest Protection”, on the natural and man-made threats to the forest.",
+                "The Sheepfold of 1849 (1,039 m²): “Forest Technology”, with machines for producing charcoal, tar, pitch, potash, turpentine and soot, and old measuring instruments. A glazed passage links it with the Coach House. It was built by Wincent Kalkstein, then owner of the Gołuchów estate, and thoroughly restored in 2003–2005.",
+                "The Dybul, a former cowshed: “Forest Protection”, on the natural and man-made threats to the forest. The name comes from the miller Dybuł, who lived at this spot in the park in the 17th century.",
             ]),
             ("Good to know", [
                 "The full ticket covers all the buildings, and you can also buy tickets for individual buildings. The Large Family Card is honoured with a 50% discount on the standard ticket. Guided tours are booked by groups of up to 30 people.",
+                "Since May 2014 the centre has also opened the Chałupa, a forester's lodge near the viewing ponds, to visitors.",
                 "The Animal Show Enclosure with its bison and the park-arboretum are free and can be visited on the same day. Gołuchów Castle is a separate museum.",
             ]),
         ],

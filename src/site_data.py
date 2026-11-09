@@ -1272,3 +1272,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "ogrod-botaniczny":
         _a["checked"] = "09.11.2026"
 
+# Muzeum Leśnictwa w Gołuchowie: karta porównana ze stronami OKL (historia, Oficyna, Owczarnia, Dybul) 9.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-lesnictwa-goluchow":
+        _a["checked"] = "09.11.2026"
+

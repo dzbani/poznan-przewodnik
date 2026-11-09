@@ -273,19 +273,20 @@ TRIPS2 = [
     dict(
         slug="muzeum-lesnictwa-goluchow", cat="wycieczki", name="Muzeum Leśnictwa w Gołuchowie",
         img="muzeum-lesnictwa-goluchow", img_alt="Oficyna, dawna gorzelnia przebudowana przez Działyńskich, w której mieści się Muzeum Leśnictwa w Gołuchowie",
-        short="Cztery zabytkowe budynki dawnego folwarku z wystawami o lesie, leśnictwie i jego technice. Wt–nd 10:00–16:00.",
+        short="Cztery zabytkowe budynki podworskie z wystawami o lesie, leśnictwie i jego technice. Wt–nd 10:00–16:00.",
         badge="Wt–nd",
         status=None,
-        lead="Muzeum Leśnictwa działa w Ośrodku Kultury Leśnej w Gołuchowie, w XIX-wiecznych budynkach dawnego folwarku zamkowego Działyńskich. Otwarto je w październiku 1986 roku, a od 1987 roku jest samodzielną jednostką Lasów Państwowych. Obok są zamek, park-arboretum i Pokazowa Zagroda Zwierząt.",
+        lead="Muzeum Leśnictwa działa w Ośrodku Kultury Leśnej w Gołuchowie, w XIX-wiecznych budynkach podworskich zespołu zamkowo-parkowego Działyńskich. Otwarto je w październiku 1986 roku, a od 1987 roku jest samodzielną jednostką Lasów Państwowych. Obok są zamek, park-arboretum i Pokazowa Zagroda Zwierząt.",
         sections=[
             ("Wystawy", [
-                "Oficyna: wystawy „Kulturotwórcza rola lasu” (obrazy, grafiki, rzeźby, ceramika i szkło inspirowane lasem) oraz „Dzieje leśnictwa w Polsce”, od czasów zaborów po PRL, m.in. z modelami dawnych mielerzy, dziegciarni i barci leśnej. Budynek powstał z przebudowy gorzelni.",
+                "Oficyna: wystawy „Kulturotwórcza rola lasu” (obrazy, grafiki, rzeźby, ceramika i szkło inspirowane lasem) oraz „Dzieje leśnictwa w Polsce”, od czasów zaborów po PRL, m.in. z modelami dawnych mielerzy, dziegciarni i barci leśnej. Budynek powstał na bazie gorzelni z lat 1852–1853, a swój wygląd zawdzięcza Izabelli i Janowi Działyńskim: kolejne etapy rozbudowy (1872–1874 i 1890–1895) dały formę, którą niektórzy nazywają pałacem. Muzeum otwarto tu 4 października 1986 roku.",
                 "Powozownia z 1854 roku: „Spotkanie z lasem”, o geografii, ekologii i botanice lasu. Pokazuje m.in. 256 gatunków roślin, grzybów i zwierząt leśnych z Polskiej Czerwonej Księgi oraz XIX-wieczne „księgi drzewne” prof. Carla von Hinterlanga. Jest tu też multimedialna makieta ośrodka.",
-                "Owczarnia z 1849 roku (1039 m²): „Technika leśna” z maszynami do produkcji węgla drzewnego, smoły, dziegciu, potażu, terpentyny i sadzy oraz dawnymi przyrządami pomiarowymi. Przeszklony pasaż łączy ją z Powozownią.",
-                "Dybul, dawna obora: „Ochrona lasu”, o zagrożeniach naturalnych i cywilizacyjnych dla lasu.",
+                "Owczarnia z 1849 roku (1039 m²): „Technika leśna” z maszynami do produkcji węgla drzewnego, smoły, dziegciu, potażu, terpentyny i sadzy oraz dawnymi przyrządami pomiarowymi. Przeszklony pasaż łączy ją z Powozownią. Zbudował ją Wincent Kalkstein, ówczesny właściciel majątku gołuchowskiego, a w latach 2003–2005 gruntownie ją odrestaurowano.",
+                "Dybul, dawna obora: „Ochrona lasu”, o zagrożeniach naturalnych i cywilizacyjnych dla lasu. Nazwa pochodzi od młynarza Dybuła, który w XVII wieku mieszkał w tym miejscu parku.",
             ]),
             ("Warto wiedzieć", [
                 "Bilet pełny obejmuje wszystkie obiekty, można też kupić bilety do pojedynczych budynków. Honorowana jest Karta Dużej Rodziny ze zniżką 50% biletu normalnego. Zwiedzanie z przewodnikiem rezerwują grupy do 30 osób.",
+                "Od maja 2014 roku ośrodek udostępnia do zwiedzania także Chałupę – leśniczówkę, położoną w pobliżu stawów widokowych.",
                 "Pokazowa Zagroda Zwierząt z żubrami i park-arboretum są bezpłatne i można je zwiedzić tego samego dnia. Zamek w Gołuchowie to osobne muzeum.",
             ]),
         ],
@@ -309,6 +310,10 @@ TRIPS2 = [
         ]),
         sources=[("Ośrodek Kultury Leśnej w Gołuchowie: informacja turystyczna (godziny, ceny)", "https://www.okl.lasy.gov.pl/informacja-turystyczna"),
                  ("Ośrodek Kultury Leśnej w Gołuchowie: Muzeum Leśnictwa", "https://www.okl.lasy.gov.pl/muzeum-lesnictwa"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: Oficyna", "https://www.okl.lasy.gov.pl/oficyna"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: Owczarnia", "https://www.okl.lasy.gov.pl/owczarnia"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: Dybul", "https://www.okl.lasy.gov.pl/dybul"),
+                 ("Ośrodek Kultury Leśnej w Gołuchowie: historia", "https://www.okl.lasy.gov.pl/historia"),
                  ("Wikipedia: Muzeum Leśnictwa w Gołuchowie", "https://pl.wikipedia.org/wiki/Muzeum_Leśnictwa_w_Gołuchowie")],
     ),
     dict(

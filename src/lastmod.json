@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-09",
-"hash": "189a47cfc2da68be3927d7265da8724b"
+"hash": "e030cb8f4ef22212591e0813e96a7e91"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -341,7 +341,7 @@
 },
 "atrakcje/muzeum-lesnictwa-goluchow.html": {
 "date": "2026-11-09",
-"hash": "f0fb250b4f138c73fdb3bcbf0129de1c"
+"hash": "3355483310f3f0547a524848481b60d6"
 },
 "atrakcje/muzeum-narodowe.html": {
 "date": "2026-10-30",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-09",
-"hash": "37c204361619136f2752bd28a448d049"
+"hash": "41c244f2770c2767d4d82458b6bfb468"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1033,7 +1033,7 @@
 },
 "en/attractions/muzeum-lesnictwa-goluchow.html": {
 "date": "2026-11-09",
-"hash": "4a4a837b86792733d2d14719e88e2a18"
+"hash": "a55cc40bc608675db2e14643e5647d6c"
 },
 "en/attractions/muzeum-narodowe.html": {
 "date": "2026-10-30",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-09",
-"hash": "fc552c7a445cc7cda29b95fe5e423253"
+"hash": "26aa7bf2f9c5e620dec5e2b75dd6ee12"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-09",
-"hash": "c0e06bc9a9a0dea8d4dcbee20b51a987"
+"hash": "31286ce6f4d0e6e63f45cef42550884e"
 },
 "muzea.html": {
 "date": "2026-11-03",
