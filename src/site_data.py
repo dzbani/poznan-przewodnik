@@ -426,12 +426,15 @@ ATTRACTIONS = [
         short="22 hektary roślin z całego świata i jedna z najbogatszych kolekcji kaktusów w Polsce.",
         badge="Wstęp wolny",
         status=None,
-        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku. Zajmuje około 22 hektarów, a w jego szklarniach rośnie około 2500 taksonów roślin.",
+        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku (prace nad jego tworzeniem trwały od 1922). Zajmuje około 22 hektarów, a rośliny rosną na wolnym powietrzu i w szklarniach.",
         sections=[
             ("Co zobaczyć", [
-                "Kolekcję sukulentów i kaktusów, jedną z najbogatszych w Polsce (około 1150 gatunków z 228 rodzajów).",
-                "Alpinarium z roślinami gór od strefy umiarkowanej po subarktyczną.",
-                "Szklarnie z roślinami tropikalnymi i subtropikalnymi, w tym welwiczję przedziwną, ponad 35-letni okaz męski wyhodowany z nasion, który według Wikipedii jest jedynym takim kwitnącym w Polsce.",
+                "Szklarnię III z około 500 gatunkami kaktusów ze 102 rodzajów. Sukulenty rosną też w szklarniach I i IV.",
+                "Alpinarium o powierzchni około 6000 m², z blisko 1300 taksonami, urządzone głównie z granitu i wapieni (około 3 tys. ton), z siedmioma zbiornikami wodnymi.",
+                "Rosarium z 2950 różami w 29 odmianach oraz kolekcje piwonii (około 120 odmian), kosaćców (około 230) i liliowców (około 280).",
+                "Dział Roślin Rzadkich i Zagrożonych, podzielony na pięć kwater.",
+                "Szklarnie z roślinami tropikalnymi i subtropikalnymi, w tym welwiczję przedziwną, ponad 35-letni okaz męski wyhodowany z nasion, który według Wikipedii jest jedynym takim kwitnącym w Polsce. W części tropikalnej rośnie około 550 gatunków i odmian roślin, a wśród nich wiktoria parańska i sagowce. Szklarnie budowano w latach 50. i 60. XX wieku.",
+                "Partery ogrodowe leżą na wspólnej osi z Pawilonem Ekspozycyjno-Dydaktycznym, widocznym na zdjęciu głównym.",
             ]),
         ],
         address="ul. Dąbrowskiego 165, 60-594 Poznań",
@@ -441,6 +444,9 @@ ATTRACTIONS = [
         credit="ogrod-botaniczny",
         sources=[("Ogród Botaniczny UAM: godziny otwarcia", "https://ogrod.amu.edu.pl/en/en-godziny-otwarcia/"),
                  ("PIK Poznań: Ogród Botaniczny UAM", "https://pik.poznan.pl/miejsca/ogrod-botaniczny-uniwersytetu-im-adama-mickiewicza-w-poznaniu/"),
+                 ("Ogród Botaniczny UAM: kolekcje gruntowe", "https://ogrod.amu.edu.pl/kolekcje-gruntowe/"),
+                 ("Ogród Botaniczny UAM: kolekcje szklarniowe", "https://ogrod.amu.edu.pl/kolekcje-szklarniowe/"),
+                 ("Ogród Botaniczny UAM: historia i działalność", "https://ogrod.amu.edu.pl/historia-i-dzialalnosc/"),
                  ("Wikipedia: Ogród Botaniczny UAM", "https://pl.wikipedia.org/wiki/Ogród_Botaniczny_Uniwersytetu_im._Adama_Mickiewicza_w_Poznaniu")],
     ),
     dict(
@@ -1259,5 +1265,10 @@ for _a in ATTRACTIONS:
 # Podziemia Katedry: karta porównana z poznan.pl, stroną katedry i Wikipedią 9.11.2026 (okrzeski, grobowce, wieża, godziny zimowe).
 for _a in ATTRACTIONS:
     if _a["slug"] == "podziemia-katedry":
+        _a["checked"] = "09.11.2026"
+
+# Ogród Botaniczny UAM: karta porównana ze stronami ogrodu 9.11.2026 (godziny, kolekcje, liczby taksonów).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "ogrod-botaniczny":
         _a["checked"] = "09.11.2026"
 
