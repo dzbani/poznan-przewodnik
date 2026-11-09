@@ -28,7 +28,7 @@ EN_BATCH7 = {
     ),
     "podziemia-katedry": dict(
         name="Poznań Cathedral Crypts",
-        img_alt="Remains of earlier buildings in the crypts of Poznań Cathedral",
+        img_alt="Remains of an early medieval tomb, traditionally attributed to Bolesław the Brave, in the crypts of Poznań Cathedral",
         short="Remains of the pre-Romanesque and Romanesque cathedrals, the remnants of the tombs of Mieszko I and Chrobry, and a 10th-century basin.",
         badge="Seasonal, paid",
         status=None,

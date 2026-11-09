@@ -7,7 +7,7 @@ P = "https://www.poznan.pl/mim/wortals/turystyka/"
 GAPS2 = [
     dict(
         slug="podziemia-katedry", cat="zabytki", name="Podziemia Katedry Poznańskiej",
-        img="podziemia-katedry", img_alt="Relikty dawnych budowli w podziemiach Katedry Poznańskiej",
+        img="podziemia-katedry", img_alt="Relikty wczesnośredniowiecznego grobowca, tradycyjnie przypisywanego Bolesławowi Chrobremu, w podziemiach Katedry Poznańskiej",
         short="Relikty katedry przedromańskiej i romańskiej, pozostałości grobowców Mieszka I i Chrobrego oraz misa z X wieku.",
         badge="Sezonowo, płatne",
         status=None,
