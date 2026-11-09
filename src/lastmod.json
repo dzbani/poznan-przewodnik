@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-09",
-"hash": "928801c33a4f270e61e883f533388afa"
+"hash": "df11442fd9b87e79d44ddd7a97471d60"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -40,8 +40,8 @@
 "hash": "04615809908209c30f2b1f67a4ee87ad"
 },
 "atrakcje/collegium-minus.html": {
-"date": "2026-11-01",
-"hash": "ce9ac7324dddfab6aa8713db46968935"
+"date": "2026-11-09",
+"hash": "d88fd8c5a2926531a5da3e6b29b193fb"
 },
 "atrakcje/cytadela.html": {
 "date": "2026-11-06",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-09",
-"hash": "ad873c9a35a9eadbbbf64a41dcae2cb7"
+"hash": "2238af811cedc619c973f226f5ee8047"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -732,8 +732,8 @@
 "hash": "fb7431e1edb734a1890d0562f0b7d3f5"
 },
 "en/attractions/collegium-minus.html": {
-"date": "2026-11-01",
-"hash": "4c228c194df8a9f5c75294be25690c87"
+"date": "2026-11-09",
+"hash": "0a35a8d760b9cc8cf5e1e4907cae45a9"
 },
 "en/attractions/cytadela.html": {
 "date": "2026-11-06",
@@ -1396,8 +1396,8 @@
 "hash": "174fc3dbd4e9aa1b9a26fb2562c2a45e"
 },
 "en/map.html": {
-"date": "2026-11-08",
-"hash": "9ebd5fcbcc2765d9128a38c451b98f52"
+"date": "2026-11-09",
+"hash": "fc552c7a445cc7cda29b95fe5e423253"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1405,7 +1405,7 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-09",
-"hash": "5e0acb356fb7607c29b26f22fdf7b030"
+"hash": "7e2d26134969797f0149591814e7ac72"
 },
 "en/plans.html": {
 "date": "2026-11-09",
@@ -1444,8 +1444,8 @@
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-08",
-"hash": "0dae61e7923a49fcc1008b165431b626"
+"date": "2026-11-09",
+"hash": "c0e06bc9a9a0dea8d4dcbee20b51a987"
 },
 "muzea.html": {
 "date": "2026-11-03",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-09",
-"hash": "77e18b6f34caeed36373804f1b7bf084"
+"hash": "2a5c59fac36d7cb22278b529340c162d"
 },
 "zmiany.html": {
 "date": "2026-11-04",

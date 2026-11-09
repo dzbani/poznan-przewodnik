@@ -86,7 +86,7 @@ GAPS = [
     ),
     dict(
         slug="collegium-minus", cat="zabytki", name="Collegium Minus",
-        img="aula-uam", img_alt="Collegium Minus, siedziba władz Uniwersytetu im. Adama Mickiewicza",
+        img="collegium-minus", img_alt="Collegium Minus z góry: front Auli z dwiema wieżyczkami i boczne skrzydło gmachu, na pierwszym planie pomnik",
         short="Neorenesansowy gmach z 1910 roku, siedziba rektora UAM. W Auli odbywają się koncerty Filharmonii Poznańskiej.",
         badge="Z zewnątrz bezpłatnie",
         status=None,
@@ -117,7 +117,7 @@ GAPS = [
         ],
         phone=None,
         www=("amu.edu.pl", "https://amu.edu.pl/"),
-        credit="aula-uam",
+        credit="collegium-minus",
         sources=[
             ("Wikipedia: Collegium Minus w Poznaniu", "https://pl.wikipedia.org/wiki/Collegium_Minus_w_Poznaniu"),
             ("G. Łukomski: Collegium Minus – świątynia nauki i sztuki (UAM)", "https://amu.edu.pl/__data/assets/pdf_file/0020/50537/Collegium-Minus.pdf"),

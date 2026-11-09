@@ -129,7 +129,7 @@ EN_BATCH7 = {
     ),
     "collegium-minus": dict(
         name="Collegium Minus",
-        img_alt="Collegium Minus, the seat of the authorities of Adam Mickiewicz University",
+        img_alt="Collegium Minus from above: the front of the Aula with two turrets and the side wing of the building, with a monument in the foreground",
         short="A Neo-Renaissance building of 1910, the seat of the rector of AMU. Concerts of the Poznań Philharmonic are held in the Aula.",
         badge="Outside free",
         status=None,
