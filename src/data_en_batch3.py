@@ -76,14 +76,21 @@ EN_BATCH3 = {
         sections=[
             ("Good to know", [
                 "The complex is closed on Holy Saturday and Easter Sunday, on 1 November, on 24 and 25 December and on 31 December.",
+                "A water park ticket also covers the sports pools, and a sauna zone ticket covers the water park and the sports pools. The sauna zone is for adults only.",
+                "Exceeding your time costs PLN 1 per minute (PLN 60 per hour), and after 23:00 the rate is PLN 5 per minute.",
+                "Large Family Card tickets (family and individual) are sold at the ticket desks, but only a card with the Poznań territorial code is honoured (the first seven digits of the card number: 3064011). Show it together with an ID, for the children too. The discount cannot be combined with promotions.",
+                "Organised groups of 15 or more (plus a carer) buy group tickets for the water park only, after registering the group at bok@termymaltanskie.com.pl. Seniors have cheaper tickets on weekday mornings (water park 9:00–12:00, sports pools 8:00–12:00, saunas 14:30–17:30).",
                 "Wheelchair users enter through the lower hall, at ground level.",
                 "You can hire towels and bathrobes on site. There is also a family room with a baby-changing table.",
             ]),
         ],
         hours=[("Water park", "daily 9:00–23:00"), ("Sports pools", "Mon–Sat 6:00–23:00, Sun and public holidays 7:00–23:00"),
                ("Sauna zone", "Mon–Fri 14:30–23:00, Sat–Sun 11:30–23:00")],
-        tickets=[("Water park, 1 hour", "from about PLN 46"), ("Children under 3", "free"),
-                 ("Full price list", "on the baths' website")],
+        tickets=[("Water park, standard: 1 / 2 / 3 hrs / all day", "PLN 46 / PLN 61 / PLN 75 / PLN 109"), ("Water park, reduced: 1 / 2 / 3 hrs / all day", "PLN 37 / PLN 52 / PLN 65 / PLN 94"),
+                 ("Water park, family (2 adults + 1 child or 1 + 2): 1 / 2 / 3 hrs / all day", "PLN 93 / PLN 123 / PLN 152 / PLN 219, each further child +PLN 13 / PLN 20 / PLN 28 / PLN 36"),
+                 ("Sauna zone, standard: 1 / 2 / 3 hrs / all day", "PLN 67 / PLN 81 / PLN 95 / PLN 145"), ("Sauna zone, reduced: 1 / 2 / 3 hrs / all day", "PLN 57 / PLN 71 / PLN 83 / PLN 119"),
+                 ("Sports pools, standard: 1 / 2 hrs", "PLN 20 / PLN 29"), ("Sports pools, reduced: 1 / 2 hrs", "PLN 18 / PLN 24"),
+                 ("Children under 3", "free")],
     ),
     "rogalin": dict(
         name="Rogalin Palace",

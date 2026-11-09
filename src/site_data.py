@@ -567,16 +567,24 @@ ATTRACTIONS = [
         sections=[
             ("Warto wiedzieć", [
                 "Kompleks jest zamknięty w Wielką Sobotę i Wielkanoc, 1 listopada, 24 i 25 grudnia oraz 31 grudnia.",
+                "Bilet do aquaparku obejmuje też baseny sportowe, a bilet do strefy saun obejmuje aquapark i baseny sportowe. Strefa saun jest tylko dla osób pełnoletnich.",
+                "Przekroczenie czasu kosztuje 1 zł za minutę (60 zł za godzinę), a po 23:00 stawka wynosi 5 zł za minutę.",
+                "Bilety Karty Dużej Rodziny (rodzinny i indywidualny) są w kasach, ale honorowana jest tylko karta z kodem terytorialnym Poznania (pierwsze siedem cyfr numeru: 3064011). Okaż ją razem z dowodem tożsamości, także dla dzieci. Rabat nie łączy się z promocjami.",
+                "Grupy zorganizowane od 15 osób (plus opiekun) kupują bilety grupowe tylko do aquaparku, po zgłoszeniu grupy na bok@termymaltanskie.com.pl. Seniorzy mają tańsze bilety w dni powszednie przed południem (aquapark 9:00–12:00, baseny sportowe 8:00–12:00, sauny 14:30–17:30).",
                 "Osoby na wózkach wchodzą przez dolny hol, na poziomie terenu.",
                 "Na miejscu można wypożyczyć ręczniki i szlafroki. Jest też pokój dla rodzin z przewijakiem.",
             ]),
         ],
         address="ul. Termalna 1, 61-028 Poznań",
         hours=[("Aquapark", "codziennie 9:00–23:00"), ("Baseny sportowe", "pn–sb 6:00–23:00, nd i święta 7:00–23:00"), ("Strefa saun", "pn–pt 14:30–23:00, sb–nd 11:30–23:00")],
-        tickets=[("Aquapark, 1 godzina", "od ok. 46 zł"), ("Dzieci do 3 lat", "bezpłatnie"), ("Pełny cennik", "na stronie term")],
+        tickets=[("Aquapark, normalny: 1 / 2 / 3 godz. / cały dzień", "46 zł / 61 zł / 75 zł / 109 zł"), ("Aquapark, ulgowy: 1 / 2 / 3 godz. / cały dzień", "37 zł / 52 zł / 65 zł / 94 zł"),
+                 ("Aquapark, rodzinny (2 dorosłych + 1 dziecko lub 1 + 2): 1 / 2 / 3 godz. / cały dzień", "93 zł / 123 zł / 152 zł / 219 zł, kolejne dziecko +13 zł / 20 zł / 28 zł / 36 zł"),
+                 ("Strefa saun, normalny: 1 / 2 / 3 godz. / cały dzień", "67 zł / 81 zł / 95 zł / 145 zł"), ("Strefa saun, ulgowy: 1 / 2 / 3 godz. / cały dzień", "57 zł / 71 zł / 83 zł / 119 zł"),
+                 ("Baseny sportowe, normalny: 1 / 2 godz.", "20 zł / 29 zł"), ("Baseny sportowe, ulgowy: 1 / 2 godz.", "18 zł / 24 zł"),
+                 ("Dzieci do 3 lat", "bezpłatnie")],
         phone="+48 459 595 590", www=("termymaltanskie.com.pl", "https://termymaltanskie.com.pl/"),
         credit="termy-maltanskie",
-        sources=[("Termy Maltańskie: FAQ", "https://termymaltanskie.com.pl/faq/")],
+        sources=[("Termy Maltańskie: cenniki", "https://termymaltanskie.com.pl/cenniki/"), ("Termy Maltańskie: FAQ", "https://termymaltanskie.com.pl/faq/")],
     ),
     dict(
         slug="malta-ski", cat="rodzina", name="Malta Ski",
@@ -1275,5 +1283,10 @@ for _a in ATTRACTIONS:
 # Muzeum Leśnictwa w Gołuchowie: karta porównana ze stronami OKL (historia, Oficyna, Owczarnia, Dybul) 9.11.2026.
 for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-lesnictwa-goluchow":
+        _a["checked"] = "09.11.2026"
+
+# Termy Maltańskie: karta porównana z cennikami i godzinami na termymaltanskie.com.pl 9.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "termy-maltanskie":
         _a["checked"] = "09.11.2026"
 
