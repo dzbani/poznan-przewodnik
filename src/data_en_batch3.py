@@ -72,8 +72,19 @@ EN_BATCH3 = {
         short="A water park, sports pools and a sauna zone on Lake Malta, open until 23:00.",
         badge="Daily",
         status=None,
-        lead="The Malta Thermal Baths (Termy Maltańskie) is a complex of pools on Lake Malta. It has a water park, sports pools and a sauna zone.",
+        lead="The Malta Thermal Baths (Termy Maltańskie) is a complex of pools on the northern shore of Lake Malta, opened on 16 October 2011. It has a water park, sports pools and a sauna zone.",
         sections=[
+            ("What to see", [
+                "A water park with 13 slides, among them a turbo slide (about 60 km/h), a wild river, a family slide, a raft slide and a multimedia slide with light and sound effects.",
+                "Two outdoor geothermal pools (one seasonal, one all-year), a brine pool, a pool with a double wave, a clover-shaped pool, a pool with a playground and a children's area with a paddling pool.",
+                "The sports pools: an Olympic pool of 51.3 × 25 m (2 m deep) with a movable bulkhead that divides it into two 25 m pools, and a diving pool of 25 × 30 m (5 m deep) with a tower at 10, 7.5, 5 and 3 m. The stands hold almost 3,800 people.",
+                "A sauna zone with baths and saunas, among them Livello, Maximus (stone), Turkish, Indian, a salt graduation tower, a snow grotto and the outdoor KELO and Panorama saunas. There are also SPA 1306 treatments.",
+                "The brine pools use thermal water from a nearby well, drawn from a depth of more than 1,306 metres.",
+            ]),
+            ("History", [
+                "Construction began on 1 June 2009. The investment was on the list of projects linked to the organisation of UEFA EURO 2012, and the building was put into use on 16 October 2011. The complex has a usable area of 27,050 m².",
+                "In 2020 the water park was rearranged: a volcano with light and sound effects appeared in the central part of the hall, new relaxation areas were created, and the pool with a playground replaced the pirate-ship pool.",
+            ]),
             ("Good to know", [
                 "The complex is closed on Holy Saturday and Easter Sunday, on 1 November, on 24 and 25 December and on 31 December.",
                 "A water park ticket also covers the sports pools, and a sauna zone ticket covers the water park and the sports pools. The sauna zone is for adults only.",
