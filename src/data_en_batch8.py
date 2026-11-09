@@ -209,7 +209,7 @@ EN_BATCH8 = {
     ),
     "muzeum-lesnictwa-goluchow": dict(
         name="Forestry Museum in Gołuchów",
-        img_alt="The coach house, one of the buildings of the Forestry Museum in Gołuchów",
+        img_alt="The Oficyna, a former distillery rebuilt by the Działyński family, which houses the Forestry Museum in Gołuchów",
         short="Four historic buildings of the former farm with exhibitions on the forest, forestry and its technology. Tue–Sun 10:00–16:00.",
         badge="Tue–Sun",
         status=None,

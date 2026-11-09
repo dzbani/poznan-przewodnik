@@ -272,7 +272,7 @@ TRIPS2 = [
     ),
     dict(
         slug="muzeum-lesnictwa-goluchow", cat="wycieczki", name="Muzeum Leśnictwa w Gołuchowie",
-        img="muzeum-lesnictwa-goluchow", img_alt="Powozownia, jeden z budynków Muzeum Leśnictwa w Gołuchowie",
+        img="muzeum-lesnictwa-goluchow", img_alt="Oficyna, dawna gorzelnia przebudowana przez Działyńskich, w której mieści się Muzeum Leśnictwa w Gołuchowie",
         short="Cztery zabytkowe budynki dawnego folwarku z wystawami o lesie, leśnictwie i jego technice. Wt–nd 10:00–16:00.",
         badge="Wt–nd",
         status=None,
