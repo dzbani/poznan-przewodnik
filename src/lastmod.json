@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-09",
-"hash": "6683604c5b0e9e1d83b59a17105f0f5d"
+"hash": "928801c33a4f270e61e883f533388afa"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -16,8 +16,8 @@
 "hash": "9e5c02b69afe98bda0738c693ba9f87c"
 },
 "atrakcje/biblioteka-raczynskich.html": {
-"date": "2026-11-05",
-"hash": "8aa56b2744d8d2b114906c154a20de73"
+"date": "2026-11-09",
+"hash": "3d0ae8f077805e4d90e44192b680058b"
 },
 "atrakcje/biskupin.html": {
 "date": "2026-11-03",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-09",
-"hash": "4e3ba4bbc08ca817b90e2e2a084095a4"
+"hash": "ad873c9a35a9eadbbbf64a41dcae2cb7"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -708,8 +708,8 @@
 "hash": "c98f357b92f03ccf6622509584b2bc30"
 },
 "en/attractions/biblioteka-raczynskich.html": {
-"date": "2026-11-05",
-"hash": "c520434b61f182242dc1ed5b2af2ecf2"
+"date": "2026-11-09",
+"hash": "7e68c92027241ce28e85cb366df14cde"
 },
 "en/attractions/biskupin.html": {
 "date": "2026-11-03",
@@ -1405,11 +1405,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-09",
-"hash": "988ec5265d29ca88f6fad68fb9d2f267"
+"hash": "5e0acb356fb7607c29b26f22fdf7b030"
 },
 "en/plans.html": {
-"date": "2026-11-07",
-"hash": "8de744523b2c198026c9520b57028d8b"
+"date": "2026-11-09",
+"hash": "a4ba43d9a1d899961ca5b3ee277d0600"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1456,8 +1456,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-07",
-"hash": "5e2d7e1cb7966c8c7ef54b6d6133f5cf"
+"date": "2026-11-09",
+"hash": "4f6652da1b9efd8156c9e1217b3adeaf"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-09",
-"hash": "b3cd59c3a76ee5a9847446d535279215"
+"hash": "77e18b6f34caeed36373804f1b7bf084"
 },
 "zmiany.html": {
 "date": "2026-11-04",

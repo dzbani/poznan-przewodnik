@@ -165,7 +165,7 @@ EXTRA = [
     ),
     dict(
         slug="biblioteka-raczynskich", cat="zabytki", name="Biblioteka Raczyńskich",
-        img="biblioteka-raczynskich", img_alt="Gmach Biblioteki Raczyńskich na placu Wolności",
+        img="biblioteka-raczynskich", img_alt="Kolumnada i fryz z napisem „Biblioteka Raczyńskich” na fasadzie gmachu, w jesiennych liściach", og_pos="center 60%",
         short="Klasycystyczny gmach z lat 1822–1828 z fasadą wzorowaną na Luwrze, przy placu Wolności.",
         badge="Bezpłatnie",
         status=None,

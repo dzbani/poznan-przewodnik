@@ -27,7 +27,7 @@ EN_BATCH4 = {
     ),
     "biblioteka-raczynskich": dict(
         name="Raczyński Library",
-        img_alt="The Raczyński Library building on Freedom Square",
+        img_alt="The colonnade and the frieze inscribed “Biblioteka Raczyńskich” on the building’s façade, among autumn leaves",
         short="A neoclassical building of 1822–1828 with a façade modelled on the Louvre, on Freedom Square.",
         badge="Free",
         status=None,
