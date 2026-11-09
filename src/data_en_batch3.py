@@ -165,7 +165,7 @@ EN_BATCH3 = {
     ),
     "ogrod-botaniczny": dict(
         name="Adam Mickiewicz University Botanical Garden",
-        img_alt="The Botanical Garden of Adam Mickiewicz University in Poznań",
+        img_alt="The Exhibition and Education Pavilion in the Botanical Garden of Adam Mickiewicz University, with blooming peonies in the foreground",
         short="22 hectares of plants from all over the world and one of the richest collections of cacti in Poland.",
         badge="Free",
         status=None,

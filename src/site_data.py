@@ -422,7 +422,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="ogrod-botaniczny", cat="przyroda", name="Ogród Botaniczny UAM",
-        img="ogrod-botaniczny", img_alt="Ogród Botaniczny UAM w Poznaniu",
+        img="ogrod-botaniczny", img_alt="Pawilon Ekspozycyjno-Dydaktyczny w Ogrodzie Botanicznym UAM, na pierwszym planie kwitnące piwonie",
         short="22 hektary roślin z całego świata i jedna z najbogatszych kolekcji kaktusów w Polsce.",
         badge="Wstęp wolny",
         status=None,
