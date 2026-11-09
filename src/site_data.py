@@ -1256,3 +1256,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "fort-iva":
         _a["checked"] = "08.11.2026"
 
+# Podziemia Katedry: karta porównana z poznan.pl, stroną katedry i Wikipedią 9.11.2026 (okrzeski, grobowce, wieża, godziny zimowe).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "podziemia-katedry":
+        _a["checked"] = "09.11.2026"
+

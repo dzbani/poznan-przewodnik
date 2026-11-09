@@ -14,8 +14,8 @@ GAPS2 = [
         lead="Pod Katedrą Poznańską zachowały się fragmenty wcześniejszych budowli, odkryte podczas badań archeologicznych prowadzonych przy odbudowie świątyni po II wojnie światowej. Można tu zobaczyć ślady dawnych katedr, także tej z czasów pierwszych Piastów.",
         sections=[
             ("Co zobaczyć", [
-                "Fragmenty katedry przedromańskiej i romańskiej: mury z kamienia łamanego i przedromańskie bazy kolumn.",
-                "Relikty grobowców, najprawdopodobniej pierwszych władców Polski: Mieszka I i Bolesława Chrobrego.",
+                "Fragmenty katedry przedromańskiej i romańskiej: mury z okrzesków i przedromańskie bazy kolumn.",
+                "Relikty grobowców, najprawdopodobniej pierwszych władców Polski: Mieszka I i Bolesława Chrobrego. Są to przypuszczenia: według prof. Przemysława Urbańczyka grobowiec w środku nawy głównej mógł należeć do biskupa Jordana.",
                 "Relikt misy z X wieku, być może chrzcielnicy, z której mógł przyjąć chrzest Mieszko I wraz z poddanymi. Według innej hipotezy misa służyła do rozrabiania wapna.",
                 "Lapidarium z fragmentami nagrobków, płyt i epitafiów oraz krypta, w której spoczywają arcybiskupi i biskupi pomocniczy poznańscy.",
                 "Przy wejściu wiszą plansze prof. Zofii Kurnatowskiej o dziejach katedry i Ostrowa Tumskiego, a podczas zwiedzania wyświetlany jest film.",
@@ -31,13 +31,16 @@ GAPS2 = [
         address="Ostrów Tumski 17, 61-109 Poznań",
         hours=[
             ("Sezon (1.03–15.11), dni powszednie", "9:00–16:00"),
-            ("Sezon (1.03–15.11), niedziele", "14:00–18:00"),
-            ("Zima", "podziemia zamknięte (poznan.pl)"),
+            ("Sezon (1.03–15.11), niedziele", "14:00–18:00 (o ile nie ma dodatkowego nabożeństwa)"),
+            ("Zima (16.11–koniec lutego)", "podziemia zamknięte (poznan.pl); sama katedra dla zwiedzających w dni powszednie 9:00–16:00"),
         ],
         tickets=[
             ("Normalny", "10 zł"),
             ("Ulgowy", "8 zł"),
             ("Rodzinny", "25 zł"),
+            ("Wieża widokowa: normalny", "14 zł"),
+            ("Wieża widokowa: ulgowy", "12 zł"),
+            ("Wieża widokowa: rodzinny", "40 zł"),
         ],
         phone="+48 61 852 96 42",
         www=("katedra.archpoznan.pl", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
