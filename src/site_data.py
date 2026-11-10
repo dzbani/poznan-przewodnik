@@ -565,7 +565,7 @@ ATTRACTIONS = [
         lead="Termy Maltańskie to kompleks sportowo-rekreacyjny nad Jeziorem Maltańskim. Woda w basenach pochodzi z odwiertu geotermalnego o głębokości 1306 metrów. Kompleks ma aquapark, baseny sportowe i strefę Sauny & Wellness.",
         sections=[
             ("Co zobaczyć", [
-                "Aquapark: 13 zjeżdżalni, m.in. Turbo (zjazd ok. 60 km/h), Pontonowa, Dzika Rzeka, Rodzinna, Wielotorowa, Multimedialna i sezonowa z widokiem na jezioro, oraz Wulkan.",
+                "Aquapark: 13 zjeżdżalni, m.in. Kamikadze, Turbo (zjazd ok. 60 km/h), Pontonowa, Dzika Rzeka, Rodzinna, Wielotorowa, Multimedialna i klasyczne, oraz Wulkan, który góruje nad strefą. Baseny mają wodę o temperaturze 30–36 °C, a plaża zewnętrzna ma nadmorski złoty piasek.",
                 "Ok. 10 basenów, m.in. falowy (200 cm), wypływowe, Złote Kaskady, brodzik, wodny plac zabaw, geotermalny i sezonowe baseny zewnętrzne. Dwa całoroczne baseny mają widok na jezioro.",
                 "Baseny sportowe: olimpijski o długości 50 m i głębokości 2 m, który pomostem można podzielić na dwa baseny 25-metrowe, z trybunami dla prawie 4000 osób; basen do skoków o głębokości 5 m z wieżą do skoków o wysokościach 3, 5, 7,5 i 10 m.",
                 "Sauny & Wellness: trzy światy (Równowagi na poziomie 0, Zmysłów i Żywiołów na poziomie -1). Sauny suche, m.in. Ziołowa, Event, Infrared; łaźnie parowe, m.in. Turecka, Kwiatowa, Indyjska; sauny zewnętrzne fińskie Panorama i KELO; Tężnia Solna i Grota Śnieżna. Miejsca do masażu (stół do ceremonii Hammam, gabinety, apartament). Zielony Taras z kameralnymi miejscami, osobnym barem i basenem, oraz 2 klimatyczne bary. Strefa tylko dla osób od 18. roku życia.",
