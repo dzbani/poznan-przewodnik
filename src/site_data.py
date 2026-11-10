@@ -565,10 +565,10 @@ ATTRACTIONS = [
         lead="Termy Maltańskie to kompleks sportowo-rekreacyjny nad Jeziorem Maltańskim. Woda w basenach pochodzi z odwiertu geotermalnego o głębokości 1306 metrów. Kompleks ma aquapark, baseny sportowe i strefę Sauny & Wellness.",
         sections=[
             ("Co zobaczyć", [
-                "Aquapark: 13 zjeżdżalni, m.in. Turbo (zjazd ok. 60 km/h), Dzika Rzeka, Zjeżdżalnia Wielotorowa, Multimedialna, Pontonowa i Rodzinna, oraz Wulkan z efektami świetlnymi i dźwiękowymi.",
-                "Baseny w aquaparku: falowy (200 cm), geotermalny, relaksacyjny, termomineralny, jacuzzi, Złote Kaskady, plac zabaw oraz dwa całoroczne baseny z widokiem na jezioro.",
-                "Baseny sportowe: olimpijski o długości 50 m, który można podzielić na dwa baseny 25-metrowe, z trybunami na ok. 4000 osób; basen do skoków o głębokości 5 m z wieżą do skoków i platformami na wysokości 3, 5, 7,5 i 10 m.",
-                "Sauny & Wellness: trzy światy (Równowagi, Żywiołów i Zmysłów) z saunami suchymi (m.in. Ziemia, Powietrze, Ogień, Ziołowa, Kelo, Event, Panorama, Maximus, Infrared), łaźniami (m.in. Turecka, Kwiatowa, Indyjska, Hammam), Tężnią Solną i Grotą Śnieżną. Strefa jest dla osób od 18. roku życia.",
+                "Aquapark: 13 zjeżdżalni, m.in. Turbo (zjazd ok. 60 km/h), Pontonowa, Dzika Rzeka, Rodzinna, Wielotorowa, Multimedialna i sezonowa z widokiem na jezioro, oraz Wulkan.",
+                "Ok. 10 basenów, m.in. falowy (200 cm), wypływowe, Złote Kaskady, brodzik, wodny plac zabaw, geotermalny i sezonowe baseny zewnętrzne. Dwa całoroczne baseny mają widok na jezioro.",
+                "Baseny sportowe: olimpijski o długości 50 m i głębokości 2 m, który pomostem można podzielić na dwa baseny 25-metrowe, z trybunami dla prawie 4000 osób; basen do skoków o głębokości 5 m z wieżą do skoków o wysokościach 3, 5, 7,5 i 10 m.",
+                "Sauny & Wellness: trzy światy (Równowagi na poziomie 0, Zmysłów i Żywiołów na poziomie -1). Sauny suche, m.in. Ziołowa, Event, Infrared; łaźnie parowe, m.in. Turecka, Kwiatowa, Indyjska; sauny zewnętrzne fińskie Panorama i KELO; Tężnia Solna i Grota Śnieżna. Miejsca do masażu (stół do ceremonii Hammam, gabinety, apartament). Zielony Taras z kameralnymi miejscami, osobnym barem i basenem, oraz 2 klimatyczne bary. Strefa tylko dla osób od 18. roku życia.",
             ]),
             ("Warto wiedzieć", [
                 "Kompleks jest zamknięty w Wielką Sobotę i Wielkanoc, 1 listopada, 24 i 25 grudnia oraz 31 grudnia.",

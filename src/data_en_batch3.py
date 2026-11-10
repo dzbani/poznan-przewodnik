@@ -75,10 +75,10 @@ EN_BATCH3 = {
         lead="The Malta Thermal Baths (Termy Maltańskie) is a sports and recreation complex on Lake Malta. The water in the pools comes from a geothermal well 1,306 metres deep. The complex has a water park, sports pools and the Sauny & Wellness zone.",
         sections=[
             ("What to see", [
-                "The water park: 13 slides, among them Turbo (about 60 km/h), Wild River, the Multi-lane slide, the Multimedia slide, the Raft slide and the Family slide, and the Volcano with light and sound effects.",
-                "Pools in the water park: a wave pool (200 cm), a geothermal pool, a relaxation pool, a thermo-mineral pool, a jacuzzi, the Golden Cascades, a playground, and two all-year pools with a view of the lake.",
-                "The sports pools: an Olympic pool 50 m long, which can be divided into two 25 m pools, with stands for about 4,000 people; a diving pool 5 m deep with a diving tower and platforms at 3, 5, 7.5 and 10 m.",
-                "Sauny & Wellness: three worlds (of Balance, of Elements and of the Senses) with dry saunas (among them Earth, Air, Fire, Herbal, Kelo, Event, Panorama, Maximus, Infrared), baths (among them Turkish, Flower, Indian, Hammam), the Salt Graduation Tower and the Snow Grotto. The zone is for people aged 18 and over.",
+                "The water park: 13 slides, among them Turbo (about 60 km/h), Raft, Wild River, Family, Multi-lane, Multimedia and a seasonal slide with a view of the lake, and the Volcano.",
+                "About 10 pools, among them a wave pool (200 cm), outflow pools, the Golden Cascades, a paddling pool, a water playground, a geothermal pool and seasonal outdoor pools. Two all-year pools have a view of the lake.",
+                "The sports pools: an Olympic pool 50 m long and 2 m deep, which can be divided with a movable bulkhead into two 25 m pools, with stands for almost 4,000 people; a diving pool 5 m deep with a diving tower at 3, 5, 7.5 and 10 m.",
+                "Sauny & Wellness: three worlds (of Balance on level 0, of the Senses and of the Elements on level -1). Dry saunas, among them Herbal, Event, Infrared; steam baths, among them Turkish, Flower, Indian; the outdoor Finnish saunas Panorama and KELO; the Salt Graduation Tower and the Snow Grotto. Massage spaces (a Hammam ceremony table, treatment rooms, a suite). The Green Terrace with intimate spaces, a separate bar and a pool, and 2 atmospheric bars. The zone is for people aged 18 and over.",
             ]),
             ("Good to know", [
                 "The complex is closed on Holy Saturday and Easter Sunday, on 1 November, on 24 and 25 December and on 31 December.",
