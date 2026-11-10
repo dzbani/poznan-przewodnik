@@ -46,7 +46,7 @@ TRIPS2 = [
             ("Dzieci do 7 lat", "bezpłatnie"), ("Przewodnik (do 30 osób)", "150 zł plus bilety"),
             ("Wtorek", "0 zł wg cennika muzeum"),
         ],
-        phone="+48 62 761 50 94", www=("mnp.art.pl", "https://mnp.art.pl/profile/wizyta-muzeum-zamek-w-goluchowie"),
+        phone="+48 62 761 50 94", email="goluchow.info@mnp.art.pl", www=("mnp.art.pl", "https://mnp.art.pl/profile/wizyta-muzeum-zamek-w-goluchowie"),
         credit="zamek-goluchow",
         trip=dict(lat=51.852639, lon=17.933336, getting=[
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),

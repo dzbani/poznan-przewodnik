@@ -36,6 +36,7 @@ ICON = {
     "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
     "ticket": '<path d="M3 8a2 2 0 0 0 0 4v4h18v-4a2 2 0 0 0 0-4V4H3z"/><path d="M13 4v16" stroke-dasharray="2 2"/>',
     "phone": '<path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2"/>',
+    "mail": '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
     "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
     "route": '<circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h7"/>',
     "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
@@ -553,6 +554,8 @@ def build_attraction(a, idx):
     contact = ""
     if a["phone"]:
         contact += f'<p>{icon("phone")} <span class="sel">{escape(a["phone"])}</span></p>'
+    if a.get("email"):
+        contact += f'<p>{icon("mail")} <a href="mailto:{escape(a["email"])}">{escape(a["email"])}</a></p>'
     contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'
     same = [x for x in ATTRACTIONS if x["cat"] == a["cat"] and x["slug"] != a["slug"]]
     others = "".join(card(x, "../") for x in same[:3])

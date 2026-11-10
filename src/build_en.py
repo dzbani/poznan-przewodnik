@@ -236,6 +236,8 @@ def json_ld(a, pl, cat_name, lat_lon):
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if pl["phone"]:
         place["telephone"] = pl["phone"]
+    if pl.get("email"):
+        place["email"] = pl["email"]
     if seo._is_free(pl):
         place["isAccessibleForFree"] = True
     elif seo._is_paid(pl):
@@ -269,6 +271,8 @@ def build_attraction_en(slug, idx, slugs):
     contact = ""
     if a["phone"]:
         contact += f'<p>{icon("phone")} <span class="sel">{escape(a["phone"])}</span></p>'
+    if a.get("email"):
+        contact += f'<p>{icon("mail")} <a href="mailto:{escape(a["email"])}">{escape(a["email"])}</a></p>'
     contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'
     sources = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener" hreflang="pl">{escape(t)}</a></li>'
                       for t, u in pl["sources"])

@@ -224,6 +224,8 @@ def json_ld(a, site_url, cat_name, lat_lon):
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if a["phone"]:
         place["telephone"] = a["phone"]
+    if a.get("email"):
+        place["email"] = a["email"]
     if _is_free(a):
         place["isAccessibleForFree"] = True
     elif _is_paid(a):
