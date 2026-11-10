@@ -120,7 +120,7 @@ EN_BATCH6 = {
             ("Good to know", [
                 "Entries take place every half hour, in groups of up to 30 people with an exhibition guide. From Tuesday to Friday the last entry is at 15:00, and on summer weekends (July and August) at 16:00, when you visit individually.",
                 "The castle is closed on 1 January, 1 November, 24, 25, 26 and 31 December, on Good Friday, Holy Saturday, Easter Sunday and Easter Monday and on Corpus Christi. It is open on 6 January, 1 and 3 May, 15 August and 11 November, with Sunday hours.",
-                "Guided visits are possible only after advance booking by phone (+48 62 761 50 94) or email (goluchow.info@mnp.art.pl). They cost PLN 150 plus admission tickets, for groups of up to 30 people.",
+                "Guided visits are possible only after advance booking by phone (+48 62 761 50 94) or email (edukacja.goluchow@mnp.art.pl). They cost PLN 150 plus admission tickets, for groups of up to 30 people.",
                 "You can buy tickets at the ticket desk (cash or card) or online through tobilet.pl. Concessions require showing documents.",
                 "The building has three floors and no lift, and there are steps leading to the main entrance. There is also no toilet for people with disabilities.",
             ]),

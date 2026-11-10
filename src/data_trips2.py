@@ -29,7 +29,7 @@ TRIPS2 = [
             ("Warto wiedzieć", [
                 "Wejścia odbywają się co pół godziny, w grupach do 30 osób z opiekunem ekspozycji. Od wtorku do piątku ostatnie wejście jest o 15:00, a w weekendy wakacyjne (lipiec i sierpień) o 16:00, i wtedy zwiedza się indywidualnie.",
                 "Zamek jest zamknięty 1 stycznia, 1 listopada, 24, 25, 26 i 31 grudnia, w Wielki Piątek, Wielką Sobotę, Niedzielę i Poniedziałek Wielkanocny oraz w Boże Ciało. Otwarty jest 6 stycznia, 1 i 3 maja, 15 sierpnia i 11 listopada, według godzin niedzielnych.",
-                "Zwiedzanie z przewodnikiem jest możliwe tylko po wcześniejszej rezerwacji telefonicznej (+48 62 761 50 94) lub mailowej (goluchow.info@mnp.art.pl). Kosztuje 150 zł plus bilety wstępu, dla grup do 30 osób.",
+                "Zwiedzanie z przewodnikiem jest możliwe tylko po wcześniejszej rezerwacji telefonicznej (+48 62 761 50 94) lub mailowej (edukacja.goluchow@mnp.art.pl). Kosztuje 150 zł plus bilety wstępu, dla grup do 30 osób.",
                 "Bilety kupisz w kasie (gotówką lub kartą) albo online przez serwis tobilet.pl. Ulgi wymagają okazania dokumentów.",
                 "Budynek ma trzy kondygnacje i nie ma windy, a do wejścia głównego prowadzą schody. Nie ma też toalety dla osób z niepełnosprawnością.",
             ]),
@@ -46,7 +46,7 @@ TRIPS2 = [
             ("Dzieci do 7 lat", "bezpłatnie"), ("Przewodnik (do 30 osób)", "150 zł plus bilety"),
             ("Wtorek", "0 zł wg cennika muzeum"),
         ],
-        phone="+48 62 761 50 94", email="goluchow.info@mnp.art.pl", www=("mnp.art.pl", "https://mnp.art.pl/profile/wizyta-muzeum-zamek-w-goluchowie"),
+        phone="+48 62 761 50 94", email="edukacja.goluchow@mnp.art.pl", www=("mnp.art.pl", "https://mnp.art.pl/profile/wizyta-muzeum-zamek-w-goluchowie"),
         credit="zamek-goluchow",
         trip=dict(lat=51.852639, lon=17.933336, getting=[
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
