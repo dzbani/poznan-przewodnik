@@ -69,21 +69,16 @@ EN_BATCH3 = {
     "termy-maltanskie": dict(
         name="Malta Thermal Baths",
         img_alt="The outdoor pool with water slides and the Malta Thermal Baths hall, seen from above, by the Warta",
-        short="A water park, sports pools and a sauna zone on Lake Malta, open until 23:00.",
+        short="A water park with 13 slides, sports pools and the Sauny & Wellness zone on Lake Malta, open until 23:00.",
         badge="Daily",
         status=None,
-        lead="The Malta Thermal Baths (Termy Maltańskie) is a complex of pools on the northern shore of Lake Malta, opened on 16 October 2011. It has a water park, sports pools and a sauna zone.",
+        lead="The Malta Thermal Baths (Termy Maltańskie) is a sports and recreation complex on Lake Malta. The water in the pools comes from a geothermal well 1,306 metres deep. The complex has a water park, sports pools and the Sauny & Wellness zone.",
         sections=[
             ("What to see", [
-                "A water park with 13 slides, among them a turbo slide (about 60 km/h), a wild river, a family slide, a raft slide and a multimedia slide with light and sound effects.",
-                "Two outdoor geothermal pools (one seasonal, one all-year), a brine pool, a pool with a double wave, a clover-shaped pool, a pool with a playground and a children's area with a paddling pool.",
-                "The sports pools: an Olympic pool of 51.3 × 25 m (2 m deep) with a movable bulkhead that divides it into two 25 m pools, and a diving pool of 25 × 30 m (5 m deep) with a tower at 10, 7.5, 5 and 3 m. The stands hold almost 3,800 people.",
-                "A sauna zone with baths and saunas, among them Livello, Maximus (stone), Turkish, Indian, a salt graduation tower, a snow grotto and the outdoor KELO and Panorama saunas. There are also SPA 1306 treatments.",
-                "The brine pools use thermal water from a nearby well, drawn from a depth of more than 1,306 metres.",
-            ]),
-            ("History", [
-                "Construction began on 1 June 2009. The investment was on the list of projects linked to the organisation of UEFA EURO 2012, and the building was put into use on 16 October 2011. The complex has a usable area of 27,050 m².",
-                "In 2020 the water park was rearranged: a volcano with light and sound effects appeared in the central part of the hall, new relaxation areas were created, and the pool with a playground replaced the pirate-ship pool.",
+                "The water park: 13 slides, among them Turbo (about 60 km/h), Wild River, the Multi-lane slide, the Multimedia slide, the Raft slide and the Family slide, and the Volcano with light and sound effects.",
+                "Pools in the water park: a wave pool (200 cm), a geothermal pool, a relaxation pool, a thermo-mineral pool, a jacuzzi, the Golden Cascades, a playground, and two all-year pools with a view of the lake.",
+                "The sports pools: an Olympic pool 50 m long, which can be divided into two 25 m pools, with stands for about 4,000 people; a diving pool 5 m deep with a diving tower and platforms at 3, 5, 7.5 and 10 m.",
+                "Sauny & Wellness: three worlds (of Balance, of Elements and of the Senses) with dry saunas (among them Earth, Air, Fire, Herbal, Kelo, Event, Panorama, Maximus, Infrared), baths (among them Turkish, Flower, Indian, Hammam), the Salt Graduation Tower and the Snow Grotto. The zone is for people aged 18 and over.",
             ]),
             ("Good to know", [
                 "The complex is closed on Holy Saturday and Easter Sunday, on 1 November, on 24 and 25 December and on 31 December.",

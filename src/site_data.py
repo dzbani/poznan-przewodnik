@@ -559,21 +559,16 @@ ATTRACTIONS = [
     dict(
         slug="termy-maltanskie", cat="rodzina", name="Termy Maltańskie",
         img="termy-maltanskie", img_alt="Zewnętrzny basen ze zjeżdżalniami i hala Term Maltańskich, widok z góry, nad Wartą",
-        short="Aquapark, baseny sportowe i strefa saun nad Maltą, czynne do 23:00.",
+        short="Aquapark z 13 zjeżdżalniami, baseny sportowe i Sauny & Wellness nad Jeziorem Maltańskim, czynne do 23:00.",
         badge="Codziennie",
         status=None,
-        lead="Termy Maltańskie to kompleks basenów na północnym brzegu Jeziora Maltańskiego, oddany do użytku 16 października 2011 roku. Mają aquapark, baseny sportowe i strefę saun.",
+        lead="Termy Maltańskie to kompleks sportowo-rekreacyjny nad Jeziorem Maltańskim. Woda w basenach pochodzi z odwiertu geotermalnego o głębokości 1306 metrów. Kompleks ma aquapark, baseny sportowe i strefę Sauny & Wellness.",
         sections=[
             ("Co zobaczyć", [
-                "Aquapark z 13 zjeżdżalniami, m.in. turbo (około 60 km/h), dziką rzeką, rodzinną, pontonową i multimedialną z efektami świetlnymi i dźwiękowymi.",
-                "Dwa zewnętrzne baseny geotermalne (sezonowy i całoroczny), basen solankowy, basen z podwójną falą, basen w kształcie koniczyny, basen z placem zabaw oraz strefę dla dzieci z brodzikiem.",
-                "Baseny sportowe: olimpijski 51,3 × 25 m (głębokość 2 m) z przesuwanym pomostem, który dzieli go na dwa baseny po 25 m, oraz basen do skoków 25 × 30 m (głębokość 5 m) z wieżą na wysokości 10, 7,5, 5 i 3 m. Widownia mieści prawie 3800 osób.",
-                "Strefa saun z łaźniami i saunami, m.in. Livello, Maximus (kamienna), turecką, indyjską, tężnią solną, grotą śnieżną oraz saunami zewnętrznymi KELO i Panorama. Są też zabiegi SPA 1306.",
-                "W basenach solankowych używana jest woda termalna z pobliskiego odwiertu, pobierana z głębokości ponad 1306 metrów.",
-            ]),
-            ("Historia", [
-                "Budowę rozpoczęto 1 czerwca 2009 roku. Inwestycja była wpisana na listę przedsięwzięć związanych z organizacją UEFA EURO 2012, a obiekt oddano do użytku 16 października 2011 roku. Powierzchnia użytkowa kompleksu wynosi 27 050 m².",
-                "W 2020 roku aquapark przearanżowano: w centralnej części hali pojawił się wulkan z efektami świetlnymi i dźwiękowymi, powstały nowe miejsca relaksu, a basen ze statkiem pirackim zastąpił basen z placem zabaw.",
+                "Aquapark: 13 zjeżdżalni, m.in. Turbo (zjazd ok. 60 km/h), Dzika Rzeka, Zjeżdżalnia Wielotorowa, Multimedialna, Pontonowa i Rodzinna, oraz Wulkan z efektami świetlnymi i dźwiękowymi.",
+                "Baseny w aquaparku: falowy (200 cm), geotermalny, relaksacyjny, termomineralny, jacuzzi, Złote Kaskady, plac zabaw oraz dwa całoroczne baseny z widokiem na jezioro.",
+                "Baseny sportowe: olimpijski o długości 50 m, który można podzielić na dwa baseny 25-metrowe, z trybunami na ok. 4000 osób; basen do skoków o głębokości 5 m z wieżą do skoków i platformami na wysokości 3, 5, 7,5 i 10 m.",
+                "Sauny & Wellness: trzy światy (Równowagi, Żywiołów i Zmysłów) z saunami suchymi (m.in. Ziemia, Powietrze, Ogień, Ziołowa, Kelo, Event, Panorama, Maximus, Infrared), łaźniami (m.in. Turecka, Kwiatowa, Indyjska, Hammam), Tężnią Solną i Grotą Śnieżną. Strefa jest dla osób od 18. roku życia.",
             ]),
             ("Warto wiedzieć", [
                 "Kompleks jest zamknięty w Wielką Sobotę i Wielkanoc, 1 listopada, 24 i 25 grudnia oraz 31 grudnia.",
@@ -594,7 +589,7 @@ ATTRACTIONS = [
                  ("Dzieci do 3 lat", "bezpłatnie")],
         phone="+48 459 595 590", www=("termymaltanskie.com.pl", "https://termymaltanskie.com.pl/"),
         credit="termy-maltanskie",
-        sources=[("Termy Maltańskie: cenniki", "https://termymaltanskie.com.pl/cenniki/"), ("Termy Maltańskie: FAQ", "https://termymaltanskie.com.pl/faq/"), ("Wikipedia: Termy Maltańskie", "https://pl.wikipedia.org/wiki/Termy_Maltańskie")],
+        sources=[("Termy Maltańskie: cenniki", "https://termymaltanskie.com.pl/cenniki/"), ("Termy Maltańskie: FAQ", "https://termymaltanskie.com.pl/faq/"), ("Termy Maltańskie: aquapark", "https://termymaltanskie.com.pl/aquapark/"), ("Termy Maltańskie: baseny sportowe", "https://termymaltanskie.com.pl/baseny-sportowe/"), ("Termy Maltańskie: sauny", "https://termymaltanskie.com.pl/sauny/")],
     ),
     dict(
         slug="malta-ski", cat="rodzina", name="Malta Ski",
@@ -1298,7 +1293,7 @@ for _a in ATTRACTIONS:
 # Termy Maltańskie: karta porównana z cennikami i godzinami na termymaltanskie.com.pl 9.11.2026.
 for _a in ATTRACTIONS:
     if _a["slug"] == "termy-maltanskie":
-        _a["checked"] = "09.11.2026"
+        _a["checked"] = "10.11.2026"
 
 # Puszcza Zielonka: opis jezior i LZD poprawiony wg uwag ZPKWW (mail z 9.11.2026), jeziora porównane z Wikipedią.
 for _a in ATTRACTIONS:
