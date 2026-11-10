@@ -8,7 +8,7 @@ poznan.pl i inne serwisy podają dla tych obiektów nieaktualne godziny."""
 TRIPS2 = [
     dict(
         slug="zamek-goluchow", cat="wycieczki", name="Zamek w Gołuchowie",
-        img="zamek-goluchow", img_alt="Zamek w Gołuchowie z basztami i dachami łupkowymi",
+        img="zamek-goluchow", img_alt="Zamek w Gołuchowie od strony parku, z wieżami i dachami łupkowymi wśród drzew",
         short="Renesansowy zamek przebudowany dla Izabelli Czartoryskiej, z wnętrzami i zbiorami sztuki. We wtorki wstęp wolny.",
         badge="Wt–nd",
         status=None,

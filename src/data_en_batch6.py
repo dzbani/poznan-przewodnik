@@ -99,7 +99,7 @@ EN_BATCH6 = {
     ),
     "zamek-goluchow": dict(
         name="Gołuchów Castle",
-        img_alt="Gołuchów Castle with its towers and slate roofs",
+        img_alt="Gołuchów Castle seen from the park, with its towers and slate roofs among the trees",
         short="A Renaissance castle rebuilt for Izabella Czartoryska, with interiors and art collections. Free admission on Tuesdays.",
         badge="Tue–Sun",
         status=None,
