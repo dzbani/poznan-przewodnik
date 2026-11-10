@@ -1311,3 +1311,9 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "zamek-goluchow":
         _a["checked"] = "10.11.2026"
 
+# E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
+from data_emails import EMAILS as _EMAILS
+for _a in ATTRACTIONS:
+    if _a["slug"] in _EMAILS and not _a.get("email"):
+        _a["email"] = _EMAILS[_a["slug"]]
+
