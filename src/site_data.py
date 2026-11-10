@@ -1288,7 +1288,7 @@ for _a in ATTRACTIONS:
 # Ogród Botaniczny UAM: karta porównana ze stronami ogrodu 9.11.2026 (godziny, kolekcje, liczby taksonów).
 for _a in ATTRACTIONS:
     if _a["slug"] == "ogrod-botaniczny":
-        _a["checked"] = "09.11.2026"
+        _a["checked"] = "10.11.2026"
 
 # Muzeum Leśnictwa w Gołuchowie: karta porównana ze stronami OKL (historia, Oficyna, Owczarnia, Dybul) 9.11.2026.
 for _a in ATTRACTIONS:
