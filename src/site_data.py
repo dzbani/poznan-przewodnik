@@ -423,17 +423,16 @@ ATTRACTIONS = [
     dict(
         slug="ogrod-botaniczny", cat="przyroda", name="Ogród Botaniczny UAM",
         img="ogrod-botaniczny", img_alt="Pawilon Ekspozycyjno-Dydaktyczny w Ogrodzie Botanicznym UAM, na pierwszym planie kwitnące piwonie",
-        short="22 hektary roślin z całego świata i jedna z najbogatszych kolekcji kaktusów w Polsce.",
+        short="22 hektary roślin: alpinarium, rosarium i kolekcje piwonii, kosaćców i liliowców.",
         badge="Wstęp wolny",
         status=None,
-        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku (prace nad jego tworzeniem trwały od 1922). Zajmuje około 22 hektarów, a rośliny rosną na wolnym powietrzu i w szklarniach.",
+        lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku (prace nad jego tworzeniem trwały od 1922). Zajmuje około 22 hektarów, a na jego terenie rośnie ponad 6000 taksonów roślin.",
         sections=[
             ("Co zobaczyć", [
-                "Szklarnię III z około 500 gatunkami kaktusów ze 102 rodzajów. Sukulenty rosną też w szklarniach I i IV.",
                 "Alpinarium o powierzchni około 6000 m², z blisko 1300 taksonami, urządzone głównie z granitu i wapieni (około 3 tys. ton), z siedmioma zbiornikami wodnymi.",
                 "Rosarium z 2950 różami w 29 odmianach oraz kolekcje piwonii (około 120 odmian), kosaćców (około 230) i liliowców (około 280).",
                 "Dział Roślin Rzadkich i Zagrożonych, podzielony na pięć kwater.",
-                "Szklarnie z roślinami tropikalnymi i subtropikalnymi, w tym welwiczję przedziwną, ponad 35-letni okaz męski wyhodowany z nasion, który według Wikipedii jest jedynym takim kwitnącym w Polsce. W części tropikalnej rośnie około 550 gatunków i odmian roślin, a wśród nich wiktoria parańska i sagowce. Szklarnie budowano w latach 50. i 60. XX wieku.",
+                "Kolekcję głazów narzutowych z największym w Poznaniu eratykiem skandynawskim, ważącym blisko 150 ton.",
                 "Partery ogrodowe leżą na wspólnej osi z Pawilonem Ekspozycyjno-Dydaktycznym, widocznym na zdjęciu głównym.",
             ]),
         ],
