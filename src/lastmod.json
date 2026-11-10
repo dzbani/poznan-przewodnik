@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-10",
-"hash": "e01369a77ae0b1c7dacd3627d99cca2f"
+"hash": "e855f66984c72597df02d4be8d239da9"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -677,7 +677,7 @@
 },
 "atrakcje/zamek-goluchow.html": {
 "date": "2026-11-10",
-"hash": "0200afd98cf9d889cf8bc6c4e167c266"
+"hash": "09f4e760c6957558484f6e5d591ce0c7"
 },
 "atrakcje/zamek-kornik.html": {
 "date": "2026-11-03",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-10",
-"hash": "9e3367a30920edb7f5b028a2f07c5a4f"
+"hash": "4bedc5062d7aac648dff0932aa77aa13"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1369,7 +1369,7 @@
 },
 "en/attractions/zamek-goluchow.html": {
 "date": "2026-11-10",
-"hash": "a2734dd198d9fb73f0b9713071bebe0b"
+"hash": "74c6fc755c5a79afe220919401aa7e4c"
 },
 "en/attractions/zamek-kornik.html": {
 "date": "2026-11-03",
@@ -1388,16 +1388,16 @@
 "hash": "b8da05f8dae3f7f46cb06d590f3746f0"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-09",
-"hash": "c15179cef534322ef3df04dd7d01839b"
+"date": "2026-11-10",
+"hash": "5f7902fbbd90f24f7574aece21eb9c95"
 },
 "en/index.html": {
 "date": "2026-11-06",
 "hash": "174fc3dbd4e9aa1b9a26fb2562c2a45e"
 },
 "en/map.html": {
-"date": "2026-11-09",
-"hash": "26aa7bf2f9c5e620dec5e2b75dd6ee12"
+"date": "2026-11-10",
+"hash": "6ec0aa5fe5e9f78a3716ab6af4969b72"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1436,16 +1436,16 @@
 "hash": "55efba16a644104c022d76f79a6c60c0"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-09",
-"hash": "e99bf23386a4369f2be51285578a5054"
+"date": "2026-11-10",
+"hash": "1f669523f424fda2e54bfc49443659bf"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-09",
-"hash": "31286ce6f4d0e6e63f45cef42550884e"
+"date": "2026-11-10",
+"hash": "e3901e125a588b9827a8ff6c19e174e6"
 },
 "muzea.html": {
 "date": "2026-11-03",

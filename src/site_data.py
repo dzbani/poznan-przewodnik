@@ -1306,3 +1306,8 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "puszcza-zielonka":
         _a["checked"] = "09.11.2026"
 
+# Zamek w Gołuchowie: opis przepisany wyłącznie na podstawie dwóch stron MNP (muzeum-zamek-w-goluchowie, wizyta-muzeum-zamek-w-goluchowie) 10.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "zamek-goluchow":
+        _a["checked"] = "10.11.2026"
+
