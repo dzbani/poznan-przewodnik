@@ -429,9 +429,9 @@ ATTRACTIONS = [
         lead="Ogród Botaniczny Uniwersytetu im. Adama Mickiewicza założono w 1925 roku (prace nad jego tworzeniem trwały od 1922). Zajmuje około 22 hektarów, a na jego terenie rośnie ponad 6000 taksonów roślin.",
         sections=[
             ("Co zobaczyć", [
-                "Alpinarium o powierzchni około 6000 m², z blisko 1300 taksonami, urządzone głównie z granitu i wapieni (około 3 tys. ton), z siedmioma zbiornikami wodnymi.",
+                "Alpinarium z roślinami gór od strefy umiarkowanej po subarktyczną, o powierzchni około 6000 m², z blisko 1300 taksonami, urządzone głównie z granitu i wapieni (około 3 tys. ton), z siedmioma zbiornikami wodnymi.",
                 "Rosarium z 2950 różami w 29 odmianach oraz kolekcje piwonii (około 120 odmian), kosaćców (około 230) i liliowców (około 280).",
-                "Dział Roślin Rzadkich i Zagrożonych, podzielony na pięć kwater.",
+                "Kolekcja roślin rzadkich, zagrożonych wyginięciem i chronionych w Polsce (Dział Roślin Rzadkich i Zagrożonych, pięć kwater).",
                 "Kolekcję głazów narzutowych z największym w Poznaniu eratykiem skandynawskim, ważącym blisko 150 ton.",
                 "Partery ogrodowe leżą na wspólnej osi z Pawilonem Ekspozycyjno-Dydaktycznym, widocznym na zdjęciu głównym.",
             ]),

@@ -190,9 +190,9 @@ EN_BATCH3 = {
         lead="The Botanical Garden of Adam Mickiewicz University was founded in 1925 (work on creating it began in 1922). It covers about 22 hectares, and more than 6,000 plant taxa grow on its grounds.",
         sections=[
             ("What to see", [
-                "The alpine garden, covering about 6,000 m² with nearly 1,300 taxa, laid out mainly with granite and limestone (about 3,000 tonnes) and with seven water basins.",
+                "The alpine garden, with mountain plants from the temperate zone to the subarctic, covering about 6,000 m² with nearly 1,300 taxa, laid out mainly with granite and limestone (about 3,000 tonnes) and with seven water basins.",
                 "A rose garden with 2,950 roses of 29 cultivars, and collections of peonies (about 120 cultivars), irises (about 230) and daylilies (about 280).",
-                "The Department of Rare and Endangered Plants, divided into five plots.",
+                "A collection of rare, endangered and protected plants in Poland (the Department of Rare and Endangered Plants, five plots).",
                 "A collection of erratic boulders with the largest Scandinavian erratic boulder in Poznań, weighing nearly 150 tonnes.",
                 "The garden parterres lie on a common axis with the Exhibition and Education Pavilion, visible in the main photograph.",
             ]),
