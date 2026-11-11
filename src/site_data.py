@@ -171,10 +171,10 @@ ATTRACTIONS = [
         short="Zamek Przemysła II z Muzeum Sztuk Użytkowych i 43-metrową wieżą widokową. We wtorki wstęp wolny.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Zamek na Wzgórzu Przemysła wzniesiono prawdopodobnie w XIII wieku z inicjatywy Przemysła II. Budowę mógł zacząć już jego ojciec, Przemysł I. Po zniszczeniach 1945 roku zamek odbudowywano dwa razy, ostatnio w latach 2010–2013. Dziś mieści się w nim Muzeum Sztuk Użytkowych, oddział Muzeum Narodowego w Poznaniu, a w wieży jest taras widokowy.",
+        lead="Zamek na Wzgórzu Przemysła wzniesiono prawdopodobnie w XIII wieku z inicjatywy Przemysła II. Budowę mógł zacząć już jego ojciec, Przemysł I. Po zniszczeniach w 1945 roku historyzujący gmach zamku z wieżą wzniesiono dopiero w latach 2010–2013. Dziś mieści się w nim Muzeum Sztuk Użytkowych, oddział Muzeum Narodowego w Poznaniu, a w wieży jest taras widokowy.",
         sections=[
             ("O miejscu", [
-                "Obecny wygląd to efekt dwóch odbudów: z lat 1959–1964 i 2010–2013.",
+                "Po wojnie, w 1965 roku, odbudowano tylko budynek Raczyńskiego, w którym działało Muzeum Rzemiosł Artystycznych (od 1991 roku Muzeum Sztuk Użytkowych). Historyzujący gmach zamku z wieżą, zbudowaną na reliktach pierwotnej wieży z XIII wieku, wzniesiono dopiero w latach 2010–2013 i połączono z budynkiem Raczyńskiego.",
                 "Od 26 czerwca 2016 roku można wejść na wieżę widokową, z której rozciąga się widok na miasto.",
             ]),
             ("Muzeum Sztuk Użytkowych", [
@@ -188,7 +188,7 @@ ATTRACTIONS = [
                 "Na tarasie może jednocześnie przebywać do 25 osób. Przy złej pogodzie taras otwarty jest zamykany.",
             ]),
             ("Warto wiedzieć", [
-                "Winda w budynku dowozi na wszystkie ekspozycje. Osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po przybyciu trzeba zadzwonić pod 61 85 68 073. Muzeum ma też „Przedprzewodnik” dla osób ze szczególnymi potrzebami.",
+                "Winda w budynku dowozi na wszystkie ekspozycje. Osoby na wózkach i z wózkami dziecięcymi wchodzą alternatywnym wejściem, rampą przy budynku Raczyńskiego (ok. 15 m od głównego wejścia). Po przybyciu trzeba zadzwonić pod 61 85 68 073.",
                 "Najdłużej, do 20:00, muzeum jest czynne w piątki. Kasa zamyka się 30 minut przed zamknięciem muzeum. Godziny mogą się zmienić w dni świąteczne, przy dodatkowych dniach wolnych lub przerwach technicznych.",
                 "Muzeum jest nieczynne 1 stycznia, w Wielki Piątek, Wielką Sobotę, Niedzielę i Poniedziałek Wielkanocny, w Boże Ciało, 1 listopada oraz 24, 25, 26 i 31 grudnia. W dni 6 stycznia, 1 maja, 3 maja, 15 sierpnia i 11 listopada jest czynne jak w niedzielę. Najbliższe ciche godziny (15:00–17:00) przypadają 6 grudnia 2026 roku.",
                 "Dzieci i młodzież w wieku 8–26 lat płacą 1 zł, a we wtorki wstęp jest bezpłatny dla wszystkich. Strona muzeum podaje też zasady dla posiadaczy Karty Dużej Rodziny i Poznańskiej Karty Turystycznej.",
@@ -204,7 +204,6 @@ ATTRACTIONS = [
                  ("MNP: Muzeum Sztuk Użytkowych w Zamku Królewskim", "https://mnp.art.pl/muzeum-sztuk-uzytkowych-w-zamku-krolewskim-w-poznaniu"),
                  ("MNP: Zamek", "https://mnp.art.pl/profile/zamek"),
                  ("kultura.poznan.pl: Muzeum Sztuk Użytkowych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-sztuk-uzytkowych-zamek-przemysla,15703.html"),
-                 ("Wikipedia: Zamek Królewski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Królewski_w_Poznaniu"),
                  ("poznan.pl: Wieża widokowa – Wzgórze Przemysła", "https://www.poznan.pl/mim/wortals/turystyka/inne-atrakcje,poi,3391/wieza-widokowa-wzgorze-przemysla,61910.html")],
         see_also=[("Punkty widokowe w Poznaniu: wszystkie wieże i tarasy", "punkty-widokowe"),
                   ("Taras widokowy Collegium Altum", "atrakcje/taras-widokowy-collegium-altum")],
@@ -1331,7 +1330,7 @@ _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "
               "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
               "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
               "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
-              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum", "fara"}
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum", "fara", "zamek-krolewski"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]

@@ -61,10 +61,10 @@ EN_BATCH2 = {
         short="The castle of Przemysł II with the Museum of Decorative Arts and a 43-metre viewing tower. Free admission on Tuesdays.",
         badge="Tue free",
         status=None,
-        lead="The castle on Przemysł Hill was probably built in the 13th century on the initiative of Przemysł II. His father, Przemysł I, may have started the work. After the destruction of 1945 the castle was rebuilt twice, most recently in 2010–2013. Today it houses the Museum of Decorative Arts, a branch of the National Museum in Poznań, and the tower has a viewing terrace.",
+        lead="The castle on Przemysł Hill was probably built in the 13th century on the initiative of Przemysł II. His father, Przemysł I, may have started the work. After the destruction of 1945 the historicising castle building with its tower was erected only in 2010–2013. Today it houses the Museum of Decorative Arts, a branch of the National Museum in Poznań, and the tower has a viewing terrace.",
         sections=[
             ("About the place", [
-                "Its present look is the result of two reconstructions: in 1959–1964 and in 2010–2013.",
+                "After the war, in 1965, only the Raczyński building was rebuilt, where the Museum of Artistic Crafts operated (since 1991 the Museum of Applied Arts). The historicising castle building with its tower, built on the remains of the original 13th-century tower, was erected only in 2010–2013 and joined to the Raczyński building.",
                 "Since 26 June 2016 visitors can climb the viewing tower, which offers a view over the city.",
             ]),
             ("Museum of Decorative Arts", [
@@ -78,7 +78,7 @@ EN_BATCH2 = {
                 "Up to 25 people can stay on the terrace at one time. In bad weather the open terrace is closed.",
             ]),
             ("Good to know", [
-                "A lift in the building reaches all the exhibitions. Wheelchair users and people with prams enter by an alternative entrance, a ramp by the Raczyński building (about 15 m from the main entrance). On arrival you must call 61 85 68 073. The museum also has a “pre-visit guide” for people with special needs.",
+                "A lift in the building reaches all the exhibitions. Wheelchair users and people with prams enter by an alternative entrance, a ramp by the Raczyński building (about 15 m from the main entrance). On arrival you must call 61 85 68 073.",
                 "The museum is open longest, until 20:00, on Fridays. The ticket office closes 30 minutes before the museum closes. Hours may change on public holidays, on additional days off or during technical breaks.",
                 "The museum is closed on 1 January, Good Friday, Holy Saturday, Easter Sunday, Easter Monday, Corpus Christi, 1 November, and 24, 25, 26 and 31 December. On 6 January, 1 May, 3 May, 15 August and 11 November it is open as on a Sunday. The next quiet hours (15:00–17:00) fall on 6 December 2026.",
                 "Children and young people aged 8–26 pay PLN 1, and on Tuesdays admission is free for everyone. The museum's website also gives the rules for holders of the Large Family Card and the Poznań Tourist Card.",
