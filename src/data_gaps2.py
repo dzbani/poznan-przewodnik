@@ -14,10 +14,10 @@ GAPS2 = [
         lead="Pod Katedrą Poznańską zachowały się fragmenty wcześniejszych budowli, odkryte podczas badań archeologicznych prowadzonych przy odbudowie świątyni po II wojnie światowej. Można tu zobaczyć ślady dawnych katedr, także tej z czasów pierwszych Piastów.",
         sections=[
             ("Co zobaczyć", [
-                "Fragmenty katedry przedromańskiej i romańskiej: mury z okrzesków i przedromańskie bazy kolumn.",
-                "Relikty grobowców, najprawdopodobniej pierwszych władców Polski: Mieszka I i Bolesława Chrobrego. Są to przypuszczenia: według prof. Przemysława Urbańczyka grobowiec w środku nawy głównej mógł należeć do biskupa Jordana.",
-                "Relikt misy z X wieku, być może chrzcielnicy, z której mógł przyjąć chrzest Mieszko I wraz z poddanymi. Według innej hipotezy misa służyła do rozrabiania wapna.",
-                "Lapidarium z fragmentami nagrobków, płyt i epitafiów oraz krypta, w której spoczywają arcybiskupi i biskupi pomocniczy poznańscy.",
+                "Fragmenty katedry przedromańskiej i romańskiej.",
+                "Relikty grobowców, najprawdopodobniej pierwszych władców Polski: Mieszka I i Bolesława Chrobrego.",
+                "Relikt misy z X wieku, być może chrzcielnicy, z której mógł przyjąć chrzest Mieszko I wraz z poddanymi.",
+                "Lapidarium z fragmentami nagrobków, płyt i epitafiów oraz krypta, w której spoczywają arcybiskupi poznańscy.",
                 "Przy wejściu wiszą plansze prof. Zofii Kurnatowskiej o dziejach katedry i Ostrowa Tumskiego, a podczas zwiedzania wyświetlany jest film.",
             ]),
             ("Historia odkryć", [

@@ -35,10 +35,10 @@ EN_BATCH7 = {
         lead="Beneath Poznań Cathedral survive fragments of earlier buildings, discovered during archaeological research carried out when the church was rebuilt after the Second World War. You can see traces of earlier cathedrals here, including the one from the time of the first Piasts.",
         sections=[
             ("What to see", [
-                "Fragments of the pre-Romanesque and Romanesque cathedral: walls of “okrzesek” stone and pre-Romanesque column bases.",
-                "Remains of tombs, most probably of Poland's first rulers: Mieszko I and Bolesław the Brave. These are conjectures: according to Prof. Przemysław Urbańczyk the tomb in the middle of the nave may have belonged to Bishop Jordan.",
-                "The remains of a 10th-century basin, perhaps a baptismal font from which Mieszko I may have been baptised together with his subjects. According to another hypothesis the basin was used for mixing lime.",
-                "A lapidarium with fragments of tombstones, slabs and epitaphs, and the crypt in which the archbishops and auxiliary bishops of Poznań are buried.",
+                "Fragments of the pre-Romanesque and Romanesque cathedral.",
+                "Remains of tombs, most probably of Poland's first rulers: Mieszko I and Bolesław the Brave.",
+                "The remains of a 10th-century basin, perhaps a baptismal font from which Mieszko I may have been baptised together with his subjects.",
+                "A lapidarium with fragments of tombstones, slabs and epitaphs, and the crypt in which the archbishops of Poznań are buried.",
                 "At the entrance hang boards by Prof. Zofia Kurnatowska on the history of the cathedral and Ostrów Tumski, and a film is shown during the visit.",
             ]),
             ("History of the discoveries", [
