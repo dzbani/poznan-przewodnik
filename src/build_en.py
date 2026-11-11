@@ -235,7 +235,7 @@ def json_ld(a, pl, cat_name, lat_lon):
     if lat_lon:
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if pl["phone"]:
-        place["telephone"] = pl["phone"]
+        place["telephone"] = pl["phone"] if isinstance(pl["phone"], str) else pl["phone"][0]
     if pl.get("email"):
         place["email"] = pl["email"]
     if seo._is_free(pl):
@@ -269,8 +269,8 @@ def build_attraction_en(slug, idx, slugs):
     sections = "".join(f"<section><h2>{escape(h)}</h2>{''.join(f'<p>{escape(t)}</p>' for t in ps)}</section>"
                        for h, ps in a["sections"])
     contact = ""
-    if a["phone"]:
-        contact += f'<p>{icon("phone")} <span class="sel">{escape(a["phone"])}</span></p>'
+    for _ph in ([a["phone"]] if isinstance(a["phone"], str) else a["phone"]) if a["phone"] else []:
+        contact += f'<p>{icon("phone")} <span class="sel">{escape(_ph)}</span></p>'
     if a.get("email"):
         contact += f'<p>{icon("mail")} <a href="mailto:{escape(a["email"])}">{escape(a["email"])}</a></p>'
     contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'

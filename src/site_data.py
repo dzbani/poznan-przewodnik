@@ -53,7 +53,7 @@ ATTRACTIONS = [
         address="Stary Rynek 1, 61-768 Poznań (Ratusz)",
         hours=[("Plac", "dostępny całą dobę"), ("Koziołki", "codziennie o 12:00 i 15:00"), ("Muzeum w Ratuszu", "zamknięte; ponowne otwarcie planowane w 2028 r.")],
         tickets=[("Plac i koziołki", "bezpłatnie")],
-        phone="+48 61 85 68 193 (także +48 61 85 25 613)", email="ratusz@mnp.art.pl", www=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
+        phone=["+48 61 85 68 193", "+48 61 85 25 613"], email="ratusz@mnp.art.pl", www=("Oficjalna strona muzeum", "https://mnp.art.pl/ratusz-muzeum-poznania"),
         credit="hero-rynek",
         sources=[("poznan.pl: Ratusz (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
                  ("poznan.pl: Przewodnik po Starym Rynku (pręgierz, Bamberka, domki budnicze)", "https://www.poznan.pl/mim/staryrynek/index.html?co=plan"),

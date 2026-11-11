@@ -223,7 +223,7 @@ def json_ld(a, site_url, cat_name, lat_lon):
     if lat_lon:
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if a["phone"]:
-        place["telephone"] = a["phone"]
+        place["telephone"] = a["phone"] if isinstance(a["phone"], str) else a["phone"][0]
     if a.get("email"):
         place["email"] = a["email"]
     if _is_free(a):

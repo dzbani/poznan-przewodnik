@@ -552,8 +552,8 @@ def build_attraction(a, idx):
     sections = "".join(
         f"<section><h2>{escape(h)}</h2>{''.join(f'<p>{escape(p)}</p>' for p in ps)}</section>" for h, ps in a["sections"])
     contact = ""
-    if a["phone"]:
-        contact += f'<p>{icon("phone")} <span class="sel">{escape(a["phone"])}</span></p>'
+    for _ph in ([a["phone"]] if isinstance(a["phone"], str) else a["phone"]) if a["phone"] else []:
+        contact += f'<p>{icon("phone")} <span class="sel">{escape(_ph)}</span></p>'
     if a.get("email"):
         contact += f'<p>{icon("mail")} <a href="mailto:{escape(a["email"])}">{escape(a["email"])}</a></p>'
     contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'
