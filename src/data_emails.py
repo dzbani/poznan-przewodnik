@@ -43,6 +43,7 @@ EMAILS = {
     "grod-pobiedziska": "biuro@grodpobiedziska.pl",
     "skansen-miniatur-pobiedziska": "miniatury@osir.pobiedziska.pl",
     "puszcza-zielonka": "sekretariat@zpkww.pl",
+    "ostrow-tumski": "parkat@archpoznan.pl",
     "ogrod-botaniczny": "botanik@amu.edu.pl",
     "muzeum-lesnictwa-goluchow": "okl@okl.lasy.gov.pl",
     "zagroda-zwierzat-goluchow": "okl@okl.lasy.gov.pl",
