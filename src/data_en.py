@@ -28,9 +28,9 @@ EN = {
     "stary-rynek": dict(
         name="Old Market Square and Town Hall",
         img_alt="Colourful townhouses and the town hall on the Old Market Square in Poznań",
-        short="The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at noon.",
+        short="The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at 12:00 and 15:00.",
         badge="Free",
-        status="The museum inside the Town Hall (Poznań City Museum) is closed from 1 July 2026 to 30 November 2027 for renovation. Part of the building is under scaffolding. The goats still appear, but the mechanism has occasionally stopped during the works.",
+        status="The museum in the Town Hall is closed to visitors because of conservation and renovation works. Reopening of all the spaces is planned for 2028 (the official visit page gives the turn of 2027 and 2028). The goats are shown daily at 12:00 and 15:00.",
         lead="Stary Rynek (Old Market Square) is the main square of Poznań's Old Town. In its middle stands the town hall, first mentioned in 1310.",
         sections=[
             ("About the place", [
@@ -39,7 +39,7 @@ EN = {
                 "The Great Hall on the first floor, also called the Hall of the Renaissance, is considered one of the most beautiful Renaissance interiors in Poland. One of the coffers of its ceiling shows the arms of Poznań, and there are also the arms of Poland and Lithuania.",
             ]),
             ("What to see", [
-                "The Poznań Goats on the town hall tower: every day at 12:00 they appear above the clock and butt heads. The first clock mechanism was installed in 1551, made by the clockmaker Bartłomiej from Gubin on commission from the town council. At noon a crowd gathers under the town hall, so it is worth coming a few minutes early.",
+                "The Poznań Goats on the town hall tower: every day at 12:00 and 15:00 they appear above the clock and butt heads. The first clock mechanism was installed in 1551, made by the clockmaker Bartłomiej from Gubin on commission from the town council. At noon a crowd gathers under the town hall, so it is worth coming a few minutes early.",
                 "The bugle call (hejnał) is played live every day at noon, and the chime plays a tune every hour. The façade has reliefs of virtues (among them Patience, Prudence, Love, Justice, Faith, Hope, Fortitude, Temperance), and the attic has paintings of the Jagiellonian rulers.",
                 "The pillory with the figure of the executioner, holding up a sword, a symbol of the right to impose the death penalty. It was made after 1535 from fines paid by servants who dressed too showily. The original is in the museum, and a replica stands in its place.",
                 "The Bamberka: a well founded in 1915 by the Goldenring family, known for the wine trade. It commemorates the settlers from the area of Bamberg who came to Poznań at the beginning of the 18th century. The figure is by Joseph Wackerle.",
@@ -55,7 +55,7 @@ EN = {
                 "Within a few hundred metres are: the Rogal Museum of Poznań (Rogalowe Muzeum), the Poznań Parish Church, the Archaeological Museum and the Museum of the Greater Poland Uprising.",
             ]),
         ],
-        hours=[("Square", "open 24 hours"), ("Poznań Goats", "daily at 12:00"), ("Museum in the Town Hall", "closed until 30 Nov 2027")],
+        hours=[("Square", "open 24 hours"), ("Poznań Goats", "daily at 12:00 and 15:00"), ("Museum in the Town Hall", "closed; reopening planned for 2028")],
         tickets=[("Square and goats", "free")],
     ),
     "ostrow-tumski": dict(

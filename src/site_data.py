@@ -23,9 +23,9 @@ ATTRACTIONS = [
     dict(
         slug="stary-rynek", cat="zabytki", name="Stary Rynek i Ratusz",
         img="hero-rynek", img_alt="Kolorowe kamienice i ratusz przy Starym Rynku w Poznaniu",
-        short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się w południe.",
+        short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się o 12:00 i 15:00.",
         badge="Bezpłatnie",
-        status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest nieczynne od 1 lipca 2026 do 30 listopada 2027 z powodu remontu. Część budynku jest za rusztowaniami. Koziołki nadal się trykają, ale w trakcie prac zdarzały się przerwy w działaniu mechanizmu."),
+        status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest zamknięte dla zwiedzających z powodu prac konserwatorsko-remontowych. Ponowne otwarcie wszystkich przestrzeni planowane jest w 2028 roku (oficjalna strona wizyty podaje przełom 2027 i 2028 roku). Pokazy koziołków odbywają się codziennie o 12:00 i 15:00."),
         lead="Stary Rynek to główny plac Starego Miasta w Poznaniu. W jego środku stoi ratusz, którego najstarsza wzmianka pochodzi z 1310 roku.",
         sections=[
             ("O miejscu", [
@@ -34,7 +34,7 @@ ATTRACTIONS = [
                 "Wielka Sień na pierwszym piętrze, zwana Salą Odrodzenia, uchodzi za jedno z najpiękniejszych wnętrz renesansowych w Polsce. W jednym z kasetonów sklepienia jest herb Poznania, a są tu też herby Polski i Litwy.",
             ]),
             ("Co zobaczyć", [
-                "Koziołki na wieży ratusza: codziennie o 12:00 ukazują się nad zegarem i trykają się rogami. Pierwszy mechanizm zegarowy zainstalowano w 1551 roku, a zegarmistrz Bartłomiej z Gubina wykonał go na zamówienie rady miejskiej. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
+                "Koziołki na wieży ratusza: codziennie o 12:00 i 15:00 ukazują się nad zegarem i trykają się rogami. Pierwszy mechanizm zegarowy zainstalowano w 1551 roku, a zegarmistrz Bartłomiej z Gubina wykonał go na zamówienie rady miejskiej. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
                 "Hejnał grany jest na żywo codziennie w południe, a kurant gra melodię co godzinę. Na elewacji ratusza są płaskorzeźby cnót (m.in. Cierpliwość, Roztropność, Miłość, Sprawiedliwość, Wiara, Nadzieja, Męstwo, Umiarkowanie), a w attyce malowidła władców Jagiellonów.",
                 "Pręgierz z figurą kata z uniesionym mieczem, symbolem prawa karania śmiercią. Powstał po 1535 roku z grzywien płaconych przez zbyt strojnie ubierające się służące. Oryginał jest w muzeum, a na jego miejscu stoi replika.",
                 "Bamberka: studzienka ufundowana w 1915 roku przez rodzinę Goldenringów, znaną z handlu winem. Upamiętnia osadników z okolic Bambergu, którzy przybyli do Poznania na początku XVIII wieku. Autorem figury jest Joseph Wackerle.",
@@ -51,7 +51,7 @@ ATTRACTIONS = [
             ]),
         ],
         address="Stary Rynek, 61-772 Poznań",
-        hours=[("Plac", "dostępny całą dobę"), ("Koziołki", "codziennie o 12:00"), ("Muzeum w Ratuszu", "nieczynne do 30.11.2027")],
+        hours=[("Plac", "dostępny całą dobę"), ("Koziołki", "codziennie o 12:00 i 15:00"), ("Muzeum w Ratuszu", "zamknięte; ponowne otwarcie planowane w 2028 r.")],
         tickets=[("Plac i koziołki", "bezpłatnie")],
         phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
         credit="hero-rynek",
