@@ -31,8 +31,8 @@ EN_BATCH13 = {
         lead="The present monument to Adam Mickiewicz, by Bazyli Wojtowicz, was unveiled in 1960 on Plac Mickiewicza. It is a four-metre figure on a two-metre plinth.",
         sections=[
             ("The first Mickiewicz monument", [
-                "After the poet's death in 1855 the people of Poznań collected money for a monument and ordered it from Władysław Oleszczyński in Paris. The Prussian authorities long refused to agree to the location, and permission was given only at the end of 1858.",
-                "The monument was unveiled on 7 May 1859 in the garden by St Martin's Church. It was the first monument to Mickiewicz on Polish lands. In 1904 it was replaced by a bronze cast, and in 1939 the Germans destroyed both monuments.",
+                "After the poet's death the people of Poznań collected money for a monument and ordered it from Władysław Oleszczyński in Paris. The Prussian authorities long refused to agree to the location.",
+                "The monument was unveiled on 7 May 1859 in the garden by St Martin's Church. It was the first monument to Mickiewicz on Polish lands. Later it was replaced by a bronze cast, and the Germans destroyed both monuments.",
                 "The site of the first monument by St Martin's Church is today marked by a plaque.",
             ]),
             ("Good to know", [
@@ -93,7 +93,6 @@ EN_BATCH13 = {
             ("About the monument", [
                 "It was designed by Prof. Mariusz Kulpa of the Academy of Fine Arts in Gdańsk, winner of the competition. It was unveiled on 26 September 2007 in the presence of, among others, the last President of the Republic of Poland in exile, Ryszard Kaczorowski.",
                 "It consists of six memorial pillars with plaques, a glazed crypt symbolising the descent into the underground, and the silhouettes of eagles rising above them. The rust-coloured sheet metal was brought from Finland.",
-                "Cast-iron plaques commemorate Greater Poland people who died between 1 September 1939 and 3 July 1945.",
             ]),
         ],
         hours=OUTSIDE,
@@ -112,7 +111,7 @@ EN_BATCH13 = {
                 "The walls bear the names of battlefields and units of the “Poznań” Army and the names of several dozen of the fallen. In the middle is a carved Virtuti Militari cross.",
             ]),
             ("History", [
-                "The design by Anna Rodzińska and the architect Józef Iwiański won a competition in 1978, but construction dragged on for years. The authorities proposed other locations and also criticised the design for the invader's blocks being too large. The monument was built only in 1982 and unveiled on 1 September.",
+                "The design by Anna Rodzińska and the architect Józef Iwiański won a competition, but construction dragged on for years. The authorities proposed other locations and also criticised the design for the invader's blocks being too large. The monument was built only in 1982 and unveiled on 1 September.",
             ]),
         ],
         address="Aleje Niepodległości (at the foot of St Adalbert Hill), 61-747 Poznań",
@@ -149,7 +148,7 @@ EN_BATCH13 = {
         lead="The monument shows an uhlan fighting a dragon on a tall plinth. It stands on ul. Ludgardy, next to the Franciscan monastery, on the slope of Przemysł Hill.",
         sections=[
             ("History", [
-                "It commemorates soldiers of the 15th Poznań Uhlan Regiment, which fought, among others, the Bolsheviks in 1920 and in September 1939 as part of the “Poznań” Army.",
+                "It commemorates soldiers of the 15th Poznań Uhlan Regiment, which fought, among others, the Bolsheviks and in September 1939 as part of the “Poznań” Army.",
                 "The sculpture by Mieczysław Lubelski was unveiled in 1927. Before the war the dragon wore a cap with a red star on its head, a symbol of Bolshevism.",
                 "The Germans destroyed the monument in 1939. The reconstruction was made by Józef Murlewski and Benedykt Kasznia, and it was unveiled again in 1982.",
             ]),
@@ -171,7 +170,7 @@ EN_BATCH13 = {
             ("History", [
                 "After the waterworks were built, four wells were set up in the city. The most important was to be decorated with a figure of Hygieia, the Greek goddess of health. The plinth was designed by the Berlin architect Christian Gottlieb Cantian.",
                 "The seated goddess in ancient dress has the features of Konstancja Raczyńska, the wife of the founder. Water flows from a lion's head in the plinth.",
-                "The fountain was moved several times. It came to the front of the Raczyński Library in 1971. For the building of the underground car park it was taken down, and after renovation it returned to the square in 2009.",
+                "The fountain was moved several times. It came to the front of the Raczyński Library in 1971. For the building of the underground car park it was taken down, and after renovation it returned to the square.",
             ]),
             ("What to see", [
                 "A medallion with the likeness of Vincenz Priessnitz, a pioneer of hydrotherapy, with the inscription in Greek and Polish “Nothing is better than water”. The letter “s” is missing from the Polish inscription.",
@@ -184,14 +183,14 @@ EN_BATCH13 = {
     "fontanna-z-delfinami": dict(
         name="Dolphin Fountain (Kronthal's Well)",
         img_alt="A boy on a dolphin, a detail of the fountain on Aleje Marcinkowskiego",
-        short="A fountain of 1909 with copper boys on dolphins, on Aleje Marcinkowskiego.",
+        short="A fountain with copper boys on dolphins, on Aleje Marcinkowskiego.",
         badge="Free",
         status=None,
         lead="The Dolphin Fountain, also called Kronthal's Well or the Lederer Fountain, stands on Aleje Marcinkowskiego, near the junction with ul. 23 Lutego.",
         sections=[
             ("History", [
-                "Earlier a municipal well funded by Edward Raczyński stood here. In 1909 it was replaced by a fountain by the Berlin sculptor Hugo Lederer. The design was personally approved by Emperor Wilhelm II.",
-                "The donor was the merchant Gustaw Kronthal, hence one of the fountain's names. In 2006 it underwent a thorough renovation.",
+                "Earlier a municipal well funded by Edward Raczyński stood here. Later it was replaced by a fountain by the Berlin sculptor Hugo Lederer. The design was personally approved by Emperor Wilhelm II.",
+                "The donor was the merchant Gustaw Kronthal, hence one of the fountain's names. It underwent a thorough renovation.",
             ]),
             ("What to see", [
                 "A stone basin of shell limestone and copper sculptures of boys on dolphins at the ends of the balustrade.",
@@ -267,11 +266,8 @@ EN_BATCH13 = {
         lead="The Jan Kochanowski Monument has the form of an obelisk with a medallion. It stands on Ostrów Tumski, on the square in front of the Lubrański Academy.",
         sections=[
             ("History", [
-                "The foundation stone was laid in 1884, on the 300th anniversary of the poet's death, and the monument was unveiled in 1885. The obelisk was designed by Antoni Krzyżanowski, and the medallion with the portrait was made by Wiktor Brodzki. The money was raised in a public collection.",
-                "The Germans destroyed the monument in 1940. In 1984 it was recreated to a design by Jerzy Sobociński, and in 2002 it was moved to its present place.",
-            ]),
-            ("A curiosity", [
-                "In 1564–1574 Kochanowski was provost of the Poznań cathedral chapter, which gave him a large income. According to Wikipedia he himself never stayed in Poznań.",
+                "The monument was unveiled in 1885. The obelisk was designed by Antoni Krzyżanowski, and the medallion with the portrait was made by Wiktor Brodzki. The money was raised in a public collection.",
+                "The Germans destroyed the monument. In 1984 it was recreated to a design by Jerzy Sobociński, and in 2002 it was moved to its present place.",
             ]),
         ],
         hours=OUTSIDE,
@@ -280,15 +276,15 @@ EN_BATCH13 = {
     "pomnik-cegielskiego": dict(
         name="Hipolit Cegielski Monument",
         img_alt="The monument to Hipolit Cegielski leaning on a steam engine",
-        short="An industrialist leaning on a steam engine, on Plac Wiosny Ludów. A monument of 2009.",
+        short="An industrialist leaning on a steam engine, on Plac Wiosny Ludów.",
         badge="Free",
         status=None,
         lead="The monument to Hipolit Cegielski, industrialist and creator of Polish economic patriotism, stands at the corner of ul. Święty Marcin and ul. Podgórna, by Plac Wiosny Ludów.",
         sections=[
             ("About the monument", [
-                "It was unveiled on 19 September 2009. It was designed by the Poznań sculptor Krzysztof Jakubik, and the donor was the Hipolit Cegielski Society.",
+                "It was designed by the Poznań sculptor Krzysztof Jakubik, and the donor was the Hipolit Cegielski Society.",
                 "Cegielski stands leaning on a steam engine, a symbol of his works, from which the famous Cegielski Works (HCP) grew.",
-                "The idea of commemorating Cegielski had already appeared in the interwar period, but the monument was unveiled only on 19 September 2009.",
+                "The idea of commemorating Cegielski had already appeared in the interwar period, but the monument was created only much later.",
             ]),
             ("Good to know", [
                 "Cegielski's first works operated on nearby ul. Kozia, and later on ul. Strzelecka.",
@@ -344,9 +340,8 @@ EN_BATCH13 = {
         lead="The Tadeusz Kościuszko Monument stands on the square where ul. Grunwaldzka meets ul. Bukowska. It is a post-war reconstruction of the monument of 1930.",
         sections=[
             ("History", [
-                "The monument was designed by Zofia Trzcińska-Kamińska for the General National Exhibition in 1929. After the exhibition the plaster statue was replaced by a bronze one, unveiled on 27 December 1930, on the anniversary of the outbreak of the Greater Poland Uprising.",
+                "The monument was designed by Zofia Trzcińska-Kamińska for the General National Exhibition. After the exhibition the plaster statue was replaced by a bronze one, unveiled on 27 December 1930, on the anniversary of the outbreak of the Greater Poland Uprising.",
                 "The Germans destroyed the monument during the war. The artist herself recreated it, and in 1967 it was set up in its present place.",
-                "According to Wikipedia the cast used the bell from the clock tower of the Imperial Castle, which fell during the fighting in 1945.",
             ]),
         ],
         hours=OUTSIDE,
@@ -363,7 +358,7 @@ EN_BATCH13 = {
             ("About the monument", [
                 "It was unveiled on 19 November 2010, for the university's 90th anniversary. It was designed by Adam Dawczak-Dębicki.",
                 "The bronze figure holds a tuning fork to his ear and looks “against the light” at glass film frames with stills from the films Komeda wrote music for.",
-                "In 2012 vandals knocked over and broke the sculpture. After renovation it returned to its place in the same year.",
+                "Vandals knocked over and broke the sculpture. After renovation it returned to its place.",
             ]),
         ],
         address="Medical University, ul. Przybyszewskiego 49 / ul. Bukowska, 60-355 Poznań",
@@ -418,7 +413,7 @@ EN_BATCH13 = {
         sections=[
             ("History", [
                 "It was unveiled in 1908 in the courtyard of today's City Hall on Kolegiacki Square. It was designed by the Berlin sculptor Ignatius Taschner.",
-                "In 1965 the well was dismantled and put into storage at the Citadel. Thanks to a collection by the Society for the Care of Monuments it was restored and in 1992 set up in its present place.",
+                "Later the well was dismantled and put into storage at the Citadel. Thanks to a collection by the Society for the Care of Monuments it was restored and in 1992 set up in its present place.",
             ]),
             ("What to see", [
                 "A column in an octagonal basin: at the bottom grotesque masks, above them children on dolphins, and at the top a boy hugging a large fish.",

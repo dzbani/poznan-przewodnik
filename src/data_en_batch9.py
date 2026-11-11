@@ -246,18 +246,17 @@ EN_BATCH9 = {
         short="A Prussian fort of 1878–1881, today a winter roost for bats. Open on the first Sunday of the month.",
         badge="1st Sunday of the month",
         status=None,
-        lead="Fort IVa in Wilczy Młyn was built by the Prussian army in 1878–1881. It is one of the 18 forts of the Poznań Fortress and one of six intermediate forts of the new type. It was called Waldersee II, and from 1931 it bore the name of Col. Augustyn Brzeżański.",
+        lead="Fort IVa in Wilczy Młyn was built by the Prussian army in 1878–1881. It is one of the 18 forts of the Poznań Fortress and one of six intermediate forts of the new type. It was called Waldersee II, and later it bore the name of Col. Augustyn Brzeżański.",
         sections=[
             ("History", [
                 "In 1888 the fort was modernised and strengthened, among other things by adding reverse caponiers and walls protecting against blast.",
                 "In the interwar period the Polish Army kept stores here. Signatures of soldiers survive in the barracks.",
                 "On the night of 13/14 February 1945, during the Battle of Poznań, forts IVa, V and Va were stormed from the north by units of the 246th Infantry Regiment supported by batteries of 203 mm howitzers. Fort IVa surrendered after two hours (the other two after 10 and 12 hours), and the neck barracks were damaged. The fighting also took place in the posterns, and traces of it can be seen on the walls in the underground.",
-                "In 1952–1965 the fort was blown up and partly demolished, and the moat was filled in with soil from the excavations for family houses on a nearby housing estate. In the 1980s part of the barracks served as stores. Around 1990 the fort was systematically filled with rubbish and soil from the building of the estate, even though it was already entered in the register of monuments.",
+                "From 1952 the fort was blown up and partly demolished, and the moat was filled in with soil from the excavations for family houses on a nearby housing estate. In the 1980s part of the barracks served as stores. Around 1990 the fort was systematically filled with rubbish and soil from the building of the estate, even though it was already entered in the register of monuments.",
             ]),
             ("Today", [
                 "In 1997 the fort was taken over by scouts from HOKTW and members of the Scout Circle of Fortification and Exploration Enthusiasts (HKMFIE). Together with the Polish Society for the Protection of Nature “Salamandra” they secured the underground against penetration and vandalism. Since then the site and the underground have been cleared of rubbish and rubble.",
                 "Every year several dozen bats of several species are observed in the underground, among them the greater mouse-eared bat, Daubenton's bat, Natterer's bat and the brown long-eared bat. The secured underground is a good place for them to hibernate.",
-                "The fort lies within the Natura 2000 area “Fortyfikacje w Poznaniu” (PLH300005).",
             ]),
             ("Good to know", [
                 "You must register your visit in advance by phone. Another date can also be arranged.",

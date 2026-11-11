@@ -157,7 +157,6 @@ EN_BATCH12 = {
         sections=[
             ("About the monument", [
                 "It was designed by Robert Sobociński and was set up in 2002 on Kolegiacki Square, not far from the main entrance of the City Hall in the former Jesuit College.",
-                "In 2019, for the duration of the square's reconstruction, the sculpture was moved to Chopin Park. It returned to its place when the work was finished.",
             ]),
             ("Good to know", [
                 "The sculpture stands low, and you can sit on the goats' backs, so it is a popular place for souvenir photos.",
@@ -253,7 +252,7 @@ EN_BATCH12 = {
             ("About the monument", [
                 "The idea came from the Poznań office of “Gazeta Wyborcza”, which in 1998 announced a poll “A Poznań man on the plinth!”. Readers chose Old Marych, the only fictional character among the candidates.",
                 "The sculpture was designed by Robert Sobociński. Marych has the face of Marian Pogasz, who read the programmes on the radio. He wheels a bicycle with a traditional briefcase hung over the handlebars.",
-                "The monument was unveiled on 21 March 2001, on the 90th anniversary of the birth of Stanisław Strugarek, a populariser of the Poznań dialect.",
+                "The monument commemorates Stanisław Strugarek, a populariser of the Poznań dialect.",
             ]),
             ("Good to know", [
                 "You can read about the Poznań dialect and its most important words on the About Poznań page.",

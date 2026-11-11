@@ -12,18 +12,17 @@ FINAL = [
         short="Pruski fort z lat 1878–1881, dziś zimowisko nietoperzy. Zwiedzanie w pierwsze niedziele miesiąca.",
         badge="1. niedziela miesiąca",
         status=None,
-        lead="Fort IVa na Wilczym Młynie zbudowała armia pruska w latach 1878–1881. To jeden z 18 fortów Twierdzy Poznań i jeden z sześciu fortów pośrednich nowego typu. Nosił nazwę Waldersee II, a od 1931 roku imię płk. Augustyna Brzeżańskiego.",
+        lead="Fort IVa na Wilczym Młynie zbudowała armia pruska w latach 1878–1881. To jeden z 18 fortów Twierdzy Poznań i jeden z sześciu fortów pośrednich nowego typu. Nosił nazwę Waldersee II, a później imię płk. Augustyna Brzeżańskiego.",
         sections=[
             ("Historia", [
                 "W 1888 roku fort zmodernizowano i wzmocniono, m.in. dobudowując kaponiery rewersowe i mury chroniące przed podmuchem.",
                 "W okresie międzywojennym Wojsko Polskie trzymało tu magazyny. W koszarach zachowały się podpisy żołnierzy.",
                 "W nocy 13/14 lutego 1945 roku, podczas bitwy o Poznań, forty IVa, V i Va szturmowały od północy oddziały 246 pułku piechoty wspierane bateriami haubic 203 mm. Fort IVa poddał się po dwóch godzinach (pozostałe dwa po 10 i 12 godzinach), a uszkodzone zostały koszary szyi. Walki toczyły się także w poternach, a ich ślady widać na ścianach w podziemiach.",
-                "W latach 1952–1965 fort wysadzono i częściowo rozebrano, a fosę zasypano ziemią z wykopów pod domy jednorodzinne w pobliskim osiedlu. W latach 80. XX wieku część koszar służyła jako magazyny. Około 1990 roku fort był systematycznie zasypywany śmieciami i ziemią z budowy osiedla, mimo wpisu do rejestru zabytków.",
+                "Od 1952 roku fort wysadzano i częściowo rozbierano, a fosę zasypano ziemią z wykopów pod domy jednorodzinne w pobliskim osiedlu. W latach 80. XX wieku część koszar służyła jako magazyny. Około 1990 roku fort był systematycznie zasypywany śmieciami i ziemią z budowy osiedla, mimo wpisu do rejestru zabytków.",
             ]),
             ("Dziś", [
                 "W 1997 roku opiekę nad fortem przejęli harcerze z HOKTW i członkowie Harcerskiego Kręgu Miłośników Fortyfikacji i Eksploracji (HKMFIE). Razem z Polskim Towarzystwem Ochrony Przyrody „Salamandra” zabezpieczyli podziemia przed penetracją i dewastacją. Od tego czasu trwa oczyszczanie terenu i podziemi ze śmieci i gruzu.",
                 "W podziemiach co roku obserwuje się kilkadziesiąt nietoperzy kilku gatunków, m.in. nocka dużego, nocka rudego, nocka Natterera i gacka brunatnego. Zabezpieczone podziemia są dla nich dobrym miejscem do zimowania.",
-                "Teren fortu należy do obszaru Natura 2000 „Fortyfikacje w Poznaniu” (PLH300005).",
             ]),
             ("Warto wiedzieć", [
                 "Wizytę trzeba wcześniej zgłosić telefonicznie. Można też umówić inny termin.",

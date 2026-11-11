@@ -36,7 +36,6 @@ MONUMENTS = [
       "Pomnik przedstawia dwa trykające się koziołki, nawiązujące do jednego z symboli Poznania: koziołków, które w południe wychodzą na wieżę ratusza.",
       [("O pomniku", [
           "Zaprojektował go Robert Sobociński, a stanął w 2002 roku na placu Kolegiackim, niedaleko głównego wejścia do Urzędu Miasta w dawnym kolegium jezuickim.",
-          "W 2019 roku, na czas przebudowy placu, rzeźbę przeniesiono do Parku Chopina. Na swoje miejsce wróciła po zakończeniu prac.",
       ]),
        ("Warto wiedzieć", [
           "Rzeźba stoi nisko, a na grzbietach koziołków można usiąść, dlatego to popularne miejsce pamiątkowych zdjęć.",
@@ -126,7 +125,7 @@ MONUMENTS = [
       [("O pomniku", [
           "Pomysł wyszedł od poznańskiej redakcji „Gazety Wyborczej”, która w 1998 roku ogłosiła plebiscyt „Poznaniak na cokół!”. Czytelnicy wybrali Starego Marycha, jedyną fikcyjną postać wśród kandydatów.",
           "Rzeźbę zaprojektował Robert Sobociński. Marych ma twarz Mariana Pogasza, który czytał słuchowiska w radiu. Prowadzi rower z tradycyjną teczką przewieszoną przez kierownicę.",
-          "Pomnik odsłonięto 21 marca 2001 roku, w 90. rocznicę urodzin Stanisława Strugarka, popularyzatora gwary poznańskiej.",
+          "Pomnik upamiętnia Stanisława Strugarka, popularyzatora gwary poznańskiej.",
       ]),
        ("Warto wiedzieć", [
           "O gwarze poznańskiej i jej najważniejszych słowach przeczytasz na stronie O Poznaniu.",
@@ -152,8 +151,8 @@ MONUMENTS = [
       "Pomnik z 1960 roku przy Poznańskich Krzyżach. Pierwszy pomnik poety na ziemiach polskich stanął w Poznaniu w 1859 roku.",
       "Obecny pomnik Adama Mickiewicza, dzieło Bazylego Wojtowicza, odsłonięto w 1960 roku na placu Mickiewicza. To czterometrowa figura na dwumetrowym cokole.",
       [("Pierwszy pomnik Mickiewicza", [
-          "Po śmierci poety w 1855 roku poznaniacy zebrali pieniądze na pomnik i zamówili go u Władysława Oleszczyńskiego w Paryżu. Władze pruskie długo nie zgadzały się na lokalizację, zgodę wydano dopiero pod koniec 1858 roku.",
-          "Pomnik odsłonięto 7 maja 1859 roku w ogrodzie przy kościele św. Marcina. Był to pierwszy pomnik Mickiewicza na ziemiach polskich. W 1904 roku zastąpiono go odlewem z brązu, a w 1939 roku Niemcy zniszczyli oba monumenty.",
+          "Po śmierci poety poznaniacy zebrali pieniądze na pomnik i zamówili go u Władysława Oleszczyńskiego w Paryżu. Władze pruskie długo nie zgadzały się na lokalizację.",
+          "Pomnik odsłonięto 7 maja 1859 roku w ogrodzie przy kościele św. Marcina. Był to pierwszy pomnik Mickiewicza na ziemiach polskich. Później zastąpiono go odlewem z brązu, a Niemcy zniszczyli oba monumenty.",
           "Miejsce pierwszego pomnika przy kościele św. Marcina upamiętnia dziś tablica.",
       ]),
        ("Warto wiedzieć", [
@@ -218,7 +217,6 @@ MONUMENTS = [
       [("O pomniku", [
           "Zaprojektował go prof. Mariusz Kulpa z gdańskiej ASP, zwycięzca konkursu. Odsłonięto go 26 września 2007 roku w obecności m.in. ostatniego prezydenta RP na uchodźstwie Ryszarda Kaczorowskiego.",
           "Składa się z sześciu słupów pamięci z tablicami, oszklonej krypty symbolizującej zejście do podziemia i unoszących się nad nimi sylwetek orłów. Rdzawą blachę sprowadzono z Finlandii.",
-          "Żeliwne tabliczki upamiętniają Wielkopolan, którzy zginęli od 1 września 1939 do 3 lipca 1945 roku.",
       ])],
       "al. Niepodległości / ul. Libelta, 61-714 Poznań",
       ("poznan.pl: Pomnik Polskiego Państwa Podziemnego", PM + "polskiego-panstwa-podziemnego,39373.html"),
@@ -233,7 +231,7 @@ MONUMENTS = [
           "Na ścianach wypisano nazwy pól bitewnych i jednostek Armii „Poznań” oraz nazwiska kilkudziesięciu poległych. W środku jest wyrzeźbiony krzyż Virtuti Militari.",
       ]),
        ("Historia", [
-          "Projekt Anny Rodzińskiej i architekta Józefa Iwiańskiego wygrał konkurs w 1978 roku, ale budowa latami się przeciągała. Władze proponowały inne lokalizacje, zarzucały też projektowi, że bryły najeźdźcy są za duże. Pomnik powstał dopiero w 1982 roku i został odsłonięty 1 września.",
+          "Projekt Anny Rodzińskiej i architekta Józefa Iwiańskiego wygrał konkurs, ale budowa latami się przeciągała. Władze proponowały inne lokalizacje, zarzucały też projektowi, że bryły najeźdźcy są za duże. Pomnik powstał dopiero w 1982 roku i został odsłonięty 1 września.",
       ])],
       "al. Niepodległości (u stóp Wzgórza św. Wojciecha), 61-747 Poznań",
       ("poznan.pl: Pomnik Armii „Poznań”", PM + "armii-poznan,40367.html"),
@@ -261,7 +259,7 @@ MONUMENTS = [
       "Ułan walczący ze smokiem na wysokiej kolumnie, u stóp Góry Przemysła.",
       "Pomnik przedstawia ułana walczącego ze smokiem na wysokim cokole. Stoi przy ulicy Ludgardy, obok klasztoru franciszkanów, na zboczu Góry Przemysła.",
       [("Historia", [
-          "Upamiętnia żołnierzy 15. Pułku Ułanów Poznańskich, który walczył m.in. z bolszewikami w 1920 roku i we wrześniu 1939 roku w składzie Armii „Poznań”.",
+          "Upamiętnia żołnierzy 15. Pułku Ułanów Poznańskich, który walczył m.in. z bolszewikami i we wrześniu 1939 roku w składzie Armii „Poznań”.",
           "Rzeźbę Mieczysława Lubelskiego odsłonięto w 1927 roku. Przed wojną smok miał na głowie czapkę z czerwoną gwiazdą, symbol bolszewizmu.",
           "Niemcy zniszczyli pomnik w 1939 roku. Rekonstrukcję wykonali Józef Murlewski i Benedykt Kasznia, a ponowne odsłonięcie odbyło się w 1982 roku.",
       ]),
@@ -279,7 +277,7 @@ MONUMENTS = [
       [("Historia", [
           "Po budowie wodociągu w mieście ustawiono cztery studnie. Najważniejszą miała zdobić figura Higiei, greckiej bogini zdrowia. Cokół zaprojektował berliński architekt Christian Gottlieb Cantian.",
           "Siedząca bogini w antycznym stroju ma rysy Konstancji Raczyńskiej, żony fundatora. Woda wypływa z lwiej głowy w cokole.",
-          "Fontannę kilka razy przenoszono. Przed Bibliotekę Raczyńskich trafiła w 1971 roku. Na czas budowy parkingu podziemnego zdjęto ją, a po renowacji wróciła na plac w 2009 roku.",
+          "Fontannę kilka razy przenoszono. Przed Bibliotekę Raczyńskich trafiła w 1971 roku. Na czas budowy parkingu podziemnego zdjęto ją, a po renowacji wróciła na plac.",
       ]),
        ("Co zobaczyć", [
           "Medalion z wizerunkiem Wincentego Priessnitza, pioniera wodolecznictwa, z napisem po grecku i po polsku „Nic lepszego nad wodę”. W polskim napisie brakuje litery „s”.",
@@ -290,11 +288,11 @@ MONUMENTS = [
 
     M("fontanna-z-delfinami", "Fontanna z delfinami (Studzienka Kronthala)",
       "Chłopiec na delfinie, fragment fontanny w Alejach Marcinkowskiego",
-      "Fontanna z 1909 roku z miedzianymi chłopcami na delfinach, w Alejach Marcinkowskiego.",
+      "Fontanna z miedzianymi chłopcami na delfinach, w Alejach Marcinkowskiego.",
       "Fontanna z delfinami, nazywana też Studzienką Kronthala lub Fontanną Lederera, stoi w Alejach Marcinkowskiego, blisko skrzyżowania z ulicą 23 Lutego.",
       [("Historia", [
-          "Wcześniej stała tu miejska studnia ufundowana przez Edwarda Raczyńskiego. W 1909 roku zastąpiła ją fontanna berlińskiego rzeźbiarza Hugona Lederera. Projekt osobiście zatwierdzał cesarz Wilhelm II.",
-          "Fundatorem był kupiec Gustaw Kronthal, stąd jedna z nazw fontanny. W 2006 roku przeszła gruntowną renowację.",
+          "Wcześniej stała tu miejska studnia ufundowana przez Edwarda Raczyńskiego. Później zastąpiła ją fontanna berlińskiego rzeźbiarza Hugona Lederera. Projekt osobiście zatwierdzał cesarz Wilhelm II.",
+          "Fundatorem był kupiec Gustaw Kronthal, stąd jedna z nazw fontanny. Przeszła gruntowną renowację.",
       ]),
        ("Co zobaczyć", [
           "Kamienną nieckę z muszlowca i miedziane rzeźby chłopców na delfinach na krańcach balustrady.",
@@ -354,11 +352,8 @@ MONUMENTS = [
       "Obelisk z 1885 roku z medalionem poety, przed Akademią Lubrańskiego na Ostrowie Tumskim.",
       "Pomnik Jana Kochanowskiego ma formę obelisku z medalionem. Stoi na Ostrowie Tumskim, na skwerze przed Akademią Lubrańskiego.",
       [("Historia", [
-          "Kamień węgielny wmurowano w 1884 roku, w 300. rocznicę śmierci poety, a pomnik odsłonięto w 1885 roku. Obelisk zaprojektował Antoni Krzyżanowski, a medalion z portretem wykonał Wiktor Brodzki. Pieniądze zebrano w zbiórce publicznej.",
-          "Niemcy zniszczyli pomnik w 1940 roku. W 1984 roku odtworzono go według projektu Jerzego Sobocińskiego, a w 2002 roku przeniesiono w obecne miejsce.",
-      ]),
-       ("Ciekawostka", [
-          "W latach 1564–1574 Kochanowski był prepozytem poznańskiej kapituły katedralnej, co dawało mu duże dochody. Według Wikipedii sam nigdy nie przebywał w Poznaniu.",
+          "Pomnik odsłonięto w 1885 roku. Obelisk zaprojektował Antoni Krzyżanowski, a medalion z portretem wykonał Wiktor Brodzki. Pieniądze zebrano w zbiórce publicznej.",
+          "Niemcy zniszczyli pomnik. W 1984 roku odtworzono go według projektu Jerzego Sobocińskiego, a w 2002 roku przeniesiono w obecne miejsce.",
       ])],
       "ul. Lubrańskiego 1 (przed Akademią Lubrańskiego), 61-108 Poznań",
       ("poznan.pl: Pomnik Jana Kochanowskiego", PM + "jana-kochanowskiego,40368.html"),
@@ -366,12 +361,12 @@ MONUMENTS = [
 
     M("pomnik-cegielskiego", "Pomnik Hipolita Cegielskiego",
       "Pomnik Hipolita Cegielskiego opartego o maszynę parową",
-      "Przemysłowiec oparty o maszynę parową, przy placu Wiosny Ludów. Pomnik z 2009 roku.",
+      "Przemysłowiec oparty o maszynę parową, przy placu Wiosny Ludów.",
       "Pomnik Hipolita Cegielskiego, przemysłowca i twórcy polskiego patriotyzmu gospodarczego, stoi na rogu ulic Święty Marcin i Podgórnej, przy placu Wiosny Ludów.",
       [("O pomniku", [
-          "Odsłonięto go 19 września 2009 roku. Zaprojektował go poznański rzeźbiarz Krzysztof Jakubik, a fundatorem było Towarzystwo im. Hipolita Cegielskiego.",
+          "Zaprojektował go poznański rzeźbiarz Krzysztof Jakubik, a fundatorem było Towarzystwo im. Hipolita Cegielskiego.",
           "Cegielski stoi oparty o maszynę parową, symbol swoich zakładów, z których wyrosły słynne Zakłady Cegielskiego (HCP).",
-          "Pomysł upamiętnienia Cegielskiego pojawił się już w okresie międzywojennym, ale pomnik odsłonięto dopiero 19 września 2009 roku.",
+          "Pomysł upamiętnienia Cegielskiego pojawił się już w okresie międzywojennym, ale pomnik powstał dopiero znacznie później.",
       ]),
        ("Warto wiedzieć", [
           "Pierwsze zakłady Cegielskiego działały przy pobliskiej ulicy Koziej, a później przy Strzeleckiej.",
@@ -417,9 +412,8 @@ MONUMENTS = [
       "Pomnik odlany z brązu dzwonu Zamku Cesarskiego, na skwerze przy ulicach Grunwaldzkiej i Bukowskiej.",
       "Pomnik Tadeusza Kościuszki stoi na skwerze u zbiegu ulic Grunwaldzkiej i Bukowskiej. To powojenna rekonstrukcja pomnika z 1930 roku.",
       [("Historia", [
-          "Pomnik zaprojektowała Zofia Trzcińska-Kamińska na Powszechną Wystawę Krajową w 1929 roku. Po wystawie gipsowy posąg zastąpiono brązowym, odsłoniętym 27 grudnia 1930 roku, w rocznicę wybuchu powstania wielkopolskiego.",
+          "Pomnik zaprojektowała Zofia Trzcińska-Kamińska na Powszechną Wystawę Krajową. Po wystawie gipsowy posąg zastąpiono brązowym, odsłoniętym 27 grudnia 1930 roku, w rocznicę wybuchu powstania wielkopolskiego.",
           "Niemcy zniszczyli pomnik w czasie wojny. Autorka sama go odtworzyła, a w 1967 roku stanął w obecnym miejscu.",
-          "Według Wikipedii do odlewu użyto dzwonu z wieży zegarowej Zamku Cesarskiego, który spadł w czasie walk w 1945 roku.",
       ])],
       "ul. Grunwaldzka / ul. Bukowska, 60-809 Poznań",
       ("poznan.pl: Pomnik Tadeusza Kościuszki", PM + "tadeusza-kosciuszki,40370.html"),
@@ -432,7 +426,7 @@ MONUMENTS = [
       [("O pomniku", [
           "Odsłonięto go 19 listopada 2010 roku, na 90-lecie uczelni. Zaprojektował go Adam Dawczak-Dębicki.",
           "Brązowa figura trzyma kamerton przy uchu i ogląda „pod światło” szklane klatki filmowe ze zdjęciami z filmów, do których Komeda pisał muzykę.",
-          "W 2012 roku wandale przewrócili i połamali rzeźbę. Po renowacji wróciła na miejsce w tym samym roku.",
+          "Wandale przewrócili i połamali rzeźbę. Po renowacji wróciła na miejsce.",
       ])],
       "Uniwersytet Medyczny, ul. Przybyszewskiego 49 / ul. Bukowska, 60-355 Poznań",
       ("poznan.pl: Pomnik Krzysztofa Komedy Trzcińskiego", PM + "krzysztofa-komedy-trzcinskiego,51796.html"),
@@ -476,7 +470,7 @@ MONUMENTS = [
       "Studzienka Taschnera stoi na dziedzińcu Muzeum Kultur Świata przy ulicy Mostowej 7. To jedna z mniej znanych, ale bardzo oryginalnych fontann.",
       [("Historia", [
           "Odsłonięto ją w 1908 roku na dziedzińcu dzisiejszego Urzędu Miasta przy placu Kolegiackim. Zaprojektował ją berliński rzeźbiarz Ignatius Taschner.",
-          "W 1965 roku studzienkę rozebrano i złożono w magazynie na Cytadeli. Dzięki zbiórce Towarzystwa Opieki nad Zabytkami odrestaurowano ją i w 1992 roku ustawiono w obecnym miejscu.",
+          "Później studzienkę rozebrano i złożono w magazynie na Cytadeli. Dzięki zbiórce Towarzystwa Opieki nad Zabytkami odrestaurowano ją i w 1992 roku ustawiono w obecnym miejscu.",
       ]),
        ("Co zobaczyć", [
           "Kolumnę w ośmiokątnym basenie: na dole maszkarony, wyżej dzieci na delfinach, a na szczycie chłopiec obejmujący wielką rybę.",

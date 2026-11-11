@@ -1323,7 +1323,10 @@ for _a in ATTRACTIONS:
 # Wikipedia usunięta ze źródeł (11.11.2026) tam, gdzie wszystkie lata i liczby z karty są na oficjalnej stronie poznan.pl.
 _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "fontanna-neptuna", "fontanna-marsa",
               "pomnik-zygi-latarnika", "pomnik-kryptologow", "fontanna-lwow", "pomnik-powstancow", "pomnik-marcinkowskiego",
-              "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego"}
+              "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
+              "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
+              "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]

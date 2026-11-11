@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-11",
-"hash": "24300ff02f95d485987a9257e64c3302"
+"hash": "77dd3308e024637f9bc40a0fd72c7484"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -68,8 +68,8 @@
 "hash": "7422955d482632e5206a1b34f91bf744"
 },
 "atrakcje/fontanna-higiei.html": {
-"date": "2026-10-23",
-"hash": "7235076daa4af9c24d2ee06d1e02a5b6"
+"date": "2026-11-11",
+"hash": "cb735f081fe71acd84fdeec4eca246b2"
 },
 "atrakcje/fontanna-lwow.html": {
 "date": "2026-11-11",
@@ -92,8 +92,8 @@
 "hash": "4bfd9e83a26876d5148dfc36e62d6ee7"
 },
 "atrakcje/fontanna-z-delfinami.html": {
-"date": "2026-10-23",
-"hash": "45f1d603e59a33eca9e517ecfd6319b0"
+"date": "2026-11-11",
+"hash": "c8b376f2c0bfb548d8174281881f1ec3"
 },
 "atrakcje/fort-iii.html": {
 "date": "2026-11-11",
@@ -101,7 +101,7 @@
 },
 "atrakcje/fort-iva.html": {
 "date": "2026-11-11",
-"hash": "56b07fda4195f2198f895d74ed401ed8"
+"hash": "c843e07af282163e59965a413921ab1b"
 },
 "atrakcje/fort-va.html": {
 "date": "2026-11-11",
@@ -484,16 +484,16 @@
 "hash": "b6e17a06c5f8951183bfd7ddd428f97a"
 },
 "atrakcje/pomnik-15-pulku-ulanow.html": {
-"date": "2026-10-23",
-"hash": "d334d7f6c3a01aaa424bbdc892542e05"
+"date": "2026-11-11",
+"hash": "90f3ad8c95ab362be141f0a8e3714a1f"
 },
 "atrakcje/pomnik-armii-poznan.html": {
-"date": "2026-10-23",
-"hash": "2669c880505dcd035d22ad614bd832e0"
+"date": "2026-11-11",
+"hash": "bde615f96ceb9ea9721e508bba5e4ddf"
 },
 "atrakcje/pomnik-cegielskiego.html": {
-"date": "2026-10-23",
-"hash": "15cca708ea3b0ad9ec891fb9aed367ad"
+"date": "2026-11-11",
+"hash": "a67bdddcb637c3ee734411ce64b951fb"
 },
 "atrakcje/pomnik-czerwca-1956.html": {
 "date": "2026-10-23",
@@ -512,20 +512,20 @@
 "hash": "4654299cfc2080d4f2de0342027e1ee8"
 },
 "atrakcje/pomnik-kochanowskiego.html": {
-"date": "2026-10-23",
-"hash": "78f5a5eb6fe94152b454aa0fa2a2f113"
+"date": "2026-11-11",
+"hash": "1dce11e75d2164493ac2e71ba25a28ad"
 },
 "atrakcje/pomnik-komedy.html": {
-"date": "2026-10-23",
-"hash": "33e7ee5b13fde248a79d7331b05e00ac"
+"date": "2026-11-11",
+"hash": "33e05e773f19e83ccce0c21532271c22"
 },
 "atrakcje/pomnik-kosciuszki.html": {
-"date": "2026-10-23",
-"hash": "0c9db2cc804ae3980fe73b96cbda92b0"
+"date": "2026-11-11",
+"hash": "56bc3768d742d1773ff658e76a981838"
 },
 "atrakcje/pomnik-koziolkow.html": {
-"date": "2026-10-23",
-"hash": "c49aad668ffd63b981149af80d4d7402"
+"date": "2026-11-11",
+"hash": "81f7e952fd466bfdc1a6a3fc53cdcc3e"
 },
 "atrakcje/pomnik-kryptologow.html": {
 "date": "2026-11-11",
@@ -536,16 +536,16 @@
 "hash": "27c532e1df4c5c7d63b8f63172946770"
 },
 "atrakcje/pomnik-mickiewicza.html": {
-"date": "2026-10-23",
-"hash": "99b14162fc3f1ee040ea4b15b4986aa6"
+"date": "2026-11-11",
+"hash": "a034cce08f103806babe5838b80c6a9b"
 },
 "atrakcje/pomnik-paderewskiego.html": {
 "date": "2026-10-23",
 "hash": "d57d40cce93f1343ae1adcde77ffb249"
 },
 "atrakcje/pomnik-panstwa-podziemnego.html": {
-"date": "2026-10-23",
-"hash": "ce3ab485ab3911aa3d2be5368154a228"
+"date": "2026-11-11",
+"hash": "50cbf023b0cb7cf7f7823b8c32c3586d"
 },
 "atrakcje/pomnik-powstancow.html": {
 "date": "2026-11-11",
@@ -556,8 +556,8 @@
 "hash": "39b6334adf365fa9c71efc2fd045bab2"
 },
 "atrakcje/pomnik-starego-marycha.html": {
-"date": "2026-10-23",
-"hash": "977c882484f27e25acf282e7748db96f"
+"date": "2026-11-11",
+"hash": "2d98dc51185504da89afb842589297ed"
 },
 "atrakcje/pomnik-zygi-latarnika.html": {
 "date": "2026-11-11",
@@ -624,8 +624,8 @@
 "hash": "1d9a0bb34baa0670f106c1041d474682"
 },
 "atrakcje/studzienka-taschnera.html": {
-"date": "2026-10-23",
-"hash": "3ef49a4b354289d2592b02a7af5a2ee9"
+"date": "2026-11-11",
+"hash": "a077296d79ed290c2862ca915380ba2a"
 },
 "atrakcje/szachty.html": {
 "date": "2026-11-10",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-11",
-"hash": "48d16ec7b3ea6ec6a0cde6d297152cdc"
+"hash": "761901d778fc6b09b583632a6b22016e"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -760,8 +760,8 @@
 "hash": "d936f75fe02c6109011f16fdc8c413eb"
 },
 "en/attractions/fontanna-higiei.html": {
-"date": "2026-10-24",
-"hash": "d4e0cbb8043543f10f17e6c44a1fe39c"
+"date": "2026-11-11",
+"hash": "c8f9140d3122edb1a90ff8cb13e64495"
 },
 "en/attractions/fontanna-lwow.html": {
 "date": "2026-11-11",
@@ -784,8 +784,8 @@
 "hash": "1c20ab9a2018c78847f331ea278fdca2"
 },
 "en/attractions/fontanna-z-delfinami.html": {
-"date": "2026-10-24",
-"hash": "d0d950332e7a28e2bee34548b9385c42"
+"date": "2026-11-11",
+"hash": "56ed9942cb5654c6b491aee73f4b8baf"
 },
 "en/attractions/fort-iii.html": {
 "date": "2026-11-11",
@@ -793,7 +793,7 @@
 },
 "en/attractions/fort-iva.html": {
 "date": "2026-11-11",
-"hash": "e08a74e3191005228483d5f04f3be981"
+"hash": "f9597af7756022478a1a0e6cba79ddae"
 },
 "en/attractions/fort-va.html": {
 "date": "2026-11-11",
@@ -1176,16 +1176,16 @@
 "hash": "8b7539b846f1fb5cbb2ee32cc5aa24a4"
 },
 "en/attractions/pomnik-15-pulku-ulanow.html": {
-"date": "2026-10-24",
-"hash": "2070b508a38ea39048743ac144147135"
+"date": "2026-11-11",
+"hash": "9a4dee5ad27fe36b08018855d6188174"
 },
 "en/attractions/pomnik-armii-poznan.html": {
-"date": "2026-10-24",
-"hash": "d1dcca5e36c79f2a39fd3afe59558348"
+"date": "2026-11-11",
+"hash": "b368113646a5952aff6be90415333eaf"
 },
 "en/attractions/pomnik-cegielskiego.html": {
-"date": "2026-10-24",
-"hash": "32f7b51cd1bb46cb16d5e40499b4fc9c"
+"date": "2026-11-11",
+"hash": "6e7313f3fc8ba26121c30897fa191b04"
 },
 "en/attractions/pomnik-czerwca-1956.html": {
 "date": "2026-10-24",
@@ -1204,20 +1204,20 @@
 "hash": "8ba1fe978ac13798aaaba31b1a6637be"
 },
 "en/attractions/pomnik-kochanowskiego.html": {
-"date": "2026-10-24",
-"hash": "2d567e5fafd9192c0f753e1bb4be91a2"
+"date": "2026-11-11",
+"hash": "625d2d44fd3be9c8ddb4d7bf7d246de9"
 },
 "en/attractions/pomnik-komedy.html": {
-"date": "2026-10-24",
-"hash": "f3d716127ac55a19011bbeca707c9b63"
+"date": "2026-11-11",
+"hash": "e76c40dcd63acb6193c70107eba12bf3"
 },
 "en/attractions/pomnik-kosciuszki.html": {
-"date": "2026-10-24",
-"hash": "1ef98bfcf2c9fd0053adbcb885e4c0ca"
+"date": "2026-11-11",
+"hash": "686c4272b969841b71bb97b23ee31d30"
 },
 "en/attractions/pomnik-koziolkow.html": {
-"date": "2026-10-24",
-"hash": "d316d02172c45e928d5d79418b367373"
+"date": "2026-11-11",
+"hash": "007d0262d4d9600779d6fa81c4381851"
 },
 "en/attractions/pomnik-kryptologow.html": {
 "date": "2026-11-11",
@@ -1228,16 +1228,16 @@
 "hash": "9736acd6fa344215e9f26d786140f4f0"
 },
 "en/attractions/pomnik-mickiewicza.html": {
-"date": "2026-10-24",
-"hash": "34e21d0beb6107b171964f127d6c8250"
+"date": "2026-11-11",
+"hash": "b7acd0cf790e782d8f593871af90626c"
 },
 "en/attractions/pomnik-paderewskiego.html": {
 "date": "2026-10-24",
 "hash": "135286da01d96dacfb3e8606ba977415"
 },
 "en/attractions/pomnik-panstwa-podziemnego.html": {
-"date": "2026-10-24",
-"hash": "ab27b00c4f8f593e19a7d8b91dfd11f0"
+"date": "2026-11-11",
+"hash": "2e5d76cc99abe0402df5001735fa3b0d"
 },
 "en/attractions/pomnik-powstancow.html": {
 "date": "2026-11-11",
@@ -1248,8 +1248,8 @@
 "hash": "250b1902e0967ed6e1d6b94bcb8a7089"
 },
 "en/attractions/pomnik-starego-marycha.html": {
-"date": "2026-10-24",
-"hash": "a2bf56ffbb6322d7088953e8f05d681f"
+"date": "2026-11-11",
+"hash": "bb6b4a25eae8e41e5c9f3a8585051b84"
 },
 "en/attractions/pomnik-zygi-latarnika.html": {
 "date": "2026-11-11",
@@ -1316,8 +1316,8 @@
 "hash": "237ef6c5462b709466cdca083844564e"
 },
 "en/attractions/studzienka-taschnera.html": {
-"date": "2026-10-24",
-"hash": "366c17e9fa3b6b8ebc4bf65bace521bf"
+"date": "2026-11-11",
+"hash": "c58aaff42bb8a8c1d114442cc0d525a9"
 },
 "en/attractions/szachty.html": {
 "date": "2026-11-10",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-11",
-"hash": "6d662bbe45d0660493bc2180add7a335"
+"hash": "8b9d8f3b48a93e8e892911d244058f43"
 },
 "en/museums.html": {
 "date": "2026-11-03",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-11",
-"hash": "98f4ca90521a2d75c7a5e320da1c3c80"
+"hash": "6135f20ff6cdc9977dcce7642febc9e5"
 },
 "muzea.html": {
 "date": "2026-11-03",
