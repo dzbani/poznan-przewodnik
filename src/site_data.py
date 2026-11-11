@@ -26,16 +26,24 @@ ATTRACTIONS = [
         short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się w południe.",
         badge="Bezpłatnie",
         status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest nieczynne od 1 lipca 2026 do 30 listopada 2027 z powodu remontu. Część budynku jest za rusztowaniami. Koziołki nadal się trykają, ale w trakcie prac zdarzały się przerwy w działaniu mechanizmu."),
-        lead="Stary Rynek to plac wytyczony około 1253 roku przy lokacji miasta. Ma kształt kwadratu o boku 141 metrów, a w jego środku stoi ratusz o renesansowym wyglądzie.",
+        lead="Stary Rynek to główny plac Starego Miasta w Poznaniu. W jego środku stoi ratusz, którego najstarsza wzmianka pochodzi z 1310 roku.",
         sections=[
             ("O miejscu", [
-                "Rynek powstał jako centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy.",
-                "Ratusz ma średniowieczne początki. W latach 1550–1560 przebudował go Giovanni Battista di Quadro, architekt z Lugano w Ticino. Podwyższył budynek o jedną kondygnację, rozbudował go w kierunku zachodnim i dodał attykę oraz trzykondygnacyjną loggię, nadając mu renesansowy wygląd.",
+                "Rynek był centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy.",
+                "Ratusz został wybudowany zapewne na przełomie XIII i XIV wieku. W połowie XVI wieku, po pożarze miasta, został rozbudowany przez włoskiego architekta Jana Baptystę Quadro z Lugano. Fasada zyskała formę trzypiętrowej loggii, a od strony wschodniej powstała attyka przypominająca mur obronny z trzema wieżami. Na elewacji północnej jest tablica z nazwiskiem architekta.",
+                "Wielka Sień na pierwszym piętrze, zwana Salą Odrodzenia, uchodzi za jedno z najpiękniejszych wnętrz renesansowych w Polsce. W jednym z kasetonów sklepienia jest herb Poznania, a są tu też herby Polski i Litwy.",
             ]),
             ("Co zobaczyć", [
-                "Koziołki na wieży ratusza: codziennie o 12:00 wychodzą nad zegar i trykają się rogami. Zegar z koziołkami zamówiono u Bartłomieja Wolffa z Gubina podczas przebudowy ratusza, a zainstalowano go w 1551 roku. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
-                "Blok śródrynkowy: poza ratuszem stoją tu Waga Miejska, klasycystyczny Odwach (dziś Muzeum Powstania Wielkopolskiego) oraz domki budnicze, dawne kramy kupieckie.",
-                "Cztery fontanny: Prozerpiny, Apollina, Neptuna i Marsa. Fontanna Prozerpiny pochodzi z 1766 roku i jako jedyna przetrwała do dziś, a pozostałe trzy odtworzono w latach 2002–2005.",
+                "Koziołki na wieży ratusza: codziennie o 12:00 ukazują się nad zegarem i trykają się rogami. Pierwszy mechanizm zegarowy zainstalowano w 1551 roku, a zegarmistrz Bartłomiej z Gubina wykonał go na zamówienie rady miejskiej. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
+                "Hejnał grany jest na żywo codziennie w południe, a kurant gra melodię co godzinę. Na elewacji ratusza są płaskorzeźby cnót (m.in. Cierpliwość, Roztropność, Miłość, Sprawiedliwość, Wiara, Nadzieja, Męstwo, Umiarkowanie), a w attyce malowidła władców Jagiellonów.",
+                "Pręgierz z figurą kata z uniesionym mieczem, symbolem prawa karania śmiercią. Powstał po 1535 roku z grzywien płaconych przez zbyt strojnie ubierające się służące. Oryginał jest w muzeum, a na jego miejscu stoi replika.",
+                "Bamberka: studzienka ufundowana w 1915 roku przez rodzinę Goldenringów, znaną z handlu winem. Upamiętnia osadników z okolic Bambergu, którzy przybyli do Poznania na początku XVIII wieku. Autorem figury jest Joseph Wackerle.",
+                "Domki budnicze po południowej stronie ratusza, relikt dawnych kramów. Handlowano tu śledziami, solą, powrozami, pochodniami i świecami.",
+                "Blok śródrynkowy: poza ratuszem stoją tu Waga Miejska, klasycystyczny Odwach (dziś Muzeum Powstania Wielkopolskiego) oraz domki budnicze.",
+                "Cztery fontanny: Prozerpiny, Apollina, Neptuna i Marsa.",
+            ]),
+            ("Legenda o koziołkach", [
+                "Podczas uczty na cześć nowego zegara młody kuchcik spalił udziec sarni. Ukradł więc dwa koziołki pasące się na łące i uciekł na wieżę, gdzie koziołki pojawiły się na gzymsie nad zegarem. Legenda nie jest potwierdzoną historią, ale tak opowiadają ją mieszkańcy.",
             ]),
             ("Warto wiedzieć", [
                 "Punkt Informacji Turystycznej działa w kamienicy Stary Rynek 59/60. Można tu dostać mapy i kupić Poznańską Kartę Turystyczną.",
@@ -47,8 +55,9 @@ ATTRACTIONS = [
         tickets=[("Plac i koziołki", "bezpłatnie")],
         phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
         credit="hero-rynek",
-        sources=[("Wikipedia: Stary Rynek w Poznaniu", "https://pl.wikipedia.org/wiki/Stary_Rynek_w_Poznaniu"),
-                 ("Wikipedia: Ratusz w Poznaniu", "https://pl.wikipedia.org/wiki/Ratusz_w_Poznaniu"),
+        sources=[("poznan.pl: Ratusz (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
+                 ("poznan.pl: Przewodnik po Starym Rynku (pręgierz, Bamberka, domki budnicze)", "https://www.poznan.pl/mim/staryrynek/index.html?co=plan"),
+                 ("poznan.pl: Podania i legendy Poznania", "https://www.poznan.pl/mim/turystyka/legendy-poznania,p,27888.html"),
                  ("kultura.poznan.pl: Ratusz – Muzeum Poznania (remont)", "https://kultura.poznan.pl/mim/kultura/object.html?id_klasy=202&lang=&id_cz=12&id_obiektu=40787"),
                  ("TVP Poznań: remont ratusza i koziołki", "https://poznan.tvp.pl/93014656/ratusz-poznan-remont-rusztowania-zamkniecie-koziolki-poznan-zamkniecie-kiedy-koniec-prac-muzeum-mieszkancow-stary-rynek")],
     ),
@@ -1294,6 +1303,8 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] == "termy-maltanskie":
         _a["checked"] = "10.11.2026"
+    if _a["slug"] == "stary-rynek":
+        _a["checked"] = "11.11.2026"
 
 # Puszcza Zielonka: opis jezior i LZD poprawiony wg uwag ZPKWW (mail z 9.11.2026), jeziora porównane z Wikipedią.
 for _a in ATTRACTIONS:
