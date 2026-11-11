@@ -99,21 +99,21 @@ ATTRACTIONS = [
     dict(
         slug="brama-poznania", cat="zabytki", name="Brama Poznania ICHOT",
         img="brama-poznania", img_alt="Betonowy budynek Bramy Poznania i przeszklona kładka nad Cybiną wśród zieleni",
-        short="Multimedialna opowieść o początkach państwa polskiego, naprzeciw katedry.",
+        short="Multimedialna ekspozycja o ponad tysiącletniej historii wyspy katedralnej, przy Ostrowie Tumskim.",
         badge="Pn nieczynne",
         status=None,
-        lead="Brama Poznania to centrum interpretacji dziedzictwa, otwarte 1 maja 2014 roku. Zamiast gablot z eksponatami są tu multimedialne sale, które opowiadają historię Ostrowa Tumskiego i narodzin państwa polskiego.",
+        lead="Brama Poznania to pierwsze w Polsce centrum interpretacji dziedzictwa. Nie jest muzeum i nie gromadzi eksponatów, ale łączy ekspozycję z bezpośrednim poznawaniem wyspy katedralnej, która sąsiaduje z budynkiem.",
         sections=[
-            ("O miejscu", [
-                "Budynek zaprojektowali Arkadiusz Emerla i Maciej Wojda z krakowskiej pracowni Ad Artis. Prosta betonowa bryła stoi na prawym brzegu Cybiny i celowo kieruje wzrok zwiedzających na drugą stronę rzeki, w stronę katedry.",
-                "63-metrowa kładka nad Cybiną łączy główny budynek z odnowioną XIX-wieczną Śluzą Katedralną na Ostrowie Tumskim.",
-            ]),
             ("Co zobaczyć", [
-                "Ekspozycja główna opowiada ponad tysiącletnią historię wyspy katedralnej, która sąsiaduje z budynkiem Bramy Poznania: od założenia grodu w X wieku po współczesność. Mówi o ludziach, wydarzeniach i ważnych momentach związanych z wyspą, na której rozwijały się nauka, sztuka i handel.",
-                "Zwiedzanie prowadzi przez cztery sale: Gród (początki osadnictwa na Ostrowie Tumskim), Woda (okoliczności Chrztu Polski), Złoto (rozwój Ostrowa od XVI do XIX wieku) i Witraż (wątki z najnowszej historii wyspy). Na dachu budynku jest taras widokowy włączony w ramy ekspozycji.",
+                "Ekspozycja główna opowiada ponad 1000-letnią historię wyspy katedralnej, od założenia grodu w X wieku do współczesności. Mówi o ludziach, wydarzeniach i ważnych momentach związanych z wyspą, na której rozwijały się nauka, sztuka i handel. Historia jest opowiedziana prostym językiem, bez naukowego żargonu, a multimedialne rozwiązania pozwalają znaleźć dodatkowe informacje.",
+                "Zwiedzanie prowadzi przez cztery sale: Gród, Wodę, Złoto i Witraż. Są dwie ścieżki: dla młodzieży i dorosłych oraz dla rodzin z dziećmi, ze zwiedzaniem w formie gry terenowej. W obu pomaga audioprzewodnik, dostępny w ośmiu wersjach językowych. Przestrzeń ekspozycji jest dostosowana do osób z różnymi niepełnosprawnościami.",
+                "Audiowycieczka obejmuje spacer po wyspie katedralnej oraz katedrę. Bilet na ekspozycję uprawnia do niej w ciągu 10 dni od zwiedzania, ale dostępność audiowycieczek zmienia się sezonowo.",
+                "Wypoczynek: przy budynku jest amfiteatr i ogrody. W pobliżu, na Śródce, są restauracje i kawiarnie.",
+                "Ścieżka EkoEdukacji: trasa z 12 przystankami wzdłuż Cybiny i Wartostrady. Dla rodzin z dziećmi jest zeszyt zadań i plecak z pomocami do bezpłatnego wypożyczenia w Bramie Poznania. W Rzecznym Ogrodzie EkoEdukacji są ścieżka bosych stóp, kuchnia błotna, tor wodny, równoważnia i labirynt, a w Eksperymentalnym Ogrodzie Dziedzictwa odbywają się dyżury otwarte.",
+                "Z Bramy Poznania zaczyna się Trakt Królewsko-Cesarski.",
             ]),
             ("Warto wiedzieć", [
-                "W budynku działa punkt informacji turystycznej.",
+                "Na pierwsze zwiedzanie ekspozycji warto zarezerwować od 1,5 do 2 godzin.",
                 "Z Poznańską Kartą Turystyczną bilet kosztuje 21 zł (ulgowy 17 zł). Ostatnie wejście na ekspozycję jest godzinę przed zamknięciem. Strona obiektu podaje w sobotę i niedzielę zamknięcie raz o 19:00, raz o 18:00, więc godzinę warto potwierdzić.",
             ]),
         ],
@@ -128,7 +128,8 @@ ATTRACTIONS = [
         sources=[("Brama Poznania: ekspozycja główna", "https://bramapoznania.pl/ekspozycja-glowna"),
                  ("Brama Poznania: cennik", "https://bramapoznania.pl/cennik"),
                  ("Brama Poznania: godziny otwarcia", "https://bramapoznania.pl/godziny-otwarcia"),
-                 ("Wikipedia: Brama Poznania ICHOT", "https://pl.wikipedia.org/wiki/Brama_Poznania_ICHOT")],
+                 ("Brama Poznania: najczęściej zadawane pytania", "https://bramapoznania.pl/faq"),
+                 ("Brama Poznania: 10 lat", "https://bramapoznania.pl/10lat")],
         checked="20.10.2026",
     ),
     dict(
@@ -1326,7 +1327,7 @@ _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "
               "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
               "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
               "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
-              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry"}
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]

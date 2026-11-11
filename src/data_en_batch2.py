@@ -5,21 +5,21 @@ EN_BATCH2 = {
     "brama-poznania": dict(
         name="Gate of Poznań ICHOT",
         img_alt="The concrete Gate of Poznań building and its glazed footbridge over the Cybina, surrounded by greenery",
-        short="A multimedia story of the beginnings of the Polish state, opposite the cathedral.",
+        short="A multimedia exhibition on the more than thousand-year history of the cathedral island, next to Ostrów Tumski.",
         badge="Closed Mon",
         status=None,
-        lead="The Gate of Poznań is an interactive heritage centre, opened on 1 May 2014. Instead of display cases it has multimedia rooms that tell the history of Ostrów Tumski and the birth of the Polish state.",
+        lead="The Gate of Poznań is the first interpretation centre of heritage in Poland. It is not a museum and does not collect exhibits, but it links an exhibition with direct exploration of the cathedral island, which adjoins the building.",
         sections=[
-            ("About the place", [
-                "The building was designed by Arkadiusz Emerla and Maciej Wojda of the Ad Artis studio in Kraków. A plain concrete block stands on the right bank of the Cybina and deliberately turns visitors' eyes across the river towards the cathedral.",
-                "A 63-metre footbridge over the Cybina links the main building with the restored 19th-century Cathedral Lock on Ostrów Tumski.",
-            ]),
             ("What to see", [
-                "The main exhibition tells the story, more than a thousand years long, of the cathedral island next to the Gate of Poznań building, from the founding of the stronghold in the 10th century to the present day. It is about people, events and key moments linked to the island, where learning, art and trade developed.",
-                "The visit leads through four rooms: Stronghold (the beginnings of settlement on Ostrów Tumski), Water (the circumstances of Poland's baptism), Gold (the development of the island from the 16th to the 19th century) and Stained Glass (themes from the island's recent history). The viewing terrace on the roof is part of the exhibition.",
+                "The main exhibition tells the story, more than 1,000 years long, of the cathedral island, from the founding of the stronghold in the 10th century to the present day. It is about people, events and key moments linked to the island, where learning, art and trade developed. The story is told in simple language, without academic jargon, and multimedia solutions let you find additional information.",
+                "The visit leads through four rooms: Stronghold, Water, Gold and Stained Glass. There are two paths: for young people and adults, and for families with children, with a field-game format. Both are helped by an audio guide, available in eight languages. The exhibition space is adapted for people with various disabilities.",
+                "The audio tour covers a walk around the cathedral island and the cathedral. A ticket to the exhibition entitles you to it within 10 days of your visit, but the availability of audio tours changes seasonally.",
+                "Relaxation: by the building there are an amphitheatre and gardens. Nearby, in Śródka, there are restaurants and cafés.",
+                "The EcoEducation Trail: a route with 12 stops along the Cybina and the Wartostrada. For families with children there is a task booklet and a backpack with aids to borrow free of charge at the Gate of Poznań. The River EcoEducation Garden has a barefoot path, a mud kitchen, a water track, a balance beam and a maze, and the Experimental Heritage Garden holds open sessions.",
+                "The Royal-Imperial Route starts at the Gate of Poznań.",
             ]),
             ("Good to know", [
-                "A tourist information point operates in the building.",
+                "For a first visit to the exhibition it is worth reserving 1.5 to 2 hours.",
                 "With the Poznań Tourist Card a ticket costs PLN 21 (reduced PLN 17). The last entry to the exhibition is one hour before closing. The venue's website gives the Saturday and Sunday closing time once as 19:00 and once as 18:00, so it is worth confirming.",
             ]),
         ],
