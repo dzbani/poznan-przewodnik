@@ -163,8 +163,7 @@ ATTRACTIONS = [
                  ("Fara Poznańska: historia kościoła", "https://fara.archpoznan.pl/pl/fara"),
                  ("Fara Poznańska: architektura", "https://fara.archpoznan.pl/pl/architektura"),
                  ("Fara Poznańska: organy Ladegasta", "https://fara.archpoznan.pl/pl/wnetrze-kosciola/47-organy-ladegasta"),
-                 ("Fara Poznańska: kontakt", "https://fara.archpoznan.pl/pl/kontakt"),
-                 ("Visit Poznań: Fara Poznańska", "https://visitpoznan.pl/fara-poznanska")],
+                 ("Fara Poznańska: kontakt", "https://fara.archpoznan.pl/pl/kontakt")],
     ),
     dict(
         slug="zamek-krolewski", cat="zabytki", name="Zamek Królewski i Muzeum Sztuk Użytkowych",
@@ -1332,7 +1331,7 @@ _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "
               "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
               "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
               "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
-              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum"}
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum", "fara"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]
