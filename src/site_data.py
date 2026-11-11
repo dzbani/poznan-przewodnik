@@ -597,10 +597,10 @@ ATTRACTIONS = [
         ],
         address="ul. Termalna 1, 61-028 Poznań",
         hours=[("Aquapark", "codziennie 9:00–23:00"), ("Baseny sportowe", "pn–sb 6:00–23:00, nd i święta 7:00–23:00"), ("Sauny & Wellness", "pn–pt 14:30–23:00, sb–nd 11:30–23:00")],
-        tickets=[("Aquapark, normalny: 1 / 2 / 3 godz. / cały dzień", "46 zł / 61 zł / 75 zł / 109 zł"), ("Aquapark, ulgowy: 1 / 2 / 3 godz. / cały dzień", "37 zł / 52 zł / 65 zł / 94 zł"),
-                 ("Aquapark, rodzinny (2 dorosłych + 1 dziecko lub 1 + 2): 1 / 2 / 3 godz. / cały dzień", "93 zł / 123 zł / 152 zł / 219 zł, kolejne dziecko +13 zł / 20 zł / 28 zł / 36 zł"),
-                 ("Sauny & Wellness, normalny: 1 / 2 / 3 godz. / cały dzień", "67 zł / 81 zł / 95 zł / 145 zł"), ("Sauny & Wellness, ulgowy: 1 / 2 / 3 godz. / cały dzień", "57 zł / 71 zł / 83 zł / 119 zł"),
-                 ("Baseny sportowe, normalny: 1 / 2 godz.", "20 zł / 29 zł"), ("Baseny sportowe, ulgowy: 1 / 2 godz.", "18 zł / 24 zł"),
+        tickets=[("Aquapark, normalny (1 / 2 / 3 godz. / cały dzień)", "46 zł / 61 zł / 75 zł / 109 zł"), ("Aquapark, ulgowy", "37 zł / 52 zł / 65 zł / 94 zł"),
+                 ("Aquapark, rodzinny (2 dorosłych + 1 dziecko lub 1 + 2)", "93 zł / 123 zł / 152 zł / 219 zł, kolejne dziecko +13 zł / 20 zł / 28 zł / 36 zł"),
+                 ("Sauny & Wellness, normalny (1 / 2 / 3 godz. / cały dzień)", "67 zł / 81 zł / 95 zł / 145 zł"), ("Sauny & Wellness, ulgowy", "57 zł / 71 zł / 83 zł / 119 zł"),
+                 ("Baseny sportowe, normalny (1 / 2 godz.)", "20 zł / 29 zł"), ("Baseny sportowe, ulgowy", "18 zł / 24 zł"),
                  ("Dzieci do 3 lat", "bezpłatnie")],
         phone="+48 459 595 590", www=("termymaltanskie.com.pl", "https://termymaltanskie.com.pl/"),
         credit="termy-maltanskie",
@@ -1333,6 +1333,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]
         _a["checked"] = "11.11.2026"
+
+# Termy Maltańskie: skrócone etykiety cen (12.11.2026).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "termy-maltanskie":
+        _a["checked"] = "12.11.2026"
 
 
 # Zamek w Gołuchowie: opis przepisany wyłącznie na podstawie dwóch stron MNP (muzeum-zamek-w-goluchowie, wizyta-muzeum-zamek-w-goluchowie) 10.11.2026.
