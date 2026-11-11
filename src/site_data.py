@@ -1320,6 +1320,16 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "puszcza-zielonka":
         _a["checked"] = "11.11.2026"
 
+# Wikipedia usunięta ze źródeł (11.11.2026) tam, gdzie wszystkie lata i liczby z karty są na oficjalnej stronie poznan.pl.
+_WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "fontanna-neptuna", "fontanna-marsa",
+              "pomnik-zygi-latarnika", "pomnik-kryptologow", "fontanna-lwow", "pomnik-powstancow", "pomnik-marcinkowskiego",
+              "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego"}
+for _a in ATTRACTIONS:
+    if _a["slug"] in _WIKI_DROP:
+        _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]
+        _a["checked"] = "11.11.2026"
+
+
 # Zamek w Gołuchowie: opis przepisany wyłącznie na podstawie dwóch stron MNP (muzeum-zamek-w-goluchowie, wizyta-muzeum-zamek-w-goluchowie) 10.11.2026.
 for _a in ATTRACTIONS:
     if _a["slug"] == "zamek-goluchow":
