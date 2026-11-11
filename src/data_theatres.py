@@ -114,7 +114,7 @@ THEATRE_ATTR = [
         hours=[("Kasa, wt–sb", "13:00–19:00"), ("Kasa, niedziele", "2 godziny przed spektaklem"),
                ("Zwiedzanie za kulisami", "terminy ustalane indywidualnie")],
         tickets=[("Zwiedzanie „Za kulisami Teatru”", "10 zł od osoby"), ("Spektakle", "ceny zależą od wydarzenia")],
-        phone="+48 61 65 90 231", www=("opera.poznan.pl", "https://opera.poznan.pl/pl/za-kulisami-teatru"),
+        phone="+48 61 659 02 31", www=("opera.poznan.pl", "https://opera.poznan.pl/pl/za-kulisami-teatru"),
         credit="teatr-wielki",
         sources=[("Teatr Wielki: Za kulisami Teatru", "https://opera.poznan.pl/pl/za-kulisami-teatru"),
                  ("Teatr Wielki: zaplanuj wizytę (kasy, bilety)", "https://opera.poznan.pl/pl/zaplanuj-wizyte"),

@@ -188,7 +188,7 @@ EXTRA = [
         address="pl. Wolności 19, 61-739 Poznań",
         hours=[("Wejście od pl. Wolności", "pn–pt 9:00–20:00, sb 10:00–17:00 (soboty lipca i sierpnia nieczynne)"), ("Gmach od strony placu", "widoczny całą dobę")],
         tickets=[("Oglądanie gmachu", "bezpłatnie")],
-        phone="+48 61 88 58 918", www=("bracz.edu.pl", "https://bracz.edu.pl/kontakt/"),
+        phone="+48 61 885 89 18", www=("bracz.edu.pl", "https://bracz.edu.pl/kontakt/"),
         credit="biblioteka-raczynskich",
         sources=[("Biblioteka Raczyńskich: Historia", "https://bracz.edu.pl/historia/"),
                  ("Biblioteka Raczyńskich: Kontakt i godziny otwarcia", "https://bracz.edu.pl/kontakt/"),

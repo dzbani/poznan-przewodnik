@@ -266,7 +266,7 @@ TRIPS2 = [
             ("Zagroda, codziennie, cały rok", "od wschodu do zachodu słońca"),
         ],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone="+48 62 76 15 045", www=("okl.lasy.gov.pl", "https://www.okl.lasy.gov.pl/pokazowa-zagroda"),
+        phone="+48 62 761 50 45", www=("okl.lasy.gov.pl", "https://www.okl.lasy.gov.pl/pokazowa-zagroda"),
         credit="zagroda-zwierzat-goluchow",
         trip=dict(lat=51.8595602, lon=17.9241702, getting=[
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
@@ -426,7 +426,7 @@ TRIPS2 = [
         address="Puszcza Zielonka, na północny wschód od Poznania",
         hours=[("Teren parku", "ogólnodostępny")],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone="+48 61 65 54 650", www=("zpkww.pl", "https://zpkww.pl/parki/park-krajobrazowy-puszcza-zielonka/informacje-ogolne/"),
+        phone="+48 61 655 46 50", www=("zpkww.pl", "https://zpkww.pl/parki/park-krajobrazowy-puszcza-zielonka/informacje-ogolne/"),
         credit="puszcza-zielonka",
         trip=dict(lat=52.553333, lon=17.113333, getting=[
             ("Komunikacja", "Połączenie z Poznania sprawdź w wyszukiwarce tras (link powyżej)."),
