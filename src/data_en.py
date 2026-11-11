@@ -67,11 +67,11 @@ EN = {
         lead="Ostrów Tumski (Cathedral Island) lies between the Warta and the Cybina rivers. In the 10th century it was the site of a stronghold of the first Piast rulers. A bishopric has existed here since 968, and the Archcathedral of St Peter and St Paul is the oldest cathedral in Poland.",
         sections=[
             ("About the place", [
-                "The first cathedral church was built here in 968. The present building is Gothic, from the 14th and 15th centuries. After the destruction of the Second World War it was partly rebuilt and its Gothic character was restored.",
+                "Construction of the first cathedral church began here around 968. A Romanesque basilica stood here in 1039–1058, and the present building has Gothic forms from the 14th and 15th centuries. After the destruction of the Second World War it was partly rebuilt and its Gothic character was restored.",
                 "In the cathedral's crypts survive the remains of tombs, most probably those of Mieszko I and Bolesław the Brave.",
             ]),
             ("What to see", [
-                "The Golden Chapel (the Royal Chapel) in the Byzantine style, fitted out in 1836–1837 as the Royal Mausoleum of Poland's first rulers. It holds a bronze monument to the first rulers, made by Christian Rauch and installed in 1841.",
+                "The Golden Chapel (the Royal Chapel) in the Byzantine style, fitted out in 1835–1841 to a design by Franciszek Maria Lanci as the Royal Mausoleum of Poland's first rulers. It holds a bronze monument to the first rulers, made by Christian Rauch and installed in 1841.",
                 "The cathedral crypts: fragments of the pre-Romanesque and Romanesque cathedrals, the remains of tombs, the remains of a 10th-century baptismal font, and in the second crypt a lapidary exhibition of stones found during the rebuilding of the cathedral after the Second World War.",
                 "The viewing tower, open seasonally (in 2026 from 1 June).",
             ]),

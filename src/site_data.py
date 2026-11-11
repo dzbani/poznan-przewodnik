@@ -72,11 +72,11 @@ ATTRACTIONS = [
         lead="Ostrów Tumski to wyspa między Wartą a Cybiną, na której w X wieku stał gród pierwszych Piastów. Biskupstwo działa tu od 968 roku, a archikatedra świętych Piotra i Pawła jest najstarszą katedrą w Polsce.",
         sections=[
             ("O miejscu", [
-                "Pierwszy kościół katedralny zbudowano tu w 968 roku. Obecna bryła jest gotycka, z XIV i XV wieku. Po zniszczeniach II wojny światowej świątynię częściowo odbudowano i przywrócono jej gotycki charakter.",
+                "Budowę pierwszego kościoła katedralnego rozpoczęto tu ok. 968 roku. W latach 1039–1058 stała tu romańska bazylika, a obecna bryła ma formy gotyckie z XIV i XV wieku. Po zniszczeniach II wojny światowej świątynię częściowo odbudowano i przywrócono jej gotycki charakter.",
                 "W podziemiach katedry zachowały się relikty grobowców, najprawdopodobniej Mieszka I i Bolesława Chrobrego.",
             ]),
             ("Co zobaczyć", [
-                "Złota Kaplica (Kaplica Królewska) w stylu bizantyjskim, urządzona w latach 1836–1837 jako Mauzoleum Królewskie pierwszych władców Polski. Stoi w niej spiżowy pomnik pierwszych władców, wykonany przez Chrystiana Raucha i ustawiony w 1841 roku.",
+                "Złota Kaplica (Kaplica Królewska) w stylu bizantyjskim, urządzona w latach 1835–1841 według projektu Franciszka Marii Lanciego jako Mauzoleum Królewskie pierwszych władców Polski. Stoi w niej spiżowy pomnik pierwszych władców, wykonany przez Chrystiana Raucha i ustawiony w 1841 roku.",
                 "Podziemia katedry: fragmenty katedry preromańskiej i romańskiej, relikty grobowców, relikty misy chrzcielnej z X wieku, a w drugiej krypcie wystawa lapidarium z kamieni odkrytych przy odbudowie katedry po II wojnie światowej.",
                 "Wieża widokowa, czynna sezonowo (w 2026 roku od 1 czerwca).",
             ]),
@@ -90,7 +90,7 @@ ATTRACTIONS = [
         tickets=[("Zwiedzanie katedry i podziemi", "bilet kupuje się na miejscu w punkcie obsługi turystycznej w katedrze"), ("Podziemia", "10 zł, ulgowy 8 zł, rodzinny 25 zł"), ("Wieża widokowa", "14 zł, ulgowy 12 zł, rodzinny 40 zł")],
         phone="+48 61 852 96 42", www=("katedra.archpoznan.pl", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
         credit="ostrow-tumski",
-        sources=[("Katedra Poznańska: Turyści w katedrze", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
+        sources=[("poznan.pl: Katedra (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/-,p,37,50,54.html"), ("Katedra Poznańska: Turyści w katedrze", "https://www.katedra.archpoznan.pl/turysci-w-katedrze/"),
                  ("Katedra Poznańska: historia katedry", "https://www.katedra.archpoznan.pl/historia-katedry-poznanskiej/"),
                  ("Katedra Poznańska: kaplice katedry", "https://www.katedra.archpoznan.pl/kaplice-katedry-poznanskiej/"),
                  ("Wikipedia: Archikatedra w Poznaniu", "https://pl.wikipedia.org/wiki/Bazylika_archikatedralna_Świętych_Apostołów_Piotra_i_Pawła_w_Poznaniu")],
