@@ -1307,11 +1307,18 @@ for _a in ATTRACTIONS:
         _a["checked"] = "10.11.2026"
     if _a["slug"] == "stary-rynek":
         _a["checked"] = "11.11.2026"
+    if _a["slug"] == "ostrow-tumski":
+        _a["checked"] = "11.11.2026"
+
+# Edycje 11.11.2026 (format numerów stacjonarnych, e-maile): data sprawdzenia ustawiona na dzień edycji.
+for _a in ATTRACTIONS:
+    if _a["slug"] in ("teatr-wielki", "puszcza-zielonka", "zagroda-zwierzat-goluchow", "zamek-cesarski", "biblioteka-raczynskich", "termy-maltanskie"):
+        _a["checked"] = "11.11.2026"
 
 # Puszcza Zielonka: opis jezior i LZD poprawiony wg uwag ZPKWW (mail z 9.11.2026), jeziora porównane z Wikipedią.
 for _a in ATTRACTIONS:
     if _a["slug"] == "puszcza-zielonka":
-        _a["checked"] = "09.11.2026"
+        _a["checked"] = "11.11.2026"
 
 # Zamek w Gołuchowie: opis przepisany wyłącznie na podstawie dwóch stron MNP (muzeum-zamek-w-goluchowie, wizyta-muzeum-zamek-w-goluchowie) 10.11.2026.
 for _a in ATTRACTIONS:

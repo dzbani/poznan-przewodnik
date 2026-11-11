@@ -17,7 +17,7 @@
 },
 "atrakcje/biblioteka-raczynskich.html": {
 "date": "2026-11-11",
-"hash": "9dd99e53c90e7b787fb43f1c718f5591"
+"hash": "155a6bb89ae72e1181372ce8976369f0"
 },
 "atrakcje/biskupin.html": {
 "date": "2026-11-10",
@@ -409,7 +409,7 @@
 },
 "atrakcje/ostrow-tumski.html": {
 "date": "2026-11-11",
-"hash": "87ce88f9a3e0370fee6202cb7bf4beff"
+"hash": "66fffad5d13d868cc5df82bf1390fa34"
 },
 "atrakcje/palac-dzialynskich.html": {
 "date": "2026-11-11",
@@ -565,7 +565,7 @@
 },
 "atrakcje/puszcza-zielonka.html": {
 "date": "2026-11-11",
-"hash": "42cbcd2e19259f4816f7512ba000f808"
+"hash": "fb517227443a3643c7a7b24a12fa8064"
 },
 "atrakcje/rogalin.html": {
 "date": "2026-11-03",
@@ -641,11 +641,11 @@
 },
 "atrakcje/teatr-wielki.html": {
 "date": "2026-11-11",
-"hash": "8607a4fb3e557714f16ec28d048014c1"
+"hash": "60fdf5fe4b2f129c8e1e373b8fa2d3f5"
 },
 "atrakcje/termy-maltanskie.html": {
-"date": "2026-11-10",
-"hash": "8e2af847eb0ebef6bbc7378ed041ed29"
+"date": "2026-11-11",
+"hash": "8439cffad1042c9c0dc63557aabc1ee2"
 },
 "atrakcje/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-11",
@@ -669,11 +669,11 @@
 },
 "atrakcje/zagroda-zwierzat-goluchow.html": {
 "date": "2026-11-11",
-"hash": "6cc705f39e57ba29e82f7606a6ce708f"
+"hash": "3111e27ffa134703fe933d9936924625"
 },
 "atrakcje/zamek-cesarski.html": {
 "date": "2026-11-11",
-"hash": "118116f67295042c4ab3740132429e06"
+"hash": "5f95adf456bfd3698471cf93c1d9b61a"
 },
 "atrakcje/zamek-goluchow.html": {
 "date": "2026-11-10",
@@ -709,7 +709,7 @@
 },
 "en/attractions/biblioteka-raczynskich.html": {
 "date": "2026-11-11",
-"hash": "d245a770514532bf7a3ead17cdf3ec0e"
+"hash": "7b33b35a440936d6d8db671f8972b143"
 },
 "en/attractions/biskupin.html": {
 "date": "2026-11-10",
@@ -1101,7 +1101,7 @@
 },
 "en/attractions/ostrow-tumski.html": {
 "date": "2026-11-11",
-"hash": "c939ab291e941f4eb5366c3d7c2e94df"
+"hash": "174d8f5fbf7076b6dc2b6105b7ac363c"
 },
 "en/attractions/palac-dzialynskich.html": {
 "date": "2026-11-11",
@@ -1257,7 +1257,7 @@
 },
 "en/attractions/puszcza-zielonka.html": {
 "date": "2026-11-11",
-"hash": "7204b401bb74f4fbb970438ab602e232"
+"hash": "0411aa7e85cc7577f563c31eeef6beb1"
 },
 "en/attractions/rogalin.html": {
 "date": "2026-11-03",
@@ -1333,11 +1333,11 @@
 },
 "en/attractions/teatr-wielki.html": {
 "date": "2026-11-11",
-"hash": "6499c7f0ea53a52e1fe0482ef1f48a6d"
+"hash": "168f51104e2248eae5b27ab230f6fa42"
 },
 "en/attractions/termy-maltanskie.html": {
-"date": "2026-11-10",
-"hash": "9c5a36a4ffd9b97a2f3dd379d848d356"
+"date": "2026-11-11",
+"hash": "7c67f603ce9f218427a35bd92865c278"
 },
 "en/attractions/trakt-krolewsko-cesarski.html": {
 "date": "2026-11-11",
@@ -1361,11 +1361,11 @@
 },
 "en/attractions/zagroda-zwierzat-goluchow.html": {
 "date": "2026-11-11",
-"hash": "521d324f6a434dbbe3161acc5c2f3d18"
+"hash": "386a8bcc7656458866f9bbd2501f7479"
 },
 "en/attractions/zamek-cesarski.html": {
 "date": "2026-11-11",
-"hash": "5d41538c0593f9767b3c82eac9b5019f"
+"hash": "67e9eea7ae4e1fa69fa1134ba8d70567"
 },
 "en/attractions/zamek-goluchow.html": {
 "date": "2026-11-10",
@@ -1424,8 +1424,8 @@
 "hash": "635cd386cd20b4c85092d07505f061ef"
 },
 "en/viewpoints.html": {
-"date": "2026-10-27",
-"hash": "137b775f1979336564176bb86cf79366"
+"date": "2026-11-11",
+"hash": "092f9838806279f97c0d00aacee953e2"
 },
 "index.html": {
 "date": "2026-11-11",
@@ -1464,8 +1464,8 @@
 "hash": "48827a64579d222048df57f44ed6fad4"
 },
 "punkty-widokowe.html": {
-"date": "2026-10-27",
-"hash": "39d511275aa062d50daa8eec1df4394d"
+"date": "2026-11-11",
+"hash": "a983e70e1646ffde7e827ebc0aaf0062"
 },
 "teatry.html": {
 "date": "2026-11-03",
