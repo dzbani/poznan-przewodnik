@@ -30,13 +30,13 @@ EN = {
         img_alt="Colourful townhouses and the town hall on the Old Market Square in Poznań",
         short="The heart of the city since the 13th century. A Renaissance town hall and two goats butting heads at 12:00 and 15:00.",
         badge="Free",
-        status="The museum in the Town Hall is closed to visitors because of conservation and renovation works. Reopening of all the spaces is planned for 2028 (the official visit page gives the turn of 2027 and 2028). The goats are shown daily at 12:00 and 15:00.",
+        status="The museum in the Town Hall is closed to visitors because of conservation and renovation works. Reopening of all the spaces is planned for 2028. The date may change, so check the museum's current notice. The goats are shown daily at 12:00 and 15:00.",
         lead="Stary Rynek (Old Market Square) is the main square of Poznań's Old Town. In its middle stands the town hall, first mentioned in 1310.",
         sections=[
             ("About the place", [
                 "The square was the centre of the chartered town, founded between the castle and the Warta river. Townhouses surround the open space, and a block of buildings fills its middle.",
                 "The town hall was most probably built around the turn of the 13th and 14th centuries. In the mid-16th century, after a fire in the town, it was extended by the Italian architect Jan Baptysta Quadro from Lugano. The façade gained the form of a three-storey loggia, and on the east side an attic was added that resembles a town wall with three towers. On the north façade there is a plaque with the architect's name.",
-                "The Great Hall on the first floor, also called the Hall of the Renaissance, is considered one of the most beautiful Renaissance interiors in Poland. One of the coffers of its ceiling shows the arms of Poznań, and there are also the arms of Poland and Lithuania.",
+                "The Great Hall on the first floor, also called the Hall of the Renaissance, is considered one of the most beautiful Renaissance interiors in Poland. One of the coffers of its ceiling shows the arms of Poznań, and there are also the arms of Poland and Lithuania. It is currently closed to visitors because of the renovation of the museum.",
             ]),
             ("What to see", [
                 "The Poznań Goats on the town hall tower: every day at 12:00 and 15:00 they appear above the clock and butt heads. The first clock mechanism was installed in 1551, made by the clockmaker Bartłomiej from Gubin on commission from the town council. At noon a crowd gathers under the town hall, so it is worth coming a few minutes early.",

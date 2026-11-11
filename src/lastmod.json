@@ -617,7 +617,7 @@
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-11-11",
-"hash": "00c4d5a54d64380e2b7ec6684cd07e3c"
+"hash": "64859390bbb969e0d481594dc3870ebf"
 },
 "atrakcje/studzienka-bamberki.html": {
 "date": "2026-10-23",
@@ -1309,7 +1309,7 @@
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-11-11",
-"hash": "fc3a477dd5bad4962e46e4c5cda4941d"
+"hash": "dce6183d4d61f50a91c8307ddc9afac2"
 },
 "en/attractions/studzienka-bamberki.html": {
 "date": "2026-10-24",
@@ -1385,7 +1385,7 @@
 },
 "en/changes.html": {
 "date": "2026-11-11",
-"hash": "476e8d0789867a91798c68bdfd326fa1"
+"hash": "61d5a765c1cbdc077cd128eb8082c793"
 },
 "en/how-we-verify.html": {
 "date": "2026-11-11",
@@ -1477,6 +1477,6 @@
 },
 "zmiany.html": {
 "date": "2026-11-11",
-"hash": "fc1b80ad0cf2370e55e7396a67c329d9"
+"hash": "67776a535c6756ced96b294cdce96e89"
 }
 }

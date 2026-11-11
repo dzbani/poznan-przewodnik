@@ -25,13 +25,13 @@ ATTRACTIONS = [
         img="hero-rynek", img_alt="Kolorowe kamienice i ratusz przy Starym Rynku w Poznaniu",
         short="Serce miasta od XIII wieku. Renesansowy ratusz i koziołki trykające się o 12:00 i 15:00.",
         badge="Bezpłatnie",
-        status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest zamknięte dla zwiedzających z powodu prac konserwatorsko-remontowych. Ponowne otwarcie wszystkich przestrzeni planowane jest w 2028 roku (oficjalna strona wizyty podaje przełom 2027 i 2028 roku). Pokazy koziołków odbywają się codziennie o 12:00 i 15:00."),
+        status=("warning", "Muzeum w Ratuszu (Ratusz – Muzeum Poznania) jest zamknięte dla zwiedzających z powodu prac konserwatorsko-remontowych. Ponowne otwarcie wszystkich przestrzeni planowane jest w 2028 roku. Termin może ulec zmianie, sprawdź aktualny komunikat muzeum. Pokazy koziołków odbywają się codziennie o 12:00 i 15:00."),
         lead="Stary Rynek to główny plac Starego Miasta w Poznaniu. W jego środku stoi ratusz, którego najstarsza wzmianka pochodzi z 1310 roku.",
         sections=[
             ("O miejscu", [
                 "Rynek był centrum miasta lokacyjnego, założonego między zamkiem a Wartą. Wokół placu stoją kamienice, a środek zajmuje blok zabudowy.",
                 "Ratusz został wybudowany zapewne na przełomie XIII i XIV wieku. W połowie XVI wieku, po pożarze miasta, został rozbudowany przez włoskiego architekta Jana Baptystę Quadro z Lugano. Fasada zyskała formę trzypiętrowej loggii, a od strony wschodniej powstała attyka przypominająca mur obronny z trzema wieżami. Na elewacji północnej jest tablica z nazwiskiem architekta.",
-                "Wielka Sień na pierwszym piętrze, zwana Salą Odrodzenia, uchodzi za jedno z najpiękniejszych wnętrz renesansowych w Polsce. W jednym z kasetonów sklepienia jest herb Poznania, a są tu też herby Polski i Litwy.",
+                "Wielka Sień na pierwszym piętrze, zwana Salą Odrodzenia, uchodzi za jedno z najpiękniejszych wnętrz renesansowych w Polsce. Obecnie niedostępna dla zwiedzających z powodu remontu muzeum. W jednym z kasetonów sklepienia jest herb Poznania, a są tu też herby Polski i Litwy.",
             ]),
             ("Co zobaczyć", [
                 "Koziołki na wieży ratusza: codziennie o 12:00 i 15:00 ukazują się nad zegarem i trykają się rogami. Pierwszy mechanizm zegarowy zainstalowano w 1551 roku, a zegarmistrz Bartłomiej z Gubina wykonał go na zamówienie rady miejskiej. W południe pod ratuszem zbiera się tłum, więc warto przyjść kilka minut wcześniej.",
@@ -55,7 +55,9 @@ ATTRACTIONS = [
         tickets=[("Plac i koziołki", "bezpłatnie")],
         phone=["+48 61 856 81 93", "+48 61 852 56 13"], email="ratusz@mnp.art.pl", www=("Oficjalna strona muzeum", "https://mnp.art.pl/ratusz-muzeum-poznania"),
         credit="hero-rynek",
-        sources=[("poznan.pl: Ratusz (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
+        sources=[("Muzeum Narodowe w Poznaniu: Ratusz – Muzeum Poznania (pokazy koziołków)", "https://mnp.art.pl/profile/koziolki-ratusz-muzeum-poznania"),
+                 ("Muzeum Narodowe w Poznaniu: wizyta w Ratuszu (zamknięcie, termin)", "https://mnp.art.pl/profile/wizyta-ratusz-muzeum-poznania"),
+                 ("poznan.pl: Ratusz (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/zabytki,poi,2572/ratusz,41233.html"),
                  ("poznan.pl: Przewodnik po Starym Rynku (pręgierz, Bamberka, domki budnicze)", "https://www.poznan.pl/mim/staryrynek/index.html?co=plan"),
                  ("poznan.pl: Podania i legendy Poznania", "https://www.poznan.pl/mim/turystyka/legendy-poznania,p,27888.html"),
                  ("kultura.poznan.pl: Ratusz – Muzeum Poznania (remont)", "https://kultura.poznan.pl/mim/kultura/object.html?id_klasy=202&lang=&id_cz=12&id_obiektu=40787"),
