@@ -137,8 +137,8 @@ EN_BATCH2 = {
             ]),
             ("Architecture", [
                 "The oldest buildings, the Brewhouse, the Malthouse and the Drying House with its distinctive chimney, were built around 1890. They are in the arcaded style (Rundbogenstil), typical of factories of the time: red facing brick, round-arched windows and brick decoration.",
-                "The conversion was designed by the Poznań studio ADS (architects Piotr Barełkowski and Przemysław Borkowicz). Old walls were combined with modern steel and glass structures. According to the centre, the founder of Studio ADS has won the Jan Baptysta Quadro award four times. The interior of the passages was designed by the stage designer Ryszard Kaja, the author of famous posters (according to Wikipedia).",
-                "Stary Browar was among 20 buildings chosen for the exhibition “Poland. Icons of Architecture”, which presented the most important Polish architecture since 1989. It also received two Jan Baptysta Quadro awards for the best building of the year in Poznań, for 2003 and 2007. The International Council of Shopping Centers (ICSC) named it the best shopping centre in the world in 2005, and in 2008 it won again in the category of extensions.",
+                "The conversion was designed by the Poznań studio ADS, founded by Piotr Berełkowski, a four-time winner of the Jan Baptysta Quadro award. Old walls were combined with modern steel and glass structures.",
+                "Stary Browar was among 20 buildings chosen for the exhibition “Poland. Icons of Architecture”, which presented the most important Polish architecture since 1989. The International Council of Shopping Centers (ICSC) named it the best shopping centre in the world in 2005, and in 2008 it was again named the best shopping centre.",
                 "After dark, look at the western façade of the Passage. It is the joint work of Studio ADS and the artist Adam Garnek: horizontal bands divide the glass block, and a light installation inside turns it into a shimmering, translucent ornament.",
             ]),
             ("Works of art to see", [
@@ -158,7 +158,7 @@ EN_BATCH2 = {
                 "Next to the centre is a historic park, a good place to rest after sightseeing.",
             ]),
             ("Good to know", [
-                "The centre has nearly 200 shops, several dozen restaurants and cafés, 8 cinema screens and a music club. In 2026 the Food Hall received a Special Mention in the Architizer A+ Awards.",
+                "The centre has nearly 200 shops, several dozen restaurants and cafés, 8 cinema screens and a music club.",
                 "The car park has 1,000 spaces in both wings (Atrium: levels +3, +4 and +5; Passage: levels −1, −2 and −3), with the entrance from ul. Kościuszki. It is paid, but receipts totalling at least PLN 90 give 4 hours of free parking (validation at the Information Points, on the day of purchase only).",
                 "Information Point in the Passage: tel. 61 667 14 00, Monday–Saturday 10:00–21:00, Sunday 10:00–20:00. The “About the centre” page gives 61 677 14 00 for the Passage, but the “Contact” page and the Pop Culture Gallery page give 61 667 14 00.",
             ]),

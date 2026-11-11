@@ -652,8 +652,8 @@ ATTRACTIONS = [
             ]),
             ("Architektura", [
                 "Najstarsze budynki, czyli Warzelnia, Słodownia i Suszarnia z charakterystycznym kominem, powstały około 1890 roku. Zbudowano je w stylu arkadowym (Rundbogenstil), typowym dla ówczesnych fabryk: z czerwonej cegły licówki, z półkoliście zamkniętymi oknami i ceglanymi ozdobami.",
-                "Przebudowę zaprojektowało poznańskie Studio ADS (architekci Piotr Barełkowski i Przemysław Borkowicz). Stare mury połączono z nowoczesnymi konstrukcjami ze stali i szkła. Według centrum założyciel Studia ADS jest czterokrotnym laureatem nagrody im. Jana Baptysty Quadro. Wystrój pasaży zaprojektował scenograf Ryszard Kaja, autor słynnych plakatów (według Wikipedii).",
-                "Stary Browar znalazł się wśród 20 budynków wybranych na wystawę „Polska. Ikony architektury”, pokazującą najważniejszą polską architekturę po 1989 roku. Dostał też dwie nagrody im. Jana Baptysty Quadro dla najlepszego budynku roku w Poznaniu: za 2003 i za 2007 rok. Międzynarodowa Rada Centrów Handlowych (ICSC) uznała go za najlepsze centrum handlowe na świecie w 2005 roku, a w 2008 roku ponownie w kategorii rozbudów.",
+                "Przebudowę zaprojektowało poznańskie Studio ADS, założone przez Piotra Berełkowskiego, czterokrotnego laureata nagrody im. Jana Baptysty Quadro. Stare mury połączono z nowoczesnymi konstrukcjami ze stali i szkła.",
+                "Stary Browar znalazł się wśród 20 budynków wybranych na wystawę „Polska. Ikony architektury”, pokazującą najważniejszą polską architekturę po 1989 roku. Międzynarodowa Rada Centrów Handlowych (ICSC) uznała go za najlepsze centrum handlowe na świecie w 2005 roku, a w 2008 roku ponownie za najlepsze centrum handlowe.",
                 "Po zmroku warto obejrzeć zachodnią fasadę Pasażu. To wspólne dzieło Studia ADS i artysty Adama Garnka: szklaną bryłę dzielą poziome pasy, a instalacja świetlna w środku zamienia ją w migoczącą, półprzezroczystą ozdobę.",
             ]),
             ("Dzieła sztuki do zobaczenia", [
@@ -673,7 +673,7 @@ ATTRACTIONS = [
                 "Przy centrum jest zabytkowy park, dobre miejsce na odpoczynek po zwiedzaniu.",
             ]),
             ("Warto wiedzieć", [
-                "W centrum jest blisko 200 sklepów, kilkadziesiąt restauracji i kawiarni, 8 sal kinowych i klub muzyczny. W 2026 roku Food Hall dostał wyróżnienie Special Mention w konkursie Architizer A+ Awards.",
+                "W centrum jest blisko 200 sklepów, kilkadziesiąt restauracji i kawiarni, 8 sal kinowych i klub muzyczny.",
                 "Parking ma 1000 miejsc w obu skrzydłach (Atrium: poziomy +3, +4 i +5, Pasaż: poziomy −1, −2 i −3), a wjazd jest od ulicy Kościuszki. Jest płatny, ale paragony za co najmniej 90 zł dają 4 godziny parkowania bezpłatnie (walidacja w Punktach Informacyjnych, tylko w dniu zakupów).",
                 "Punkt Informacyjny w Pasażu: tel. 61 667 14 00, poniedziałek–sobota 10:00–21:00, niedziela 10:00–20:00. Strona „O centrum” podaje przy Pasażu numer 61 677 14 00, ale „Kontakt” i strona Pop Culture Gallery 61 667 14 00.",
             ]),
@@ -687,8 +687,6 @@ ATTRACTIONS = [
                  ("Stary Browar: kontakt, godziny otwarcia i parking", "https://starybrowar5050.com/kontakt/"),
                  ("Wiadomości Handlowe: Stary Browar zmienia właściciela (30.11.2015)", "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/handel-hurtowy-i-grupy-zakupowe/stary-browar-zmienia-wlasciciela-2431468"),
                  ("Stary Browar: Pop Culture Gallery", "https://starybrowar5050.com/sklepy/pop-culture-gallery-stary-browar/"),
-                 ("Wikipedia: Stary Browar (Poznań)", "https://pl.wikipedia.org/wiki/Stary_Browar_(Pozna%C5%84)"),
-                 ("Wikipedia: Browar Huggerów", "https://pl.wikipedia.org/wiki/Browar_Hugger%C3%B3w"),
                  ("Poznański Prestiż: wywiad z zarządem Starego Browaru (2023)", "https://poznanskiprestiz.pl/pp-x-stary-browar/stary-browar-od-20-lat-w-sercu-poznania/"),
                  ("Hotel Blow Up Hall: sztuka i książki", "https://blowuphall.com/sztuka-i-ksiazki/"),
                  ("Hotel Blow Up Hall: restauracja", "https://blowuphall.com/restauracja/"),
@@ -1330,7 +1328,7 @@ _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "
               "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
               "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
               "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
-              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum", "fara", "zamek-krolewski"}
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum", "fara", "zamek-krolewski", "stary-browar"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]
