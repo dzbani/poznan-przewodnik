@@ -332,14 +332,19 @@ ATTRACTIONS = [
         status=None,
         lead="Rogalowe Muzeum to interaktywny pokaz przy Starym Rynku. Pokaz ma interaktywny charakter: uczestnicy poznają historię rogala świętomarcińskiego i to, jak powstaje według tradycyjnej receptury.",
         sections=[
-            ("O rogalu", [
-                "Nazwa „rogal świętomarciński” jest od 2008 roku unijnym Chronionym Oznaczeniem Geograficznym (rozporządzenie Komisji (WE) nr 1070/2008 z 30 października 2008 roku). Nazwy może używać tylko cukiernia lub piekarnia z Poznania i większości województwa wielkopolskiego (poza powiatami złotowskim, międzychodzkim, kępińskim, ostrzeszowskim i tureckim), która spełnia wymagania specyfikacji i zgłosiła się do Grupy Producentów Rogala Świętomarcińskiego.",
-                "Poznaniacy jedzą rogale przede wszystkim 11 listopada, w dniu Imienin Ulicy Święty Marcin.",
-            ]),
             ("Pokazy", [
                 "Pokaz rogalowy trwa 55–60 minut, pokaz rogalowo-koziołkowy 65 minut. W pokazie rogalowo-koziołkowym, oprócz tego, co w zwykłym pokazie, ogląda się koziołki z okien muzeum (o 12:00 przy pokazie od 11:00 i o 15:00 przy pokazie od 14:00) i poznaje historię ich mechanizmu.",
-                "Pokazy po angielsku są w soboty i niedziele o 14:00, a w lipcu i sierpniu codziennie o 14:00.",
-                "Pokazy często się wyprzedają, więc bilet najlepiej kupić z wyprzedzeniem. Rezerwacja online jest możliwa do 30 minut przed pokazem.",
+                "Pokazy po angielsku są w soboty i niedziele o 14:00, a w lipcu i sierpniu codziennie o 14:00. Czasami jest dodatkowy pokaz o 15:30, bez koziołków, w tej samej cenie. Zalecana jest przynajmniej podstawowa znajomość angielskiego.",
+                "Pokazy często się wyprzedają, więc bilet najlepiej kupić z wyprzedzeniem.",
+            ]),
+            ("Program pokazu", [
+                "Pokazy na żywo prowadzi Rogalowy Mistrz z pomocnikiem. W programie są: legenda o rogalach i pochodzenie nazwy, receptura i składniki rogala świętomarcińskiego, wspólne przygotowanie rogali tradycyjnymi narzędziami, elementy poznańskiej gwary, multimedialna prezentacja o historii Poznania, certyfikaty czeladnicze i degustacja certyfikowanych rogali (na wynos).",
+                "Pokaz ma formę interaktywną, łączy przedstawienie, prezentację, pogadankę i warsztat. Na początku z publiczności wybierani są ochotnicy, którzy zakładają stroje i pomagają przy kolejnych czynnościach. Pokaz jest dla wszystkich grup wiekowych, najlepiej sprawdza się powyżej 3. roku życia.",
+            ]),
+            ("Warto wiedzieć", [
+                "Muzeum jest czynne 7 dni w tygodniu, z wyjątkiem wybranych dni (sprawdź aktualności na stronie muzeum). Harmonogram godzin nie oznacza dostępności każdej godziny dla gości indywidualnych, bo niektóre pokazy są na wyłączność dla grup.",
+                "Bilety kupisz online do 30 minut przed pokazem (płatność przelewem, kartą Visa lub Mastercard albo BLIK) lub w kasie muzeum, około 20 minut przed otwartymi pokazami, w miarę dostępności miejsc. Zalecany jest zakup online, bo zdarzają się komplety.",
+                "Bilet ulgowy przysługuje osobom w wieku 3–25 lat, osobom 65+, emerytom, rencistom, osobom niepełnosprawnym i ich opiekunom oraz posiadaczom Karty Dużej Rodziny i Osobistej Karty Poznańskiej.",
             ]),
         ],
         address="Stary Rynek 41/2 (wejście od ul. Klasztornej 23), 61-772 Poznań",
@@ -350,7 +355,7 @@ ATTRACTIONS = [
         credit="rogalowe-muzeum",
         checked="21.10.2026",
         sources=[("Rogalowe Muzeum: dla indywidualnych, cennik od 2.01.2026", "https://rogalowemuzeum.pl/indywidualni/#cennik"),
-                 ("Wikipedia: Rogal świętomarciński", "https://pl.wikipedia.org/wiki/Rogal_świętomarciński")],
+                 ("Rogalowe Muzeum: dla indywidualnych (oferta, terminy, przebieg wizyty)", "https://rogalowemuzeum.pl/indywidualni/")],
     ),
     dict(
         slug="muzeum-powstania", cat="muzea", name="Muzeum Powstania Wielkopolskiego",
@@ -1327,7 +1332,7 @@ _WIKI_DROP = {"fontanna-prozerpiny", "studzienka-bamberki", "fontanna-apolla", "
               "pomnik-janickiego", "pomnik-jana-pawla-ii", "pomnik-ratajskiego",
               "pomnik-koziolkow", "pomnik-starego-marycha", "pomnik-mickiewicza", "pomnik-panstwa-podziemnego", "pomnik-armii-poznan",
               "pomnik-15-pulku-ulanow", "fontanna-higiei", "fontanna-z-delfinami", "pomnik-kochanowskiego", "pomnik-cegielskiego",
-              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania"}
+              "pomnik-kosciuszki", "pomnik-komedy", "studzienka-taschnera", "fort-iva", "ostrow-tumski", "podziemia-katedry", "brama-poznania", "rogalowe-muzeum"}
 for _a in ATTRACTIONS:
     if _a["slug"] in _WIKI_DROP:
         _a["sources"] = [_s for _s in _a["sources"] if "wikipedia" not in _s[1].lower()]

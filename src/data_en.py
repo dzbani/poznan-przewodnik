@@ -121,14 +121,19 @@ EN = {
         status=None,
         lead="The Croissant Museum (Rogalowe Muzeum Poznania) is an interactive show near the Old Market Square. Visitors learn the history of the rogal świętomarciński (St Martin's croissant) and see how it is made following the traditional recipe.",
         sections=[
-            ("About the croissant", [
-                "Since 2008 the name “rogal świętomarciński” has been a Protected Geographical Indication of the European Union (Commission Regulation (EC) No 1070/2008 of 30 October 2008). Only a bakery or confectioner from Poznań and most of the Greater Poland Voivodeship (except the Złotów, Międzychód, Kępno, Ostrzeszów and Turek poviats) that meets the requirements of the product specification and has registered with the St Martin's Croissant Producer Group may use the name.",
-                "Poznań residents eat these croissants above all on 11 November, the St Martin Street Name Day.",
-            ]),
             ("The shows", [
                 "The croissant show lasts 55–60 minutes; the croissant-and-goats show lasts 65 minutes. In the croissant-and-goats show, besides everything in the standard show, you watch the Poznań goats (koziołki) from the museum windows (at 12:00 for the show starting at 11:00 and at 15:00 for the show starting at 14:00) and learn the history of their mechanism.",
-                "Shows in English take place on Saturdays and Sundays at 14:00, and every day at 14:00 in July and August.",
-                "Shows often sell out, so it is best to buy a ticket in advance. Online booking is possible up to 30 minutes before the show.",
+                "Shows in English take place on Saturdays and Sundays at 14:00, and every day at 14:00 in July and August. Sometimes there is an extra show at 15:30, without the goats, at the same price. At least a basic knowledge of English is recommended.",
+                "Shows often sell out, so it is best to buy a ticket in advance.",
+            ]),
+            ("What the show includes", [
+                "The live shows are led by the Croissant Master with his assistant. The programme includes the legend of the croissants and the origin of the name, the recipe and ingredients of the St Martin's croissant, preparing croissants together with traditional tools, elements of the Poznań dialect, a multimedia presentation on the history of Poznań, journeyman certificates and a tasting of certified croissants (to take away).",
+                "The show is interactive, combining a performance, a presentation, a talk and a workshop. At the start volunteers are chosen from the audience, who put on costumes and help with the successive activities. The show is for all age groups and works best for those over 3.",
+            ]),
+            ("Good to know", [
+                "The museum is open 7 days a week, except on selected days (check the news on the museum's website). The schedule of hours does not mean that every time slot is available to individual visitors, because some shows are exclusive to groups.",
+                "You can buy tickets online up to 30 minutes before the show (payment by bank transfer, Visa or Mastercard card, or BLIK) or at the museum's ticket desk about 20 minutes before the open shows, subject to availability. Buying online is recommended, because shows do sell out.",
+                "A reduced ticket is available to people aged 3–25, people aged 65+, retirees, pensioners, people with disabilities and their carers, and holders of the Large Family Card and the Personal Poznań Card.",
             ]),
         ],
         address="Stary Rynek 41/2 (entrance from ul. Klasztorna 23), 61-772 Poznań",
