@@ -145,17 +145,18 @@ EN = {
     "jezioro-maltanskie": dict(
         name="Lake Malta",
         img_alt="Lake Malta from the air: the regatta course with buoys and the shore with a footbridge",
-        short="An artificial lake with a regatta course. Walks, cycling and things to do all year round.",
+        short="An artificial lake with a regatta course, with a ski slope, thermal baths, a railway and an ice rink next to it.",
         badge="Free",
         status=None,
-        lead="Lake Malta (Jezioro Maltańskie) is an artificial reservoir opened in 1952. It is 2.2 km long and covers about 64 hectares. A popular walking and cycling route runs all the way around it.",
+        lead="Lake Malta (Jezioro Maltańskie) was created in 1952 by damming the waters of the Cybina. It covers 64 hectares, and its regatta course is 2,190 m long and 170–400 m wide. The name comes from the Knights of Malta, that is the Knights Hospitaller, who had their seat here.",
         sections=[
             ("What to see", [
-                "The regatta course, built in 1987–1990 for the canoe sprint World Championships, which were held in Poznań in 1990.",
-                "On the lake shore you will also find the Malta Thermal Baths, the year-round Malta Ski slope, the Maltanka narrow-gauge park railway and the New Zoo.",
+                "The regatta course, where canoe and rowing regattas are held. In 1979 it was decided to modernise the lake, and in August 1990 the 23rd Canoe Sprint World Championships were held on it. The general designer of the reconstruction was the architect Klemens Mikuła.",
+                "In the western part of the lake is the largest fountain in Poznań, funded to commemorate the 750th anniversary of the city's founding.",
+                "Along the northern shore of the lake runs the Maltanka narrow-gauge park railway, whose terminus, Zwierzyniec, is near the entrance to the New Zoo. On the southern shore, on Freedom Mound (Kopiec Wolności), are a year-round ski slope and a summer toboggan run, and at its foot a golf practice area and a minigolf course. There is also a bathing area by the lake, and nearby the Malta Thermal Baths, which use underground hot springs.",
             ]),
             ("Good to know", [
-                "In June the Malta Festival takes place on the lake and across the city. In 2026 it featured 108 events at 27 venues.",
+                "In summer, performances of the Malta International Theatre Festival take place by the lake, and in winter an ice rink operates on the western shore.",
             ]),
         ],
         hours=[("Area around the lake", "open 24 hours")],

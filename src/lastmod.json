@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-11",
-"hash": "f68e908e2ebf3301520c0a005156f8e0"
+"date": "2026-11-12",
+"hash": "14c389a2a32503429a511b8f449b5386"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -28,8 +28,8 @@
 "hash": "722be39a82a1cb7b704c780cbe9feead"
 },
 "atrakcje/bulwary-warta.html": {
-"date": "2026-11-10",
-"hash": "7749eceb33edf05ab97f0edc52097347"
+"date": "2026-11-12",
+"hash": "8eb2156050c96f068cfc88d3dcfb3051"
 },
 "atrakcje/centrum-szyfrow-enigma.html": {
 "date": "2026-11-10",
@@ -136,16 +136,16 @@
 "hash": "d3742e5ea8d3742c02af53a5a69bef69"
 },
 "atrakcje/jezioro-kierskie.html": {
-"date": "2026-11-10",
-"hash": "a7dd8fb300c587e8c7772725903f8382"
+"date": "2026-11-12",
+"hash": "4370c10a7038834f531eaef754e89619"
 },
 "atrakcje/jezioro-maltanskie.html": {
-"date": "2026-11-10",
-"hash": "dbb070df37d1bc3bd188d32272b39828"
+"date": "2026-11-12",
+"hash": "a1d748a881686e5d57ba39f700d26f51"
 },
 "atrakcje/jezioro-strzeszynskie.html": {
-"date": "2026-11-10",
-"hash": "746df661e4175c086957cfa3e460accc"
+"date": "2026-11-12",
+"hash": "ea835cd2f6ccc1e8922b119b2c7595ba"
 },
 "atrakcje/jezyce.html": {
 "date": "2026-11-04",
@@ -240,12 +240,12 @@
 "hash": "107c9b88f508807b679976fbb97a4cc9"
 },
 "atrakcje/lasek-marcelinski.html": {
-"date": "2026-11-10",
-"hash": "ee78d727b026136e78d97eee4c139c75"
+"date": "2026-11-12",
+"hash": "fa77342dd7a488b4fee06985d5fb16af"
 },
 "atrakcje/legi-debinskie.html": {
-"date": "2026-11-10",
-"hash": "87663a3d0e26dbeb0fd223f179a65b35"
+"date": "2026-11-12",
+"hash": "c6d6b9473dbba78a3e67eac43c18fb2f"
 },
 "atrakcje/linie-turystyczne.html": {
 "date": "2026-11-03",
@@ -268,8 +268,8 @@
 "hash": "80e9f5178a101d17047ec5dbcbf24ba6"
 },
 "atrakcje/morasko.html": {
-"date": "2026-11-10",
-"hash": "0cc6d32cd71f7d7857b54c799d7c4986"
+"date": "2026-11-12",
+"hash": "8ae1a37e6db2e6d581129ab859083b36"
 },
 "atrakcje/most-biskupa-jordana.html": {
 "date": "2026-11-11",
@@ -392,12 +392,12 @@
 "hash": "58edf3de2de445523e5b3f7db57f645f"
 },
 "atrakcje/ogrod-botaniczny.html": {
-"date": "2026-11-10",
-"hash": "5f099ab583dc5a3c83a02d4cee05817e"
+"date": "2026-11-12",
+"hash": "a423629fb11ec0a602c80f73dd075ad0"
 },
 "atrakcje/ogrod-zamkowy.html": {
-"date": "2026-11-10",
-"hash": "6c9326c55f6cea08c968ed90b59c98d8"
+"date": "2026-11-12",
+"hash": "c1dd04f92d981425d285c332f8daa170"
 },
 "atrakcje/okraglak.html": {
 "date": "2026-11-04",
@@ -420,56 +420,56 @@
 "hash": "1d4028a747e81f0d840396bda87ff59d"
 },
 "atrakcje/palmiarnia.html": {
-"date": "2026-11-10",
-"hash": "765c193ddab29b1276d4ed39ffad07f0"
+"date": "2026-11-12",
+"hash": "08c7987d032a88e5c31b8f3dfbeb0389"
 },
 "atrakcje/park-chopina.html": {
-"date": "2026-11-10",
-"hash": "e8c49ce9a6a09f92a898d5adac428a21"
+"date": "2026-11-12",
+"hash": "8e001bb1c3d9e9420eb4c8027c5c2301"
 },
 "atrakcje/park-kasprowicza.html": {
-"date": "2026-11-10",
-"hash": "53336d32e0809e14216eb1e503e736c0"
+"date": "2026-11-12",
+"hash": "6d8de790f7240069ad7d4ff6da41a1b4"
 },
 "atrakcje/park-marcinkowskiego.html": {
-"date": "2026-11-10",
-"hash": "628238f9d997b412399be66c46369b66"
+"date": "2026-11-12",
+"hash": "86cac5a1302e517934169d0b6025fd24"
 },
 "atrakcje/park-mickiewicza.html": {
-"date": "2026-11-10",
-"hash": "6efa4006eeac666d7ee82d61bad96327"
+"date": "2026-11-12",
+"hash": "d84e534159922d78869baf6f519d80e3"
 },
 "atrakcje/park-moniuszki.html": {
-"date": "2026-11-10",
-"hash": "4d2e6435c907d038f88f57089ec9580d"
+"date": "2026-11-12",
+"hash": "091b2c3be4572945aabcc025ce5efc6a"
 },
 "atrakcje/park-nad-warta.html": {
-"date": "2026-11-10",
-"hash": "3e0cc55d4a19d8084df5b9dde9dfa69b"
+"date": "2026-11-12",
+"hash": "a328dd2be16321d273f0fbea143778c9"
 },
 "atrakcje/park-rataje.html": {
-"date": "2026-11-10",
-"hash": "32a68d7173e6dd40a2079bfbc47900b4"
+"date": "2026-11-12",
+"hash": "d2234ad18fb773b7d8591ce1775f44d1"
 },
 "atrakcje/park-solacki.html": {
-"date": "2026-11-10",
-"hash": "75bd6a2aeb6313af2517d3731347f6a7"
+"date": "2026-11-12",
+"hash": "1f9c7b0c5a5b20d4d69d5cda66acc54c"
 },
 "atrakcje/park-szelagowski.html": {
-"date": "2026-11-10",
-"hash": "9118705c5139eeedb9a1b54c962495ee"
+"date": "2026-11-12",
+"hash": "7c1204044faab15d35d4a2a185706383"
 },
 "atrakcje/park-tysiaclecia.html": {
-"date": "2026-11-10",
-"hash": "0923b8055eae6d30316205e954e3954d"
+"date": "2026-11-12",
+"hash": "a860d10861aae8c30179f0255ebd1642"
 },
 "atrakcje/park-wieniawskiego.html": {
-"date": "2026-11-10",
-"hash": "7d81bafce381e90c1f40047a6e18c720"
+"date": "2026-11-12",
+"hash": "98f9ad16b3d49e1cb02da96704d1b3cc"
 },
 "atrakcje/park-wilsona.html": {
-"date": "2026-11-10",
-"hash": "33017fc1a9f431e12f049e89c5db1c69"
+"date": "2026-11-12",
+"hash": "fbd35b945842ab1bf4b4d9114a8ddbc5"
 },
 "atrakcje/parowozownia-wolsztyn.html": {
 "date": "2026-11-10",
@@ -576,8 +576,8 @@
 "hash": "90015de7ada66d37507777040fee27d8"
 },
 "atrakcje/rusalka.html": {
-"date": "2026-11-10",
-"hash": "3db7ff2b3fb51ce17543241876d70250"
+"date": "2026-11-12",
+"hash": "e983d56691033ebbdcc91f13caeaf572"
 },
 "atrakcje/rynek-srodecki.html": {
 "date": "2026-11-11",
@@ -604,8 +604,8 @@
 "hash": "59bf16637a18620a9c1407502f673b61"
 },
 "atrakcje/stare-koryto-warty.html": {
-"date": "2026-11-10",
-"hash": "b120cc28ca43c9ad7a45af91cacbe907"
+"date": "2026-11-12",
+"hash": "469daf5f15d9ea129f809eddcdd1999e"
 },
 "atrakcje/stare-zoo.html": {
 "date": "2026-11-10",
@@ -628,8 +628,8 @@
 "hash": "a077296d79ed290c2862ca915380ba2a"
 },
 "atrakcje/szachty.html": {
-"date": "2026-11-10",
-"hash": "c46bd1dc8edd7029f421416be44dac30"
+"date": "2026-11-12",
+"hash": "14d9815c044f3b32abac48e94088d134"
 },
 "atrakcje/szreniawa.html": {
 "date": "2026-11-03",
@@ -692,8 +692,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-11",
-"hash": "7df36e179fef575719c41c6cb1cb3fbd"
+"date": "2026-11-12",
+"hash": "c8ac7d9b45797948c0b49d2b65cfc280"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -720,8 +720,8 @@
 "hash": "a28965e4346828c2d7f44c3afc537ecc"
 },
 "en/attractions/bulwary-warta.html": {
-"date": "2026-11-10",
-"hash": "f176ea33f7044236ade84c7bd50dde05"
+"date": "2026-11-12",
+"hash": "ce63d56ca4fdf11114ab860882378f99"
 },
 "en/attractions/centrum-szyfrow-enigma.html": {
 "date": "2026-11-10",
@@ -828,16 +828,16 @@
 "hash": "968dc15242eff86ab7326b56bce42da5"
 },
 "en/attractions/jezioro-kierskie.html": {
-"date": "2026-11-10",
-"hash": "c07f8fd3eaf6c671236412478291b421"
+"date": "2026-11-12",
+"hash": "7f0d73af1face1e0db33d6cedfcc21c2"
 },
 "en/attractions/jezioro-maltanskie.html": {
-"date": "2026-11-10",
-"hash": "ee764517467aab0996e6d6cc537d8028"
+"date": "2026-11-12",
+"hash": "9db96c17f77958cd58a5a437122473a6"
 },
 "en/attractions/jezioro-strzeszynskie.html": {
-"date": "2026-11-10",
-"hash": "417c29a7809e3bcdeca9c6dfd69edb61"
+"date": "2026-11-12",
+"hash": "b3a3edc28087e128ad045dd230ef3472"
 },
 "en/attractions/jezyce.html": {
 "date": "2026-11-04",
@@ -932,12 +932,12 @@
 "hash": "079cb45df61fef2954e1a528c7a34b88"
 },
 "en/attractions/lasek-marcelinski.html": {
-"date": "2026-11-10",
-"hash": "4e6bc4414f8a957beed5287ac86187d8"
+"date": "2026-11-12",
+"hash": "cbed74892af98d26cc2a5e543a807593"
 },
 "en/attractions/legi-debinskie.html": {
-"date": "2026-11-10",
-"hash": "2a1c5dd288ddf27689a277985056d75f"
+"date": "2026-11-12",
+"hash": "e7d5b426400c8ec5c1f8fc0fd2405296"
 },
 "en/attractions/linie-turystyczne.html": {
 "date": "2026-11-03",
@@ -960,8 +960,8 @@
 "hash": "a05111edf066d6f3bf23043475c714b3"
 },
 "en/attractions/morasko.html": {
-"date": "2026-11-10",
-"hash": "14eafade2408e67272821a02cebf70e4"
+"date": "2026-11-12",
+"hash": "ae694e4deb39a91242b9f164f8ee1239"
 },
 "en/attractions/most-biskupa-jordana.html": {
 "date": "2026-11-11",
@@ -1084,12 +1084,12 @@
 "hash": "376326800c047a6c1a11e364b1d05626"
 },
 "en/attractions/ogrod-botaniczny.html": {
-"date": "2026-11-10",
-"hash": "ae74230ef8582189f3729722b4c9bce9"
+"date": "2026-11-12",
+"hash": "1fb3b77b0ca540d4c0940eea07d05e97"
 },
 "en/attractions/ogrod-zamkowy.html": {
-"date": "2026-11-10",
-"hash": "6c7dbf8981fd50ef27b166045136668a"
+"date": "2026-11-12",
+"hash": "b6e2782b12e746f69fd0db8db3caefcf"
 },
 "en/attractions/okraglak.html": {
 "date": "2026-11-04",
@@ -1112,56 +1112,56 @@
 "hash": "27fdf7b194d262e4eb35b57f0f784d58"
 },
 "en/attractions/palmiarnia.html": {
-"date": "2026-11-10",
-"hash": "6f9d00bb4990c65a0fc12e1f6f0529e4"
+"date": "2026-11-12",
+"hash": "91d52f4989fb158b6b1748699db02c7f"
 },
 "en/attractions/park-chopina.html": {
-"date": "2026-11-10",
-"hash": "639f4d9aae8903a6d1870aee8f42d886"
+"date": "2026-11-12",
+"hash": "0de6a0297e21dcbf4a91bf0ba0b58e6c"
 },
 "en/attractions/park-kasprowicza.html": {
-"date": "2026-11-10",
-"hash": "ed600a2a696a313a78da5dc81efd7002"
+"date": "2026-11-12",
+"hash": "75775f3b9d5e3aaf16e58378cfbc3ce2"
 },
 "en/attractions/park-marcinkowskiego.html": {
-"date": "2026-11-10",
-"hash": "84242671cbb8760070ca2eea6ec93c5a"
+"date": "2026-11-12",
+"hash": "919228c901802f63e5d1fa2a139edcfb"
 },
 "en/attractions/park-mickiewicza.html": {
-"date": "2026-11-10",
-"hash": "ba458d599efa880778fe486f13a0a0d5"
+"date": "2026-11-12",
+"hash": "33b77a0e2e6f58d2e309a2f3d1eb5b09"
 },
 "en/attractions/park-moniuszki.html": {
-"date": "2026-11-10",
-"hash": "d0674f2365d72ff517d43a180858b29e"
+"date": "2026-11-12",
+"hash": "2504fc8be2ce44d864d507ac9b5bb2c2"
 },
 "en/attractions/park-nad-warta.html": {
-"date": "2026-11-10",
-"hash": "3149b9802ba9de7687750e2b0b181707"
+"date": "2026-11-12",
+"hash": "dbe56728d60c06a7e0d25d782d6faa28"
 },
 "en/attractions/park-rataje.html": {
-"date": "2026-11-10",
-"hash": "b980653a9c58bb641463d41a51ce6b20"
+"date": "2026-11-12",
+"hash": "1b675918aa3e31748bd9554f1846bc52"
 },
 "en/attractions/park-solacki.html": {
-"date": "2026-11-10",
-"hash": "488ef9e692efbc501ac25d3c1ee2a9fa"
+"date": "2026-11-12",
+"hash": "97d4086ae3a00a81596c2cf22da91166"
 },
 "en/attractions/park-szelagowski.html": {
-"date": "2026-11-10",
-"hash": "fa090604d88944d6a068422e3803a56b"
+"date": "2026-11-12",
+"hash": "69a82d147df38d8174586a2f256404fe"
 },
 "en/attractions/park-tysiaclecia.html": {
-"date": "2026-11-10",
-"hash": "8d74ae2f61890b369e76564013cd06b7"
+"date": "2026-11-12",
+"hash": "31a509677dae92a19c6aa46bf44c8e31"
 },
 "en/attractions/park-wieniawskiego.html": {
-"date": "2026-11-10",
-"hash": "4dd6304aa50f158e1e5fcf44bf4ff873"
+"date": "2026-11-12",
+"hash": "4a7315bd7c2427b28d765ac775ee585b"
 },
 "en/attractions/park-wilsona.html": {
-"date": "2026-11-10",
-"hash": "2c64219409178a0758f567dc101a6931"
+"date": "2026-11-12",
+"hash": "4c11c7150faec1a813af5e20457fb290"
 },
 "en/attractions/parowozownia-wolsztyn.html": {
 "date": "2026-11-10",
@@ -1268,8 +1268,8 @@
 "hash": "3c42e0e94ac48f642ae9bb624633d0b8"
 },
 "en/attractions/rusalka.html": {
-"date": "2026-11-10",
-"hash": "f398bf305626d34dc9858a7747136e98"
+"date": "2026-11-12",
+"hash": "c82462e89b36bc2aab409c82f41c4a04"
 },
 "en/attractions/rynek-srodecki.html": {
 "date": "2026-11-11",
@@ -1296,8 +1296,8 @@
 "hash": "4caf4c473535dfc3776fba8f4bb31e78"
 },
 "en/attractions/stare-koryto-warty.html": {
-"date": "2026-11-10",
-"hash": "d79c7cbf263797405f20822d8090f60f"
+"date": "2026-11-12",
+"hash": "18ee967ed3c1a92e085c6cd4969d2fe0"
 },
 "en/attractions/stare-zoo.html": {
 "date": "2026-11-10",
@@ -1320,8 +1320,8 @@
 "hash": "c58aaff42bb8a8c1d114442cc0d525a9"
 },
 "en/attractions/szachty.html": {
-"date": "2026-11-10",
-"hash": "ee52b4aa498069352bbec9105ee32a29"
+"date": "2026-11-12",
+"hash": "813a8e0701055456daea821e3f920ee9"
 },
 "en/attractions/szreniawa.html": {
 "date": "2026-11-03",
@@ -1393,11 +1393,11 @@
 },
 "en/index.html": {
 "date": "2026-11-12",
-"hash": "c9f80282153b36f973aca848cc32143b"
+"hash": "44d7066078669fd88e4415c538e5d292"
 },
 "en/map.html": {
-"date": "2026-11-11",
-"hash": "55733ae2d21ae1ae3a192823c9ce783a"
+"date": "2026-11-12",
+"hash": "5a630c419c2f25303ffa1f173ee855a3"
 },
 "en/museums.html": {
 "date": "2026-11-11",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-11-12",
-"hash": "38f64fcb8dc3bc6d379682a997f3e168"
+"hash": "c6fb9a0c9a7034981c24b738b0656748"
 },
 "informacje.html": {
 "date": "2026-11-06",
@@ -1444,8 +1444,8 @@
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-11",
-"hash": "79470dd7c99b7becc648b2d88049e2b5"
+"date": "2026-11-12",
+"hash": "c8814fe13f65d4c1f1ef6530985fd3ad"
 },
 "muzea.html": {
 "date": "2026-11-11",

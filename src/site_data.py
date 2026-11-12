@@ -411,17 +411,18 @@ ATTRACTIONS = [
     dict(
         slug="jezioro-maltanskie", cat="przyroda", name="Jezioro Maltańskie",
         img="jezioro-malta", img_alt="Jezioro Maltańskie z lotu ptaka: tor regatowy z bojami i brzeg z kładką",
-        short="Sztuczne jezioro z torem regatowym. Spacery, rowery i atrakcje przez cały rok.",
+        short="Sztuczne jezioro z torem regatowym, nad którym są też stok, termy, kolejka i lodowisko.",
         badge="Bezpłatnie",
         status=None,
-        lead="Jezioro Maltańskie to sztuczny zbiornik, oddany do użytku w 1952 roku. Ma 2,2 km długości i około 64 hektarów powierzchni. Wokół niego biegnie popularna trasa spacerowa i rowerowa.",
+        lead="Jezioro Maltańskie powstało w 1952 roku przez spiętrzenie wód Cybiny. Ma powierzchnię 64 hektarów, a jego tor regatowy ma 2190 m długości i 170–400 m szerokości. Nazwa pochodzi od kawalerów maltańskich, czyli joannitów, którzy mieli tu siedzibę.",
         sections=[
             ("Co zobaczyć", [
-                "Tor regatowy wykonany w latach 1987–1990 z myślą o mistrzostwach świata w kajakarstwie, które w 1990 roku odbyły się w Poznaniu.",
-                "Nad jeziorem są też Termy Maltańskie, całoroczny stok Malta Ski, Kolejka Parkowa Maltanka i Nowe Zoo.",
+                "Tor regatowy, na którym odbywają się regaty kajakarskie i wioślarskie. W 1979 roku zdecydowano o modernizacji jeziora, a w sierpniu 1990 roku zorganizowano na nim XXIII Mistrzostwa Świata w Kajakarstwie. Generalnym projektantem przebudowy był arch. Klemens Mikuła.",
+                "W zachodniej części jeziora jest największa w Poznaniu fontanna, ufundowana dla upamiętnienia 750. rocznicy założenia miasta.",
+                "Wzdłuż północnego brzegu jeziora biegnie wąskotorowa Kolejka Parkowa Maltanka, a jej stacja końcowa, Zwierzyniec, jest przy wejściu do Nowego Zoo. Na południowym brzegu, na Kopcu Wolności, są całoroczny stok narciarski i letni tor saneczkowy, a u jego stóp pole do nauki gry w golfa i tor do minigolfa. Nad jeziorem jest też kąpielisko, a w sąsiedztwie Termy Maltańskie, wykorzystujące podziemne ciepłe źródła.",
             ]),
             ("Warto wiedzieć", [
-                "W czerwcu nad jeziorem i w całym mieście odbywa się Malta Festival. W 2026 roku miał 108 wydarzeń w 27 miejscach.",
+                "Latem nad jeziorem odbywają się spektakle Międzynarodowego Festiwalu Teatralnego Malta, a zimą na zachodnim brzegu działa lodowisko.",
             ]),
         ],
         address="Jezioro Maltańskie, 61-131 Poznań",
@@ -429,7 +430,10 @@ ATTRACTIONS = [
         tickets=[("Wstęp", "bezpłatnie")],
         phone=None, www=("visitpoznan.pl", "https://visitpoznan.pl/jezioro-maltanskie"),
         credit="jezioro-malta",
-        sources=[("Wikipedia: Jezioro Maltańskie", "https://pl.wikipedia.org/wiki/Jezioro_Maltańskie")],
+        sources=[("POSiR: Historia Malty", "https://posir.poznan.pl/obiekty/malta/historia"),
+                 ("Poznan.pl: Jezioro Maltańskie", "https://www.poznan.pl/mim/turystyka/jeziora,poi,2574/-,41237.html"),
+                 ("Visit Poznań: Jezioro Maltańskie", "https://visitpoznan.pl/jezioro-maltanskie"),
+                 ("Odkryj Wielkopolskę: Malta w Poznaniu", "https://regionwielkopolska.pl/katalog-obiektow/malta-w-poznaniu/")],
         see_also=[("Lodowisko Malta: sezonowe lodowisko", "atrakcje/lodowisko-malta"),
                   ("Malta Ski: stok, tor saneczkowy, kolejka górska", "atrakcje/malta-ski"),
                   ("Termy Maltańskie", "atrakcje/termy-maltanskie"),
@@ -1337,6 +1341,11 @@ for _a in ATTRACTIONS:
 # Termy Maltańskie: skrócone etykiety cen (12.11.2026).
 for _a in ATTRACTIONS:
     if _a["slug"] == "termy-maltanskie":
+        _a["checked"] = "12.11.2026"
+
+# Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "jezioro-maltanskie":
         _a["checked"] = "12.11.2026"
 
 
