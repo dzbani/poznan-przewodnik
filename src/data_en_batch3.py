@@ -309,13 +309,18 @@ EN_BATCH3 = {
         lead="The Museum of Musical Instruments, a branch of the National Museum, is housed in a townhouse on the Old Market Square. The permanent exhibition “A New Sound” is divided into 16 galleries and tells the story of European music from the late Middle Ages to the 20th century.",
         sections=[
             ("What to see", [
-                "The violin of Henryk Wieniawski.",
-                "The harpsichord on which the young Wolfgang Amadeus Mozart and a son of Johann Sebastian Bach played.",
-                "Instruments shown in the context of the period, the ensemble, the place and the tradition. On tablets with the multimedia guide you can listen to how they sound.",
+                "The violin by F. Gand from 1846, which belonged to Henryk Wieniawski.",
+                "The two-manual harpsichord by Burkat Shudi from 1765, made to the order of King Frederick II of Prussia. It was played by the young Wolfgang Amadeus Mozart and by Carl Philipp Emanuel Bach, son of Johann Sebastian Bach.",
+                "The museum's most valuable collection is its string instruments from the 17th–20th centuries: violins and violas da gamba from the workshops of the Polish masters Dankwart and Groblicz, violins by Italian masters, including Guadagnini and the Amati family, and a cello by J.-B. Vuillaume. The collection also includes traditional instruments of world cultures.",
+                "Instruments shown in the context of their era, ensemble, place and tradition. On tablets with a multimedia guide you can hear what they sound like.",
             ]),
             ("Good to know", [
-                "Since 1946 the only workshop in Poland for the conservation of musical instruments has operated here.",
-                "With the Poznań Tourist Card admission is free.",
+                "The museum is the only institution of its kind in Poland. The Musical Instruments Museum branch was founded in November 1945 on the initiative of Zdzisław Szulc, a collector and participant of the Greater Poland Uprising. The present seat, the Grodzki House at the corner of the Old Market Square and ul. Woźna, was opened on 4 December 1952, and a completely new exhibition after several years of renovation on 13 September 2019. Today the collection numbers nearly 3,000 objects.",
+                "The museum is in a two-storey townhouse without a lift. The ground floor is partly accessible architecturally, and the building has no toilet for people with disabilities.",
+                "The ticket office closes 30 minutes before the museum closes. The museum is closed on, among other days, 1 January, from Good Friday to Easter Monday, on Corpus Christi, on 1 November and on 24, 25, 26 and 31 December. It is open (as on a Sunday) on 6 January, 1 and 3 May, 15 August and 11 November.",
+                "Since 1946 the only conservation workshop for musical instruments in Poland has operated here.",
+                "The museum co-organises the Henryk Wieniawski International Violin-Making Competition, the oldest in the world. New Year's Eve concerts are held in the Marcin Groblicz concert hall.",
+                "With the Poznań Tourist Card, admission is free.",
             ]),
         ],
         hours=[("Monday", "closed"), ("Tuesday–Wednesday", "10:00–16:00"), ("Thursday", "10:00–18:00"),

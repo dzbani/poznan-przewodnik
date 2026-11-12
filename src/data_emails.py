@@ -13,6 +13,7 @@ EMAILS = {
     "rogalowe-muzeum": "muzeum@rogalowemuzeum.pl",
     "muzeum-powstania": "odwach@wmn.poznan.pl",
     "muzeum-archeologiczne": "sekretariat@muzarp.poznan.pl",
+    "muzeum-instrumentow": "mnp@mnp.art.pl",
     "muzeum-sienkiewicza": "muzeumhs@bracz.edu.pl",
     "centrum-szyfrow-enigma": "kontakt@csenigma.pl",
     "fort-vii": "muzeum@fortvii.eu",

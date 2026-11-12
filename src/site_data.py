@@ -850,12 +850,17 @@ MORE = [
         lead="Muzeum Instrumentów Muzycznych, oddział Muzeum Narodowego, mieści się w kamienicy przy Starym Rynku. Wystawa stała „Nowe brzmienie” jest podzielona na 16 galerii i opowiada o muzyce europejskiej od późnego średniowiecza po XX wiek.",
         sections=[
             ("Co zobaczyć", [
-                "Skrzypce Henryka Wieniawskiego.",
-                "Klawesyn, na którym grali młody Wolfgang Amadeusz Mozart i syn Jana Sebastiana Bacha.",
+                "Skrzypce F. Ganda z 1846 roku, które należały do Henryka Wieniawskiego.",
+                "Dwumanuałowy klawesyn Burkata Shudiego z 1765 roku, wykonany na zamówienie króla Prus Fryderyka II. Grali na nim młody Wolfgang Amadeusz Mozart i Carl Philipp Emanuel Bach, syn Jana Sebastiana Bacha.",
+                "Najcenniejszy zbiór muzeum to instrumenty lutnicze z XVII–XX wieku: skrzypce i viole da gamba z warsztatów polskich mistrzów Dankwarta i Groblicza, skrzypce włoskich mistrzów, m.in. Guadaniniego i rodziny Amatich, oraz wiolonczela J.-B. Vuillaume'a. W kolekcji są też tradycyjne instrumenty kultur świata.",
                 "Instrumenty pokazane w kontekście epoki, zespołu, miejsca i tradycji. Na tabletach z przewodnikiem multimedialnym można posłuchać, jak brzmią.",
             ]),
             ("Warto wiedzieć", [
+                "Muzeum jest jedyną tego typu placówką w Polsce. Oddział Muzeum Instrumentów Muzycznych powstał w listopadzie 1945 roku z inicjatywy Zdzisława Szulca, kolekcjonera i uczestnika powstania wielkopolskiego. Obecną siedzibę w Kamienicy Grodzkich na rogu Starego Rynku i ulicy Woźnej otwarto 4 grudnia 1952 roku, a całkowicie nową ekspozycję po kilkuletnim remoncie 13 września 2019 roku. Dziś zbiory liczą blisko 3000 obiektów.",
+                "Muzeum mieści się w dwukondygnacyjnej kamienicy bez windy. Parter jest częściowo dostępny architektonicznie, a w budynku nie ma toalety dla osób z niepełnosprawnością.",
+                "Kasa zamykana jest 30 minut przed zamknięciem muzeum. Muzeum jest nieczynne m.in. 1 stycznia, od Wielkiego Piątku do Poniedziałku Wielkanocnego, w Boże Ciało, 1 listopada oraz 24, 25, 26 i 31 grudnia. Jest otwarte (jak w niedzielę) 6 stycznia, 1 i 3 maja, 15 sierpnia i 11 listopada.",
                 "Od 1946 roku działa tu jedyna w Polsce pracownia konserwacji instrumentów muzycznych.",
+                "Muzeum współorganizuje najstarszy na świecie Międzynarodowy Konkurs Lutniczy im. Henryka Wieniawskiego. W sali koncertowej im. Marcina Groblicza odbywają się koncerty sylwestrowe.",
                 "Z Poznańską Kartą Turystyczną wstęp jest bezpłatny.",
             ]),
         ],
@@ -864,7 +869,10 @@ MORE = [
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Dzieci i młodzież 8–26 lat", "1 zł"), ("Wtorek", "wstęp wolny"), ("Z Poznańską Kartą Turystyczną", "bezpłatnie")], checked="01.10.2026",
         phone="+48 61 852 08 57", www=("mnp.art.pl", "https://mnp.art.pl/muzeum-instrumentow-muzycznych"),
         credit="muzeum-instrumentow",
-        sources=[("kultura.poznan.pl: Muzeum Instrumentów Muzycznych", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202/muzeum-instrumentow-muzycznych-oddzial-muzeum-narodowego,15707.html"),
+        sources=[("MNP: Wizyta (godziny, bilety, dostępność)", "https://mnp.art.pl/profile/wizyta-muzeum-instrumentow-muzycznych"),
+                 ("MNP: Muzeum Instrumentów Muzycznych", "https://mnp.art.pl/muzeum-instrumentow-muzycznych"),
+                 ("MNP: Kim jesteśmy, historia i zbiory", "https://mnp.art.pl/profile/muzeum-instrumentow-muzycznych"),
+                 ("Poznan.pl: Muzeum Instrumentów Muzycznych", "https://www.poznan.pl/mim/turystyka/muzea-w-poznaniu,poi,202/-,15707.html"),
                  ("Visit Poznań: Muzeum Instrumentów Muzycznych", "https://visitpoznan.pl/muzeum-instrumentow-muzycznych")],
     ),
     dict(
@@ -1374,7 +1382,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow"):
         _a["checked"] = "12.11.2026"
 
 
