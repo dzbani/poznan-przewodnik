@@ -149,7 +149,7 @@ EN_BATCH12 = {
     ),
     "pomnik-koziolkow": dict(
         name="Goats Monument (Pomnik Koziołków)",
-        img_alt="A sculpture of two goats butting heads on Kolegiacki Square",
+        img_alt="A bronze sculpture of two goats butting heads on the round cobbled area of Kolegiacki Square, surrounded by posts with chains",
         short="Two bronze goats butting heads on Kolegiacki Square. You can sit on them for a photo.",
         badge="Free",
         status=None,

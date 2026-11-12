@@ -31,7 +31,7 @@ def M(slug, name, img_alt, short, lead, sections, address, src, extra_sources=()
 
 MONUMENTS = [
     M("pomnik-koziolkow", "Pomnik Koziołków",
-      "Rzeźba dwóch trykających się koziołków na placu Kolegiackim",
+      "Brązowa rzeźba dwóch trykających się koziołków na okrągłym bruku placu Kolegiackiego, otoczona słupkami z łańcuchami",
       "Dwa trykające się koziołki z brązu na placu Kolegiackim. Można na nich usiąść do zdjęcia.",
       "Pomnik przedstawia dwa trykające się koziołki, nawiązujące do jednego z symboli Poznania: koziołków, które w południe wychodzą na wieżę ratusza.",
       [("O pomniku", [
