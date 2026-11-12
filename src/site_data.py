@@ -772,11 +772,16 @@ MORE = [
         lead="Pomnik na placu Adama Mickiewicza, nazywany Poznańskimi Krzyżami, upamiętnia bunt robotników z 28 czerwca 1956 roku.",
         sections=[
             ("O pomniku", [
+                "28 czerwca 1956 roku robotnicy Zakładów im. Stalina, dziś Zakładów Cegielskiego, podjęli strajk generalny i zorganizowali demonstrację, krwawo stłumioną przez milicję i wojsko. Według badań IPN zginęło co najmniej 58 osób, a kilkaset zostało rannych.",
                 "Postulat budowy pomnika zgłosił 10 października 1980 roku Roman Schefke z Akademii Rolniczej w Poznaniu na zebraniu delegatów NSZZ „Solidarność” Regionu Wielkopolska. 6 listopada 1980 roku powstał Społeczny Komitet Budowy Pomnika Poznańskiego Czerwca 1956, któremu przewodniczył Roman Brandstaetter.",
                 "Konkurs na projekt rozstrzygnięto 28 stycznia 1981 roku, a wpłynęły do niego 67 prace. Komitet nie zaakceptował zwycięskiego projektu „Kierunek”, a jego autorzy wycofali go 5 lutego 1981 roku. Wybrano projekt „Jedność” rzeźbiarza Adama Graczyka i architekta Włodzimierza Wojciechowskiego.",
-                "Pomnik stanął na placu Adama Mickiewicza, obok pomnika wieszcza. Budowę w znacznym stopniu wykonali, w większości społecznie i po godzinach pracy, pracownicy Zakładów im. H. Cegielskiego, a także ZNTK i Pometu.",
-                "23 maja 1981 roku wmurowano w podstawę akt erekcyjny. Pomnik odsłonięto 28 czerwca 1981 roku. Dokonał tego Stanisław Matyja, uważany za nieformalnego przywódcę buntu z 1956 roku.",
+                "Pomnik stanął na placu Adama Mickiewicza, obok pomnika wieszcza, w miejscu, gdzie wcześniej stał Pomnik Wdzięczności. Pierwotnie planowano kamień, ale ze względu na krótki termin użyto platerowanej blachy nierdzewnej z Huty Batory w Chorzowie. Budowę w znacznym stopniu wykonali, w większości społecznie i po godzinach pracy, pracownicy Zakładów im. H. Cegielskiego, a także ZNTK i Pometu.",
+                "23 maja 1981 roku wmurowano w podstawę akt erekcyjny. Pomnik odsłonięto 28 czerwca 1981 roku. Dokonał tego Stanisław Matyja, uważany za nieformalnego przywódcę buntu z 1956 roku. Na odsłonięcie przyszło szacunkowo 200 tysięcy osób, wśród nich Lech Wałęsa i Anna Walentynowicz, a odczytano telegram od Jana Pawła II.",
                 "Po wprowadzeniu stanu wojennego 13 grudnia 1981 roku pomnik stał się symbolem walki o wolność. Po pacyfikacji kopalni „Wujek” domalowano na nim datę 1981, którą dziesięć lat później, podczas renowacji, umieszczono na stałe.",
+            ]),
+            ("Symbolika", [
+                "Na pomniku widnieje hasło niesione przez demonstrantów na transparentach: „O wolność, prawo i chleb”. Dopisek „o Boga” dodano dopiero w 2005 roku.",
+                "Według Marii Skrzypczak z Muzeum Powstania Poznańskiego – Czerwiec 1956 dwa krzyże, z których jeden jest wysunięty do przodu, przedstawiają marsz robotników w pochodzie, a wspólna belka oznacza jedność robotniczą. Więzy łączące krzyże symbolizują ucisk władzy socjalistycznej, a mniejszy element, orzeł, godło i Polskę budzącą się ku wolności.",
             ]),
             ("Warto wiedzieć", [
                 "W Zamku Cesarskim działa Muzeum Powstania Poznańskiego – Czerwiec 1956.",
@@ -788,7 +793,8 @@ MORE = [
         phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/wortals/czerwiec56/-,p,58421,58426.html"),
         credit="pomnik-czerwca-1956",
         sources=[("Poznan.pl: Poznański Czerwiec 1956, pomnik", "https://www.poznan.pl/mim/wortals/czerwiec56/-,p,58421,58426.html"),
-                 ("Visit Poznań: Muzeum Powstania Poznańskiego – Czerwiec 1956", "https://visitpoznan.pl/muzeum-powstania-poznanskiego-czerwiec-1956")],
+                 ("Visit Poznań: Muzeum Powstania Poznańskiego – Czerwiec 1956", "https://visitpoznan.pl/muzeum-powstania-poznanskiego-czerwiec-1956"),
+                 ("Dzieje.pl (PAP): Pomnik Poznańskiego Czerwca 1956 – miejsce pamięci i symbol Poznania", "https://dzieje.pl/aktualnosci/pomnik-poznanskiego-czerwca-1956-miejsce-pamieci-i-symbol-poznania")],
     ),
     dict(
         slug="genius-loci", cat="zabytki", name="Rezerwat Archeologiczny Genius Loci",
