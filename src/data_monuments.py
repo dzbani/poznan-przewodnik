@@ -31,19 +31,20 @@ def M(slug, name, img_alt, short, lead, sections, address, src, extra_sources=()
 
 MONUMENTS = [
     M("pomnik-koziolkow", "Pomnik Koziołków",
-      "Brązowa rzeźba dwóch trykających się koziołków na okrągłym bruku placu Kolegiackiego, otoczona słupkami z łańcuchami",
-      "Dwa trykające się koziołki z brązu na placu Kolegiackim. Można na nich usiąść do zdjęcia.",
+      "Rzeźba dwóch trykających się koziołków na okrągłym bruku, otoczona słupkami z łańcuchami, obok tablica informacyjna",
+      "Dwa trykające się koziołki na skwerze u zbiegu ulicy Wodnej i placu Kolegiackiego. Można na nich usiąść do zdjęcia.",
       "Pomnik przedstawia dwa trykające się koziołki, nawiązujące do jednego z symboli Poznania: koziołków, które w południe wychodzą na wieżę ratusza.",
       [("O pomniku", [
-          "Zaprojektował go Robert Sobociński, a stanął w 2002 roku na placu Kolegiackim, niedaleko głównego wejścia do Urzędu Miasta w dawnym kolegium jezuickim.",
+          "Autorem rzeźby jest Robert Sobociński, a pomysłodawcą Juliusz Kubel, działacz, publicysta i popularyzator gwary poznańskiej. Pomnik powstał w 2002 roku.",
+          "Pierwotnie stał na skwerze przed plebanią na placu Kolegiackim. W 2019 roku przeniesiono go tymczasowo do parku Chopina. 17 marca 2021 roku wrócił w pobliże placu Kolegiackiego, na skwer u zbiegu ulicy Wodnej i placu Kolegiackiego, na jedną z kwater po uschniętym drzewie. Miejsce to ma w przyszłości zyskać nazwę „Zaułek Poetów”.",
       ]),
        ("Warto wiedzieć", [
-          "Rzeźba stoi nisko, a na grzbietach koziołków można usiąść, dlatego to popularne miejsce pamiątkowych zdjęć.",
+          "Na grzbietach zwierząt można siadać, dlatego pomnik jest popularnym miejscem pamiątkowych zdjęć wśród turystów i mieszkańców miasta.",
           "Prawdziwe koziołki trykają się codziennie o 12:00 na wieży ratusza, kilka minut spacerem stąd.",
       ])],
-      "pl. Kolegiacki, 61-841 Poznań",
+      "ul. Wodna / pl. Kolegiacki, 61-841 Poznań",
       ("poznan.pl: Pomnik Poznańskich Koziołków", PM + "poznanskich-koziolkow,51451.html"),
-      [wiki("Pomnik koziołków w Poznaniu")]),
+      [("Poznan.pl: Pomnik koziołków wrócił w pobliże placu Kolegiackiego (17.03.2021)", "https://www.poznan.pl/mim/info/news/pomnik-koziolkow-wrocil-w-poblize-placu-kolegiackiego,160924.html")]),
 
     M("fontanna-prozerpiny", "Fontanna Prozerpiny",
       "Barokowa Fontanna Prozerpiny przed ratuszem wieczorem",

@@ -149,17 +149,18 @@ EN_BATCH12 = {
     ),
     "pomnik-koziolkow": dict(
         name="Goats Monument (Pomnik Koziołków)",
-        img_alt="A bronze sculpture of two goats butting heads on the round cobbled area of Kolegiacki Square, surrounded by posts with chains",
-        short="Two bronze goats butting heads on Kolegiacki Square. You can sit on them for a photo.",
+        img_alt="A sculpture of two goats butting heads on a round cobbled area, surrounded by posts with chains, with an information board beside",
+        short="Two goats butting heads on the square at the corner of ul. Wodna and Kolegiacki Square. You can sit on them for a photo.",
         badge="Free",
         status=None,
         lead="The monument shows two goats butting heads, referring to one of the symbols of Poznań: the goats that come out on the town hall tower at noon.",
         sections=[
             ("About the monument", [
-                "It was designed by Robert Sobociński and was set up in 2002 on Kolegiacki Square, not far from the main entrance of the City Hall in the former Jesuit College.",
+                "The sculpture is by Robert Sobociński, and the idea came from Juliusz Kubel, an activist, writer and promoter of the Poznań dialect. The monument was made in 2002.",
+                "It originally stood on the small square in front of the presbytery on Kolegiacki Square. In 2019 it was moved temporarily to Chopin Park. On 17 March 2021 it returned to the vicinity of Kolegiacki Square, to the square at the corner of ul. Wodna and Kolegiacki Square, onto one of the plots left by a dead tree. The place is to be named “Poets’ Nook” (Zaułek Poetów) in the future.",
             ]),
             ("Good to know", [
-                "The sculpture stands low, and you can sit on the goats' backs, so it is a popular place for souvenir photos.",
+                "You can sit on the animals' backs, so the monument is a popular place for souvenir photos among tourists and residents.",
                 "The real goats butt heads every day at 12:00 on the town hall tower, a few minutes' walk from here.",
             ]),
         ],
