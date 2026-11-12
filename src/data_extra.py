@@ -114,7 +114,7 @@ EXTRA = [
     ),
     dict(
         slug="fotoplastykon", cat="muzea", name="Fotoplastykon Poznański",
-        img="fotoplastykon", img_alt="Fotoplastykon Poznański",
+        img="fotoplastykon", img_alt="Fotoplastykon Poznański: drewniane okrągłe urządzenie z mosiężnymi okularami i czarnymi stołkami wokół",
         short="Zabytkowe urządzenie do oglądania trójwymiarowych zdjęć (stereofotografii) przy ulicy Ratajczaka.",
         badge="Nd nieczynne",
         status=None,

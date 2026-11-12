@@ -236,7 +236,7 @@ EN_BATCH3 = {
     ),
     "fotoplastykon": dict(
         name="Poznań Fotoplastikon",
-        img_alt="The Poznań Fotoplastikon",
+        img_alt="The Poznań Fotoplastikon: a round wooden device with brass eyepieces and black stools around it",
         short="A historic device for viewing three-dimensional photographs (stereophotography) on ul. Ratajczaka.",
         badge="Closed Sun",
         status=None,
