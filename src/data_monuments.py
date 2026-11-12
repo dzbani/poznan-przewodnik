@@ -47,7 +47,7 @@ MONUMENTS = [
       [("Poznan.pl: Pomnik koziołków wrócił w pobliże placu Kolegiackiego (17.03.2021)", "https://www.poznan.pl/mim/info/news/pomnik-koziolkow-wrocil-w-poblize-placu-kolegiackiego,160924.html")]),
 
     M("fontanna-prozerpiny", "Fontanna Prozerpiny",
-      "Barokowa Fontanna Prozerpiny przed ratuszem wieczorem",
+      "Barokowa Fontanna Prozerpiny ze sceną porwania, otoczona czarnym kutym ogrodzeniem, na tle kolorowych kamienic Starego Rynku",
       "Barokowa fontanna z 1766 roku przed ratuszem na Starym Rynku, ze sceną porwania Prozerpiny.",
       "Fontanna Prozerpiny stoi przed ratuszem na Starym Rynku. To barokowe dzieło rzeźbiarza Augustyna Schöpsa, ukończone w 1766 roku, i jeden z najbardziej rozpoznawalnych zabytków Poznania.",
       [("Historia", [

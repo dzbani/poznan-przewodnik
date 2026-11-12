@@ -169,7 +169,7 @@ EN_BATCH12 = {
     ),
     "fontanna-prozerpiny": dict(
         name="Proserpina Fountain",
-        img_alt="The Baroque Proserpina Fountain in front of the town hall in the evening",
+        img_alt="The Baroque Proserpina Fountain with the scene of the abduction, surrounded by a black wrought-iron fence, against the colourful townhouses of the Old Market Square",
         short="A Baroque fountain from 1766 in front of the town hall on the Old Market Square, with the scene of the abduction of Proserpina.",
         badge="Free",
         status=None,
