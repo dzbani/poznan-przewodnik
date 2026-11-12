@@ -118,22 +118,27 @@ EXTRA = [
         short="Zabytkowe urządzenie do oglądania trójwymiarowych zdjęć (stereofotografii) przy ulicy Ratajczaka.",
         badge="Nd nieczynne",
         status=None,
-        lead="Fotoplastykon to XIX-wieczne urządzenie do oglądania stereofotografii, czyli zdjęć, które przez okular wyglądają na trójwymiarowe. Pierwszy taki aparat skonstruował August Fuhrmann, a urządzenie uruchomiono po raz pierwszy w 1883 roku.",
+        lead="Fotoplastykon to urządzenie do oglądania stereofotografii, czyli dwóch niemal identycznych obrazów, które układ optyczny zamienia w jeden przestrzenny. Pierwszy prawdziwy fotoplastykon skonstruował August Fuhrmann, a urządzenie, zwane też Kaiser-Panoramą, uruchomiono po raz pierwszy w 1883 roku. Zbigniew Herbert nazywał je „wielką brązową beczką”.",
         sections=[
             ("Historia", [
-                "Fotoplastykon trafił do Poznania po II wojnie światowej. W latach 1982–2005 stał w galerii fotografa Antoniego Ruta przy ulicy Święty Marcin.",
-                "W 2014 roku, dzięki współpracy Antoniego Ruta z miastem, urządzenie stało się własnością miejską. Od tego roku stoi w budynku Arkadii przy ulicy Ratajczaka.",
+                "Pierwsza wzmianka o poznańskiej Kaiser-Panoramie pochodzi z 1907 roku, ale był to najprawdopodobniej inny aparat niż ten, który przetrwał do dziś. Znane dziś urządzenie pojawiło się w Poznaniu po II wojnie światowej jako własność państwa Silskich. Początkowo stało przy ul. Piekary 19, a pod koniec 1950 roku przeniesiono je do lokalu przy ul. Armii Czerwonej 53, dziś ul. Święty Marcin.",
+                "Na początku lat 70. fotoplastykon kupił fotografik Władysław Rut, a w 1982 roku odziedziczył go syn, Antoni Rut, który założył galerię „Fotoplastykon”, działającą do 2005 roku. Potem urządzenie trafiło do piwnicy, a na krótko pokazano je w Starym Browarze podczas 6. Biennale Fotografii w 2009 roku.",
+                "W 2014 roku urządzenie stało się własnością Wydawnictwa Miejskiego Posnania. Najpierw stało w Galerii Miejskiej Arsenał na Starym Rynku, a dziś w zabytkowym gmachu Arkadii przy ul. Ratajczaka 44.",
             ]),
             ("Co zobaczyć", [
-                "Czasowe wystawy tematyczne ze zdjęciami stereoskopowymi. Opisy są po polsku, angielsku i ukraińsku.",
+                "Stereofotografie pokazywane w fotoplastykonie. Kolekcja obejmuje 48 zdjęć, wystawy zmieniają się co kwartał, a sam pokaz trwa około 15 minut. Opisy są po polsku, angielsku i ukraińsku.",
+            ]),
+            ("Warto wiedzieć", [
+                "Z Poznańską Kartą Turystyczną wstęp jest bezpłatny. Ostatnie wejście jest 30 minut przed zamknięciem Centrum Informacji Kulturalnej.",
             ]),
         ],
         address="ul. Ratajczaka 44 (Arkadia, wejście przez Centrum Informacji Kulturalnej), 61-728 Poznań",
         hours=[("Poniedziałek–piątek", "10:00–18:00"), ("Sobota", "10:00–17:00"), ("Niedziela i święta", "nieczynne")],
         tickets=[("Ceny biletów", "na fotoplastykon.poznan.pl")],
-        phone="+48 61 854 07 52", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/fotoplastykon-poznanski,71379.html"),
+        phone="+48 61 854 07 52", www=("fotoplastykon.poznan.pl", "https://fotoplastykon.poznan.pl/"),
         credit="fotoplastykon",
-        sources=[("kultura.poznan.pl: Fotoplastykon Poznański", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/fotoplastykon-poznanski,71379.html"),
+        sources=[("Poznan.pl: Fotoplastykon Poznański", "https://www.poznan.pl/mim/turystyka/muzea-w-poznaniu,poi,202/-,71379.html"),
+                 ("Visit Poznań: Fotoplastykon Poznański", "https://visitpoznan.pl/fotoplastykon-poznanski"),
                  ("kultura.poznan.pl: aktualności o Fotoplastykonie", "https://kultura.poznan.pl/mim/kultura/news/fotoplastykon-poznanski,252807.html")],
     ),
     dict(

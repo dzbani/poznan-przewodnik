@@ -21,6 +21,7 @@ EMAILS = {
     "muzeum-farmacji": "muzeumfarmacji@woia.pl",
     "muzeum-historii-ubioru": "muzeum@fmhu.pl",
     "muzeum-iluzji": "info@muzeumins.pl",
+    "fotoplastykon": "cik@wm.poznan.pl",
     "muzeum-komunikacji-mpk": "muzeum@mpk.poznan.pl",
     "muzeum-prl": "info@prlmuzeum.pl",
     "schron-przeciwatomowy": "slupska@wmn.poznan.pl",

@@ -240,17 +240,20 @@ EN_BATCH3 = {
         short="A historic device for viewing three-dimensional photographs (stereophotography) on ul. Ratajczaka.",
         badge="Closed Sun",
         status=None,
-        lead="The Fotoplastikon is a 19th-century device for viewing stereophotographs, that is, photographs that look three-dimensional through an eyepiece. The first such apparatus was built by August Fuhrmann, and the device was first put into operation in 1883.",
+        lead="The Fotoplastikon is a device for viewing stereophotographs, that is, two almost identical images which an optical system turns into one three-dimensional picture. The first true fotoplastikon was built by August Fuhrmann, and the device, also called the Kaiser-Panorama, was first put into operation in 1883. Zbigniew Herbert called it “a great brown barrel”.",
         sections=[
             ("History", [
-                "The Fotoplastikon came to Poznań after the Second World War. From 1982 to 2005 it stood in the gallery of the photographer Antoni Rut on Święty Marcin Street.",
-                "In 2014, thanks to Antoni Rut's cooperation with the city, the device became municipal property. Since that year it has stood in the Arkadia building on ul. Ratajczaka.",
+                "The first mention of a Kaiser-Panorama in Poznań dates from 1907, but it was most probably a different apparatus from the one that has survived to this day. The device known today appeared in Poznań after the Second World War as the property of the Silski family. At first it stood at ul. Piekary 19, and at the end of 1950 it was moved to premises at ul. Armii Czerwonej 53, today ul. Święty Marcin.",
+                "In the early 1970s the photographer Władysław Rut bought the fotoplastikon, and in 1982 it was inherited by his son Antoni Rut, who set up the “Fotoplastykon” gallery, which operated until 2005. After that the device ended up in a cellar, and it was shown briefly in Stary Browar during the 6th Photography Biennale in 2009.",
+                "In 2014 the device became the property of the Posnania City Publishing House. It first stood in the Arsenal City Gallery on the Old Market Square, and today it is in the historic Arkadia building at ul. Ratajczaka 44.",
             ]),
             ("What to see", [
-                "Temporary themed exhibitions of stereoscopic photographs. The captions are in Polish, English and Ukrainian.",
+                "Stereophotographs shown in the fotoplastikon. The collection has 48 photographs, the exhibitions change every quarter, and the show itself lasts about 15 minutes. The captions are in Polish, English and Ukrainian.",
+            ]),
+            ("Good to know", [
+                "With the Poznań Tourist Card, admission is free. The last entry is 30 minutes before the Cultural Information Centre closes.",
             ]),
         ],
-        address="ul. Ratajczaka 44 (Arkadia, entrance through the Cultural Information Centre), 61-728 Poznań",
         hours=[("Monday–Friday", "10:00–18:00"), ("Saturday", "10:00–17:00"), ("Sundays and public holidays", "closed")],
         tickets=[("Ticket prices", "at fotoplastykon.poznan.pl")],
     ),
