@@ -48,4 +48,5 @@ EMAILS = {
     "ogrod-botaniczny": "botanik@amu.edu.pl",
     "muzeum-lesnictwa-goluchow": "okl@okl.lasy.gov.pl",
     "zagroda-zwierzat-goluchow": "okl@okl.lasy.gov.pl",
+    "zamek-cesarski": "sekretariat@ckzamek.pl",
 }
