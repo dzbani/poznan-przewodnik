@@ -214,23 +214,23 @@ ATTRACTIONS = [
         short="Neoromańska rezydencja Wilhelma II z lat 1905–1910. Dziś Centrum Kultury Zamek.",
         badge="Codziennie",
         status=None,
-        lead="Zamek zbudowano w latach 1905–1910 dla cesarza Wilhelma II. Zaprojektował go Franz Schwechten w stylu neoromańskim, który cesarz wybrał jako nawiązanie do średniowiecznego cesarstwa.",
+        lead="Zamek Cesarski powstał w latach 1905–1910 jako rezydencja Wilhelma II, ostatniego niemieckiego cesarza (poznan.pl liczy budowę od 1904 roku). To neoromański gmach projektu Franza Schwechtena z dominującą 74-metrową wieżą zegarową. Po zniszczeniu w czasie II wojny światowej wieża jest o 30 m niższa.",
         sections=[
             ("O miejscu", [
-                "Cesarz osobiście wpływał na szczegóły projektu. Najokazalszym wnętrzem była Sala Tronowa, wzorowana na bazylikach bizantyjskich, z posągami ośmiu cesarzy niemieckich.",
-                "Po I wojnie światowej dawne apartamenty cesarskie na pierwszym piętrze zajął Prezydent Rzeczypospolitej, a znaczną część gmachu Uniwersytet Poznański.",
-                "W 1939 roku Franz Böhmer zaprojektował przebudowę rezydencji na siedzibę Adolfa Hitlera i namiestnika Arthura Greisera. Prace przerwano w 1943 roku. CK Zamek pisze, że naziści całkowicie przebudowali gmach, a według Wikipedii ograniczono się do usunięcia większości symboli nazistowskich i rozebrania uszkodzonej górnej kondygacji wieży zegarowej. Nie ma dowodów, że Hitler kiedykolwiek był w Poznaniu.",
-                "Od 1948 roku zamek był siedzibą władz miejskich, od początku lat 60. Pałacem Kultury, a od połowy lat 90. mieści Centrum Kultury Zamek: kino, galerie, sceny koncertowe i teatralne.",
+                "Zamek kosztował 5 milionów marek, a cesarza gościł tylko trzykrotnie: w 1910 roku na otwarciu, w 1913 roku na inauguracji zamkowej kaplicy i w 1915 roku, gdy w rezydencji kwaterowało dowództwo niemieckiej armii na Wschodzie. Podobno cesarz osobiście ingerował w architekturę gmachu.",
+                "Po wybuchu powstania wielkopolskiego zamek przeszedł w ręce Polaków. Był siedzibą najpierw ministra byłej Dzielnicy Pruskiej, a od 1922 roku prezydenta Rzeczypospolitej podczas jego pobytów w Poznaniu. Dawne apartamenty cesarskie na pierwszym piętrze zajął Prezydent, a dolne piętra Uniwersytet Poznański.",
+                "W czasie II wojny światowej Niemcy przeprowadzili gruntowną przebudowę za ponad 16 mln marek, z czego milion przekazał osobiście Hitler. Projektantem był Franz Böhmer. Kaplicę zamieniono na gabinet Hitlera: rozebrano absydę, a w jej miejscu powstał niewielki balkon widoczny od ul. Święty Marcin, wykuto też paradne wejście od tej ulicy. Hitler prawdopodobnie nigdy nie zobaczył swojej poznańskiej rezydencji.",
+                "31 stycznia 1945 roku rozpoczął się ostrzał zamku, który zniszczył wieżę. Po wojnie pojawiały się głosy za całkowitym zniszczeniem gmachu, ale ostatecznie rozebrano tylko zniszczoną wieżę. Od 1948 roku zamek był siedzibą władz miasta (do 1962 roku), od początku lat 60. Pałacem Kultury, a od połowy lat 90. mieści Centrum Kultury Zamek. W 1979 roku wpisano go do rejestru zabytków.",
             ]),
             ("Co zobaczyć", [
-                "Gabinet Hitlera, urządzony w 1939 roku w miejscu dawnej kaplicy cesarskiej w wieży, z podgrzewanym elektrycznie balkonem. Na Dziedzińcu Różanym stoi Fontanna Lwów wzorowana na fontannie z Patio de los Leones w Alhambrze w Grenadzie.",
+                "Od 2004 roku trwa renowacja gmachu i jego otoczenia. Budynek odzyskał oryginalne, jasne barwy, odnowiono skwer przy zamku i fontannę wzorowaną na XIII-wiecznej fontannie lwów z Alhambry w Grenadzie.",
+                "W zamku działają m.in. kino Pałacowe i galerie, w tym Galeria Fotografii pf. Według poznan.pl mieszczą się tu także Teatr Animacji i klub jazzowy Blue Note.",
                 "Audioprzewodnik (urządzenie albo aplikacja w telefonie z trzydniowym dostępem) ma trasy: podstawową (po polsku, angielsku i ukraińsku), dla dzieci (7–14 lat), bez barier (po polsku, windą zamiast schodów) oraz z lektorem polskiego języka migowego (tylko w aplikacji). Urządzenia wydaje Informacja CK Zamek do 18:00 (zwrot do 19:00), a zamiast urządzenia można użyć kodu dostępu w aplikacji.",
             ]),
             ("Warto wiedzieć", [
                 "Od 5 września do 6 grudnia 2026 trwa wystawa „Świat jak zielnik. Natura w sztuce od XVII do XXI wieku”. W tym czasie CK Zamek poleca bilet łączony na wystawę i historyczną część zamku: normalny 40 zł z audioprzewodnikiem lub 35 zł z mapką, ulgowy 35 zł lub 30 zł.",
                 "Cena ulgowa obowiązuje także posiadaczy karty OK Poznań. Bilety kupisz w kasie, w biletomacie w Holu Wielkim albo online na bilety24.pl.",
                 "Strona zwiedzania i kontakt podają zamknięcie o 19:00 (sprzedaż biletów do 18:00), a niektóre inne podstrony CK Zamek 20:00, więc godzinę zamknięcia potwierdź w Informacji.",
-                "11 listopada 2026 roku w godzinach 11:00–21:00 przed zamkiem odbywa się Kiermasz Świętomarciński w ramach Imienin Ulicy Święty Marcin. Wydarzenie ma charakter imprezy masowej.",
             ]),
         ],
         address="ul. Święty Marcin 80/82, 61-809 Poznań",
@@ -244,7 +244,8 @@ ATTRACTIONS = [
                  ("CK Zamek: kontakt", "https://ckzamek.pl/podstrony/16-kontakt/"),
                  ("CK Zamek: Imieniny Ulicy Święty Marcin 2026", "https://ckzamek.pl/podstrony/12-przestrzen-miasta/"),
                  ("CK Zamek: cennik (aktualizacja 30.03.2026)", "https://ckzamek.bilety24.pl/wp-content/uploads/2026/04/CENNIK_CK_ZAMEK_aktualizacja_30.03.2026.pdf"),
-                 ("Wikipedia: Zamek Cesarski w Poznaniu", "https://pl.wikipedia.org/wiki/Zamek_Cesarski_w_Poznaniu")],
+                 ("poznan.pl: Zamek Cesarski – ostatni zbudowany w Europie zamek monarszy", "https://www.poznan.pl/mim/s8a/czy-wiesz-ze,doc,576/wybudowany-w-1910-r-zamek-cesarski-w-poznaniu-byl-ostatnim-zbudowanym-w-europie-zamkiem-monarszym,3286.html"),
+                 ("Cyryl: Zamek Cesarski i jego rezydenci 1905–1944", "https://cyryl.poznan.pl/kolekcja/zamek-cesarski-i-jego-rezydenci-1905-1944-pocztowki-tadeusza-bonieckiego/")],
     ),
     dict(
         slug="cytadela", cat="zabytki", name="Cytadela",
@@ -1346,7 +1347,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski"):
         _a["checked"] = "12.11.2026"
 
 
