@@ -299,7 +299,7 @@ EN_BATCH9 = {
             ]),
             ("What to see", [
                 "St Margaret's Church and the Philippines' monastery by the square.",
-                "The three-dimensional mural “A Śródka Tale with a Trumpeter on the Roof and a Cat in the Background”, unveiled on 1 October 2015 on the townhouse at ul. Śródka 3. It was based on a photograph from the 1920s.",
+                "The three-dimensional mural “A Śródka Tale with a Trumpeter on the Roof and a Cat in the Background”, unveiled on 1 October 2015 on the townhouse at the corner of ul. Śródka and Rynek Śródecki. It was based on a photograph from the 1920s.",
                 "A plaque unveiled on 27 December 1998, on the 80th anniversary of the Greater Poland Uprising, on the building at no. 15.",
             ]),
             ("Good to know", [

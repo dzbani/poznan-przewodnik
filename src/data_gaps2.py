@@ -97,7 +97,7 @@ GAPS2 = [
             ]),
             ("Co zobaczyć", [
                 "Kościół św. Małgorzaty i klasztor filipinów przy rynku.",
-                "Trójwymiarowy mural „Opowieść śródecka z trębaczem na dachu i kotem w tle”, odsłonięty 1 października 2015 roku na kamienicy przy ul. Śródka 3. Powstał na podstawie zdjęcia z lat 20. XX wieku.",
+                "Trójwymiarowy mural „Opowieść śródecka z trębaczem na dachu i kotem w tle”, odsłonięty 1 października 2015 roku na kamienicy na rogu ulic Śródka i Rynek Śródecki. Powstał na podstawie zdjęcia z lat 20. XX wieku.",
                 "Tablicę odsłoniętą 27 grudnia 1998 roku, w 80. rocznicę Powstania Wielkopolskiego, na budynku pod nr. 15.",
             ]),
             ("Warto wiedzieć", [

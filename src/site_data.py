@@ -699,26 +699,27 @@ ATTRACTIONS = [
     dict(
         slug="srodka", cat="wspolczesny", name="Śródka i mural 3D",
         img="srodka", img_alt="Trójwymiarowy mural na Śródce: kamienice z trębaczem na dachu i kotem w tle", og_pos="center 15%",
-        short="Trójwymiarowy mural z trębaczem na dachu, tuż obok Bramy Poznania.",
+        short="Trójwymiarowy mural z trębaczem na dachu i kotem w tle, na rogu ulic Śródka i Rynek Śródecki.",
         badge="Bezpłatnie",
         status=None,
-        lead="Śródka to dzielnica po wschodniej stronie Cybiny, naprzeciw Ostrowa Tumskiego. Jej najbardziej znany punkt to trójwymiarowy mural „Opowieść śródecka z trębaczem na dachu i kotem w tle”.",
+        lead="Śródka to historyczna dzielnica Poznania. Jej najbardziej znany punkt to trójwymiarowy mural „Opowieść śródecka z trębaczem na dachu i kotem w tle”, na ścianie kamienicy na rogu ulic Śródka i Rynek Śródecki.",
         sections=[
             ("O muralu", [
-                "Mural odsłonięto 1 października 2015 roku. Koncepcję przygotował Radosław Barek, a pomysłodawcą był radny osiedlowy Gerard Cofta.",
-                "Malowidło powstało na podstawie fotografii Śródki z lat 20. XX wieku i zajmuje ścianę kamienicy przy Rynku Śródeckim.",
+                "Mural wykonano w technice 3D i odsłonięto 1 października 2015 roku. Pomysł zgłosił Gerard Cofta, lokalny społecznik i członek Rady Osiedla, zainspirowany fotografią z lat 20. XX wieku. Szkic przygotował prof. Radosław Barek, architekt rysownik.",
+                "Realizacji podjęła się Fundacja Artystyczno-Edukacyjna PUENTA, w ramach projektu „W środku Śródki 2015”, dofinansowanego przez Miasto Poznań w konkursie „Centrum Warte Poznania”. Farby ufundowała firma Budchem.",
             ]),
-            ("Warto wiedzieć", [
-                "Śródkę łatwo połączyć z wizytą w Bramie Poznania i na Ostrowie Tumskim. Wszystkie trzy miejsca leżą blisko siebie.",
+            ("Co przedstawia", [
+                "Mural opowiada historię dzielnicy i jest wspomnieniem dawnego życia małego miasteczka, w którym mieszkało i pracowało wielu rzemieślników i kupców.",
+                "Mały zielony domek, w którego drzwiach stoi rzeźnik, nawiązuje do dawnej zabudowy i działającej tu kiedyś jatki rzeźniczej. Hejnalista na dachu przypomina nieistniejący już ratusz śródecki, z którego trębacz grał hejnał. Na jednej ze ścian jest jeździec na koniu z białym orłem na tarczy: Władysław Odonic, książę wielkopolski, który w 1231 roku nadał Śródce prawa miejskie. Kot skradający się po kalenicy najwyższego dachu jest dla mieszkańców symbolem tego miejsca.",
             ]),
         ],
-        address="ul. Śródka 3, 61-125 Poznań",
+        address="róg ul. Śródka i Rynku Śródeckiego, 61-125 Poznań",
         hours=[("Mural", "widoczny całą dobę")],
         tickets=[("Wstęp", "bezpłatnie")],
         phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/info/news/trojwymiarowy-mural-na-srodce,85708.html"),
         credit="srodka",
         sources=[("poznan.pl: Trójwymiarowy mural na Śródce", "https://www.poznan.pl/mim/info/news/trojwymiarowy-mural-na-srodce,85708.html"),
-                 ("Wikipedia: Opowieść śródecka", "https://pl.wikipedia.org/wiki/Opowieść_śródecka_z_trębaczem_na_dachu_i_kotem_w_tle")],
+                 ("poznan.pl: Mural „Opowieść śródecka z trębaczem na dachu i kotem w tle”", "https://www.poznan.pl/mim/s8a/-,p,1025,5634,31659.html")],
     ),
 ]
 
@@ -1345,7 +1346,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] == "jezioro-maltanskie":
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki"):
         _a["checked"] = "12.11.2026"
 
 

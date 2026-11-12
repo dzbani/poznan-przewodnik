@@ -171,17 +171,18 @@ EN_BATCH2 = {
     "srodka": dict(
         name="Śródka and the 3D Mural",
         img_alt="A three-dimensional mural in Śródka: townhouses with a trumpeter on the roof and a cat in the background",
-        short="A three-dimensional mural with a trumpeter on the roof, right next to the Gate of Poznań.",
+        short="A three-dimensional mural with a trumpeter on the roof and a cat in the background, at the corner of ul. Śródka and Rynek Śródecki.",
         badge="Free",
         status=None,
-        lead="Śródka is a district on the east side of the Cybina, opposite Ostrów Tumski. Its best-known sight is the three-dimensional mural “A Śródka Tale with a Trumpeter on the Roof and a Cat in the Background”.",
+        lead="Śródka is a historic district of Poznań. Its best-known sight is the three-dimensional mural “A Śródka Tale with a Trumpeter on the Roof and a Cat in the Background”, on a townhouse wall at the corner of ul. Śródka and Rynek Śródecki.",
         sections=[
             ("About the mural", [
-                "The mural was unveiled on 1 October 2015. The concept was prepared by Radosław Barek, and the idea came from the neighbourhood councillor Gerard Cofta.",
-                "The painting is based on photographs of Śródka from the 1920s and covers a wall of a townhouse on the Śródka Market Square (Rynek Śródecki).",
+                "The mural was made in 3D technique and unveiled on 1 October 2015. The idea came from Gerard Cofta, a local community activist and member of the Neighbourhood Council, inspired by a photograph from the 1920s. The sketch was prepared by Prof. Radosław Barek, an architect and draughtsman.",
+                "The project was carried out by the PUENTA Artistic and Educational Foundation, as part of “W środku Śródki 2015”, co-funded by the City of Poznań in the “Centrum Warte Poznania” competition. The paint was donated by the company Budchem.",
             ]),
-            ("Good to know", [
-                "Śródka is easy to combine with a visit to the Gate of Poznań and Ostrów Tumski. All three places are close to one another.",
+            ("What it shows", [
+                "The mural tells the story of the district and recalls the old life of a small town where many craftsmen and merchants lived and worked.",
+                "The small green house with a butcher standing in the doorway refers to the old buildings and the butchers' stalls that once operated here. The trumpeter on the roof recalls the Śródka town hall, now gone, from which a trumpeter once played the hejnał. On one wall is a horseman with a white eagle on his shield: Władysław Odonic, Duke of Greater Poland, who granted Śródka town rights in 1231. The cat creeping along the ridge of the tallest roof is a symbol of the place for local residents.",
             ]),
         ],
         hours=[("Mural", "visible around the clock")],

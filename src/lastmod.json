@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-12",
-"hash": "14c389a2a32503429a511b8f449b5386"
+"hash": "d13ea8f662ec235273e048fafd681108"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -148,8 +148,8 @@
 "hash": "ea835cd2f6ccc1e8922b119b2c7595ba"
 },
 "atrakcje/jezyce.html": {
-"date": "2026-11-04",
-"hash": "8264cc322618e6a6620d23f604913746"
+"date": "2026-11-12",
+"hash": "62a7078abdc1d2a7975da777c528657b"
 },
 "atrakcje/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -400,8 +400,8 @@
 "hash": "c1dd04f92d981425d285c332f8daa170"
 },
 "atrakcje/okraglak.html": {
-"date": "2026-11-04",
-"hash": "9fe3a2fbda61974382b6a118bc388d8d"
+"date": "2026-11-12",
+"hash": "650bb415d9072399bca3b2e893cf6987"
 },
 "atrakcje/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -580,8 +580,8 @@
 "hash": "e983d56691033ebbdcc91f13caeaf572"
 },
 "atrakcje/rynek-srodecki.html": {
-"date": "2026-11-11",
-"hash": "bc33861ce86be34fb978acd376b3edc4"
+"date": "2026-11-12",
+"hash": "d155814fe7aaedeb0cfa80ed0638bfe5"
 },
 "atrakcje/salon-nowowiejskiego.html": {
 "date": "2026-10-23",
@@ -596,12 +596,12 @@
 "hash": "d437a86f9ef0673fda20545fc441c040"
 },
 "atrakcje/srodka.html": {
-"date": "2026-11-07",
-"hash": "6eed0572b8a52e8293cce4aab72bba38"
+"date": "2026-11-12",
+"hash": "cc8c96e2f91c6e2aa95d8dbbd64de5f3"
 },
 "atrakcje/stadion.html": {
-"date": "2026-11-04",
-"hash": "59bf16637a18620a9c1407502f673b61"
+"date": "2026-11-12",
+"hash": "fe5ceb8a685d5163eae9c660fac06393"
 },
 "atrakcje/stare-koryto-warty.html": {
 "date": "2026-11-12",
@@ -612,8 +612,8 @@
 "hash": "71e5cef947bba47f74e9a82c88c810d1"
 },
 "atrakcje/stary-browar.html": {
-"date": "2026-11-11",
-"hash": "ab0f82f30fe7ec635797484938bedc25"
+"date": "2026-11-12",
+"hash": "4b8e0b903ce620e55e6b17b9aef2251e"
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-11-11",
@@ -636,8 +636,8 @@
 "hash": "cfb180ec47e2025797d422ad41555c3a"
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
-"date": "2026-11-10",
-"hash": "632390b83e406517c5e7ec6b2a49ea8a"
+"date": "2026-11-12",
+"hash": "a4011365eb6f3345f24a298f682e55b5"
 },
 "atrakcje/teatr-wielki.html": {
 "date": "2026-11-11",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-12",
-"hash": "c8ac7d9b45797948c0b49d2b65cfc280"
+"hash": "984f3e04ee57156e06a170fe44a1f8a9"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -840,8 +840,8 @@
 "hash": "b3a3edc28087e128ad045dd230ef3472"
 },
 "en/attractions/jezyce.html": {
-"date": "2026-11-04",
-"hash": "46dfdcfc619f06ea91a5491240ff787b"
+"date": "2026-11-12",
+"hash": "563065adb2bb8ad08fd13cf4f0dc3fa9"
 },
 "en/attractions/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -1092,8 +1092,8 @@
 "hash": "b6e2782b12e746f69fd0db8db3caefcf"
 },
 "en/attractions/okraglak.html": {
-"date": "2026-11-04",
-"hash": "0b45613ca19629e1d7e51ddba8567dc8"
+"date": "2026-11-12",
+"hash": "c97a3437284602ca4bb78dda0a993fff"
 },
 "en/attractions/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -1272,8 +1272,8 @@
 "hash": "c82462e89b36bc2aab409c82f41c4a04"
 },
 "en/attractions/rynek-srodecki.html": {
-"date": "2026-11-11",
-"hash": "32e413fc0e98b960b744f764f9a69998"
+"date": "2026-11-12",
+"hash": "a3aca419819315a7e762f9de7eb8f066"
 },
 "en/attractions/salon-nowowiejskiego.html": {
 "date": "2026-10-24",
@@ -1288,12 +1288,12 @@
 "hash": "e6ab176b5883702a9c2b0cb41bd7c3f8"
 },
 "en/attractions/srodka.html": {
-"date": "2026-11-07",
-"hash": "ac6f22be4feae4757925ee210eedda38"
+"date": "2026-11-12",
+"hash": "dd795171577e219fd65bb981bf86d684"
 },
 "en/attractions/stadion.html": {
-"date": "2026-11-04",
-"hash": "4caf4c473535dfc3776fba8f4bb31e78"
+"date": "2026-11-12",
+"hash": "bf36a4f32f7e653b4dfcf97941b3e494"
 },
 "en/attractions/stare-koryto-warty.html": {
 "date": "2026-11-12",
@@ -1304,8 +1304,8 @@
 "hash": "df1abea02340a3c143b908902e95717e"
 },
 "en/attractions/stary-browar.html": {
-"date": "2026-11-11",
-"hash": "9a7cddbc0759a5f3cacf4bae15722d4e"
+"date": "2026-11-12",
+"hash": "a206c269c01127261b5790029b2e0afa"
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-11-11",
@@ -1328,8 +1328,8 @@
 "hash": "20892a070a942a949baa7bd06c12368d"
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
-"date": "2026-11-10",
-"hash": "488913720a261d29b83b6c331421e280"
+"date": "2026-11-12",
+"hash": "e053bba885f709f7f5ba15f7bd02e073"
 },
 "en/attractions/teatr-wielki.html": {
 "date": "2026-11-11",
@@ -1393,11 +1393,11 @@
 },
 "en/index.html": {
 "date": "2026-11-12",
-"hash": "44d7066078669fd88e4415c538e5d292"
+"hash": "f327b80395a756bbd076c81f73ff2290"
 },
 "en/map.html": {
 "date": "2026-11-12",
-"hash": "5a630c419c2f25303ffa1f173ee855a3"
+"hash": "a847eaf0965c68ebdf6f2e8eaa07da58"
 },
 "en/museums.html": {
 "date": "2026-11-11",
@@ -1408,8 +1408,8 @@
 "hash": "887dd61cb40ed0618b11ae027e732d68"
 },
 "en/plans.html": {
-"date": "2026-11-11",
-"hash": "107f231025c1e8a96232a881fc659526"
+"date": "2026-11-12",
+"hash": "e4931522b17c38ea41dc34e0ccd98306"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-11-12",
-"hash": "c6fb9a0c9a7034981c24b738b0656748"
+"hash": "177d7585b76de4a91cf76bb36cb2b6e7"
 },
 "informacje.html": {
 "date": "2026-11-06",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-12",
-"hash": "c8814fe13f65d4c1f1ef6530985fd3ad"
+"hash": "4d76ea8425898e404d44c27441196696"
 },
 "muzea.html": {
 "date": "2026-11-11",
@@ -1456,8 +1456,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-11",
-"hash": "63a95111683f0226a22ba5732c06d027"
+"date": "2026-11-12",
+"hash": "2a68dbc84555bc88144a5289618431d1"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
