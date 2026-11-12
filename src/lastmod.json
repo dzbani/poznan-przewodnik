@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-12",
-"hash": "b296fc2a8ac240a6624f9c9c9f64b815"
+"hash": "ef54123f49f759f6fa46861c9763a384"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -149,7 +149,7 @@
 },
 "atrakcje/jezyce.html": {
 "date": "2026-11-12",
-"hash": "62a7078abdc1d2a7975da777c528657b"
+"hash": "47fb517effd2228621023a9295a27b75"
 },
 "atrakcje/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -401,7 +401,7 @@
 },
 "atrakcje/okraglak.html": {
 "date": "2026-11-12",
-"hash": "650bb415d9072399bca3b2e893cf6987"
+"hash": "5f52163ff9b03d5a07b122ca298e2139"
 },
 "atrakcje/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -597,11 +597,11 @@
 },
 "atrakcje/srodka.html": {
 "date": "2026-11-12",
-"hash": "cc8c96e2f91c6e2aa95d8dbbd64de5f3"
+"hash": "19fd0355e72c81cc4dfe68ef8d5eaa34"
 },
 "atrakcje/stadion.html": {
 "date": "2026-11-12",
-"hash": "fe5ceb8a685d5163eae9c660fac06393"
+"hash": "e8328083733af475b2bfbb353fc4f786"
 },
 "atrakcje/stare-koryto-warty.html": {
 "date": "2026-11-12",
@@ -613,7 +613,7 @@
 },
 "atrakcje/stary-browar.html": {
 "date": "2026-11-12",
-"hash": "4b8e0b903ce620e55e6b17b9aef2251e"
+"hash": "9db7f0d8e4b65d89c5727af61d7b6c70"
 },
 "atrakcje/stary-rynek.html": {
 "date": "2026-11-11",
@@ -637,7 +637,7 @@
 },
 "atrakcje/taras-widokowy-collegium-altum.html": {
 "date": "2026-11-12",
-"hash": "a4011365eb6f3345f24a298f682e55b5"
+"hash": "da7eca6680a7a0e29f70971ce93793db"
 },
 "atrakcje/teatr-wielki.html": {
 "date": "2026-11-11",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-12",
-"hash": "95a04d027a2b22cd1b2bc62f5a61617f"
+"hash": "8a6d98593395691ba6c530b41f1994d2"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -841,7 +841,7 @@
 },
 "en/attractions/jezyce.html": {
 "date": "2026-11-12",
-"hash": "563065adb2bb8ad08fd13cf4f0dc3fa9"
+"hash": "76257698d8a9213c80ab56abe2225b5f"
 },
 "en/attractions/katedra-gniezno.html": {
 "date": "2026-11-03",
@@ -1093,7 +1093,7 @@
 },
 "en/attractions/okraglak.html": {
 "date": "2026-11-12",
-"hash": "c97a3437284602ca4bb78dda0a993fff"
+"hash": "df79df1279b0a7a85b99eb658463b51a"
 },
 "en/attractions/ostrow-lednicki.html": {
 "date": "2026-11-04",
@@ -1289,11 +1289,11 @@
 },
 "en/attractions/srodka.html": {
 "date": "2026-11-12",
-"hash": "dd795171577e219fd65bb981bf86d684"
+"hash": "90a468c811ff4928a38ac923c73018a0"
 },
 "en/attractions/stadion.html": {
 "date": "2026-11-12",
-"hash": "bf36a4f32f7e653b4dfcf97941b3e494"
+"hash": "b1239bed4da17d0a0f93545e6013b965"
 },
 "en/attractions/stare-koryto-warty.html": {
 "date": "2026-11-12",
@@ -1305,7 +1305,7 @@
 },
 "en/attractions/stary-browar.html": {
 "date": "2026-11-12",
-"hash": "a206c269c01127261b5790029b2e0afa"
+"hash": "c5ccf726595532f25b88faa1bb3cf84f"
 },
 "en/attractions/stary-rynek.html": {
 "date": "2026-11-11",
@@ -1329,7 +1329,7 @@
 },
 "en/attractions/taras-widokowy-collegium-altum.html": {
 "date": "2026-11-12",
-"hash": "e053bba885f709f7f5ba15f7bd02e073"
+"hash": "5be08875ebc3f199f41a50d56cbe8edc"
 },
 "en/attractions/teatr-wielki.html": {
 "date": "2026-11-11",
@@ -1393,7 +1393,7 @@
 },
 "en/index.html": {
 "date": "2026-11-12",
-"hash": "f327b80395a756bbd076c81f73ff2290"
+"hash": "06123c987baf3052e75795bdc4f5085a"
 },
 "en/map.html": {
 "date": "2026-11-12",
@@ -1405,11 +1405,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-12",
-"hash": "e4437fc80e017404425343bcb2896e3b"
+"hash": "ed9ae7f777b80604098f13fef9072e40"
 },
 "en/plans.html": {
 "date": "2026-11-12",
-"hash": "e4931522b17c38ea41dc34e0ccd98306"
+"hash": "78437df162c86c7e0527a7dc77b12e68"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1429,7 +1429,7 @@
 },
 "index.html": {
 "date": "2026-11-12",
-"hash": "177d7585b76de4a91cf76bb36cb2b6e7"
+"hash": "26ff6c0179d7e9e7e75f9ad729f4ebc2"
 },
 "informacje.html": {
 "date": "2026-11-06",
@@ -1457,7 +1457,7 @@
 },
 "plany.html": {
 "date": "2026-11-12",
-"hash": "2a68dbc84555bc88144a5289618431d1"
+"hash": "aaf7792d665d6ff6c3b8a89908743c7b"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-12",
-"hash": "c218f0a71ddef80a733c4491fbd166f4"
+"hash": "ef4dad1cf2702744f051db18a773bc2d"
 },
 "zmiany.html": {
 "date": "2026-11-11",
