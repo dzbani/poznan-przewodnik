@@ -1382,7 +1382,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow", "muzeum-iluzji"):
         _a["checked"] = "12.11.2026"
 
 
