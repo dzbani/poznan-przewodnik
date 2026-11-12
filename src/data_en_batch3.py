@@ -9,15 +9,18 @@ EN_BATCH3 = {
         short="The only Monet painting in Polish collections and a large collection of works by Malczewski.",
         badge="Tue free",
         status="According to the museum's website, the Gallery of Medieval Art, the Gallery of Polish Art of the 16th–18th Centuries and the Gallery of European Art in the historic building are currently closed.",
-        lead="The Gallery of Painting and Sculpture is the main seat of the National Museum in Poznań, one of the oldest museums in Poland, founded in 1857.",
+        lead="The Gallery of Painting and Sculpture is the main seat of the National Museum in Poznań, one of the oldest, largest and most important museums in Poland. Its origins lie in the Museum of Polish and Slavic Antiquities, established in 1857 by the Poznań Society of Friends of Learning. The museum has borne its present name since 1950.",
         sections=[
             ("What to see", [
                 "“The Beach at Pourville” by Claude Monet, the only painting by this Impressionist in Polish collections.",
-                "The old building: ancient art, including portraits of Roman emperors. The galleries of medieval art, Polish art of the 16th–18th centuries and European art (including Spanish and Italian painting) are currently closed.",
-                "The new building: Polish art from the Enlightenment to the present day, including a large collection of paintings by Jacek Malczewski.",
+                "The building has two parts: the old one from 1904 and the new one from 2001. The visitors' entrance and the ticket office are in the hall of the new building, where a visit to the permanent exhibition begins. On three floors of the new building Polish art is shown, including the largest collection of paintings by Jacek Malczewski, together with contemporary art (including Kantor and Nowosielski).",
+                "The historic building holds European art (upstairs), including the only collection of Spanish painting in Poland, medieval and Baroque Polish art with a collection of coffin portraits (ground floor), and antiquities with a Roman imperial portrait (basement). According to the museum's website, the galleries of medieval art, Polish art of the 16th–18th centuries and European art are currently closed.",
+                "The Poster and Graphic Design Gallery, the Cabinet of Prints and Drawings and the Numismatic Cabinet have no permanent display. Their collections are shown only occasionally in temporary exhibitions.",
             ]),
             ("Good to know", [
                 "With the Poznań Tourist Card, admission to the permanent exhibitions is free.",
+                "For families with children, the Museum Trackers' Suitcase and the Museum Trackers' Guide can be obtained free of charge when buying tickets.",
+                "The National Museum in Poznań has eight branches: the Museum of Decorative Arts in the Royal Castle, the Town Hall – Museum of Poznań, the Greater Poland Military Museum, the Musical Instruments Museum and the Museum of World Cultures in Poznań, and the residences outside the city: the Rogalin Palace Museum, the Adam Mickiewicz Museum in Śmiełów and the Gołuchów Castle Museum.",
             ]),
         ],
         hours=[("Monday", "closed"), ("Tuesday–Wednesday", "10:00–16:00"), ("Thursday", "10:00–18:00"),

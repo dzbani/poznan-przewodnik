@@ -304,15 +304,18 @@ ATTRACTIONS = [
         short="Jedyny obraz Moneta w polskich zbiorach i duży zbiór obrazów Malczewskiego.",
         badge="Wt wstęp wolny",
         status=("warning", "Według strony muzeum Galeria Sztuki Średniowiecznej, Galeria Sztuki Polskiej XVI–XVIII w. i Galeria Sztuki Europejskiej w historycznym gmachu są obecnie nieczynne."),
-        lead="Galeria Malarstwa i Rzeźby to główna siedziba Muzeum Narodowego w Poznaniu, jednego z najstarszych muzeów w Polsce, założonego w 1857 roku.",
+        lead="Galeria Malarstwa i Rzeźby to główna siedziba Muzeum Narodowego w Poznaniu, jednego z najstarszych, największych i najważniejszych muzeów w Polsce. Jego początki to Muzeum Starożytności Polskich i Słowiańskich, powołane w 1857 roku przez Towarzystwo Przyjaciół Nauk. Obecną nazwę muzeum nosi od 1950 roku.",
         sections=[
             ("Co zobaczyć", [
                 "Plaża w Pourville Claude'a Moneta, jedyny obraz tego impresjonisty w polskich zbiorach.",
-                "Stary gmach: sztuka starożytna, w tym portrety rzymskich cesarzy. Galerie sztuki średniowiecznej, polskiej XVI–XVIII wieku i europejskiej (m.in. malarstwo hiszpańskie i włoskie) są obecnie nieczynne.",
-                "Nowy gmach: sztuka polska od oświecenia do dziś, w tym duży zbiór obrazów Jacka Malczewskiego.",
+                "Gmach składa się z dwóch części: starej z 1904 roku i nowej z 2001 roku. Wejście dla zwiedzających i kasa są w holu nowego gmachu, w którym zwiedzanie ekspozycji stałej się zaczyna. Na trzech piętrach nowego gmachu pokazana jest sztuka polska, w tym największy zbiór obrazów Jacka Malczewskiego, oraz sztuka współczesna (m.in. Kantor, Nowosielski).",
+                "W historycznym gmachu są zbiory sztuki europejskiej (piętro), w tym jedyny w Polsce zbiór malarstwa hiszpańskiego, średniowiecza i baroku polskiego z kolekcją portretów trumiennych (parter) oraz starożytności z rzymskim portretem cesarskim (podziemia). Według strony muzeum galerie sztuki średniowiecznej, polskiej XVI–XVIII wieku i europejskiej są obecnie nieczynne.",
+                "Galeria Plakatu i Projektowania Graficznego, Gabinet Rycin i Rysunków oraz Gabinet Numizmatyczny nie mają ekspozycji stałej. Ich zbiory pokazywane są okazjonalnie na wystawach czasowych.",
             ]),
             ("Warto wiedzieć", [
                 "Z Poznańską Kartą Turystyczną wstęp na wystawy stałe jest bezpłatny.",
+                "Dla rodzin z dziećmi przy zakupie biletów można bezpłatnie otrzymać Walizkę Muzealnych Tropicieli i Przewodnik Muzealnych Tropicieli.",
+                "Muzeum Narodowe w Poznaniu ma osiem oddziałów: Muzeum Sztuk Użytkowych w Zamku Królewskim, Ratusz – Muzeum Poznania, Wielkopolskie Muzeum Wojskowe, Muzeum Instrumentów Muzycznych i Muzeum Kultur Świata w Poznaniu oraz rezydencje poza miastem: Muzeum Pałac w Rogalinie, Muzeum Adama Mickiewicza w Śmiełowie i Muzeum Zamek w Gołuchowie.",
             ]),
         ],
         address="al. Marcinkowskiego 9, 61-745 Poznań",
@@ -321,7 +324,9 @@ ATTRACTIONS = [
         phone="+48 61 856 80 00", www=("mnp.art.pl", "https://mnp.art.pl/"),
         credit="muzeum-narodowe",
         sources=[("kultura.poznan.pl: Muzeum Narodowe", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-narodowe-w-poznaniu,15730.html"),
-                 ("Visit Poznań: Galeria Malarstwa i Rzeźby", "https://visitpoznan.pl/galeria-malarstwa-i-rzezby-muzeum-narodowe-w-poznaniu")],
+                 ("Visit Poznań: Galeria Malarstwa i Rzeźby", "https://visitpoznan.pl/galeria-malarstwa-i-rzezby-muzeum-narodowe-w-poznaniu"),
+                 ("MNP: O Muzeum", "https://mnp.art.pl/o-nas/muzeum"),
+                 ("MNP: Historia", "https://mnp.art.pl/o-nas/historia-2")],
     ),
     dict(
         slug="rogalowe-muzeum", cat="muzea", name="Rogalowe Muzeum Poznania",
@@ -1347,7 +1352,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe"):
         _a["checked"] = "12.11.2026"
 
 
