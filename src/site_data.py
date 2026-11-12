@@ -766,26 +766,28 @@ MORE = [
     dict(
         slug="pomnik-czerwca-1956", cat="pomniki", name="Pomnik Poznańskiego Czerwca 1956",
         img="pomnik-czerwca-1956", img_alt="Dwa połączone krzyże Pomnika Poznańskiego Czerwca 1956",
-        short="Poznańskie Krzyże upamiętniające pierwszy masowy protest przeciw władzy komunistycznej.",
+        short="Poznańskie Krzyże upamiętniające Poznański Czerwiec 1956.",
         badge="Bezpłatnie",
         status=None,
-        lead="Pomnik na placu Mickiewicza, nazywany Poznańskimi Krzyżami, upamiętnia bunt robotników z 28 czerwca 1956 roku, pierwszy masowy protest przeciw władzy komunistycznej w Polsce.",
+        lead="Pomnik na placu Adama Mickiewicza, nazywany Poznańskimi Krzyżami, upamiętnia bunt robotników z 28 czerwca 1956 roku.",
         sections=[
             ("O pomniku", [
-                "Pomnik odsłonięto 28 czerwca 1981 roku, w 25. rocznicę wydarzeń. Zaprojektowali go rzeźbiarz Adam Graczyk i architekt Włodzimierz Wojciechowski.",
-                "Tworzą go dwa połączone stalowe krzyże o wysokości 19,5 i 21 metrów. U ich podstawy stoi rzeźba orła.",
-                "Na lewym krzyżu widnieje data 1956. Na prawym umieszczono daty kolejnych protestów w PRL: 1968, 1970, 1976, 1980 i 1981. Napis nawiązuje do haseł robotników: „Za wolność, prawo i chleb”.",
+                "Postulat budowy pomnika zgłosił 10 października 1980 roku Roman Schefke z Akademii Rolniczej w Poznaniu na zebraniu delegatów NSZZ „Solidarność” Regionu Wielkopolska. 6 listopada 1980 roku powstał Społeczny Komitet Budowy Pomnika Poznańskiego Czerwca 1956, któremu przewodniczył Roman Brandstaetter.",
+                "Konkurs na projekt rozstrzygnięto 28 stycznia 1981 roku, a wpłynęły do niego 67 prace. Komitet nie zaakceptował zwycięskiego projektu „Kierunek”, a jego autorzy wycofali go 5 lutego 1981 roku. Wybrano projekt „Jedność” rzeźbiarza Adama Graczyka i architekta Włodzimierza Wojciechowskiego.",
+                "Pomnik stanął na placu Adama Mickiewicza, obok pomnika wieszcza. Budowę w znacznym stopniu wykonali, w większości społecznie i po godzinach pracy, pracownicy Zakładów im. H. Cegielskiego, a także ZNTK i Pometu.",
+                "23 maja 1981 roku wmurowano w podstawę akt erekcyjny. Pomnik odsłonięto 28 czerwca 1981 roku. Dokonał tego Stanisław Matyja, uważany za nieformalnego przywódcę buntu z 1956 roku.",
+                "Po wprowadzeniu stanu wojennego 13 grudnia 1981 roku pomnik stał się symbolem walki o wolność. Po pacyfikacji kopalni „Wujek” domalowano na nim datę 1981, którą dziesięć lat później, podczas renowacji, umieszczono na stałe.",
             ]),
             ("Warto wiedzieć", [
-                "Pomnik stoi w Dzielnicy Cesarskiej, naprzeciw Zamku Cesarskiego. W zamku działa Muzeum Powstania Poznańskiego – Czerwiec 1956.",
+                "W Zamku Cesarskim działa Muzeum Powstania Poznańskiego – Czerwiec 1956.",
             ]),
         ],
         address="pl. Adama Mickiewicza, 61-712 Poznań",
         hours=[("Pomnik", "dostępny całą dobę")],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone=None, www=("visitpoznan.pl", "https://visitpoznan.pl/"),
+        phone=None, www=("poznan.pl", "https://www.poznan.pl/mim/wortals/czerwiec56/-,p,58421,58426.html"),
         credit="pomnik-czerwca-1956",
-        sources=[("Wikipedia: Pomnik Ofiar Czerwca 1956", "https://pl.wikipedia.org/wiki/Pomnik_Ofiar_Czerwca_1956"),
+        sources=[("Poznan.pl: Poznański Czerwiec 1956, pomnik", "https://www.poznan.pl/mim/wortals/czerwiec56/-,p,58421,58426.html"),
                  ("Visit Poznań: Muzeum Powstania Poznańskiego – Czerwiec 1956", "https://visitpoznan.pl/muzeum-powstania-poznanskiego-czerwiec-1956")],
     ),
     dict(
@@ -1392,7 +1394,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow", "muzeum-iluzji", "fotoplastykon", "cytadela"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow", "muzeum-iluzji", "fotoplastykon", "cytadela", "pomnik-czerwca-1956"):
         _a["checked"] = "12.11.2026"
 
 

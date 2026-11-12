@@ -180,18 +180,20 @@ EN_BATCH4 = {
     "pomnik-czerwca-1956": dict(
         name="Poznań June 1956 Monument",
         img_alt="The two joined crosses of the Poznań June 1956 Monument",
-        short="The Poznań Crosses, commemorating the first mass protest against communist rule.",
+        short="The Poznań Crosses, commemorating the Poznań June 1956 uprising.",
         badge="Free",
         status=None,
-        lead="The monument on Adam Mickiewicz Square, known as the Poznań Crosses, commemorates the workers' revolt of 28 June 1956, the first mass protest against communist rule in Poland.",
+        lead="The monument on Adam Mickiewicz Square, known as the Poznań Crosses, commemorates the workers' revolt of 28 June 1956.",
         sections=[
             ("About the monument", [
-                "The monument was unveiled on 28 June 1981, on the 25th anniversary of the events. It was designed by the sculptor Adam Graczyk and the architect Włodzimierz Wojciechowski.",
-                "It consists of two joined steel crosses 19.5 and 21 metres high. At their base stands a sculpture of an eagle.",
-                "The left cross bears the date 1956. On the right are the dates of later protests in communist Poland: 1968, 1970, 1976, 1980 and 1981. The inscription refers to the workers' slogans: “For freedom, law and bread”.",
+                "The proposal to build the monument was made on 10 October 1980 by Roman Schefke of the Agricultural Academy in Poznań at a meeting of delegates of the Greater Poland Region of the “Solidarity” trade union. On 6 November 1980 the Civic Committee for the Construction of the Poznań June 1956 Monument was formed, chaired by Roman Brandstaetter.",
+                "The design competition was decided on 28 January 1981, and 67 entries were submitted. The committee did not accept the winning design, “Direction” (Kierunek), and its authors withdrew it on 5 February 1981. The design “Unity” (Jedność) by the sculptor Adam Graczyk and the architect Włodzimierz Wojciechowski was chosen.",
+                "The monument was placed on Adam Mickiewicz Square, next to the monument to the poet. It was built to a large extent, mostly voluntarily and after working hours, by employees of the H. Cegielski Works, as well as ZNTK and Pomet.",
+                "On 23 May 1981 the foundation deed was set into the base. The monument was unveiled on 28 June 1981 by Stanisław Matyja, regarded as the informal leader of the 1956 revolt.",
+                "After martial law was introduced on 13 December 1981 the monument became a symbol of the struggle for freedom. After the pacification of the “Wujek” mine the date 1981 was painted on it, and ten years later, during renovation, it was added permanently.",
             ]),
             ("Good to know", [
-                "The monument stands in the Imperial Quarter, opposite the Imperial Castle. The castle houses the Museum of the Poznań Uprising – June 1956.",
+                "The Imperial Castle houses the Museum of the Poznań Uprising – June 1956.",
             ]),
         ],
         hours=[("Monument", "open around the clock")],
