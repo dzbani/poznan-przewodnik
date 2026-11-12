@@ -48,20 +48,20 @@ MONUMENTS = [
 
     M("fontanna-prozerpiny", "Fontanna Prozerpiny",
       "Barokowa Fontanna Prozerpiny przed ratuszem wieczorem",
-      "Jedyna zachowana historyczna fontanna Starego Rynku, z 1766 roku, przed ratuszem.",
-      "Fontanna Prozerpiny stoi przed ratuszem na Starym Rynku. To barokowe dzieło Augustyna Schöpsa, ukończone w 1766 roku, i jedyna z czterech historycznych fontann rynku, która przetrwała do dziś.",
+      "Barokowa fontanna z 1766 roku przed ratuszem na Starym Rynku, ze sceną porwania Prozerpiny.",
+      "Fontanna Prozerpiny stoi przed ratuszem na Starym Rynku. To barokowe dzieło rzeźbiarza Augustyna Schöpsa, ukończone w 1766 roku, i jeden z najbardziej rozpoznawalnych zabytków Poznania.",
       [("Historia", [
-          "Studnie na rynku wspominano już w 1568 roku, kiedy zamówiono do nich drewniane figury lwa i jelenia. W 1615 roku zastąpiono je posągami Apolla, Jowisza, Marsa i Neptuna.",
-          "W 1758 roku rajcy zlecili budowę nowej fontanny Augustynowi Schöpsowi. Prace trwały do 1766 roku.",
-          "W 2010 roku kibice Lecha Poznań świętujący mistrzostwo Polski uszkodzili fontannę. Naprawiono ją po miesiącu, za pieniądze zebrane przez samych kibiców.",
+          "Pierwsze wzmianki o studniach w tym miejscu pochodzą z 1568 roku. Stały przy nich drewniane rzeźby lwa i jelenia, przy ratuszu i przy jednej z kamienic. W 1615 roku zastąpiono je figurami bogów: Apolla, Jowisza, Marsa i Neptuna.",
+          "W XVIII wieku zdecydowano o budowie nowej fontanny. W 1758 roku zlecono ją rzeźbiarzowi Augustynowi Schöpsowi, a prace zakończono w 1766 roku. W latach 90. XX wieku fontannę odnowiono.",
+          "W 2010 roku kibice Lecha Poznań świętujący mistrzostwo Polski uszkodzili fontannę. Szybko ją naprawiono, za pieniądze zebrane przez samych kibiców.",
       ]),
        ("Co zobaczyć", [
-          "Scenę porwania Prozerpiny przez Plutona, władcę podziemi, wykutą w piaskowcu.",
-          "Płaskorzeźby czterech żywiołów na ścianach basenu (ogień, woda, powietrze i ziemia) oraz herb Poznania.",
+          "Scenę porwania Prozerpiny przez Plutona, władcę podziemi.",
+          "Wokół płaskorzeźby czterech żywiołów (ogień, woda, powietrze i ziemia) oraz herb Poznania.",
       ])],
       "Stary Rynek (przed ratuszem), 61-772 Poznań",
       ("poznan.pl: Fontanna Prozerpiny", PF + "fontanna-prozerpiny,41208.html"),
-      [wiki("Fontanna Prozerpiny w Poznaniu")]),
+      []),
 
     M("studzienka-bamberki", "Studzienka Bamberki",
       "Studzienka z figurą Bamberki przy ratuszu",

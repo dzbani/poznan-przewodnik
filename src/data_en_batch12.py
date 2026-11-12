@@ -170,19 +170,19 @@ EN_BATCH12 = {
     "fontanna-prozerpiny": dict(
         name="Proserpina Fountain",
         img_alt="The Baroque Proserpina Fountain in front of the town hall in the evening",
-        short="The only surviving historic fountain of the Old Market Square, from 1766, in front of the town hall.",
+        short="A Baroque fountain from 1766 in front of the town hall on the Old Market Square, with the scene of the abduction of Proserpina.",
         badge="Free",
         status=None,
-        lead="The Proserpina Fountain stands in front of the town hall on the Old Market Square. It is a Baroque work by Augustyn Schöps, completed in 1766, and the only one of the square's four historic fountains to survive to this day.",
+        lead="The Proserpina Fountain stands in front of the town hall on the Old Market Square. It is a Baroque work by the sculptor Augustyn Schöps, completed in 1766, and one of the most recognisable monuments of Poznań.",
         sections=[
             ("History", [
-                "Wells on the square were already mentioned in 1568, when wooden figures of a lion and a deer were ordered for them. In 1615 they were replaced by statues of Apollo, Jupiter, Mars and Neptune.",
-                "In 1758 the councillors commissioned a new fountain from Augustyn Schöps. The work lasted until 1766.",
-                "In 2010 Lech Poznań fans celebrating the Polish championship damaged the fountain. It was repaired after a month, with money collected by the fans themselves.",
+                "The first mentions of wells in this place date from 1568. Wooden sculptures of a lion and a deer stood by them, at the town hall and at one of the townhouses. In 1615 they were replaced by figures of the gods: Apollo, Jupiter, Mars and Neptune.",
+                "In the 18th century it was decided to build a new fountain. In 1758 it was commissioned from the sculptor Augustyn Schöps, and the work was completed in 1766. The fountain was renovated in the 1990s.",
+                "In 2010 Lech Poznań fans celebrating the Polish championship damaged the fountain. It was quickly repaired, with money collected by the fans themselves.",
             ]),
             ("What to see", [
-                "The scene of the abduction of Proserpina by Pluto, ruler of the underworld, carved in sandstone.",
-                "Bas-reliefs of the four elements on the walls of the basin (fire, water, air and earth) and the coat of arms of Poznań.",
+                "The scene of the abduction of Proserpina by Pluto, ruler of the underworld.",
+                "Around it, bas-reliefs of the four elements (fire, water, air and earth) and the coat of arms of Poznań.",
             ]),
         ],
         hours=OUTSIDE,
