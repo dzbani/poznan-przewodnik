@@ -367,23 +367,32 @@ ATTRACTIONS = [
         short="Historia zwycięskiego powstania 1918–1919 w klasycystycznym Odwachu na rynku.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Powstania Wielkopolskiego 1918–1919 mieści się w Odwachu, klasycystycznym budynku z lat 1785–1787 w środku Starego Rynku. Jest oddziałem Wielkopolskiego Muzeum Niepodległości.",
+        lead="Muzeum Powstania Wielkopolskiego 1918–1919 mieści się w Odwachu na Starym Rynku, w budynku z 1787 roku. Jest oddziałem Wielkopolskiego Muzeum Niepodległości i działa tu od 2001 roku.",
         sections=[
             ("Co zobaczyć", [
-                "Wystawę o Powstaniu Wielkopolskim, jednym z nielicznych zwycięskich powstań w historii Polski, po którym Wielkopolska wróciła do odrodzonego państwa.",
+                "Wystawę stałą „Powstanie Wielkopolskie 1918–1919. Droga do Niepodległości”, która pokazuje genezę, przebieg i rezultaty powstania. Ma oryginalną aranżację, nowe zabytki, plansze i multimedia, a pokazano na niej m.in. udział Armii Wielkopolskiej w wojnie polsko-bolszewickiej i Poznań międzywojenny.",
+                "Sam Odwach to jeden z najwybitniejszych zabytków architektury polskiej. Wybudowano go z inicjatywy starosty generalnego wielkopolskiego Kazimierza Raczyńskiego, a projekt najprawdopodobniej wykonał architekt królewski Jan Chrystian Kamsetzer.",
+            ]),
+            ("Historia Odwachu", [
+                "W listopadzie 1918 roku w Odwachu miała siedzibę Straż Ludowa, jedna z najważniejszych formacji Powstania Wielkopolskiego, a 27 grudnia załoga ruszyła do powstania. W 1945 roku, podczas walk o Twierdzę Poznań, budynek został poważnie zniszczony, a odbudowano go w latach 1949–1951. Od 2004 roku przed Odwachem znów stoi żołnierz w mundurze historycznym.",
             ]),
             ("Warto wiedzieć", [
                 "Grupy mogą zamówić oprowadzanie po polsku (70 zł) lub po angielsku (90 zł).",
+                "Na Wzgórzu Świętego Wojciecha, u zbiegu ulic Księcia Józefa i Północnej, trwa budowa nowej siedziby muzeum (budowa ruszyła w styczniu 2024 roku, projekt: pracownia WXCA). Eksponaty z Odwachu są stopniowo przekazywane do konserwacji, a wystawę stałą zobaczymy w nowej siedzibie jesienią 2028 roku. Według muzeum w najbliższych miesiącach Odwach pozostaje otwarty, a w 2027 roku zaplanowano wydarzenia pożegnalne.",
+                "Godziny otwarcia mogą się zmienić w święta, dodatkowe dni wolne i na czas przerw technicznych.",
             ]),
         ],
         address="Stary Rynek 3, 61-772 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Marzec–październik", "wt–sb 10:00–17:00, nd 10:00–16:00"), ("Listopad–luty", "wt–nd 10:00–16:00")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Wtorek", "wstęp wolny")],
-        phone=None, www=("wmn.poznan.pl", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-powstania-wielkopolskiego-1918-1919/"),
+        phone="+48 61 853 19 93", www=("wmn.poznan.pl", "https://www.wmn.poznan.pl/oddzialy-4/muzeum-powstania-wielkopolskiego-1918-1919/"),
         credit="muzeum-powstania",
         sources=[("WMN: ceny biletów", "https://www.wmn.poznan.pl/ceny-biletow/"),
                  ("WMN: godziny otwarcia", "https://www.wmn.poznan.pl/godziny-otwarcia/"),
-                 ("Region Wielkopolska: Odwach w Poznaniu", "https://regionwielkopolska.pl/en/katalog-obiektow/odwach-in-poznan/")],
+                 ("Region Wielkopolska: Odwach w Poznaniu", "https://regionwielkopolska.pl/en/katalog-obiektow/odwach-in-poznan/"),
+                 ("Poznan.pl: Muzeum Powstania Wielkopolskiego 1918–1919", "https://www.poznan.pl/mim/wortals/turystyka/muzea-w-poznaniu,poi,202/muzeum-powstania-wielkopolskiego-1918-1919-oddzial-wielkopolskiego-muzeum-niepodleglosci,25961.html"),
+                 ("WMN: Muzeum na walizkach", "https://www.wmn.poznan.pl/moje-aktualnosci/muzeum-na-walizkach/"),
+                 ("WMN: Budowa nowej siedziby, postęp prac", "https://www.wmn.poznan.pl/moje-aktualnosci/postep-w-pracach-na-budowie-nowej-siedziby-muzeum/")],
     ),
     dict(
         slug="muzeum-archeologiczne", cat="muzea", name="Muzeum Archeologiczne",
@@ -1352,7 +1361,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania"):
         _a["checked"] = "12.11.2026"
 
 

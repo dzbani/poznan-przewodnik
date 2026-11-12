@@ -34,13 +34,19 @@ EN_BATCH3 = {
         short="The story of the victorious uprising of 1918–1919 in the neoclassical Guardhouse on the square.",
         badge="Tue free",
         status=None,
-        lead="The Museum of the Greater Poland Uprising 1918–1919 is housed in the Guardhouse (Odwach), a neoclassical building from 1785–1787 in the middle of the Old Market Square. It is a branch of the Greater Poland Independence Museum.",
+        lead="The Museum of the Greater Poland Uprising 1918–1919 is housed in the Guardhouse (Odwach) on the Old Market Square, in a building from 1787. It is a branch of the Greater Poland Independence Museum and has been here since 2001.",
         sections=[
             ("What to see", [
-                "An exhibition about the Greater Poland Uprising, one of the few victorious uprisings in Polish history, after which Greater Poland returned to the reborn Polish state.",
+                "The permanent exhibition “The Greater Poland Uprising 1918–1919. The Road to Independence”, which presents the origins, course and results of the uprising. It has an original design, new historic objects, panels and multimedia, and it shows, among other things, the role of the Greater Poland Army in the Polish–Soviet War and interwar Poznań.",
+                "The Guardhouse itself is one of the most outstanding monuments of Polish architecture. It was built on the initiative of the Greater Poland general starost Kazimierz Raczyński, and the design was most probably made by the royal architect Jan Chrystian Kamsetzer.",
+            ]),
+            ("History of the Guardhouse", [
+                "In November 1918 the Guardhouse was the seat of the People's Guard, one of the most important formations of the Greater Poland Uprising, and on 27 December its garrison set off to the uprising. In 1945, during the fighting for the Poznań Fortress, the building was badly damaged, and it was rebuilt in 1949–1951. Since 2004 a soldier in historical uniform has again stood in front of the Guardhouse.",
             ]),
             ("Good to know", [
                 "Groups can order a guided tour in Polish (PLN 70) or in English (PLN 90).",
+                "On St Adalbert's Hill, at the junction of ul. Księcia Józefa and ul. Północna, a new seat of the museum is under construction (building work began in January 2024; design by the WXCA studio). Exhibits from the Guardhouse are gradually being sent for conservation, and the permanent exhibition will be seen in the new seat in autumn 2028. According to the museum, the Guardhouse will stay open in the coming months, and farewell events are planned for 2027.",
+                "Opening hours may change on public holidays, extra days off and during technical breaks.",
             ]),
         ],
         hours=[("Monday", "closed"), ("March–October", "Tue–Sat 10:00–17:00, Sun 10:00–16:00"),
