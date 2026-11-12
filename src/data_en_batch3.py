@@ -59,20 +59,25 @@ EN_BATCH3 = {
         short="The prehistory of Greater Poland and ancient Egypt in the Renaissance Górka Palace.",
         badge="Tue free",
         status=None,
-        lead="The Archaeological Museum grew out of the Museum of Polish and Slavic Antiquities, founded in 1857 at the Poznań Society of Friends of Learning. It is housed in the Górka Palace on ul. Wodna, right next to the Old Market Square. The palace, partly destroyed in the war, was rebuilt until 1968, and in the same year the permanent exhibition “Prehistory of Greater Poland” opened here.",
+        lead="The Archaeological Museum is housed in the Górka Palace on ul. Wodna, right next to the Old Market Square. Its origins go back to 1857, when the Museum of Polish and Slavic Antiquities in the Grand Duchy of Poznań was founded at the Poznań Society of Friends of Learning; from 1882 it was called the Mielżyński Museum. The museum opened in the rebuilt Górka Palace on 8 June 1968.",
         sections=[
             ("What to see", [
-                "The permanent exhibition on the prehistory of Greater Poland, from the Stone Age to the Middle Ages.",
-                "An exhibition on ancient Egypt, and collections from the archaeology of Sudan.",
+                "Four permanent exhibitions: “Prehistory of Greater Poland” (from the beginnings of human settlement to the end of antiquity, with reconstructions of, among other things, a hut, houses and graves), “Here Poland Began” (an archaeological journey into the Middle Ages, where you can try on a copy of late medieval armour and play chess), “Archaeology of Sudan” (finds from the museum's research at Kadero and in the area of the Fourth Cataract of the Nile) and “Rock Art of North Africa” (carvings and paintings of the eastern Sahara). From Tuesday to Sunday you can tour them with a free audio guide.",
+                "In the courtyard stands a three-metre granite obelisk of Ramesses II, the only pharaonic obelisk in Poland and one of few in Europe. It is a long-term deposit from the Egyptian Museum and Papyrus Collection in Berlin.",
+            ]),
+            ("About the palace", [
+                "The Górka Palace was a townhouse residence of a magnate family, in the 16th century an important centre of the Reformation, and later a Benedictine convent. After wartime destruction the palace was rebuilt according to the only surviving drawing, which shows the convent (Julius Minutoli, 1833), and the reconstruction was designed by the architect Aleksander Holas, so the building lost the features of a Renaissance magnate residence.",
+                "The courtyard with its arcaded cloister and the Renaissance entrance portal from 1548 survived the war.",
             ]),
             ("Good to know", [
-                "The museum also runs the Genius Loci Archaeological Reserve on Ostrów Tumski, opened in 2012. It has multimedia presentations and reconstructions of the medieval fortifications of the stronghold. A combined ticket for both sites is available; details are on the museum's websites.",
-                "The last entry is half an hour before closing.",
+                "The museum also runs the Genius Loci Archaeological Reserve on Ostrów Tumski (ul. Ks. I. Posadzego 3), with the permanent exhibitions “Generation 966” and “Monuments of Ostrów Tumski”. A joint ticket is available for both sites.",
+                "The new exhibition “The Joy of Life in the Light of Ra”, about ancient Egypt, is a joint project of the museum and the Egyptian Museum and Papyrus Collection in Berlin. According to the museum, the opening is planned for the end of November 2026.",
+                "The last entry is half an hour before closing. Guided tours are possible from Tuesday to Friday.",
             ]),
         ],
         hours=[("Monday", "closed"), ("Tuesday–Thursday", "9:00–16:00 (1 Sep to 30 Jun)"), ("Friday", "10:00–17:00"),
                ("Saturday", "11:00–18:00"), ("Sunday", "12:00–16:00"), ("July–August", "Tue–Fri 10:00–17:00")],
-        tickets=[("Standard", "PLN 20"), ("Reduced", "PLN 15"), ("Family (up to 6 people)", "PLN 50"),
+        tickets=[("Standard", "PLN 20"), ("Reduced", "PLN 15"), ("Family (up to 6 people)", "PLN 50"), ("Joint ticket with the Genius Loci Reserve", "PLN 30, reduced PLN 25, family PLN 80"),
                  ("Tuesday", "free admission")],
     ),
     "termy-maltanskie": dict(

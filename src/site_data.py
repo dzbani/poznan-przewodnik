@@ -400,26 +400,39 @@ ATTRACTIONS = [
         short="Pradzieje Wielkopolski i starożytny Egipt w renesansowym Pałacu Górków.",
         badge="Wt wstęp wolny",
         status=None,
-        lead="Muzeum Archeologiczne wywodzi się z Muzeum Starożytności Polskich i Słowiańskich, założonego w 1857 roku przy Towarzystwie Przyjaciół Nauk. Jego siedzibą jest Pałac Górków przy ulicy Wodnej, tuż przy Starym Rynku. Pałac, częściowo zniszczony w czasie wojny, odbudowywano do 1968 roku, a w tym samym roku otwarto tu wystawę stałą „Pradzieje Wielkopolski”.",
+        lead="Muzeum Archeologiczne mieści się w Pałacu Górków przy ulicy Wodnej, tuż przy Starym Rynku. Jego początki sięgają 1857 roku, gdy przy Towarzystwie Przyjaciół Nauk Poznańskiego powstało Muzeum Starożytności Polskich i Słowiańskich w Wielkim Księstwie Poznańskim, od 1882 roku zwane Muzeum im. Mielżyńskich. W odbudowanym Pałacu Górków muzeum otwarto 8 czerwca 1968 roku.",
         sections=[
             ("Co zobaczyć", [
-                "Wystawę stałą o pradziejach Wielkopolski, od epoki kamienia po średniowiecze.",
-                "Wystawę o starożytnym Egipcie, a także zbiory z archeologii Sudanu.",
+                "Cztery wystawy stałe: „Pradzieje Wielkopolski” (od początków osadnictwa ludzkiego po kres starożytności, z rekonstrukcjami m.in. szałasu, domów i grobów), „Tu powstała Polska” (archeologiczna podróż do średniowiecza, na której można przymierzyć kopię zbroi późnośredniowiecznej i zagrać w szachy), „Archeologia Sudanu” (zabytki z badań muzeum w Kadero i w rejonie IV katarakty Nilu) oraz „Sztuka naskalna Afryki Północnej” (ryty i malowidła Sahary wschodniej). Od wtorku do niedzieli można je zwiedzać z bezpłatnym audioprzewodnikiem.",
+                "Na dziedzińcu stoi trzymetrowy granitowy obelisk Ramzesa II, jedyny faraoński obelisk w Polsce i jeden z niewielu w Europie. Jest wieloletnim depozytem berlińskiego Muzeum Egipskiego i Zbiorów Papirusów.",
+            ]),
+            ("O pałacu", [
+                "Pałac Górków był miejską rezydencją magnacką, w XVI wieku ważnym ośrodkiem ruchu reformacyjnego, a później klasztorem benedyktynek. Po zniszczeniach wojennych pałac odbudowano według jedynego zachowanego rysunku, który przedstawia klasztor (Juliusz Minutoli, 1833), a projekt odbudowy opracował architekt Aleksander Holas, dlatego budynek utracił cechy renesansowej rezydencji magnackiej.",
+                "Wojnę przetrwały dziedziniec z arkadowym krużgankiem i renesansowy portal bramy wejściowej z 1548 roku.",
             ]),
             ("Warto wiedzieć", [
-                "Muzeum prowadzi też Rezerwat Archeologiczny Genius Loci na Ostrowie Tumskim, otwarty w 2012 roku. Są tam prezentacje multimedialne i rekonstrukcje średniowiecznych umocnień grodu. Na oba miejsca można kupić bilet łączony, szczegóły na stronach muzeum.",
-                "Ostatnie wejście jest pół godziny przed zamknięciem.",
+                "Muzeum prowadzi też Rezerwat Archeologiczny Genius loci na Ostrowie Tumskim (ul. Ks. I. Posadzego 3), z wystawami stałymi „Pokolenie 966” i „Zabytki Ostrowa Tumskiego”. Na oba miejsca można kupić bilet wspólny.",
+                "Nowa wystawa „Radość życia w blasku Ra”, o starożytnym Egipcie, jest wspólnym projektem muzeum i berlińskiego Muzeum Egipskiego i Zbiorów Papirusów. Według muzeum otwarcie planowane jest pod koniec listopada 2026 roku.",
+                "Ostatnie wejście jest pół godziny przed zamknięciem. Oprowadzanie z przewodnikiem jest możliwe od wtorku do piątku.",
             ]),
         ],
         address="ul. Wodna 27, 61-781 Poznań",
         hours=[("Poniedziałek", "nieczynne"), ("Wtorek–czwartek", "9:00–16:00 (od 1.09 do 30.06)"), ("Piątek", "10:00–17:00"), ("Sobota", "11:00–18:00"), ("Niedziela", "12:00–16:00"), ("Lipiec–sierpień", "wt–pt 10:00–17:00")],
-        tickets=[("Normalny", "20 zł"), ("Ulgowy", "15 zł"), ("Rodzinny (do 6 osób)", "50 zł"), ("Wtorek", "wstęp wolny")],
+        tickets=[("Normalny", "20 zł"), ("Ulgowy", "15 zł"), ("Rodzinny (do 6 osób)", "50 zł"), ("Bilet wspólny z rezerwatem Genius loci", "30 zł, ulgowy 25 zł, rodzinny 80 zł"), ("Wtorek", "wstęp wolny")],
         phone="+48 61 852 82 51", www=("muzarp.poznan.pl", "https://nowa.muzarp.poznan.pl/"),
         credit="muzeum-archeologiczne",
-        sources=[("Muzeum Archeologiczne: bilety", "https://nowa.muzarp.poznan.pl/pl/bilety"),
-                 ("Muzeum Archeologiczne: godziny otwarcia", "https://nowa.muzarp.poznan.pl/pl/godziny-otwarcia"),
-                 ("Muzeum Archeologiczne: folder o historii muzeum i pałacu (PDF)", "https://nowa.muzarp.poznan.pl/fotki/files/files/Z%20w%C4%99dk%C4%85%20po%20wiedz%C4%99/Folder-muzuem_strony.pdf"),
-                 ("Wikipedia: Muzeum Archeologiczne w Poznaniu", "https://pl.wikipedia.org/wiki/Muzeum_Archeologiczne_w_Poznaniu")],
+        sources=[("Muzeum Archeologiczne: godziny otwarcia", "https://nowa.muzarp.poznan.pl/pl/godziny-otwarcia"),
+                 ("Muzeum Archeologiczne: bilety", "https://nowa.muzarp.poznan.pl/pl/bilety"),
+                 ("Muzeum Archeologiczne: historia muzeum", "https://nowa.muzarp.poznan.pl/pl/historia-muzeum"),
+                 ("Muzeum Archeologiczne: Pałac Górków", "https://nowa.muzarp.poznan.pl/pl/palac-gorkow"),
+                 ("Muzeum Archeologiczne: Pradzieje Wielkopolski", "https://nowa.muzarp.poznan.pl/pl/pradzieje-wielkopolski"),
+                 ("Muzeum Archeologiczne: Tu powstała Polska", "https://nowa.muzarp.poznan.pl/pl/tu-powstala-polska"),
+                 ("Muzeum Archeologiczne: Archeologia Sudanu", "https://nowa.muzarp.poznan.pl/pl/archeologia-sudanu"),
+                 ("Muzeum Archeologiczne: Sztuka naskalna Afryki Północnej", "https://nowa.muzarp.poznan.pl/pl/sztuka-naskalna-afryki-polnocnej"),
+                 ("Muzeum Archeologiczne: obelisk Ramzesa II", "https://nowa.muzarp.poznan.pl/pl/obelisk-ramzesa-ii"),
+                 ("Muzeum Archeologiczne: Radość życia w blasku Ra", "https://nowa.muzarp.poznan.pl/pl/radosc-zycia-w-blasku-ra"),
+                 ("Rezerwat Archeologiczny Genius loci: godziny otwarcia i oferta", "http://rezerwat.muzarp.poznan.pl/"),
+                 ("Muzeum Archeologiczne: folder o historii muzeum i pałacu (PDF)", "https://nowa.muzarp.poznan.pl/fotki/files/files/Z%20w%C4%99dk%C4%85%20po%20wiedz%C4%99/Folder-muzuem_strony.pdf")],
     ),
 
     # ─── PRZYRODA ───
@@ -1361,7 +1374,7 @@ for _a in ATTRACTIONS:
 
 # Jezioro Maltańskie: źródła oficjalne zamiast Wikipedii (12.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania"):
+    if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne"):
         _a["checked"] = "12.11.2026"
 
 
