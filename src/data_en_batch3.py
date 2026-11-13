@@ -164,14 +164,14 @@ EN_BATCH3 = {
         lead="Kórnik Castle stands on a former island, surrounded by water. It has medieval origins, but its look as a fairy-tale Neo-Gothic residence was given to it in the 19th century by Tytus Działyński. Today it houses the Kórnik Library of the Polish Academy of Sciences and a museum with historic interiors.",
         sections=[
             ("History", [
-                "The oldest mention of the castle dates from 1426. Over the centuries it belonged to great Greater Poland families: the Górkas, Czarnkowskis, Grudzińskis, Działyńskis and Zamoyskis. In 1574 it hosted Henry of Valois on his way to be crowned in Kraków.",
-                "In the 18th century Teofila Szołdrska-Potulicka, née Działyńska, lived here. Her portrait in a white dress, which still hangs in the castle, gave rise to the legend of the White Lady, one of the most famous castle ghosts in Poland.",
-                "In the 19th century Tytus Działyński rebuilt the castle in the English Neo-Gothic style. In 1826 he founded the Kórnik Library, which became part of the Polish Academy of Sciences in 1953. Since 2011 the castle and park complex has been a Historic Monument of Poland.",
+                "The oldest mention of the castle dates from 1426 and concerns the renovation of a roof. The first brick residence, with two parallel wings and a tower, was built for Mikołaj Górka (d. 1439). Over the centuries the castle belonged to Greater Poland families: the Górkas, Czarnkowskis, Grudzińskis, Działyńskis and Zamoyskis. On 1 February 1574 Stanisław Górka hosted here the future king Henry of Valois, who was on his way to be crowned in Kraków.",
+                "Since the 15th century the castle has never been destroyed, only rebuilt several times. In the 18th century Teofila Szołdrska-Potulicka, née Działyńska (1715–1790), known as the “White Lady of Kórnik”, turned it into a Baroque palace with a garden of fountains, an aviary and orangeries. According to the legend, the ghost of the White Lady haunts the castle chambers.",
+                "In the 19th century Tytus Działyński (1796–1861) rebuilt the castle in the English Neo-Gothic style, giving it its present look. In 1826 he founded the Kórnik Library. Władysław Zamoyski (1853–1924) gave his whole estate to the nation: on 30 July 1925 the Sejm established the Kórnik Estates Foundation. The castle and the library survived the Second World War, and in 1953 they became part of the Polish Academy of Sciences. Since 2011 the castle and park complex has been a Historic Monument of Poland.",
             ]),
             ("What to see", [
-                "The castle interiors with furniture, paintings and mementoes of the former owners, including the portrait of the White Lady.",
-                "The library's collections are among the oldest and richest in Poland. They include manuscripts by Chopin, Mickiewicz and Napoleon Bonaparte.",
-                "Right next to the castle is the Kórnik Arboretum, which is worth seeing on the same visit. Separate tickets apply there.",
+                "The historic castle interiors, open as a museum. The collections include paintings by Polish and European masters, numismatic collections, Polish and Eastern militaria, and ethnographic and natural-history collections from Australia and Oceania.",
+                "The castle houses the Kórnik Library, one of the oldest and richest library collections in Poland.",
+                "The Kórnik Arboretum is about 200 metres from the castle.",
             ]),
             ("Good to know", [
                 "You can tour the castle with the free “Zamek w Kórniku” app (you need your own headphones) or with an audio guide hired at the ticket office for PLN 15. The ticket office also has a free field game for children, in which Tytus Działyński himself is the guide.",
