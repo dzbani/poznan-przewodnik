@@ -1166,23 +1166,25 @@ MORE = [
     dict(
         slug="trakt-krolewsko-cesarski", cat="zabytki", name="Trakt Królewsko-Cesarski",
         img="trakt-krolewsko-cesarski", img_alt="Oznakowanie Traktu Królewsko-Cesarskiego z koroną przy Bramie Poznania",
-        short="Główny szlak turystyczny Poznania: od Bramy Poznania przez Ostrów Tumski i Stary Rynek do Zamku.",
+        short="Główny szlak turystyczno-kulturowy Poznania: Brama Poznania, Ostrów Tumski, Stare Miasto i Śródmieście.",
         badge="Bezpłatnie",
         status=None,
         lead="Trakt Królewsko-Cesarski to główny szlak turystyczno-kulturowy Poznania. Łączy najciekawsze części miasta i opowiada historię Poznania oraz czterdziestu pokoleń jego mieszkańców.",
         sections=[
             ("Przebieg", [
-                "Główna oś ma około 3 km i prowadzi na zachód od Bramy Poznania przez Ostrów Tumski z katedrą, Stary Rynek z ratuszem i Stare Miasto po Śródmieście z muzeami i teatrami oraz Zamek Cesarski.",
-                "Pierwotnie szlak wyznaczono od kościoła św. Jana Jerozolimskiego za Murami do kościoła Najświętszego Serca Pana Jezusa i św. Floriana na Jeżycach. Wokół głównej osi biegną szlaki dodatkowe.",
-                "Na trasie są m.in. katedra, Zamek Królewski, ratusz, dawne Kolegium Jezuickie, Biblioteka Raczyńskich i Zamek Cesarski.",
+                "Nazwa odnosi się do monarchów, którzy przez tysiąc lat mieszkali w Poznaniu lub go odwiedzali. Główna oś prowadzi przez Śródmieście, Stary Rynek i Ostrów Tumski, a wokół niej biegną trasy uzupełniające i tematyczne.",
+                "Obszary traktu to Brama Poznania, Ostrów Tumski, Stare Miasto i Śródmieście. Zwiedzanie zaleca się zacząć od Bramy Poznania. Szlaki uzupełniające to m.in. Śródka i Chwaliszewo (przy Ostrowie Tumskim) oraz Wzgórze św. Wojciecha, Piaski i Grobla (przy Starym Mieście).",
+                "Trakt przebiega przez Park Kulturowy Stare Miasto i obszar Pomnika Historii „Poznań – historyczny zespół miasta”, który ten tytuł dostał w 2008 roku.",
             ]),
             ("Jak zwiedzać", [
-                "Trasę oznaczają bordowe tabliczki z wyciętą koroną, logo traktu, umieszczone na elementach miejskiej infrastruktury.",
-                "Szlak można przejść pieszo albo przejechać rowerem i komunikacją miejską. Zwiedzanie jest bezpłatne, a na stronie traktu są darmowe foldery i mapa.",
-                "Co roku odbywają się bezpłatne spacery z przewodnikiem.",
+                "Trasę wyznaczają czerwone tablice z koroną i można iść od tablicy do tablicy. Korony są też na przystankach tramwajowych, a oznaczony koroną tramwaj nr 17 pozwala objechać Trakt.",
+                "Szlak można zwiedzać pieszo, rowerem, komunikacją miejską lub nowoczesnymi środkami mobilności. Zwiedzanie jest bezpłatne. Na stronie traktu są darmowe foldery PDF dla każdego obszaru, mapa i przewodnik dla dzieci „Chodź, zobacz!”.",
+                "Przewodnik po Trakcie Królewsko-Cesarskim (2016, po polsku i angielsku, 35 zł) kupisz w Bramie Poznania, w Centrum Informacji Turystycznej (Stary Rynek 59/60) i w Centrum Informacji Kulturalnej w Arkadii.",
+                "Przy Bramie Poznania działa audioprzewodnik w 8 językach.",
+                "Latem odbywają się bezpłatne spacery z przewodnikiem, a informacja o Trakcie jest dostępna także w Polskim Języku Migowym.",
             ]),
             ("O szlaku", [
-                "Trakt powstał w latach 2006–2013 według koncepcji z 2004 roku, a w 2015 roku przebieg zmodyfikowano. Zarządza nim Poznańskie Centrum Dziedzictwa, miejska instytucja kultury.",
+                "Trakt zarządza Poznańskie Centrum Dziedzictwa, miejska instytucja kultury, z siedzibą w Bramie Poznania.",
             ]),
         ],
         address="Brama Poznania, ul. Gdańska 2, 61-123 Poznań",
@@ -1191,7 +1193,10 @@ MORE = [
         phone=None, www=("trakt.poznan.pl", "https://trakt.poznan.pl/"),
         credit="trakt-krolewsko-cesarski",
         sources=[("trakt.poznan.pl: Poznaj Trakt Królewsko-Cesarski", "https://trakt.poznan.pl/poznaj-trakt-krolewsko-cesarski"),
-                 ("Wikipedia: Trakt Królewsko-Cesarski w Poznaniu", "https://pl.wikipedia.org/wiki/Trakt_Królewsko-Cesarski_w_Poznaniu")],
+                 ("trakt.poznan.pl: Obszary Traktu Królewsko-Cesarskiego", "https://trakt.poznan.pl/obszary-traktu-krolewsko-cesarskiego"),
+                 ("trakt.poznan.pl: Przewodnik po Trakcie", "https://trakt.poznan.pl/przewodnik-po-trakcie-krolewsko-cesarskim"),
+                 ("trakt.poznan.pl: Dostępność", "https://trakt.poznan.pl/dostepnosc"),
+                 ("trakt.poznan.pl: Skontaktuj się", "https://trakt.poznan.pl/skontakuj-sie")],
     ),
 ]
 
@@ -1417,7 +1422,7 @@ for _a in ATTRACTIONS:
 
 # Zamek w Kórniku: e-mail sekretariatu (13.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin", "genius-loci", "stary-browar", "biblioteka-raczynskich"):
+    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin", "genius-loci", "stary-browar", "biblioteka-raczynskich", "trakt-krolewsko-cesarski"):
         _a["checked"] = "13.11.2026"
 
 

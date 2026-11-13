@@ -210,23 +210,25 @@ EN_BATCH4 = {
     "trakt-krolewsko-cesarski": dict(
         name="Royal-Imperial Route",
         img_alt="Royal-Imperial Route marker with a crown by the Gate of Poznań",
-        short="Poznań's main tourist trail: from the Gate of Poznań via Ostrów Tumski and the Old Market Square to the Castle.",
+        short="Poznań's main tourist and cultural trail: the Gate of Poznań, Ostrów Tumski, the Old Town and the city centre.",
         badge="Free",
         status=None,
         lead="The Royal-Imperial Route (Trakt Królewsko-Cesarski) is Poznań's main tourist and cultural trail. It links the most interesting parts of the city and tells the story of Poznań and of forty generations of its inhabitants.",
         sections=[
             ("The route", [
-                "The main axis is about 3 km long and leads west from the Gate of Poznań through Ostrów Tumski with its cathedral, the Old Market Square with the town hall and the Old Town, to the city centre with its museums and theatres, and the Imperial Castle.",
-                "The trail was originally laid out from the church of St John of Jerusalem Outside the Walls to the church of the Sacred Heart of Jesus and St Florian in Jeżyce. Additional trails run around the main axis.",
-                "Along the way are the cathedral, the Royal Castle, the town hall, the former Jesuit College, the Raczyński Library and the Imperial Castle, among others.",
+                "The name refers to the monarchs who lived in or visited Poznań over a thousand years. The main axis leads through the city centre, the Old Market Square and Ostrów Tumski, and supplementary and thematic routes run around it.",
+                "The areas of the route are the Gate of Poznań, Ostrów Tumski, the Old Town and the city centre. It is recommended to start at the Gate of Poznań. The supplementary trails include Śródka and Chwaliszewo (by Ostrów Tumski) and St Adalbert Hill, Piaski and Grobla (by the Old Town).",
+                "The route runs through the Old Town Cultural Park and the area of the Historic Monument “Poznań – the historic city complex”, which received this title in 2008.",
             ]),
             ("How to visit", [
-                "The route is marked by maroon plates with a cut-out crown, the logo of the route, mounted on elements of city infrastructure.",
-                "You can walk the trail, or travel it by bicycle and public transport. Visiting is free, and the route's website has free leaflets and a map.",
-                "Free guided walks are held every year.",
+                "The route is marked by red plates with a crown, and you can go from plate to plate. Crowns are also on tram stops, and tram no. 17, marked with a crown, lets you ride around the Route.",
+                "You can visit on foot, by bicycle, by public transport or by modern urban mobility. Visiting is free. The route's website has free PDF leaflets for each area, a map and the children's guide “Come, look!” (Chodź, zobacz!).",
+                "The Guide to the Royal-Imperial Route (2016, in Polish and English, PLN 35) can be bought at the Gate of Poznań, at the Tourist Information Centre (Stary Rynek 59/60) and at the Cultural Information Centre in Arkadia.",
+                "An audio guide in 8 languages is available at the Gate of Poznań.",
+                "Free guided walks are held in summer, and information about the Route is also available in Polish Sign Language.",
             ]),
             ("About the trail", [
-                "The route was created in 2006–2013 according to a concept of 2004, and its course was modified in 2015. It is managed by the Poznań Heritage Centre, a municipal cultural institution.",
+                "The route is managed by the Poznań Heritage Centre, a municipal cultural institution based in the Gate of Poznań.",
             ]),
         ],
         hours=[("Trail", "open around the clock")],

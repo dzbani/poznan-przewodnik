@@ -11,6 +11,7 @@ EMAILS = {
     "genius-loci": "rezerwat@muzarp.poznan.pl",
     "wzgorze-sw-wojciecha": "swietywojciech@archpoznan.pl",
     "biblioteka-raczynskich": "informacja@bracz.edu.pl",
+    "trakt-krolewsko-cesarski": "centrum@pcd.poznan.pl",
     "fort-va": "kontakt@kernwerk.pl",
     "teatr-wielki": "sekretariat@opera.poznan.pl",
     "kosciol-nmp-in-summo": "parkat@archpoznan.pl",

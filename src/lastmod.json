@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-13",
-"hash": "29175fe52220940db6f0bcf40eaa1509"
+"hash": "eb62af549a0d6fa6bff52f21e28fa51b"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -648,8 +648,8 @@
 "hash": "fb047781ab63a0270ae6cac2b36542be"
 },
 "atrakcje/trakt-krolewsko-cesarski.html": {
-"date": "2026-11-11",
-"hash": "fa4fe1ad389c97d292e7b72849007fbb"
+"date": "2026-11-13",
+"hash": "aca4e66938d88636f31e539f30184778"
 },
 "atrakcje/wiedzma-z-chwaliszewa.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-13",
-"hash": "2fd6df574ed7f17601fbc2174c06330e"
+"hash": "ebd3c0aac41edbb58ee9ad31ea4fc782"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1340,8 +1340,8 @@
 "hash": "30c221ea54f199a71e4d351fbf739b8d"
 },
 "en/attractions/trakt-krolewsko-cesarski.html": {
-"date": "2026-11-11",
-"hash": "8506ac286acbc8f04f37444a86c67a6d"
+"date": "2026-11-13",
+"hash": "c0cb4ee242c8856a7f9c91809e44938e"
 },
 "en/attractions/wiedzma-z-chwaliszewa.html": {
 "date": "2026-11-12",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-13",
-"hash": "da4315fb978aebde6434b9b172654f45"
+"hash": "e0438de58f65e6d26cb702da9169b82c"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-13",
-"hash": "9ad70b90ce665ff2839d212d36772c99"
+"hash": "46cd574a0607cf67a9804d13478d8ba1"
 },
 "muzea.html": {
 "date": "2026-11-12",
