@@ -1305,8 +1305,8 @@ for _a in ATTRACTIONS:
         _a["checked"] = "07.11.2026"
     if _a["slug"] == "bazar":   # karta porównana z Wikipedią i poznan.pl 6.11.2026 (daty budowy, Orbis, rozbudowa Sławskiego, Paderewski, link i adres)
         _a["checked"] = "06.11.2026"
-    if _a["slug"] == "biblioteka-raczynskich":   # karta porównana z bracz.edu.pl (historia, zbiory, kontakt, filie) i Wikipedią 5.11.2026
-        _a["checked"] = "05.11.2026"
+    if _a["slug"] == "biblioteka-raczynskich":   # karta porównana z bracz.edu.pl (historia, kontakt, filie, muzea, dostępność) 13.11.2026, bez Wikipedii
+        _a["checked"] = "13.11.2026"
     if _a["slug"] == "wzgorze-sw-wojciecha":   # karta porównana z poznan.pl, kultura.poznan.pl i stroną parafii 13.11.2026 (bez Wikipedii)
         _a["checked"] = "13.11.2026"
     if _a["slug"] == "giecz":   # nowa karta, dane z lednicamuzeum.pl (grafika godzin, cennik, historia) 4.11.2026

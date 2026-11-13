@@ -28,26 +28,29 @@ EN_BATCH4 = {
     "biblioteka-raczynskich": dict(
         name="Raczyński Library",
         img_alt="The colonnade and the frieze inscribed “Biblioteka Raczyńskich” on the building’s façade, among autumn leaves",
-        short="A neoclassical building of 1822–1828 with a façade modelled on the Louvre, on Freedom Square.",
+        short="The oldest surviving public library in Poland, with a façade modelled on the Louvre, on Freedom Square.",
         badge="Free",
         status=None,
-        lead="The library was founded by Count Edward Raczyński. It opened on 5 May 1829 as the first public library in the Polish lands under Prussian rule. It is the oldest surviving public library in Poland.",
+        lead="The library was founded in 1829 by Count Edward Raczyński. It is the oldest surviving public library in Poland.",
         sections=[
             ("The building", [
-                "The neoclassical building on Plac Wolności (Freedom Square) was built in 1822–1828. Its façade echoes the Louvre in Paris and has twelve pairs of cast-iron Corinthian columns.",
-                "On 29 June 2013 a new library building on the Aleje Marcinkowskiego side, designed by the JEMS Architekci studio, was opened.",
+                "The front of the historic building on Plac Wolności (Freedom Square) was modelled on the east façade of the Louvre in Paris.",
+                "On 29 June 2013 a new library building, designed by the Warsaw studio JEMS Architekci, was opened. It houses, among other things, reading rooms, the lending library, the children's library and the special collections.",
             ]),
             ("History", [
-                "In the statute the founder wrote that the reading room may be used by anyone “regardless of persons”.",
-                "On 5 February 1945, during the fighting for Poznań, the Germans blew up the building and about 90% of the book collection burned. About 17,000 of the most valuable items survived, having been moved earlier to Obrzycko.",
-                "The reconstruction, to a design by Janina Czarnecka, began in 1953, and three years later the building was put back into use. In April 2022 the historic building was reopened to readers after modernisation. The Art Branch is on the first floor.",
+                "The library grew out of the Raczyński family collections. Later valuable manuscripts, old prints and cartographic materials were added, among them from the collection of Julian Ursyn Niemcewicz.",
+                "The statute laid down that anyone, “regardless of persons”, had the right to use the reading room on the days and hours set.",
+                "In 1924 the city of Poznań took over the maintenance of the library.",
+                "In early 1945, during the fighting for Poznań, the library was destroyed and more than 90% of the book collection burned. About 17,000 items of special collections survived, having been taken two years earlier to Obrzycko.",
+                "The reconstruction, to a design by Janina Czarnecka, began in 1953, and three years later the building was put back into use. In April 2022 the historic building was reopened to readers after modernisation. The Art Branch is on the first floor, with about 32,000 books and 34,000 music items.",
             ]),
             ("Good to know", [
-                "The library has about 1.8 million items and 35 branches in Poznań. It also runs literary museums, including the Henryk Sienkiewicz Literary Museum on the Old Market Square.",
+                "The library has 36 branches in various districts of Poznań, with about 1 million volumes in them. It also runs literary museums: the Henryk Sienkiewicz Literary Museum, the Kazimiera Iłłakowiczówna Flat-Studio and the Józef Ignacy Kraszewski Studio-Museum.",
+                "The main building has a semi-automatic entrance, a lift, toilets for people with disabilities and an induction loop. It has a lending library for blind and partially sighted people.",
                 "The Hygieia fountain stands in front of the library.",
             ]),
         ],
-        hours=[("Entrance from Plac Wolności", "Mon–Fri 9:00–20:00, Sat 10:00–17:00 (closed on Saturdays in July and August)"), ("Building from the square side", "visible around the clock")],
+        hours=[("Entrance from Plac Wolności", "Mon–Fri 9:00–20:00, Sat 10:00–17:00 (closed on Saturdays in July and August)"), ("Special collections reading room", "Mon, Tue, Wed, Fri 9:00–15:00, Thu 9:00–18:00"), ("Atanazy Gallery", "Mon–Fri 10:00–18:00, Sat 10:00–16:00 (closed on Saturdays in July and August)"), ("Building from the square side", "visible around the clock")],
         tickets=[("Viewing the building", "free")],
     ),
     "jezyce": dict(
