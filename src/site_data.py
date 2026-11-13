@@ -805,13 +805,16 @@ MORE = [
         lead="Rezerwat Genius Loci na Ostrowie Tumskim pokazuje doskonale zachowane konstrukcje wału obronnego grodu poznańskiego z X wieku. Prowadzi go Muzeum Archeologiczne, a otwarto go w 2012 roku.",
         sections=[
             ("Co zobaczyć", [
-                "Drewniane konstrukcje wału obronnego grodu z czasów pierwszych Piastów, zachowane w ziemi przez ponad tysiąc lat.",
-                "Wystawy i prezentacje multimedialne, które pokazują, jak budowano umocnienia we wczesnym średniowieczu.",
+                "Drewniano-ziemne konstrukcje wału obronnego grodu z drugiej połowy X wieku, zachowane w ziemi przez ponad tysiąc lat. Wał miał ok. 12 m wysokości i do 30 m szerokości u podstawy, a otaczał północną część grodu.",
+                "W podziemiach salę z reliktami wału i korytarz z fundamentami muru biskupa Lubrańskiego.",
+                "Multimedia: film 3D w sali kinowej, infokioski i hologram grodu.",
+                "Wystawy stałe „Pokolenie 966”, „Zabytki Ostrowa Tumskiego” i „Przekrój (P)poznania” oraz wystawy czasowe.",
             ]),
             ("Warto wiedzieć", [
                 "Dojazd (według rozkładu ZTM z 10.10.2026): przystanek Katedra obsługują autobusy 167, 213, 223 i 911 oraz linia T7, a tramwaje 5, 6, 7 i 8 zatrzymują się na Rondzie Śródka. Strona rezerwatu podaje starsze numery linii, które nie zgadzają się z obecnym rozkładem.",
                 "Obiekt jest przystosowany dla osób z niepełnosprawnościami.",
-                "Jest bilet na trzy miejsca na Ostrowie Tumskim (Brama Poznania, Genius Loci i Akademia Lubrańskiego) w cenie 49 zł.",
+                "Jest bilet na trzy miejsca na Ostrowie Tumskim (Brama Poznania, Genius Loci i Akademia Lubrańskiego): normalny 49 zł, ulgowy 36 zł, rodzinny 109 zł. Kupuje się go w Bramie Poznania.",
+                "Oprowadzanie po polsku (75 zł) i po angielsku (100 zł) dla grup do 25 osób. Bilety wstępu kupuje się osobno.",
                 "Ostatnie wejście jest pół godziny przed zamknięciem.",
             ]),
         ],
@@ -821,10 +824,11 @@ MORE = [
                  ("Wspólny z Pałacem Górków (Muzeum Archeologiczne)", "30 zł, ulgowy 25 zł, rodzinny 80 zł")],
         phone="+48 61 852 21 67", www=("rezerwat.muzarp.poznan.pl", "https://rezerwat.muzarp.poznan.pl/"),
         credit="genius-loci",
-        sources=[("Genius Loci: bilety", "https://rezerwat.muzarp.poznan.pl/pl/bilety"),
-                 ("dzieje.pl: Rezerwat archeologiczny na Ostrowie Tumskim (otwarcie, 29.06.2012)", "https://dzieje.pl/rozmaitosci/rezerwat-archeologiczny-na-ostrowie-tumskim-w-poznaniu"),
+        sources=[("Genius Loci: strona główna", "https://rezerwat.muzarp.poznan.pl/"),
                  ("Genius Loci: godziny otwarcia", "https://rezerwat.muzarp.poznan.pl/pl/godziny-otwarcia"),
-                 ("Genius Loci: dla zwiedzających", "https://rezerwat.muzarp.poznan.pl/pl/dla-zwiedzajacych")],
+                 ("Genius Loci: bilety", "https://rezerwat.muzarp.poznan.pl/pl/bilety"),
+                 ("Genius Loci: dla zwiedzających", "https://rezerwat.muzarp.poznan.pl/pl/dla-zwiedzajacych"),
+                 ("dzieje.pl: Rezerwat archeologiczny na Ostrowie Tumskim (otwarcie, 29.06.2012)", "https://dzieje.pl/rozmaitosci/rezerwat-archeologiczny-na-ostrowie-tumskim-w-poznaniu")],
     ),
     dict(
         slug="wzgorze-sw-wojciecha", cat="zabytki", name="Wzgórze św. Wojciecha",
@@ -1405,7 +1409,7 @@ for _a in ATTRACTIONS:
 
 # Zamek w Kórniku: e-mail sekretariatu (13.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin"):
+    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin", "genius-loci"):
         _a["checked"] = "13.11.2026"
 
 

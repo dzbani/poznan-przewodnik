@@ -11,13 +11,16 @@ EN_BATCH7 = {
         lead="The Genius Loci reserve on Ostrów Tumski shows the excellently preserved structures of the defensive rampart of the Poznań stronghold from the 10th century. It is run by the Archaeological Museum and opened in 2012.",
         sections=[
             ("What to see", [
-                "Wooden structures of the stronghold's rampart from the time of the first Piasts, preserved in the ground for more than a thousand years.",
-                "Exhibitions and multimedia presentations that show how fortifications were built in the early Middle Ages.",
+                "Timber-and-earth structures of the stronghold's rampart from the second half of the 10th century, preserved in the ground for more than a thousand years. The rampart was about 12 m high and up to 30 m wide at the base, and it surrounded the northern part of the stronghold.",
+                "In the basement, a hall with the remains of the rampart and a corridor with the foundations of Bishop Lubrański's wall.",
+                "Multimedia: a 3D film in the cinema room, info kiosks and a hologram of the stronghold.",
+                "The permanent exhibitions “Generation 966”, “Monuments of Ostrów Tumski” and “Cross-section of (P)oznań”, as well as temporary exhibitions.",
             ]),
             ("Good to know", [
                 "Getting there (according to the ZTM timetable of 10 October 2026): the stop Katedra is served by buses 167, 213, 223 and 911 and line T7, and trams 5, 6, 7 and 8 stop at Rondo Śródka. The reserve's website gives older line numbers, which do not match the current timetable.",
                 "The site is adapted for people with disabilities.",
-                "There is a ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy) at PLN 49.",
+                "There is a ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy): standard PLN 49, reduced PLN 36, family PLN 109. It is bought at the Gate of Poznań.",
+                "Guided tours in Polish (PLN 75) and in English (PLN 100) for groups of up to 25 people. Admission tickets are bought separately.",
                 "The last entry is half an hour before closing.",
             ]),
         ],
