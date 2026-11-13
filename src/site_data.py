@@ -836,7 +836,7 @@ MORE = [
         short="Krypta Zasłużonych Wielkopolan: grób Józefa Wybickiego i serce gen. Dąbrowskiego.",
         badge="Po umówieniu",
         status=None,
-        lead="Przy kościele św. Wojciecha znajduje się Krypta Zasłużonych Wielkopolan, założona w 1923 roku z inicjatywy ówczesnego proboszcza, ks. Bolesława Kościelskiego. Wzorowano ją na krakowskiej Skałce, stąd nazwa „Skałka Poznańska”.",
+        lead="Przy kościele św. Wojciecha znajduje się Krypta Zasłużonych Wielkopolan, założona w 1923 roku z inicjatywy ówczesnego proboszcza, ks. Bolesława Kościelskiego (1871–1925). Wzorowano ją na krakowskiej Skałce, stąd nazwa „Skałka Poznańska”.",
         sections=[
             ("Kto tu spoczywa", [
                 "Józef Wybicki (1747–1822), twórca Hymnu Polskiego, oraz gen. Antoni Amilkar Kosiński (1769–1823), współtwórca Legionów Dąbrowskiego.",
@@ -846,25 +846,29 @@ MORE = [
                 "Są tu ponadto dwie urny: z sercem gen. Jana Henryka Dąbrowskiego (złożoną w 1992 roku w kaplicy św. Antoniego) i z ziemią z miejsca pochówku gen. Ignacego Prądzyńskiego. W nawie południowej kościoła stoi sarkofag Karola Marcinkowskiego, lekarza i społecznika.",
             ]),
             ("Kościół i dzwonnica", [
-                "Według tradycji na wzgórzu głosił w przełomie 996 i 997 roku Słowo Boże biskup Wojciech. Pierwszą świątynię w tym miejscu zbudowano w 1222 roku. Obecny kościół pochodzi z XV wieku i był pierwotnie jednonawową budowlą gotycką. W XVI wieku dobudowano nawy boczne, a na przełomie XVI i XVII wieku szczyty renesansowe. Od południa przylega kaplica św. Antoniego.",
-                "Świątynia jest trójnawowa, ze sklepieniem gwiaździstym. Wnętrze zdobi secesyjna polichromia Antoniego Procajłowicza z lat 1911–1912. Ołtarz główny z 1953 roku, stylizowany na gotycki, ma w środku gotycką płaskorzeźbę Wniebowzięcia NMP z XVI wieku, przypisywaną uczniowi Wita Stwosza. W nawach bocznych stoją trzy ołtarze późnorenesansowe.",
+                "Według niepotwierdzonej tradycji na wzgórzu głosił Słowo Boże św. Wojciech. Pierwszą pewną datą w historii kościoła jest rok 1244, w którym przeniesiono tu parafię św. Gotarda. Hipoteza łączy początki świątyni z nieudaną wyprawą chrystianizacyjną do Prusów w 1222 roku. Pierwszy kościół był niewielką budowlą romańską, a obecny, gotycki, pochodzi z XV wieku (parafia podaje jego pierwszą połowę). Do połowy XVI wieku dobudowano nawy boczne, a na przełomie XVI i XVII wieku szczyty renesansowe. Od południa przylega kaplica św. Antoniego.",
+                "Świątynia jest trójnawowa, ma 26,5 m długości i 17,6 m szerokości. Nawa główna ma sklepienie sieciowe, uznawane za unikalne w Poznaniu, a nawa północna gwiaździste. Wnętrze zdobi secesyjna polichromia Antoniego Procajłowicza z lat 1911–1912. Ołtarz główny z 1953 roku, stylizowany na gotycki, ma w środku gotycką płaskorzeźbę Wniebowzięcia NMP z XVI wieku, przypisywaną uczniowi Wita Stwosza. W nawach bocznych stoją trzy ołtarze późnorenesansowe.",
                 "W czasie II wojny światowej był to jeden z dwóch poznańskich kościołów dostępnych dla ludności polskiej. W 1945 roku kościół zniszczono w walkach o Poznań, ale wkrótce go odbudowano.",
-                "Przy kościele stoi drewniana dzwonnica z XVII wieku, kryta gontem, z trzema dzwonami.",
+                "Przy kościele stoi drewniana dzwonnica z XVII wieku, kryta gontem, z trzema dzwonami. W latach 80. XV wieku do południowo-zachodniego narożnika kościoła dostawiono też wieżę pełniącą funkcję dzwonnicy, dziś wtopioną w mury.",
                 "Na ścianach kościoła i na otaczającym go murze wiszą liczne tablice pamiątkowe zasłużonych wielkopolan.",
             ]),
             ("Warto wiedzieć", [
+                "Pomysł panteonu poparł Heliodor Święcicki. 10 czerwca 1923 roku do kościoła przeniesiono prochy Karola Marcinkowskiego, a 14 października 1923 roku do krypty złożono trumny Józefa Wybickiego, Antoniego Amilkara Kosińskiego i Andrzeja Niegolewskiego.",
                 "W latach 1996–1997 zbudowano nową, większą kryptę według projektu Jerzego Gurawskiego, otwartą 15 czerwca 1997 roku. Połączono ją ze starą przejściem wykutym w fundamentach kaplicy św. Antoniego.",
                 "W okresie Bożego Narodzenia w kościele czynny jest ruchomy żłóbek betlejemski ze 102 figurami.",
-                "Naprzeciw kościoła, przy kościele karmelitów bosych, jest Cmentarz Zasłużonych Wielkopolan.",
+                "Wzgórze św. Wojciecha tworzą też kościół św. Józefa z klasztorem karmelitów bosych (XVII wiek), Cmentarz Zasłużonych Wielkopolan (najstarsza poznańska nekropolia, założona w 1810 roku) i pomnik Armii „Poznań” z 1982 roku.",
+                "Biuro parafialne: poniedziałek i piątek po wieczornej mszy (ok. 19:00), środa 9:00–10:00, tel. 61 851 90 12.",
                 "Kryptę zwiedza się tylko po wcześniejszym umówieniu telefonicznym z parafią. W czasie mszy i uroczystości jest nieczynna.",
             ]),
         ],
-        address="ul. Święty Wojciech 1, 61-746 Poznań",
-        hours=[("Krypta", "po uzgodnieniu telefonicznym"), ("W czasie mszy", "nieczynna")],
+        address="Wzgórze św. Wojciecha 1, 61-748 Poznań",
+        hours=[("Krypta", "po uzgodnieniu w biurze parafialnym lub telefonicznie"), ("W czasie mszy i uroczystości", "nieczynna"),
+               ("Msze: niedziele i święta", "9:00, 11:00 (dla dzieci), 12:15, 18:00, 20:15 (oprócz Bożego Narodzenia i Wielkanocy)"), ("Msze: poniedziałek–piątek", "18:30"), ("Msze: sobota", "8:30, 18:30")],
         tickets=[("Zwiedzanie", "po uzgodnieniu z parafią")],
-        phone="+48 793 842 860", www=("kultura.poznan.pl", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html"),
+        phone="+48 793 842 860", www=("swietywojciech.archpoznan.pl", "http://www.swietywojciech.archpoznan.pl/"),
         credit="wzgorze-sw-wojciecha",
-        sources=[("kultura.poznan.pl: Krypta Zasłużonych Wielkopolan", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html"),
+        sources=[("Parafia św. Wojciecha: strona parafii (msze, historia kościoła, dzwonnica, krypta, kontakt)", "http://www.swietywojciech.archpoznan.pl/"),
+                 ("kultura.poznan.pl: Krypta Zasłużonych Wielkopolan", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/krypta-zasluzonych-wielkopolan,35331.html"),
                  ("Poznan.pl: Kościół św. Wojciecha", "https://www.poznan.pl/mim/wortals/turystyka/-,p,37,50,92.html")],
     ),
     dict(
@@ -1303,7 +1307,7 @@ for _a in ATTRACTIONS:
         _a["checked"] = "06.11.2026"
     if _a["slug"] == "biblioteka-raczynskich":   # karta porównana z bracz.edu.pl (historia, zbiory, kontakt, filie) i Wikipedią 5.11.2026
         _a["checked"] = "05.11.2026"
-    if _a["slug"] == "wzgorze-sw-wojciecha":   # karta porównana z poznan.pl i kultura.poznan.pl 13.11.2026 (bez Wikipedii)
+    if _a["slug"] == "wzgorze-sw-wojciecha":   # karta porównana z poznan.pl, kultura.poznan.pl i stroną parafii 13.11.2026 (bez Wikipedii)
         _a["checked"] = "13.11.2026"
     if _a["slug"] == "giecz":   # nowa karta, dane z lednicamuzeum.pl (grafika godzin, cennik, historia) 4.11.2026
         _a["checked"] = "04.11.2026"

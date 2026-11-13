@@ -9,6 +9,7 @@ EMAILS = {
     "arboretum-kornik": "arboretumIDPAN@man.poznan.pl",
     "rogalin": "rogalin@mnp.art.pl",
     "genius-loci": "rezerwat@muzarp.poznan.pl",
+    "wzgorze-sw-wojciecha": "swietywojciech@archpoznan.pl",
     "biblioteka-raczynskich": "informacja@bracz.edu.pl",
     "fort-va": "kontakt@kernwerk.pl",
     "teatr-wielki": "sekretariat@opera.poznan.pl",

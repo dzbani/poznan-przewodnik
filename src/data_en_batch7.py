@@ -181,7 +181,7 @@ EN_BATCH7 = {
         short="The Crypt of Distinguished Greater Poland People: the tomb of Józef Wybicki and the heart of Gen. Dąbrowski.",
         badge="By appointment",
         status=None,
-        lead="By St Adalbert's Church is the Crypt of Distinguished Greater Poland People, founded in 1923 on the initiative of the then parish priest, Fr Bolesław Kościelski. It was modelled on the Skałka in Kraków, hence the name “Poznań Skałka”.",
+        lead="By St Adalbert's Church is the Crypt of Distinguished Greater Poland People, founded in 1923 on the initiative of the then parish priest, Fr Bolesław Kościelski (1871–1925). It was modelled on the Skałka in Kraków, hence the name “Poznań Skałka”.",
         sections=[
             ("Who is buried here", [
                 "Józef Wybicki (1747–1822), creator of the Polish national anthem, and Gen. Antoni Amilkar Kosiński (1769–1823), co-creator of Dąbrowski's Legions.",
@@ -191,20 +191,23 @@ EN_BATCH7 = {
                 "There are also two urns: one with the heart of Gen. Jan Henryk Dąbrowski (placed in 1992 in St Anthony's Chapel) and one with soil from the burial place of Gen. Ignacy Prądzyński. In the south aisle of the church stands the sarcophagus of Karol Marcinkowski, a physician and social activist.",
             ]),
             ("The church and the bell tower", [
-                "According to tradition, Bishop Adalbert preached on the hill around the turn of 996 and 997. The first church on this site was built in 1222. The present church dates from the 15th century and was originally a single-nave Gothic building. In the 16th century the side aisles were added, and at the turn of the 16th and 17th centuries the Renaissance gables. St Anthony's Chapel adjoins it on the south.",
-                "The church has three naves and a star vault. The interior is decorated with an Art Nouveau polychrome by Antoni Procajłowicz from 1911–1912. The high altar of 1953, in a Gothic style, has at its centre a Gothic relief of the Assumption of the Virgin Mary from the 16th century, attributed to a pupil of Veit Stoss. In the side aisles stand three late Renaissance altars.",
+                "According to an unconfirmed tradition, St Adalbert preached on the hill. The first certain date in the history of the church is 1244, when the parish of St Gotard was moved here. A hypothesis links the origins of the church with the unsuccessful Christianising expedition to Prussia in 1222. The first church was a small Romanesque building, and the present Gothic one dates from the 15th century (the parish gives its first half). By the middle of the 16th century the side aisles had been added, and at the turn of the 16th and 17th centuries the Renaissance gables. St Anthony's Chapel adjoins it on the south.",
+                "The church has three naves and is 26.5 m long and 17.6 m wide. The main nave has a net vault, regarded as unique in Poznań, and the north nave a star vault. The interior is decorated with an Art Nouveau polychrome by Antoni Procajłowicz from 1911–1912. The high altar of 1953, in a Gothic style, has at its centre a Gothic relief of the Assumption of the Virgin Mary from the 16th century, attributed to a pupil of Veit Stoss. In the side aisles stand three late Renaissance altars.",
                 "During the Second World War it was one of two Poznań churches open to the Polish population. In 1945 the church was destroyed in the fighting for Poznań, but it was soon rebuilt.",
-                "Beside the church stands a wooden bell tower from the 17th century, covered with shingles, with three bells.",
+                "Beside the church stands a wooden bell tower from the 17th century, covered with shingles, with three bells. In the 1480s a tower serving as a belfry was also added to the south-west corner of the church; it is now set into the walls.",
                 "On the walls of the church and on the surrounding wall hang many commemorative plaques to distinguished Greater Poland people.",
             ]),
             ("Good to know", [
+                "The idea of a pantheon was supported by Heliodor Święcicki. On 10 June 1923 the ashes of Karol Marcinkowski were moved to the church, and on 14 October 1923 the coffins of Józef Wybicki, Antoni Amilkar Kosiński and Andrzej Niegolewski were placed in the crypt.",
                 "In 1996–1997 a new, larger crypt was built to a design by Jerzy Gurawski and opened on 15 June 1997. It is linked to the old one by a passage cut through the foundations of St Anthony's Chapel.",
                 "At Christmas time the church has a moving nativity scene with 102 figures.",
-                "Opposite the church, by the Discalced Carmelite church, is the Cemetery of Distinguished Greater Poland People.",
+                "St Adalbert Hill also includes the church of St Joseph with the Discalced Carmelite monastery (17th century), the Cemetery of Distinguished Greater Poland People (the oldest necropolis in Poznań, founded in 1810) and the Army “Poznań” monument of 1982.",
+                "Parish office: Monday and Friday after the evening Mass (about 7 pm), Wednesday 9–10 am, tel. 61 851 90 12.",
                 "The crypt can be visited only after arranging a visit with the parish by phone. It is closed during Masses and ceremonies.",
             ]),
         ],
-        hours=[("Crypt", "by arrangement by phone"), ("During Mass", "closed")],
+        hours=[("Crypt", "by arrangement at the parish office or by phone"), ("During Mass and ceremonies", "closed"),
+               ("Masses: Sundays and holidays", "9:00, 11:00 (for children), 12:15, 18:00, 20:15 (except Christmas and Easter)"), ("Masses: Monday–Friday", "18:30"), ("Masses: Saturday", "8:30, 18:30")],
         tickets=[("Visit", "by arrangement with the parish")],
     ),
     "okraglak": dict(
