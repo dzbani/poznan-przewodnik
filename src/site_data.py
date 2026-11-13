@@ -1422,7 +1422,7 @@ for _a in ATTRACTIONS:
 
 # Zamek w Kórniku: e-mail sekretariatu (13.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin", "genius-loci", "stary-browar", "biblioteka-raczynskich", "trakt-krolewsko-cesarski", "kolegium-jezuickie"):
+    if _a["slug"] in ("zamek-kornik", "arboretum-kornik", "rogalin", "genius-loci", "stary-browar", "biblioteka-raczynskich", "trakt-krolewsko-cesarski", "kolegium-jezuickie", "mury-miejskie"):
         _a["checked"] = "13.11.2026"
 
 

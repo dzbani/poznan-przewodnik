@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-13",
-"hash": "eb62af549a0d6fa6bff52f21e28fa51b"
+"hash": "2ab4d35ac60d37d0d87444c02037357f"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -280,8 +280,8 @@
 "hash": "32810562287d3cf6e9614b6564af4621"
 },
 "atrakcje/mury-miejskie.html": {
-"date": "2026-11-11",
-"hash": "0d7b0b9b0f8bd791968dde9802d82cce"
+"date": "2026-11-13",
+"hash": "259eedc03e8c5e3c8d17a8641c586e54"
 },
 "atrakcje/muzeum-archeologiczne.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-13",
-"hash": "ebd3c0aac41edbb58ee9ad31ea4fc782"
+"hash": "545c69b9d2fda0554c4c631521f8c675"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -972,8 +972,8 @@
 "hash": "82799063d0a470774f3063146b5f11e4"
 },
 "en/attractions/mury-miejskie.html": {
-"date": "2026-11-11",
-"hash": "7c98fea13b8b7c83d6bd19de1b524c89"
+"date": "2026-11-13",
+"hash": "d3c3d4e663d42dd0d24ac8632660651d"
 },
 "en/attractions/muzeum-archeologiczne.html": {
 "date": "2026-11-12",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-13",
-"hash": "e0438de58f65e6d26cb702da9169b82c"
+"hash": "96065c3b8bb2ade0cf5a2168164d9054"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1409,7 +1409,7 @@
 },
 "en/plans.html": {
 "date": "2026-11-13",
-"hash": "866a3cacd068fe0ce5444f37f2c57bf0"
+"hash": "4b86f636da9be57afebfd2c0749fc5f5"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-13",
-"hash": "46cd574a0607cf67a9804d13478d8ba1"
+"hash": "bae799cf7f13135b2d0ccbcb9e72e1fa"
 },
 "muzea.html": {
 "date": "2026-11-12",
@@ -1457,7 +1457,7 @@
 },
 "plany.html": {
 "date": "2026-11-13",
-"hash": "5233b1f8f6dad1868776ac7452d20dc9"
+"hash": "02e61e868b5d69467ba48faf523e28e9"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
