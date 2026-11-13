@@ -1403,6 +1403,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] in ("jezioro-maltanskie", "srodka", "rynek-srodecki", "zamek-cesarski", "muzeum-narodowe", "muzeum-powstania", "muzeum-archeologiczne", "muzeum-instrumentow", "muzeum-iluzji", "fotoplastykon", "cytadela", "pomnik-czerwca-1956", "pomnik-koziolkow", "fontanna-prozerpiny"):
         _a["checked"] = "12.11.2026"
 
+# Zamek w Kórniku: e-mail sekretariatu (13.11.2026).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "zamek-kornik":
+        _a["checked"] = "13.11.2026"
+
 
 # Zamek w Gołuchowie: opis przepisany wyłącznie na podstawie dwóch stron MNP (muzeum-zamek-w-goluchowie, wizyta-muzeum-zamek-w-goluchowie) 10.11.2026.
 for _a in ATTRACTIONS:

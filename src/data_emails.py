@@ -5,6 +5,7 @@ bez adresów osób i bez adresów innych obiektów). Zamek w Gołuchowie ma e-ma
 
 EMAILS = {
     "cytadela": "cytadela@wmn.poznan.pl",
+    "zamek-kornik": "sekretariat.zamek@bk.pan.pl",
     "genius-loci": "rezerwat@muzarp.poznan.pl",
     "biblioteka-raczynskich": "informacja@bracz.edu.pl",
     "fort-va": "kontakt@kernwerk.pl",
