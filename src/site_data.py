@@ -836,7 +836,7 @@ MORE = [
         short="Krypta Zasłużonych Wielkopolan: grób Józefa Wybickiego i serce gen. Dąbrowskiego.",
         badge="Po umówieniu",
         status=None,
-        lead="Przy kościele św. Wojciecha znajduje się Krypta Zasłużonych Wielkopolan, założona w 1923 roku z inicjatywy ówczesnego proboszcza, ks. Kościelskiego. Wzorowano ją na krakowskiej Skałce, stąd nazwa „Skałka Poznańska”.",
+        lead="Przy kościele św. Wojciecha znajduje się Krypta Zasłużonych Wielkopolan, założona w 1923 roku z inicjatywy ówczesnego proboszcza, ks. Bolesława Kościelskiego. Wzorowano ją na krakowskiej Skałce, stąd nazwa „Skałka Poznańska”.",
         sections=[
             ("Kto tu spoczywa", [
                 "Józef Wybicki (1747–1822), twórca Hymnu Polskiego, oraz gen. Antoni Amilkar Kosiński (1769–1823), współtwórca Legionów Dąbrowskiego.",

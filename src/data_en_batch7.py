@@ -181,7 +181,7 @@ EN_BATCH7 = {
         short="The Crypt of Distinguished Greater Poland People: the tomb of Józef Wybicki and the heart of Gen. Dąbrowski.",
         badge="By appointment",
         status=None,
-        lead="By St Adalbert's Church is the Crypt of Distinguished Greater Poland People, founded in 1923 on the initiative of the then parish priest, Fr Kościelski. It was modelled on the Skałka in Kraków, hence the name “Poznań Skałka”.",
+        lead="By St Adalbert's Church is the Crypt of Distinguished Greater Poland People, founded in 1923 on the initiative of the then parish priest, Fr Bolesław Kościelski. It was modelled on the Skałka in Kraków, hence the name “Poznań Skałka”.",
         sections=[
             ("Who is buried here", [
                 "Józef Wybicki (1747–1822), creator of the Polish national anthem, and Gen. Antoni Amilkar Kosiński (1769–1823), co-creator of Dąbrowski's Legions.",
