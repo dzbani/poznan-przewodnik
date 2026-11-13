@@ -1190,7 +1190,7 @@ MORE = [
         address="Brama Poznania, ul. Gdańska 2, 61-123 Poznań",
         hours=[("Szlak", "dostępny całą dobę")],
         tickets=[("Zwiedzanie", "bezpłatnie")],
-        phone=None, www=("trakt.poznan.pl", "https://trakt.poznan.pl/"),
+        phone="+48 61 647 76 06", www=("trakt.poznan.pl", "https://trakt.poznan.pl/"),
         credit="trakt-krolewsko-cesarski",
         sources=[("trakt.poznan.pl: Poznaj Trakt Królewsko-Cesarski", "https://trakt.poznan.pl/poznaj-trakt-krolewsko-cesarski"),
                  ("trakt.poznan.pl: Obszary Traktu Królewsko-Cesarskiego", "https://trakt.poznan.pl/obszary-traktu-krolewsko-cesarskiego"),
