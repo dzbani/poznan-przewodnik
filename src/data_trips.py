@@ -27,9 +27,10 @@ TRIPS = [
                 "Arboretum Kórnickie leży około 200 metrów od zamku.",
             ]),
             ("Warto wiedzieć", [
-                "Po zamku można chodzić z bezpłatną aplikacją „Zamek w Kórniku” (trzeba mieć własne słuchawki) albo z audioprzewodnikiem wypożyczonym w kasie za 15 zł. W kasie jest też bezpłatna gra terenowa dla dzieci, w której przewodnikiem jest sam Tytus Działyński.",
+                "Po zamku można chodzić z bezpłatną aplikacją „Zamek w Kórniku” z Google Play (trzeba mieć własne słuchawki) albo z audioprzewodnikiem wypożyczonym w kasie za 15 zł. W kasie jest też bezpłatna gra terenowa dla dzieci, w której przewodnikiem jest sam Tytus Działyński.",
                 "Do zamku nie można wjechać wózkiem dziecięcym, a na miejscu nie ma gdzie go zostawić. Jest winda dla osób z niepełnosprawnością, o potrzebie skorzystania z niej trzeba poinformować obsługę.",
                 "Zdjęcia do celów prywatnych można robić bezpłatnie, bez lampy błyskowej i statywu.",
+                "Bilety można kupić w kasie lub online w serwisie ToBilet.",
             ]),
         ],
         address="ul. Zamkowa 5, 62-035 Kórnik",

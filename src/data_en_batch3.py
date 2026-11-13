@@ -174,9 +174,10 @@ EN_BATCH3 = {
                 "The Kórnik Arboretum is about 200 metres from the castle.",
             ]),
             ("Good to know", [
-                "You can tour the castle with the free “Zamek w Kórniku” app (you need your own headphones) or with an audio guide hired at the ticket office for PLN 15. The ticket office also has a free field game for children, in which Tytus Działyński himself is the guide.",
+                "You can tour the castle with the free “Zamek w Kórniku” app from Google Play (you need your own headphones) or with an audio guide hired at the ticket office for PLN 15. The ticket office also has a free field game for children, in which Tytus Działyński himself is the guide.",
                 "Prams cannot be taken into the castle, and there is nowhere to leave one on site. There is a lift for people with disabilities; tell the staff if you need it.",
                 "Photographs for private purposes may be taken free of charge, without flash or a tripod.",
+                "Tickets can be bought at the ticket office or online through the ToBilet service.",
             ]),
         ],
         hours=[("Tue–Sun, 14 Feb–30 Apr and 1 Oct–30 Nov", "10:00–15:15, last entry 14:30"),
