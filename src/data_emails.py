@@ -7,6 +7,7 @@ EMAILS = {
     "cytadela": "cytadela@wmn.poznan.pl",
     "zamek-kornik": "sekretariat.zamek@bk.pan.pl",
     "arboretum-kornik": "arboretumIDPAN@man.poznan.pl",
+    "rogalin": "rogalin@mnp.art.pl",
     "genius-loci": "rezerwat@muzarp.poznan.pl",
     "biblioteka-raczynskich": "informacja@bracz.edu.pl",
     "fort-va": "kontakt@kernwerk.pl",
