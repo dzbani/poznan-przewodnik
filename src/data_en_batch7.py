@@ -58,7 +58,7 @@ EN_BATCH7 = {
     ),
     "domki-budnicze": dict(
         name="Domki Budnicze (Merchants' Houses)",
-        img_alt="Colourful façades of the merchants' houses on the Old Market Square in Poznań: red, green, blue and purple, with geometric patterns and arcades on the ground floor",
+        img_alt="A row of colourful merchants' houses with arcades on the Old Market Square in Poznań, with stalls and people walking; the town hall tower in the background",
         short="Narrow townhouses with arcades in the southern part of the Old Market Square, former herring stalls and shops.",
         badge="Free",
         status=None,

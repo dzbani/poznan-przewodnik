@@ -137,7 +137,7 @@ GAPS = [
     ),
     dict(
         slug="domki-budnicze", cat="zabytki", name="Domki budnicze",
-        img="domki-budnicze", img_alt="Kolorowe fasady domków budniczych na Starym Rynku w Poznaniu: czerwone, zielone, niebieskie i fioletowe, ze wzorami geometrycznymi i arkadami na parterze",
+        img="domki-budnicze", img_alt="Rząd kolorowych domków budniczych z arkadami na Starym Rynku w Poznaniu, z kramami i spacerującymi ludźmi; w tle wieża ratusza",
         short="Wąskie kamieniczki z podcieniami w południowej części Starego Rynku, dawne budy śledziowe i kramy.",
         badge="Bezpłatnie",
         status=None,
