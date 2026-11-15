@@ -5,21 +5,27 @@ EN_BATCH4 = {
     "bazar": dict(
         name="Hotel Bazar",
         img_alt="The corner of the Hotel Bazar building with an ornate façade and the BAZAR lettering",
-        short="A building of 1838–1842, raised on the initiative of Karol Marcinkowski as a centre of Polish life.",
+        short="A building of 1838, raised on the initiative of Karol Marcinkowski as a centre of Polish life.",
         badge="Free",
         status=None,
-        lead="The Bazar was the initiative of Karol Marcinkowski, a physician and social activist who helped to found a joint-stock company. The company was formed on 24 June 1838, and the building was raised between 1838 and 1842. It stands at the junction of Aleje Marcinkowskiego and ul. Paderewskiego, on the edge of the Old Town.",
+        lead="The Bazar Poznański was founded in 1838 on the initiative of Karol Marcinkowski and the shareholding company he set up. Its aim was to build a hotel for Polish guests and shops for Polish merchants. The building stands on the corner of ul. Paderewskiego, formerly ul. Nowa, and Aleje Marcinkowskiego.",
         sections=[
-            ("History", [
-                "Shareholders gave up all or part of their profits in favour of social goals, and the shops in the Bazar were rented only to Poles.",
-                "The building was designed by Ernst Steudener, and the works were directed by the Poznań builder Antoni Krzyżanowski. The foundation stone was laid on 21 November 1839, and the work was completed in 1842.",
-                "A hotel operated here, a luxurious one in the interwar years, famous for a restaurant with a huge choice of wines, as did many Polish organisations, newspaper offices (including the “Dziennik Poznański”, the “Kurier Poznański” and the “Orędownik”) and cultural institutions. Performers here included Ferenc Liszt, Henryk Wieniawski and Apolinary Kątski, and in the 1930s Jan Kiepura sang from the balcony to crowds gathered in front of the hotel.",
-                "In 1848, during the Spring of Nations, the National Committee had its seat here. In December 1918 Ignacy Jan Paderewski stayed at the hotel. His speech from the window on 26 December set off the events leading to the Greater Poland Uprising, and the shooting at the hotel on 27 December became the pretext for the outbreak of fighting.",
-                "The hotel burned down in 1945. It was rebuilt in a simplified form in 1949, to host the guests of an international trade fair. In 1950 it was taken over by Orbis, and the hotel operated until 1988. In 1990 the building was returned to its former owners, the company Bazar Poznański, which began a renovation meant to restore its original appearance.",
+            ("What to see", [
+                "From ul. Paderewskiego, the late Neoclassical front part, and from Aleje Marcinkowskiego the Neo-Baroque façade of the added wing. Its renovation was completed in 2005.",
+                "On the corner, a plaque honouring Ignacy Jan Paderewski, set in the wall in 1928 to a design by Stanisław Jagmin and recreated in 1978. On the ul. Paderewskiego side there is also a plaque commemorating the opening of Hipolit Cegielski’s shop in 1846.",
             ]),
-            ("Extension and architecture", [
-                "In 1898–1899 a second wing was added, facing Aleje Marcinkowskiego, to a design by Roger Sławski. The whole building was then the largest secular building in the city, until the Imperial Castle was built.",
-                "The façade on ul. Paderewskiego is late Neoclassical: a portico raised to roof level and topped with a triangular tympanum, with two square towers at the sides. The wing on Aleje Marcinkowskiego has a Neo-Baroque façade.",
+            ("History", [
+                "The building was designed by Ernest Steudener, and the works were directed by the Poznań builder Antoni Krzyżanowski. Construction ran in 1838–42, and according to the company the hotel was completed in 1841. Originally the building was late Neoclassical and faced ul. Nowa.",
+                "The Bazar quickly became a centre of Polish economic, political and cultural life and a stronghold of Polishness in the Prussian partition. In the 19th century it housed a hotel, cafés, meeting rooms, the White Room and shops of Polish merchants, among them Hipolit Cegielski’s store of iron and agricultural tools. In 1848 the National Committee had its seat here, and in 1871 the joint-stock company for building the Polish Theatre was constituted in this building.",
+                "The hotel hosted landowners from Greater Poland and people of politics, science and culture. Patriotic celebrations, lectures, concerts and balls were held here. Performers included Ferenc Liszt, Ignacy Feliks Dobrzyński, Henryk Wieniawski and Apolinary Kątski, and in the 1930s Jan Kiepura sang from the balcony to the crowd gathered in front of the hotel. The balcony no longer exists.",
+                "At the end of the 19th century the company bought the property on Aleje Marcinkowskiego and added a west wing with a Neo-Baroque façade, to a design by Roger Sławski. Poznan.pl gives the year 1899, while the company says the reconstruction was completed in 1901.",
+                "On 26 December 1918 Ignacy Jan Paderewski stayed at the hotel, and his arrival in Poznań gave the impulse for the outbreak of the Greater Poland Uprising. The shooting at the hotel on 27 December became the pretext for the start of fighting. In the interwar years the renovated hotel rooms were a place for meetings, celebrations, exhibitions and carnival balls.",
+                "In 1945 the building was destroyed. Experts put the losses at over 70%. After the war the company began the reconstruction on its own, but it was deprived of the management of the complex, which was handed to the Orbis enterprise. The building was rebuilt in a simplified form in 1949, and until 1988 the “Orbis Bazar” hotel operated here. In 1990 the company Bazar Poznański regained the buildings after more than 40 years.",
+            ]),
+            ("The Bazar today", [
+                "The company restored the commercial function of the ground floor. In the tenement on ul. Paderewskiego there is a shopping arcade with boutiques, and the former Bazar building is an office block with about 1,700 m² of office space on four levels.",
+                "The building houses the restaurant “Bazar 1838” (tel. +48 61 222 68 64, rezerwacje@bazar1838.pl). In the restored White Room there are concerts in the series “Opera at the Bazar Poznański”, run with the Grand Theatre, as well as weddings and conferences (tel. +48 663 003 009).",
+                "The company’s website says that the reconstruction of the historic interiors is under way and that the hotel will resume operation. It gives no date.",
             ]),
         ],
         hours=[("Façade", "visible around the clock")],
