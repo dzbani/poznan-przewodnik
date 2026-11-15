@@ -368,7 +368,8 @@ EN_BATCH9 = {
                 "The monument of Aniela Dembińska, née Liszkowska (d. 1888), made in Paris in 1889 by Władysław Marcinkowski. The oldest surviving tombstones date from 1813 and 1815.",
                 "The graves of, among others, Gen. Stanisław Taczak, the first commander of the Greater Poland Uprising, the city mayors Szymon Wroniecki, Jarogniew Drwęski and Cyryl Ratajski, Marceli Motte, the pianist Raul Koczalski, the actress Nuna Młodziejowska-Szczurkiewiczowa and the sculptor Władysław Marcinkowski. Hipolit Cegielski is commemorated by a symbolic grave.",
                 "A stone dedicated to “the Greater Poland people who did not return from the mountains”, set up in 1994 by the Polish Tatra Society.",
-                "The graves of distinguished people of science, culture and art lie next to the graves of veterans of the struggles for freedom and independence. The surviving tombstones are a survey of more than a hundred years of native sepulchral art.",
+                "Buried here are veterans of the Napoleonic wars and the national uprisings, social activists and people of science and culture, among them the physicians Ludwik Gąsiorowski (1807–63), Tomasz Drobnik (1858–1901), Bolesław Krysiewicz (1862–1932) and Ireneusz Wierzejewski (1881–1930), and the scholars Bolesław Erzepki (philologist, 1852–1932), Józef Łukaszewicz (historian, 1799–1873) and Józef Paczoski (botanist, 1864–1942).",
+                "The surviving tombstones are a survey of more than a hundred years of native sepulchral art.",
             ]),
             ("Good to know", [
                 "The lowest part of the cemetery, without tombstones, holds the remains of victims of the cholera epidemics of 1831–1878. Poznan.pl says that 889 people are buried here in 575 graves, and gives the area as 2 ha on one page and 1.8 ha on another.",

@@ -185,7 +185,8 @@ GAPS = [
                 "Pomnik Anieli z Liszkowskich Dembińskiej (zm. 1888), wykonany w 1889 roku w Paryżu przez Władysława Marcinkowskiego. Najstarsze zachowane nagrobki pochodzą z 1813 i 1815 roku.",
                 "Groby m.in. gen. Stanisława Taczaka, pierwszego dowódcy powstania wielkopolskiego, prezydentów miasta Szymona Wronieckiego, Jarogniewa Drwęskiego i Cyryla Ratajskiego, Marcelego Mottego, pianisty Raula Koczalskiego, aktorki Nuny Młodziejowskiej-Szczurkiewiczowej i rzeźbiarza Władysława Marcinkowskiego. Hipolita Cegielskiego upamiętnia symboliczny grób.",
                 "Kamień poświęcony „Wielkopolanom, którzy nie wrócili z gór”, ustawiony w 1994 roku przez Polskie Towarzystwo Tatrzańskie.",
-                "Groby wybitnych przedstawicieli nauki, kultury i sztuki sąsiadują z mogiłami weteranów walk o wolność i niepodległość. Zachowane nagrobki są przeglądem ponad stuletnich dziejów rodzimej sztuki sepulkralnej.",
+                "Spoczywają tu weterani wojen napoleońskich i powstań narodowych, społecznicy oraz ludzie nauki i kultury, m.in. lekarze Ludwik Gąsiorowski (1807–63), Tomasz Drobnik (1858–1901), Bolesław Krysiewicz (1862–1932) i Ireneusz Wierzejewski (1881–1930) oraz naukowcy: filolog Bolesław Erzepki (1852–1932), historyk Józef Łukaszewicz (1799–1873) i botanik Józef Paczoski (1864–1942).",
+                "Zachowane nagrobki są przeglądem ponad stuletnich dziejów rodzimej sztuki sepulkralnej.",
             ]),
             ("Warto wiedzieć", [
                 "Najniżej położona część cmentarza, bez nagrobków, kryje szczątki ofiar epidemii cholery z lat 1831–1878. Poznan.pl podaje, że pochowano tu 889 osób w 575 mogiłach, a powierzchnię określa na 2 ha na jednej stronie i na 1,8 ha na drugiej.",
@@ -198,7 +199,7 @@ GAPS = [
         hours=[("Zwiedzanie", "codziennie 10:00–18:00")],
         tickets=[("Wstęp", "bezpłatnie")],
         phone="+48 61 646 33 44",
-        www=("poznan.pl", "https://www.poznan.pl/mim/main/-,p,1943,12925.html"),
+        www=("poznan.pl", "https://www.poznan.pl/mim/wortals/turystyka/parki,poi,3338/cmentarz-zasluzonych-wielkopolan,51945.html"),
         credit="cmentarz-zasluzonych-wielkopolan",
         sources=[
             ("poznan.pl: Cmentarz Zasłużonych Wielkopolan (Znajdź grób bliskich)", "https://www.poznan.pl/mim/main/-,p,1943,12925.html"),
