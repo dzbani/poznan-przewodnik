@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-15",
-"hash": "03a2165353d903a329f933702209f9c8"
+"hash": "12713562cf194b30b30a8314da820e36"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -53,7 +53,7 @@
 },
 "atrakcje/domki-budnicze.html": {
 "date": "2026-11-15",
-"hash": "3b0546cb517b7ea101b7ea4b6fae7f3c"
+"hash": "abedd56cf2ec661a5559c936f83321f8"
 },
 "atrakcje/fara.html": {
 "date": "2026-11-11",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-15",
-"hash": "c165e419807ac2b17d00d06f8a712f5e"
+"hash": "c21d29753555671851b3eb209a2411cd"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -745,7 +745,7 @@
 },
 "en/attractions/domki-budnicze.html": {
 "date": "2026-11-15",
-"hash": "8510ed7d029618f5811dbf6f39a1618c"
+"hash": "c381f0921a89b501f28dfee173cb3fa8"
 },
 "en/attractions/fara.html": {
 "date": "2026-11-11",
@@ -1404,8 +1404,8 @@
 "hash": "14b0116f1fdfad237d3fb9fe9b953b93"
 },
 "en/photo-credits.html": {
-"date": "2026-11-12",
-"hash": "ed9ae7f777b80604098f13fef9072e40"
+"date": "2026-11-15",
+"hash": "888ffd774e7daa9e8f33f41056cb480c"
 },
 "en/plans.html": {
 "date": "2026-11-15",
@@ -1472,8 +1472,8 @@
 "hash": "2b321a1953600ca6668e56d197b86414"
 },
 "zdjecia.html": {
-"date": "2026-11-12",
-"hash": "ef4dad1cf2702744f051db18a773bc2d"
+"date": "2026-11-15",
+"hash": "35237bcf3d7b0c8f381ffb373012485e"
 },
 "zmiany.html": {
 "date": "2026-11-13",
