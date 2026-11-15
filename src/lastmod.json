@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-15",
-"hash": "e14d48e5697d30806c085008f022b92e"
+"hash": "7fd6432494673cd830ce358928a4f1d7"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -640,8 +640,8 @@
 "hash": "da7eca6680a7a0e29f70971ce93793db"
 },
 "atrakcje/teatr-wielki.html": {
-"date": "2026-11-11",
-"hash": "27c51d89074a7da0d7229c423a4fbd7f"
+"date": "2026-11-15",
+"hash": "ce8f5b61615717a2b2ce65c8d057c27f"
 },
 "atrakcje/termy-maltanskie.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-15",
-"hash": "8037f9441fc3dff1a75fc8cccc60e635"
+"hash": "4c783b2aade6038b153069e4bfa9b4be"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1332,8 +1332,8 @@
 "hash": "5be08875ebc3f199f41a50d56cbe8edc"
 },
 "en/attractions/teatr-wielki.html": {
-"date": "2026-11-11",
-"hash": "1e1e4459305068cf243867f4539f66ad"
+"date": "2026-11-15",
+"hash": "cd80f1b786029db3364f277c835c1d13"
 },
 "en/attractions/termy-maltanskie.html": {
 "date": "2026-11-12",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-15",
-"hash": "465bf9811605c683173ecf6ae4b5df67"
+"hash": "16f924ebc05f0c853f7f802a38f49965"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1420,8 +1420,8 @@
 "hash": "1a3fd3f91ad6f66815bb8512bc51fa57"
 },
 "en/theatres.html": {
-"date": "2026-11-03",
-"hash": "635cd386cd20b4c85092d07505f061ef"
+"date": "2026-11-15",
+"hash": "504662b5e2c97b3e667c82585df934dd"
 },
 "en/viewpoints.html": {
 "date": "2026-11-11",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-15",
-"hash": "ac72651cd75afac09696e7a43ad0ab1a"
+"hash": "003eb54113c645f3bd8071b0f1ab7b34"
 },
 "muzea.html": {
 "date": "2026-11-12",
@@ -1468,8 +1468,8 @@
 "hash": "5c3a4351f97d4f264a678ffcf646008a"
 },
 "teatry.html": {
-"date": "2026-11-03",
-"hash": "9b4a907d9ece6fde12ba338fbbb524ee"
+"date": "2026-11-15",
+"hash": "2b321a1953600ca6668e56d197b86414"
 },
 "zdjecia.html": {
 "date": "2026-11-12",

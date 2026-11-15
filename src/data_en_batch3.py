@@ -283,28 +283,40 @@ EN_BATCH3 = {
     "teatr-wielki": dict(
         name="Grand Theatre (Opera House)",
         img_alt="The Grand Theatre in Poznań lit up in the evening, reflected in the water",
-        short="An opera house from 1910 with Pegasus on the roof. Take a behind-the-scenes tour or come to an opera or ballet.",
+        short="An opera house with Pegasus on the roof, designed by Max Littmann. Take a behind-the-scenes tour or come to an opera or ballet.",
         badge="Opera and ballet",
         status=None,
-        lead="The Grand Theatre building was designed by the Munich architect Max Littmann. It was built in only 18 months as a new municipal theatre and opened in 1910 with Mozart's “The Magic Flute”. The neoclassical façade is crowned by a figure of Pegasus, which is why the building is known locally as the House under the Sign of Pegasus (Dom pod Pegazem).",
+        lead="The Grand Theatre building was designed by the Munich architect Max Littmann. Construction of a modern municipal theatre began in 1909. The neoclassical façade is crowned by a figure of Pegasus, which is why the building is known locally as the House under the Sign of Pegasus (Dom pod Pegazem).",
         sections=[
+            ("What to see", [
+                "A neoclassical façade with a six-column portico. Above the portico is a tympanum with a quotation from Friedrich Schiller’s poem “The Artists” about human dignity, and a stone Pegasus stands on the roof.",
+                "An auditorium without boxes, called “democratic”. The shape of the building made the theatre comparable with the stages in Dessau, Munich, Linz and Königsberg.",
+                "The Drabowicz Hall, a chamber stage set up in the former theatre smoking room. In the 2009/10 season the “Pocket Opera” series began here, with one-act, unfinished and salon works.",
+            ]),
             ("History", [
-                "The theatre stands on ul. Fredry in the Imperial Quarter, built by the Germans at the beginning of the 20th century. On the other side of ul. Fredry lies Mickiewicz Park, and beyond ul. Wieniawskiego Wieniawski Park.",
-                "In 1919 the theatre was taken over by the Polish authorities. On 31 August 1919 the Polish opera began its work here with Stanisław Moniuszko's “Halka”. Between the wars the theatre staged, among others, the world premiere of Feliks Nowowiejski's “Legend of the Baltic” and the Polish premiere of Karol Szymanowski's ballet “Harnasie”.",
-                "During the Second World War a German theatre operated here. In 1950 the opera was named after Stanisław Moniuszko.",
+                "Poznań earlier had the Royal Theatre of 1804, which stood on today’s Plac Wolności and had an auditorium for a thousand spectators. In 1875 the first permanent Polish theatre was built. Construction of the present building began in 1909, together with the new urban layout of the city introduced by the Prussian authorities.",
+                "In 1919 the theatre was taken over by the Polish authorities. On 31 August 1919 the evening performance of Stanisław Moniuszko’s “Halka” was preceded by a morning ceremony attended by the Mayor of Poznań, Jarogniew Drwęski, and guests from all over the country. In the first twenty years, 12 premieres of Polish operas and ballets were staged here, including the Polish premiere of Karol Szymanowski’s ballet “Harnasie” (9 April 1938).",
+                "After the war the Poznań opera was the first in the country to resume work. The inaugural premiere of Karol Kurpiński’s “Krakowiacy i Górale” on 2 June 1945 was preceded by concerts in the building, damaged by the war. Thirty-one years after the 1919 inauguration, that is in 1950, the theatre was given Stanisław Moniuszko as its patron.",
+                "The renovation of 2021–2023 covered the stage machinery, lighting, electroacoustics and safety systems. It took more than 25 months and involved more than 120 people. According to the theatre, the Poznań opera has since been the first in the world with an immersive surround-sound system.",
+                "The productions of the operas “Paria” (2019) and “Jawnuta” (2023) received from the International Opera Awards jury the distinction known as the opera Oscar in the category “rediscovered work”. The Poznań opera is the only Polish theatre to have received the statuette twice.",
             ]),
             ("Behind the scenes", [
                 "The theatre runs a “Behind the Scenes of the Theatre” tour. On a walk through the opera's interiors you can see the places where theatre life happens and learn how many people work on preparing a performance.",
-                "The tour lasts 45–60 minutes, costs PLN 10 per person and is for people aged 7 and over. The date is agreed individually by writing to edukacja@opera.poznan.pl.",
+                "The tour lasts 45–60 minutes, costs PLN 10 per person and is for people aged 7 to 107. The date is agreed individually by writing to edukacja@opera.poznan.pl.",
             ]),
-            ("Performances", [
+            ("Tickets and performances", [
                 "The repertoire includes operas, operettas, ballets and concerts. Ballet does not require knowledge of Polish.",
-                "The box office is open Tuesday to Saturday 13:00–19:00, and on Sundays 2 hours before the performance (only if tickets are still available). Reduced tickets are available to, among others, pupils, students up to 26, and pensioners. All Poznań stages are described on the Theatres and concerts page.",
+                "The box office is open Tuesday to Saturday 13:00–19:00, and on Sundays 2 hours before the performance, only if tickets for the current event are still available. Tickets can also be bought at the Cultural Information Centre at ul. Ratajczaka 44 and at bilety.opera.poznan.pl. The box office does not accept returns.",
+                "Reduced tickets are available to children and school pupils, students up to 26, and pensioners. The theatre honours the Large Family Card: adults buy a reduced ticket and children pay PLN 50, only at the theatre’s box office. Prices are given in the price list on the theatre’s website.",
+                "Reservations are for organised groups only and are handled by the Audience Service Office (Mon–Fri 8:00–16:00, tel. +48 61 85 20 825 or +48 61 65 90 280, bow@opera.poznan.pl).",
+            ]),
+            ("Getting there", [
+                "The nearest stops according to the theatre’s website: Fredry (trams 3, 7, 8, 11, 16, 19, 202), Zamek (buses 163, 168, 169, 171, 212, 222) and Most Teatralny (trams 7, 10, 11, 15, 16, 19, 202). Before a performance you can visit the Tośka Cantine, entered from the ul. Wieniawskiego side (tel. +48 61 852 00 70).",
             ]),
         ],
-        hours=[("Box office, Tue–Sat", "13:00–19:00"), ("Box office, Sundays", "2 hours before the performance"),
-               ("Behind-the-scenes tour", "dates agreed individually")],
-        tickets=[("“Behind the Scenes of the Theatre” tour", "PLN 10 per person"), ("Performances", "prices depend on the event")],
+        hours=[("Box office, Tue–Sat", "13:00–19:00"), ("Box office, Sundays", "2 hours before the performance, only if tickets are available"),
+               ("Audience Service Office (groups)", "Mon–Fri 8:00–16:00"), ("Behind-the-scenes tour", "dates agreed individually")],
+        tickets=[("“Behind the Scenes of the Theatre” tour", "PLN 10 per person"), ("Large Family Card, children", "PLN 50 (only at the theatre’s box office)"), ("Performances", "prices depend on the event")],
     ),
     "muzeum-instrumentow": dict(
         name="Museum of Musical Instruments",

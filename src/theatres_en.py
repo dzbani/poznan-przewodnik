@@ -19,7 +19,7 @@ VENUES_EN = {
     "teatr-wielki": dict(
         name="Grand Theatre named after Stanisław Moniuszko (Opera)",
         kind="Opera, operetta, ballet, concerts",
-        desc=["The Poznań opera performs in a building from 1910 with Pegasus on the roof, one of the symbols of the city. You can also tour the building behind the scenes.",
+        desc=["The Poznań opera performs in a building designed by Max Littmann with Pegasus on the roof, one of the symbols of the city. You can also tour the building behind the scenes.",
               "The box office is open Tuesday to Saturday 13:00–19:00, and on Sundays 2 hours before the performance (only if tickets are still available). Tickets are also sold by the Cultural Information Centre at ul. Ratajczaka 44."],
         links=["Repertoire", "Tickets online"],
     ),
