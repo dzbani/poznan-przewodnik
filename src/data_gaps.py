@@ -173,23 +173,24 @@ GAPS = [
         short="Najstarszy poznański cmentarz na Wzgórzu św. Wojciecha. Groby gen. Taczaka, prezydentów miasta i Marcelego Mottego.",
         badge="Bezpłatnie",
         status=None,
-        lead="Cmentarz Zasłużonych Wielkopolan leży na północnym stoku Wzgórza św. Wojciecha. To najstarszy z poznańskich cmentarzy: powstał około 1810 roku jako cmentarz parafii farnej św. Marii Magdaleny, a rangę cmentarza zasłużonych uzyskał w 1948 roku.",
+        lead="Cmentarz Zasłużonych Wielkopolan leży na północnym stoku Wzgórza św. Wojciecha. To najstarszy z ponad 20 poznańskich cmentarzy: powstał w latach 1808–1810 jako cmentarz parafii farnej św. Marii Magdaleny, a rangę cmentarza zasłużonych uzyskał w 1948 roku.",
         sections=[
             ("Historia", [
-                "Cmentarz założono opodal cmentarza poznańskich protestantów z końca XVI wieku. Przez ponad 100 lat chowano tu wiernych parafii farnej, a w nieoznaczonych zbiorowych mogiłach spoczęły ofiary epidemii cholery. Od końca XIX wieku, gdy parafia dostała nowy cmentarz przy dzisiejszej ulicy Grunwaldzkiej, nazywano go starofarnym.",
+                "Cmentarz powstał dzięki staraniom Stanisława Kolanowskiego, znanego poznańskiego piwowara, opodal cmentarza poznańskich protestantów z końca XVI wieku. Przez ponad 100 lat chowano tu wiernych parafii farnej, a w nieoznaczonych zbiorowych mogiłach spoczęły ofiary epidemii cholery. Od końca XIX wieku, gdy parafia dostała nowy cmentarz przy dzisiejszej ulicy Grunwaldzkiej, nazywano go starofarnym.",
                 "Podczas walk o pobliską Cytadelę w 1945 roku zniszczeniu bezpowrotnie uległo wiele wartościowych nagrobków. Po II wojnie światowej rozważano likwidację cmentarza i zamianę go w park, ale na przełomie lat 40. i 50. zdecydowano o urządzeniu tu Cmentarza Zasłużonych Wielkopolan. Prochy wielu osób przeniesiono tu z innych cmentarzy w latach 1959–62, a nekropolię objęto ochroną konserwatorską.",
                 "Razem z Kryptą Zasłużonych na Wzgórzu św. Wojciecha cmentarz tworzy narodowy panteon Wielkopolski.",
             ]),
             ("Co zobaczyć", [
                 "Barokową figurę Matki Boskiej z 1771 roku, ustawioną niedaleko głównego wejścia. W 1829 roku przeniesiono ją sprzed dawnego klasztoru Reformatów na Śródce.",
                 "Pomnik Anieli z Liszkowskich Dembińskiej (zm. 1888), wykonany w 1889 roku w Paryżu przez Władysława Marcinkowskiego. Najstarsze zachowane nagrobki pochodzą z 1813 i 1815 roku.",
-                "Groby m.in. gen. Stanisława Taczaka, pierwszego dowódcy powstania wielkopolskiego, prezydentów miasta Szymona Wronieckiego, Jarogniewa Drwęskiego i Cyryla Ratajskiego, Marcelego Mottego, pianisty Raula Koczalskiego, aktorki Nuny Młodziejowskiej-Szczurkiewiczowej i rzeźbiarza Władysława Marcinkowskiego. Hipolita Cegielskiego upamiętnia symboliczny grób.",
+                "Groby m.in. gen. Stanisława Taczaka, pierwszego dowódcy powstania wielkopolskiego, prezydentów miasta Szymona Wronieckiego, Jarogniewa Drwęskiego i Cyryla Ratajskiego, premiera RP Stanisława Mikołajczyka, Marcelego Mottego, pianisty Raula Koczalskiego, aktorki Nuny Młodziejowskiej-Szczurkiewiczowej i rzeźbiarza Władysława Marcinkowskiego. Hipolita Cegielskiego upamiętnia symboliczny grób.",
                 "Kamień poświęcony „Wielkopolanom, którzy nie wrócili z gór”, ustawiony w 1994 roku przez Polskie Towarzystwo Tatrzańskie.",
                 "Spoczywają tu weterani wojen napoleońskich i powstań narodowych, społecznicy oraz ludzie nauki i kultury, m.in. lekarze Ludwik Gąsiorowski (1807–63), Tomasz Drobnik (1858–1901), Bolesław Krysiewicz (1862–1932) i Ireneusz Wierzejewski (1881–1930) oraz naukowcy: filolog Bolesław Erzepki (1852–1932), historyk Józef Łukaszewicz (1799–1873) i botanik Józef Paczoski (1864–1942).",
+                "Pochowani zostali tu także ojcowie i bracia karmelici bosi, żyjący w latach 1618–1801 w pobliskim klasztorze św. Józefa.",
                 "Zachowane nagrobki są przeglądem ponad stuletnich dziejów rodzimej sztuki sepulkralnej.",
             ]),
             ("Warto wiedzieć", [
-                "Najniżej położona część cmentarza, bez nagrobków, kryje szczątki ofiar epidemii cholery z lat 1831–1878. Poznan.pl podaje, że pochowano tu 889 osób w 575 mogiłach, a powierzchnię określa na 2 ha na jednej stronie i na 1,8 ha na drugiej.",
+                "Najniżej położona część cmentarza, bez nagrobków, kryje szczątki ofiar epidemii cholery (według Zarządu Zieleni Miejskiej z 1831 roku, według poznan.pl z lat 1831–1878). Zarząd Zieleni Miejskiej podaje, że cmentarz ma 2 ha, a w 577 mogiłach pochowano 868 osób. Poznan.pl podaje 889 osób w 575 mogiłach, a na jednej ze stron powierzchnię 1,8 ha.",
                 "To czynny cmentarz, nadal wykorzystywany do pochówku wybitnych obywateli związanych z Wielkopolską, więc obowiązuje zachowanie właściwe dla takiego miejsca. Zwiedzać go można codziennie od 10 do 18, a przez całą dobę jest objęty nadzorem. Wyszukiwarka grobów jest na stronie poznan.pl.",
                 "Dojazd wg poznan.pl: autobusy 168, 169 i 171 do przystanku „Urząd Marszałkowski” albo samochodem do ulicy Księcia Józefa.",
                 "Administratorem jest Zarząd Zieleni Miejskiej w Poznaniu (ul. Strzegomska 3, tel. 61 646 33 44, kancelaria@zzmpoznan.pl). W porozumieniu z Miejskim Konserwatorem Zabytków prowadzi on działania na rzecz zachowania tego dziedzictwa.",
@@ -204,6 +205,7 @@ GAPS = [
         sources=[
             ("poznan.pl: Cmentarz Zasłużonych Wielkopolan (Znajdź grób bliskich)", "https://www.poznan.pl/mim/main/-,p,1943,12925.html"),
             ("poznan.pl: Cmentarz Zasłużonych Wielkopolan (Odkryj Poznań)", "https://www.poznan.pl/mim/wortals/turystyka/parki,poi,3338/cmentarz-zasluzonych-wielkopolan,51945.html"),
+            ("Zarząd Zieleni Miejskiej: „Poznańskie Powązki”", "https://zzmpoznan.pl/mim/wortals/zzm/news,9860/poznanskie-powazki,265514.html"),
         ],
         checked="06.10.2026",
     ),
