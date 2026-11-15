@@ -329,24 +329,30 @@ EN_BATCH9 = {
     "most-biskupa-jordana": dict(
         name="Bishop Jordan Bridge",
         img_alt="The Bishop Jordan Bridge with a view of Poznań Cathedral",
-        short="A pedestrian and cycle footbridge over the Cybina between Śródka and Ostrów Tumski, on the site of a crossing a thousand years old.",
+        short="A footbridge over the Cybina between Śródka and Ostrów Tumski, built from the old span of the St Roch Bridge on the site of a 10th-century crossing.",
         badge="Free",
         status=None,
-        lead="The Bishop Jordan Bridge, also called the Cybina or Śródka Bridge, is a pedestrian and cycle footbridge over the Cybina river. It links Śródka (ul. Ostrówek) with Ostrów Tumski and leads straight towards a view of the cathedral.",
+        lead="The Bishop Jordan Bridge, formerly called the Cybina or Śródka Bridge, stands on the site of a historic crossing of the Cybina between Śródka and Ostrów Tumski. It was opened on 7 December 2007 as the first stage of the reintegration of Poznań's riverside areas. Its structure is the span of the former St Roch Bridge.",
         sections=[
             ("History of the crossing", [
-                "A crossing at this place existed from the early Middle Ages. In 2007 the remains of a 10th-century bridge (37 oak elements) were discovered, and the oldest mention of bridges dates from 1146.",
-                "In 1905 a steel truss bridge with tram tracks was opened, and on 13 November 1913 a newer one. It was blown up on 5 September 1939 by retreating units of the Polish Army. A temporary post-war crossing existed until the end of the 1960s. This broke a route that had been in use for almost a thousand years.",
+                "A bridge over the narrow Cybina had been built since the first settlements appeared on Ostrów Tumski. In 2007 archaeologists found 37 piles under the abutment, almost all of oak. According to dendrochronological analyses the bridge was probably built in 979 by Mieszko I, and it was repaired in 987, 1006 and 1021, under Bolesław the Brave.",
+                "The oldest surviving view of the bridge is the plan by Braun and Hogenberg of 1618. The wooden bridge was then about 50 m long and, because the supports rotted, it had to be replaced roughly every 25 years. After the founding of the city in 1253 it was maintained by the bishop's curia, which collected the toll.",
+                "The first permanent iron bridge was opened in July 1905. After six years it proved too weak and was taken down, and a new steel truss bridge was opened on 13 November 1913. On 5 September 1939 it was blown up by the retreating Polish army. The Germans built a wooden one that lasted until February 1945, and after the war a bridge was rebuilt. Around 1960 the supports were replaced, and a folding military Bailey bridge was used as the span, serving until 1970.",
+                "After the opening of the Mieszko I Bridge in 1970 the Bailey bridge was taken down and Śródka was cut off from the city centre. The link with Ostrów Tumski was restored only after 40 years.",
             ]),
             ("The new bridge", [
-                "The new bridge was officially opened on 7 December 2007. It uses the steel main span from the dismantled Roch Bridge. The 70-metre span was moved over the Mieszko I Bridge on 29 September 2007.",
-                "It is a pedestrian and cycle footbridge. The name commemorates Jordan, the first bishop of Poznań and of Poland.",
+                "The steel span of the old St Roch Bridge was used, which after its demolition lay over the Warta relief canal. It was lifted in 2002 from the place where it had stood for 89 years, and in 2007 it was moved to the Cybina. The span, weighing about 360 tonnes and 70 m long, travelled about a kilometre on railway tracks. The most spectacular part of the operation took place from 28 September to 1 October 2007, when for the first time in Poland a bridge was moved over a bridge, over the Mieszko I Bridge. The span was set on the abutments on 25 October 2007.",
+                "The bridge was named by a resolution of the Poznań City Council of 20 November 2007. Its patron is Jordan, the first bishop of Poland and of Poznań, who according to the City Hall's brochure baptised Mieszko I. The official opening, with a blessing by Archbishop Stanisław Gądecki, took place on the evening of 7 December 2007.",
+                "For the idea of reusing the span the bridge received the “Polskie drogi XXI” award in May 2008. The project cost about PLN 8.6 million, of which PLN 7,313,918.47 came from a subsidy under the ZPORR programme. The project was carried out, and the bridge is managed, by the Municipal Roads Authority.",
+            ]),
+            ("Bridge data", [
+                "Theoretical span 70 m, total length 72.30 m, total width 14.878 m, height 9.495 m. Total mass 360 t, and the structure has 48,986 rivets.",
             ]),
             ("Good to know", [
-                "From the bridge you can see Poznań Cathedral.",
+                "The bridge lies on the axis of the Royal-Imperial Route. The structure was adapted to its new function as a footbridge. It has become a place for walks and events, including the December procession of light.",
             ]),
         ],
-        address="ul. Ostrówek, 61-125 Poznań (Śródka – Ostrów Tumski)",
+        address="ul. Ostrówek, Poznań (Śródka – Ostrów Tumski)",
         hours=[("Bridge", "open 24 hours")],
         tickets=[("Crossing", "free")],
     ),

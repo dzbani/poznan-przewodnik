@@ -1433,7 +1433,7 @@ for _a in ATTRACTIONS:
 
 # Pałac Działyńskich: opis wg poznan.pl, BK PAN i Region Wielkopolska zamiast Wikipedii (15.11.2026).
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("palac-dzialynskich", "bazar", "fort-iva", "fort-va", "teatr-wielki", "fort-iii", "collegium-minus", "domki-budnicze", "cmentarz-zasluzonych-wielkopolan"):   # bazar: opis wg bazarpoznanski.pl i poznan.pl zamiast Wikipedii (15.11.2026); fort-iva: e-mail info@twierdza.poznan.pl (strona Poznańskiego Szlaku Fortecznego), 15.11.2026
+    if _a["slug"] in ("palac-dzialynskich", "bazar", "fort-iva", "fort-va", "teatr-wielki", "fort-iii", "collegium-minus", "domki-budnicze", "cmentarz-zasluzonych-wielkopolan", "most-biskupa-jordana"):   # bazar: opis wg bazarpoznanski.pl i poznan.pl zamiast Wikipedii (15.11.2026); fort-iva: e-mail info@twierdza.poznan.pl (strona Poznańskiego Szlaku Fortecznego), 15.11.2026
         _a["checked"] = "15.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
