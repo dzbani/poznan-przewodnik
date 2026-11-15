@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-15",
-"hash": "e51d5e93cc3e3e40406b7b98ef654983"
+"hash": "e14d48e5697d30806c085008f022b92e"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -104,8 +104,8 @@
 "hash": "eceaf69d469a2084436e77a72637d194"
 },
 "atrakcje/fort-va.html": {
-"date": "2026-11-11",
-"hash": "5addd31b247e9e1cd3524f5662467d23"
+"date": "2026-11-15",
+"hash": "7c5369554c870036676ef0d8748c17f4"
 },
 "atrakcje/fort-vii.html": {
 "date": "2026-11-10",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-15",
-"hash": "3927f0763cdfc9efa97ab63a74042acb"
+"hash": "8037f9441fc3dff1a75fc8cccc60e635"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -796,8 +796,8 @@
 "hash": "6475ebf35da4e042560048c342c97ed2"
 },
 "en/attractions/fort-va.html": {
-"date": "2026-11-11",
-"hash": "7c2824d6557c047d9d3c85afa0bcdf05"
+"date": "2026-11-15",
+"hash": "936547dadeab8fe688a10b55f0a68295"
 },
 "en/attractions/fort-vii.html": {
 "date": "2026-11-10",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-15",
-"hash": "b3b1065b3f7666c0610cd2b46d0a3c74"
+"hash": "465bf9811605c683173ecf6ae4b5df67"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-15",
-"hash": "7e48c1888d9c46020e0a6ee5b316e6de"
+"hash": "ac72651cd75afac09696e7a43ad0ab1a"
 },
 "muzea.html": {
 "date": "2026-11-12",
