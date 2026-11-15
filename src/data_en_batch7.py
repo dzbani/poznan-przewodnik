@@ -59,24 +59,23 @@ EN_BATCH7 = {
     "domki-budnicze": dict(
         name="Domki Budnicze (Merchants' Houses)",
         img_alt="Colourful merchants' houses on the Old Market Square in Poznań",
-        short="Narrow Renaissance townhouses with arcades on the south side of the town hall, former fish stalls and shops.",
+        short="Narrow townhouses with arcades in the southern part of the Old Market Square, former herring stalls and shops.",
         badge="Free",
         status=None,
-        lead="The Domki Budnicze stand on the south side of the town hall, in the central block of buildings. They are a relic of the old trading buildings: in the Middle Ages wooden stalls stood here, where herrings, salt, candles and torches were sold.",
+        lead="The Domki Budnicze (Merchants' Houses) are a unique relic of the old trading buildings, in the southern part of the buildings in the middle of the Old Market Square. Herring stalls stood here as early as the 13th century, selling, besides fish, salt, candles and torches and some everyday items.",
         sections=[
             ("History", [
-                "In 1418 the city authorities established 17 fish stalls here. In the 16th century narrow townhouses with Renaissance arcades were built in their place, their arches resting on sandstone columns. Shops occupied the lower parts, and living rooms the upper ones.",
-                "On the capital of the column of house no. 11 you can read the date 1535. The row is closed on the south by a townhouse of 1538 called the City Chancellery or the Scribes' House, today the seat of the Society of Friends of the City of Poznań, founded in 1922 by the mayor Cyryl Ratajski.",
-                "During the Second World War the buildings were almost completely destroyed. They were rebuilt in 1953–1961 with polychrome decoration designed by Zbigniew Bednarowicz.",
+                "At the end of the 15th and in the 16th century narrow, often single-window, brick townhouses were built in place of the wooden stalls, with shops downstairs and living rooms on the upper floors. The row of merchants' houses was built in the first half of the 16th century by the individual owners of the plots.",
+                "The entrances to the shops were protected by arcades, which were walled up in the 19th century. During the rebuilding after the destruction of 1945 they were restored to their original appearance.",
+                "The row is closed on the south by a townhouse of 1538 called the City Chancellery or the Scribes' House. Until the 18th century the city scribe lived in it, and today it is the seat of the Society of Friends of the City of Poznań.",
             ]),
             ("What to see", [
-                "The emblem of the merchants' guild on house no. 17: a herring and three palms. On the capital of the column of house no. 24 is the house mark of its former owners.",
-                "Under the arcades Poznań artists sell their work, most often views of the Old Town. There are also souvenir shops.",
-                "Behind the houses runs ul. Kurzanoga, which probably recalls an old townhouse of that name.",
+                "The arcades, resting on sandstone columns. Most of them are authentic, and the column of house no. 11 bears the date 1535.",
+                "Under the arcades Poznań artists sell their work, most often views of the Old Town.",
             ]),
         ],
-        address="Stary Rynek, 61-772 Poznań (on the south side of the town hall)",
-        hours=[("Arcades", "open around the clock"), ("Shops and galleries", "according to the hours of individual venues")],
+        address="Stary Rynek, 61-772 Poznań (southern part of the buildings in the middle of the square)",
+        hours=[("Arcades", "viewing from outside, at any time")],
         tickets=[("Admission", "free")],
     ),
     "plac-wolnosci": dict(

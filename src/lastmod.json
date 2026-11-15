@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-15",
-"hash": "907797f6bf0f311493e1c85706d69872"
+"hash": "03a2165353d903a329f933702209f9c8"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -52,8 +52,8 @@
 "hash": "603a60eb42826848d5720bd6c62e99ea"
 },
 "atrakcje/domki-budnicze.html": {
-"date": "2026-11-11",
-"hash": "4f13d1a53ecf90e7a2a55e4d949313f7"
+"date": "2026-11-15",
+"hash": "3b0546cb517b7ea101b7ea4b6fae7f3c"
 },
 "atrakcje/fara.html": {
 "date": "2026-11-11",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-15",
-"hash": "f4dadd8c01f5102eae88b97a3be42929"
+"hash": "c165e419807ac2b17d00d06f8a712f5e"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -744,8 +744,8 @@
 "hash": "95cf125ad9235d614a9d2b923458e7db"
 },
 "en/attractions/domki-budnicze.html": {
-"date": "2026-11-11",
-"hash": "abce30ebc34db52b4c837a91ae4ef9ec"
+"date": "2026-11-15",
+"hash": "8510ed7d029618f5811dbf6f39a1618c"
 },
 "en/attractions/fara.html": {
 "date": "2026-11-11",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-15",
-"hash": "f18233196022cd928fb02fabb782bbb2"
+"hash": "069d3646bb177c14bc855d73e15890cf"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-15",
-"hash": "831f46fefb031b47a9ff7225ebcab68b"
+"hash": "cb74ac571c0801d390e5f3e5ff41f6a7"
 },
 "muzea.html": {
 "date": "2026-11-12",
