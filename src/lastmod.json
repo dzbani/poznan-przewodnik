@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-13",
-"hash": "2ab4d35ac60d37d0d87444c02037357f"
+"date": "2026-11-15",
+"hash": "9962a967172c5ebf1a927c453be28cc7"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -412,8 +412,8 @@
 "hash": "62bc3cd2cbc61f8f640b26e8ea054156"
 },
 "atrakcje/palac-dzialynskich.html": {
-"date": "2026-11-11",
-"hash": "bde88090068ef040a968ae802c74dac0"
+"date": "2026-11-15",
+"hash": "49b6b8fee3d102c2d21a58c0d4474a4c"
 },
 "atrakcje/palac-smielow.html": {
 "date": "2026-11-03",
@@ -692,8 +692,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-13",
-"hash": "545c69b9d2fda0554c4c631521f8c675"
+"date": "2026-11-15",
+"hash": "3222875ac923294867c29068377fec8f"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1104,8 +1104,8 @@
 "hash": "29e0024ede702eb552e80462f8e776ad"
 },
 "en/attractions/palac-dzialynskich.html": {
-"date": "2026-11-11",
-"hash": "8f339a6b2f3005d188da5cf63c86f24f"
+"date": "2026-11-15",
+"hash": "a884467b9729fc19dc3302dd15648a09"
 },
 "en/attractions/palac-smielow.html": {
 "date": "2026-11-03",
@@ -1388,16 +1388,16 @@
 "hash": "203688938a2c7139ac82552f785be577"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-13",
-"hash": "6c068c3c9923535aeb84f47d3bd71c5b"
+"date": "2026-11-15",
+"hash": "ccb93b8262081bae0b65a010b85acf0e"
 },
 "en/index.html": {
 "date": "2026-11-12",
 "hash": "06123c987baf3052e75795bdc4f5085a"
 },
 "en/map.html": {
-"date": "2026-11-13",
-"hash": "96065c3b8bb2ade0cf5a2168164d9054"
+"date": "2026-11-15",
+"hash": "c584167d63c8e9bde9b67883853f8765"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1436,16 +1436,16 @@
 "hash": "55efba16a644104c022d76f79a6c60c0"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-13",
-"hash": "802f355cd3b6701a999f130a89c08fb3"
+"date": "2026-11-15",
+"hash": "c3dd8986ff50cb3bfcb0019c2d6aa879"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-13",
-"hash": "bae799cf7f13135b2d0ccbcb9e72e1fa"
+"date": "2026-11-15",
+"hash": "ee06955ee28668e76941c913324ff416"
 },
 "muzea.html": {
 "date": "2026-11-12",

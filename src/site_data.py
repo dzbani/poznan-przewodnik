@@ -1431,6 +1431,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "zamek-goluchow":
         _a["checked"] = "10.11.2026"
 
+# Pałac Działyńskich: opis wg poznan.pl, BK PAN i Region Wielkopolska zamiast Wikipedii (15.11.2026).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "palac-dzialynskich":
+        _a["checked"] = "15.11.2026"
+
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS
 for _a in ATTRACTIONS:
