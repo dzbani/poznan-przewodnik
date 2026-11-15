@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-15",
-"hash": "7fd6432494673cd830ce358928a4f1d7"
+"hash": "907797f6bf0f311493e1c85706d69872"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -40,8 +40,8 @@
 "hash": "68e9c551dbadb76de6e5ecb0a5c520da"
 },
 "atrakcje/collegium-minus.html": {
-"date": "2026-11-11",
-"hash": "894b355d81c93da2158f88ff79a8b6a0"
+"date": "2026-11-15",
+"hash": "eaf58ca7aed8ec00ca6d95ef15563a6d"
 },
 "atrakcje/cytadela.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-15",
-"hash": "4c783b2aade6038b153069e4bfa9b4be"
+"hash": "f4dadd8c01f5102eae88b97a3be42929"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -732,8 +732,8 @@
 "hash": "48d11f89fa191e25301a8eb76615227e"
 },
 "en/attractions/collegium-minus.html": {
-"date": "2026-11-11",
-"hash": "7b51932ace04cc3a1b4e3b8a637480bf"
+"date": "2026-11-15",
+"hash": "8bb4cbddadc99e3158a683ef44fc6220"
 },
 "en/attractions/cytadela.html": {
 "date": "2026-11-12",
@@ -1397,7 +1397,7 @@
 },
 "en/map.html": {
 "date": "2026-11-15",
-"hash": "16f924ebc05f0c853f7f802a38f49965"
+"hash": "f18233196022cd928fb02fabb782bbb2"
 },
 "en/museums.html": {
 "date": "2026-11-12",
@@ -1445,7 +1445,7 @@
 },
 "mapa.html": {
 "date": "2026-11-15",
-"hash": "003eb54113c645f3bd8071b0f1ab7b34"
+"hash": "831f46fefb031b47a9ff7225ebcab68b"
 },
 "muzea.html": {
 "date": "2026-11-12",

@@ -136,23 +136,28 @@ EN_BATCH7 = {
     "collegium-minus": dict(
         name="Collegium Minus",
         img_alt="Collegium Minus from above: the front of the Aula with two turrets and the side wing of the building, with a monument in the foreground",
-        short="A Neo-Renaissance building of 1910, the seat of the rector of AMU. Concerts of the Poznań Philharmonic are held in the Aula.",
+        short="A building in the Dutch Renaissance style of 1907–1910, the seat of the rector of AMU. Concerts of the Poznań Philharmonic are held in the Aula.",
         badge="Outside free",
         status=None,
-        lead="Collegium Minus is a building erected for the German Royal Academy, and since 1919 the seat of the authorities of Adam Mickiewicz University. Its front faces ul. Wieniawskiego, and it adjoins ul. Święty Marcin.",
+        lead="Collegium Minus is a building erected for the German Royal Academy, and since 1919 the seat of the authorities of Adam Mickiewicz University. Its front faces ul. Wieniawskiego, and it adjoins ul. Święty Marcin and clearly towers above it.",
         sections=[
             ("History", [
-                "Edward Fürstenau's design was made in 1905–1906. Construction work lasted from spring 1907: the teaching part was handed over on 1 November 1909, and the Aula was solemnly opened on 18 January 1910.",
-                "The building was a demonstration of the German presence in the face of Poznań's Polish community. It served the Academy for a little over four years, because during the First World War it housed a military hospital.",
-                "In April 1919 the Polish authorities handed the building to the university being created. The name Collegium Minus was proposed on 5 April 1919 by Prof. Michał Sobeski, and on 7 May 1919 the University of Poznań was solemnly opened.",
+                "The Royal Academy was founded in Poznań on 4 November 1903 on the initiative of the German authorities. It had no premises of its own, and classes were held, among other places, in the Emperor Frederick Museum and in a rented school building on ul. Młyńska. As Prof. Grzegorz Łukomski writes, building its seat was an open challenge and a kind of demonstration towards Poznań's Polish community.",
+                "Edward Fürstenau, an architect and theologian, designed the building in 1905–1906. Construction work lasted from spring 1907: the teaching part was handed over on 1 November 1909, and the Aula was solemnly opened on 18 January 1910. Almost 30 firms from Poznań and Berlin took part in the construction, and the cost was estimated at 1,600,000 marks.",
+                "The building served the Academy for a little over four years, because during the First World War it housed a military hospital. In spring 1920 a fire destroyed the high roof over the Aula and the tower on the left side of the façade.",
+                "In April 1919 the Commissariat of the Supreme People’s Council handed the building to the Polish university being created. The name Collegium Minus was proposed on 5 April 1919 by Prof. Michał Sobeski, and on 7 May 1919 the University of Poznań was solemnly opened.",
+                "In 1941–1945 the building housed the authorities of the German “Reich University”. The fighting for Poznań in February 1945 did not do great damage to the building. The trial of Arthur Greiser, governor of the Warthegau, took place in the Aula, and on 10 July 1946 the Supreme National Tribunal sentenced him to death.",
             ]),
             ("What to see", [
-                "The Neo-Renaissance façade with porticoes and tall gables on the ul. Wieniawskiego side.",
-                "The University Aula: the hall is about 580 m², 33 m long and 17.5 m wide, and 14 m high above the stage. It is famous for its acoustics. Originally it was dominated by a 35-stop organ by Völkner of Bydgoszcz.",
-                "The Lubrański Hall, called the Small Aula, with a copy of Jan Matejko's painting “The Founding of the Lubrański Academy” (the original is from 1886).",
+                "A building in the Dutch (German) Renaissance style, made up of two parts: the academic building and the ceremonial aula.",
+                "The University Aula: the hall is 580 m², 33 m long and 17.5 m wide, and 14 m high above the stage. It is famous for its excellent acoustics. It was originally designed for 1,100 seats, and today it has a little over 800 chairs. Since 1947 the vault has been decorated with a polychrome by Wacław Taranczewski. Originally it was dominated by a 35-stop organ with an ornate case, the work of the master Völkner of Bydgoszcz.",
+                "The Lubrański Hall, called the Small Aula, on the first floor, the former reception area linking the two parts of the building. It is adorned with a copy of Jan Matejko's painting “The Founding of the Lubrański Academy in Poznań”, made by J. Bukowski. The original of 1886 is in the National Museum in Poznań. Today the meetings of the academic senate are held here, among other events.",
+            ]),
+            ("The Aula and music", [
+                "Since 18 November 1947 the Aula has also been the concert hall of the Poznań State Philharmonic. Since 1952 the Henryk Wieniawski International Violin Competitions have been held in it every five years, moved to Poznań from Warsaw partly because of the Aula’s exceptional acoustics.",
             ]),
             ("Good to know", [
-                "This is a working university building, so its interiors are not visited like a museum. The easiest way into the Aula is to attend a Poznań Philharmonic concert or another event. The repertoire is on the “Theatres and concerts” page.",
+                "This is a working university building, the seat of the rectorate and the Rector’s Office, so its interiors are not visited like a museum. The easiest way into the Aula is to attend a Poznań Philharmonic concert or another event. The repertoire is on the “Theatres and concerts” page.",
             ]),
         ],
         hours=[("From outside", "open 24 hours"), ("Aula", "during concerts and events")],
