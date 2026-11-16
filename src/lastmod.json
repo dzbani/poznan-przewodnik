@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-16",
-"hash": "6623f111ce81b079ffacc3b19b1b3a1d"
+"hash": "2b74e37f9e540a14a209257b4ef2a509"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -333,7 +333,7 @@
 },
 "atrakcje/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
-"hash": "b8e647343061fa7a36eec0f53f9e0ee8"
+"hash": "02917da9186464a16a52bbb9e0b3d4db"
 },
 "atrakcje/muzeum-kultury-cyfrowej.html": {
 "date": "2026-11-10",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-16",
-"hash": "05680db2ffb204b4b4c2d9f51fad66cc"
+"hash": "53b04daa306078d08f18a5ac0c16ecdf"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1025,7 +1025,7 @@
 },
 "en/attractions/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
-"hash": "2433fc8aed79aa03d37d50a86472a45c"
+"hash": "7926a893f8126b4d2b1205e91d4daa6e"
 },
 "en/attractions/muzeum-kultury-cyfrowej.html": {
 "date": "2026-11-10",
@@ -1396,12 +1396,12 @@
 "hash": "06123c987baf3052e75795bdc4f5085a"
 },
 "en/map.html": {
-"date": "2026-11-15",
-"hash": "b365ecadd96f5511942a20ca2911e6f5"
+"date": "2026-11-16",
+"hash": "2385e7b549a509856ec309b92e2e6744"
 },
 "en/museums.html": {
 "date": "2026-11-16",
-"hash": "55e7110f2b3ff688853b06502aabde10"
+"hash": "7bd91bc6e67cdacc82db5858135f5242"
 },
 "en/photo-credits.html": {
 "date": "2026-11-16",
@@ -1444,12 +1444,12 @@
 "hash": "1a2732f024489d0fd3ac9c156c2b6375"
 },
 "mapa.html": {
-"date": "2026-11-15",
-"hash": "f46298a3e12dad218f57006faeb7ed83"
+"date": "2026-11-16",
+"hash": "21d52d7ce3feb7efeb74fb9919cead69"
 },
 "muzea.html": {
 "date": "2026-11-16",
-"hash": "1054f9826ae6cc954088ddab0491f09c"
+"hash": "4c1f657d64bb4ad4d1483274de46bddf"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",

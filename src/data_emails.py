@@ -9,6 +9,7 @@ EMAILS = {
     "palac-dzialynskich": "sekretariat.palac@bk.pan.pl",
     "bazar": "biuro@bazarpoznanski.pl",
     "cmentarz-zasluzonych-wielkopolan": "kancelaria@zzmpoznan.pl",
+    "muzeum-kultur-swiata": "mnp@mnp.art.pl",
     "arboretum-kornik": "arboretumIDPAN@man.poznan.pl",
     "rogalin": "rogalin@mnp.art.pl",
     "genius-loci": "rezerwat@muzarp.poznan.pl",
