@@ -1275,7 +1275,7 @@ for _a in ATTRACTIONS:
         _a["checked"] = "10.10.2026"
 
 # Numery linii ZTM sprawdzone 10.10.2026 w oficjalnym pliku rozkładów (GTFS ważny 10–31.10.2026).
-_ZTM_SLUGS = ("genius-loci", "fort-vii", "muzeum-historii-ubioru", "szachty", "legi-debinskie", "park-chopina",
+_ZTM_SLUGS = ("genius-loci", "fort-vii", "szachty", "legi-debinskie", "park-chopina",
               "park-mickiewicza", "muzeum-armii-poznan", "muzeum-uzbrojenia", "park-marcinkowskiego")
 for _a in ATTRACTIONS:
     if _a["slug"] in _ZTM_SLUGS:
@@ -1450,7 +1450,7 @@ for _a in ATTRACTIONS:
 
 # Muzeum Kultur Świata: nowe zdjęcie (Sonia Bober, za zgodą), data sprawdzenia po wymianie zdjęcia 16.11.2026.
 for _a in ATTRACTIONS:
-    if _a["slug"] == "muzeum-kultur-swiata":
+    if _a["slug"] in ("muzeum-kultur-swiata", "muzeum-historii-ubioru"):   # muzeum-historii-ubioru: opis wg fmhu.pl i poznan.pl, bez numerów linii ZTM, 16.11.2026
         _a["checked"] = "16.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.

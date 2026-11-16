@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-16",
-"hash": "2b74e37f9e540a14a209257b4ef2a509"
+"hash": "0f9904cd85804fc4bfabfefcd9742ad0"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -316,8 +316,8 @@
 "hash": "3f77a8a1f5bafb61426984772944ee1a"
 },
 "atrakcje/muzeum-historii-ubioru.html": {
-"date": "2026-11-10",
-"hash": "58080c0612dd9d4dc88df50c1408bcd2"
+"date": "2026-11-16",
+"hash": "1ca921c00ac858e2bbf8f844e22b6217"
 },
 "atrakcje/muzeum-iluzji.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-16",
-"hash": "53b04daa306078d08f18a5ac0c16ecdf"
+"hash": "dd23edeb721ba5c137ca7be7c9229403"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-10-30",
@@ -1008,8 +1008,8 @@
 "hash": "c8d9a99970fe8d61ac9297be87f42d7f"
 },
 "en/attractions/muzeum-historii-ubioru.html": {
-"date": "2026-11-10",
-"hash": "ae32f5f6286d9024cda4152f2aecf1da"
+"date": "2026-11-16",
+"hash": "fe6a0dd68a0ee7095cf7ac768f1c445f"
 },
 "en/attractions/muzeum-iluzji.html": {
 "date": "2026-11-12",
@@ -1397,11 +1397,11 @@
 },
 "en/map.html": {
 "date": "2026-11-16",
-"hash": "2385e7b549a509856ec309b92e2e6744"
+"hash": "962e1e813c71579da1c4a86149d43c6f"
 },
 "en/museums.html": {
 "date": "2026-11-16",
-"hash": "7bd91bc6e67cdacc82db5858135f5242"
+"hash": "72e4ae51aa8fa1c880499383967f0ebf"
 },
 "en/photo-credits.html": {
 "date": "2026-11-16",
@@ -1445,11 +1445,11 @@
 },
 "mapa.html": {
 "date": "2026-11-16",
-"hash": "21d52d7ce3feb7efeb74fb9919cead69"
+"hash": "7cbb727b6fd7f7b6fa96e9c7a9958b20"
 },
 "muzea.html": {
 "date": "2026-11-16",
-"hash": "4c1f657d64bb4ad4d1483274de46bddf"
+"hash": "eb5011c49506a1b2a3003bfb952df893"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
