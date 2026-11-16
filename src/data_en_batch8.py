@@ -384,7 +384,7 @@ EN_BATCH8 = {
     ),
     "muzeum-kultur-swiata": dict(
         name="Museum of World Cultures",
-        img_alt="The neoclassical building of the Museum of World Cultures on ul. Grobla",
+        img_alt="The yellow neoclassical façade of the Museum of World Cultures with white pilasters and a double staircase with a wrought-iron balustrade, partly hidden by a tree",
         short="The former Ethnographic Museum in the neoclassical seat of a Masonic lodge.",
         badge="Closed Mon",
         status=None,
