@@ -207,13 +207,12 @@ EN_BATCH10 = {
             ("Good to know", [
                 "The last visitors are admitted half an hour before closing. The museum is adapted for people with disabilities.",
                 "With the Poznań Tourist Card admission is free (according to Visit Poznań).",
-                "The museum is part of the ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy), which costs PLN 49. An audio guide can be borrowed free of charge with every ticket.",
+                "An audio guide can be borrowed free of charge with every ticket.",
                 "Educational activities: edukacja@muzeum.poznan.pl, tel. +48 605 988 300.",
             ]),
         ],
         hours=[("Tuesday–Friday", "11:00–17:00"), ("Saturday", "11:00–16:00"), ("Sunday–Monday", "closed")],
-        tickets=[("Standard", "PLN 40"), ("Reduced", "PLN 30"), ("Family", "PLN 80"), ("Special", "PLN 15"), ("Guide", "PLN 100"), ("Workshops", "PLN 100"),
-                 ("Ticket for 3 places on the island", "PLN 49")],
+        tickets=[("Standard", "PLN 40"), ("Reduced", "PLN 30"), ("Family", "PLN 80"), ("Special", "PLN 15"), ("Guide", "PLN 100"), ("Workshops", "PLN 100")],
     ),
     "muzeum-farmacji": dict(
         name="Museum of Pharmacy",
