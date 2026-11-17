@@ -907,7 +907,7 @@ MORE = [
     ),
     dict(
         slug="muzeum-czerwca-1956", cat="muzea", name="Muzeum Poznańskiego Czerwca 1956",
-        img="muzeum-czerwca-1956", img_alt="Ekspozycja Muzeum Powstania Poznańskiego – Czerwiec 1956",
+        img="muzeum-czerwca-1956", img_alt="Wejście do Muzeum Powstania Poznańskiego – Czerwiec 1956 w kamiennej ścianie Zamku Cesarskiego: wielkie cyfry „1956” z pionowym napisem „Muzeum” i podjazd obok drzwi",
         short="Historia buntu robotników z 28 czerwca 1956 roku, w Zamku Cesarskim.",
         badge="Nd wstęp wolny",
         status=None,
@@ -1452,6 +1452,11 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("muzeum-kultur-swiata", "muzeum-historii-ubioru"):   # muzeum-historii-ubioru: opis wg fmhu.pl i poznan.pl, bez numerów linii ZTM, 16.11.2026
         _a["checked"] = "16.11.2026"
+
+# Muzeum Poznańskiego Czerwca 1956: nowe zdjęcie wejścia (od muzeum, za zgodą), data sprawdzenia po wymianie zdjęcia 17.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-czerwca-1956":
+        _a["checked"] = "17.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS

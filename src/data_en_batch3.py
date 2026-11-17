@@ -348,7 +348,7 @@ EN_BATCH3 = {
     ),
     "muzeum-czerwca-1956": dict(
         name="Museum of the Poznań June 1956",
-        img_alt="An exhibition at the Museum of the Poznań Uprising – June 1956",
+        img_alt="The entrance to the Museum of the Poznań Uprising – June 1956 in the stone wall of the Imperial Castle: huge numerals “1956” with a vertical “Muzeum” sign and a ramp next to the door",
         short="The story of the workers' revolt of 28 June 1956, in the Imperial Castle.",
         badge="Sun free",
         status=None,
