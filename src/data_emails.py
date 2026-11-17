@@ -31,6 +31,7 @@ EMAILS = {
     "muzeum-pyry": "biuro@muzeumpyry.pl",
     "muzeum-farmacji": "muzeumfarmacji@woia.pl",
     "muzeum-historii-ubioru": "muzeum@fmhu.pl",
+    "akademia-lubranskiego": "sekretariat@muzeum.poznan.pl",
     "muzeum-iluzji": "info@muzeumins.pl",
     "fotoplastykon": "cik@wm.poznan.pl",
     "muzeum-komunikacji-mpk": "muzeum@mpk.poznan.pl",

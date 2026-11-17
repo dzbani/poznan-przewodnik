@@ -190,22 +190,29 @@ EN_BATCH10 = {
     "akademia-lubranskiego": dict(
         name="Archdiocesan Museum – Lubrański Academy",
         img_alt="The brick façade of the Lubrański Academy with the name above the entrance and exhibition boards in the courtyard",
-        short="Sacred art in a building of 1520: the sword of St Peter and King Jagiełło's monstrance.",
+        short="Sacred art in a Renaissance building of the 16th century: the sword of St Peter and King Jagiełło's monstrance.",
         badge="Closed Mon",
         status=None,
-        lead="The Archdiocesan Museum was founded in 1894–1898 by Archbishop Florian Stablewski. It is the oldest museum institution in Poznań and one of the oldest museums of its kind in Poland. It is housed on Ostrów Tumski, in the building of the former Lubrański Academy of 1520.",
+        lead="The Archdiocesan Museum was founded in 1894–1898 by Archbishop Florian Stablewski. It is one of the first museums in Poznań (Visit Poznań calls it the oldest) and one of the oldest museums of its kind in Poland. It is housed on Ostrów Tumski, in the building of the former Lubrański Academy, about 100 m from the cathedral.",
         sections=[
             ("What to see", [
                 "Sacred art from the Middle Ages to the present, including the richest collection of sculpture and painting of the 14th and 15th centuries in this part of Poland.",
                 "The sword of St Peter, the monstrance of King Władysław Jagiełło, the golden chalice of Bishop Tolibowski and a crosier from Limoges.",
                 "Galleries of portraits, Polish and European painting, textiles and goldsmiths' work.",
             ]),
+            ("History of the building and the museum", [
+                "The Lubrański Academy was founded in 1518 by Bishop Jan Lubrański. Its four-wing brick building with a courtyard was built in 1518–1530, using a stretch of the wall around Ostrów Tumski. Visit Poznań gives the year 1520.",
+                "The museum was founded in 1898 and its collections first went to a former Carmelite convent on ul. Wieżowa. They were moved to the Academy building after a renovation and the arrangement of a new exhibition, and the ceremonial opening took place in September 2007.",
+            ]),
             ("Good to know", [
+                "The last visitors are admitted half an hour before closing. The museum is adapted for people with disabilities.",
+                "With the Poznań Tourist Card admission is free (according to Visit Poznań).",
                 "The museum is part of the ticket for three places on Ostrów Tumski (the Gate of Poznań, Genius Loci and the Lubrański Academy), which costs PLN 49. An audio guide can be borrowed free of charge with every ticket.",
+                "Educational activities: edukacja@muzeum.poznan.pl, tel. +48 605 988 300.",
             ]),
         ],
         hours=[("Tuesday–Friday", "11:00–17:00"), ("Saturday", "11:00–16:00"), ("Sunday–Monday", "closed")],
-        tickets=[("Standard", "PLN 40"), ("Reduced", "PLN 30"), ("Family", "PLN 80"), ("Special", "PLN 15"), ("Guide", "PLN 100"),
+        tickets=[("Standard", "PLN 40"), ("Reduced", "PLN 30"), ("Family", "PLN 80"), ("Special", "PLN 15"), ("Guide", "PLN 100"), ("Workshops", "PLN 100"),
                  ("Ticket for 3 places on the island", "PLN 49")],
     ),
     "muzeum-farmacji": dict(
