@@ -1,11 +1,11 @@
 {
 "atrakcje.html": {
 "date": "2026-11-17",
-"hash": "1c7cc168f8bf22b6cfabbeb86170257a"
+"hash": "d63022fc3dd191394965225b644b5144"
 },
 "atrakcje/akademia-lubranskiego.html": {
-"date": "2026-10-30",
-"hash": "8add8d5bde2e0ad8a6f972a6a750a9fd"
+"date": "2026-11-17",
+"hash": "63f862e4f83cd45ce7d686fd856302a3"
 },
 "atrakcje/arboretum-kornik.html": {
 "date": "2026-11-13",
@@ -693,11 +693,11 @@
 },
 "en/attractions.html": {
 "date": "2026-11-17",
-"hash": "592c87bf41d811f617bda7c5ede6b7d7"
+"hash": "7481e05f5bf9f55497dadf83af344f22"
 },
 "en/attractions/akademia-lubranskiego.html": {
-"date": "2026-10-30",
-"hash": "d0ca870362b7f37fb25f6dc6ed0b5a7e"
+"date": "2026-11-17",
+"hash": "fce04a07c1432a4d4a733542134706c8"
 },
 "en/attractions/arboretum-kornik.html": {
 "date": "2026-11-13",
@@ -1401,11 +1401,11 @@
 },
 "en/museums.html": {
 "date": "2026-11-17",
-"hash": "2523eb7b45ec45e7534b5cb9d7e9ed8a"
+"hash": "ed612d06b3a3376314bbbd1d422002e7"
 },
 "en/photo-credits.html": {
 "date": "2026-11-17",
-"hash": "e81cbb6d7046387260a0a97ad3fa4640"
+"hash": "580ad230a9b6794dffff67cd881b6320"
 },
 "en/plans.html": {
 "date": "2026-11-15",
@@ -1449,7 +1449,7 @@
 },
 "muzea.html": {
 "date": "2026-11-17",
-"hash": "7a0a6f8d3acdc616cfbc8000860b02e9"
+"hash": "c115bacbfcddaa21e6f365a5d0d85d64"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-17",
-"hash": "4dec568170692b6472c6ac374b1d90d7"
+"hash": "eb042a804c5a1a279fd6e38372fdcaf6"
 },
 "zmiany.html": {
 "date": "2026-11-13",

@@ -333,14 +333,6 @@
   "page": "https://odkrywajpoznan.pl/atrakcje/fotoplastykon"
  },
  {
-  "slug": "akademia-lubranskiego",
-  "title": "Akademia Lubrańskiego.jpg",
-  "artist": "PiotrMig",
-  "license": "CC BY-SA 4.0",
-  "licurl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "page": "https://commons.wikimedia.org/wiki/File:Akademia_Lubra%C5%84skiego.jpg"
- },
- {
   "slug": "biblioteka-raczynskich",
   "title": "Biblioteka Raczyńskich – korynckie kolumny i fryz z napisem wśród jesiennych liści",
   "artist": "Paulina Nowak",
@@ -1343,5 +1335,12 @@
   "artist": "Krzysztof Duda",
   "license": "Za zgodą autora",
   "page": "https://odkrywajpoznan.pl/atrakcje/collegium-minus"
+ },
+ {
+  "slug": "akademia-lubranskiego",
+  "title": "Akademia Lubrańskiego – ceglana fasada z napisem i planszami wystawy przed wejściem",
+  "artist": "Robert Woźniak",
+  "license": "Za zgodą autora",
+  "page": "https://odkrywajpoznan.pl/atrakcje/akademia-lubranskiego"
  }
 ]

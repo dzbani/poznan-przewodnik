@@ -143,7 +143,7 @@ EXTRA = [
     ),
     dict(
         slug="akademia-lubranskiego", cat="muzea", name="Muzeum Archidiecezjalne – Akademia Lubrańskiego",
-        img="akademia-lubranskiego", img_alt="Budynek Akademii Lubrańskiego na Ostrowie Tumskim",
+        img="akademia-lubranskiego", img_alt="Ceglana fasada Akademii Lubrańskiego z napisem nad wejściem i planszami wystawy na dziedzińcu",
         short="Sztuka sakralna w budynku z 1520 roku: miecz św. Piotra i monstrancja króla Jagiełły.",
         badge="Pn nieczynne",
         status=None,

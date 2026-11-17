@@ -189,7 +189,7 @@ EN_BATCH10 = {
     ),
     "akademia-lubranskiego": dict(
         name="Archdiocesan Museum – Lubrański Academy",
-        img_alt="The Lubrański Academy building on Ostrów Tumski",
+        img_alt="The brick façade of the Lubrański Academy with the name above the entrance and exhibition boards in the courtyard",
         short="Sacred art in a building of 1520: the sword of St Peter and King Jagiełło's monstrance.",
         badge="Closed Mon",
         status=None,

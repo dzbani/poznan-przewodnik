@@ -1458,7 +1458,7 @@ for _a in ATTRACTIONS:
 
 # Muzeum Poznańskiego Czerwca 1956: nowe zdjęcie wejścia (od muzeum, za zgodą), data sprawdzenia po wymianie zdjęcia 17.11.2026.
 for _a in ATTRACTIONS:
-    if _a["slug"] == "muzeum-czerwca-1956":
+    if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego"):   # akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
         _a["checked"] = "17.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
