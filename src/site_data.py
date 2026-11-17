@@ -690,7 +690,7 @@ ATTRACTIONS = [
             ("Historia", [
                 "Ambrosius Hugger, piwowar ze Schwarzwaldu, otworzył pierwszy browar w Poznaniu w 1844 roku przy ulicy Wronieckiej. Jego synowie Julius i Alfons w 1876 roku kupili posesję na rogu Półwiejskiej i zbudowali tu Browary Huggerów. W 1918 roku zakład warzył prawie 72 tysiące hektolitrów piwa rocznie.",
                 "W czasie walk o Poznań w 1945 roku browar został mocno zniszczony. Po wojnie go upaństwowiono, a w 1980 roku zamknięto. Budynki niszczały, a do 1997 roku działała w nich tylko mała wytwórnia wód gazowanych.",
-                "W 1998 roku teren kupiła spółka Grażyny Kulczyk. Zanim ruszyła budowa, w ruinach wystawiano spektakle, w tym „Makbeta” Verdiego transmitowanego na żywo w TVP2. Pierwszą część centrum, Atrium, otwarto 5 listopada 2003 roku, Dziedziniec Sztuki 29 kwietnia 2004 roku, a drugie skrzydło, Pasaż, 11 marca 2007 roku. Od 2015 roku właścicielem centrum jest fundusz Deutsche Asset & Wealth Management (dziś Deutsche Asset Management), a opisane niżej rzeźby i instalacje nadal można tu oglądać.",
+                "W 1998 roku teren kupiła spółka Grażyny Kulczyk. Zanim ruszyła budowa, w ruinach wystawiano spektakle, w tym „Makbeta” Verdiego transmitowanego na żywo w TVP2. Pierwszą część centrum, Atrium, otwarto 5 listopada 2003 roku, Dziedziniec Sztuki 29 kwietnia 2004 roku, a drugie skrzydło, Pasaż, 11 marca 2007 roku. Dziś stopka strony centrum wskazuje jako podmiot prowadzący DWS Grundbesitz GmbH Sp. z o.o. Oddział w Polsce, a opisane niżej rzeźby i instalacje nadal można tu oglądać.",
             ]),
             ("Architektura", [
                 "Najstarsze budynki, czyli Warzelnia, Słodownia i Suszarnia z charakterystycznym kominem, powstały około 1890 roku. Zbudowano je w stylu arkadowym (Rundbogenstil), typowym dla ówczesnych fabryk: z czerwonej cegły licówki, z półkoliście zamkniętymi oknami i ceglanymi ozdobami.",
@@ -727,9 +727,7 @@ ATTRACTIONS = [
         credit="stary-browar",
         sources=[("Stary Browar: o centrum, historia i dzieła sztuki", "https://starybrowar5050.com/o-centrum/"),
                  ("Stary Browar: kontakt, godziny otwarcia i parking", "https://starybrowar5050.com/kontakt/"),
-                 ("Wiadomości Handlowe: Stary Browar zmienia właściciela (30.11.2015)", "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/handel-hurtowy-i-grupy-zakupowe/stary-browar-zmienia-wlasciciela-2431468"),
                  ("Stary Browar: Pop Culture Gallery", "https://starybrowar5050.com/sklepy/pop-culture-gallery-stary-browar/"),
-                 ("Poznański Prestiż: wywiad z zarządem Starego Browaru (2023)", "https://poznanskiprestiz.pl/pp-x-stary-browar/stary-browar-od-20-lat-w-sercu-poznania/"),
                  ("Hotel Blow Up Hall: sztuka i książki", "https://blowuphall.com/sztuka-i-ksiazki/"),
                  ("Hotel Blow Up Hall: restauracja", "https://blowuphall.com/restauracja/"),
                  ("poznan.pl: Stary Browar", "https://www.poznan.pl/mim/turystyka/inne-atrakcje,poi,3391/stary-browar,46255.html")],
@@ -1458,7 +1456,7 @@ for _a in ATTRACTIONS:
 
 # Muzeum Poznańskiego Czerwca 1956: nowe zdjęcie wejścia (od muzeum, za zgodą), data sprawdzenia po wymianie zdjęcia 17.11.2026.
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego", "trakt-krolewsko-cesarski"):   # trakt-krolewsko-cesarski: nowe zdjęcie (Łukasz Gdak/PCD), 17.11.2026; akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
+    if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego", "trakt-krolewsko-cesarski", "stary-browar"):   # stary-browar: źródła oficjalne, prasa usunięta, 17.11.2026; trakt-krolewsko-cesarski: nowe zdjęcie (Łukasz Gdak/PCD), 17.11.2026; akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
         _a["checked"] = "17.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
