@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-17",
-"hash": "b3b00f1aab28e4a1176150a269450371"
+"hash": "ffc8455eb313fb73ac54665a620aea33"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -648,8 +648,8 @@
 "hash": "fb047781ab63a0270ae6cac2b36542be"
 },
 "atrakcje/trakt-krolewsko-cesarski.html": {
-"date": "2026-11-13",
-"hash": "2803158da68cc27b3f511f674f9ed18d"
+"date": "2026-11-17",
+"hash": "8b9a62919da799605ee08e74569c0081"
 },
 "atrakcje/wiedzma-z-chwaliszewa.html": {
 "date": "2026-11-12",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-17",
-"hash": "9cb8e45bdc5d2e109c6239f9d46016cf"
+"hash": "020a18db913398b6c8007e702a990adb"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1340,8 +1340,8 @@
 "hash": "30c221ea54f199a71e4d351fbf739b8d"
 },
 "en/attractions/trakt-krolewsko-cesarski.html": {
-"date": "2026-11-13",
-"hash": "425ea76fe34e96e74c80e27395636675"
+"date": "2026-11-17",
+"hash": "bececa3e6c18e14c44e3fa2d8229116d"
 },
 "en/attractions/wiedzma-z-chwaliszewa.html": {
 "date": "2026-11-12",
@@ -1405,11 +1405,11 @@
 },
 "en/photo-credits.html": {
 "date": "2026-11-17",
-"hash": "5bfc76b4ddecc35bd1ee37d7d7b1b48e"
+"hash": "9cec515e1da3cf86412cb2a1ab89efbd"
 },
 "en/plans.html": {
-"date": "2026-11-15",
-"hash": "27d157b67156a819cb826c5e5dadb51f"
+"date": "2026-11-17",
+"hash": "03099894be0d5ad9bb7e370b16e74d35"
 },
 "en/practical.html": {
 "date": "2026-10-31",
@@ -1456,8 +1456,8 @@
 "hash": "dacaaefd7aa15d8f8880db7f18949749"
 },
 "plany.html": {
-"date": "2026-11-15",
-"hash": "839d9ad917a4dedaad1d6c0ce9433494"
+"date": "2026-11-17",
+"hash": "61adfc49cbf0cff3e0fcfaed09ee7c9b"
 },
 "prywatnosc.html": {
 "date": "2026-10-23",
@@ -1473,7 +1473,7 @@
 },
 "zdjecia.html": {
 "date": "2026-11-17",
-"hash": "59943358d26593ff9b4f47b09c2e3b5c"
+"hash": "3c50157c14f8d52dbcfb2c7eca0b7991"
 },
 "zmiany.html": {
 "date": "2026-11-13",

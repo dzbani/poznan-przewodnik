@@ -1180,7 +1180,7 @@ MORE = [
     ),
     dict(
         slug="trakt-krolewsko-cesarski", cat="zabytki", name="Trakt Królewsko-Cesarski",
-        img="trakt-krolewsko-cesarski", img_alt="Oznakowanie Traktu Królewsko-Cesarskiego z koroną przy Bramie Poznania",
+        img="trakt-krolewsko-cesarski", img_alt="Czerwona tabliczka Traktu Królewsko-Cesarskiego z napisem i wycięciem w kształcie korony, na słupie przed ceglaną budowlą",
         short="Główny szlak turystyczno-kulturowy Poznania: Brama Poznania, Ostrów Tumski, Stare Miasto i Śródmieście.",
         badge="Bezpłatnie",
         status=None,
@@ -1458,7 +1458,7 @@ for _a in ATTRACTIONS:
 
 # Muzeum Poznańskiego Czerwca 1956: nowe zdjęcie wejścia (od muzeum, za zgodą), data sprawdzenia po wymianie zdjęcia 17.11.2026.
 for _a in ATTRACTIONS:
-    if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego"):   # akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
+    if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego", "trakt-krolewsko-cesarski"):   # trakt-krolewsko-cesarski: nowe zdjęcie (Łukasz Gdak/PCD), 17.11.2026; akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
         _a["checked"] = "17.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.

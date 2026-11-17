@@ -216,7 +216,7 @@ EN_BATCH4 = {
     ),
     "trakt-krolewsko-cesarski": dict(
         name="Royal-Imperial Route",
-        img_alt="Royal-Imperial Route marker with a crown by the Gate of Poznań",
+        img_alt="Red Royal-Imperial Route sign with the inscription and a crown-shaped cut-out, on a pole in front of a brick building",
         short="Poznań's main tourist and cultural trail: the Gate of Poznań, Ostrów Tumski, the Old Town and the city centre.",
         badge="Free",
         status=None,
