@@ -25,6 +25,7 @@ EMAILS = {
     "muzeum-archeologiczne": "sekretariat@muzarp.poznan.pl",
     "muzeum-instrumentow": "mnp@mnp.art.pl",
     "muzeum-sienkiewicza": "muzeumhs@bracz.edu.pl",
+    "muzeum-czerwca-1956": "kancelaria@muzeum-czerwiec1956.pl",
     "centrum-szyfrow-enigma": "kontakt@csenigma.pl",
     "fort-vii": "muzeum@fortvii.eu",
     "muzeum-pyry": "biuro@muzeumpyry.pl",
