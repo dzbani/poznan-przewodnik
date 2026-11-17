@@ -1465,3 +1465,18 @@ for _a in ATTRACTIONS:
     if _a["slug"] in _EMAILS and not _a.get("email"):
         _a["email"] = _EMAILS[_a["slug"]]
 
+
+# Kolejność źródeł na kartach (17.11.2026): najpierw strony samego obiektu i jego instytucji,
+# potem portale miejskie i turystyczne, na końcu Wikipedia i media. Stabilne: kolejność w grupie bez zmian.
+def _source_tier(_url):
+    import re as _re
+    _h = _re.match(r"https?://([^/]+)", _url).group(1).lower()
+    _h = _h[4:] if _h.startswith("www.") else _h
+    if _h in ("pl.wikipedia.org", "en.wikipedia.org", "dzieje.pl", "poznan.tvp.pl", "turturi.com", "woia.pl"):
+        return 2
+    if _h in ("poznan.pl", "kultura.poznan.pl", "visitpoznan.pl", "regionwielkopolska.pl", "ztm.poznan.pl", "mpk.poznan.pl", "bracz.edu.pl"):
+        return 1
+    return 0
+for _a in ATTRACTIONS:
+    if _a.get("sources"):
+        _a["sources"] = sorted(_a["sources"], key=lambda _s: _source_tier(_s[1]))
