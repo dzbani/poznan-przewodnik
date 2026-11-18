@@ -556,7 +556,8 @@ def build_attraction(a, idx):
         contact += f'<p>{icon("phone")} <span class="sel">{escape(_ph)}</span></p>'
     if a.get("email"):
         contact += f'<p>{icon("mail")} <a href="mailto:{escape(a["email"])}">{escape(a["email"])}</a></p>'
-    contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'
+    if a.get("www"):
+        contact += f'<p>{icon("globe")} <a href="{escape(a["www"][1])}" target="_blank" rel="noopener">{escape(a["www"][0])}</a></p>'
     same = [x for x in ATTRACTIONS if x["cat"] == a["cat"] and x["slug"] != a["slug"]]
     others = "".join(card(x, "../") for x in same[:3])
     sources = "".join(f'<li><a href="{escape(u)}" target="_blank" rel="noopener">{escape(t)}</a></li>' for t, u in a["sources"])

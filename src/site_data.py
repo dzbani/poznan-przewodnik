@@ -928,7 +928,7 @@ MORE = [
         address="ul. Święty Marcin 80/82 (Zamek Cesarski), 61-809 Poznań",
         hours=[("Godziny otwarcia", "potwierdź telefonicznie przed wizytą")],
         tickets=[("Normalny", "15 zł"), ("Ulgowy", "10 zł"), ("Niedziela", "wstęp wolny")],
-        phone="+48 61 852 94 64", www=("wmn.poznan.pl", "https://www.wmn.poznan.pl/lokalizacja_wystaw/muzeum-powstania-poznanskiego/"),
+        phone="+48 61 852 94 64", www=None,
         credit="muzeum-czerwca-1956",
         sources=[("WMN: ponowne otwarcie muzeum (1.02.2026)", "https://www.wmn.poznan.pl/moje-aktualnosci/muzeum-powstania-poznanskiego-czerwiec-1956-w-poznaniu-ponownie-otwiera-sie-dla-zwiedzajacych/"),
                  ("WMN: Muzeum Powstania Poznańskiego – Czerwiec 1956", "https://www.wmn.poznan.pl/lokalizacja_wystaw/muzeum-powstania-poznanskiego/"),
@@ -1458,6 +1458,11 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] in ("muzeum-czerwca-1956", "akademia-lubranskiego", "trakt-krolewsko-cesarski", "stary-browar"):   # stary-browar: źródła oficjalne, prasa usunięta, 17.11.2026; trakt-krolewsko-cesarski: nowe zdjęcie (Łukasz Gdak/PCD), 17.11.2026; akademia-lubranskiego: nowe zdjęcie (Robert Woźniak, za zgodą), 17.11.2026
         _a["checked"] = "17.11.2026"
+
+# Muzeum Czerwca 1956: z boksu Kontakt usunięty odnośnik do strony WMN na prośbę muzeum (odrębna instytucja), 18.11.2026. Własna strona muzeum jest „w budowie”.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-czerwca-1956":
+        _a["checked"] = "18.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS
