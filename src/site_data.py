@@ -1464,6 +1464,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-czerwca-1956":
         _a["checked"] = "18.11.2026"
 
+# Muzeum Iluzji: nowe zdjęcie sali (Michał Gieniusz, za zgodą), data sprawdzenia po wymianie zdjęcia 19.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-iluzji":
+        _a["checked"] = "19.11.2026"
+
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS
 for _a in ATTRACTIONS:

@@ -390,7 +390,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-iluzji", cat="muzea", name="Muzeum Iluzji, Nauki i Sztuki",
-        img="muzeum-iluzji", img_alt="Ulica Woźna, przy której mieści się Muzeum Iluzji",
+        img="muzeum-iluzji", img_alt="Sala Muzeum Iluzji z fioletowymi wnękami: kula plazmowa, stół z kolorowymi otworami i trzy białe reliefy twarzy na ścianie",
         short="Ponad 60 interaktywnych eksponatów: odwrócony pokój, lewitacja i złudzenia optyczne.",
         badge="Pn nieczynne",
         status=None,
@@ -399,6 +399,8 @@ EXTRA = [
             ("Co zobaczyć", [
                 "Ponad 60 interaktywnych eksponatów w siedmiu przestrzeniach wystawowych: od klasycznych łamigłówek i iluzji optycznych po wielkoformatowe instalacje.",
                 "Odwrócony pokój, kalejdoskopy, stół pikselowy (Pixel Table) i lewitacja na trzy sposoby. Trasa prowadzi śladami królika, a chętni mogą rozwiązać zagadkowego questa.",
+                "Muzeum pokazuje, jak iluzja korzysta z rozwiązań naukowych i jak inspiruje ją sztuka. Podczas zwiedzania z przewodnikiem poznasz m.in. sztukę kinetyczną, światło stroboskopowe i efekty dźwiękowe, a nawet spróbujesz oduczyć się pisać.",
+                "Od wtorku do soboty działa wystawa czasowa „Wiedźmy, Stosy i ich Losy” o czarownicach w Poznaniu, w Polsce i na świecie. W niedziele jest pokaz magii na żywo. W muzeum są też dodatkowe pomieszczenia, w których można zwątpić w otaczającą rzeczywistość.",
             ]),
             ("Warto wiedzieć", [
                 "Muzeum zawsze zwiedza się z przewodnikiem (edukatorem), w grupach po kilkanaście osób, o ustalonych godzinach, które podaje się przy zakupie biletu online lub telefonicznie. Na każde zwiedzanie obowiązuje limit miejsc, więc bilety warto kupić lub zarezerwować wcześniej.",

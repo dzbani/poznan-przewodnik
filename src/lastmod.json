@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-17",
-"hash": "ffc8455eb313fb73ac54665a620aea33"
+"date": "2026-11-19",
+"hash": "08a85fc7f9773321d437748c16ed6910"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -320,8 +320,8 @@
 "hash": "1ca921c00ac858e2bbf8f844e22b6217"
 },
 "atrakcje/muzeum-iluzji.html": {
-"date": "2026-11-12",
-"hash": "2fff1793ea33ce41adeb2debada6e6ad"
+"date": "2026-11-19",
+"hash": "d00d55d7a4600d91dbd4f4a3d0c4f74a"
 },
 "atrakcje/muzeum-instrumentow.html": {
 "date": "2026-11-12",
@@ -692,8 +692,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-17",
-"hash": "020a18db913398b6c8007e702a990adb"
+"date": "2026-11-19",
+"hash": "28463d38b165abbbd239b8cee79fc1c1"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1012,8 +1012,8 @@
 "hash": "fe6a0dd68a0ee7095cf7ac768f1c445f"
 },
 "en/attractions/muzeum-iluzji.html": {
-"date": "2026-11-12",
-"hash": "29f17b4e6d7f5987fc8d8ff8164a25f8"
+"date": "2026-11-19",
+"hash": "cc02d870d479e1ce731c76f70b39ebfa"
 },
 "en/attractions/muzeum-instrumentow.html": {
 "date": "2026-11-12",
@@ -1388,8 +1388,8 @@
 "hash": "203688938a2c7139ac82552f785be577"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-18",
-"hash": "5e62d764e5a33f331754ad3b39a95e13"
+"date": "2026-11-19",
+"hash": "a358f64cee869220044c439dedab813b"
 },
 "en/index.html": {
 "date": "2026-11-12",
@@ -1400,12 +1400,12 @@
 "hash": "ab872d0499f1c1b8115b807f350d2322"
 },
 "en/museums.html": {
-"date": "2026-11-18",
-"hash": "3ae9db8b9c976e790990cb8becdc18fd"
+"date": "2026-11-19",
+"hash": "3a1a4c12124d2f46886df2115c4917e4"
 },
 "en/photo-credits.html": {
-"date": "2026-11-17",
-"hash": "9cec515e1da3cf86412cb2a1ab89efbd"
+"date": "2026-11-19",
+"hash": "dfc2b3dfe8b46d4a4af95475e9edc74e"
 },
 "en/plans.html": {
 "date": "2026-11-17",
@@ -1436,8 +1436,8 @@
 "hash": "55efba16a644104c022d76f79a6c60c0"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-18",
-"hash": "36aa57620ee6f9ff705419090180f0d7"
+"date": "2026-11-19",
+"hash": "08cd8eca54906e9cdc18d4468229618f"
 },
 "kalendarz.html": {
 "date": "2026-11-03",
@@ -1448,8 +1448,8 @@
 "hash": "5ee4a3f54c0486cdf5510e5d90f41482"
 },
 "muzea.html": {
-"date": "2026-11-18",
-"hash": "f20ba84ad189355fedc3368585ddb437"
+"date": "2026-11-19",
+"hash": "4b7ad439176ea1f161c855108613e6be"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
@@ -1472,8 +1472,8 @@
 "hash": "2b321a1953600ca6668e56d197b86414"
 },
 "zdjecia.html": {
-"date": "2026-11-17",
-"hash": "3c50157c14f8d52dbcfb2c7eca0b7991"
+"date": "2026-11-19",
+"hash": "690719fa096015d635a3536ed6d29b56"
 },
 "zmiany.html": {
 "date": "2026-11-13",

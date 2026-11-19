@@ -338,7 +338,7 @@ EN_BATCH8 = {
     ),
     "muzeum-iluzji": dict(
         name="Museum of Illusions, Science and Art",
-        img_alt="Ul. Woźna, where the Museum of Illusions is housed",
+        img_alt="A room of the Museum of Illusions with purple alcoves: a plasma ball, a table with coloured holes and three white face reliefs on the wall",
         short="More than 60 interactive exhibits: an upside-down room, levitation and optical illusions.",
         badge="Closed Mon",
         status=None,
@@ -347,6 +347,8 @@ EN_BATCH8 = {
             ("What to see", [
                 "More than 60 interactive exhibits in seven exhibition spaces: from classic puzzles and optical illusions to large-format installations.",
                 "An upside-down room, kaleidoscopes, a Pixel Table and levitation in three ways. The route follows a rabbit, and those who like can solve a puzzling quest.",
+                "The museum shows how illusion draws on scientific solutions and how art inspires it. On the guided tour you will meet, among other things, kinetic art, strobe light and sound effects, and you can even try to unlearn writing.",
+                "From Tuesday to Saturday there is a temporary exhibition, “Wiedźmy, Stosy i ich Losy” (Witches, Stakes and Their Fates), about witches in Poznań, in Poland and around the world. On Sundays there is a live magic show. The museum also has some additional rooms where you can doubt the reality around you.",
             ]),
             ("Good to know", [
                 "The museum is always visited with a guide (an educator), in groups of a dozen or so people, at fixed times given when you buy a ticket online or by phone. Each visit has a limit of places, so it is worth buying or booking tickets in advance.",
