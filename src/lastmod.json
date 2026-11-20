@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-20",
-"hash": "77dc4bd1c6796a3a6491c3ac08614a61"
+"hash": "48606bcfd3fe11318518890f568018fe"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -300,8 +300,8 @@
 "hash": "d4f1e74c7f4fa4fa9a309896a3398c29"
 },
 "atrakcje/muzeum-broni-pancernej.html": {
-"date": "2026-10-30",
-"hash": "dfd5d4d94251b89b79bb980e69f4b8ec"
+"date": "2026-11-20",
+"hash": "b8c026c702be86ad1fc6d657238797fe"
 },
 "atrakcje/muzeum-czekolady.html": {
 "date": "2026-11-10",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-20",
-"hash": "94f8f7b15dad9e76712b244711d6cd1e"
+"hash": "f33d58af290f142a11343509838e2bfd"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -992,8 +992,8 @@
 "hash": "54aacc4de3bc83f498808be61863e634"
 },
 "en/attractions/muzeum-broni-pancernej.html": {
-"date": "2026-10-30",
-"hash": "752fad8991510f22221fee94f2772591"
+"date": "2026-11-20",
+"hash": "39f6da8635686737e9519e1d43b8e7b6"
 },
 "en/attractions/muzeum-czekolady.html": {
 "date": "2026-11-10",
@@ -1397,11 +1397,11 @@
 },
 "en/map.html": {
 "date": "2026-11-20",
-"hash": "879ca16dfb58158a0c7518592b525f68"
+"hash": "bb3094c2cb42863272aaf46cf5da1d00"
 },
 "en/museums.html": {
 "date": "2026-11-20",
-"hash": "7d51df3307456f4dbd20dba1bff75eeb"
+"hash": "e34b91ec842ad61354750502f5c122de"
 },
 "en/photo-credits.html": {
 "date": "2026-11-20",
@@ -1445,11 +1445,11 @@
 },
 "mapa.html": {
 "date": "2026-11-20",
-"hash": "cc7a982ddfd05ff415fea02544cd2b4a"
+"hash": "82cb82ecaca19c75fc962f9ddf972f8b"
 },
 "muzea.html": {
 "date": "2026-11-20",
-"hash": "1b28c29f342042e0b634b058f3459356"
+"hash": "efaa91551e368e7d75ad4d359334aa95"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
