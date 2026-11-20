@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-20",
-"hash": "a9c621af1ea63a7a042c81defc156baf"
+"hash": "77dc4bd1c6796a3a6491c3ac08614a61"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -377,7 +377,7 @@
 },
 "atrakcje/muzeum-wojskowe.html": {
 "date": "2026-11-20",
-"hash": "5bf74a37baa987ddfea94d2208a17cdc"
+"hash": "69509a13daefa0254299758479b2f14e"
 },
 "atrakcje/muzeum-ziemi.html": {
 "date": "2026-11-17",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-20",
-"hash": "692f011b8c091f664eb6469fe8bedafa"
+"hash": "94f8f7b15dad9e76712b244711d6cd1e"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1069,7 +1069,7 @@
 },
 "en/attractions/muzeum-wojskowe.html": {
 "date": "2026-11-20",
-"hash": "fb7a291f94449f5f08fc36f70f2c798b"
+"hash": "47ff274a6a3075ea37c08efd9de160b0"
 },
 "en/attractions/muzeum-ziemi.html": {
 "date": "2026-11-17",
@@ -1404,8 +1404,8 @@
 "hash": "7d51df3307456f4dbd20dba1bff75eeb"
 },
 "en/photo-credits.html": {
-"date": "2026-11-19",
-"hash": "dfc2b3dfe8b46d4a4af95475e9edc74e"
+"date": "2026-11-20",
+"hash": "8fd5cc1c02e18a559df509dc608c2ed1"
 },
 "en/plans.html": {
 "date": "2026-11-17",
@@ -1472,8 +1472,8 @@
 "hash": "2b321a1953600ca6668e56d197b86414"
 },
 "zdjecia.html": {
-"date": "2026-11-19",
-"hash": "690719fa096015d635a3536ed6d29b56"
+"date": "2026-11-20",
+"hash": "f38a5221422af867cfbdaecbba7c4fb9"
 },
 "zmiany.html": {
 "date": "2026-11-13",

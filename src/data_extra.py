@@ -62,7 +62,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-wojskowe", cat="muzea", name="Wielkopolskie Muzeum Wojskowe",
-        img="muzeum-wojskowe", img_alt="Ekspozycja Wielkopolskiego Muzeum Wojskowego",
+        img="muzeum-wojskowe", img_alt="Ekspozycja Wielkopolskiego Muzeum Wojskowego: karabiny maszynowe na postumentach, gabloty z szablami i mundurami oraz portret Józefa Piłsudskiego",
         short="Broń, mundury i pamiątki powstań narodowych oraz fragment panoramy „Bitwa pod piramidami” Wojciecha Kossaka.",
         badge="Pn nieczynne",
         status=None,

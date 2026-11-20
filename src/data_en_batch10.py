@@ -143,7 +143,7 @@ EN_BATCH10 = {
     ),
     "muzeum-wojskowe": dict(
         name="Greater Poland Military Museum",
-        img_alt="An exhibition of the Greater Poland Military Museum",
+        img_alt="An exhibition of the Greater Poland Military Museum: machine guns on plinths, display cases with sabres and uniforms, and a portrait of Józef Piłsudski",
         short="Weapons, uniforms and mementoes of the national uprisings, and a fragment of Wojciech Kossak's panorama “The Battle of the Pyramids”.",
         badge="Closed Mon",
         status=None,
