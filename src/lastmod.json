@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-20",
-"hash": "9fd13bb71e327119b332cbb59e06140a"
+"hash": "a9c621af1ea63a7a042c81defc156baf"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -376,8 +376,8 @@
 "hash": "538b557af610f465ee06407cfab37033"
 },
 "atrakcje/muzeum-wojskowe.html": {
-"date": "2026-11-07",
-"hash": "543368620660dea3cdcdc662c882b49c"
+"date": "2026-11-20",
+"hash": "5bf74a37baa987ddfea94d2208a17cdc"
 },
 "atrakcje/muzeum-ziemi.html": {
 "date": "2026-11-17",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-20",
-"hash": "3d24defc042083b1ef2a8173abddb132"
+"hash": "692f011b8c091f664eb6469fe8bedafa"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1068,8 +1068,8 @@
 "hash": "c64451154358c87b269ed8ebcf69eae7"
 },
 "en/attractions/muzeum-wojskowe.html": {
-"date": "2026-11-07",
-"hash": "713ca7e9eaa1fe709d5e688c14f67e5e"
+"date": "2026-11-20",
+"hash": "fb7a291f94449f5f08fc36f70f2c798b"
 },
 "en/attractions/muzeum-ziemi.html": {
 "date": "2026-11-17",
@@ -1397,11 +1397,11 @@
 },
 "en/map.html": {
 "date": "2026-11-20",
-"hash": "1ae1272ad6ad761dbbcf391885b6e678"
+"hash": "879ca16dfb58158a0c7518592b525f68"
 },
 "en/museums.html": {
 "date": "2026-11-20",
-"hash": "8beffcab679a0c2c0e18355442bac566"
+"hash": "7d51df3307456f4dbd20dba1bff75eeb"
 },
 "en/photo-credits.html": {
 "date": "2026-11-19",
@@ -1445,11 +1445,11 @@
 },
 "mapa.html": {
 "date": "2026-11-20",
-"hash": "21d53bfb81121df85cd790fd94788ac0"
+"hash": "cc7a982ddfd05ff415fea02544cd2b4a"
 },
 "muzea.html": {
 "date": "2026-11-20",
-"hash": "bd121aa4b91303236de5135d2fcab14a"
+"hash": "1b28c29f342042e0b634b058f3459356"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",

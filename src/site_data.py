@@ -1474,6 +1474,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-uzbrojenia":
         _a["checked"] = "20.11.2026"
 
+# Wielkopolskie Muzeum Wojskowe: opis przepisany ze stron MNP i poznan.pl, Visit Poznań usunięty, 20.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-wojskowe":
+        _a["checked"] = "20.11.2026"
+
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS
 for _a in ATTRACTIONS:
