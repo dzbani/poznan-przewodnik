@@ -1484,6 +1484,11 @@ for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-broni-pancernej":
         _a["checked"] = "20.11.2026"
 
+# Muzeum Iluzji: poprawki od muzeum (nieaktualne eksponaty, godziny wt–pt), 22.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-iluzji":
+        _a["checked"] = "22.11.2026"
+
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS
 for _a in ATTRACTIONS:

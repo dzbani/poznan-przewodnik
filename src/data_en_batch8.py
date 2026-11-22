@@ -348,8 +348,8 @@ EN_BATCH8 = {
         lead="The Museum of Illusions, Science and Art, opened in 2023, is on ul. Woźna, right next to the Old Market Square. It combines optical illusions with science and art, and most of the exhibits can be touched and tried out.",
         sections=[
             ("What to see", [
-                "More than 60 interactive exhibits in seven exhibition spaces: from classic puzzles and optical illusions to large-format installations.",
-                "An upside-down room, kaleidoscopes, a Pixel Table and levitation in three ways. The route follows a rabbit, and those who like can solve a puzzling quest.",
+                "More than 60 interactive exhibits in seven exhibition spaces: from optical illusions to large-format installations.",
+                "An upside-down room, kaleidoscopes and levitation in three ways.",
                 "The museum shows how illusion draws on scientific solutions and how art inspires it. On the guided tour you will meet, among other things, kinetic art, strobe light and sound effects, and you can even try to unlearn writing.",
                 "From Tuesday to Saturday there is a temporary exhibition, “Wiedźmy, Stosy i ich Losy” (Witches, Stakes and Their Fates), about witches in Poznań, in Poland and around the world. On Sundays there is a live magic show. The museum also has some additional rooms where you can doubt the reality around you.",
             ]),
@@ -358,10 +358,10 @@ EN_BATCH8 = {
                 "A visit lasts about 60 minutes, and 90 minutes for organised groups. It is in Polish by default, and a tour in English must be booked by phone (+48 609 711 931).",
                 "The museum does not accept the Large Family Card. Admission is free for children with a visual impairment up to the age of 18 (the carer pays a reduced ticket), journalists with a valid press card and licensed guides.",
                 "On Sundays the visit is combined with an illusion show. Groups can also order an illusion show after the visit. The museum also organises workshops and performances (current events are on the museum's Facebook page).",
-                "The poznan.pl website says the museum is open Tuesday to Sunday, 10:00–19:00 (last entry 17:30), but the museum itself is visited at fixed times, so agree the time of your visit when buying a ticket.",
+                "From Tuesday to Friday the museum is open from 11:30 to 18:15, and the last tour starts at 16:45. On Saturday and Sunday visits are at fixed times, given when you buy a ticket.",
             ]),
         ],
-        hours=[("Monday", "closed"), ("Tuesday–Saturday", "visits at fixed times, given when you buy a ticket"), ("Sunday", "visit with an illusion show, times given when you buy a ticket")],
+        hours=[("Monday", "closed"), ("Tuesday–Friday", "11:30–18:15, last tour at 16:45"), ("Saturday", "visits at fixed times, given when you buy a ticket"), ("Sunday", "visit with an illusion show, times given when you buy a ticket")],
         tickets=[("Standard / reduced (Tue–Sat)", "PLN 55 / PLN 45"), ("Family 2+1 / 2+2 / 2+3 (Tue–Sat)", "PLN 135 / PLN 164 / PLN 205"),
                  ("Sunday, with an illusion show: standard / reduced", "PLN 70 / PLN 60"), ("Sunday, family 2+1 / 2+2 / 2+3", "PLN 181 / PLN 230 / PLN 290"), ("Group of 12–25", "PLN 35 per person"), ("Illusion show for a group after the visit", "PLN 180 per group")],
     ),
