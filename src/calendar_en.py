@@ -208,4 +208,37 @@ CAL_EN = {
         note="The detailed programme for 2026 has not been announced yet.",
         desc=["27 December is the National Day of the Victorious Greater Poland Uprising. In 2025 the programme was as follows: on 26 December at 15:30 a re-enactment of the arrival of Ignacy Paderewski at the PKP Summer Station, and on 27 December a Mass in the Fara (15:00) and the main ceremony at 16:40, when the alarm sirens are sounded and church bells ring."],
     ),
+    "cavaliada": dict(
+        name="Perlage CAVALIADA Tour Poznań",
+        place="Poznań International Fair",
+        when="Every year in December",
+        note="The date and venue are given in the regulations of the series on the organiser's website.",
+        desc=["An international show-jumping competition, the Poznań stage of the Perlage CAVALIADA Tour 2026/2027 (the other stages are Warsaw, Łódź and Kraków). The Poznań stage is organised by MTP.",
+              "According to the competition proposals, the programme includes, among others, CSI3*-W and lower-level classes and competitions for the youngest riders. Admission is ticketed; check the detailed programme and ticket prices with the organiser."],
+    ),
+    "festiwal-nauki": dict(
+        name="Poznań Festival of Science and Art",
+        place="Universities and research institutions across the city",
+        when="Every year in spring, in April",
+        note="In 2026 the 29th edition ran from 20 to 24 April under the motto “Quality”. The date for 2027 has not been announced yet.",
+        desc=["An academic event that popularises science and art among the residents of Poznań and the surrounding area. The programme includes lectures, workshops, shows and exhibitions prepared by scientists, students and artists. Each edition has a different motto.",
+              "The programmes of the individual organisers and registration for events are on the festival's website."],
+    ),
+    "zorza": dict(
+        name="ZORZA – Dawid Podsiadło's festival",
+        place="Ławica Airport",
+        when="In summer, in 2027 from June to August in several Polish cities",
+        note="The date and venue in Poznań are given by ticketing services. We have not confirmed the line-up for the Poznań stop.",
+        desc=["A summer music festival that in 2027 visits several Polish cities, including Poznań. Its initiator is Dawid Podsiadło. Instead of single concerts, the festival presents special projects bringing together artists of different sensibilities.",
+              "In Poznań the festival takes place on 16 and 17 July at Ławica Airport. The PIK Poznań service lists among the artists, among others, Dawid Podsiadło, Daria Zawiałow, Brodka, Mrozu, Sobel and Szczyl. Admission is ticketed."],
+    ),
+    "bittersweet": dict(
+        name="BitterSweet Festival",
+        place="Cytadela Park",
+        when="Every year in August",
+        note="The date of the 3rd edition and the venue were confirmed by the organiser (19.11.2026).",
+        desc=["A three-day music festival built on nostalgia, on several stages. According to the organiser more than 40 artists will play, and the festival has four stages.",
+              "In 2027, in its third edition, the first names announced are Macklemore, Kelis and DJ Pee .Wee (Thursday 12 August) and Royel Otis (Saturday 14 August). The organiser sells passes and one-day tickets."],
+    ),
 }
+

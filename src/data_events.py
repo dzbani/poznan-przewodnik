@@ -8,7 +8,7 @@ miasto nie zgadza się na jarmarki na Starym Rynku) i akcja „Poznań za pół 
 """
 
 # 27.10.2026: terminy porównane z oficjalnymi stronami organizatorów (listopad–grudzień 2026 i edycje 2027), bez zmian w danych.
-CAL_CHECKED = "27.10.2026"
+CAL_CHECKED = "23.11.2026"
 
 CALENDAR = [
     dict(
@@ -263,4 +263,47 @@ CALENDAR = [
         link=("poznan.pl", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html"),
         sources=[("poznan.pl: 107. rocznica Powstania Wielkopolskiego", "https://www.poznan.pl/mim/info/news/107-rocznica-powstania-wielkopolskiego-w-poznaniu-bedzie-sie-dzialo,269074.html")],
     ),
+    # ─── Uzupełnienia 23.11.2026 ───
+    dict(
+        id="cavaliada", month=12, name="Perlage CAVALIADA Tour Poznań", place="Międzynarodowe Targi Poznańskie",
+        when="Co roku w grudniu",
+        dates=("2026-12-10", "2026-12-13"), note="Termin i miejsce podaje regulamin cyklu na stronie organizatora.",
+        desc=["Międzynarodowe zawody jeździeckie w skokach przez przeszkody, poznański etap cyklu Perlage CAVALIADA Tour 2026/2027 (pozostałe etapy to Warszawa, Łódź i Kraków). Organizatorem poznańskiego etapu jest MTP.",
+              "Według propozycji zawodów w programie są m.in. konkursy rangi CSI3*-W i niższych klas oraz zawody dla najmłodszych jeźdźców. Wstęp jest biletowany, a szczegółowy program i ceny biletów sprawdź u organizatora."],
+        link=("cavaliada.pl", "https://cavaliada.pl/pl/"),
+        sources=[("CAVALIADA: regulamin Perlage CAVALIADA Tour 2026/2027", "https://cavaliada.pl/pl/kalendarz/o-cavaliada/regulamin/"),
+                 ("CAVALIADA: propozycje zawodów Poznań 2026", "https://cavaliada.pl/pl/zawodnicy/zgloszenia/poznan-2026/"),
+                 ("CAVALIADA Poznań: program wydarzenia", "http://poznan.cavaliada.pl/pl/kibice/program/program-wydarzenia/")],
+    ),
+    dict(
+        id="festiwal-nauki", month=4, name="Poznański Festiwal Nauki i Sztuki", place="Uczelnie i instytucje naukowe w całym mieście",
+        when="Co roku wiosną, w kwietniu",
+        dates=None, note="W 2026 roku 29. edycja trwała od 20 do 24 kwietnia i odbyła się pod hasłem „Jakość”. Termin na 2027 rok nie jest jeszcze ogłoszony.",
+        desc=["Akademickie wydarzenie, które popularyzuje naukę i sztukę wśród mieszkańców Poznania i okolic. W programie są wykłady, warsztaty, pokazy i wystawy przygotowane przez naukowców, studentów i artystów. Każda edycja ma inne hasło przewodnie.",
+              "Programy poszczególnych organizatorów i zapisy na wydarzenia są na stronie festiwalu."],
+        link=("festiwal.amu.edu.pl", "https://festiwal.amu.edu.pl/"),
+        sources=[("Poznański Festiwal Nauki i Sztuki (organizator)", "https://festiwal.amu.edu.pl/")],
+    ),
+    dict(
+        id="zorza", month=7, name="ZORZA – festiwal Dawida Podsiadły", place="Lotnisko Ławica",
+        when="Latem, w 2027 roku od czerwca do sierpnia w kilku miastach Polski",
+        dates=("2027-07-16", "2027-07-17"), note="Termin i miejsce w Poznaniu podają serwisy biletowe. Składu artystów na poznański przystanek nie potwierdziliśmy.",
+        desc=["Letni festiwal muzyczny, który w 2027 roku odwiedza kilka polskich miast, m.in. Poznań. Jego inicjatorem jest Dawid Podsiadło. Zamiast pojedynczych koncertów festiwal pokazuje specjalne projekty łączące artystów o różnej wrażliwości.",
+              "W Poznaniu festiwal odbędzie się 16 i 17 lipca na lotnisku Ławica. Serwis PIK Poznań wśród artystów wymienia m.in. Dawida Podsiadłę, Darię Zawiałow, Brodkę, Mrozu, Sobla i Szczyla. Wstęp jest biletowany."],
+        link=("ebilet.pl", "https://www.ebilet.pl/muzyka/festiwale/zorza"),
+        sources=[("eBilet: ZORZA 2027", "https://www.ebilet.pl/muzyka/festiwale/zorza"),
+                 ("PIK Poznań: ZORZA 2027 w Poznaniu", "https://pik.poznan.pl/festiwal/"),
+                 ("KarloBag: ZORZA 2027 (17.11.2026)", "https://karlobag.eu/en/music/zorza-2027-six-original-music-collaborations-with-polish-artists-across-six-citi-gepzw/")],
+    ),
+    dict(
+        id="bittersweet", month=8, name="BitterSweet Festival", place="Park Cytadela",
+        when="Co roku w sierpniu",
+        dates=("2027-08-12", "2027-08-14"), note="Termin 3. edycji i miejsce potwierdził organizator (19.11.2026).",
+        desc=["Trzydniowy festiwal muzyczny zbudowany na nostalgii, na kilku scenach. Według organizatora zagra ponad 40 artystów, a festiwal ma cztery sceny.",
+              "W 2027 roku, w trzeciej edycji, pierwsze ogłoszone nazwiska to Macklemore, Kelis i DJ Pee .Wee (czwartek 12 sierpnia) oraz Royel Otis (sobota 14 sierpnia). Organizator sprzedaje karnety i bilety jednodniowe."],
+        link=("bittersweetfestival.pl", "https://bittersweetfestival.pl/"),
+        sources=[("BitterSweet Festival (organizator)", "https://bittersweetfestival.pl/"),
+                 ("eBilet NOW: Bittersweet Festival ogłosił datę przyszłorocznej edycji", "https://www.ebilet.pl/now/bittersweet-festival-oglosil-date-przyszlorocznej-edycji/")],
+    ),
 ]
+
