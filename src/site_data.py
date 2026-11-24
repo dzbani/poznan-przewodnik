@@ -566,27 +566,30 @@ ATTRACTIONS = [
     dict(
         slug="stare-zoo", cat="rodzina", name="Stare Zoo",
         img="stare-zoo", img_alt="Zabytkowa brama główna Starego ZOO od strony ulicy Zwierzynieckiej",
-        short="Jedno z najstarszych zoo w Polsce, dziś bezpłatny park blisko dworca.",
+        short="Kameralne, bezpłatne zoo z pawilonami gadów i muzeum w zabytkowej Lwiarni.",
         badge="Wstęp wolny",
         status=None,
-        lead="Stare Zoo powstało w 1871 roku i jest drugim najstarszym ogrodem zoologicznym w Polsce. Od 2009 roku działa jako bezpłatny park z mniejszymi zwierzętami.",
+        lead="Stare Zoo przy ulicy Zwierzynieckiej 19 jest według Zoo Poznań częścią historii miasta od ponad 150 lat. To kameralne miejsce na spacer z dzieckiem, a wstęp jest bezpłatny.",
         sections=[
             ("Co zobaczyć", [
-                "Pawilon Zwierząt Zmiennocieplnych z 2012 roku z gadami, płazami i rybami, w tym waranami z Komodo.",
-                "Zabytkową grotę z 1906 roku, pawilon naczelnych z 1927 roku i woliery dla ptaków brodzących.",
-                "Muzeum Historii Zoo w dawnej lwiarni, otwarte w 2022 roku, również bezpłatne.",
+                "Pawilony tematyczne z tropikalną roślinnością, w których żyją m.in. żółwie, legwany, jaszczurki i gekony.",
+                "Muzeum Historii Zoo w zabytkowej Lwiarni. Pokazuje, jak wyglądały początki ogrodu i jak przez dziesięciolecia zmieniało się to miejsce, a w ekspozycji są archiwalne zdjęcia.",
+                "Karuzelę i tor samochodowy dla najmłodszych. Za drobną opłatą dzieci mogą też pojeździć na kucyku.",
             ]),
             ("Warto wiedzieć", [
-                "Zoo zajmuje 5,24 hektara na Jeżycach, niedaleko dworca Poznań Główny. To dobre miejsce na krótki spacer z dziećmi.",
+                "Zoo jest czynne codziennie, a wstęp jest bezpłatny. Godziny zależą od pory roku.",
+                "Muzeum Historii Zoo jest otwarte codziennie: od października do marca w godzinach 10:00–15:00, a od kwietnia do września od 10:00 do 17:00.",
+                "Do działu dydaktyki można zadzwonić pod numer 61 873 39 75 albo napisać na adres ddstarezoo@zoo.poznan.pl.",
             ]),
         ],
         address="ul. Zwierzyniecka 19, 60-814 Poznań",
-        hours=[("Marzec i październik", "9:00–17:00"), ("Kwiecień–wrzesień", "9:00–19:00"), ("Listopad–luty", "9:00–16:00")],
+        hours=[("Marzec i październik", "9:00–17:00"), ("Kwiecień–wrzesień", "9:00–19:00"), ("Listopad–luty", "9:00–16:00"), ("Muzeum Historii Zoo, październik–marzec", "10:00–15:00"), ("Muzeum Historii Zoo, kwiecień–wrzesień", "10:00–17:00")],
         tickets=[("Wstęp", "bezpłatnie")],
-        phone="+48 61 848 08 47", www=("zoo.poznan.pl", "https://zoo.poznan.pl/informacje-stare-zoo/"),
+        phone=["+48 61 848 08 47", "+48 513 036 021"], www=("zoo.poznan.pl", "https://zoo.poznan.pl/informacje-stare-zoo/"),
         credit="stare-zoo",
         sources=[("Zoo Poznań: informacje – Stare Zoo", "https://zoo.poznan.pl/informacje-stare-zoo/"),
-                 ("Wikipedia: Stare Zoo w Poznaniu", "https://pl.wikipedia.org/wiki/Stare_Zoo_w_Poznaniu")],
+                 ("Zoo Poznań: Muzeum Historii Zoo", "https://zoo.poznan.pl/muzeum-historii-zoo/"),
+                 ("Poznan.pl: Stare Zoo", "https://www.poznan.pl/mim/main/-,p,24080,24085,24108.html")],
     ),
     dict(
         slug="kolejka-maltanka", cat="rodzina", name="Kolejka Parkowa Maltanka",
@@ -1488,6 +1491,11 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-iluzji":
         _a["checked"] = "22.11.2026"
+
+# Stare Zoo: karta przepisana wg źródeł oficjalnych (Zoo Poznań, Poznan.pl), bez Wikipedii, 24.11.2026.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "stare-zoo":
+        _a["checked"] = "24.11.2026"
 
 # E-maile w boksie Kontakt (data_emails.py): tylko adresy z oficjalnych stron obiektów. Data „Sprawdzono” bez zmian.
 from data_emails import EMAILS as _EMAILS

@@ -276,21 +276,23 @@ EN_BATCH3 = {
     "stare-zoo": dict(
         name="Old Zoo",
         img_alt="The historic main gate of the Old Zoo, seen from Zwierzyniecka Street",
-        short="One of the oldest zoos in Poland, now a free park close to the railway station.",
+        short="A small, free zoo with reptile pavilions and a museum in the historic Lion House.",
         badge="Free",
         status=None,
-        lead="The Old Zoo was founded in 1871 and is the second-oldest zoological garden in Poland. Since 2009 it has operated as a free park with smaller animals.",
+        lead="According to Poznań Zoo, the Old Zoo at 19 Zwierzyniecka Street has been part of the city’s history for more than 150 years. It is an intimate place for a walk with a child, and admission is free.",
         sections=[
             ("What to see", [
-                "The Cold-Blooded Animals Pavilion from 2012, with reptiles, amphibians and fish, including Komodo dragons.",
-                "A historic grotto from 1906, a primate house from 1927 and aviaries for wading birds.",
-                "The Zoo History Museum in the former lion house, opened in 2022, also free.",
+                "Themed pavilions with tropical vegetation, home to tortoises, iguanas, lizards and geckos, among other animals.",
+                "The Zoo History Museum in the historic Lion House. It shows how the garden began and how the place has changed over the decades, and the exhibition includes archive photographs.",
+                "A carousel and a toy-car track for the youngest visitors. For a small fee children can also ride a pony.",
             ]),
             ("Good to know", [
-                "The zoo covers 5.24 hectares in Jeżyce, not far from Poznań Główny station. It is a good place for a short walk with children.",
+                "The zoo is open every day and admission is free. The hours depend on the season.",
+                "The Zoo History Museum is open every day: from October to March 10:00–15:00, and from April to September 10:00–17:00.",
+                "You can call the education department on 61 873 39 75 or write to ddstarezoo@zoo.poznan.pl.",
             ]),
         ],
-        hours=[("March and October", "9:00–17:00"), ("April–September", "9:00–19:00"), ("November–February", "9:00–16:00")],
+        hours=[("March and October", "9:00–17:00"), ("April–September", "9:00–19:00"), ("November–February", "9:00–16:00"), ("Zoo History Museum, October–March", "10:00–15:00"), ("Zoo History Museum, April–September", "10:00–17:00")],
         tickets=[("Admission", "free")],
     ),
     "teatr-wielki": dict(
