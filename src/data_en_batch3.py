@@ -275,7 +275,7 @@ EN_BATCH3 = {
     ),
     "stare-zoo": dict(
         name="Old Zoo",
-        img_alt="The grotto in the Old Zoo in Poznań",
+        img_alt="The historic main gate of the Old Zoo, seen from Zwierzyniecka Street",
         short="One of the oldest zoos in Poland, now a free park close to the railway station.",
         badge="Free",
         status=None,

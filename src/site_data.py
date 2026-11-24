@@ -565,7 +565,7 @@ ATTRACTIONS = [
     ),
     dict(
         slug="stare-zoo", cat="rodzina", name="Stare Zoo",
-        img="stare-zoo", img_alt="Grota w Starym Zoo w Poznaniu",
+        img="stare-zoo", img_alt="Zabytkowa brama główna Starego ZOO od strony ulicy Zwierzynieckiej",
         short="Jedno z najstarszych zoo w Polsce, dziś bezpłatny park blisko dworca.",
         badge="Wstęp wolny",
         status=None,
