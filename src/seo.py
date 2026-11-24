@@ -49,6 +49,7 @@ def _always_open(a):
 TITLE_OVERRIDE = {
     "zamek-kornik": "Zamek w Kórniku – godziny otwarcia i bilety",
     "lodowisko-malta": "Lodowisko Malta – godziny, bilety, dojazd",
+    "zamek-goluchow": "Zamek w Gołuchowie – bilety, godziny, dojazd z Poznania",
 }
 
 

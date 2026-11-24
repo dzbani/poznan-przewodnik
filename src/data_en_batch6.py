@@ -101,6 +101,7 @@ EN_BATCH6 = {
         name="Gołuchów Castle",
         img_alt="Gołuchów Castle seen from the park, with its towers and slate roofs among the trees",
         short="A castle with more than 400 years of history, the former residence of Izabella Czartoryska, with interiors and art collections. Tue–Sun 9:00–16:00.",
+        desc="Gołuchów Castle, a branch of the National Museum in Poznań. Tickets PLN 20, reduced PLN 13, Tue–Sun from 9:00. Address: ul. Działyńskich 2, Gołuchów.",
         badge="Tue–Sun",
         status=None,
         lead="Gołuchów Castle, on the little Trzemna river, has more than 400 years of history. Since 1951 it has belonged to the National Museum in Poznań, which runs the Gołuchów Castle Museum here, with art collections and furnished rooms.",

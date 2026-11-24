@@ -10,6 +10,7 @@ TRIPS2 = [
         slug="zamek-goluchow", cat="wycieczki", name="Zamek w Gołuchowie",
         img="zamek-goluchow", img_alt="Zamek w Gołuchowie od strony parku, z wieżami i dachami łupkowymi wśród drzew",
         short="Zamek z ponad 400-letnią historią, dawna rezydencja Izabelli Czartoryskiej, z wnętrzami i zbiorami sztuki. Wt–nd 9:00–16:00.",
+        desc="Zamek w Gołuchowie, oddział Muzeum Narodowego w Poznaniu. Bilet 20 zł, ulgowy 13 zł, wt–nd od 9:00. Adres: ul. Działyńskich 2, Gołuchów.",
         badge="Wt–nd",
         status=None,
         lead="Zamek w Gołuchowie nad rzeczką Trzemną ma ponad 400 lat historii. Od 1951 roku należy do Muzeum Narodowego w Poznaniu, które prowadzi tu Muzeum Zamek w Gołuchowie ze zbiorami sztuki i wyposażeniem sal.",

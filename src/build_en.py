@@ -187,7 +187,8 @@ def card_en(a, prefix, num=None):
 </li>"""
 
 
-TITLE_OVERRIDE_EN = {"muzeum-czekolady": "Chocolate Museum Poznań – hours, tickets, workshop"}
+TITLE_OVERRIDE_EN = {"muzeum-czekolady": "Chocolate Museum Poznań – hours, tickets, workshop",
+                     "zamek-goluchow": "Gołuchów Castle – tickets, hours, getting there from Poznań"}
 
 
 def seo_title(pl, name):

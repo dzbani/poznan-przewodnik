@@ -1187,8 +1187,8 @@ def build_map():
 <p class="wrap map-note small muted">Mapa i położenie atrakcji: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a>, dane na licencji ODbL. Punkty z przerywaną obwódką mają położenie przybliżone. Przyciski w opisie punktu otwierają Google Maps z położeniem atrakcji albo trasą komunikacją.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
-    return page("Mapa atrakcji – Odkrywaj Poznań", body,
-                desc=f"Mapa {len(ATTRACTIONS)} atrakcji Poznania i okolic: muzea, parki, zabytki, kościoły, punkty widokowe i wycieczki. Filtruj według kategorii.",
+    return page("Poznań – mapa atrakcji: muzea, zabytki, parki, wycieczki", body,
+                desc=f"Interaktywna mapa {len(ATTRACTIONS)} atrakcji Poznania i okolic: muzea, zabytki, parki, punkty widokowe i wycieczki. Kliknij punkt, by zobaczyć godziny i ceny.",
                 active="mapa", head=f'<link rel="stylesheet" href="assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
                 scripts=f'<script src="assets/leaflet.js?v={asset_v("leaflet.js")}"></script>\n'
                         f'<script src="assets/map.js?v={asset_v("map.js")}"></script>\n')

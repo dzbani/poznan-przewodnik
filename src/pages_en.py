@@ -248,8 +248,8 @@ def build_map_en():
 <p class="wrap map-note small muted">Map and the location of attractions: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, data under the ODbL licence. Points with a dashed outline have an approximate location. The buttons in a point's description open Google Maps with the attraction's location or a public-transport route.</p>
 <script type="application/json" id="map-data">{js}</script>
 """
-    return page_en("Map of Poznań attractions | Odkrywaj Poznań", body, prefix="../", alt="mapa.html", active="map",
-                   desc="Poznań attractions from the guide on one map, with category filters and day trips outside the city. Click a point to see details.",
+    return page_en("Poznań attractions map – museums, sights, parks, day trips", body, prefix="../", alt="mapa.html", active="map",
+                   desc="Interactive map of Poznań attractions and day trips: museums, sights, parks and viewpoints. Click a point to see opening hours and prices.",
                    head=f'<link rel="stylesheet" href="../assets/leaflet.css?v={asset_v("leaflet.css")}">\n',
                    scripts=f'<script src="../assets/leaflet.js?v={asset_v("leaflet.js")}"></script>\n'
                            f'<script src="../assets/map.js?v={asset_v("map.js")}"></script>\n')
