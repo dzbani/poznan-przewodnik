@@ -30,18 +30,19 @@ EN_BATCH12 = {
     "muzeum-komunikacji-mpk": dict(
         name="MPK Urban Transport Museum",
         img_alt="Exhibit of the MPK Poznań Memory and Tradition Room: a section of an old tram interior with wooden seats",
-        short="The history of Poznań's trams in the Głogowska depot. Currently closed.",
+        short="Mementoes from the history of public transport in Poznań. Currently closed.",
         badge="Closed",
         status="The Memory and Tradition Room of MPK Poznań is closed for technical reasons until further notice (announcement by MPK Poznań).",
-        lead="The museum, officially called the Memory and Tradition Room of MPK Poznań, opened on 31 January 2007. It is housed in the oldest building of the depot on ul. Głogowska, a former transformer substation of 1928–1929.",
+        lead="The Memory and Tradition Room of MPK Poznań, also called the Urban Transport Museum, opened on 31 January 2007 in the oldest building of the depot on ul. Głogowska, a former transformer substation of 1928–1929. Today MPK gives ul. Madalińskiego 17 as the contact address of the Room.",
         sections=[
-            ("What to see", [
-                "Mementoes from the history of Poznań's public transport, among others from the building and opening of the Poznań Fast Tram.",
-                "Archive recordings from local television.",
+            ("History of the exhibition", [
+                "It was inaugurated with a display of mementoes from the building and opening of the Poznań Fast Tram, nicknamed “Pestka”.",
+                "The display also featured the original 1978 model of the Fast Tram and archive film recordings of Telewizja Poznań.",
             ]),
             ("Good to know", [
-                "When the museum is open, it is visited in groups of up to 20 people after booking by phone.",
-                "Previous prices: standard PLN 10, children up to 16 PLN 7, family (up to 5 people) PLN 30.",
+                "Visits have to be booked in advance by phone (Tuesday, Wednesday or Friday, 9:00–13:00). The staff then offer the available dates.",
+                "The visiting rules, which still refer to the Głogowska premises, provide for visits on Mondays and Thursdays, 9:00–13:00, guided by the staff, in groups of up to 20. Smaller groups and individual visitors may be combined.",
+                "Previous prices: standard PLN 10, reduced (children up to 16) PLN 7, school group PLN 5 (organised group of at least 10 children and young people up to 16), family PLN 30 (up to 5 people, no more than 2 of them over 16).",
             ]),
         ],
         hours=[("Currently", "closed until further notice")],

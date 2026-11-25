@@ -453,21 +453,22 @@ EXTRA = [
     dict(
         slug="muzeum-komunikacji-mpk", cat="muzea", name="Muzeum Komunikacji Miejskiej MPK",
         img="muzeum-komunikacji-mpk", img_alt="Ekspozycja Izby Pamięci i Tradycji MPK Poznań: fragment wnętrza dawnego tramwaju z drewnianymi ławkami",
-        short="Historia poznańskich tramwajów w zajezdni Głogowska. Obecnie nieczynne.",
+        short="Pamiątki z historii poznańskiej komunikacji miejskiej. Obecnie nieczynne.",
         badge="Zamknięte",
         status=("closed", "Izba Pamięci i Tradycji MPK Poznań jest zamknięta ze względów technicznych do odwołania (komunikat MPK Poznań)."),
-        lead="Muzeum, oficjalnie nazywane Izbą Pamięci i Tradycji MPK Poznań, otwarto 31 stycznia 2007 roku. Mieści się w najstarszym budynku zajezdni przy ulicy Głogowskiej, dawnej podstacji transformatorowej z lat 1928–1929.",
+        lead="Izbę Pamięci i Tradycji MPK Poznań, nazywaną też Muzeum Komunikacji Miejskiej, otwarto 31 stycznia 2007 roku w najstarszym obiekcie zajezdni przy ulicy Głogowskiej, dawnej podstacji transformatorowej z lat 1928–1929. Dziś w kontakcie do Izby MPK podaje adres przy ulicy Madalińskiego 17.",
         sections=[
-            ("Co zobaczyć", [
-                "Pamiątki z historii poznańskiej komunikacji, m.in. z budowy i otwarcia Poznańskiego Szybkiego Tramwaju.",
-                "Archiwalne nagrania z lokalnej telewizji.",
+            ("Historia ekspozycji", [
+                "Działalność zainaugurowała wystawa z pamiątkami z czasów budowy i otwarcia Poznańskiego Szybkiego Tramwaju, nazywanego „Pestką”.",
+                "Uświetniły ją oryginalna makieta PST z 1978 roku oraz archiwalne nagrania filmowe Telewizji Poznań.",
             ]),
             ("Warto wiedzieć", [
-                "Gdy muzeum działa, zwiedza się je w grupach do 20 osób po wcześniejszej rezerwacji telefonicznej.",
-                "Dotychczasowe ceny: normalny 10 zł, dzieci do 16 lat 7 zł, rodzinny (do 5 osób) 30 zł.",
+                "Zwiedzanie trzeba wcześniej zarezerwować telefonicznie (we wtorek, środę lub piątek w godzinach 9:00–13:00). Obsługa podaje wtedy dostępne terminy.",
+                "Regulamin, odnoszący się jeszcze do siedziby przy Głogowskiej, przewiduje zwiedzanie w poniedziałki i czwartki w godzinach 9:00–13:00, z obsługą Izby, w grupach do 20 osób. Mniejsze grupy i pojedyncze osoby mogą być łączone.",
+                "Dotychczasowe ceny: normalny 10 zł, ulgowy (dzieci do 16 lat) 7 zł, wycieczkowy 5 zł (zorganizowana grupa co najmniej 10 dzieci i młodzieży do 16 lat), rodzinny 30 zł (do 5 osób, w tym najwyżej 2 powyżej 16 lat).",
             ]),
         ],
-        address="ul. Głogowska 131/133, 60-244 Poznań",
+        address="ul. Madalińskiego 17, 61-509 Poznań",
         hours=[("Obecnie", "zamknięte do odwołania")],
         tickets=[("Obecnie", "brak zwiedzania")],
         phone="+48 507 036 842", www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/muzeum/"),

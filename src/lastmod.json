@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
 "date": "2026-11-25",
-"hash": "82a36c5bba2ff2587a9b592cb625c0ed"
+"hash": "e1650da85bc76f574441729bddee35f2"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -329,7 +329,7 @@
 },
 "atrakcje/muzeum-komunikacji-mpk.html": {
 "date": "2026-11-25",
-"hash": "2cea529dcf5870962e4bea0e03405b24"
+"hash": "1223b03f41efa9b8c2ce9c289202ac64"
 },
 "atrakcje/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
@@ -693,7 +693,7 @@
 },
 "en/attractions.html": {
 "date": "2026-11-25",
-"hash": "b599e71f863f0347c042dac09c366a3a"
+"hash": "f947a99c8d0e83f5e634ca9765f3c5ee"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1021,7 +1021,7 @@
 },
 "en/attractions/muzeum-komunikacji-mpk.html": {
 "date": "2026-11-25",
-"hash": "a45c25b1f6be8ad13ab37705e691a5e0"
+"hash": "846ad36b0375a16d176400dee84221a3"
 },
 "en/attractions/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
@@ -1396,8 +1396,8 @@
 "hash": "c47f235a794d23f916ca5af8bcebceca"
 },
 "en/map.html": {
-"date": "2026-11-24",
-"hash": "34ca0eba36ded44b73f2b29ed296233d"
+"date": "2026-11-25",
+"hash": "f0af6f273d973950fda0ea707934145a"
 },
 "en/museums.html": {
 "date": "2026-11-25",
@@ -1444,8 +1444,8 @@
 "hash": "b719d4dc7b161b9b5be3af5ca963cf2a"
 },
 "mapa.html": {
-"date": "2026-11-24",
-"hash": "f2405c5a8e5fe8919fb37724c3751341"
+"date": "2026-11-25",
+"hash": "4f025e604915535dc0a6e0d026f9de32"
 },
 "muzea.html": {
 "date": "2026-11-25",

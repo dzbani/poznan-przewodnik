@@ -32,7 +32,7 @@ Q = {
  "fotoplastykon": ["Fotoplastykon Poznański", "Ratajczaka 44, Poznań"],
  "akademia-lubranskiego": ["Akademia Lubrańskiego, Poznań", "Lubrańskiego 1, Poznań"],
  "muzeum-iluzji": ["Muzeum Iluzji, Poznań", "Woźna 19, Poznań"],
- "muzeum-komunikacji-mpk": ["Głogowska 131, Poznań"],
+ "muzeum-komunikacji-mpk": ["Madalińskiego 17, Poznań"],
  "muzeum-prl": ["Muzeum PRL-u, Poznań", "Żydowska 4, Poznań"],
  "schron-przeciwatomowy": ["Słupska 62, Poznań"],
  "gaspar": ["Oliwkowa 12, Poznań"],
