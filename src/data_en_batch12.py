@@ -29,7 +29,7 @@ EN_BATCH12 = {
     ),
     "muzeum-komunikacji-mpk": dict(
         name="MPK Urban Transport Museum",
-        img_alt="The tram depot on ul. Głogowska",
+        img_alt="Exhibit of the MPK Poznań Memory and Tradition Room: a section of an old tram interior with wooden seats",
         short="The history of Poznań's trams in the Głogowska depot. Currently closed.",
         badge="Closed",
         status="The Memory and Tradition Room of MPK Poznań is closed for technical reasons until further notice (announcement by MPK Poznań).",

@@ -1,7 +1,7 @@
 {
 "atrakcje.html": {
-"date": "2026-11-24",
-"hash": "c7e5a9e3f19b024117a7c09a751fb063"
+"date": "2026-11-25",
+"hash": "82a36c5bba2ff2587a9b592cb625c0ed"
 },
 "atrakcje/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -328,8 +328,8 @@
 "hash": "625c3ca4c1e558effa3dda30a34e90cc"
 },
 "atrakcje/muzeum-komunikacji-mpk.html": {
-"date": "2026-11-10",
-"hash": "bec5719755e7f568c93a005b5ab9264d"
+"date": "2026-11-25",
+"hash": "2cea529dcf5870962e4bea0e03405b24"
 },
 "atrakcje/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
@@ -692,8 +692,8 @@
 "hash": "820b2c20194b25c8660cb8d765a39a8d"
 },
 "en/attractions.html": {
-"date": "2026-11-24",
-"hash": "5d5503cd0ce9eb703815cb07a4e5718f"
+"date": "2026-11-25",
+"hash": "b599e71f863f0347c042dac09c366a3a"
 },
 "en/attractions/akademia-lubranskiego.html": {
 "date": "2026-11-17",
@@ -1020,8 +1020,8 @@
 "hash": "708ad92572e260e509fc09430c427c60"
 },
 "en/attractions/muzeum-komunikacji-mpk.html": {
-"date": "2026-11-10",
-"hash": "e8e4baecbc3679064e786828fe285179"
+"date": "2026-11-25",
+"hash": "a45c25b1f6be8ad13ab37705e691a5e0"
 },
 "en/attractions/muzeum-kultur-swiata.html": {
 "date": "2026-11-16",
@@ -1384,12 +1384,12 @@
 "hash": "6c3479a31e3c896f758df398edced967"
 },
 "en/changes.html": {
-"date": "2026-11-13",
-"hash": "203688938a2c7139ac82552f785be577"
+"date": "2026-11-25",
+"hash": "f38ebd1f2d0fdbd4a6f900c4a648357b"
 },
 "en/how-we-verify.html": {
-"date": "2026-11-24",
-"hash": "a72e5d2173dc565f075bf0be85e2587c"
+"date": "2026-11-25",
+"hash": "4edcf78c4d7962ba6f11f16ccb53e361"
 },
 "en/index.html": {
 "date": "2026-11-23",
@@ -1400,12 +1400,12 @@
 "hash": "34ca0eba36ded44b73f2b29ed296233d"
 },
 "en/museums.html": {
-"date": "2026-11-22",
-"hash": "27d8a9b827cbc2ab0a0b466330fba2e8"
+"date": "2026-11-25",
+"hash": "e3498b202f84fba06a48c0b2d40b9bb8"
 },
 "en/photo-credits.html": {
-"date": "2026-11-24",
-"hash": "c5982257f8f0d55b7a47f8fb482f8438"
+"date": "2026-11-25",
+"hash": "39e0a145578fc72d6f6ce21a633191f7"
 },
 "en/plans.html": {
 "date": "2026-11-24",
@@ -1436,8 +1436,8 @@
 "hash": "55efba16a644104c022d76f79a6c60c0"
 },
 "jak-weryfikujemy.html": {
-"date": "2026-11-24",
-"hash": "db5615c797986aa0b2148f319d585069"
+"date": "2026-11-25",
+"hash": "1c0da33e5a2739f0015692a89f04dc05"
 },
 "kalendarz.html": {
 "date": "2026-11-23",
@@ -1448,8 +1448,8 @@
 "hash": "f2405c5a8e5fe8919fb37724c3751341"
 },
 "muzea.html": {
-"date": "2026-11-22",
-"hash": "e3d071a9b1272a97723efb53ecc823fa"
+"date": "2026-11-25",
+"hash": "7dde4d280398d8cadafddd78614f5711"
 },
 "o-poznaniu.html": {
 "date": "2026-10-31",
@@ -1472,11 +1472,11 @@
 "hash": "2b321a1953600ca6668e56d197b86414"
 },
 "zdjecia.html": {
-"date": "2026-11-24",
-"hash": "109cfb84e586222cdd5bb7f539b19864"
+"date": "2026-11-25",
+"hash": "dc47067af6f920d1e3f1ac2011ed80d5"
 },
 "zmiany.html": {
-"date": "2026-11-13",
-"hash": "ee33aac662a89bc201f7ca695019c6ed"
+"date": "2026-11-25",
+"hash": "2b80b4ad1873dd9167fffe9a8ed4b467"
 }
 }

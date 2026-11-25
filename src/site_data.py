@@ -1518,3 +1518,8 @@ def _source_tier(_url):
 for _a in ATTRACTIONS:
     if _a.get("sources"):
         _a["sources"] = sorted(_a["sources"], key=lambda _s: _source_tier(_s[1]))
+
+# Muzeum Komunikacji MPK: nowe zdjęcie ekspozycji (od MPK Poznań, e-mail z 25.11.2026), data sprawdzenia po wymianie zdjęcia.
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-komunikacji-mpk":
+        _a["checked"] = "25.11.2026"

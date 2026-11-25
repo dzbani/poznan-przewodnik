@@ -452,7 +452,7 @@ EXTRA = [
     ),
     dict(
         slug="muzeum-komunikacji-mpk", cat="muzea", name="Muzeum Komunikacji Miejskiej MPK",
-        img="muzeum-komunikacji-mpk", img_alt="Zajezdnia tramwajowa przy ulicy Głogowskiej",
+        img="muzeum-komunikacji-mpk", img_alt="Ekspozycja Izby Pamięci i Tradycji MPK Poznań: fragment wnętrza dawnego tramwaju z drewnianymi ławkami",
         short="Historia poznańskich tramwajów w zajezdni Głogowska. Obecnie nieczynne.",
         badge="Zamknięte",
         status=("closed", "Izba Pamięci i Tradycji MPK Poznań jest zamknięta ze względów technicznych do odwołania (komunikat MPK Poznań)."),
