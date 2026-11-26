@@ -1523,3 +1523,8 @@ for _a in ATTRACTIONS:
 for _a in ATTRACTIONS:
     if _a["slug"] == "muzeum-komunikacji-mpk":
         _a["checked"] = "25.11.2026"
+
+# Muzeum Komunikacji MPK: dopisane plany Centrum Historii Komunikacji (artykuł MPK/PIM z 26.10.2026).
+for _a in ATTRACTIONS:
+    if _a["slug"] == "muzeum-komunikacji-mpk":
+        _a["checked"] = "26.11.2026"

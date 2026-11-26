@@ -39,6 +39,11 @@ EN_BATCH12 = {
                 "It was inaugurated with a display of mementoes from the building and opening of the Poznań Fast Tram, nicknamed “Pestka”.",
                 "The display also featured the original 1978 model of the Fast Tram and archive film recordings of Telewizja Poznań.",
             ]),
+            ("New home: the Transport History Centre", [
+                "The tram depot on ul. Madalińskiego in the Wilda district, built in 1948 and in operation until 2014, is to be converted for cultural and community use. On 26 October 2026 a tender by the municipal company Poznańskie Inwestycje Miejskie for its design and construction was reported.",
+                "The tram shed and the staff and storage building are to become the Transport History Centre (Centrum Historii Komunikacji), with room to display mementoes from the history of public transport in Poznań.",
+                "A renovated inspection pit is to be included in the visitor route, and a viewing terrace linked to a multimedia room is planned by the south wall of the hall. The article gives no opening date.",
+            ]),
             ("Good to know", [
                 "Visits have to be booked in advance by phone (Tuesday, Wednesday or Friday, 9:00–13:00). The staff then offer the available dates.",
                 "The visiting rules, which still refer to the Głogowska premises, provide for visits on Mondays and Thursdays, 9:00–13:00, guided by the staff, in groups of up to 20. Smaller groups and individual visitors may be combined.",

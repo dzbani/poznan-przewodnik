@@ -462,6 +462,11 @@ EXTRA = [
                 "Działalność zainaugurowała wystawa z pamiątkami z czasów budowy i otwarcia Poznańskiego Szybkiego Tramwaju, nazywanego „Pestką”.",
                 "Uświetniły ją oryginalna makieta PST z 1978 roku oraz archiwalne nagrania filmowe Telewizji Poznań.",
             ]),
+            ("Nowe miejsce: Centrum Historii Komunikacji", [
+                "Zajezdnia tramwajowa przy ulicy Madalińskiego na Wildzie, wybudowana w 1948 roku i działająca do 2014 roku, ma zostać przebudowana na cele kulturalne i społeczne. 26 października 2026 roku informowano o przetargu spółki Poznańskie Inwestycje Miejskie na projekt i budowę.",
+                "Hala wozowni i budynek socjalno-magazynowy mają stać się Centrum Historii Komunikacji z miejscem na ekspozycję pamiątek z dziejów poznańskiego transportu publicznego.",
+                "Do trasy zwiedzania ma zostać włączony odnowiony kanał remontowy, a przy południowej ścianie hali planowany jest taras widokowy połączony z salą multimedialną. Artykuł nie podaje terminu otwarcia.",
+            ]),
             ("Warto wiedzieć", [
                 "Zwiedzanie trzeba wcześniej zarezerwować telefonicznie (we wtorek, środę lub piątek w godzinach 9:00–13:00). Obsługa podaje wtedy dostępne terminy.",
                 "Regulamin, odnoszący się jeszcze do siedziby przy Głogowskiej, przewiduje zwiedzanie w poniedziałki i czwartki w godzinach 9:00–13:00, z obsługą Izby, w grupach do 20 osób. Mniejsze grupy i pojedyncze osoby mogą być łączone.",
@@ -474,6 +479,7 @@ EXTRA = [
         phone="+48 507 036 842", www=("mpk.poznan.pl", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/muzeum/"),
         credit="muzeum-komunikacji-mpk",
         sources=[("MPK Poznań: Izba Pamięci i Tradycji", "https://www.mpk.poznan.pl/strefa-pasazera/turystyka/muzeum/"),
+                 ("MPK Poznań: Zajezdnia Madalina zyska nowe życie (26.10.2026)", "https://www.mpk.poznan.pl/poznanskie-inwestycje-miejskie-zajezdnia-madalina-zyska-nowe-zycie/"),
                  ("kultura.poznan.pl: Muzeum Komunikacji Miejskiej MPK", "https://kultura.poznan.pl/mim/kultura/muzea-w-poznaniu,poi,202,12/muzeum-komunikacji-miejskiej-mpk-poznan,36225.html")],
     ),
     dict(
