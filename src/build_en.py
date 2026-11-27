@@ -232,7 +232,7 @@ def json_ld(a, pl, cat_name, lat_lon):
     place = {"@context": "https://schema.org", "@type": ["TouristAttraction", extra] if extra else "TouristAttraction",
              "name": a["name"], "description": a["short"], "url": url, "inLanguage": "en", "address": seo._address(pl)}
     if pl.get("img"):
-        place["image"] = f"{SITE_URL}img/{pl['img']}.jpg"
+        place["image"] = f"{SITE_URL}img/{pl['img']}.jpg?v={img_v(pl['img'])}"
     if lat_lon:
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if pl["phone"]:

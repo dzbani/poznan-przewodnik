@@ -7,7 +7,7 @@ import json
 from html import escape
 
 from build import (ATTRACTIONS, BY_SLUG, CAT_COLORS, CATEGORIES, COORDS, PLANS, CALENDAR, TOP10, UPCOMING_MAX, asset_v,
-                   icon, is_closed, maps_url, route_url, srcset_attr, tags)
+                   icon, img_v, is_closed, maps_url, route_url, srcset_attr, tags)
 from build_en import (CAL_EN, EN, PLANS_EN, card_en, en_date, fmt_range_en, merged, page_en, translated)
 from data_en import CATEGORIES_EN
 
@@ -37,7 +37,7 @@ def build_home_en():
             continue
         cover = next(BY_SLUG[s] for s in items if BY_SLUG[s].get("img"))
         tiles.append(f"""<li><a class="tile" href="attractions.html#kat-{k}">
-  <img src="../img/{cover['img']}.jpg" srcset="{srcset_attr(cover['img'], '../')}" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
+  <img src="../img/{cover['img']}.jpg?v={img_v(cover['img'])}" srcset="{srcset_attr(cover['img'], '../')}" sizes="(max-width: 700px) 46vw, 25vw" alt="" loading="lazy" decoding="async">
   <span class="tile-t">{escape(CATEGORIES_EN[k][0])}</span><span class="tile-n">{len(items)}</span></a></li>""")
 
     top = "".join(card_en(merged(s), "../", num=i) for i, s in enumerate(TOP10, 1))

@@ -208,7 +208,7 @@ def _address(a):
     return out
 
 
-def json_ld(a, site_url, cat_name, lat_lon):
+def json_ld(a, site_url, cat_name, lat_lon, img_ver):
     url = f"{site_url}atrakcje/{a['slug']}"
     extra = SLUG_TYPE.get(a["slug"]) or CAT_TYPE.get(a["cat"])
     place = {
@@ -220,7 +220,7 @@ def json_ld(a, site_url, cat_name, lat_lon):
         "address": _address(a),
     }
     if a.get("img"):
-        place["image"] = f"{site_url}img/{a['img']}.jpg"
+        place["image"] = f"{site_url}img/{a['img']}.jpg?v={img_ver}"
     if lat_lon:
         place["geo"] = {"@type": "GeoCoordinates", "latitude": lat_lon[0], "longitude": lat_lon[1]}
     if a["phone"]:

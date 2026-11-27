@@ -634,7 +634,7 @@ def build_attraction(a, idx):
     t = a.get("trip")
     lat_lon = (t["lat"], t["lon"]) if t else (COORDS[a["slug"]]["lat"], COORDS[a["slug"]]["lon"])
     return page(seo.title(a), body, prefix="../", desc=seo.description(a), active="atrakcje",
-                head=seo.json_ld(a, SITE_URL, cat_name, lat_lon))
+                head=seo.json_ld(a, SITE_URL, cat_name, lat_lon, img_v(a["img"]) if a.get("img") else ""))
 
 
 def build_info():
@@ -1612,7 +1612,9 @@ def og_image(name):
         fx, fy = og_pozycja(name, im)
         x, y = round((im.width - OG_W) * fx), round((im.height - OG_H) * fy)  # kadr wg img_pos
         im.crop((x, y, x + OG_W, y + OG_H)).save(dst, "JPEG", quality=70, optimize=True, progressive=True)
-    return f"{SITE_URL}img/og/{name}.jpg"
+    with open(dst, "rb") as f:
+        ver = hashlib.md5(f.read()).hexdigest()[:8]  # po podmianie zdjęcia adres się zmienia (Google i serwisy pobierają nową miniaturę)
+    return f"{SITE_URL}img/og/{name}.jpg?v={ver}"
 
 
 def og_tags(html, url, image, alt):
@@ -1692,7 +1694,9 @@ def main():
                    f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}{clean_path(pl_path)}">\n')
         html = html.replace("</title>\n", f'</title>\n<link rel="canonical" href="{SITE_URL}{clean}">\n' + alt + og, 1)
         final = clean_links(html)
-        digest = hashlib.md5(final.encode("utf-8")).hexdigest()
+        # Znaczniki wersji w og:image i JSON-LD nie liczą się do daty zmiany strony (podmiana zdjęcia i tak zmienia adresy w treści).
+        bez_wersji = re.sub(r'(img/og/[\w-]+\.jpg|"image": ?"[^"?]+\.jpg)\?v=[0-9a-f]{8}', lambda m: m.group(1), final)
+        digest = hashlib.md5(bez_wersji.encode("utf-8")).hexdigest()
         prev = lastmod.get(path)
         if prev is None:
             lastmod[path] = {"hash": digest, "date": first_date(path)}
